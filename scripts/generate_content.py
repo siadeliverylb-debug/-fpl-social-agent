@@ -169,7 +169,15 @@ LIVE_EVENT_META = {
     "penalty_miss": ("PENALTY MISSED", "MISSED", ALERT),
     "penalty_save": ("PENALTY SAVED", "SAVED", ACCENT),
     "own_goal": ("OWN GOAL", "OWN GOAL", ALERT),
+    "substitution": ("SUBSTITUTION", "SUB ON", ACCENT),
 }
+
+
+def _minute_str(story):
+    minute = story.get("minute")
+    if minute is None:
+        return ""
+    return f"{minute}'"
 
 
 def render_card(story, out_path):
@@ -218,6 +226,9 @@ def render_card(story, out_path):
         hero = story["score"]
         headline = f"{story['home']} vs {story['away']}"
         subtext = "Full recap and bonus points once confirmed."
+        minute_str = _minute_str(story)
+        if minute_str:
+            subtext = f"{minute_str}  |  {subtext}"
         hero_color = ACCENT
         hashtags = f"{base_tags} #{story['home']}v{story['away']}"
     elif t == "goal_update":
@@ -225,6 +236,9 @@ def render_card(story, out_path):
         hero = "GOAL!"
         headline = f"{story['player']} ({story['team']})"
         subtext = f"Assist: {story['assisted_by']}  |  {story['home']} {story['score']} {story['away']}"
+        minute_str = _minute_str(story)
+        if minute_str:
+            subtext = f"{minute_str}  |  {subtext}"
         hero_color = ACCENT
         hashtags = f"{base_tags} #{story['team']}"
     elif t in LIVE_EVENT_META:
@@ -233,6 +247,9 @@ def render_card(story, out_path):
         subtext = f"{story['home']} {story['score']} {story['away']}"
         if t == "goal" and story.get("assisted_by"):
             subtext = f"Assist: {story['assisted_by']}  |  {subtext}"
+        minute_str = _minute_str(story)
+        if minute_str:
+            subtext = f"{minute_str}  |  {subtext}"
         hashtags = f"{base_tags} #{story['team']}"
     else:
         eyebrow = "FPL NEWS"
@@ -359,6 +376,12 @@ FULL_TIME_HOOKS = [
     "Any big returns from this one?",
     "Bonus points still to be confirmed.",
 ]
+SUBSTITUTION_HOOKS = [
+    "Fresh legs -- could this pay off in FPL terms?",
+    "Impact sub, or too little too late?",
+    "Worth watching for a late returns.",
+    "Does this open a chance for a start next week?",
+]
 
 
 def build_caption(story):
@@ -404,56 +427,72 @@ def build_caption(story):
         return f"⚽ KICK-OFF: {story['home']} vs {story['away']}.\n\n{hook} {tags}"
     if t == "full_time":
         hook = random.choice(FULL_TIME_HOOKS)
+        minute_tag = f" ({_minute_str(story)})" if story.get("minute") is not None else ""
         return (
-            f"\U0001F4CB FULL-TIME: {story['home']} {story['score']} {story['away']}.\n\n"
+            f"\U0001F4CB FULL-TIME{minute_tag}: {story['home']} {story['score']} {story['away']}.\n\n"
             f"{hook} {tags}"
         )
     if t == "goal":
         hook = random.choice(GOAL_HOOKS)
         assist_line = f" Assisted by {story['assisted_by']}." if story.get("assisted_by") else ""
+        minute_tag = f" {_minute_str(story)}" if story.get("minute") is not None else ""
         return (
-            f"⚽ GOAL! {story['player']} ({story['team']})!{assist_line} "
+            f"⚽ GOAL!{minute_tag} {story['player']} ({story['team']})!{assist_line} "
             f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
         )
     if t == "goal_update":
+        minute_tag = f" ({_minute_str(story)})" if story.get("minute") is not None else ""
         return (
-            f"\U0001F4DD UPDATE: {story['player']}'s goal ({story['team']}) was assisted by "
+            f"\U0001F4DD UPDATE{minute_tag}: {story['player']}'s goal ({story['team']}) was assisted by "
             f"{story['assisted_by']}! {story['home']} {story['score']} {story['away']}.\n\n{tags} #{story['team']}"
         )
     if t == "assist":
         hook = random.choice(ASSIST_HOOKS)
+        minute_tag = f" {_minute_str(story)}" if story.get("minute") is not None else ""
         return (
-            f"\U0001F3AF ASSIST: {story['player']} ({story['team']}) with the assist! "
+            f"\U0001F3AF ASSIST!{minute_tag} {story['player']} ({story['team']}) with the assist! "
             f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
         )
     if t == "yellow_card":
         hook = random.choice(CARD_HOOKS)
+        minute_tag = f" {_minute_str(story)}" if story.get("minute") is not None else ""
         return (
-            f"\U0001F7E8 YELLOW CARD: {story['player']} ({story['team']}) is booked. "
+            f"\U0001F7E8 YELLOW CARD!{minute_tag} {story['player']} ({story['team']}) is booked. "
             f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
         )
     if t == "red_card":
         hook = random.choice(RED_CARD_HOOKS)
+        minute_tag = f" {_minute_str(story)}" if story.get("minute") is not None else ""
         return (
-            f"\U0001F7E5 RED CARD: {story['player']} ({story['team']}) is sent off! "
+            f"\U0001F7E5 RED CARD!{minute_tag} {story['player']} ({story['team']}) is sent off! "
             f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
         )
     if t == "penalty_miss":
         hook = random.choice(PENALTY_MISS_HOOKS)
+        minute_tag = f" {_minute_str(story)}" if story.get("minute") is not None else ""
         return (
-            f"❌ PENALTY MISSED: {story['player']} ({story['team']}) can't convert! "
+            f"❌ PENALTY MISSED!{minute_tag} {story['player']} ({story['team']}) can't convert! "
             f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
         )
     if t == "penalty_save":
         hook = random.choice(PENALTY_SAVE_HOOKS)
+        minute_tag = f" {_minute_str(story)}" if story.get("minute") is not None else ""
         return (
-            f"\U0001F9E4 PENALTY SAVED: {story['player']} ({story['team']}) with the stop! "
+            f"\U0001F9E4 PENALTY SAVED!{minute_tag} {story['player']} ({story['team']}) with the stop! "
             f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
         )
     if t == "own_goal":
         hook = random.choice(OWN_GOAL_HOOKS)
+        minute_tag = f" {_minute_str(story)}" if story.get("minute") is not None else ""
         return (
-            f"\U0001F6A8 OWN GOAL: {story['player']} ({story['team']}). "
+            f"\U0001F6A8 OWN GOAL!{minute_tag} {story['player']} ({story['team']}). "
+            f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
+        )
+    if t == "substitution":
+        hook = random.choice(SUBSTITUTION_HOOKS)
+        minute_tag = f" {_minute_str(story)}" if story.get("minute") is not None else ""
+        return (
+            f"\U0001F504 SUB!{minute_tag} {story['player']} ({story['team']}) is on. "
             f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
         )
     return f"FPL update. {tags}"

@@ -6,6 +6,7 @@ import requests
 
 BOOTSTRAP_URL = "https://fantasy.premierleague.com/api/bootstrap-static/"
 FIXTURES_URL = "https://fantasy.premierleague.com/api/fixtures/"
+EVENT_LIVE_URL = "https://fantasy.premierleague.com/api/event/{}/live/"
 
 # stat identifier (from the fixtures API) -> story type
 STAT_TYPES = {
@@ -38,9 +39,26 @@ def fetch_live_events(state):
 
     fixtures = _fetch_json(f"{FIXTURES_URL}?event={current_event}")
 
+    # FPL doesn't expose a "substitutions" stat on the fixtures endpoint at
+    # all -- no event, no pairing of who came off for whom, no minute. The
+    # closest signal is this per-gameweek live-stats endpoint: a player who
+    # didn't start (starts=0) but has accumulated minutes came on at some
+    # point. That's enough to say "X came on", not "X replaced Y at minute Z".
+    event_live = _fetch_json(EVENT_LIVE_URL.format(current_event))
+    subs_on_by_fixture = {}
+    for el in event_live.get("elements", []):
+        minutes = el["stats"].get("minutes", 0)
+        starts = el["stats"].get("starts", 0)
+        if starts or minutes <= 0:
+            continue
+        for ex in el.get("explain", []):
+            fid_key = str(ex["fixture"])
+            subs_on_by_fixture.setdefault(fid_key, []).append((el["id"], minutes))
+
     live = state.setdefault("live", {"fixtures": {}, "stats": {}})
     live.setdefault("posted_score", {})
     live.setdefault("last_goal", {})
+    live.setdefault("subs_seen", {})
     stories = []
 
     for fx in fixtures:
@@ -63,6 +81,8 @@ def fetch_live_events(state):
                     for entry in stat.get(side, []):
                         stat_key = f"{fid}:{entry['element']}:{stat['identifier']}"
                         live["stats"][stat_key] = entry["value"]
+            for pid, _minutes in subs_on_by_fixture.get(fid, []):
+                live["subs_seen"][f"{fid}:{pid}"] = True
             live["fixtures"][fid] = {"started": fx["started"], "finished": fx["finished"]}
             live["posted_score"][fid] = [0, 0]
             continue
@@ -87,9 +107,27 @@ def fetch_live_events(state):
         # can already include goals that happened after the one being
         # posted about. This tally only ever moves forward as we post.
         psc = live["posted_score"].setdefault(fid, [0, 0])
+        minute = fx.get("minutes")
 
         def score_str():
             return f"{psc[0]}-{psc[1]}"
+
+        for pid, sub_minute in subs_on_by_fixture.get(fid, []):
+            sub_key = f"{fid}:{pid}"
+            if sub_key in live["subs_seen"]:
+                continue
+            live["subs_seen"][sub_key] = True
+            player = players.get(pid, {"name": f"Player {pid}", "team": None})
+            stories.append({
+                "type": "substitution",
+                "key": f"sub:{sub_key}",
+                "player": player["name"],
+                "team": teams.get(player["team"], "?"),
+                "home": home,
+                "away": away,
+                "score": score_str(),
+                "minute": sub_minute,
+            })
 
         # Goals and assists are buffered per side instead of appended straight
         # to `stories`, so a goal can be paired with its assist (if exactly
@@ -118,6 +156,7 @@ def fetch_live_events(state):
                                 "team": player_team,
                                 "home": home,
                                 "away": away,
+                                "minute": minute,
                             }
                             if story_type == "goal":
                                 new_goals[side].append(event)
@@ -188,6 +227,7 @@ def fetch_live_events(state):
                         "home": home,
                         "away": away,
                         "score": last["score"],
+                        "minute": minute,
                     })
                 else:
                     for a in assists:
@@ -201,6 +241,7 @@ def fetch_live_events(state):
                 "home": home,
                 "away": away,
                 "score": score_str(),
+                "minute": minute,
             })
 
         live["fixtures"][fid] = {"started": fx["started"], "finished": fx["finished"]}
