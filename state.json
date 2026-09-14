@@ -5915,22 +5915,15 @@
       "type": "bonus_points",
       "posted_at": "2026-09-14T21:38:07.822113+00:00",
       "tweet_id": "2099613691000004798"
+    },
+    {
+      "key": "fulltime:37",
+      "type": "full_time",
+      "posted_at": "2026-09-14T21:38:50.724916+00:00",
+      "tweet_id": "2099613871283839312"
     }
   ],
   "live_queue": [
-    {
-      "key": "fulltime:37",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:37",
-        "home": "TOT",
-        "away": "EVE",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_37.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): TOT 0-0 EVE.\n\nAny big returns from this one? #FPL #FantasyFootball #FPLTwitter #FPLTips"
-    },
     {
       "key": "bonus:37",
       "story": {
