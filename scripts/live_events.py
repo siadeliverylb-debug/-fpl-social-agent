@@ -74,6 +74,7 @@ def fetch_live_events(state):
     live.setdefault("subs_seen", {})
     live.setdefault("subs_off_seen", {})
     live.setdefault("subs_baselined", {})
+    live.setdefault("bonus_posted", {})
     stories = []
 
     for fx in fixtures:
@@ -111,6 +112,8 @@ def fetch_live_events(state):
                         live["stats"][stat_key] = entry["value"]
             live["fixtures"][fid] = {"started": fx["started"], "finished": fx["finished"]}
             live["posted_score"][fid] = [0, 0]
+            if fx["finished"]:
+                live["bonus_posted"][fid] = True
             continue
 
         if fx["started"] and not prev_fx["started"]:
@@ -296,6 +299,37 @@ def fetch_live_events(state):
                 "score": score_str(),
                 "minute": minute,
             })
+
+        # Bonus points are provisional (based on live BPS) for as long as the
+        # match is in play, and can flip between players as BPS changes --
+        # posting on every fluctuation would mean repeatedly "correcting"
+        # ourselves. So this waits for the match to be finished AND FPL's own
+        # finished_provisional flag (bonus/BPS settled) before posting once,
+        # off the final numbers, rather than reacting to every stat delta.
+        if fx["finished"] and fx.get("finished_provisional") and fid not in live["bonus_posted"]:
+            bonus_stat = next((s for s in fx.get("stats", []) if s["identifier"] == "bonus"), None)
+            if bonus_stat:
+                entries = bonus_stat.get("h", []) + bonus_stat.get("a", [])
+                recipients = sorted(
+                    (e for e in entries if e["value"] > 0),
+                    key=lambda e: e["value"], reverse=True,
+                )
+                if recipients:
+                    stories.append({
+                        "type": "bonus_points",
+                        "key": f"bonus:{fid}",
+                        "home": home,
+                        "away": away,
+                        "score": score_str(),
+                        "players": [
+                            {
+                                "name": players.get(e["element"], {"name": f"Player {e['element']}"})["name"],
+                                "points": e["value"],
+                            }
+                            for e in recipients
+                        ],
+                    })
+                live["bonus_posted"][fid] = True
 
         live["fixtures"][fid] = {"started": fx["started"], "finished": fx["finished"]}
 

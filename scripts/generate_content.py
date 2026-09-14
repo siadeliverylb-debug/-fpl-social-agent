@@ -241,6 +241,14 @@ def render_card(story, out_path):
             subtext = f"{minute_str}  |  {subtext}"
         hero_color = ACCENT
         hashtags = f"{base_tags} #{story['team']}"
+    elif t == "bonus_points":
+        eyebrow = "BONUS POINTS"
+        top = story["players"][0]
+        hero = f"+{top['points']}"
+        headline = f"{story['home']} {story['score']} {story['away']}"
+        subtext = "  |  ".join(f"{p['name']} +{p['points']}" for p in story["players"])
+        hero_color = ACCENT
+        hashtags = f"{base_tags} #{story['home']}v{story['away']}"
     elif t in LIVE_EVENT_META:
         eyebrow, hero, hero_color = LIVE_EVENT_META[t]
         headline = f"{story['player']} ({story['team']})"
@@ -489,6 +497,12 @@ def build_caption(story):
         return (
             f"\U0001F6A8 OWN GOAL!{minute_tag} {story['player']} ({story['team']}). "
             f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
+        )
+    if t == "bonus_points":
+        lines = ", ".join(f"{p['name']} +{p['points']}" for p in story["players"])
+        return (
+            f"\U0001F381 BONUS POINTS confirmed: {story['home']} {story['score']} {story['away']}.\n"
+            f"{lines}.\n\n{tags} #{story['home']}v{story['away']}"
         )
     if t == "substitution":
         hook = random.choice(SUBSTITUTION_HOOKS)
