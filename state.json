@@ -5975,35 +5975,15 @@
       "type": "full_time",
       "posted_at": "2026-09-14T21:49:36.587382+00:00",
       "tweet_id": "2099616580191580405"
+    },
+    {
+      "key": "bonus:39",
+      "type": "bonus_points",
+      "posted_at": "2026-09-14T21:50:19.184756+00:00",
+      "tweet_id": "2099616758822809665"
     }
   ],
   "live_queue": [
-    {
-      "key": "bonus:39",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:39",
-        "home": "MUN",
-        "away": "MCI",
-        "score": "0-0",
-        "players": [
-          {
-            "name": "Gvardiol",
-            "points": 3
-          },
-          {
-            "name": "Haaland",
-            "points": 3
-          },
-          {
-            "name": "Matheus N.",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_39.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: MUN 0-0 MCI.\nGvardiol +3, Haaland +3, Matheus N. +1.\n\n#FPL #FPLCommunity #PremierLeague #FantasyFootball #MUNvMCI"
-    },
     {
       "key": "fulltime:40",
       "story": {
