@@ -5903,22 +5903,15 @@
       "type": "bonus_points",
       "posted_at": "2026-09-14T21:36:42.012912+00:00",
       "tweet_id": "2099613331472740479"
+    },
+    {
+      "key": "fulltime:35",
+      "type": "full_time",
+      "posted_at": "2026-09-14T21:37:24.997411+00:00",
+      "tweet_id": "2099613511840387162"
     }
   ],
   "live_queue": [
-    {
-      "key": "fulltime:35",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:35",
-        "home": "LIV",
-        "away": "FUL",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_35.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): LIV 0-0 FUL.\n\nHow did your FPL assets do? #FPL #FPLCommunity #FPLFamily #FPLTips"
-    },
     {
       "key": "bonus:35",
       "story": {
