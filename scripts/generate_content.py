@@ -135,6 +135,16 @@ def _hero_card(eyebrow, hero, headline, subtext=None, hero_color=None, hashtags=
 
 CARD_HASHTAGS = "#FPL #FPLCommunity"
 
+# category -> (eyebrow, hero text or None to fall back to the status label, color)
+STATUS_CARD_META = {
+    "injury": ("INJURY ALERT", None, ALERT),
+    "suspension": ("SUSPENDED", "SUSPENDED", ALERT),
+    "loan": ("LOAN MOVE", "ON LOAN", WARN),
+    "transfer": ("TRANSFER NEWS", "TRANSFERRED", WARN),
+    "departure": ("SQUAD NEWS", "DEPARTED", WARN),
+    "availability": ("AVAILABILITY UPDATE", None, WARN),
+}
+
 
 def render_card(story, out_path):
     t = story["type"]
@@ -149,11 +159,11 @@ def render_card(story, out_path):
         hero_color = ACCENT if rising else ALERT
         hashtags = f"{CARD_HASHTAGS} #{story['team']}"
     elif t == "status_change":
-        eyebrow = "INJURY ALERT"
-        hero = story["status"].upper()
+        category = story.get("category", "availability")
+        eyebrow, hero, hero_color = STATUS_CARD_META.get(category, STATUS_CARD_META["availability"])
+        hero = hero or story["status"].upper()
         headline = f"{story['player']} ({story['team']})"
         subtext = story["news"]
-        hero_color = ALERT
         hashtags = f"{CARD_HASHTAGS} #{story['team']}"
     elif t == "deadline_reminder":
         eyebrow = "DEADLINE ALERT"
@@ -203,6 +213,38 @@ STATUS_HOOKS = [
     "How are you covering this one?",
     "Risk it, or play it safe this week?",
 ]
+LOAN_HOOKS = [
+    "Worth keeping an eye on, or off your radar now?",
+    "Does this change how you're planning around him?",
+    "Still fantasy relevant from his new club, or done for now?",
+    "Surprised by this one, or saw it coming?",
+]
+TRANSFER_HOOKS = [
+    "Did you see this one coming?",
+    "Does this shake up your squad plans?",
+    "Big move -- good business for the club, or a loss?",
+    "How does this change the pecking order at his old club?",
+]
+DEPARTURE_HOOKS = [
+    "End of an era, or overdue?",
+    "Does this open a spot worth targeting?",
+    "Will he be missed in FPL terms?",
+]
+SUSPENSION_HOOKS = [
+    "Who's covering for him while he's out?",
+    "Does this change your captaincy plans?",
+    "Costly ban, or no big loss for his side?",
+]
+
+STATUS_CATEGORY_META = {
+    # category -> (emoji, label prefix, hook list)
+    "injury": ("\U0001F6A8", "INJURY ALERT", STATUS_HOOKS),
+    "suspension": ("\U0001F7E5", "SUSPENDED", SUSPENSION_HOOKS),
+    "loan": ("\U0001F504", "LOAN MOVE", LOAN_HOOKS),
+    "transfer": ("\U0001F504", "TRANSFER NEWS", TRANSFER_HOOKS),
+    "departure": ("\U0001F44B", "SQUAD NEWS", DEPARTURE_HOOKS),
+    "availability": ("ℹ️", "AVAILABILITY UPDATE", STATUS_HOOKS),
+}
 DEADLINE_HOOKS = [
     "Transfers, captain, chip calls -- lock it in NOW.",
     "Last chance to make your move.",
@@ -236,9 +278,11 @@ def build_caption(story):
             f"{hook} {tags} #{story['team']}"
         )
     if t == "status_change":
-        hook = random.choice(STATUS_HOOKS)
+        category = story.get("category", "availability")
+        emoji, label, hooks = STATUS_CATEGORY_META.get(category, STATUS_CATEGORY_META["availability"])
+        hook = random.choice(hooks)
         return (
-            f"\U0001F6A8 INJURY ALERT: {story['player']} ({story['team']}) is {story['status']}.\n"
+            f"{emoji} {label}: {story['player']} ({story['team']}) is {story['status']}.\n"
             f"\"{story['news']}\"\n\n"
             f"{hook} {tags}"
         )

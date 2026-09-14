@@ -5282,13 +5282,14 @@
         "player": "Obi",
         "team": "MUN",
         "status": "unavailable",
-        "news": "Has joined Willem II on loan for the rest of the season"
+        "news": "Has joined Willem II on loan for the rest of the season",
+        "category": "loan"
       },
       "image_path": "assets/generated/status_441_2026-09-14T16_12_42.090874Z.png",
-      "caption": "\ud83d\udea8 INJURY ALERT: Obi (MUN) is unavailable.\n\"Has joined Willem II on loan for the rest of the season\"\n\nDoes this wreck your GW plan? #FPL #FantasyPremierLeague #FPLCommunity",
+      "caption": "\ud83d\udd04 LOAN MOVE: Obi (MUN) is unavailable.\n\"Has joined Willem II on loan for the rest of the season\"\n\nStill fantasy relevant from his new club, or done for now? #FPL #FantasyPremierLeague #FPLCommunity",
       "created_at": "2026-09-14T16:37:24.333864+00:00",
       "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789403844.227519",
+      "slack_ts": "1789404291.475979",
       "auto": false
     }
   ],

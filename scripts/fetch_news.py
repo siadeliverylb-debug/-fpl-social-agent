@@ -20,6 +20,25 @@ STATUS_LABELS = {
 }
 
 
+def _classify_status(status_code, news_text):
+    """The 'news' field covers far more than injuries -- loans, permanent
+    transfers, departures, suspensions -- so pick an honest category instead
+    of always framing it as an injury alert."""
+    text = news_text.lower()
+
+    if status_code == "s":
+        return "suspension"
+    if status_code in ("i", "d"):
+        return "injury"
+    if "loan" in text:
+        return "loan"
+    if "joined" in text or "permanently" in text or "transfer" in text:
+        return "transfer"
+    if "departed" in text or "free agent" in text or "released" in text:
+        return "departure"
+    return "availability"
+
+
 def load_state(path=STATE_PATH):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -81,6 +100,7 @@ def diff_snapshots(old, new):
                 "team": cur["team"],
                 "status": STATUS_LABELS.get(cur["status"], cur["status"]),
                 "news": cur["news"],
+                "category": _classify_status(cur["status"], cur["news"]),
             })
 
     return stories
