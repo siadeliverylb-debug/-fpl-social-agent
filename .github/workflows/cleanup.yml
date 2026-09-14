@@ -1,0 +1,33 @@
+name: X Cleanup (temporary)
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm_delete:
+        description: "Actually delete matched tweets (false = list only)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Run cleanup
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          CONFIRM_DELETE: ${{ github.event.inputs.confirm_delete }}
+        run: python scripts/cleanup_wrong_posts.py
