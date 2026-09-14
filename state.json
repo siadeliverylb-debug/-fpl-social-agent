@@ -5891,22 +5891,15 @@
       "type": "bonus_points",
       "posted_at": "2026-09-14T21:34:21.606270+00:00",
       "tweet_id": "2099612742395056496"
+    },
+    {
+      "key": "fulltime:34",
+      "type": "full_time",
+      "posted_at": "2026-09-14T21:35:59.250103+00:00",
+      "tweet_id": "2099613152199753906"
     }
   ],
   "live_queue": [
-    {
-      "key": "fulltime:34",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:34",
-        "home": "CRY",
-        "away": "IPS",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_34.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): CRY 0-0 IPS.\n\nAny big returns from this one? #FPL #FPLTips #FantasyFootball #FPLFamily"
-    },
     {
       "key": "bonus:34",
       "story": {
