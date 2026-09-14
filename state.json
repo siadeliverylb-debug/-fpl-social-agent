@@ -5981,22 +5981,15 @@
       "type": "bonus_points",
       "posted_at": "2026-09-14T21:50:19.184756+00:00",
       "tweet_id": "2099616758822809665"
+    },
+    {
+      "key": "fulltime:40",
+      "type": "full_time",
+      "posted_at": "2026-09-14T21:55:05.996015+00:00",
+      "tweet_id": "2099617961824616601"
     }
   ],
   "live_queue": [
-    {
-      "key": "fulltime:40",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:40",
-        "home": "LEE",
-        "away": "NEW",
-        "score": "4-1",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_40.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): LEE 4-1 NEW.\n\nAny big returns from this one? #FPL #FantasyPremierLeague #FPLTwitter #FPLFamily"
-    },
     {
       "key": "bonus:40",
       "story": {
