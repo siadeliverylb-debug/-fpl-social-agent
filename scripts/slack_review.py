@@ -1,8 +1,7 @@
 """Post drafts to Slack for approval and check reaction status.
 
 Requires a Slack bot token (xoxb-...) with scopes: chat:write, reactions:read,
-channels:history (or groups:history for a private channel), files:write.
-The bot must be invited to the target channel.
+files:write, files:read. The bot must be invited to the target channel.
 
 Env vars:
   SLACK_BOT_TOKEN
@@ -25,36 +24,65 @@ def _channel():
 
 
 def post_draft(image_path, caption, story):
-    """Uploads the card image with the caption as a comment. Returns (channel, ts)
-    of the message so we can check reactions on it later."""
-    with open(image_path, "rb") as f:
-        resp = requests.post(
-            f"{SLACK_API}/files.upload",
-            headers=_token(),
-            data={
-                "channels": _channel(),
-                "initial_comment": (
-                    f"*New draft: {story['type']}*\n{caption}\n\n"
-                    f"React with :white_check_mark: to approve, :x: to reject. "
-                    f"Auto-publishes in 3h if no reaction."
-                ),
-            },
-            files={"file": f},
-            timeout=30,
-        )
-    data = resp.json()
-    if not data.get("ok"):
-        raise RuntimeError(f"Slack upload failed: {data}")
+    """Uploads the card image (new files.*External flow) with the caption as a
+    comment. Returns (channel, ts) of the shared message so we can check
+    reactions on it later."""
+    filename = os.path.basename(image_path)
+    length = os.path.getsize(image_path)
 
-    file_info = data["file"]
-    shares = file_info.get("shares", {})
+    url_resp = requests.post(
+        f"{SLACK_API}/files.getUploadURLExternal",
+        headers=_token(),
+        data={"filename": filename, "length": length},
+        timeout=30,
+    )
+    url_data = url_resp.json()
+    if not url_data.get("ok"):
+        raise RuntimeError(f"Slack getUploadURLExternal failed: {url_data}")
+    upload_url = url_data["upload_url"]
+    file_id = url_data["file_id"]
+
+    with open(image_path, "rb") as f:
+        upload_resp = requests.post(upload_url, files={"file": (filename, f)}, timeout=30)
+    if upload_resp.status_code != 200:
+        raise RuntimeError(f"Slack file upload failed: {upload_resp.status_code} {upload_resp.text}")
+
+    complete_resp = requests.post(
+        f"{SLACK_API}/files.completeUploadExternal",
+        headers={**_token(), "Content-Type": "application/json; charset=utf-8"},
+        json={
+            "files": [{"id": file_id, "title": filename}],
+            "channel_id": _channel(),
+            "initial_comment": (
+                f"*New draft: {story['type']}*\n{caption}\n\n"
+                f"React with :white_check_mark: to approve, :x: to reject. "
+                f"Auto-publishes in 3h if no reaction."
+            ),
+        },
+        timeout=30,
+    )
+    complete_data = complete_resp.json()
+    if not complete_data.get("ok"):
+        raise RuntimeError(f"Slack completeUploadExternal failed: {complete_data}")
+
+    info_resp = requests.get(
+        f"{SLACK_API}/files.info",
+        headers=_token(),
+        params={"file": file_id},
+        timeout=15,
+    )
+    info_data = info_resp.json()
+    if not info_data.get("ok"):
+        raise RuntimeError(f"Slack files.info failed: {info_data}")
+
+    shares = info_data["file"].get("shares", {})
     ts = None
     for group in ("public", "private"):
         for _chan, msgs in shares.get(group, {}).items():
             if msgs:
                 ts = msgs[0]["ts"]
     if ts is None:
-        raise RuntimeError(f"Could not determine message ts from Slack response: {data}")
+        raise RuntimeError(f"Could not determine message ts from Slack response: {info_data}")
 
     return _channel(), ts
 
