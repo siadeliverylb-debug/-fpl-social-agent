@@ -5957,22 +5957,15 @@
       "type": "bonus_points",
       "posted_at": "2026-09-14T21:47:28.684778+00:00",
       "tweet_id": "2099616043656229323"
+    },
+    {
+      "key": "fulltime:38",
+      "type": "full_time",
+      "posted_at": "2026-09-14T21:48:11.357185+00:00",
+      "tweet_id": "2099616222321000492"
     }
   ],
   "live_queue": [
-    {
-      "key": "fulltime:38",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:38",
-        "home": "COV",
-        "away": "BHA",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_38.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): COV 0-0 BHA.\n\nBonus points still to be confirmed. #FPL #FantasyFootball #FantasyPremierLeague #FPLTwitter"
-    },
     {
       "key": "bonus:38",
       "story": {
