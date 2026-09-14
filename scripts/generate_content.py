@@ -4,6 +4,7 @@ single most attention-grabbing number/fact -- rather than the player name,
 since that's what stops the scroll."""
 
 import os
+import random
 from PIL import Image, ImageDraw, ImageFont
 
 HERE = os.path.dirname(__file__)
@@ -181,36 +182,78 @@ def render_card(story, out_path):
     return out_path
 
 
+PRICE_RISE_HOOKS = [
+    "Already own him, or bringing him in before he rises again?",
+    "Time to cash in, or riding the wave?",
+    "In your team yet, or watching from the sidelines?",
+    "Bandwagon or already on board?",
+    "Worth the extra spend, or overpriced now?",
+]
+PRICE_FALL_HOOKS = [
+    "Panic sell or hold firm?",
+    "Buying the dip, or steering clear?",
+    "Time to cut losses, or backing him to bounce back?",
+    "Selling up or staying loyal?",
+    "Bargain now, or a reason to worry?",
+]
+STATUS_HOOKS = [
+    "Does this wreck your GW plan?",
+    "Time for a transfer, or riding it out?",
+    "Bench him or bank on a late fitness call?",
+    "How are you covering this one?",
+    "Risk it, or play it safe this week?",
+]
+DEADLINE_HOOKS = [
+    "Transfers, captain, chip calls -- lock it in NOW.",
+    "Last chance to make your move.",
+    "Squad locked in, or still deciding?",
+    "Don't get caught out -- set your team now.",
+    "Final call on your captain -- who's it going to be?",
+]
+RECAP_HOOKS = [
+    "Did YOU beat the top score?",
+    "How does your squad compare?",
+    "Gutted or buzzing with your GW?",
+    "Beat it, matched it, or fell short?",
+    "Where did that leave your rank?",
+]
+
+
 def build_caption(story):
     t = story["type"]
     tags = "#FPL #FantasyPremierLeague #FPLCommunity"
 
     if t == "price_change":
         if story["direction"] == "rise":
+            hook = random.choice(PRICE_RISE_HOOKS)
             return (
                 f"\U0001F4C8 {story['player']} ({story['team']}) is on the up -- now £{story['new_price_millions']}m.\n\n"
-                f"Already own him, or bringing him in before he rises again? {tags} #{story['team']}"
+                f"{hook} {tags} #{story['team']}"
             )
+        hook = random.choice(PRICE_FALL_HOOKS)
         return (
             f"\U0001F4C9 {story['player']} ({story['team']}) drops to £{story['new_price_millions']}m.\n\n"
-            f"Panic sell or hold firm? {tags} #{story['team']}"
+            f"{hook} {tags} #{story['team']}"
         )
     if t == "status_change":
+        hook = random.choice(STATUS_HOOKS)
         return (
             f"\U0001F6A8 INJURY ALERT: {story['player']} ({story['team']}) is {story['status']}.\n"
             f"\"{story['news']}\"\n\n"
-            f"Does this wreck your GW plan? {tags}"
+            f"{hook} {tags}"
         )
     if t == "deadline_reminder":
+        hook = random.choice(DEADLINE_HOOKS)
         return (
             f"⏰ GW{story['gw']} deadline in {story['bucket']}! "
-            f"Transfers, captain, chip calls -- lock it in NOW.\n\n{tags}"
+            f"{hook}\n\n{tags}"
         )
     if t == "gw_recap":
+        hook = random.choice(RECAP_HOOKS)
         return (
             f"\U0001F525 GW{story['gw']} is in the books. Top score: {story.get('highest_score')} pts. "
             f"Most captained ID: {story.get('most_captained')}.\n\n"
-            f"Did YOU beat the top score? {tags}"
+            f"{hook} {tags}"
         )
     return f"FPL update. {tags}"
 
