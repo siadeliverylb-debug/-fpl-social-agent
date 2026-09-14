@@ -5713,24 +5713,14 @@
       "key": "sub:31:488",
       "type": "substitution",
       "posted_at": "2026-09-14T20:47:07.451472+00:00"
+    },
+    {
+      "key": "sub:31:490",
+      "type": "substitution",
+      "posted_at": "2026-09-14T20:47:50.376593+00:00"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:31:490",
-      "story": {
-        "type": "substitution",
-        "key": "sub:31:490",
-        "player": "Wood",
-        "team": "NFO",
-        "home": "AVL",
-        "away": "NFO",
-        "score": "0-0",
-        "minute": 1
-      },
-      "image_path": "assets/generated/live_sub_31_490.png",
-      "caption": "\ud83d\udd04 SUB! 1' Wood (NFO) is on. AVL 0-0 NFO.\n\nDoes this open a chance for a start next week? #FPL #FantasyPremierLeague #FPLTips #FantasyFootball #NFO"
-    },
     {
       "key": "sub:31:491",
       "story": {
