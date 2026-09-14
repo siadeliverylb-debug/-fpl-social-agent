@@ -4295,7 +4295,7 @@
       "team": "NEW",
       "now_cost": 49,
       "status": "i",
-      "news": "Ankle injury - Expected back 14 Sep",
+      "news": "Ankle injury - Expected back 19 Sep",
       "news_added": "2026-08-23T18:00:08.367241Z"
     },
     "449": {
@@ -4334,9 +4334,9 @@
       "web_name": "Elanga",
       "team": "NEW",
       "now_cost": 62,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "i",
+      "news": "Unspecified injury - Unknown return date",
+      "news_added": "2026-09-14T20:00:09.505598Z"
     },
     "456": {
       "web_name": "J.Ramsey",
@@ -4518,8 +4518,8 @@
       "web_name": "Milenkovi\u0107",
       "team": "NFO",
       "now_cost": 55,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "i",
+      "news": "Hamstring injury - Expected back 11 Oct",
       "news_added": "2026-09-12T14:00:09.705107Z"
     },
     "472": {
@@ -4543,7 +4543,7 @@
       "team": "NFO",
       "now_cost": 45,
       "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "news": "Hamstring injury - 50% chance of playing",
       "news_added": "2026-09-12T14:00:09.724349Z"
     },
     "475": {
@@ -5267,13 +5267,86 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-14T19:36:04.524677+00:00",
+  "last_snapshot_at": "2026-09-14T20:03:21.419983+00:00",
   "recapped_events": [
     1,
     2,
     3
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "status:448:2026-08-23T18:00:08.367241Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:448:2026-08-23T18:00:08.367241Z",
+        "player": "Burn",
+        "team": "NEW",
+        "status": "injured",
+        "news": "Ankle injury - Expected back 19 Sep",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_448_2026-08-23T18_00_08.367241Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Burn (NEW) is injured.\n\"Ankle injury - Expected back 19 Sep\"\n\nDoes this wreck your GW plan? #FPL #FPLCommunity #FPLTwitter #FPLFamily",
+      "created_at": "2026-09-14T20:03:23.974856+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789416203.894419",
+      "auto": false
+    },
+    {
+      "key": "status:454:2026-09-14T20:00:09.505598Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:454:2026-09-14T20:00:09.505598Z",
+        "player": "Elanga",
+        "team": "NEW",
+        "status": "injured",
+        "news": "Unspecified injury - Unknown return date",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_454_2026-09-14T20_00_09.505598Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Elanga (NEW) is injured.\n\"Unspecified injury - Unknown return date\"\n\nTime for a transfer, or riding it out? #FPL #FPLTips #FPLFamily #FantasyFootball",
+      "created_at": "2026-09-14T20:03:26.480808+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789416206.399379",
+      "auto": false
+    },
+    {
+      "key": "status:471:2026-09-12T14:00:09.705107Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:471:2026-09-12T14:00:09.705107Z",
+        "player": "Milenkovi\u0107",
+        "team": "NFO",
+        "status": "injured",
+        "news": "Hamstring injury - Expected back 11 Oct",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_471_2026-09-12T14_00_09.705107Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Milenkovi\u0107 (NFO) is injured.\n\"Hamstring injury - Expected back 11 Oct\"\n\nDoes this wreck your GW plan? #FPL #FPLTwitter #FPLCommunity #FPLFamily",
+      "created_at": "2026-09-14T20:03:29.005471+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789416208.923269",
+      "auto": false
+    },
+    {
+      "key": "status:474:2026-09-12T14:00:09.724349Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:474:2026-09-12T14:00:09.724349Z",
+        "player": "Jair Cunha",
+        "team": "NFO",
+        "status": "doubtful",
+        "news": "Hamstring injury - 50% chance of playing",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_474_2026-09-12T14_00_09.724349Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Jair Cunha (NFO) is doubtful.\n\"Hamstring injury - 50% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #PremierLeague #FPLTwitter #FantasyFootball",
+      "created_at": "2026-09-14T20:03:31.538096+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789416211.446649",
+      "auto": false
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
