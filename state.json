@@ -5289,7 +5289,7 @@
       "created_at": "2026-09-14T14:38:52.400141+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789396732.253919",
-      "auto": false
+      "auto": true
     },
     {
       "key": "status:455:2026-09-14T14:30:07.387706Z",
@@ -5306,7 +5306,7 @@
       "created_at": "2026-09-14T14:38:55.421630+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789396735.263699",
-      "auto": false
+      "auto": true
     }
   ],
   "handled_keys": [
