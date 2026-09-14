@@ -5897,35 +5897,15 @@
       "type": "full_time",
       "posted_at": "2026-09-14T21:35:59.250103+00:00",
       "tweet_id": "2099613152199753906"
+    },
+    {
+      "key": "bonus:34",
+      "type": "bonus_points",
+      "posted_at": "2026-09-14T21:36:42.012912+00:00",
+      "tweet_id": "2099613331472740479"
     }
   ],
   "live_queue": [
-    {
-      "key": "bonus:34",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:34",
-        "home": "CRY",
-        "away": "IPS",
-        "score": "0-0",
-        "players": [
-          {
-            "name": "Emersonn",
-            "points": 3
-          },
-          {
-            "name": "Strand Larsen",
-            "points": 2
-          },
-          {
-            "name": "Davis",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_34.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: CRY 0-0 IPS.\nEmersonn +3, Strand Larsen +2, Davis +1.\n\n#FPL #FPLTips #FantasyFootball #FantasyPremierLeague #CRYvIPS"
-    },
     {
       "key": "fulltime:35",
       "story": {
