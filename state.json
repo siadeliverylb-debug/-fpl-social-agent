@@ -5945,22 +5945,15 @@
       "type": "bonus_points",
       "posted_at": "2026-09-14T21:39:33.400809+00:00",
       "tweet_id": "2099614050334453814"
+    },
+    {
+      "key": "fulltime:36",
+      "type": "full_time",
+      "posted_at": "2026-09-14T21:46:46.050897+00:00",
+      "tweet_id": "2099615864601358461"
     }
   ],
   "live_queue": [
-    {
-      "key": "fulltime:36",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:36",
-        "home": "SUN",
-        "away": "ARS",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_36.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): SUN 0-0 ARS.\n\nBonus points still to be confirmed. #FPL #FPLFamily #FPLTips #PremierLeague"
-    },
     {
       "key": "bonus:36",
       "story": {
