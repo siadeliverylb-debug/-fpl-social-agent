@@ -4446,8 +4446,8 @@
       "web_name": "Dedi\u0107",
       "team": "NEW",
       "now_cost": 45,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-09T14:30:08.475769Z"
     },
     "609": {
@@ -5267,7 +5267,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-14T19:04:20.997827+00:00",
+  "last_snapshot_at": "2026-09-14T19:36:04.524677+00:00",
   "recapped_events": [
     1,
     2,
