@@ -20,8 +20,9 @@ import post_instagram
 import post_x
 import slack_review
 
-STATE_PATH = os.path.join(os.path.dirname(__file__), "..", "state.json")
-GENERATED_DIR = os.path.join(os.path.dirname(__file__), "..", "assets", "generated")
+REPO_ROOT = os.path.join(os.path.dirname(__file__), "..")
+STATE_PATH = os.path.join(REPO_ROOT, "state.json")
+GENERATED_DIR = os.path.join(REPO_ROOT, "assets", "generated")
 
 APPROVAL_TIMEOUT_HOURS = 3
 MIN_GAP_MINUTES = 90
@@ -38,11 +39,18 @@ def save_state(state):
         json.dump(state, f, indent=2)
 
 
-def raw_url_for(local_path):
+def raw_url_for(rel_path):
+    """rel_path is repo-relative (as stored in state), e.g. 'assets/generated/x.png'."""
     repo = os.environ["GITHUB_REPOSITORY"]  # e.g. "owner/repo", set automatically by Actions
-    rel = os.path.relpath(local_path, os.path.join(os.path.dirname(__file__), ".."))
-    rel = rel.replace(os.sep, "/")
-    return f"https://raw.githubusercontent.com/{repo}/main/{rel}"
+    return f"https://raw.githubusercontent.com/{repo}/main/{rel_path}"
+
+
+def _rel_path(abs_path):
+    return os.path.relpath(abs_path, REPO_ROOT).replace(os.sep, "/")
+
+
+def _abs_path(rel_path):
+    return os.path.join(REPO_ROOT, rel_path)
 
 
 def can_post_now(state, now):
@@ -72,12 +80,13 @@ def cmd_scan(dry_run):
         img_path = os.path.join(GENERATED_DIR, f"{key.replace(':', '_')}.png")
         generate_content.render_card(story, img_path)
         caption = generate_content.build_caption(story)
+        rel_img_path = _rel_path(img_path)
 
         if state.get("auto_mode"):
             state.setdefault("pending", []).append({
                 "key": key,
                 "story": story,
-                "image_path": img_path,
+                "image_path": rel_img_path,
                 "caption": caption,
                 "created_at": datetime.now(timezone.utc).isoformat(),
                 "auto": True,
@@ -89,7 +98,7 @@ def cmd_scan(dry_run):
             state.setdefault("pending", []).append({
                 "key": key,
                 "story": story,
-                "image_path": img_path,
+                "image_path": rel_img_path,
                 "caption": caption,
                 "created_at": datetime.now(timezone.utc).isoformat(),
                 "slack_channel": channel,
@@ -104,14 +113,14 @@ def cmd_scan(dry_run):
 
 def _publish_one(state, item, dry_run):
     story = item["story"]
-    img_path = item["image_path"]
+    img_path = _abs_path(item["image_path"])
     caption = item["caption"]
 
     x_result = post_x.post_tweet(img_path, caption, dry_run=dry_run)
 
     if os.environ.get("IG_ACCESS_TOKEN") and os.environ.get("IG_BUSINESS_ACCOUNT_ID"):
         try:
-            ig_result = post_instagram.post_image(raw_url_for(img_path), caption, dry_run=dry_run)
+            ig_result = post_instagram.post_image(raw_url_for(item["image_path"]), caption, dry_run=dry_run)
         except Exception as e:
             ig_result = f"FAILED: {e}"
             print(f"Instagram post failed for {item['key']}: {e}")
@@ -134,7 +143,7 @@ def _publish_one(state, item, dry_run):
     print(f"Published {item['key']}: x={x_result} ig={ig_result}")
 
 
-def cmd_publish(dry_run):
+def cmd_publish(dry_run, force=False):
     state = load_state()
     now = datetime.now(timezone.utc)
     still_pending = []
@@ -154,7 +163,7 @@ def cmd_publish(dry_run):
             continue
 
         if decision == "approved":
-            if can_post_now(state, now):
+            if force or can_post_now(state, now):
                 _publish_one(state, item, dry_run)
             else:
                 still_pending.append(item)  # cap/gap hit, retry next run
@@ -171,9 +180,10 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("mode", choices=["scan", "publish"])
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--force", action="store_true", help="publish bypassing cadence caps (manual override)")
     args = parser.parse_args()
 
     if args.mode == "scan":
         cmd_scan(args.dry_run)
     else:
-        cmd_publish(args.dry_run)
+        cmd_publish(args.dry_run, force=args.force)

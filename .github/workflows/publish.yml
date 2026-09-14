@@ -9,6 +9,10 @@ on:
         description: "Dry run (skip actual posting)"
         type: boolean
         default: false
+      force:
+        description: "Force publish approved items now, bypassing cadence caps"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -36,7 +40,7 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_BUSINESS_ACCOUNT_ID: ${{ secrets.IG_BUSINESS_ACCOUNT_ID }}
         run: |
-          python scripts/orchestrate.py publish ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }}
+          python scripts/orchestrate.py publish ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }} ${{ github.event.inputs.force == 'true' && '--force' || '' }}
 
       - name: Commit updated state
         run: |
