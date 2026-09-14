@@ -108,7 +108,15 @@ def _publish_one(state, item, dry_run):
     caption = item["caption"]
 
     x_result = post_x.post_tweet(img_path, caption, dry_run=dry_run)
-    ig_result = post_instagram.post_image(raw_url_for(img_path), caption, dry_run=dry_run)
+
+    if os.environ.get("IG_ACCESS_TOKEN") and os.environ.get("IG_BUSINESS_ACCOUNT_ID"):
+        try:
+            ig_result = post_instagram.post_image(raw_url_for(img_path), caption, dry_run=dry_run)
+        except Exception as e:
+            ig_result = f"FAILED: {e}"
+            print(f"Instagram post failed for {item['key']}: {e}")
+    else:
+        ig_result = "skipped (Instagram not configured)"
 
     now = datetime.now(timezone.utc)
     state.setdefault("post_log", []).append({
