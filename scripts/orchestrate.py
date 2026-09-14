@@ -32,8 +32,10 @@ MAX_POSTS_PER_DAY = 5
 
 # Live match events (goals/cards/penalties/kickoff/full-time) get their own,
 # much looser cadence -- they're only worth posting while still live, and a
-# single match day can have far more than 5 FPL-relevant moments.
-LIVE_MIN_GAP_SECONDS = 10
+# single match day can have far more than 5 FPL-relevant moments. The gap is
+# deliberately tiny: real bursts (a goal + a card in the same poll) must not
+# get throttled against each other.
+LIVE_MIN_GAP_SECONDS = 2
 LIVE_MAX_POSTS_PER_DAY = 150
 
 
@@ -165,27 +167,35 @@ def _publish_one(state, item, dry_run, log_key="post_log"):
 
 def cmd_live(dry_run):
     state = load_state()
-    stories = live_events.fetch_live_events(state)
-    now = datetime.now(timezone.utc)
 
-    posted = 0
+    # Items the cadence cap blocked last run go first -- they must never be
+    # silently dropped just because the underlying stat counter (which
+    # prevents re-detecting the same delta) already advanced past them.
+    queue = state.pop("live_queue", [])
+
+    stories = live_events.fetch_live_events(state)
     for story in stories:
         key = story["key"]
         img_path = os.path.join(GENERATED_DIR, f"live_{key.replace(':', '_')}.png")
         generate_content.render_card(story, img_path)
         caption = generate_content.build_caption(story)
-        item = {"key": key, "story": story, "image_path": _rel_path(img_path), "caption": caption}
+        queue.append({"key": key, "story": story, "image_path": _rel_path(img_path), "caption": caption})
 
+    now = datetime.now(timezone.utc)
+    posted = 0
+    still_queued = []
+    for item in queue:
         if not can_post_live_now(state, now):
-            print(f"Skipping {key}: live cadence cap hit")
+            print(f"Deferring {item['key']}: live cadence cap hit, will retry next run")
+            still_queued.append(item)
             continue
-
         _publish_one(state, item, dry_run, log_key="live_post_log")
         now = datetime.now(timezone.utc)
         posted += 1
 
+    state["live_queue"] = still_queued
     save_state(state)
-    print(f"Live pass complete. {posted}/{len(stories)} event(s) posted.")
+    print(f"Live pass complete. {posted}/{len(queue)} event(s) posted, {len(still_queued)} deferred.")
 
 
 def cmd_publish(dry_run, force=False):
