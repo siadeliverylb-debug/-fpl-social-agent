@@ -39,6 +39,8 @@ def fetch_live_events(state):
     fixtures = _fetch_json(f"{FIXTURES_URL}?event={current_event}")
 
     live = state.setdefault("live", {"fixtures": {}, "stats": {}})
+    live.setdefault("posted_score", {})
+    live.setdefault("last_goal", {})
     stories = []
 
     for fx in fixtures:
@@ -50,17 +52,19 @@ def fetch_live_events(state):
 
         if is_new_fixture:
             # First time seeing this fixture -- establish a baseline (current
-            # started/finished flags and every stat count so far) without
-            # emitting stories for it, the same way a first-ever scan doesn't
-            # treat the whole season's history as breaking news. Otherwise a
-            # cold state.json (or this feature's very first run) would replay
-            # every goal/card from every in-progress-or-finished match.
+            # started/finished flags, every stat count so far, and a 0-0
+            # posted-score tally) without emitting stories for it, the same
+            # way a first-ever scan doesn't treat the whole season's history
+            # as breaking news. Otherwise a cold state.json (or this
+            # feature's very first run) would replay every goal/card from
+            # every in-progress-or-finished match.
             for stat in fx.get("stats", []):
                 for side in ("h", "a"):
                     for entry in stat.get(side, []):
                         stat_key = f"{fid}:{entry['element']}:{stat['identifier']}"
                         live["stats"][stat_key] = entry["value"]
             live["fixtures"][fid] = {"started": fx["started"], "finished": fx["finished"]}
+            live["posted_score"][fid] = [0, 0]
             continue
 
         if fx["started"] and not prev_fx["started"]:
@@ -75,7 +79,17 @@ def fetch_live_events(state):
             live["fixtures"][fid] = {"started": fx["started"], "finished": fx["finished"]}
             continue
 
-        score = f"{fx['team_h_score']}-{fx['team_a_score']}"
+        # The score shown on a post is OUR running tally of goals we've
+        # actually announced, in the order we announce them -- not FPL's
+        # live score. FPL only gives cumulative counts (no per-goal
+        # timestamps), and its scorer/assist attribution can lag or get
+        # corrected after the fact, so "the current live score" at post time
+        # can already include goals that happened after the one being
+        # posted about. This tally only ever moves forward as we post.
+        psc = live["posted_score"].setdefault(fid, [0, 0])
+
+        def score_str():
+            return f"{psc[0]}-{psc[1]}"
 
         # Goals and assists are buffered per side instead of appended straight
         # to `stories`, so a goal can be paired with its assist (if exactly
@@ -104,17 +118,24 @@ def fetch_live_events(state):
                                 "team": player_team,
                                 "home": home,
                                 "away": away,
-                                "score": score,
                             }
                             if story_type == "goal":
                                 new_goals[side].append(event)
                             elif story_type == "assist":
                                 new_assists[side].append(event)
+                            elif story_type == "own_goal":
+                                # An own goal by a side's player counts for
+                                # the OTHER side on the scoreboard.
+                                if side == "h":
+                                    psc[1] += 1
+                                else:
+                                    psc[0] += 1
+                                event["score"] = score_str()
+                                stories.append(event)
                             else:
+                                event["score"] = score_str()
                                 stories.append(event)
                     live["stats"][stat_key] = value
-
-        live.setdefault("last_goal", {})
 
         for side in ("h", "a"):
             goals = new_goals[side]
@@ -123,16 +144,30 @@ def fetch_live_events(state):
 
             if len(goals) == 1 and len(assists) == 1:
                 # Assist landed in the same poll as its goal -- one combined post.
+                if side == "h":
+                    psc[0] += 1
+                else:
+                    psc[1] += 1
+                goals[0]["score"] = score_str()
                 goals[0]["assisted_by"] = assists[0]["player"]
                 stories.append(goals[0])
                 live["last_goal"][side_key] = {
-                    "player": goals[0]["player"], "team": goals[0]["team"], "assisted_by": assists[0]["player"],
+                    "player": goals[0]["player"], "team": goals[0]["team"],
+                    "assisted_by": assists[0]["player"], "score": goals[0]["score"],
                 }
                 continue
 
             for g in goals:
+                if side == "h":
+                    psc[0] += 1
+                else:
+                    psc[1] += 1
+                g["score"] = score_str()
                 stories.append(g)
-                live["last_goal"][side_key] = {"player": g["player"], "team": g["team"], "assisted_by": g.get("assisted_by")}
+                live["last_goal"][side_key] = {
+                    "player": g["player"], "team": g["team"],
+                    "assisted_by": g.get("assisted_by"), "score": g["score"],
+                }
 
             if assists:
                 last = live["last_goal"].get(side_key)
@@ -140,7 +175,8 @@ def fetch_live_events(state):
                     # The assist arrived on a later poll than its goal (FPL's
                     # scorer/assist attribution can lag) -- repost the goal
                     # with the assist added instead of a disconnected assist
-                    # post with no goal context.
+                    # post with no goal context. Uses the score as it stood
+                    # for the original goal, not today's live score.
                     a = assists[0]
                     last["assisted_by"] = a["player"]
                     stories.append({
@@ -151,9 +187,11 @@ def fetch_live_events(state):
                         "assisted_by": a["player"],
                         "home": home,
                         "away": away,
-                        "score": score,
+                        "score": last["score"],
                     })
                 else:
+                    for a in assists:
+                        a["score"] = score_str()
                     stories.extend(assists)
 
         if fx["finished"] and not prev_fx["finished"]:
@@ -162,7 +200,7 @@ def fetch_live_events(state):
                 "key": f"fulltime:{fid}",
                 "home": home,
                 "away": away,
-                "score": score,
+                "score": score_str(),
             })
 
         live["fixtures"][fid] = {"started": fx["started"], "finished": fx["finished"]}
