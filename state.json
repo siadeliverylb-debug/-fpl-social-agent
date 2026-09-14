@@ -5428,7 +5428,11 @@
       "39:418:yellow_cards": 1,
       "39:155:yellow_cards": 1,
       "39:391:yellow_cards": 1,
-      "39:398:red_cards": 1
+      "39:398:red_cards": 1,
+      "40:346:goals_scored": 1,
+      "40:332:assists": 1,
+      "40:345:assists": 1,
+      "40:459:own_goals": 1
     }
   },
   "live_post_log": [
@@ -5436,6 +5440,11 @@
       "key": "kickoff:40",
       "type": "kickoff",
       "posted_at": "2026-09-14T19:03:57.425598+00:00"
+    },
+    {
+      "key": "goal:40:346:1",
+      "type": "goal",
+      "posted_at": "2026-09-14T19:39:18.677377+00:00"
     }
   ]
 }
