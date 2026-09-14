@@ -4230,9 +4230,9 @@
       "web_name": "Obi",
       "team": "MUN",
       "now_cost": 45,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "u",
+      "news": "Has joined Willem II on loan for the rest of the season",
+      "news_added": "2026-09-14T16:12:42.090874Z"
     },
     "405": {
       "web_name": "N.Gonzalez",
@@ -4830,8 +4830,8 @@
       "web_name": "Udogie",
       "team": "TOT",
       "now_cost": 45,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-11T18:00:09.092110Z"
     },
     "507": {
@@ -5267,13 +5267,31 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-14T15:37:53.329764+00:00",
+  "last_snapshot_at": "2026-09-14T16:37:21.419840+00:00",
   "recapped_events": [
     1,
     2,
     3
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "status:441:2026-09-14T16:12:42.090874Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:441:2026-09-14T16:12:42.090874Z",
+        "player": "Obi",
+        "team": "MUN",
+        "status": "unavailable",
+        "news": "Has joined Willem II on loan for the rest of the season"
+      },
+      "image_path": "assets/generated/status_441_2026-09-14T16_12_42.090874Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Obi (MUN) is unavailable.\n\"Has joined Willem II on loan for the rest of the season\"\n\nDoes this wreck your GW plan? #FPL #FantasyPremierLeague #FPLCommunity",
+      "created_at": "2026-09-14T16:37:24.333864+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789403844.227519",
+      "auto": false
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
