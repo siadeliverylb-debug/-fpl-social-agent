@@ -5987,34 +5987,13 @@
       "type": "full_time",
       "posted_at": "2026-09-14T21:55:05.996015+00:00",
       "tweet_id": "2099617961824616601"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "bonus:40",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:40",
-        "home": "LEE",
-        "away": "NEW",
-        "score": "4-1",
-        "players": [
-          {
-            "name": "Bogle",
-            "points": 3
-          },
-          {
-            "name": "Calvert-Lewin",
-            "points": 2
-          },
-          {
-            "name": "Okafor",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_40.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: LEE 4-1 NEW.\nBogle +3, Calvert-Lewin +2, Okafor +1.\n\n#FPL #FantasyFootball #PremierLeague #FPLTwitter #LEEvNEW"
+      "type": "bonus_points",
+      "posted_at": "2026-09-14T21:55:48.550674+00:00",
+      "tweet_id": "2099618140015501426"
     }
-  ]
+  ],
+  "live_queue": []
 }
