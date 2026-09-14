@@ -5273,52 +5273,29 @@
     2,
     3
   ],
-  "pending": [
-    {
-      "key": "status:359:2026-07-26T08:30:10.078473Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:359:2026-07-26T08:30:10.078473Z",
-        "player": "Gomez",
-        "team": "LIV",
-        "status": "doubtful",
-        "news": "Muscular injury - 75% chance of playing"
-      },
-      "image_path": "assets/generated/status_359_2026-07-26T08_30_10.078473Z.png",
-      "caption": "\ud83d\udea8 INJURY ALERT: Gomez (LIV) is doubtful.\n\"Muscular injury - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FantasyPremierLeague #FPLCommunity",
-      "created_at": "2026-09-14T14:38:52.400141+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789396732.253919",
-      "auto": true
-    },
-    {
-      "key": "status:455:2026-09-14T14:30:07.387706Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:455:2026-09-14T14:30:07.387706Z",
-        "player": "Tonali",
-        "team": "TOT",
-        "status": "doubtful",
-        "news": "Knock - 75% chance of playing"
-      },
-      "image_path": "assets/generated/status_455_2026-09-14T14_30_07.387706Z.png",
-      "caption": "\ud83d\udea8 INJURY ALERT: Tonali (TOT) is doubtful.\n\"Knock - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FantasyPremierLeague #FPLCommunity",
-      "created_at": "2026-09-14T14:38:55.421630+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789396735.263699",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
-    "status:107:2026-09-14T14:00:09.985723Z"
+    "status:107:2026-09-14T14:00:09.985723Z",
+    "status:359:2026-07-26T08:30:10.078473Z",
+    "status:455:2026-09-14T14:30:07.387706Z"
   ],
   "post_log": [
     {
       "key": "status:107:2026-09-14T14:00:09.985723Z",
       "type": "status_change",
       "posted_at": "2026-09-14T15:40:21.769671+00:00"
+    },
+    {
+      "key": "status:359:2026-07-26T08:30:10.078473Z",
+      "type": "status_change",
+      "posted_at": "2026-09-14T16:00:24.249233+00:00"
+    },
+    {
+      "key": "status:455:2026-09-14T14:30:07.387706Z",
+      "type": "status_change",
+      "posted_at": "2026-09-14T16:00:25.388093+00:00"
     }
   ]
 }
