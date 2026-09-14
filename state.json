@@ -5951,35 +5951,15 @@
       "type": "full_time",
       "posted_at": "2026-09-14T21:46:46.050897+00:00",
       "tweet_id": "2099615864601358461"
+    },
+    {
+      "key": "bonus:36",
+      "type": "bonus_points",
+      "posted_at": "2026-09-14T21:47:28.684778+00:00",
+      "tweet_id": "2099616043656229323"
     }
   ],
   "live_queue": [
-    {
-      "key": "bonus:36",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:36",
-        "home": "SUN",
-        "away": "ARS",
-        "score": "0-0",
-        "players": [
-          {
-            "name": "Raya",
-            "points": 3
-          },
-          {
-            "name": "Gabriel",
-            "points": 2
-          },
-          {
-            "name": "Bruno G.",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_36.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: SUN 0-0 ARS.\nRaya +3, Gabriel +2, Bruno G. +1.\n\n#FPL #FPLTips #FPLCommunity #FantasyPremierLeague #SUNvARS"
-    },
     {
       "key": "fulltime:38",
       "story": {
