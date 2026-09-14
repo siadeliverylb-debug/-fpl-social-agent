@@ -39,22 +39,6 @@ def _v2_client():
     )
 
 
-def diagnose():
-    """Isolate whether OAuth1 auth itself is rejected (account/IP-level issue)
-    vs. something specific to the media upload endpoint."""
-    auth = _oauth1()
-    r = requests.get("https://api.x.com/2/users/me", auth=auth, timeout=30)
-    print(f"GET /2/users/me -> {r.status_code} {r.text}")
-
-    r2 = requests.post(
-        f"{MEDIA_API}/initialize",
-        auth=auth,
-        json={"media_type": "image/png", "total_bytes": 100, "media_category": "tweet_image"},
-        timeout=30,
-    )
-    print(f"POST /2/media/upload/initialize -> {r2.status_code} {r2.text}")
-
-
 def upload_media(image_path):
     auth = _oauth1()
     total_bytes = os.path.getsize(image_path)
@@ -99,7 +83,4 @@ def post_tweet(image_path, caption, dry_run=False):
 
 if __name__ == "__main__":
     import sys
-    if len(sys.argv) > 1 and sys.argv[1] == "diag":
-        diagnose()
-    else:
-        post_tweet(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else "Test post", dry_run=True)
+    post_tweet(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else "Test post", dry_run=True)
