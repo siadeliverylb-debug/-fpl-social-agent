@@ -220,6 +220,13 @@ def render_card(story, out_path):
         subtext = "Full recap and bonus points once confirmed."
         hero_color = ACCENT
         hashtags = f"{base_tags} #{story['home']}v{story['away']}"
+    elif t == "goal_update":
+        eyebrow = "ASSIST CONFIRMED"
+        hero = "GOAL!"
+        headline = f"{story['player']} ({story['team']})"
+        subtext = f"Assist: {story['assisted_by']}  |  {story['home']} {story['score']} {story['away']}"
+        hero_color = ACCENT
+        hashtags = f"{base_tags} #{story['team']}"
     elif t in LIVE_EVENT_META:
         eyebrow, hero, hero_color = LIVE_EVENT_META[t]
         headline = f"{story['player']} ({story['team']})"
@@ -407,6 +414,11 @@ def build_caption(story):
         return (
             f"⚽ GOAL! {story['player']} ({story['team']})!{assist_line} "
             f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
+        )
+    if t == "goal_update":
+        return (
+            f"\U0001F4DD UPDATE: {story['player']}'s goal ({story['team']}) was assisted by "
+            f"{story['assisted_by']}! {story['home']} {story['score']} {story['away']}.\n\n{tags} #{story['team']}"
         )
     if t == "assist":
         hook = random.choice(ASSIST_HOOKS)

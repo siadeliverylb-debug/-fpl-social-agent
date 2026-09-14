@@ -114,15 +114,47 @@ def fetch_live_events(state):
                                 stories.append(event)
                     live["stats"][stat_key] = value
 
+        live.setdefault("last_goal", {})
+
         for side in ("h", "a"):
             goals = new_goals[side]
             assists = new_assists[side]
+            side_key = f"{fid}:{side}"
+
             if len(goals) == 1 and len(assists) == 1:
+                # Assist landed in the same poll as its goal -- one combined post.
                 goals[0]["assisted_by"] = assists[0]["player"]
                 stories.append(goals[0])
-            else:
-                stories.extend(goals)
-                stories.extend(assists)
+                live["last_goal"][side_key] = {
+                    "player": goals[0]["player"], "team": goals[0]["team"], "assisted_by": assists[0]["player"],
+                }
+                continue
+
+            for g in goals:
+                stories.append(g)
+                live["last_goal"][side_key] = {"player": g["player"], "team": g["team"], "assisted_by": g.get("assisted_by")}
+
+            if assists:
+                last = live["last_goal"].get(side_key)
+                if len(assists) == 1 and last and not last.get("assisted_by"):
+                    # The assist arrived on a later poll than its goal (FPL's
+                    # scorer/assist attribution can lag) -- repost the goal
+                    # with the assist added instead of a disconnected assist
+                    # post with no goal context.
+                    a = assists[0]
+                    last["assisted_by"] = a["player"]
+                    stories.append({
+                        "type": "goal_update",
+                        "key": f"goalupdate:{a['key']}",
+                        "player": last["player"],
+                        "team": last["team"],
+                        "assisted_by": a["player"],
+                        "home": home,
+                        "away": away,
+                        "score": score,
+                    })
+                else:
+                    stories.extend(assists)
 
         if fx["finished"] and not prev_fx["finished"]:
             stories.append({
