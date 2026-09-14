@@ -5283,24 +5283,6 @@
   ],
   "pending": [
     {
-      "key": "status:448:2026-08-23T18:00:08.367241Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:448:2026-08-23T18:00:08.367241Z",
-        "player": "Burn",
-        "team": "NEW",
-        "status": "injured",
-        "news": "Ankle injury - Expected back 19 Sep",
-        "category": "injury"
-      },
-      "image_path": "assets/generated/status_448_2026-08-23T18_00_08.367241Z.png",
-      "caption": "\ud83d\udea8 INJURY ALERT: Burn (NEW) is injured.\n\"Ankle injury - Expected back 19 Sep\"\n\nDoes this wreck your GW plan? #FPL #FPLCommunity #FPLTwitter #FPLFamily",
-      "created_at": "2026-09-14T20:03:23.974856+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789416203.894419",
-      "auto": false
-    },
-    {
       "key": "status:454:2026-09-14T20:00:09.505598Z",
       "story": {
         "type": "status_change",
@@ -5577,7 +5559,8 @@
     "status:107:2026-09-14T14:00:09.985723Z",
     "status:359:2026-07-26T08:30:10.078473Z",
     "status:455:2026-09-14T14:30:07.387706Z",
-    "status:441:2026-09-14T16:12:42.090874Z"
+    "status:441:2026-09-14T16:12:42.090874Z",
+    "status:448:2026-08-23T18:00:08.367241Z"
   ],
   "post_log": [
     {
@@ -5599,6 +5582,12 @@
       "key": "status:441:2026-09-14T16:12:42.090874Z",
       "type": "status_change",
       "posted_at": "2026-09-14T17:52:41.249627+00:00"
+    },
+    {
+      "key": "status:448:2026-08-23T18:00:08.367241Z",
+      "type": "status_change",
+      "posted_at": "2026-09-14T23:23:24.824615+00:00",
+      "tweet_id": "2099640186489426289"
     }
   ],
   "live": {
