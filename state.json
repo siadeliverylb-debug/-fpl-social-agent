@@ -5921,35 +5921,15 @@
       "type": "full_time",
       "posted_at": "2026-09-14T21:38:50.724916+00:00",
       "tweet_id": "2099613871283839312"
+    },
+    {
+      "key": "bonus:37",
+      "type": "bonus_points",
+      "posted_at": "2026-09-14T21:39:33.400809+00:00",
+      "tweet_id": "2099614050334453814"
     }
   ],
   "live_queue": [
-    {
-      "key": "bonus:37",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:37",
-        "home": "TOT",
-        "away": "EVE",
-        "score": "0-0",
-        "players": [
-          {
-            "name": "Mykolenko",
-            "points": 3
-          },
-          {
-            "name": "Tarkowski",
-            "points": 2
-          },
-          {
-            "name": "Robertson",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_37.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: TOT 0-0 EVE.\nMykolenko +3, Tarkowski +2, Robertson +1.\n\n#FPL #FPLTips #FPLTwitter #FantasyFootball #TOTvEVE"
-    },
     {
       "key": "fulltime:36",
       "story": {
