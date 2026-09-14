@@ -5269,12 +5269,7 @@
   },
   "last_snapshot_at": "2026-09-14T11:29:27.564837+00:00",
   "recapped_events": [],
-  "last_post_at": null,
-  "last_post_at_by_category": {
-    "price_change": null,
-    "status_change": null,
-    "deadline_reminder": null,
-    "gw_recap": null
-  },
-  "pending": []
+  "pending": [],
+  "handled_keys": [],
+  "post_log": []
 }
