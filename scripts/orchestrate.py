@@ -149,10 +149,12 @@ def _publish_one(state, item, dry_run, log_key="post_log"):
         ig_result = "skipped (Instagram not configured)"
 
     now = datetime.now(timezone.utc)
+    tweet_id = x_result.get("id") if isinstance(x_result, dict) else None
     state.setdefault(log_key, []).append({
         "key": item["key"],
         "type": story["type"],
         "posted_at": now.isoformat(),
+        "tweet_id": tweet_id,
     })
 
     if log_key == "post_log":
