@@ -5433,6 +5433,13 @@
       "40:332:assists": 1,
       "40:345:assists": 1,
       "40:459:own_goals": 1
+    },
+    "last_goal": {
+      "40:h": {
+        "player": "Calvert-Lewin",
+        "team": "LEE",
+        "assisted_by": null
+      }
     }
   },
   "live_post_log": [
