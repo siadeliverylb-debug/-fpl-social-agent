@@ -2,6 +2,7 @@
 
   python orchestrate.py scan     -- fetch news, draft new stories, queue for Slack review
   python orchestrate.py publish  -- resolve pending drafts (approved / rejected / timed out)
+  python orchestrate.py live     -- poll live fixtures, auto-post goals/cards/etc immediately
 
 State (state.json) persists across runs via git commit from the workflow.
 """
@@ -16,6 +17,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 import fetch_news
 import generate_content
+import live_events
 import post_instagram
 import post_x
 import slack_review
@@ -27,6 +29,12 @@ GENERATED_DIR = os.path.join(REPO_ROOT, "assets", "generated")
 APPROVAL_TIMEOUT_HOURS = 3
 MIN_GAP_MINUTES = 90
 MAX_POSTS_PER_DAY = 5
+
+# Live match events (goals/cards/penalties/kickoff/full-time) get their own,
+# much looser cadence -- they're only worth posting while still live, and a
+# single match day can have far more than 5 FPL-relevant moments.
+LIVE_MIN_GAP_SECONDS = 10
+LIVE_MAX_POSTS_PER_DAY = 150
 
 
 def load_state():
@@ -62,6 +70,17 @@ def can_post_now(state, now):
     today = now.date().isoformat()
     count_today = sum(1 for e in log if e["posted_at"].startswith(today))
     return count_today < MAX_POSTS_PER_DAY
+
+
+def can_post_live_now(state, now):
+    log = state.get("live_post_log", [])
+    if log:
+        last_dt = datetime.fromisoformat(log[-1]["posted_at"])
+        if (now - last_dt).total_seconds() < LIVE_MIN_GAP_SECONDS:
+            return False
+    today = now.date().isoformat()
+    count_today = sum(1 for e in log if e["posted_at"].startswith(today))
+    return count_today < LIVE_MAX_POSTS_PER_DAY
 
 
 def cmd_scan(dry_run):
@@ -111,7 +130,7 @@ def cmd_scan(dry_run):
     print(f"Scan complete. {new_count} new draft(s) queued.")
 
 
-def _publish_one(state, item, dry_run):
+def _publish_one(state, item, dry_run, log_key="post_log"):
     story = item["story"]
     img_path = _abs_path(item["image_path"])
     caption = item["caption"]
@@ -128,19 +147,45 @@ def _publish_one(state, item, dry_run):
         ig_result = "skipped (Instagram not configured)"
 
     now = datetime.now(timezone.utc)
-    state.setdefault("post_log", []).append({
+    state.setdefault(log_key, []).append({
         "key": item["key"],
         "type": story["type"],
         "posted_at": now.isoformat(),
     })
-    state.setdefault("handled_keys", []).append(item["key"])
 
-    if story["type"] == "gw_recap":
-        state.setdefault("recapped_events", [])
-        if story["gw"] not in state["recapped_events"]:
-            state["recapped_events"].append(story["gw"])
+    if log_key == "post_log":
+        state.setdefault("handled_keys", []).append(item["key"])
+        if story["type"] == "gw_recap":
+            state.setdefault("recapped_events", [])
+            if story["gw"] not in state["recapped_events"]:
+                state["recapped_events"].append(story["gw"])
 
     print(f"Published {item['key']}: x={x_result} ig={ig_result}")
+
+
+def cmd_live(dry_run):
+    state = load_state()
+    stories = live_events.fetch_live_events(state)
+    now = datetime.now(timezone.utc)
+
+    posted = 0
+    for story in stories:
+        key = story["key"]
+        img_path = os.path.join(GENERATED_DIR, f"live_{key.replace(':', '_')}.png")
+        generate_content.render_card(story, img_path)
+        caption = generate_content.build_caption(story)
+        item = {"key": key, "story": story, "image_path": _rel_path(img_path), "caption": caption}
+
+        if not can_post_live_now(state, now):
+            print(f"Skipping {key}: live cadence cap hit")
+            continue
+
+        _publish_one(state, item, dry_run, log_key="live_post_log")
+        now = datetime.now(timezone.utc)
+        posted += 1
+
+    save_state(state)
+    print(f"Live pass complete. {posted}/{len(stories)} event(s) posted.")
 
 
 def cmd_publish(dry_run, force=False):
@@ -178,12 +223,14 @@ def cmd_publish(dry_run, force=False):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("mode", choices=["scan", "publish"])
+    parser.add_argument("mode", choices=["scan", "publish", "live"])
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--force", action="store_true", help="publish bypassing cadence caps (manual override)")
     args = parser.parse_args()
 
     if args.mode == "scan":
         cmd_scan(args.dry_run)
-    else:
+    elif args.mode == "publish":
         cmd_publish(args.dry_run, force=args.force)
+    else:
+        cmd_live(args.dry_run)

@@ -1,16 +1,12 @@
-name: FPL Post Publisher
+name: FPL Live Events
 
 on:
   schedule:
-    - cron: "15,45 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:
         description: "Dry run (skip actual posting)"
-        type: boolean
-        default: false
-      force:
-        description: "Force publish approved items now, bypassing cadence caps"
         type: boolean
         default: false
 
@@ -22,7 +18,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  publish:
+  live:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -33,10 +29,8 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Run publish
+      - name: Run live
         env:
-          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
@@ -44,13 +38,13 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_BUSINESS_ACCOUNT_ID: ${{ secrets.IG_BUSINESS_ACCOUNT_ID }}
         run: |
-          python scripts/orchestrate.py publish ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }} ${{ github.event.inputs.force == 'true' && '--force' || '' }}
+          python scripts/orchestrate.py live ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }}
 
-      - name: Commit updated state
+      - name: Commit updated state and generated cards
         run: |
           git config user.name "fpl-social-agent-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add state.json
-          git diff --cached --quiet || git commit -m "Publish: update state after resolving pending drafts [skip ci]"
+          git add state.json assets/generated
+          git diff --cached --quiet || git commit -m "Live: post match events [skip ci]"
           git pull --rebase
           git push

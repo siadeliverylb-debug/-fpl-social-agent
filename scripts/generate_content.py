@@ -145,6 +145,18 @@ STATUS_CARD_META = {
     "availability": ("AVAILABILITY UPDATE", None, WARN),
 }
 
+# type -> (eyebrow, hero, color) -- hero is plain text, not emoji: the card
+# font (Roboto) has no color-emoji glyphs and renders them as tofu boxes.
+LIVE_EVENT_META = {
+    "goal": ("GOAL", "GOAL!", ACCENT),
+    "assist": ("ASSIST", "ASSIST", ACCENT),
+    "yellow_card": ("YELLOW CARD", "BOOKED", WARN),
+    "red_card": ("RED CARD", "SENT OFF", ALERT),
+    "penalty_miss": ("PENALTY MISSED", "MISSED", ALERT),
+    "penalty_save": ("PENALTY SAVED", "SAVED", ACCENT),
+    "own_goal": ("OWN GOAL", "OWN GOAL", ALERT),
+}
+
 
 def render_card(story, out_path):
     t = story["type"]
@@ -179,6 +191,25 @@ def render_card(story, out_path):
         subtext = "Did your team beat it? Full breakdown in the caption."
         hero_color = ACCENT
         hashtags = f"{CARD_HASHTAGS} #GW{story['gw']}"
+    elif t == "kickoff":
+        eyebrow = "KICK-OFF"
+        hero = "LIVE"
+        headline = f"{story['home']} vs {story['away']}"
+        subtext = "Follow the FPL-relevant moments as they happen."
+        hero_color = ACCENT
+        hashtags = f"{CARD_HASHTAGS} #{story['home']}v{story['away']}"
+    elif t == "full_time":
+        eyebrow = "FULL-TIME"
+        hero = story["score"]
+        headline = f"{story['home']} vs {story['away']}"
+        subtext = "Full recap and bonus points once confirmed."
+        hero_color = ACCENT
+        hashtags = f"{CARD_HASHTAGS} #{story['home']}v{story['away']}"
+    elif t in LIVE_EVENT_META:
+        eyebrow, hero, hero_color = LIVE_EVENT_META[t]
+        headline = f"{story['player']} ({story['team']})"
+        subtext = f"{story['home']} {story['score']} {story['away']}"
+        hashtags = f"{CARD_HASHTAGS} #{story['team']}"
     else:
         eyebrow = "FPL NEWS"
         hero = "UPDATE"
@@ -259,6 +290,51 @@ RECAP_HOOKS = [
     "Beat it, matched it, or fell short?",
     "Where did that leave your rank?",
 ]
+GOAL_HOOKS = [
+    "Have him in your team?",
+    "Nailed on captain material?",
+    "Who's benefiting from that in FPL?",
+    "Big green arrow incoming for whoever owns him.",
+]
+ASSIST_HOOKS = [
+    "Quietly racking up the returns.",
+    "Underrated FPL pick, or expected?",
+    "Attacking returns keep coming for him.",
+]
+CARD_HOOKS = [
+    "Does this change your captaincy call?",
+    "Risk of a ban building here.",
+    "Worth keeping an eye on for next week.",
+]
+RED_CARD_HOOKS = [
+    "That's a missed fixture (or more) coming up.",
+    "Big blow for their FPL assets this week.",
+    "Does this change your transfer plans?",
+]
+PENALTY_MISS_HOOKS = [
+    "Will he still be on penalties next time?",
+    "Costly miss for anyone banking on the goal.",
+    "Does this change the pen-taker pecking order?",
+]
+PENALTY_SAVE_HOOKS = [
+    "Huge moment for his clean sheet odds.",
+    "Goalkeeper picks looking good right now.",
+    "That could be worth a green arrow for his owners.",
+]
+OWN_GOAL_HOOKS = [
+    "Rough moment -- feel for him.",
+    "Unlucky stat for anyone with him at the back.",
+]
+KICKOFF_HOOKS = [
+    "Who are you backing for returns?",
+    "Any of your players out there?",
+    "Let's see what this one brings.",
+]
+FULL_TIME_HOOKS = [
+    "How did your FPL assets do?",
+    "Any big returns from this one?",
+    "Bonus points still to be confirmed.",
+]
 
 
 def build_caption(story):
@@ -298,6 +374,57 @@ def build_caption(story):
             f"\U0001F525 GW{story['gw']} is in the books. Top score: {story.get('highest_score')} pts. "
             f"Most captained ID: {story.get('most_captained')}.\n\n"
             f"{hook} {tags}"
+        )
+    if t == "kickoff":
+        hook = random.choice(KICKOFF_HOOKS)
+        return f"⚽ KICK-OFF: {story['home']} vs {story['away']}.\n\n{hook} {tags}"
+    if t == "full_time":
+        hook = random.choice(FULL_TIME_HOOKS)
+        return (
+            f"\U0001F4CB FULL-TIME: {story['home']} {story['score']} {story['away']}.\n\n"
+            f"{hook} {tags}"
+        )
+    if t == "goal":
+        hook = random.choice(GOAL_HOOKS)
+        return (
+            f"⚽ GOAL! {story['player']} ({story['team']})! "
+            f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
+        )
+    if t == "assist":
+        hook = random.choice(ASSIST_HOOKS)
+        return (
+            f"\U0001F3AF ASSIST: {story['player']} ({story['team']}) with the assist! "
+            f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
+        )
+    if t == "yellow_card":
+        hook = random.choice(CARD_HOOKS)
+        return (
+            f"\U0001F7E8 YELLOW CARD: {story['player']} ({story['team']}) is booked. "
+            f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
+        )
+    if t == "red_card":
+        hook = random.choice(RED_CARD_HOOKS)
+        return (
+            f"\U0001F7E5 RED CARD: {story['player']} ({story['team']}) is sent off! "
+            f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
+        )
+    if t == "penalty_miss":
+        hook = random.choice(PENALTY_MISS_HOOKS)
+        return (
+            f"❌ PENALTY MISSED: {story['player']} ({story['team']}) can't convert! "
+            f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
+        )
+    if t == "penalty_save":
+        hook = random.choice(PENALTY_SAVE_HOOKS)
+        return (
+            f"\U0001F9E4 PENALTY SAVED: {story['player']} ({story['team']}) with the stop! "
+            f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
+        )
+    if t == "own_goal":
+        hook = random.choice(OWN_GOAL_HOOKS)
+        return (
+            f"\U0001F6A8 OWN GOAL: {story['player']} ({story['team']}). "
+            f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
         )
     return f"FPL update. {tags}"
 

@@ -5303,5 +5303,133 @@
       "type": "status_change",
       "posted_at": "2026-09-14T17:52:41.249627+00:00"
     }
-  ]
+  ],
+  "live": {
+    "fixtures": {
+      "31": {
+        "started": true,
+        "finished": false
+      },
+      "32": {
+        "started": true,
+        "finished": false
+      },
+      "33": {
+        "started": true,
+        "finished": false
+      },
+      "34": {
+        "started": true,
+        "finished": false
+      },
+      "35": {
+        "started": true,
+        "finished": false
+      },
+      "37": {
+        "started": true,
+        "finished": false
+      },
+      "36": {
+        "started": true,
+        "finished": false
+      },
+      "38": {
+        "started": true,
+        "finished": false
+      },
+      "39": {
+        "started": true,
+        "finished": false
+      },
+      "40": {
+        "started": false,
+        "finished": false
+      }
+    },
+    "stats": {
+      "31:52:goals_scored": 1,
+      "31:167:goals_scored": 1,
+      "31:491:goals_scored": 1,
+      "31:45:assists": 1,
+      "31:472:assists": 1,
+      "31:480:assists": 1,
+      "31:33:yellow_cards": 1,
+      "31:166:yellow_cards": 1,
+      "31:167:yellow_cards": 1,
+      "31:472:yellow_cards": 1,
+      "31:483:yellow_cards": 1,
+      "31:486:yellow_cards": 1,
+      "31:558:yellow_cards": 1,
+      "32:68:goals_scored": 1,
+      "32:70:goals_scored": 1,
+      "32:94:goals_scored": 2,
+      "32:79:assists": 1,
+      "32:102:assists": 1,
+      "32:60:yellow_cards": 1,
+      "32:64:yellow_cards": 1,
+      "32:68:yellow_cards": 1,
+      "32:71:yellow_cards": 1,
+      "32:74:yellow_cards": 1,
+      "32:106:yellow_cards": 1,
+      "33:40:goals_scored": 1,
+      "33:165:goals_scored": 1,
+      "33:286:goals_scored": 2,
+      "33:154:assists": 1,
+      "33:165:assists": 1,
+      "33:282:assists": 1,
+      "33:295:assists": 1,
+      "33:568:yellow_cards": 1,
+      "33:240:yellow_cards": 1,
+      "33:277:yellow_cards": 1,
+      "33:289:yellow_cards": 1,
+      "33:295:yellow_cards": 1,
+      "33:638:yellow_cards": 1,
+      "34:222:goals_scored": 1,
+      "34:588:goals_scored": 1,
+      "34:305:goals_scored": 1,
+      "34:316:goals_scored": 1,
+      "34:640:goals_scored": 1,
+      "34:214:assists": 2,
+      "34:305:assists": 2,
+      "34:316:assists": 1,
+      "34:202:yellow_cards": 1,
+      "34:267:yellow_cards": 1,
+      "34:313:yellow_cards": 1,
+      "34:315:yellow_cards": 1,
+      "34:153:red_cards": 1,
+      "35:256:yellow_cards": 1,
+      "37:236:yellow_cards": 1,
+      "37:239:yellow_cards": 1,
+      "36:12:goals_scored": 1,
+      "36:452:goals_scored": 1,
+      "36:13:assists": 1,
+      "36:1:penalties_saved": 1,
+      "36:542:penalties_missed": 1,
+      "36:532:yellow_cards": 1,
+      "36:533:yellow_cards": 1,
+      "36:544:yellow_cards": 1,
+      "36:552:yellow_cards": 1,
+      "36:4:yellow_cards": 1,
+      "36:26:yellow_cards": 1,
+      "36:536:red_cards": 1,
+      "38:116:goals_scored": 1,
+      "38:124:goals_scored": 1,
+      "38:129:goals_scored": 1,
+      "38:138:goals_scored": 1,
+      "38:605:goals_scored": 1,
+      "38:124:assists": 2,
+      "38:115:assists": 1,
+      "38:138:assists": 1,
+      "38:639:assists": 1,
+      "38:492:red_cards": 1,
+      "39:411:goals_scored": 1,
+      "39:391:assists": 1,
+      "39:418:yellow_cards": 1,
+      "39:155:yellow_cards": 1,
+      "39:391:yellow_cards": 1,
+      "39:398:red_cards": 1
+    }
+  },
+  "live_post_log": []
 }
