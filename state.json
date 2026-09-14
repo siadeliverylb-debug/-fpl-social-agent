@@ -5693,24 +5693,14 @@
       "key": "sub:31:33",
       "type": "substitution",
       "posted_at": "2026-09-14T20:44:14.272425+00:00"
+    },
+    {
+      "key": "sub:31:52",
+      "type": "substitution",
+      "posted_at": "2026-09-14T20:44:58.412271+00:00"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:31:52",
-      "story": {
-        "type": "substitution",
-        "key": "sub:31:52",
-        "player": "Alysson",
-        "team": "AVL",
-        "home": "AVL",
-        "away": "NFO",
-        "score": "0-0",
-        "minute": 45
-      },
-      "image_path": "assets/generated/live_sub_31_52.png",
-      "caption": "\ud83d\udd04 SUB! 45' Alysson (AVL) is on. AVL 0-0 NFO.\n\nImpact sub, or too little too late? #FPL #FPLCommunity #FantasyPremierLeague #FPLTwitter #AVL"
-    },
     {
       "key": "sub:31:53",
       "story": {
