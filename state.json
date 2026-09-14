@@ -5969,22 +5969,15 @@
       "type": "bonus_points",
       "posted_at": "2026-09-14T21:48:53.881869+00:00",
       "tweet_id": "2099616400981512515"
+    },
+    {
+      "key": "fulltime:39",
+      "type": "full_time",
+      "posted_at": "2026-09-14T21:49:36.587382+00:00",
+      "tweet_id": "2099616580191580405"
     }
   ],
   "live_queue": [
-    {
-      "key": "fulltime:39",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:39",
-        "home": "MUN",
-        "away": "MCI",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_39.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): MUN 0-0 MCI.\n\nAny big returns from this one? #FPL #FPLTips #FPLCommunity #FantasyPremierLeague"
-    },
     {
       "key": "bonus:39",
       "story": {
