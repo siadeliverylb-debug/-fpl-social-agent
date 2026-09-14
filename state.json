@@ -5873,35 +5873,15 @@
       "type": "full_time",
       "posted_at": "2026-09-14T21:32:12.870766+00:00",
       "tweet_id": "2099612202529427959"
+    },
+    {
+      "key": "bonus:32",
+      "type": "bonus_points",
+      "posted_at": "2026-09-14T21:32:55.755687+00:00",
+      "tweet_id": "2099612382322434275"
     }
   ],
   "live_queue": [
-    {
-      "key": "bonus:32",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:32",
-        "home": "BOU",
-        "away": "BRE",
-        "score": "0-0",
-        "players": [
-          {
-            "name": "Schade",
-            "points": 3
-          },
-          {
-            "name": "Tavernier",
-            "points": 2
-          },
-          {
-            "name": "Kluivert",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_32.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: BOU 0-0 BRE.\nSchade +3, Tavernier +2, Kluivert +1.\n\n#FPL #FPLFamily #FantasyFootball #FPLCommunity #BOUvBRE"
-    },
     {
       "key": "fulltime:33",
       "story": {
