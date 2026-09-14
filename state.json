@@ -4466,6 +4466,14 @@
       "news": "",
       "news_added": null
     },
+    "659": {
+      "web_name": "Miley",
+      "team": "NEW",
+      "now_cost": 45,
+      "status": "a",
+      "news": "",
+      "news_added": null
+    },
     "167": {
       "web_name": "Delap",
       "team": "NFO",
@@ -5267,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-14T21:39:48.654417+00:00",
+  "last_snapshot_at": "2026-09-14T22:05:46.130719+00:00",
   "recapped_events": [
     1,
     2,
