@@ -5698,24 +5698,14 @@
       "key": "sub:31:52",
       "type": "substitution",
       "posted_at": "2026-09-14T20:44:58.412271+00:00"
+    },
+    {
+      "key": "sub:31:53",
+      "type": "substitution",
+      "posted_at": "2026-09-14T20:45:41.426014+00:00"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:31:53",
-      "story": {
-        "type": "substitution",
-        "key": "sub:31:53",
-        "player": "Manzambi",
-        "team": "AVL",
-        "home": "AVL",
-        "away": "NFO",
-        "score": "0-0",
-        "minute": 27
-      },
-      "image_path": "assets/generated/live_sub_31_53.png",
-      "caption": "\ud83d\udd04 SUB! 27' Manzambi (AVL) is on. AVL 0-0 NFO.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FPLCommunity #FPLTwitter #AVL"
-    },
     {
       "key": "sub:31:56",
       "story": {
