@@ -5867,22 +5867,15 @@
       "type": "bonus_points",
       "posted_at": "2026-09-14T21:31:29.825989+00:00",
       "tweet_id": "2099612022019129435"
+    },
+    {
+      "key": "fulltime:32",
+      "type": "full_time",
+      "posted_at": "2026-09-14T21:32:12.870766+00:00",
+      "tweet_id": "2099612202529427959"
     }
   ],
   "live_queue": [
-    {
-      "key": "fulltime:32",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:32",
-        "home": "BOU",
-        "away": "BRE",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_32.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): BOU 0-0 BRE.\n\nHow did your FPL assets do? #FPL #FPLTips #FPLCommunity #FPLFamily"
-    },
     {
       "key": "bonus:32",
       "story": {
