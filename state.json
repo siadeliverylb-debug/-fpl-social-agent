@@ -5879,22 +5879,15 @@
       "type": "bonus_points",
       "posted_at": "2026-09-14T21:32:55.755687+00:00",
       "tweet_id": "2099612382322434275"
+    },
+    {
+      "key": "fulltime:33",
+      "type": "full_time",
+      "posted_at": "2026-09-14T21:33:38.853814+00:00",
+      "tweet_id": "2099612563113713992"
     }
   ],
   "live_queue": [
-    {
-      "key": "fulltime:33",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:33",
-        "home": "CHE",
-        "away": "HUL",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_33.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): CHE 0-0 HUL.\n\nHow did your FPL assets do? #FPL #FPLTwitter #FantasyFootball #FantasyPremierLeague"
-    },
     {
       "key": "bonus:33",
       "story": {
