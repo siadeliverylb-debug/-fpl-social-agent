@@ -5539,22 +5539,12 @@
       "key": "goal:40:330:1",
       "type": "goal",
       "posted_at": "2026-09-14T20:06:28.514440+00:00"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "own_goal:40:459:1",
-      "story": {
-        "type": "own_goal",
-        "key": "own_goal:40:459:1",
-        "player": "L.Miley",
-        "team": "NEW",
-        "home": "LEE",
-        "away": "NEW",
-        "score": "3-0"
-      },
-      "image_path": "assets/generated/live_own_goal_40_459_1.png",
-      "caption": "\ud83d\udea8 OWN GOAL: L.Miley (NEW). LEE 3-0 NEW.\n\nUnlucky stat for anyone with him at the back. #FPL #FPLTwitter #FPLFamily #PremierLeague #NEW"
+      "type": "own_goal",
+      "posted_at": "2026-09-14T20:10:45.110720+00:00"
     }
-  ]
+  ],
+  "live_queue": []
 }
