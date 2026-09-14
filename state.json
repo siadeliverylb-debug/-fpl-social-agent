@@ -5708,24 +5708,14 @@
       "key": "sub:31:56",
       "type": "substitution",
       "posted_at": "2026-09-14T20:46:24.556732+00:00"
+    },
+    {
+      "key": "sub:31:488",
+      "type": "substitution",
+      "posted_at": "2026-09-14T20:47:07.451472+00:00"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:31:488",
-      "story": {
-        "type": "substitution",
-        "key": "sub:31:488",
-        "player": "I.Sangar\u00e9",
-        "team": "NFO",
-        "home": "AVL",
-        "away": "NFO",
-        "score": "0-0",
-        "minute": 8
-      },
-      "image_path": "assets/generated/live_sub_31_488.png",
-      "caption": "\ud83d\udd04 SUB! 8' I.Sangar\u00e9 (NFO) is on. AVL 0-0 NFO.\n\nWorth watching for a late returns. #FPL #FPLTips #FantasyFootball #FPLTwitter #NFO"
-    },
     {
       "key": "sub:31:490",
       "story": {
