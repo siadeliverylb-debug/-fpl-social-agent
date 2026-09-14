@@ -926,9 +926,9 @@
       "web_name": "Furo",
       "team": "BRE",
       "now_cost": 45,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "i",
+      "news": "Unspecified injury - Unknown return date",
+      "news_added": "2026-09-14T14:00:09.985723Z"
     },
     "108": {
       "web_name": "Wilson",
@@ -5267,13 +5267,31 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-14T13:50:14.543466+00:00",
+  "last_snapshot_at": "2026-09-14T14:02:54.896430+00:00",
   "recapped_events": [
     1,
     2,
     3
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "status:107:2026-09-14T14:00:09.985723Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:107:2026-09-14T14:00:09.985723Z",
+        "player": "Furo",
+        "team": "BRE",
+        "status": "injured",
+        "news": "Unspecified injury - Unknown return date"
+      },
+      "image_path": "/home/runner/work/-fpl-social-agent/-fpl-social-agent/scripts/../assets/generated/status_107_2026-09-14T14_00_09.985723Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Furo (BRE) is injured.\n\"Unspecified injury - Unknown return date\"\n\nDoes this wreck your GW plan? #FPL #FantasyPremierLeague #FPLCommunity",
+      "created_at": "2026-09-14T14:02:57.980383+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789394577.853809",
+      "auto": false
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3"
