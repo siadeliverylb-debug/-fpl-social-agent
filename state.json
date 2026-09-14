@@ -5750,24 +5750,12 @@
       "key": "yellow_card:40:450:1",
       "type": "yellow_card",
       "posted_at": "2026-09-14T20:54:14.122554+00:00"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "goal:40:461:1",
-      "story": {
-        "type": "goal",
-        "key": "goal:40:461:1",
-        "player": "Tour\u00e9",
-        "team": "NEW",
-        "home": "LEE",
-        "away": "NEW",
-        "minute": 90,
-        "score": "4-1",
-        "assisted_by": "Livramento"
-      },
-      "image_path": "assets/generated/live_goal_40_461_1.png",
-      "caption": "\u26bd GOAL! 90' Tour\u00e9 (NEW)! Assisted by Livramento. LEE 4-1 NEW.\n\nHave him in your team? #FPL #PremierLeague #FPLTips #FPLFamily #NEW"
+      "type": "goal",
+      "posted_at": "2026-09-14T20:54:57.555501+00:00"
     }
-  ]
+  ],
+  "live_queue": []
 }
