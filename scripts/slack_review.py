@@ -1,7 +1,7 @@
 """Post drafts to Slack for approval and check reaction status.
 
 Requires a Slack bot token (xoxb-...) with scopes: chat:write, reactions:read,
-files:write, files:read. The bot must be invited to the target channel.
+files:write. The bot must be invited to the target channel.
 
 Env vars:
   SLACK_BOT_TOKEN
@@ -65,24 +65,15 @@ def post_draft(image_path, caption, story):
     if not complete_data.get("ok"):
         raise RuntimeError(f"Slack completeUploadExternal failed: {complete_data}")
 
-    info_resp = requests.get(
-        f"{SLACK_API}/files.info",
-        headers=_token(),
-        params={"file": file_id},
-        timeout=15,
-    )
-    info_data = info_resp.json()
-    if not info_data.get("ok"):
-        raise RuntimeError(f"Slack files.info failed: {info_data}")
-
-    shares = info_data["file"].get("shares", {})
+    files = complete_data.get("files", [])
+    shares = files[0].get("shares", {}) if files else {}
     ts = None
     for group in ("public", "private"):
         for _chan, msgs in shares.get(group, {}).items():
             if msgs:
                 ts = msgs[0]["ts"]
     if ts is None:
-        raise RuntimeError(f"Could not determine message ts from Slack response: {info_data}")
+        raise RuntimeError(f"Could not determine message ts from Slack response: {complete_data}")
 
     return _channel(), ts
 
