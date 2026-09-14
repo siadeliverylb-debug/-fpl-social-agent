@@ -29,7 +29,7 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Run live
+      - name: Poll repeatedly for ~4 minutes
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
@@ -38,13 +38,17 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_BUSINESS_ACCOUNT_ID: ${{ secrets.IG_BUSINESS_ACCOUNT_ID }}
         run: |
-          python scripts/orchestrate.py live ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }}
-
-      - name: Commit updated state and generated cards
-        run: |
+          # GitHub's own schedule trigger is "best effort" and gets delayed
+          # under load, often well past the configured 5-minute cron -- so
+          # each firing polls several times internally (fast, ~40s apart)
+          # instead of relying on the outer schedule for granularity.
           git config user.name "fpl-social-agent-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add state.json assets/generated
-          git diff --cached --quiet || git commit -m "Live: post match events [skip ci]"
-          git pull --rebase
-          git push
+          for i in 1 2 3 4 5 6; do
+            python scripts/orchestrate.py live ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }}
+            git add state.json assets/generated
+            git diff --cached --quiet || git commit -m "Live: post match events [skip ci]"
+            git pull --rebase
+            git push
+            if [ "$i" -lt 6 ]; then sleep 40; fi
+          done
