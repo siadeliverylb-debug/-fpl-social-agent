@@ -5512,7 +5512,10 @@
       "40:346:assists": 1,
       "40:336:goals_scored": 1,
       "40:338:assists": 1,
-      "40:457:yellow_cards": 1
+      "40:457:yellow_cards": 1,
+      "40:461:goals_scored": 1,
+      "40:450:assists": 1,
+      "40:450:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -5520,12 +5523,18 @@
         "team": "LEE",
         "assisted_by": "Ampadu",
         "score": "4-0"
+      },
+      "40:a": {
+        "player": "Tour\u00e9",
+        "team": "NEW",
+        "assisted_by": "Livramento",
+        "score": "4-1"
       }
     },
     "posted_score": {
       "40": [
         4,
-        0
+        1
       ],
       "31": [
         0,
@@ -5650,7 +5659,8 @@
       "40:461": true,
       "40:462": true,
       "40:559": true,
-      "40:641": true
+      "40:641": true,
+      "40:339": true
     },
     "subs_baselined": {
       "31": true,
@@ -5730,7 +5740,44 @@
       "key": "sub:31:490",
       "type": "substitution",
       "posted_at": "2026-09-14T20:47:50.376593+00:00"
+    },
+    {
+      "key": "sub:40:339",
+      "type": "substitution",
+      "posted_at": "2026-09-14T20:53:31.311126+00:00"
     }
   ],
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "yellow_card:40:450:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:40:450:1",
+        "player": "Livramento",
+        "team": "NEW",
+        "home": "LEE",
+        "away": "NEW",
+        "minute": 90,
+        "score": "4-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_40_450_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Livramento (NEW) is booked. LEE 4-0 NEW.\n\nDoes this change your captaincy call? #FPL #FantasyPremierLeague #PremierLeague #FPLCommunity #NEW"
+    },
+    {
+      "key": "goal:40:461:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:40:461:1",
+        "player": "Tour\u00e9",
+        "team": "NEW",
+        "home": "LEE",
+        "away": "NEW",
+        "minute": 90,
+        "score": "4-1",
+        "assisted_by": "Livramento"
+      },
+      "image_path": "assets/generated/live_goal_40_461_1.png",
+      "caption": "\u26bd GOAL! 90' Tour\u00e9 (NEW)! Assisted by Livramento. LEE 4-1 NEW.\n\nHave him in your team? #FPL #PremierLeague #FPLTips #FPLFamily #NEW"
+    }
+  ]
 }
