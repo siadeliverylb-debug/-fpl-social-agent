@@ -5509,18 +5509,58 @@
       "40:334:assists": 1,
       "40:346:yellow_cards": 1,
       "40:330:goals_scored": 1,
-      "40:346:assists": 1
+      "40:346:assists": 1,
+      "40:336:goals_scored": 1,
+      "40:338:assists": 1,
+      "40:457:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
-        "player": "Bogle",
+        "player": "Okafor",
         "team": "LEE",
-        "assisted_by": "Calvert-Lewin"
+        "assisted_by": "Ampadu",
+        "score": "4-0"
       }
     },
     "posted_score": {
       "40": [
-        3,
+        4,
+        0
+      ],
+      "31": [
+        0,
+        0
+      ],
+      "32": [
+        0,
+        0
+      ],
+      "33": [
+        0,
+        0
+      ],
+      "34": [
+        0,
+        0
+      ],
+      "35": [
+        0,
+        0
+      ],
+      "37": [
+        0,
+        0
+      ],
+      "36": [
+        0,
+        0
+      ],
+      "38": [
+        0,
+        0
+      ],
+      "39": [
+        0,
         0
       ]
     }
@@ -5550,7 +5590,28 @@
       "key": "own_goal:40:459:1",
       "type": "own_goal",
       "posted_at": "2026-09-14T20:10:45.110720+00:00"
+    },
+    {
+      "key": "yellow_card:40:457:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-14T20:21:43.523061+00:00"
     }
   ],
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "goal:40:336:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:40:336:1",
+        "player": "Okafor",
+        "team": "LEE",
+        "home": "LEE",
+        "away": "NEW",
+        "score": "4-0",
+        "assisted_by": "Ampadu"
+      },
+      "image_path": "assets/generated/live_goal_40_336_1.png",
+      "caption": "\u26bd GOAL! Okafor (LEE)! Assisted by Ampadu. LEE 4-0 NEW.\n\nNailed on captain material? #FPL #FPLTips #FPLFamily #FPLTwitter #LEE"
+    }
+  ]
 }
