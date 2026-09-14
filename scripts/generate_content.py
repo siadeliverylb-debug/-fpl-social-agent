@@ -247,6 +247,8 @@ def render_card(story, out_path):
         subtext = f"{story['home']} {story['score']} {story['away']}"
         if t == "goal" and story.get("assisted_by"):
             subtext = f"Assist: {story['assisted_by']}  |  {subtext}"
+        if t == "substitution" and story.get("subbed_out"):
+            subtext = f"Off: {story['subbed_out']}  |  {subtext}"
         minute_str = _minute_str(story)
         if minute_str:
             subtext = f"{minute_str}  |  {subtext}"
@@ -491,8 +493,9 @@ def build_caption(story):
     if t == "substitution":
         hook = random.choice(SUBSTITUTION_HOOKS)
         minute_tag = f" {_minute_str(story)}" if story.get("minute") is not None else ""
+        off_line = f" Off: {story['subbed_out']}." if story.get("subbed_out") else ""
         return (
-            f"\U0001F504 SUB!{minute_tag} {story['player']} ({story['team']}) is on. "
+            f"\U0001F504 SUB!{minute_tag} {story['player']} ({story['team']}) is on.{off_line} "
             f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
         )
     return f"FPL update. {tags}"

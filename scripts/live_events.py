@@ -38,27 +38,41 @@ def fetch_live_events(state):
     teams = {t["id"]: t["short_name"] for t in bootstrap["teams"]}
 
     fixtures = _fetch_json(f"{FIXTURES_URL}?event={current_event}")
+    fixture_minute = {str(fx["id"]): fx.get("minutes") for fx in fixtures}
+    fixture_active = {str(fx["id"]): fx["started"] and not fx["finished"] for fx in fixtures}
 
     # FPL doesn't expose a "substitutions" stat on the fixtures endpoint at
-    # all -- no event, no pairing of who came off for whom, no minute. The
-    # closest signal is this per-gameweek live-stats endpoint: a player who
-    # didn't start (starts=0) but has accumulated minutes came on at some
-    # point. That's enough to say "X came on", not "X replaced Y at minute Z".
+    # all -- no event, no explicit "off X, on Y" pairing. The closest signal
+    # is this per-gameweek live-stats endpoint: a player who didn't start
+    # (starts=0) but has accumulated minutes came on at some point, and a
+    # player who did start (starts=1) but whose minutes have stalled well
+    # behind the fixture's current match clock has come off. Pairing an
+    # on/off within the same poll for the same team is a best-effort guess,
+    # not a guarantee.
+    OFF_MINUTE_BUFFER = 3
     event_live = _fetch_json(EVENT_LIVE_URL.format(current_event))
     subs_on_by_fixture = {}
+    subs_off_by_fixture = {}
     for el in event_live.get("elements", []):
         minutes = el["stats"].get("minutes", 0)
         starts = el["stats"].get("starts", 0)
-        if starts or minutes <= 0:
-            continue
         for ex in el.get("explain", []):
             fid_key = str(ex["fixture"])
-            subs_on_by_fixture.setdefault(fid_key, []).append((el["id"], minutes))
+            if not starts and minutes > 0:
+                subs_on_by_fixture.setdefault(fid_key, []).append(el["id"])
+            elif (
+                starts
+                and fixture_active.get(fid_key)
+                and fixture_minute.get(fid_key) is not None
+                and minutes < fixture_minute[fid_key] - OFF_MINUTE_BUFFER
+            ):
+                subs_off_by_fixture.setdefault(fid_key, []).append(el["id"])
 
     live = state.setdefault("live", {"fixtures": {}, "stats": {}})
     live.setdefault("posted_score", {})
     live.setdefault("last_goal", {})
     live.setdefault("subs_seen", {})
+    live.setdefault("subs_off_seen", {})
     live.setdefault("subs_baselined", {})
     stories = []
 
@@ -76,8 +90,10 @@ def fetch_live_events(state):
         # bench -- treated as breaking news the moment this code first runs
         # against it, instead of only genuinely new subs from here on.
         if fid not in live["subs_baselined"]:
-            for pid, _minutes in subs_on_by_fixture.get(fid, []):
+            for pid in subs_on_by_fixture.get(fid, []):
                 live["subs_seen"][f"{fid}:{pid}"] = True
+            for pid in subs_off_by_fixture.get(fid, []):
+                live["subs_off_seen"][f"{fid}:{pid}"] = True
             live["subs_baselined"][fid] = True
 
         if is_new_fixture:
@@ -122,22 +138,49 @@ def fetch_live_events(state):
         def score_str():
             return f"{psc[0]}-{psc[1]}"
 
-        for pid, sub_minute in subs_on_by_fixture.get(fid, []):
+        new_on = [pid for pid in subs_on_by_fixture.get(fid, []) if f"{fid}:{pid}" not in live["subs_seen"]]
+        new_off = [pid for pid in subs_off_by_fixture.get(fid, []) if f"{fid}:{pid}" not in live["subs_off_seen"]]
+
+        # Best-effort pairing: match each newly-on player with a newly-off
+        # player from the same team seen this same poll. Leftover off
+        # players (no matching sub this poll -- e.g. a red card, or the
+        # pairing just missed) are still marked seen so they don't linger
+        # and get mis-paired with an unrelated substitution later.
+        off_by_team = {}
+        for off_pid in new_off:
+            off_team = players.get(off_pid, {"team": None})["team"]
+            off_by_team.setdefault(off_team, []).append(off_pid)
+
+        for pid in new_on:
             sub_key = f"{fid}:{pid}"
-            if sub_key in live["subs_seen"]:
-                continue
             live["subs_seen"][sub_key] = True
             player = players.get(pid, {"name": f"Player {pid}", "team": None})
-            stories.append({
+            team_id = player["team"]
+
+            subbed_out = None
+            candidates = off_by_team.get(team_id)
+            if candidates:
+                off_pid = candidates.pop(0)
+                live["subs_off_seen"][f"{fid}:{off_pid}"] = True
+                subbed_out = players.get(off_pid, {"name": f"Player {off_pid}"})["name"]
+
+            story = {
                 "type": "substitution",
                 "key": f"sub:{sub_key}",
                 "player": player["name"],
-                "team": teams.get(player["team"], "?"),
+                "team": teams.get(team_id, "?"),
                 "home": home,
                 "away": away,
                 "score": score_str(),
-                "minute": sub_minute,
-            })
+                "minute": minute,
+            }
+            if subbed_out:
+                story["subbed_out"] = subbed_out
+            stories.append(story)
+
+        for remaining in off_by_team.values():
+            for off_pid in remaining:
+                live["subs_off_seen"][f"{fid}:{off_pid}"] = True
 
         # Goals and assists are buffered per side instead of appended straight
         # to `stories`, so a goal can be paired with its assist (if exactly
