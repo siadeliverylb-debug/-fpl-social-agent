@@ -23,6 +23,22 @@ MUTED = (170, 190, 180)
 
 BRAND = "@fantasy.coach.ai  |  @fantasycoachai"
 
+# #FPL is always kept as the anchor tag; a couple more are rotated in from
+# this pool so posts don't all carry the exact same hashtag set.
+GENERAL_HASHTAG_POOL = [
+    "#FPLCommunity",
+    "#FantasyPremierLeague",
+    "#FantasyFootball",
+    "#FPLTips",
+    "#PremierLeague",
+    "#FPLTwitter",
+    "#FPLFamily",
+]
+
+
+def _random_hashtags(n=2):
+    return "#FPL " + " ".join(random.sample(GENERAL_HASHTAG_POOL, min(n, len(GENERAL_HASHTAG_POOL))))
+
 
 def _font(size, weight=700):
     f = ImageFont.truetype(FONT_PATH, size)
@@ -133,8 +149,6 @@ def _hero_card(eyebrow, hero, headline, subtext=None, hero_color=None, hashtags=
     return img
 
 
-CARD_HASHTAGS = "#FPL #FPLCommunity"
-
 # category -> (eyebrow, hero text or None to fall back to the status label, color)
 STATUS_CARD_META = {
     "injury": ("INJURY ALERT", None, ALERT),
@@ -160,7 +174,8 @@ LIVE_EVENT_META = {
 
 def render_card(story, out_path):
     t = story["type"]
-    hashtags = CARD_HASHTAGS
+    base_tags = _random_hashtags()
+    hashtags = base_tags
 
     if t == "price_change":
         rising = story["direction"] == "rise"
@@ -169,47 +184,47 @@ def render_card(story, out_path):
         headline = f"{story['player']} ({story['team']})"
         subtext = f"{'+' if rising else '-'}£{story['delta_millions']}m price change"
         hero_color = ACCENT if rising else ALERT
-        hashtags = f"{CARD_HASHTAGS} #{story['team']}"
+        hashtags = f"{base_tags} #{story['team']}"
     elif t == "status_change":
         category = story.get("category", "availability")
         eyebrow, hero, hero_color = STATUS_CARD_META.get(category, STATUS_CARD_META["availability"])
         hero = hero or story["status"].upper()
         headline = f"{story['player']} ({story['team']})"
         subtext = story["news"]
-        hashtags = f"{CARD_HASHTAGS} #{story['team']}"
+        hashtags = f"{base_tags} #{story['team']}"
     elif t == "deadline_reminder":
         eyebrow = "DEADLINE ALERT"
         hero = story["bucket"].upper()
         headline = f"GW{story['gw']} DEADLINE"
         subtext = "Lock in transfers and captain now."
         hero_color = WARN
-        hashtags = f"{CARD_HASHTAGS} #GW{story['gw']}"
+        hashtags = f"{base_tags} #GW{story['gw']}"
     elif t == "gw_recap":
         eyebrow = f"GW{story['gw']} RECAP"
         hero = f"{story.get('highest_score', 'N/A')} PTS"
         headline = "TOP SCORE THIS GW"
         subtext = "Did your team beat it? Full breakdown in the caption."
         hero_color = ACCENT
-        hashtags = f"{CARD_HASHTAGS} #GW{story['gw']}"
+        hashtags = f"{base_tags} #GW{story['gw']}"
     elif t == "kickoff":
         eyebrow = "KICK-OFF"
         hero = "LIVE"
         headline = f"{story['home']} vs {story['away']}"
         subtext = "Follow the FPL-relevant moments as they happen."
         hero_color = ACCENT
-        hashtags = f"{CARD_HASHTAGS} #{story['home']}v{story['away']}"
+        hashtags = f"{base_tags} #{story['home']}v{story['away']}"
     elif t == "full_time":
         eyebrow = "FULL-TIME"
         hero = story["score"]
         headline = f"{story['home']} vs {story['away']}"
         subtext = "Full recap and bonus points once confirmed."
         hero_color = ACCENT
-        hashtags = f"{CARD_HASHTAGS} #{story['home']}v{story['away']}"
+        hashtags = f"{base_tags} #{story['home']}v{story['away']}"
     elif t in LIVE_EVENT_META:
         eyebrow, hero, hero_color = LIVE_EVENT_META[t]
         headline = f"{story['player']} ({story['team']})"
         subtext = f"{story['home']} {story['score']} {story['away']}"
-        hashtags = f"{CARD_HASHTAGS} #{story['team']}"
+        hashtags = f"{base_tags} #{story['team']}"
     else:
         eyebrow = "FPL NEWS"
         hero = "UPDATE"
@@ -339,7 +354,7 @@ FULL_TIME_HOOKS = [
 
 def build_caption(story):
     t = story["type"]
-    tags = "#FPL #FantasyPremierLeague #FPLCommunity"
+    tags = _random_hashtags(3)
 
     if t == "price_change":
         if story["direction"] == "rise":
