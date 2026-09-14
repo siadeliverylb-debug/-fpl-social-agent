@@ -5429,16 +5429,18 @@
       "39:155:yellow_cards": 1,
       "39:391:yellow_cards": 1,
       "39:398:red_cards": 1,
-      "40:346:goals_scored": 1,
+      "40:346:goals_scored": 2,
       "40:332:assists": 1,
       "40:345:assists": 1,
-      "40:459:own_goals": 1
+      "40:459:own_goals": 1,
+      "40:334:assists": 1,
+      "40:346:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
         "player": "Calvert-Lewin",
         "team": "LEE",
-        "assisted_by": null
+        "assisted_by": "Muharemovi\u0107"
       }
     }
   },
@@ -5452,6 +5454,11 @@
       "key": "goal:40:346:1",
       "type": "goal",
       "posted_at": "2026-09-14T19:39:18.677377+00:00"
+    },
+    {
+      "key": "yellow_card:40:346:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-14T19:50:35.582699+00:00"
     }
   ]
 }
