@@ -5595,23 +5595,12 @@
       "key": "yellow_card:40:457:1",
       "type": "yellow_card",
       "posted_at": "2026-09-14T20:21:43.523061+00:00"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "goal:40:336:1",
-      "story": {
-        "type": "goal",
-        "key": "goal:40:336:1",
-        "player": "Okafor",
-        "team": "LEE",
-        "home": "LEE",
-        "away": "NEW",
-        "score": "4-0",
-        "assisted_by": "Ampadu"
-      },
-      "image_path": "assets/generated/live_goal_40_336_1.png",
-      "caption": "\u26bd GOAL! Okafor (LEE)! Assisted by Ampadu. LEE 4-0 NEW.\n\nNailed on captain material? #FPL #FPLTips #FPLFamily #FPLTwitter #LEE"
+      "type": "goal",
+      "posted_at": "2026-09-14T20:32:44.963306+00:00"
     }
-  ]
+  ],
+  "live_queue": []
 }
