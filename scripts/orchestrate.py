@@ -58,7 +58,7 @@ def can_post_now(state, now):
 
 def cmd_scan(dry_run):
     state = load_state()
-    stories = fetch_news.main()
+    stories = fetch_news.fetch_stories(state)
 
     handled = set(state.get("handled_keys", []))
     pending_keys = {p["key"] for p in state.get("pending", [])}

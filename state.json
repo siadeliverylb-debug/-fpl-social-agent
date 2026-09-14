@@ -2438,9 +2438,9 @@
       "web_name": "Sessegnon",
       "team": "FUL",
       "now_cost": 44,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Groin injury - 75% chance of playing",
+      "news_added": "2026-09-14T11:30:07.403957Z"
     },
     "270": {
       "web_name": "Reed",
@@ -5267,8 +5267,11 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-14T11:29:27.564837+00:00",
-  "recapped_events": [],
+  "last_snapshot_at": "2026-09-14T13:16:06.279808+00:00",
+  "recapped_events": [
+    1,
+    2
+  ],
   "pending": [
     {
       "key": "status:269:2026-09-14T11:30:07.403957Z",
@@ -5285,40 +5288,6 @@
       "created_at": "2026-09-14T12:49:57.826830+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789390197.748989",
-      "auto": false
-    },
-    {
-      "key": "recap:1",
-      "story": {
-        "type": "gw_recap",
-        "key": "recap:1",
-        "gw": 1,
-        "most_captained": 411,
-        "highest_score": 131,
-        "most_selected": 411
-      },
-      "image_path": "/home/runner/work/-fpl-social-agent/-fpl-social-agent/scripts/../assets/generated/recap_1.png",
-      "caption": "GW1 in the books. Highest score: 131 pts. Most captained ID: 411.\n\nHow did your team do? #FPL #FantasyPremierLeague #FPLCommunity",
-      "created_at": "2026-09-14T12:50:00.287634+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789390200.215859",
-      "auto": false
-    },
-    {
-      "key": "recap:2",
-      "story": {
-        "type": "gw_recap",
-        "key": "recap:2",
-        "gw": 2,
-        "most_captained": 411,
-        "highest_score": 161,
-        "most_selected": 165
-      },
-      "image_path": "/home/runner/work/-fpl-social-agent/-fpl-social-agent/scripts/../assets/generated/recap_2.png",
-      "caption": "GW2 in the books. Highest score: 161 pts. Most captained ID: 411.\n\nHow did your team do? #FPL #FantasyPremierLeague #FPLCommunity",
-      "created_at": "2026-09-14T12:50:02.746695+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789390202.672619",
       "auto": false
     },
     {

@@ -108,23 +108,36 @@ def deadline_stories(data, now=None):
 
 
 def recap_stories(data, state):
-    stories = []
+    """Only the most recently finished gameweek is worth a recap post -- older
+    unrecapped ones are stale by the time we'd get to them, so silently mark
+    them recapped (in `state`) without ever generating a story for them."""
     recapped = set(state.get("recapped_events", []))
-    for ev in data["events"]:
-        if ev["finished"] and ev["id"] not in recapped:
-            stories.append({
-                "type": "gw_recap",
-                "key": f"recap:{ev['id']}",
-                "gw": ev["id"],
-                "most_captained": ev.get("most_captained"),
-                "highest_score": ev.get("highest_score"),
-                "most_selected": ev.get("most_selected"),
-            })
-    return stories
+    unrecapped_finished = sorted(
+        ev["id"] for ev in data["events"] if ev["finished"] and ev["id"] not in recapped
+    )
+    if not unrecapped_finished:
+        return []
+
+    *stale, latest = unrecapped_finished
+    state.setdefault("recapped_events", [])
+    state["recapped_events"].extend(stale)
+
+    ev = next(e for e in data["events"] if e["id"] == latest)
+    return [{
+        "type": "gw_recap",
+        "key": f"recap:{ev['id']}",
+        "gw": ev["id"],
+        "most_captained": ev.get("most_captained"),
+        "highest_score": ev.get("highest_score"),
+        "most_selected": ev.get("most_selected"),
+    }]
 
 
-def main():
-    state = load_state()
+def fetch_stories(state):
+    """Mutates `state` in place (snapshot + recap bookkeeping) and returns the
+    list of new stories. Caller owns loading/saving `state` -- this function
+    must not do its own load_state()/save_state(), or its writes get lost
+    whenever the caller also holds and later re-saves its own copy."""
     data = fetch_bootstrap()
     new_snapshot = build_snapshot(data)
 
@@ -135,8 +148,17 @@ def main():
 
     state["last_snapshot"] = new_snapshot
     state["last_snapshot_at"] = datetime.now(timezone.utc).isoformat()
-    save_state(state)
 
+    return stories
+
+
+def main():
+    """Standalone CLI entrypoint for local testing -- owns its own state
+    load/save. orchestrate.py calls fetch_stories() directly instead so
+    there's a single load/save per scan run."""
+    state = load_state()
+    stories = fetch_stories(state)
+    save_state(state)
     print(json.dumps(stories, indent=2))
     return stories
 
