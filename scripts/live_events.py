@@ -77,6 +77,12 @@ def fetch_live_events(state):
 
         score = f"{fx['team_h_score']}-{fx['team_a_score']}"
 
+        # Goals and assists are buffered per side instead of appended straight
+        # to `stories`, so a goal can be paired with its assist (if exactly
+        # one of each landed on the same side this poll) into a single post.
+        new_goals = {"h": [], "a": []}
+        new_assists = {"h": [], "a": []}
+
         for stat in fx.get("stats", []):
             story_type = STAT_TYPES.get(stat["identifier"])
             if story_type is None:
@@ -91,7 +97,7 @@ def fetch_live_events(state):
                         player = players.get(pid, {"name": f"Player {pid}", "team": None})
                         player_team = teams.get(player["team"], "?")
                         for i in range(prev_value, value):
-                            stories.append({
+                            event = {
                                 "type": story_type,
                                 "key": f"{story_type}:{fid}:{pid}:{i + 1}",
                                 "player": player["name"],
@@ -99,8 +105,24 @@ def fetch_live_events(state):
                                 "home": home,
                                 "away": away,
                                 "score": score,
-                            })
+                            }
+                            if story_type == "goal":
+                                new_goals[side].append(event)
+                            elif story_type == "assist":
+                                new_assists[side].append(event)
+                            else:
+                                stories.append(event)
                     live["stats"][stat_key] = value
+
+        for side in ("h", "a"):
+            goals = new_goals[side]
+            assists = new_assists[side]
+            if len(goals) == 1 and len(assists) == 1:
+                goals[0]["assisted_by"] = assists[0]["player"]
+                stories.append(goals[0])
+            else:
+                stories.extend(goals)
+                stories.extend(assists)
 
         if fx["finished"] and not prev_fx["finished"]:
             stories.append({

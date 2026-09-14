@@ -224,6 +224,8 @@ def render_card(story, out_path):
         eyebrow, hero, hero_color = LIVE_EVENT_META[t]
         headline = f"{story['player']} ({story['team']})"
         subtext = f"{story['home']} {story['score']} {story['away']}"
+        if t == "goal" and story.get("assisted_by"):
+            subtext = f"Assist: {story['assisted_by']}  |  {subtext}"
         hashtags = f"{base_tags} #{story['team']}"
     else:
         eyebrow = "FPL NEWS"
@@ -401,8 +403,9 @@ def build_caption(story):
         )
     if t == "goal":
         hook = random.choice(GOAL_HOOKS)
+        assist_line = f" Assisted by {story['assisted_by']}." if story.get("assisted_by") else ""
         return (
-            f"⚽ GOAL! {story['player']} ({story['team']})! "
+            f"⚽ GOAL! {story['player']} ({story['team']})!{assist_line} "
             f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
         )
     if t == "assist":
