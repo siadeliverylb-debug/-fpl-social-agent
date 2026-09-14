@@ -5381,43 +5381,43 @@
     "fixtures": {
       "31": {
         "started": true,
-        "finished": false
+        "finished_provisional": true
       },
       "32": {
         "started": true,
-        "finished": false
+        "finished_provisional": true
       },
       "33": {
         "started": true,
-        "finished": false
+        "finished_provisional": true
       },
       "34": {
         "started": true,
-        "finished": false
+        "finished_provisional": true
       },
       "35": {
         "started": true,
-        "finished": false
+        "finished_provisional": true
       },
       "37": {
         "started": true,
-        "finished": false
+        "finished_provisional": true
       },
       "36": {
         "started": true,
-        "finished": false
+        "finished_provisional": true
       },
       "38": {
         "started": true,
-        "finished": false
+        "finished_provisional": true
       },
       "39": {
         "started": true,
-        "finished": false
+        "finished_provisional": true
       },
       "40": {
         "started": true,
-        "finished": false
+        "finished_provisional": true
       }
     },
     "stats": {
@@ -5762,7 +5762,18 @@
       "40:593": true,
       "40:634": true
     },
-    "bonus_posted": {}
+    "bonus_posted": {
+      "31": true,
+      "32": true,
+      "33": true,
+      "34": true,
+      "35": true,
+      "37": true,
+      "36": true,
+      "38": true,
+      "39": true,
+      "40": true
+    }
   },
   "live_post_log": [
     {
@@ -5844,7 +5855,391 @@
       "key": "goal:40:461:1",
       "type": "goal",
       "posted_at": "2026-09-14T20:54:57.555501+00:00"
+    },
+    {
+      "key": "fulltime:31",
+      "type": "full_time",
+      "posted_at": "2026-09-14T21:30:46.119588+00:00",
+      "tweet_id": "2099611838489002202"
     }
   ],
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "bonus:31",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:31",
+        "home": "AVL",
+        "away": "NFO",
+        "score": "0-0",
+        "players": [
+          {
+            "name": "Gibbs-White",
+            "points": 3
+          },
+          {
+            "name": "Igor Jesus",
+            "points": 2
+          },
+          {
+            "name": "McGinn",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_31.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: AVL 0-0 NFO.\nGibbs-White +3, Igor Jesus +2, McGinn +1.\n\n#FPL #FPLTwitter #FantasyPremierLeague #FPLCommunity #AVLvNFO"
+    },
+    {
+      "key": "fulltime:32",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:32",
+        "home": "BOU",
+        "away": "BRE",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_32.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): BOU 0-0 BRE.\n\nHow did your FPL assets do? #FPL #FPLTips #FPLCommunity #FPLFamily"
+    },
+    {
+      "key": "bonus:32",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:32",
+        "home": "BOU",
+        "away": "BRE",
+        "score": "0-0",
+        "players": [
+          {
+            "name": "Schade",
+            "points": 3
+          },
+          {
+            "name": "Tavernier",
+            "points": 2
+          },
+          {
+            "name": "Kluivert",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_32.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: BOU 0-0 BRE.\nSchade +3, Tavernier +2, Kluivert +1.\n\n#FPL #FPLFamily #FantasyFootball #FPLCommunity #BOUvBRE"
+    },
+    {
+      "key": "fulltime:33",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:33",
+        "home": "CHE",
+        "away": "HUL",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_33.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): CHE 0-0 HUL.\n\nHow did your FPL assets do? #FPL #FPLTwitter #FantasyFootball #FantasyPremierLeague"
+    },
+    {
+      "key": "bonus:33",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:33",
+        "home": "CHE",
+        "away": "HUL",
+        "score": "0-0",
+        "players": [
+          {
+            "name": "Jo\u00e3o Pedro",
+            "points": 3
+          },
+          {
+            "name": "Belloumi",
+            "points": 2
+          },
+          {
+            "name": "Rogers",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_33.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: CHE 0-0 HUL.\nJo\u00e3o Pedro +3, Belloumi +2, Rogers +1.\n\n#FPL #PremierLeague #FantasyFootball #FPLFamily #CHEvHUL"
+    },
+    {
+      "key": "fulltime:34",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:34",
+        "home": "CRY",
+        "away": "IPS",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_34.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): CRY 0-0 IPS.\n\nAny big returns from this one? #FPL #FPLTips #FantasyFootball #FPLFamily"
+    },
+    {
+      "key": "bonus:34",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:34",
+        "home": "CRY",
+        "away": "IPS",
+        "score": "0-0",
+        "players": [
+          {
+            "name": "Emersonn",
+            "points": 3
+          },
+          {
+            "name": "Strand Larsen",
+            "points": 2
+          },
+          {
+            "name": "Davis",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_34.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: CRY 0-0 IPS.\nEmersonn +3, Strand Larsen +2, Davis +1.\n\n#FPL #FPLTips #FantasyFootball #FantasyPremierLeague #CRYvIPS"
+    },
+    {
+      "key": "fulltime:35",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:35",
+        "home": "LIV",
+        "away": "FUL",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_35.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): LIV 0-0 FUL.\n\nHow did your FPL assets do? #FPL #FPLCommunity #FPLFamily #FPLTips"
+    },
+    {
+      "key": "bonus:35",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:35",
+        "home": "LIV",
+        "away": "FUL",
+        "score": "0-0",
+        "players": [
+          {
+            "name": "Jacquet",
+            "points": 3
+          },
+          {
+            "name": "A.Becker",
+            "points": 2
+          },
+          {
+            "name": "Leno",
+            "points": 2
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_35.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: LIV 0-0 FUL.\nJacquet +3, A.Becker +2, Leno +2.\n\n#FPL #FPLFamily #FantasyPremierLeague #PremierLeague #LIVvFUL"
+    },
+    {
+      "key": "fulltime:37",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:37",
+        "home": "TOT",
+        "away": "EVE",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_37.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): TOT 0-0 EVE.\n\nAny big returns from this one? #FPL #FantasyFootball #FPLTwitter #FPLTips"
+    },
+    {
+      "key": "bonus:37",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:37",
+        "home": "TOT",
+        "away": "EVE",
+        "score": "0-0",
+        "players": [
+          {
+            "name": "Mykolenko",
+            "points": 3
+          },
+          {
+            "name": "Tarkowski",
+            "points": 2
+          },
+          {
+            "name": "Robertson",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_37.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: TOT 0-0 EVE.\nMykolenko +3, Tarkowski +2, Robertson +1.\n\n#FPL #FPLTips #FPLTwitter #FantasyFootball #TOTvEVE"
+    },
+    {
+      "key": "fulltime:36",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:36",
+        "home": "SUN",
+        "away": "ARS",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_36.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): SUN 0-0 ARS.\n\nBonus points still to be confirmed. #FPL #FPLFamily #FPLTips #PremierLeague"
+    },
+    {
+      "key": "bonus:36",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:36",
+        "home": "SUN",
+        "away": "ARS",
+        "score": "0-0",
+        "players": [
+          {
+            "name": "Raya",
+            "points": 3
+          },
+          {
+            "name": "Gabriel",
+            "points": 2
+          },
+          {
+            "name": "Bruno G.",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_36.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: SUN 0-0 ARS.\nRaya +3, Gabriel +2, Bruno G. +1.\n\n#FPL #FPLTips #FPLCommunity #FantasyPremierLeague #SUNvARS"
+    },
+    {
+      "key": "fulltime:38",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:38",
+        "home": "COV",
+        "away": "BHA",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_38.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): COV 0-0 BHA.\n\nBonus points still to be confirmed. #FPL #FantasyFootball #FantasyPremierLeague #FPLTwitter"
+    },
+    {
+      "key": "bonus:38",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:38",
+        "home": "COV",
+        "away": "BHA",
+        "score": "0-0",
+        "players": [
+          {
+            "name": "Gro\u00df",
+            "points": 3
+          },
+          {
+            "name": "De Cuyper",
+            "points": 2
+          },
+          {
+            "name": "Kostoulas",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_38.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: COV 0-0 BHA.\nGro\u00df +3, De Cuyper +2, Kostoulas +1.\n\n#FPL #FantasyFootball #FPLFamily #FPLCommunity #COVvBHA"
+    },
+    {
+      "key": "fulltime:39",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:39",
+        "home": "MUN",
+        "away": "MCI",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_39.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): MUN 0-0 MCI.\n\nAny big returns from this one? #FPL #FPLTips #FPLCommunity #FantasyPremierLeague"
+    },
+    {
+      "key": "bonus:39",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:39",
+        "home": "MUN",
+        "away": "MCI",
+        "score": "0-0",
+        "players": [
+          {
+            "name": "Gvardiol",
+            "points": 3
+          },
+          {
+            "name": "Haaland",
+            "points": 3
+          },
+          {
+            "name": "Matheus N.",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_39.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: MUN 0-0 MCI.\nGvardiol +3, Haaland +3, Matheus N. +1.\n\n#FPL #FPLCommunity #PremierLeague #FantasyFootball #MUNvMCI"
+    },
+    {
+      "key": "fulltime:40",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:40",
+        "home": "LEE",
+        "away": "NEW",
+        "score": "4-1",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_40.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): LEE 4-1 NEW.\n\nAny big returns from this one? #FPL #FantasyPremierLeague #FPLTwitter #FPLFamily"
+    },
+    {
+      "key": "bonus:40",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:40",
+        "home": "LEE",
+        "away": "NEW",
+        "score": "4-1",
+        "players": [
+          {
+            "name": "Bogle",
+            "points": 3
+          },
+          {
+            "name": "Calvert-Lewin",
+            "points": 2
+          },
+          {
+            "name": "Okafor",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_40.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: LEE 4-1 NEW.\nBogle +3, Calvert-Lewin +2, Okafor +1.\n\n#FPL #FantasyFootball #PremierLeague #FPLTwitter #LEEvNEW"
+    }
+  ]
 }
