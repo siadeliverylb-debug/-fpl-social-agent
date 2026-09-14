@@ -9,6 +9,8 @@ Env vars:
 """
 
 import os
+import time
+
 import requests
 
 SLACK_API = "https://slack.com/api"
@@ -43,9 +45,16 @@ def post_draft(image_path, caption, story):
     file_id = url_data["file_id"]
 
     with open(image_path, "rb") as f:
-        upload_resp = requests.post(upload_url, files={"file": (filename, f)}, timeout=30)
+        upload_resp = requests.post(
+            upload_url, files={"file": (filename, f, "image/png")}, timeout=30
+        )
     if upload_resp.status_code != 200:
         raise RuntimeError(f"Slack file upload failed: {upload_resp.status_code} {upload_resp.text}")
+
+    # Slack needs a moment to finish processing the upload (detect mimetype,
+    # generate thumbnails) before completeUploadExternal will actually attach
+    # it to a channel -- calling immediately silently no-ops the share.
+    time.sleep(2)
 
     complete_resp = requests.post(
         f"{SLACK_API}/files.completeUploadExternal",
