@@ -59,6 +59,7 @@ def fetch_live_events(state):
     live.setdefault("posted_score", {})
     live.setdefault("last_goal", {})
     live.setdefault("subs_seen", {})
+    live.setdefault("subs_baselined", {})
     stories = []
 
     for fx in fixtures:
@@ -67,6 +68,17 @@ def fetch_live_events(state):
         prev_fx = live["fixtures"].get(fid, {"started": False, "finished": False})
         home = teams.get(fx["team_h"], "?")
         away = teams.get(fx["team_a"], "?")
+
+        # Substitutions get their own baseline flag, independent of
+        # is_new_fixture: a fixture that was already being tracked (for
+        # goals/cards) before this feature shipped would otherwise have
+        # every substitution already made in it -- potentially the whole
+        # bench -- treated as breaking news the moment this code first runs
+        # against it, instead of only genuinely new subs from here on.
+        if fid not in live["subs_baselined"]:
+            for pid, _minutes in subs_on_by_fixture.get(fid, []):
+                live["subs_seen"][f"{fid}:{pid}"] = True
+            live["subs_baselined"][fid] = True
 
         if is_new_fixture:
             # First time seeing this fixture -- establish a baseline (current
@@ -81,8 +93,6 @@ def fetch_live_events(state):
                     for entry in stat.get(side, []):
                         stat_key = f"{fid}:{entry['element']}:{stat['identifier']}"
                         live["stats"][stat_key] = entry["value"]
-            for pid, _minutes in subs_on_by_fixture.get(fid, []):
-                live["subs_seen"][f"{fid}:{pid}"] = True
             live["fixtures"][fid] = {"started": fx["started"], "finished": fx["finished"]}
             live["posted_score"][fid] = [0, 0]
             continue
