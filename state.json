@@ -5885,35 +5885,15 @@
       "type": "full_time",
       "posted_at": "2026-09-14T21:33:38.853814+00:00",
       "tweet_id": "2099612563113713992"
+    },
+    {
+      "key": "bonus:33",
+      "type": "bonus_points",
+      "posted_at": "2026-09-14T21:34:21.606270+00:00",
+      "tweet_id": "2099612742395056496"
     }
   ],
   "live_queue": [
-    {
-      "key": "bonus:33",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:33",
-        "home": "CHE",
-        "away": "HUL",
-        "score": "0-0",
-        "players": [
-          {
-            "name": "Jo\u00e3o Pedro",
-            "points": 3
-          },
-          {
-            "name": "Belloumi",
-            "points": 2
-          },
-          {
-            "name": "Rogers",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_33.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: CHE 0-0 HUL.\nJo\u00e3o Pedro +3, Belloumi +2, Rogers +1.\n\n#FPL #PremierLeague #FantasyFootball #FPLFamily #CHEvHUL"
-    },
     {
       "key": "fulltime:34",
       "story": {
