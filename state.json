@@ -5963,35 +5963,15 @@
       "type": "full_time",
       "posted_at": "2026-09-14T21:48:11.357185+00:00",
       "tweet_id": "2099616222321000492"
+    },
+    {
+      "key": "bonus:38",
+      "type": "bonus_points",
+      "posted_at": "2026-09-14T21:48:53.881869+00:00",
+      "tweet_id": "2099616400981512515"
     }
   ],
   "live_queue": [
-    {
-      "key": "bonus:38",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:38",
-        "home": "COV",
-        "away": "BHA",
-        "score": "0-0",
-        "players": [
-          {
-            "name": "Gro\u00df",
-            "points": 3
-          },
-          {
-            "name": "De Cuyper",
-            "points": 2
-          },
-          {
-            "name": "Kostoulas",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_38.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: COV 0-0 BHA.\nGro\u00df +3, De Cuyper +2, Kostoulas +1.\n\n#FPL #FantasyFootball #FPLFamily #FPLCommunity #COVvBHA"
-    },
     {
       "key": "fulltime:39",
       "story": {
