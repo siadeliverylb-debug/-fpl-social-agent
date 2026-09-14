@@ -5563,6 +5563,94 @@
         0,
         0
       ]
+    },
+    "subs_seen": {
+      "31:33": true,
+      "31:52": true,
+      "31:53": true,
+      "31:56": true,
+      "31:488": true,
+      "31:490": true,
+      "31:491": true,
+      "31:631": true,
+      "32:71": true,
+      "32:72": true,
+      "32:74": true,
+      "32:75": true,
+      "32:81": true,
+      "32:88": true,
+      "32:95": true,
+      "32:96": true,
+      "32:620": true,
+      "33:136": true,
+      "33:157": true,
+      "33:200": true,
+      "33:240": true,
+      "33:568": true,
+      "33:583": true,
+      "33:585": true,
+      "33:617": true,
+      "33:637": true,
+      "33:638": true,
+      "33:642": true,
+      "34:212": true,
+      "34:213": true,
+      "34:318": true,
+      "34:562": true,
+      "34:571": true,
+      "34:577": true,
+      "34:592": true,
+      "34:595": true,
+      "34:640": true,
+      "34:643": true,
+      "35:256": true,
+      "35:262": true,
+      "35:263": true,
+      "35:271": true,
+      "35:357": true,
+      "35:358": true,
+      "35:367": true,
+      "35:369": true,
+      "35:372": true,
+      "35:635": true,
+      "37:147": true,
+      "37:232": true,
+      "37:238": true,
+      "37:247": true,
+      "37:512": true,
+      "37:514": true,
+      "37:515": true,
+      "37:520": true,
+      "36:5": true,
+      "36:14": true,
+      "36:17": true,
+      "36:19": true,
+      "36:452": true,
+      "36:553": true,
+      "36:646": true,
+      "38:119": true,
+      "38:126": true,
+      "38:188": true,
+      "38:194": true,
+      "38:328": true,
+      "38:575": true,
+      "38:599": true,
+      "38:600": true,
+      "38:639": true,
+      "39:237": true,
+      "39:387": true,
+      "39:439": true,
+      "39:440": true,
+      "40:260": true,
+      "40:337": true,
+      "40:343": true,
+      "40:347": true,
+      "40:450": true,
+      "40:460": true,
+      "40:461": true,
+      "40:462": true,
+      "40:559": true,
+      "40:641": true
     }
   },
   "live_post_log": [
@@ -5600,7 +5688,1288 @@
       "key": "goal:40:336:1",
       "type": "goal",
       "posted_at": "2026-09-14T20:32:44.963306+00:00"
+    },
+    {
+      "key": "sub:31:33",
+      "type": "substitution",
+      "posted_at": "2026-09-14T20:44:14.272425+00:00"
     }
   ],
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "sub:31:52",
+      "story": {
+        "type": "substitution",
+        "key": "sub:31:52",
+        "player": "Alysson",
+        "team": "AVL",
+        "home": "AVL",
+        "away": "NFO",
+        "score": "0-0",
+        "minute": 45
+      },
+      "image_path": "assets/generated/live_sub_31_52.png",
+      "caption": "\ud83d\udd04 SUB! 45' Alysson (AVL) is on. AVL 0-0 NFO.\n\nImpact sub, or too little too late? #FPL #FPLCommunity #FantasyPremierLeague #FPLTwitter #AVL"
+    },
+    {
+      "key": "sub:31:53",
+      "story": {
+        "type": "substitution",
+        "key": "sub:31:53",
+        "player": "Manzambi",
+        "team": "AVL",
+        "home": "AVL",
+        "away": "NFO",
+        "score": "0-0",
+        "minute": 27
+      },
+      "image_path": "assets/generated/live_sub_31_53.png",
+      "caption": "\ud83d\udd04 SUB! 27' Manzambi (AVL) is on. AVL 0-0 NFO.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FPLCommunity #FPLTwitter #AVL"
+    },
+    {
+      "key": "sub:31:56",
+      "story": {
+        "type": "substitution",
+        "key": "sub:31:56",
+        "player": "Abraham",
+        "team": "AVL",
+        "home": "AVL",
+        "away": "NFO",
+        "score": "0-0",
+        "minute": 45
+      },
+      "image_path": "assets/generated/live_sub_31_56.png",
+      "caption": "\ud83d\udd04 SUB! 45' Abraham (AVL) is on. AVL 0-0 NFO.\n\nImpact sub, or too little too late? #FPL #FPLTwitter #FantasyPremierLeague #FPLTips #AVL"
+    },
+    {
+      "key": "sub:31:488",
+      "story": {
+        "type": "substitution",
+        "key": "sub:31:488",
+        "player": "I.Sangar\u00e9",
+        "team": "NFO",
+        "home": "AVL",
+        "away": "NFO",
+        "score": "0-0",
+        "minute": 8
+      },
+      "image_path": "assets/generated/live_sub_31_488.png",
+      "caption": "\ud83d\udd04 SUB! 8' I.Sangar\u00e9 (NFO) is on. AVL 0-0 NFO.\n\nWorth watching for a late returns. #FPL #FPLTips #FantasyFootball #FPLTwitter #NFO"
+    },
+    {
+      "key": "sub:31:490",
+      "story": {
+        "type": "substitution",
+        "key": "sub:31:490",
+        "player": "Wood",
+        "team": "NFO",
+        "home": "AVL",
+        "away": "NFO",
+        "score": "0-0",
+        "minute": 1
+      },
+      "image_path": "assets/generated/live_sub_31_490.png",
+      "caption": "\ud83d\udd04 SUB! 1' Wood (NFO) is on. AVL 0-0 NFO.\n\nDoes this open a chance for a start next week? #FPL #FantasyPremierLeague #FPLTips #FantasyFootball #NFO"
+    },
+    {
+      "key": "sub:31:491",
+      "story": {
+        "type": "substitution",
+        "key": "sub:31:491",
+        "player": "Igor Jesus",
+        "team": "NFO",
+        "home": "AVL",
+        "away": "NFO",
+        "score": "0-0",
+        "minute": 15
+      },
+      "image_path": "assets/generated/live_sub_31_491.png",
+      "caption": "\ud83d\udd04 SUB! 15' Igor Jesus (NFO) is on. AVL 0-0 NFO.\n\nDoes this open a chance for a start next week? #FPL #FPLCommunity #FPLTwitter #FPLFamily #NFO"
+    },
+    {
+      "key": "sub:31:631",
+      "story": {
+        "type": "substitution",
+        "key": "sub:31:631",
+        "player": "Mbaye",
+        "team": "AVL",
+        "home": "AVL",
+        "away": "NFO",
+        "score": "0-0",
+        "minute": 27
+      },
+      "image_path": "assets/generated/live_sub_31_631.png",
+      "caption": "\ud83d\udd04 SUB! 27' Mbaye (AVL) is on. AVL 0-0 NFO.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTwitter #PremierLeague #FPLCommunity #AVL"
+    },
+    {
+      "key": "sub:32:71",
+      "story": {
+        "type": "substitution",
+        "key": "sub:32:71",
+        "player": "Cook",
+        "team": "BOU",
+        "home": "BOU",
+        "away": "BRE",
+        "score": "0-0",
+        "minute": 8
+      },
+      "image_path": "assets/generated/live_sub_32_71.png",
+      "caption": "\ud83d\udd04 SUB! 8' Cook (BOU) is on. BOU 0-0 BRE.\n\nWorth watching for a late returns. #FPL #FPLCommunity #PremierLeague #FPLTwitter #BOU"
+    },
+    {
+      "key": "sub:32:72",
+      "story": {
+        "type": "substitution",
+        "key": "sub:32:72",
+        "player": "Gannon-Doak",
+        "team": "BOU",
+        "home": "BOU",
+        "away": "BRE",
+        "score": "0-0",
+        "minute": 8
+      },
+      "image_path": "assets/generated/live_sub_32_72.png",
+      "caption": "\ud83d\udd04 SUB! 8' Gannon-Doak (BOU) is on. BOU 0-0 BRE.\n\nDoes this open a chance for a start next week? #FPL #FPLFamily #PremierLeague #FPLTwitter #BOU"
+    },
+    {
+      "key": "sub:32:74",
+      "story": {
+        "type": "substitution",
+        "key": "sub:32:74",
+        "player": "Brooks",
+        "team": "BOU",
+        "home": "BOU",
+        "away": "BRE",
+        "score": "0-0",
+        "minute": 7
+      },
+      "image_path": "assets/generated/live_sub_32_74.png",
+      "caption": "\ud83d\udd04 SUB! 7' Brooks (BOU) is on. BOU 0-0 BRE.\n\nWorth watching for a late returns. #FPL #FantasyFootball #FPLTips #PremierLeague #BOU"
+    },
+    {
+      "key": "sub:32:75",
+      "story": {
+        "type": "substitution",
+        "key": "sub:32:75",
+        "player": "Christie",
+        "team": "BOU",
+        "home": "BOU",
+        "away": "BRE",
+        "score": "0-0",
+        "minute": 24
+      },
+      "image_path": "assets/generated/live_sub_32_75.png",
+      "caption": "\ud83d\udd04 SUB! 24' Christie (BOU) is on. BOU 0-0 BRE.\n\nWorth watching for a late returns. #FPL #FPLTwitter #PremierLeague #FPLCommunity #BOU"
+    },
+    {
+      "key": "sub:32:81",
+      "story": {
+        "type": "substitution",
+        "key": "sub:32:81",
+        "player": "Rodr\u00edguez",
+        "team": "BOU",
+        "home": "BOU",
+        "away": "BRE",
+        "score": "0-0",
+        "minute": 1
+      },
+      "image_path": "assets/generated/live_sub_32_81.png",
+      "caption": "\ud83d\udd04 SUB! 1' Rodr\u00edguez (BOU) is on. BOU 0-0 BRE.\n\nDoes this open a chance for a start next week? #FPL #FantasyPremierLeague #FPLTwitter #FPLTips #BOU"
+    },
+    {
+      "key": "sub:32:88",
+      "story": {
+        "type": "substitution",
+        "key": "sub:32:88",
+        "player": "Kayode",
+        "team": "BRE",
+        "home": "BOU",
+        "away": "BRE",
+        "score": "0-0",
+        "minute": 19
+      },
+      "image_path": "assets/generated/live_sub_32_88.png",
+      "caption": "\ud83d\udd04 SUB! 19' Kayode (BRE) is on. BOU 0-0 BRE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #PremierLeague #FPLCommunity #FPLTwitter #BRE"
+    },
+    {
+      "key": "sub:32:95",
+      "story": {
+        "type": "substitution",
+        "key": "sub:32:95",
+        "player": "O.Dango",
+        "team": "BRE",
+        "home": "BOU",
+        "away": "BRE",
+        "score": "0-0",
+        "minute": 30
+      },
+      "image_path": "assets/generated/live_sub_32_95.png",
+      "caption": "\ud83d\udd04 SUB! 30' O.Dango (BRE) is on. BOU 0-0 BRE.\n\nImpact sub, or too little too late? #FPL #FPLCommunity #FPLFamily #PremierLeague #BRE"
+    },
+    {
+      "key": "sub:32:96",
+      "story": {
+        "type": "substitution",
+        "key": "sub:32:96",
+        "player": "Damsgaard",
+        "team": "BRE",
+        "home": "BOU",
+        "away": "BRE",
+        "score": "0-0",
+        "minute": 30
+      },
+      "image_path": "assets/generated/live_sub_32_96.png",
+      "caption": "\ud83d\udd04 SUB! 30' Damsgaard (BRE) is on. BOU 0-0 BRE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyFootball #FPLTwitter #FantasyPremierLeague #BRE"
+    },
+    {
+      "key": "sub:32:620",
+      "story": {
+        "type": "substitution",
+        "key": "sub:32:620",
+        "player": "Diouf",
+        "team": "BRE",
+        "home": "BOU",
+        "away": "BRE",
+        "score": "0-0",
+        "minute": 30
+      },
+      "image_path": "assets/generated/live_sub_32_620.png",
+      "caption": "\ud83d\udd04 SUB! 30' Diouf (BRE) is on. BOU 0-0 BRE.\n\nImpact sub, or too little too late? #FPL #FantasyPremierLeague #FPLTwitter #FPLCommunity #BRE"
+    },
+    {
+      "key": "sub:33:136",
+      "story": {
+        "type": "substitution",
+        "key": "sub:33:136",
+        "player": "Welbeck",
+        "team": "CHE",
+        "home": "CHE",
+        "away": "HUL",
+        "score": "0-0",
+        "minute": 12
+      },
+      "image_path": "assets/generated/live_sub_33_136.png",
+      "caption": "\ud83d\udd04 SUB! 12' Welbeck (CHE) is on. CHE 0-0 HUL.\n\nImpact sub, or too little too late? #FPL #FantasyFootball #FPLFamily #FantasyPremierLeague #CHE"
+    },
+    {
+      "key": "sub:33:157",
+      "story": {
+        "type": "substitution",
+        "key": "sub:33:157",
+        "player": "Est\u00eav\u00e3o",
+        "team": "CHE",
+        "home": "CHE",
+        "away": "HUL",
+        "score": "0-0",
+        "minute": 4
+      },
+      "image_path": "assets/generated/live_sub_33_157.png",
+      "caption": "\ud83d\udd04 SUB! 4' Est\u00eav\u00e3o (CHE) is on. CHE 0-0 HUL.\n\nDoes this open a chance for a start next week? #FPL #FPLFamily #FantasyFootball #FPLTips #CHE"
+    },
+    {
+      "key": "sub:33:200",
+      "story": {
+        "type": "substitution",
+        "key": "sub:33:200",
+        "player": "Lacroix",
+        "team": "CHE",
+        "home": "CHE",
+        "away": "HUL",
+        "score": "0-0",
+        "minute": 4
+      },
+      "image_path": "assets/generated/live_sub_33_200.png",
+      "caption": "\ud83d\udd04 SUB! 4' Lacroix (CHE) is on. CHE 0-0 HUL.\n\nImpact sub, or too little too late? #FPL #FantasyPremierLeague #PremierLeague #FPLFamily #CHE"
+    },
+    {
+      "key": "sub:33:240",
+      "story": {
+        "type": "substitution",
+        "key": "sub:33:240",
+        "player": "Iroegbunam",
+        "team": "HUL",
+        "home": "CHE",
+        "away": "HUL",
+        "score": "0-0",
+        "minute": 21
+      },
+      "image_path": "assets/generated/live_sub_33_240.png",
+      "caption": "\ud83d\udd04 SUB! 21' Iroegbunam (HUL) is on. CHE 0-0 HUL.\n\nDoes this open a chance for a start next week? #FPL #FPLTwitter #FantasyPremierLeague #FantasyFootball #HUL"
+    },
+    {
+      "key": "sub:33:568",
+      "story": {
+        "type": "substitution",
+        "key": "sub:33:568",
+        "player": "Barco",
+        "team": "CHE",
+        "home": "CHE",
+        "away": "HUL",
+        "score": "0-0",
+        "minute": 21
+      },
+      "image_path": "assets/generated/live_sub_33_568.png",
+      "caption": "\ud83d\udd04 SUB! 21' Barco (CHE) is on. CHE 0-0 HUL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #PremierLeague #FantasyFootball #CHE"
+    },
+    {
+      "key": "sub:33:583",
+      "story": {
+        "type": "substitution",
+        "key": "sub:33:583",
+        "player": "Chavarria",
+        "team": "CHE",
+        "home": "CHE",
+        "away": "HUL",
+        "score": "0-0",
+        "minute": 45
+      },
+      "image_path": "assets/generated/live_sub_33_583.png",
+      "caption": "\ud83d\udd04 SUB! 45' Chavarria (CHE) is on. CHE 0-0 HUL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #PremierLeague #FPLCommunity #FantasyFootball #CHE"
+    },
+    {
+      "key": "sub:33:585",
+      "story": {
+        "type": "substitution",
+        "key": "sub:33:585",
+        "player": "Herrington",
+        "team": "HUL",
+        "home": "CHE",
+        "away": "HUL",
+        "score": "0-0",
+        "minute": 31
+      },
+      "image_path": "assets/generated/live_sub_33_585.png",
+      "caption": "\ud83d\udd04 SUB! 31' Herrington (HUL) is on. CHE 0-0 HUL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyFootball #FPLFamily #FPLTips #HUL"
+    },
+    {
+      "key": "sub:33:617",
+      "story": {
+        "type": "substitution",
+        "key": "sub:33:617",
+        "player": "Cho",
+        "team": "HUL",
+        "home": "CHE",
+        "away": "HUL",
+        "score": "0-0",
+        "minute": 30
+      },
+      "image_path": "assets/generated/live_sub_33_617.png",
+      "caption": "\ud83d\udd04 SUB! 30' Cho (HUL) is on. CHE 0-0 HUL.\n\nWorth watching for a late returns. #FPL #FPLCommunity #PremierLeague #FPLFamily #HUL"
+    },
+    {
+      "key": "sub:33:637",
+      "story": {
+        "type": "substitution",
+        "key": "sub:33:637",
+        "player": "Vaz",
+        "team": "HUL",
+        "home": "CHE",
+        "away": "HUL",
+        "score": "0-0",
+        "minute": 8
+      },
+      "image_path": "assets/generated/live_sub_33_637.png",
+      "caption": "\ud83d\udd04 SUB! 8' Vaz (HUL) is on. CHE 0-0 HUL.\n\nDoes this open a chance for a start next week? #FPL #FPLFamily #FantasyFootball #FantasyPremierLeague #HUL"
+    },
+    {
+      "key": "sub:33:638",
+      "story": {
+        "type": "substitution",
+        "key": "sub:33:638",
+        "player": "Norton-Cuffy",
+        "team": "HUL",
+        "home": "CHE",
+        "away": "HUL",
+        "score": "0-0",
+        "minute": 8
+      },
+      "image_path": "assets/generated/live_sub_33_638.png",
+      "caption": "\ud83d\udd04 SUB! 8' Norton-Cuffy (HUL) is on. CHE 0-0 HUL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #FPLFamily #FPLTips #HUL"
+    },
+    {
+      "key": "sub:33:642",
+      "story": {
+        "type": "substitution",
+        "key": "sub:33:642",
+        "player": "Thomas",
+        "team": "HUL",
+        "home": "CHE",
+        "away": "HUL",
+        "score": "0-0",
+        "minute": 30
+      },
+      "image_path": "assets/generated/live_sub_33_642.png",
+      "caption": "\ud83d\udd04 SUB! 30' Thomas (HUL) is on. CHE 0-0 HUL.\n\nImpact sub, or too little too late? #FPL #FantasyPremierLeague #FPLTips #FantasyFootball #HUL"
+    },
+    {
+      "key": "sub:34:212",
+      "story": {
+        "type": "substitution",
+        "key": "sub:34:212",
+        "player": "Hughes",
+        "team": "CRY",
+        "home": "CRY",
+        "away": "IPS",
+        "score": "0-0",
+        "minute": 13
+      },
+      "image_path": "assets/generated/live_sub_34_212.png",
+      "caption": "\ud83d\udd04 SUB! 13' Hughes (CRY) is on. CRY 0-0 IPS.\n\nWorth watching for a late returns. #FPL #FPLCommunity #FPLTwitter #FPLTips #CRY"
+    },
+    {
+      "key": "sub:34:213",
+      "story": {
+        "type": "substitution",
+        "key": "sub:34:213",
+        "player": "Lerma",
+        "team": "CRY",
+        "home": "CRY",
+        "away": "IPS",
+        "score": "0-0",
+        "minute": 6
+      },
+      "image_path": "assets/generated/live_sub_34_213.png",
+      "caption": "\ud83d\udd04 SUB! 6' Lerma (CRY) is on. CRY 0-0 IPS.\n\nWorth watching for a late returns. #FPL #FantasyPremierLeague #FPLCommunity #FPLTips #CRY"
+    },
+    {
+      "key": "sub:34:318",
+      "story": {
+        "type": "substitution",
+        "key": "sub:34:318",
+        "player": "Philogene",
+        "team": "IPS",
+        "home": "CRY",
+        "away": "IPS",
+        "score": "0-0",
+        "minute": 28
+      },
+      "image_path": "assets/generated/live_sub_34_318.png",
+      "caption": "\ud83d\udd04 SUB! 28' Philogene (IPS) is on. CRY 0-0 IPS.\n\nDoes this open a chance for a start next week? #FPL #FPLTwitter #FantasyPremierLeague #PremierLeague #IPS"
+    },
+    {
+      "key": "sub:34:562",
+      "story": {
+        "type": "substitution",
+        "key": "sub:34:562",
+        "player": "Maeda",
+        "team": "IPS",
+        "home": "CRY",
+        "away": "IPS",
+        "score": "0-0",
+        "minute": 27
+      },
+      "image_path": "assets/generated/live_sub_34_562.png",
+      "caption": "\ud83d\udd04 SUB! 27' Maeda (IPS) is on. CRY 0-0 IPS.\n\nDoes this open a chance for a start next week? #FPL #FPLTwitter #FPLTips #FPLFamily #IPS"
+    },
+    {
+      "key": "sub:34:571",
+      "story": {
+        "type": "substitution",
+        "key": "sub:34:571",
+        "player": "Florentino",
+        "team": "IPS",
+        "home": "CRY",
+        "away": "IPS",
+        "score": "0-0",
+        "minute": 13
+      },
+      "image_path": "assets/generated/live_sub_34_571.png",
+      "caption": "\ud83d\udd04 SUB! 13' Florentino (IPS) is on. CRY 0-0 IPS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTips #FPLFamily #FantasyFootball #IPS"
+    },
+    {
+      "key": "sub:34:577",
+      "story": {
+        "type": "substitution",
+        "key": "sub:34:577",
+        "player": "Tomiyasu",
+        "team": "CRY",
+        "home": "CRY",
+        "away": "IPS",
+        "score": "0-0",
+        "minute": 53
+      },
+      "image_path": "assets/generated/live_sub_34_577.png",
+      "caption": "\ud83d\udd04 SUB! 53' Tomiyasu (CRY) is on. CRY 0-0 IPS.\n\nDoes this open a chance for a start next week? #FPL #FantasyFootball #PremierLeague #FantasyPremierLeague #CRY"
+    },
+    {
+      "key": "sub:34:592",
+      "story": {
+        "type": "substitution",
+        "key": "sub:34:592",
+        "player": "Ouattara",
+        "team": "IPS",
+        "home": "CRY",
+        "away": "IPS",
+        "score": "0-0",
+        "minute": 2
+      },
+      "image_path": "assets/generated/live_sub_34_592.png",
+      "caption": "\ud83d\udd04 SUB! 2' Ouattara (IPS) is on. CRY 0-0 IPS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FPLCommunity #FantasyPremierLeague #IPS"
+    },
+    {
+      "key": "sub:34:595",
+      "story": {
+        "type": "substitution",
+        "key": "sub:34:595",
+        "player": "Gozo",
+        "team": "CRY",
+        "home": "CRY",
+        "away": "IPS",
+        "score": "0-0",
+        "minute": 6
+      },
+      "image_path": "assets/generated/live_sub_34_595.png",
+      "caption": "\ud83d\udd04 SUB! 6' Gozo (CRY) is on. CRY 0-0 IPS.\n\nImpact sub, or too little too late? #FPL #PremierLeague #FantasyPremierLeague #FPLCommunity #CRY"
+    },
+    {
+      "key": "sub:34:640",
+      "story": {
+        "type": "substitution",
+        "key": "sub:34:640",
+        "player": "Flemming",
+        "team": "IPS",
+        "home": "CRY",
+        "away": "IPS",
+        "score": "0-0",
+        "minute": 27
+      },
+      "image_path": "assets/generated/live_sub_34_640.png",
+      "caption": "\ud83d\udd04 SUB! 27' Flemming (IPS) is on. CRY 0-0 IPS.\n\nImpact sub, or too little too late? #FPL #FPLTips #FPLFamily #FPLTwitter #IPS"
+    },
+    {
+      "key": "sub:34:643",
+      "story": {
+        "type": "substitution",
+        "key": "sub:34:643",
+        "player": "Chilwell",
+        "team": "CRY",
+        "home": "CRY",
+        "away": "IPS",
+        "score": "0-0",
+        "minute": 13
+      },
+      "image_path": "assets/generated/live_sub_34_643.png",
+      "caption": "\ud83d\udd04 SUB! 13' Chilwell (CRY) is on. CRY 0-0 IPS.\n\nDoes this open a chance for a start next week? #FPL #FPLTwitter #FPLCommunity #PremierLeague #CRY"
+    },
+    {
+      "key": "sub:35:256",
+      "story": {
+        "type": "substitution",
+        "key": "sub:35:256",
+        "player": "Tete",
+        "team": "FUL",
+        "home": "LIV",
+        "away": "FUL",
+        "score": "0-0",
+        "minute": 27
+      },
+      "image_path": "assets/generated/live_sub_35_256.png",
+      "caption": "\ud83d\udd04 SUB! 27' Tete (FUL) is on. LIV 0-0 FUL.\n\nImpact sub, or too little too late? #FPL #FantasyFootball #FantasyPremierLeague #PremierLeague #FUL"
+    },
+    {
+      "key": "sub:35:262",
+      "story": {
+        "type": "substitution",
+        "key": "sub:35:262",
+        "player": "Smith Rowe",
+        "team": "FUL",
+        "home": "LIV",
+        "away": "FUL",
+        "score": "0-0",
+        "minute": 13
+      },
+      "image_path": "assets/generated/live_sub_35_262.png",
+      "caption": "\ud83d\udd04 SUB! 13' Smith Rowe (FUL) is on. LIV 0-0 FUL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTwitter #FPLFamily #PremierLeague #FUL"
+    },
+    {
+      "key": "sub:35:263",
+      "story": {
+        "type": "substitution",
+        "key": "sub:35:263",
+        "player": "Kevin",
+        "team": "FUL",
+        "home": "LIV",
+        "away": "FUL",
+        "score": "0-0",
+        "minute": 18
+      },
+      "image_path": "assets/generated/live_sub_35_263.png",
+      "caption": "\ud83d\udd04 SUB! 18' Kevin (FUL) is on. LIV 0-0 FUL.\n\nDoes this open a chance for a start next week? #FPL #FantasyPremierLeague #FPLFamily #FPLCommunity #FUL"
+    },
+    {
+      "key": "sub:35:271",
+      "story": {
+        "type": "substitution",
+        "key": "sub:35:271",
+        "player": "Muniz",
+        "team": "FUL",
+        "home": "LIV",
+        "away": "FUL",
+        "score": "0-0",
+        "minute": 13
+      },
+      "image_path": "assets/generated/live_sub_35_271.png",
+      "caption": "\ud83d\udd04 SUB! 13' Muniz (FUL) is on. LIV 0-0 FUL.\n\nDoes this open a chance for a start next week? #FPL #FantasyFootball #FPLCommunity #FPLFamily #FUL"
+    },
+    {
+      "key": "sub:35:357",
+      "story": {
+        "type": "substitution",
+        "key": "sub:35:357",
+        "player": "Frimpong",
+        "team": "LIV",
+        "home": "LIV",
+        "away": "FUL",
+        "score": "0-0",
+        "minute": 18
+      },
+      "image_path": "assets/generated/live_sub_35_357.png",
+      "caption": "\ud83d\udd04 SUB! 18' Frimpong (LIV) is on. LIV 0-0 FUL.\n\nWorth watching for a late returns. #FPL #FantasyPremierLeague #FPLTips #FPLTwitter #LIV"
+    },
+    {
+      "key": "sub:35:358",
+      "story": {
+        "type": "substitution",
+        "key": "sub:35:358",
+        "player": "Kerkez",
+        "team": "LIV",
+        "home": "LIV",
+        "away": "FUL",
+        "score": "0-0",
+        "minute": 45
+      },
+      "image_path": "assets/generated/live_sub_35_358.png",
+      "caption": "\ud83d\udd04 SUB! 45' Kerkez (LIV) is on. LIV 0-0 FUL.\n\nDoes this open a chance for a start next week? #FPL #FPLFamily #FPLCommunity #FantasyFootball #LIV"
+    },
+    {
+      "key": "sub:35:367",
+      "story": {
+        "type": "substitution",
+        "key": "sub:35:367",
+        "player": "Gakpo",
+        "team": "LIV",
+        "home": "LIV",
+        "away": "FUL",
+        "score": "0-0",
+        "minute": 30
+      },
+      "image_path": "assets/generated/live_sub_35_367.png",
+      "caption": "\ud83d\udd04 SUB! 30' Gakpo (LIV) is on. LIV 0-0 FUL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyPremierLeague #FPLCommunity #FPLTwitter #LIV"
+    },
+    {
+      "key": "sub:35:369",
+      "story": {
+        "type": "substitution",
+        "key": "sub:35:369",
+        "player": "Ngumoha",
+        "team": "LIV",
+        "home": "LIV",
+        "away": "FUL",
+        "score": "0-0",
+        "minute": 18
+      },
+      "image_path": "assets/generated/live_sub_35_369.png",
+      "caption": "\ud83d\udd04 SUB! 18' Ngumoha (LIV) is on. LIV 0-0 FUL.\n\nWorth watching for a late returns. #FPL #FPLTips #FPLTwitter #FPLFamily #LIV"
+    },
+    {
+      "key": "sub:35:372",
+      "story": {
+        "type": "substitution",
+        "key": "sub:35:372",
+        "player": "Mac Allister",
+        "team": "LIV",
+        "home": "LIV",
+        "away": "FUL",
+        "score": "0-0",
+        "minute": 30
+      },
+      "image_path": "assets/generated/live_sub_35_372.png",
+      "caption": "\ud83d\udd04 SUB! 30' Mac Allister (LIV) is on. LIV 0-0 FUL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyPremierLeague #FPLFamily #PremierLeague #LIV"
+    },
+    {
+      "key": "sub:35:635",
+      "story": {
+        "type": "substitution",
+        "key": "sub:35:635",
+        "player": "Larsson",
+        "team": "FUL",
+        "home": "LIV",
+        "away": "FUL",
+        "score": "0-0",
+        "minute": 13
+      },
+      "image_path": "assets/generated/live_sub_35_635.png",
+      "caption": "\ud83d\udd04 SUB! 13' Larsson (FUL) is on. LIV 0-0 FUL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyPremierLeague #FPLTips #FantasyFootball #FUL"
+    },
+    {
+      "key": "sub:37:147",
+      "story": {
+        "type": "substitution",
+        "key": "sub:37:147",
+        "player": "Tosin",
+        "team": "TOT",
+        "home": "TOT",
+        "away": "EVE",
+        "score": "0-0",
+        "minute": 5
+      },
+      "image_path": "assets/generated/live_sub_37_147.png",
+      "caption": "\ud83d\udd04 SUB! 5' Tosin (TOT) is on. TOT 0-0 EVE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FPLTwitter #FantasyPremierLeague #TOT"
+    },
+    {
+      "key": "sub:37:232",
+      "story": {
+        "type": "substitution",
+        "key": "sub:37:232",
+        "player": "O'Brien",
+        "team": "EVE",
+        "home": "TOT",
+        "away": "EVE",
+        "score": "0-0",
+        "minute": 15
+      },
+      "image_path": "assets/generated/live_sub_37_232.png",
+      "caption": "\ud83d\udd04 SUB! 15' O'Brien (EVE) is on. TOT 0-0 EVE.\n\nDoes this open a chance for a start next week? #FPL #FPLTwitter #FPLFamily #PremierLeague #EVE"
+    },
+    {
+      "key": "sub:37:238",
+      "story": {
+        "type": "substitution",
+        "key": "sub:37:238",
+        "player": "Grealish",
+        "team": "EVE",
+        "home": "TOT",
+        "away": "EVE",
+        "score": "0-0",
+        "minute": 25
+      },
+      "image_path": "assets/generated/live_sub_37_238.png",
+      "caption": "\ud83d\udd04 SUB! 25' Grealish (EVE) is on. TOT 0-0 EVE.\n\nImpact sub, or too little too late? #FPL #PremierLeague #FPLCommunity #FantasyFootball #EVE"
+    },
+    {
+      "key": "sub:37:247",
+      "story": {
+        "type": "substitution",
+        "key": "sub:37:247",
+        "player": "Hackney",
+        "team": "EVE",
+        "home": "TOT",
+        "away": "EVE",
+        "score": "0-0",
+        "minute": 15
+      },
+      "image_path": "assets/generated/live_sub_37_247.png",
+      "caption": "\ud83d\udd04 SUB! 15' Hackney (EVE) is on. TOT 0-0 EVE.\n\nDoes this open a chance for a start next week? #FPL #FPLFamily #PremierLeague #FPLTwitter #EVE"
+    },
+    {
+      "key": "sub:37:512",
+      "story": {
+        "type": "substitution",
+        "key": "sub:37:512",
+        "player": "Kudus",
+        "team": "TOT",
+        "home": "TOT",
+        "away": "EVE",
+        "score": "0-0",
+        "minute": 27
+      },
+      "image_path": "assets/generated/live_sub_37_512.png",
+      "caption": "\ud83d\udd04 SUB! 27' Kudus (TOT) is on. TOT 0-0 EVE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FPLTwitter #FPLTips #TOT"
+    },
+    {
+      "key": "sub:37:514",
+      "story": {
+        "type": "substitution",
+        "key": "sub:37:514",
+        "player": "Tel",
+        "team": "TOT",
+        "home": "TOT",
+        "away": "EVE",
+        "score": "0-0",
+        "minute": 27
+      },
+      "image_path": "assets/generated/live_sub_37_514.png",
+      "caption": "\ud83d\udd04 SUB! 27' Tel (TOT) is on. TOT 0-0 EVE.\n\nDoes this open a chance for a start next week? #FPL #FantasyPremierLeague #FPLCommunity #FantasyFootball #TOT"
+    },
+    {
+      "key": "sub:37:515",
+      "story": {
+        "type": "substitution",
+        "key": "sub:37:515",
+        "player": "Maddison",
+        "team": "TOT",
+        "home": "TOT",
+        "away": "EVE",
+        "score": "0-0",
+        "minute": 13
+      },
+      "image_path": "assets/generated/live_sub_37_515.png",
+      "caption": "\ud83d\udd04 SUB! 13' Maddison (TOT) is on. TOT 0-0 EVE.\n\nWorth watching for a late returns. #FPL #FPLTwitter #FPLCommunity #FantasyPremierLeague #TOT"
+    },
+    {
+      "key": "sub:37:520",
+      "story": {
+        "type": "substitution",
+        "key": "sub:37:520",
+        "player": "Bergvall",
+        "team": "TOT",
+        "home": "TOT",
+        "away": "EVE",
+        "score": "0-0",
+        "minute": 27
+      },
+      "image_path": "assets/generated/live_sub_37_520.png",
+      "caption": "\ud83d\udd04 SUB! 27' Bergvall (TOT) is on. TOT 0-0 EVE.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #FantasyFootball #FPLFamily #TOT"
+    },
+    {
+      "key": "sub:36:5",
+      "story": {
+        "type": "substitution",
+        "key": "sub:36:5",
+        "player": "J.Timber",
+        "team": "ARS",
+        "home": "SUN",
+        "away": "ARS",
+        "score": "0-0",
+        "minute": 45
+      },
+      "image_path": "assets/generated/live_sub_36_5.png",
+      "caption": "\ud83d\udd04 SUB! 45' J.Timber (ARS) is on. SUN 0-0 ARS.\n\nImpact sub, or too little too late? #FPL #FPLTwitter #FPLTips #FantasyFootball #ARS"
+    },
+    {
+      "key": "sub:36:14",
+      "story": {
+        "type": "substitution",
+        "key": "sub:36:14",
+        "player": "Eze",
+        "team": "ARS",
+        "home": "SUN",
+        "away": "ARS",
+        "score": "0-0",
+        "minute": 9
+      },
+      "image_path": "assets/generated/live_sub_36_14.png",
+      "caption": "\ud83d\udd04 SUB! 9' Eze (ARS) is on. SUN 0-0 ARS.\n\nDoes this open a chance for a start next week? #FPL #FantasyFootball #PremierLeague #FPLCommunity #ARS"
+    },
+    {
+      "key": "sub:36:17",
+      "story": {
+        "type": "substitution",
+        "key": "sub:36:17",
+        "player": "Merino",
+        "team": "ARS",
+        "home": "SUN",
+        "away": "ARS",
+        "score": "0-0",
+        "minute": 5
+      },
+      "image_path": "assets/generated/live_sub_36_17.png",
+      "caption": "\ud83d\udd04 SUB! 5' Merino (ARS) is on. SUN 0-0 ARS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyFootball #FPLCommunity #FPLTips #ARS"
+    },
+    {
+      "key": "sub:36:19",
+      "story": {
+        "type": "substitution",
+        "key": "sub:36:19",
+        "player": "Zubimendi",
+        "team": "ARS",
+        "home": "SUN",
+        "away": "ARS",
+        "score": "0-0",
+        "minute": 9
+      },
+      "image_path": "assets/generated/live_sub_36_19.png",
+      "caption": "\ud83d\udd04 SUB! 9' Zubimendi (ARS) is on. SUN 0-0 ARS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyPremierLeague #FPLTips #FPLFamily #ARS"
+    },
+    {
+      "key": "sub:36:452",
+      "story": {
+        "type": "substitution",
+        "key": "sub:36:452",
+        "player": "Bruno G.",
+        "team": "ARS",
+        "home": "SUN",
+        "away": "ARS",
+        "score": "0-0",
+        "minute": 45
+      },
+      "image_path": "assets/generated/live_sub_36_452.png",
+      "caption": "\ud83d\udd04 SUB! 45' Bruno G. (ARS) is on. SUN 0-0 ARS.\n\nImpact sub, or too little too late? #FPL #FantasyPremierLeague #FPLTwitter #FPLCommunity #ARS"
+    },
+    {
+      "key": "sub:36:553",
+      "story": {
+        "type": "substitution",
+        "key": "sub:36:553",
+        "player": "Isidor",
+        "team": "SUN",
+        "home": "SUN",
+        "away": "ARS",
+        "score": "0-0",
+        "minute": 20
+      },
+      "image_path": "assets/generated/live_sub_36_553.png",
+      "caption": "\ud83d\udd04 SUB! 20' Isidor (SUN) is on. SUN 0-0 ARS.\n\nDoes this open a chance for a start next week? #FPL #FantasyPremierLeague #FPLTwitter #PremierLeague #SUN"
+    },
+    {
+      "key": "sub:36:646",
+      "story": {
+        "type": "substitution",
+        "key": "sub:36:646",
+        "player": "Fofana",
+        "team": "SUN",
+        "home": "SUN",
+        "away": "ARS",
+        "score": "0-0",
+        "minute": 14
+      },
+      "image_path": "assets/generated/live_sub_36_646.png",
+      "caption": "\ud83d\udd04 SUB! 14' Fofana (SUN) is on. SUN 0-0 ARS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyPremierLeague #FPLTwitter #FantasyFootball #SUN"
+    },
+    {
+      "key": "sub:38:119",
+      "story": {
+        "type": "substitution",
+        "key": "sub:38:119",
+        "player": "Costinha",
+        "team": "BHA",
+        "home": "COV",
+        "away": "BHA",
+        "score": "0-0",
+        "minute": 6
+      },
+      "image_path": "assets/generated/live_sub_38_119.png",
+      "caption": "\ud83d\udd04 SUB! 6' Costinha (BHA) is on. COV 0-0 BHA.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTwitter #FPLFamily #PremierLeague #BHA"
+    },
+    {
+      "key": "sub:38:126",
+      "story": {
+        "type": "substitution",
+        "key": "sub:38:126",
+        "player": "O'Riley",
+        "team": "BHA",
+        "home": "COV",
+        "away": "BHA",
+        "score": "0-0",
+        "minute": 6
+      },
+      "image_path": "assets/generated/live_sub_38_126.png",
+      "caption": "\ud83d\udd04 SUB! 6' O'Riley (BHA) is on. COV 0-0 BHA.\n\nWorth watching for a late returns. #FPL #FPLCommunity #FPLTwitter #FPLFamily #BHA"
+    },
+    {
+      "key": "sub:38:188",
+      "story": {
+        "type": "substitution",
+        "key": "sub:38:188",
+        "player": "Torp",
+        "team": "COV",
+        "home": "COV",
+        "away": "BHA",
+        "score": "0-0",
+        "minute": 6
+      },
+      "image_path": "assets/generated/live_sub_38_188.png",
+      "caption": "\ud83d\udd04 SUB! 6' Torp (COV) is on. COV 0-0 BHA.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTwitter #FantasyPremierLeague #PremierLeague #COV"
+    },
+    {
+      "key": "sub:38:194",
+      "story": {
+        "type": "substitution",
+        "key": "sub:38:194",
+        "player": "Thomas-Asante",
+        "team": "COV",
+        "home": "COV",
+        "away": "BHA",
+        "score": "0-0",
+        "minute": 17
+      },
+      "image_path": "assets/generated/live_sub_38_194.png",
+      "caption": "\ud83d\udd04 SUB! 17' Thomas-Asante (COV) is on. COV 0-0 BHA.\n\nFresh legs -- could this pay off in FPL terms? #FPL #PremierLeague #FPLTwitter #FantasyPremierLeague #COV"
+    },
+    {
+      "key": "sub:38:328",
+      "story": {
+        "type": "substitution",
+        "key": "sub:38:328",
+        "player": "Struijk",
+        "team": "BHA",
+        "home": "COV",
+        "away": "BHA",
+        "score": "0-0",
+        "minute": 12
+      },
+      "image_path": "assets/generated/live_sub_38_328.png",
+      "caption": "\ud83d\udd04 SUB! 12' Struijk (BHA) is on. COV 0-0 BHA.\n\nImpact sub, or too little too late? #FPL #FPLTips #PremierLeague #FantasyPremierLeague #BHA"
+    },
+    {
+      "key": "sub:38:575",
+      "story": {
+        "type": "substitution",
+        "key": "sub:38:575",
+        "player": "Yirenkyi",
+        "team": "COV",
+        "home": "COV",
+        "away": "BHA",
+        "score": "0-0",
+        "minute": 17
+      },
+      "image_path": "assets/generated/live_sub_38_575.png",
+      "caption": "\ud83d\udd04 SUB! 17' Yirenkyi (COV) is on. COV 0-0 BHA.\n\nWorth watching for a late returns. #FPL #PremierLeague #FantasyFootball #FPLTips #COV"
+    },
+    {
+      "key": "sub:38:599",
+      "story": {
+        "type": "substitution",
+        "key": "sub:38:599",
+        "player": "Cherif",
+        "team": "COV",
+        "home": "COV",
+        "away": "BHA",
+        "score": "0-0",
+        "minute": 30
+      },
+      "image_path": "assets/generated/live_sub_38_599.png",
+      "caption": "\ud83d\udd04 SUB! 30' Cherif (COV) is on. COV 0-0 BHA.\n\nDoes this open a chance for a start next week? #FPL #FPLCommunity #PremierLeague #FPLTips #COV"
+    },
+    {
+      "key": "sub:38:600",
+      "story": {
+        "type": "substitution",
+        "key": "sub:38:600",
+        "player": "Osman",
+        "team": "BHA",
+        "home": "COV",
+        "away": "BHA",
+        "score": "0-0",
+        "minute": 12
+      },
+      "image_path": "assets/generated/live_sub_38_600.png",
+      "caption": "\ud83d\udd04 SUB! 12' Osman (BHA) is on. COV 0-0 BHA.\n\nWorth watching for a late returns. #FPL #FantasyFootball #FPLCommunity #PremierLeague #BHA"
+    },
+    {
+      "key": "sub:38:639",
+      "story": {
+        "type": "substitution",
+        "key": "sub:38:639",
+        "player": "Andr\u00e9s",
+        "team": "BHA",
+        "home": "COV",
+        "away": "BHA",
+        "score": "0-0",
+        "minute": 25
+      },
+      "image_path": "assets/generated/live_sub_38_639.png",
+      "caption": "\ud83d\udd04 SUB! 25' Andr\u00e9s (BHA) is on. COV 0-0 BHA.\n\nWorth watching for a late returns. #FPL #FPLTips #FantasyPremierLeague #PremierLeague #BHA"
+    },
+    {
+      "key": "sub:39:237",
+      "story": {
+        "type": "substitution",
+        "key": "sub:39:237",
+        "player": "Ndiaye",
+        "team": "MCI",
+        "home": "MUN",
+        "away": "MCI",
+        "score": "0-0",
+        "minute": 45
+      },
+      "image_path": "assets/generated/live_sub_39_237.png",
+      "caption": "\ud83d\udd04 SUB! 45' Ndiaye (MCI) is on. MUN 0-0 MCI.\n\nWorth watching for a late returns. #FPL #FPLFamily #FantasyPremierLeague #PremierLeague #MCI"
+    },
+    {
+      "key": "sub:39:387",
+      "story": {
+        "type": "substitution",
+        "key": "sub:39:387",
+        "player": "O'Reilly",
+        "team": "MCI",
+        "home": "MUN",
+        "away": "MCI",
+        "score": "0-0",
+        "minute": 8
+      },
+      "image_path": "assets/generated/live_sub_39_387.png",
+      "caption": "\ud83d\udd04 SUB! 8' O'Reilly (MCI) is on. MUN 0-0 MCI.\n\nWorth watching for a late returns. #FPL #FPLTips #PremierLeague #FPLFamily #MCI"
+    },
+    {
+      "key": "sub:39:439",
+      "story": {
+        "type": "substitution",
+        "key": "sub:39:439",
+        "player": "\u0160e\u0161ko",
+        "team": "MUN",
+        "home": "MUN",
+        "away": "MCI",
+        "score": "0-0",
+        "minute": 23
+      },
+      "image_path": "assets/generated/live_sub_39_439.png",
+      "caption": "\ud83d\udd04 SUB! 23' \u0160e\u0161ko (MUN) is on. MUN 0-0 MCI.\n\nWorth watching for a late returns. #FPL #FPLFamily #FantasyPremierLeague #FPLTwitter #MUN"
+    },
+    {
+      "key": "sub:39:440",
+      "story": {
+        "type": "substitution",
+        "key": "sub:39:440",
+        "player": "Zirkzee",
+        "team": "MUN",
+        "home": "MUN",
+        "away": "MCI",
+        "score": "0-0",
+        "minute": 7
+      },
+      "image_path": "assets/generated/live_sub_39_440.png",
+      "caption": "\ud83d\udd04 SUB! 7' Zirkzee (MUN) is on. MUN 0-0 MCI.\n\nWorth watching for a late returns. #FPL #FPLCommunity #FantasyFootball #FPLTwitter #MUN"
+    },
+    {
+      "key": "sub:40:260",
+      "story": {
+        "type": "substitution",
+        "key": "sub:40:260",
+        "player": "Wilson",
+        "team": "LEE",
+        "home": "LEE",
+        "away": "NEW",
+        "score": "4-0",
+        "minute": 12
+      },
+      "image_path": "assets/generated/live_sub_40_260.png",
+      "caption": "\ud83d\udd04 SUB! 12' Wilson (LEE) is on. LEE 4-0 NEW.\n\nWorth watching for a late returns. #FPL #FPLFamily #FantasyPremierLeague #FPLCommunity #LEE"
+    },
+    {
+      "key": "sub:40:337",
+      "story": {
+        "type": "substitution",
+        "key": "sub:40:337",
+        "player": "Aaronson",
+        "team": "LEE",
+        "home": "LEE",
+        "away": "NEW",
+        "score": "4-0",
+        "minute": 12
+      },
+      "image_path": "assets/generated/live_sub_40_337.png",
+      "caption": "\ud83d\udd04 SUB! 12' Aaronson (LEE) is on. LEE 4-0 NEW.\n\nDoes this open a chance for a start next week? #FPL #FantasyFootball #FPLTwitter #FPLTips #LEE"
+    },
+    {
+      "key": "sub:40:343",
+      "story": {
+        "type": "substitution",
+        "key": "sub:40:343",
+        "player": "James",
+        "team": "LEE",
+        "home": "LEE",
+        "away": "NEW",
+        "score": "4-0",
+        "minute": 1
+      },
+      "image_path": "assets/generated/live_sub_40_343.png",
+      "caption": "\ud83d\udd04 SUB! 1' James (LEE) is on. LEE 4-0 NEW.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTwitter #FPLCommunity #FantasyFootball #LEE"
+    },
+    {
+      "key": "sub:40:347",
+      "story": {
+        "type": "substitution",
+        "key": "sub:40:347",
+        "player": "Nmecha",
+        "team": "LEE",
+        "home": "LEE",
+        "away": "NEW",
+        "score": "4-0",
+        "minute": 6
+      },
+      "image_path": "assets/generated/live_sub_40_347.png",
+      "caption": "\ud83d\udd04 SUB! 6' Nmecha (LEE) is on. LEE 4-0 NEW.\n\nDoes this open a chance for a start next week? #FPL #PremierLeague #FantasyPremierLeague #FPLTips #LEE"
+    },
+    {
+      "key": "sub:40:450",
+      "story": {
+        "type": "substitution",
+        "key": "sub:40:450",
+        "player": "Livramento",
+        "team": "NEW",
+        "home": "LEE",
+        "away": "NEW",
+        "score": "4-0",
+        "minute": 26
+      },
+      "image_path": "assets/generated/live_sub_40_450.png",
+      "caption": "\ud83d\udd04 SUB! 26' Livramento (NEW) is on. LEE 4-0 NEW.\n\nWorth watching for a late returns. #FPL #FPLFamily #FantasyFootball #PremierLeague #NEW"
+    },
+    {
+      "key": "sub:40:460",
+      "story": {
+        "type": "substitution",
+        "key": "sub:40:460",
+        "player": "Willock",
+        "team": "NEW",
+        "home": "LEE",
+        "away": "NEW",
+        "score": "4-0",
+        "minute": 27
+      },
+      "image_path": "assets/generated/live_sub_40_460.png",
+      "caption": "\ud83d\udd04 SUB! 27' Willock (NEW) is on. LEE 4-0 NEW.\n\nWorth watching for a late returns. #FPL #FPLFamily #FantasyPremierLeague #FPLCommunity #NEW"
+    },
+    {
+      "key": "sub:40:461",
+      "story": {
+        "type": "substitution",
+        "key": "sub:40:461",
+        "player": "Tour\u00e9",
+        "team": "NEW",
+        "home": "LEE",
+        "away": "NEW",
+        "score": "4-0",
+        "minute": 27
+      },
+      "image_path": "assets/generated/live_sub_40_461.png",
+      "caption": "\ud83d\udd04 SUB! 27' Tour\u00e9 (NEW) is on. LEE 4-0 NEW.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyPremierLeague #FPLTips #FPLFamily #NEW"
+    },
+    {
+      "key": "sub:40:462",
+      "story": {
+        "type": "substitution",
+        "key": "sub:40:462",
+        "player": "Steur",
+        "team": "NEW",
+        "home": "LEE",
+        "away": "NEW",
+        "score": "4-0",
+        "minute": 65
+      },
+      "image_path": "assets/generated/live_sub_40_462.png",
+      "caption": "\ud83d\udd04 SUB! 65' Steur (NEW) is on. LEE 4-0 NEW.\n\nImpact sub, or too little too late? #FPL #FantasyFootball #FPLTwitter #FPLTips #NEW"
+    },
+    {
+      "key": "sub:40:559",
+      "story": {
+        "type": "substitution",
+        "key": "sub:40:559",
+        "player": "Bamba",
+        "team": "NEW",
+        "home": "LEE",
+        "away": "NEW",
+        "score": "4-0",
+        "minute": 4
+      },
+      "image_path": "assets/generated/live_sub_40_559.png",
+      "caption": "\ud83d\udd04 SUB! 4' Bamba (NEW) is on. LEE 4-0 NEW.\n\nFresh legs -- could this pay off in FPL terms? #FPL #PremierLeague #FPLCommunity #FantasyPremierLeague #NEW"
+    },
+    {
+      "key": "sub:40:641",
+      "story": {
+        "type": "substitution",
+        "key": "sub:40:641",
+        "player": "Bard",
+        "team": "LEE",
+        "home": "LEE",
+        "away": "NEW",
+        "score": "4-0",
+        "minute": 12
+      },
+      "image_path": "assets/generated/live_sub_40_641.png",
+      "caption": "\ud83d\udd04 SUB! 12' Bard (LEE) is on. LEE 4-0 NEW.\n\nImpact sub, or too little too late? #FPL #FPLCommunity #PremierLeague #FantasyPremierLeague #LEE"
+    }
+  ]
 }
