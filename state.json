@@ -125,7 +125,7 @@
     "16": {
       "web_name": "Madueke",
       "team": "ARS",
-      "now_cost": 63,
+      "now_cost": 62,
       "status": "a",
       "news": "",
       "news_added": null
@@ -893,7 +893,7 @@
     "102": {
       "web_name": "Yarmoliuk",
       "team": "BRE",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1181,7 +1181,7 @@
     "328": {
       "web_name": "Struijk",
       "team": "BHA",
-      "now_cost": 50,
+      "now_cost": 49,
       "status": "a",
       "news": "",
       "news_added": "2026-08-15T20:30:07.523574Z"
@@ -1421,7 +1421,7 @@
     "159": {
       "web_name": "Caicedo",
       "team": "CHE",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "i",
       "news": "Calf injury - Expected back 18 Sep",
       "news_added": "2026-08-30T16:00:08.393562Z"
@@ -1509,7 +1509,7 @@
     "568": {
       "web_name": "Barco",
       "team": "CHE",
-      "now_cost": 55,
+      "now_cost": 54,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1925,7 +1925,7 @@
     "212": {
       "web_name": "Hughes",
       "team": "CRY",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2965,7 +2965,7 @@
     "309": {
       "web_name": "N\u00fa\u00f1ez",
       "team": "IPS",
-      "now_cost": 50,
+      "now_cost": 49,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3637,7 +3637,7 @@
     "378": {
       "web_name": "McConnell",
       "team": "LIV",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3965,7 +3965,7 @@
     "43": {
       "web_name": "Tielemans",
       "team": "MUN",
-      "now_cost": 59,
+      "now_cost": 58,
       "status": "a",
       "news": "",
       "news_added": "2026-07-23T12:01:23.321726Z"
@@ -4837,7 +4837,7 @@
     "506": {
       "web_name": "Udogie",
       "team": "TOT",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": "2026-09-11T18:00:09.092110Z"
@@ -4997,7 +4997,7 @@
     "526": {
       "web_name": "Solanke",
       "team": "TOT",
-      "now_cost": 59,
+      "now_cost": 58,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-14T22:37:02.664783+00:00",
+  "last_snapshot_at": "2026-09-14T23:02:43.043197+00:00",
   "recapped_events": [
     1,
     2,
@@ -5370,6 +5370,204 @@
       "created_at": "2026-09-14T21:39:51.314770+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789421991.237189",
+      "auto": false
+    },
+    {
+      "key": "price:16:62",
+      "story": {
+        "type": "price_change",
+        "key": "price:16:62",
+        "player": "Madueke",
+        "team": "ARS",
+        "direction": "fall",
+        "delta_millions": 0.1,
+        "new_price_millions": 6.2
+      },
+      "image_path": "assets/generated/price_16_62.png",
+      "caption": "\ud83d\udcc9 Madueke (ARS) drops to \u00a36.2m.\n\nPanic sell or hold firm? #FPL #FantasyPremierLeague #FPLTips #FPLFamily #ARS",
+      "created_at": "2026-09-14T23:02:45.628004+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789426965.549929",
+      "auto": false
+    },
+    {
+      "key": "price:102:48",
+      "story": {
+        "type": "price_change",
+        "key": "price:102:48",
+        "player": "Yarmoliuk",
+        "team": "BRE",
+        "direction": "fall",
+        "delta_millions": 0.1,
+        "new_price_millions": 4.8
+      },
+      "image_path": "assets/generated/price_102_48.png",
+      "caption": "\ud83d\udcc9 Yarmoliuk (BRE) drops to \u00a34.8m.\n\nPanic sell or hold firm? #FPL #FantasyFootball #FPLTips #PremierLeague #BRE",
+      "created_at": "2026-09-14T23:02:48.199502+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789426968.094509",
+      "auto": false
+    },
+    {
+      "key": "price:328:49",
+      "story": {
+        "type": "price_change",
+        "key": "price:328:49",
+        "player": "Struijk",
+        "team": "BHA",
+        "direction": "fall",
+        "delta_millions": 0.1,
+        "new_price_millions": 4.9
+      },
+      "image_path": "assets/generated/price_328_49.png",
+      "caption": "\ud83d\udcc9 Struijk (BHA) drops to \u00a34.9m.\n\nBargain now, or a reason to worry? #FPL #FPLFamily #FPLCommunity #FPLTwitter #BHA",
+      "created_at": "2026-09-14T23:02:50.798590+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789426970.722669",
+      "auto": false
+    },
+    {
+      "key": "price:159:53",
+      "story": {
+        "type": "price_change",
+        "key": "price:159:53",
+        "player": "Caicedo",
+        "team": "CHE",
+        "direction": "fall",
+        "delta_millions": 0.1,
+        "new_price_millions": 5.3
+      },
+      "image_path": "assets/generated/price_159_53.png",
+      "caption": "\ud83d\udcc9 Caicedo (CHE) drops to \u00a35.3m.\n\nBuying the dip, or steering clear? #FPL #FPLFamily #FPLCommunity #FPLTwitter #CHE",
+      "created_at": "2026-09-14T23:02:53.351447+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789426973.268749",
+      "auto": false
+    },
+    {
+      "key": "price:568:54",
+      "story": {
+        "type": "price_change",
+        "key": "price:568:54",
+        "player": "Barco",
+        "team": "CHE",
+        "direction": "fall",
+        "delta_millions": 0.1,
+        "new_price_millions": 5.4
+      },
+      "image_path": "assets/generated/price_568_54.png",
+      "caption": "\ud83d\udcc9 Barco (CHE) drops to \u00a35.4m.\n\nPanic sell or hold firm? #FPL #FantasyFootball #FPLTips #FPLCommunity #CHE",
+      "created_at": "2026-09-14T23:02:55.856453+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789426975.770159",
+      "auto": false
+    },
+    {
+      "key": "price:212:44",
+      "story": {
+        "type": "price_change",
+        "key": "price:212:44",
+        "player": "Hughes",
+        "team": "CRY",
+        "direction": "fall",
+        "delta_millions": 0.1,
+        "new_price_millions": 4.4
+      },
+      "image_path": "assets/generated/price_212_44.png",
+      "caption": "\ud83d\udcc9 Hughes (CRY) drops to \u00a34.4m.\n\nBargain now, or a reason to worry? #FPL #FPLFamily #FPLCommunity #FantasyFootball #CRY",
+      "created_at": "2026-09-14T23:02:58.373967+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789426978.265929",
+      "auto": false
+    },
+    {
+      "key": "price:309:49",
+      "story": {
+        "type": "price_change",
+        "key": "price:309:49",
+        "player": "N\u00fa\u00f1ez",
+        "team": "IPS",
+        "direction": "fall",
+        "delta_millions": 0.1,
+        "new_price_millions": 4.9
+      },
+      "image_path": "assets/generated/price_309_49.png",
+      "caption": "\ud83d\udcc9 N\u00fa\u00f1ez (IPS) drops to \u00a34.9m.\n\nBuying the dip, or steering clear? #FPL #FPLTips #PremierLeague #FantasyPremierLeague #IPS",
+      "created_at": "2026-09-14T23:03:00.881797+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789426980.811019",
+      "auto": false
+    },
+    {
+      "key": "price:378:44",
+      "story": {
+        "type": "price_change",
+        "key": "price:378:44",
+        "player": "McConnell",
+        "team": "LIV",
+        "direction": "fall",
+        "delta_millions": 0.1,
+        "new_price_millions": 4.4
+      },
+      "image_path": "assets/generated/price_378_44.png",
+      "caption": "\ud83d\udcc9 McConnell (LIV) drops to \u00a34.4m.\n\nBuying the dip, or steering clear? #FPL #FPLCommunity #FPLTips #PremierLeague #LIV",
+      "created_at": "2026-09-14T23:03:03.376561+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789426983.289439",
+      "auto": false
+    },
+    {
+      "key": "price:43:58",
+      "story": {
+        "type": "price_change",
+        "key": "price:43:58",
+        "player": "Tielemans",
+        "team": "MUN",
+        "direction": "fall",
+        "delta_millions": 0.1,
+        "new_price_millions": 5.8
+      },
+      "image_path": "assets/generated/price_43_58.png",
+      "caption": "\ud83d\udcc9 Tielemans (MUN) drops to \u00a35.8m.\n\nSelling up or staying loyal? #FPL #FantasyPremierLeague #FPLFamily #FPLCommunity #MUN",
+      "created_at": "2026-09-14T23:03:05.926139+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789426985.827029",
+      "auto": false
+    },
+    {
+      "key": "price:506:44",
+      "story": {
+        "type": "price_change",
+        "key": "price:506:44",
+        "player": "Udogie",
+        "team": "TOT",
+        "direction": "fall",
+        "delta_millions": 0.1,
+        "new_price_millions": 4.4
+      },
+      "image_path": "assets/generated/price_506_44.png",
+      "caption": "\ud83d\udcc9 Udogie (TOT) drops to \u00a34.4m.\n\nTime to cut losses, or backing him to bounce back? #FPL #FPLFamily #FantasyPremierLeague #FPLTips #TOT",
+      "created_at": "2026-09-14T23:03:08.408365+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789426988.341089",
+      "auto": false
+    },
+    {
+      "key": "price:526:58",
+      "story": {
+        "type": "price_change",
+        "key": "price:526:58",
+        "player": "Solanke",
+        "team": "TOT",
+        "direction": "fall",
+        "delta_millions": 0.1,
+        "new_price_millions": 5.8
+      },
+      "image_path": "assets/generated/price_526_58.png",
+      "caption": "\ud83d\udcc9 Solanke (TOT) drops to \u00a35.8m.\n\nBuying the dip, or steering clear? #FPL #FantasyPremierLeague #PremierLeague #FPLTips #TOT",
+      "created_at": "2026-09-14T23:03:10.960345+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789426990.874479",
       "auto": false
     }
   ],
