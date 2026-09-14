@@ -5861,35 +5861,15 @@
       "type": "full_time",
       "posted_at": "2026-09-14T21:30:46.119588+00:00",
       "tweet_id": "2099611838489002202"
+    },
+    {
+      "key": "bonus:31",
+      "type": "bonus_points",
+      "posted_at": "2026-09-14T21:31:29.825989+00:00",
+      "tweet_id": "2099612022019129435"
     }
   ],
   "live_queue": [
-    {
-      "key": "bonus:31",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:31",
-        "home": "AVL",
-        "away": "NFO",
-        "score": "0-0",
-        "players": [
-          {
-            "name": "Gibbs-White",
-            "points": 3
-          },
-          {
-            "name": "Igor Jesus",
-            "points": 2
-          },
-          {
-            "name": "McGinn",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_31.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: AVL 0-0 NFO.\nGibbs-White +3, Igor Jesus +2, McGinn +1.\n\n#FPL #FPLTwitter #FantasyPremierLeague #FPLCommunity #AVLvNFO"
-    },
     {
       "key": "fulltime:32",
       "story": {
