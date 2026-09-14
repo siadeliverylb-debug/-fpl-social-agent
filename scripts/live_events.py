@@ -39,7 +39,7 @@ def fetch_live_events(state):
 
     fixtures = _fetch_json(f"{FIXTURES_URL}?event={current_event}")
     fixture_minute = {str(fx["id"]): fx.get("minutes") for fx in fixtures}
-    fixture_active = {str(fx["id"]): fx["started"] and not fx["finished"] for fx in fixtures}
+    fixture_active = {str(fx["id"]): fx["started"] and not fx.get("finished_provisional") for fx in fixtures}
 
     # FPL doesn't expose a "substitutions" stat on the fixtures endpoint at
     # all -- no event, no explicit "off X, on Y" pairing. The closest signal
@@ -80,7 +80,7 @@ def fetch_live_events(state):
     for fx in fixtures:
         fid = str(fx["id"])
         is_new_fixture = fid not in live["fixtures"]
-        prev_fx = live["fixtures"].get(fid, {"started": False, "finished": False})
+        prev_fx = live["fixtures"].get(fid, {"started": False, "finished_provisional": False})
         home = teams.get(fx["team_h"], "?")
         away = teams.get(fx["team_a"], "?")
 
@@ -110,9 +110,9 @@ def fetch_live_events(state):
                     for entry in stat.get(side, []):
                         stat_key = f"{fid}:{entry['element']}:{stat['identifier']}"
                         live["stats"][stat_key] = entry["value"]
-            live["fixtures"][fid] = {"started": fx["started"], "finished": fx["finished"]}
+            live["fixtures"][fid] = {"started": fx["started"], "finished_provisional": fx.get("finished_provisional")}
             live["posted_score"][fid] = [0, 0]
-            if fx["finished"]:
+            if fx.get("finished_provisional"):
                 live["bonus_posted"][fid] = True
             continue
 
@@ -125,7 +125,7 @@ def fetch_live_events(state):
             })
 
         if not fx["started"]:
-            live["fixtures"][fid] = {"started": fx["started"], "finished": fx["finished"]}
+            live["fixtures"][fid] = {"started": fx["started"], "finished_provisional": fx.get("finished_provisional")}
             continue
 
         # The score shown on a post is OUR running tally of goals we've
@@ -290,7 +290,12 @@ def fetch_live_events(state):
                         a["score"] = score_str()
                     stories.extend(assists)
 
-        if fx["finished"] and not prev_fx["finished"]:
+        # finished_provisional flips at the final whistle -- that's the real
+        # "match is over" signal. FPL's own `finished` flag only flips later,
+        # once bonus points/BPS are fully confirmed, which can lag well
+        # behind full-time (and in practice can take a long time to arrive),
+        # so full-time posts off finished_provisional instead of waiting on it.
+        if fx.get("finished_provisional") and not prev_fx.get("finished_provisional"):
             stories.append({
                 "type": "full_time",
                 "key": f"fulltime:{fid}",
@@ -300,13 +305,15 @@ def fetch_live_events(state):
                 "minute": minute,
             })
 
-        # Bonus points are provisional (based on live BPS) for as long as the
-        # match is in play, and can flip between players as BPS changes --
-        # posting on every fluctuation would mean repeatedly "correcting"
-        # ourselves. So this waits for the match to be finished AND FPL's own
-        # finished_provisional flag (bonus/BPS settled) before posting once,
-        # off the final numbers, rather than reacting to every stat delta.
-        if fx["finished"] and fx.get("finished_provisional") and fid not in live["bonus_posted"]:
+        # Bonus (BPS-based) is what's actually "provisional" here: it can
+        # keep shifting between players for a short while after the final
+        # whistle as BPS gets recalculated, so posting on every fluctuation
+        # would mean repeatedly "correcting" an earlier post. This posts once,
+        # right at finished_provisional, off whatever the bonus numbers are
+        # at that point -- in the large majority of cases these don't change
+        # again, and waiting for FPL's own `finished` flag (bonus officially
+        # locked) isn't reliable since it can lag full-time significantly.
+        if fx.get("finished_provisional") and fid not in live["bonus_posted"]:
             bonus_stat = next((s for s in fx.get("stats", []) if s["identifier"] == "bonus"), None)
             if bonus_stat:
                 entries = bonus_stat.get("h", []) + bonus_stat.get("a", [])
@@ -331,6 +338,6 @@ def fetch_live_events(state):
                     })
                 live["bonus_posted"][fid] = True
 
-        live["fixtures"][fid] = {"started": fx["started"], "finished": fx["finished"]}
+        live["fixtures"][fid] = {"started": fx["started"], "finished_provisional": fx.get("finished_provisional")}
 
     return stories
