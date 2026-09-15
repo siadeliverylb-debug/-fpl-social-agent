@@ -5283,24 +5283,6 @@
   ],
   "pending": [
     {
-      "key": "status:454:2026-09-14T20:00:09.505598Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:454:2026-09-14T20:00:09.505598Z",
-        "player": "Elanga",
-        "team": "NEW",
-        "status": "injured",
-        "news": "Unspecified injury - Unknown return date",
-        "category": "injury"
-      },
-      "image_path": "assets/generated/status_454_2026-09-14T20_00_09.505598Z.png",
-      "caption": "\ud83d\udea8 INJURY ALERT: Elanga (NEW) is injured.\n\"Unspecified injury - Unknown return date\"\n\nTime for a transfer, or riding it out? #FPL #FPLTips #FPLFamily #FantasyFootball",
-      "created_at": "2026-09-14T20:03:26.480808+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789416206.399379",
-      "auto": false
-    },
-    {
       "key": "status:471:2026-09-12T14:00:09.705107Z",
       "story": {
         "type": "status_change",
@@ -5560,7 +5542,8 @@
     "status:359:2026-07-26T08:30:10.078473Z",
     "status:455:2026-09-14T14:30:07.387706Z",
     "status:441:2026-09-14T16:12:42.090874Z",
-    "status:448:2026-08-23T18:00:08.367241Z"
+    "status:448:2026-08-23T18:00:08.367241Z",
+    "status:454:2026-09-14T20:00:09.505598Z"
   ],
   "post_log": [
     {
@@ -5588,6 +5571,12 @@
       "type": "status_change",
       "posted_at": "2026-09-14T23:23:24.824615+00:00",
       "tweet_id": "2099640186489426289"
+    },
+    {
+      "key": "status:454:2026-09-14T20:00:09.505598Z",
+      "type": "status_change",
+      "posted_at": "2026-09-15T00:55:58.362480+00:00",
+      "tweet_id": "2099663479892250863"
     }
   ],
   "live": {
