@@ -5283,24 +5283,6 @@
   ],
   "pending": [
     {
-      "key": "price:16:62",
-      "story": {
-        "type": "price_change",
-        "key": "price:16:62",
-        "player": "Madueke",
-        "team": "ARS",
-        "direction": "fall",
-        "delta_millions": 0.1,
-        "new_price_millions": 6.2
-      },
-      "image_path": "assets/generated/price_16_62.png",
-      "caption": "\ud83d\udcc9 Madueke (ARS) drops to \u00a36.2m.\n\nPanic sell or hold firm? #FPL #FantasyPremierLeague #FPLTips #FPLFamily #ARS",
-      "created_at": "2026-09-14T23:02:45.628004+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789426965.549929",
-      "auto": false
-    },
-    {
       "key": "price:102:48",
       "story": {
         "type": "price_change",
@@ -5492,7 +5474,8 @@
     "status:454:2026-09-14T20:00:09.505598Z",
     "status:471:2026-09-12T14:00:09.705107Z",
     "status:474:2026-09-12T14:00:09.724349Z",
-    "status:405:2026-09-14T21:30:07.343728Z"
+    "status:405:2026-09-14T21:30:07.343728Z",
+    "price:16:62"
   ],
   "post_log": [
     {
@@ -5544,6 +5527,12 @@
       "type": "status_change",
       "posted_at": "2026-09-15T06:33:02.424814+00:00",
       "tweet_id": "2099748305765072936"
+    },
+    {
+      "key": "price:16:62",
+      "type": "price_change",
+      "posted_at": "2026-09-15T08:29:24.560477+00:00",
+      "tweet_id": "2099777591096057894"
     }
   ],
   "live": {
