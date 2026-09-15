@@ -193,6 +193,19 @@ def render_card(story, out_path):
         subtext = f"{'+' if rising else '-'}£{story['delta_millions']}m price change"
         hero_color = ACCENT if rising else ALERT
         hashtags = f"{base_tags} #{story['team']}"
+    elif t == "price_changes":
+        changes = story["changes"]
+        rises = [c for c in changes if c["direction"] == "rise"]
+        falls = [c for c in changes if c["direction"] == "fall"]
+        eyebrow = "PRICE CHANGES"
+        hero = f"{len(falls)}↓ {len(rises)}↑"
+        headline = "TONIGHT'S PRICE CHANGES"
+        names = [c["player"] for c in changes]
+        shown, extra = names[:12], names[12:]
+        subtext = ", ".join(shown)
+        if extra:
+            subtext += f"  +{len(extra)} more -- full list in caption"
+        hero_color = ALERT if len(falls) >= len(rises) else ACCENT
     elif t == "status_change":
         category = story.get("category", "availability")
         eyebrow, hero, hero_color = STATUS_CARD_META.get(category, STATUS_CARD_META["availability"])
@@ -409,6 +422,18 @@ def build_caption(story):
         return (
             f"\U0001F4C9 {story['player']} ({story['team']}) drops to £{story['new_price_millions']}m.\n\n"
             f"{hook} {tags} #{story['team']}"
+        )
+    if t == "price_changes":
+        changes = story["changes"]
+        rises = [c for c in changes if c["direction"] == "rise"]
+        falls = [c for c in changes if c["direction"] == "fall"]
+        lines = [f"\U0001F53B {c['player']} ({c['team']}) -> £{c['new_price_millions']}m" for c in falls]
+        lines += [f"\U0001F53A {c['player']} ({c['team']}) -> £{c['new_price_millions']}m" for c in rises]
+        body = "\n".join(lines)
+        return (
+            f"\U0001F4CA PRICE CHANGES: {len(falls)} fall{'s' if len(falls) != 1 else ''}, "
+            f"{len(rises)} rise{'s' if len(rises) != 1 else ''}.\n\n{body}\n\n"
+            f"Winners and losers in your squad? {tags}"
         )
     if t == "status_change":
         category = story.get("category", "availability")

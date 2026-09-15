@@ -75,6 +75,7 @@ def diff_snapshots(old, new):
     if old is None:
         return stories  # first run: establish baseline only, nothing to report
 
+    price_changes = []
     for pid, cur in new.items():
         prev = old.get(pid)
         if prev is None:
@@ -82,9 +83,8 @@ def diff_snapshots(old, new):
 
         if cur["now_cost"] != prev["now_cost"]:
             delta = cur["now_cost"] - prev["now_cost"]
-            stories.append({
-                "type": "price_change",
-                "key": f"price:{pid}:{cur['now_cost']}",
+            price_changes.append({
+                "pid": pid,
                 "player": cur["web_name"],
                 "team": cur["team"],
                 "direction": "rise" if delta > 0 else "fall",
@@ -102,6 +102,20 @@ def diff_snapshots(old, new):
                 "news": cur["news"],
                 "category": _classify_status(cur["status"], cur["news"]),
             })
+
+    if price_changes:
+        # All price changes from the same scan land in one post rather than
+        # one tweet per player -- FPL applies price changes to every moved
+        # player at once overnight, and a busy night can move a dozen-plus
+        # players, which would otherwise blow through the daily post cap on
+        # its own and take days to fully get out via the 90-min posting gap.
+        price_changes.sort(key=lambda c: (c["direction"], -c["new_price_millions"]))
+        batch_key = "price_batch:" + ",".join(f"{c['pid']}:{c['new_price_millions']}" for c in price_changes)
+        stories.append({
+            "type": "price_changes",
+            "key": batch_key,
+            "changes": price_changes,
+        })
 
     return stories
 
