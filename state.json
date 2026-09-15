@@ -1534,9 +1534,9 @@
       "web_name": "Onyeka",
       "team": "COV",
       "now_cost": 49,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Hand injury - 50% chance of playing",
+      "news_added": "2026-09-15T09:00:07.851220Z"
     },
     "110": {
       "web_name": "Rushworth",
@@ -4342,9 +4342,9 @@
       "web_name": "J.Ramsey",
       "team": "NEW",
       "now_cost": 49,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Thigh injury - 25% chance of playing",
+      "news_added": "2026-09-15T09:00:08.191022Z"
     },
     "457": {
       "web_name": "J.Murphy",
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-15T08:38:47.398563+00:00",
+  "last_snapshot_at": "2026-09-15T09:05:19.739284+00:00",
   "recapped_events": [
     1,
     2,
@@ -5460,6 +5460,42 @@
       "created_at": "2026-09-14T23:03:10.960345+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789426990.874479",
+      "auto": false
+    },
+    {
+      "key": "status:104:2026-09-15T09:00:07.851220Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:104:2026-09-15T09:00:07.851220Z",
+        "player": "Onyeka",
+        "team": "COV",
+        "status": "doubtful",
+        "news": "Hand injury - 50% chance of playing",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_104_2026-09-15T09_00_07.851220Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Onyeka (COV) is doubtful.\n\"Hand injury - 50% chance of playing\"\n\nHow are you covering this one? #FPL #FPLCommunity #FPLFamily #PremierLeague",
+      "created_at": "2026-09-15T09:05:22.881699+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789463122.737399",
+      "auto": false
+    },
+    {
+      "key": "status:456:2026-09-15T09:00:08.191022Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:456:2026-09-15T09:00:08.191022Z",
+        "player": "J.Ramsey",
+        "team": "NEW",
+        "status": "doubtful",
+        "news": "Thigh injury - 25% chance of playing",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_456_2026-09-15T09_00_08.191022Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: J.Ramsey (NEW) is doubtful.\n\"Thigh injury - 25% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FantasyPremierLeague #FantasyFootball #FPLTips",
+      "created_at": "2026-09-15T09:05:25.947725+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789463125.832999",
       "auto": false
     }
   ],
