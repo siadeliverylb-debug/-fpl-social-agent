@@ -5283,24 +5283,6 @@
   ],
   "pending": [
     {
-      "key": "status:471:2026-09-12T14:00:09.705107Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:471:2026-09-12T14:00:09.705107Z",
-        "player": "Milenkovi\u0107",
-        "team": "NFO",
-        "status": "injured",
-        "news": "Hamstring injury - Expected back 11 Oct",
-        "category": "injury"
-      },
-      "image_path": "assets/generated/status_471_2026-09-12T14_00_09.705107Z.png",
-      "caption": "\ud83d\udea8 INJURY ALERT: Milenkovi\u0107 (NFO) is injured.\n\"Hamstring injury - Expected back 11 Oct\"\n\nDoes this wreck your GW plan? #FPL #FPLTwitter #FPLCommunity #FPLFamily",
-      "created_at": "2026-09-14T20:03:29.005471+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789416208.923269",
-      "auto": false
-    },
-    {
       "key": "status:474:2026-09-12T14:00:09.724349Z",
       "story": {
         "type": "status_change",
@@ -5543,7 +5525,8 @@
     "status:455:2026-09-14T14:30:07.387706Z",
     "status:441:2026-09-14T16:12:42.090874Z",
     "status:448:2026-08-23T18:00:08.367241Z",
-    "status:454:2026-09-14T20:00:09.505598Z"
+    "status:454:2026-09-14T20:00:09.505598Z",
+    "status:471:2026-09-12T14:00:09.705107Z"
   ],
   "post_log": [
     {
@@ -5577,6 +5560,12 @@
       "type": "status_change",
       "posted_at": "2026-09-15T00:55:58.362480+00:00",
       "tweet_id": "2099663479892250863"
+    },
+    {
+      "key": "status:471:2026-09-12T14:00:09.705107Z",
+      "type": "status_change",
+      "posted_at": "2026-09-15T02:27:34.884058+00:00",
+      "tweet_id": "2099686533951258801"
     }
   ],
   "live": {
