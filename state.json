@@ -1078,8 +1078,8 @@
       "web_name": "Georginio",
       "team": "BHA",
       "now_cost": 54,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-08-26T16:00:07.608056Z"
     },
     "126": {
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-15T13:03:56.954270+00:00",
+  "last_snapshot_at": "2026-09-15T13:37:47.515650+00:00",
   "recapped_events": [
     1,
     2,
@@ -5496,6 +5496,23 @@
       "created_at": "2026-09-15T09:05:25.947725+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789463125.832999",
+      "auto": false
+    },
+    {
+      "key": "recap:4",
+      "story": {
+        "type": "gw_recap",
+        "key": "recap:4",
+        "gw": 4,
+        "most_captained": 411,
+        "highest_score": 151,
+        "most_selected": 165
+      },
+      "image_path": "assets/generated/recap_4.png",
+      "caption": "\ud83d\udd25 GW4 is in the books. Top score: 151 pts. Most captained ID: 411.\n\nBeat it, matched it, or fell short? #FPL #FantasyFootball #FantasyPremierLeague #PremierLeague",
+      "created_at": "2026-09-15T13:37:50.503082+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789479470.379649",
       "auto": false
     }
   ],
