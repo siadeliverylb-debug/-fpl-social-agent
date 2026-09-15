@@ -78,9 +78,9 @@
       "web_name": "White",
       "team": "ARS",
       "now_cost": 55,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-07-23T12:01:23.305229Z"
+      "status": "d",
+      "news": "Muscular injury - 75% chance of playing",
+      "news_added": "2026-09-15T19:30:09.494382Z"
     },
     "11": {
       "web_name": "Mosquera",
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-15T19:02:25.716227+00:00",
+  "last_snapshot_at": "2026-09-15T19:34:54.073232+00:00",
   "recapped_events": [
     1,
     2,
@@ -5513,6 +5513,24 @@
       "created_at": "2026-09-15T13:37:50.503082+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789479470.379649",
+      "auto": false
+    },
+    {
+      "key": "status:10:2026-09-15T19:30:09.494382Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:10:2026-09-15T19:30:09.494382Z",
+        "player": "White",
+        "team": "ARS",
+        "status": "doubtful",
+        "news": "Muscular injury - 75% chance of playing",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_10_2026-09-15T19_30_09.494382Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: White (ARS) is doubtful.\n\"Muscular injury - 75% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #FPLCommunity #FantasyPremierLeague #FPLTips",
+      "created_at": "2026-09-15T19:34:57.116182+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789500896.970259",
       "auto": false
     }
   ],
