@@ -406,9 +406,9 @@
       "web_name": "Gomes",
       "team": "AVL",
       "now_cost": 55,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-23T17:30:08.367415Z"
+      "status": "d",
+      "news": "Calf injury - 75% chance of playing",
+      "news_added": "2026-09-16T19:30:08.742410Z"
     },
     "55": {
       "web_name": "Watkins",
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-16T19:02:42.123069+00:00",
+  "last_snapshot_at": "2026-09-16T19:34:34.153266+00:00",
   "recapped_events": [
     1,
     2,
@@ -5654,6 +5654,24 @@
       "created_at": "2026-09-16T19:02:44.834457+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789585364.723979",
+      "auto": false
+    },
+    {
+      "key": "status:54:2026-09-16T19:30:08.742410Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:54:2026-09-16T19:30:08.742410Z",
+        "player": "Gomes",
+        "team": "AVL",
+        "status": "doubtful",
+        "news": "Calf injury - 75% chance of playing",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_54_2026-09-16T19_30_08.742410Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Gomes (AVL) is doubtful.\n\"Calf injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FantasyFootball #FPLTwitter #FPLCommunity",
+      "created_at": "2026-09-16T19:34:37.056114+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789587276.946599",
       "auto": false
     }
   ],
