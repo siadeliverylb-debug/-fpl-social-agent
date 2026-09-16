@@ -1902,8 +1902,8 @@
       "web_name": "Sarr",
       "team": "CRY",
       "now_cost": 62,
-      "status": "i",
-      "news": "Groin injury - Unknown return date",
+      "status": "d",
+      "news": "Groin injury - 50% chance of playing",
       "news_added": "2026-08-22T18:00:07.363165Z"
     },
     "210": {
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-16T16:03:51.092648+00:00",
+  "last_snapshot_at": "2026-09-16T16:35:48.556689+00:00",
   "recapped_events": [
     1,
     2,
@@ -5600,6 +5600,24 @@
       "created_at": "2026-09-15T23:02:34.001508+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789513353.871139",
+      "auto": false
+    },
+    {
+      "key": "status:208:2026-08-22T18:00:07.363165Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:208:2026-08-22T18:00:07.363165Z",
+        "player": "Sarr",
+        "team": "CRY",
+        "status": "doubtful",
+        "news": "Groin injury - 50% chance of playing",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_208_2026-08-22T18_00_07.363165Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Sarr (CRY) is doubtful.\n\"Groin injury - 50% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FantasyFootball #PremierLeague #FantasyPremierLeague",
+      "created_at": "2026-09-16T16:35:51.586053+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789576551.450029",
       "auto": false
     }
   ],
