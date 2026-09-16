@@ -669,7 +669,7 @@
     "76": {
       "web_name": "T\u00f3th.A",
       "team": "BOU",
-      "now_cost": 50,
+      "now_cost": 49,
       "status": "a",
       "news": "",
       "news_added": null
@@ -997,7 +997,7 @@
     "115": {
       "web_name": "De Cuyper",
       "team": "BHA",
-      "now_cost": 48,
+      "now_cost": 49,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-16T22:35:59.256208+00:00",
+  "last_snapshot_at": "2026-09-16T23:02:38.498226+00:00",
   "recapped_events": [
     1,
     2,
@@ -5672,6 +5672,37 @@
       "created_at": "2026-09-16T19:34:37.056114+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789587276.946599",
+      "auto": false
+    },
+    {
+      "key": "price_batch:76:4.9,115:4.9",
+      "story": {
+        "type": "price_changes",
+        "key": "price_batch:76:4.9,115:4.9",
+        "changes": [
+          {
+            "pid": "76",
+            "player": "T\u00f3th.A",
+            "team": "BOU",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.9
+          },
+          {
+            "pid": "115",
+            "player": "De Cuyper",
+            "team": "BHA",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.9
+          }
+        ]
+      },
+      "image_path": "assets/generated/price_batch_76_4.9,115_4.9.png",
+      "caption": "\ud83d\udcca PRICE CHANGES: 1 fall, 1 rise.\n\n\ud83d\udd3b T\u00f3th.A (BOU) -> \u00a34.9m\n\ud83d\udd3a De Cuyper (BHA) -> \u00a34.9m\n\nWinners and losers in your squad? #FPL #FantasyFootball #FPLTwitter #FPLFamily",
+      "created_at": "2026-09-16T23:02:41.340221+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789599761.245789",
       "auto": false
     }
   ],
