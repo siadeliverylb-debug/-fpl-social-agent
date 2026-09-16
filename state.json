@@ -3486,8 +3486,8 @@
       "web_name": "Gomez",
       "team": "LIV",
       "now_cost": 49,
-      "status": "d",
-      "news": "Muscular injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-07-26T08:30:10.078473Z"
     },
     "360": {
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-16T14:03:44.704438+00:00",
+  "last_snapshot_at": "2026-09-16T14:37:33.327231+00:00",
   "recapped_events": [
     1,
     2,
