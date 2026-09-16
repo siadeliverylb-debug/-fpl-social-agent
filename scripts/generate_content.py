@@ -198,7 +198,7 @@ def render_card(story, out_path):
         rises = [c for c in changes if c["direction"] == "rise"]
         falls = [c for c in changes if c["direction"] == "fall"]
         eyebrow = "PRICE CHANGES"
-        hero = f"{len(falls)}↓ {len(rises)}↑"
+        hero = f"{len(falls)} FALLS {len(rises)} RISES"
         headline = "TONIGHT'S PRICE CHANGES"
         names = [c["player"] for c in changes]
         shown, extra = names[:12], names[12:]
