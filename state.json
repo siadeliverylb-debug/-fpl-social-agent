@@ -5283,24 +5283,6 @@
   ],
   "pending": [
     {
-      "key": "price:102:48",
-      "story": {
-        "type": "price_change",
-        "key": "price:102:48",
-        "player": "Yarmoliuk",
-        "team": "BRE",
-        "direction": "fall",
-        "delta_millions": 0.1,
-        "new_price_millions": 4.8
-      },
-      "image_path": "assets/generated/price_102_48.png",
-      "caption": "\ud83d\udcc9 Yarmoliuk (BRE) drops to \u00a34.8m.\n\nPanic sell or hold firm? #FPL #FantasyFootball #FPLTips #PremierLeague #BRE",
-      "created_at": "2026-09-14T23:02:48.199502+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789426968.094509",
-      "auto": false
-    },
-    {
       "key": "price:328:49",
       "story": {
         "type": "price_change",
@@ -5705,7 +5687,8 @@
     "status:471:2026-09-12T14:00:09.705107Z",
     "status:474:2026-09-12T14:00:09.724349Z",
     "status:405:2026-09-14T21:30:07.343728Z",
-    "price:16:62"
+    "price:16:62",
+    "price:102:48"
   ],
   "post_log": [
     {
@@ -5763,6 +5746,12 @@
       "type": "price_change",
       "posted_at": "2026-09-15T08:29:24.560477+00:00",
       "tweet_id": "2099777591096057894"
+    },
+    {
+      "key": "price:102:48",
+      "type": "price_change",
+      "posted_at": "2026-09-16T00:31:44.090095+00:00",
+      "tweet_id": "2100019768023830680"
     }
   ],
   "live": {
