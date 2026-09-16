@@ -5283,24 +5283,6 @@
   ],
   "pending": [
     {
-      "key": "price:159:53",
-      "story": {
-        "type": "price_change",
-        "key": "price:159:53",
-        "player": "Caicedo",
-        "team": "CHE",
-        "direction": "fall",
-        "delta_millions": 0.1,
-        "new_price_millions": 5.3
-      },
-      "image_path": "assets/generated/price_159_53.png",
-      "caption": "\ud83d\udcc9 Caicedo (CHE) drops to \u00a35.3m.\n\nBuying the dip, or steering clear? #FPL #FPLFamily #FPLCommunity #FPLTwitter #CHE",
-      "created_at": "2026-09-14T23:02:53.351447+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789426973.268749",
-      "auto": false
-    },
-    {
       "key": "price:568:54",
       "story": {
         "type": "price_change",
@@ -5671,7 +5653,8 @@
     "status:405:2026-09-14T21:30:07.343728Z",
     "price:16:62",
     "price:102:48",
-    "price:328:49"
+    "price:328:49",
+    "price:159:53"
   ],
   "post_log": [
     {
@@ -5741,6 +5724,12 @@
       "type": "price_change",
       "posted_at": "2026-09-16T02:27:01.224135+00:00",
       "tweet_id": "2100048780770861396"
+    },
+    {
+      "key": "price:159:53",
+      "type": "price_change",
+      "posted_at": "2026-09-16T04:26:31.746964+00:00",
+      "tweet_id": "2100078856073801834"
     }
   ],
   "live": {
