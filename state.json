@@ -254,8 +254,8 @@
       "web_name": "Cash",
       "team": "AVL",
       "now_cost": 44,
-      "status": "d",
-      "news": "Muscular injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-09T14:30:08.192142Z"
     },
     "33": {
@@ -1534,8 +1534,8 @@
       "web_name": "Onyeka",
       "team": "COV",
       "now_cost": 49,
-      "status": "d",
-      "news": "Hand injury - 50% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-15T09:00:07.851220Z"
     },
     "110": {
@@ -2262,9 +2262,9 @@
       "web_name": "R\u00f6hl",
       "team": "EVE",
       "now_cost": 49,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-09-16T18:00:09.541933Z"
     },
     "247": {
       "web_name": "Hackney",
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-16T17:34:56.074457+00:00",
+  "last_snapshot_at": "2026-09-16T18:04:46.049406+00:00",
   "recapped_events": [
     1,
     2,
@@ -5618,6 +5618,24 @@
       "created_at": "2026-09-16T16:35:51.586053+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789576551.450029",
+      "auto": false
+    },
+    {
+      "key": "status:246:2026-09-16T18:00:09.541933Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:246:2026-09-16T18:00:09.541933Z",
+        "player": "R\u00f6hl",
+        "team": "EVE",
+        "status": "doubtful",
+        "news": "Unspecified injury - 75% chance of playing",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_246_2026-09-16T18_00_09.541933Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: R\u00f6hl (EVE) is doubtful.\n\"Unspecified injury - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FPLCommunity #FantasyPremierLeague #FPLFamily",
+      "created_at": "2026-09-16T18:04:49.013428+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789581888.864969",
       "auto": false
     }
   ],
