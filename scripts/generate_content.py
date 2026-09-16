@@ -101,7 +101,22 @@ def _wrap(draw, text, font, max_width):
     return lines
 
 
+def _draw_triangle(draw, x, y, size, color, direction):
+    """A filled triangle drawn as shapes rather than a font glyph -- unlike
+    arrow/triangle unicode characters (e.g. ↓/↑), this renders
+    correctly regardless of whether the card font has that glyph."""
+    if direction == "down":
+        pts = [(x, y), (x + size, y), (x + size / 2, y + size)]
+    else:
+        pts = [(x, y + size), (x + size, y + size), (x + size / 2, y)]
+    draw.polygon(pts, fill=color)
+
+
 def _hero_card(eyebrow, hero, headline, subtext=None, hero_color=None, hashtags=None):
+    """`hero` is normally a string. It may instead be a list of segments to
+    support inline shapes (e.g. rise/fall triangles) that a font glyph can't
+    reliably provide: {"text": str, "color": optional} or
+    {"shape": "up"|"down", "color": optional}."""
     img, _ = _gradient_bg()
     margin = 90
     hero_color = hero_color or ACCENT
@@ -122,13 +137,38 @@ def _hero_card(eyebrow, hero, headline, subtext=None, hero_color=None, hashtags=
     draw.text((margin, margin), eyebrow.upper(), font=_font(36, 800), fill=hero_color)
     draw.line([(margin, margin + 58), (margin + 90, margin + 58)], fill=hero_color, width=6)
 
-    hero_size = 230
-    hero_font = _font(hero_size, 900)
-    while draw.textlength(hero, font=hero_font) > SIZE - 2 * margin and hero_size > 90:
-        hero_size -= 12
-        hero_font = _font(hero_size, 900)
     hero_y = 270
-    draw.text((margin, hero_y), hero, font=hero_font, fill=WHITE)
+    if isinstance(hero, list):
+        hero_size = 230
+        hero_font = _font(hero_size, 900)
+
+        def _segments_width(font):
+            w = 0
+            for seg in hero:
+                w += draw.textlength(seg["text"], font=font) if "text" in seg else font.size * 0.65
+            return w
+
+        while _segments_width(hero_font) > SIZE - 2 * margin and hero_size > 90:
+            hero_size -= 12
+            hero_font = _font(hero_size, 900)
+
+        x = margin
+        for seg in hero:
+            if "text" in seg:
+                draw.text((x, hero_y), seg["text"], font=hero_font, fill=seg.get("color", WHITE))
+                x += draw.textlength(seg["text"], font=hero_font)
+            else:
+                tri_size = hero_size * 0.5
+                tri_y = hero_y + hero_size * 0.32
+                _draw_triangle(draw, x, tri_y, tri_size, seg.get("color", WHITE), seg["shape"])
+                x += tri_size + hero_size * 0.12
+    else:
+        hero_size = 230
+        hero_font = _font(hero_size, 900)
+        while draw.textlength(hero, font=hero_font) > SIZE - 2 * margin and hero_size > 90:
+            hero_size -= 12
+            hero_font = _font(hero_size, 900)
+        draw.text((margin, hero_y), hero, font=hero_font, fill=WHITE)
 
     headline_font = _font(56, 800)
     y = hero_y + hero_size + 30
@@ -198,7 +238,12 @@ def render_card(story, out_path):
         rises = [c for c in changes if c["direction"] == "rise"]
         falls = [c for c in changes if c["direction"] == "fall"]
         eyebrow = "PRICE CHANGES"
-        hero = f"{len(falls)} FALLS {len(rises)} RISES"
+        hero = [
+            {"text": f"{len(falls)} "},
+            {"shape": "down", "color": ALERT},
+            {"text": f"  {len(rises)} "},
+            {"shape": "up", "color": ACCENT},
+        ]
         headline = "TONIGHT'S PRICE CHANGES"
         names = [c["player"] for c in changes]
         shown, extra = names[:12], names[12:]
