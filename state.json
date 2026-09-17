@@ -238,9 +238,9 @@
       "web_name": "M.Bizot",
       "team": "AVL",
       "now_cost": 45,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Back injury - 75% chance of playing",
+      "news_added": "2026-09-17T07:30:09.058151Z"
     },
     "30": {
       "web_name": "Digne",
@@ -1638,9 +1638,9 @@
       "web_name": "Amenda",
       "team": "COV",
       "now_cost": 40,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Calf injury - 50% chance of playing",
+      "news_added": "2026-09-17T07:30:09.329041Z"
     },
     "183": {
       "web_name": "Rudoni",
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-17T07:04:38.886037+00:00",
+  "last_snapshot_at": "2026-09-17T07:37:03.498660+00:00",
   "recapped_events": [
     1,
     2,
@@ -5631,6 +5631,42 @@
       "created_at": "2026-09-16T23:02:41.340221+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789599761.245789",
+      "auto": false
+    },
+    {
+      "key": "status:29:2026-09-17T07:30:09.058151Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:29:2026-09-17T07:30:09.058151Z",
+        "player": "M.Bizot",
+        "team": "AVL",
+        "status": "doubtful",
+        "news": "Back injury - 75% chance of playing",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_29_2026-09-17T07_30_09.058151Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: M.Bizot (AVL) is doubtful.\n\"Back injury - 75% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #PremierLeague #FantasyPremierLeague #FPLCommunity",
+      "created_at": "2026-09-17T07:37:06.677477+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789630626.554989",
+      "auto": false
+    },
+    {
+      "key": "status:182:2026-09-17T07:30:09.329041Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:182:2026-09-17T07:30:09.329041Z",
+        "player": "Amenda",
+        "team": "COV",
+        "status": "doubtful",
+        "news": "Calf injury - 50% chance of playing",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_182_2026-09-17T07_30_09.329041Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Amenda (COV) is doubtful.\n\"Calf injury - 50% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #PremierLeague #FantasyFootball #FPLFamily",
+      "created_at": "2026-09-17T07:37:09.792819+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789630629.642759",
       "auto": false
     }
   ],
