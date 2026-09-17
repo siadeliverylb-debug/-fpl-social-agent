@@ -5283,24 +5283,6 @@
   ],
   "pending": [
     {
-      "key": "price:526:58",
-      "story": {
-        "type": "price_change",
-        "key": "price:526:58",
-        "player": "Solanke",
-        "team": "TOT",
-        "direction": "fall",
-        "delta_millions": 0.1,
-        "new_price_millions": 5.8
-      },
-      "image_path": "assets/generated/price_526_58.png",
-      "caption": "\ud83d\udcc9 Solanke (TOT) drops to \u00a35.8m.\n\nBuying the dip, or steering clear? #FPL #FantasyPremierLeague #PremierLeague #FPLTips #TOT",
-      "created_at": "2026-09-14T23:03:10.960345+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789426990.874479",
-      "auto": false
-    },
-    {
       "key": "status:104:2026-09-15T09:00:07.851220Z",
       "story": {
         "type": "status_change",
@@ -5691,7 +5673,8 @@
     "price:309:49",
     "price:378:44",
     "price:43:58",
-    "price:506:44"
+    "price:506:44",
+    "price:526:58"
   ],
   "post_log": [
     {
@@ -5803,6 +5786,12 @@
       "type": "price_change",
       "posted_at": "2026-09-17T06:32:08.129969+00:00",
       "tweet_id": "2100472853778878556"
+    },
+    {
+      "key": "price:526:58",
+      "type": "price_change",
+      "posted_at": "2026-09-17T08:28:03.662343+00:00",
+      "tweet_id": "2100502027214225875"
     }
   ],
   "live": {
