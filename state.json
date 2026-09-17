@@ -2766,9 +2766,9 @@
       "web_name": "Targett",
       "team": "HUL",
       "now_cost": 40,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Ankle injury - 75% chance of playing",
+      "news_added": "2026-09-17T14:00:26.419938Z"
     },
     "563": {
       "web_name": "Morita",
@@ -2814,8 +2814,8 @@
       "web_name": "Mendy",
       "team": "HUL",
       "now_cost": 41,
-      "status": "d",
-      "news": "Concussion - 50% chance of playing",
+      "status": "i",
+      "news": "Concussion - Expected back 11 Oct",
       "news_added": "2026-09-12T18:00:09.334142Z"
     },
     "589": {
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-17T13:36:05.505743+00:00",
+  "last_snapshot_at": "2026-09-17T14:03:16.099239+00:00",
   "recapped_events": [
     1,
     2,
@@ -5721,6 +5721,42 @@
       "created_at": "2026-09-17T13:36:13.361413+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789652173.274949",
+      "auto": false
+    },
+    {
+      "key": "status:556:2026-09-17T14:00:26.419938Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:556:2026-09-17T14:00:26.419938Z",
+        "player": "Targett",
+        "team": "HUL",
+        "status": "doubtful",
+        "news": "Ankle injury - 75% chance of playing",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_556_2026-09-17T14_00_26.419938Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Targett (HUL) is doubtful.\n\"Ankle injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #PremierLeague #FantasyFootball #FPLTips",
+      "created_at": "2026-09-17T14:03:18.790279+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789653798.684509",
+      "auto": false
+    },
+    {
+      "key": "status:586:2026-09-12T18:00:09.334142Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:586:2026-09-12T18:00:09.334142Z",
+        "player": "Mendy",
+        "team": "HUL",
+        "status": "injured",
+        "news": "Concussion - Expected back 11 Oct",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_586_2026-09-12T18_00_09.334142Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Mendy (HUL) is injured.\n\"Concussion - Expected back 11 Oct\"\n\nBench him or bank on a late fitness call? #FPL #FantasyPremierLeague #PremierLeague #FPLFamily",
+      "created_at": "2026-09-17T14:03:21.346224+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789653801.243859",
       "auto": false
     }
   ],
