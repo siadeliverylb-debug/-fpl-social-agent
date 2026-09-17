@@ -1639,7 +1639,7 @@
       "team": "COV",
       "now_cost": 40,
       "status": "d",
-      "news": "Calf injury - 50% chance of playing",
+      "news": "Calf injury - 25% chance of playing",
       "news_added": "2026-09-17T07:30:09.329041Z"
     },
     "183": {
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-17T10:36:34.484791+00:00",
+  "last_snapshot_at": "2026-09-17T11:03:42.253249+00:00",
   "recapped_events": [
     1,
     2,
