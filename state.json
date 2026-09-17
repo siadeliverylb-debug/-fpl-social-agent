@@ -2246,9 +2246,9 @@
       "web_name": "Armstrong",
       "team": "EVE",
       "now_cost": 50,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-09-17T08:30:08.942299Z"
     },
     "245": {
       "web_name": "Dibling",
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-17T08:03:12.587831+00:00",
+  "last_snapshot_at": "2026-09-17T08:38:27.694649+00:00",
   "recapped_events": [
     1,
     2,
@@ -5649,6 +5649,24 @@
       "created_at": "2026-09-17T07:37:09.792819+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789630629.642759",
+      "auto": false
+    },
+    {
+      "key": "status:244:2026-09-17T08:30:08.942299Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:244:2026-09-17T08:30:08.942299Z",
+        "player": "Armstrong",
+        "team": "EVE",
+        "status": "doubtful",
+        "news": "Unspecified injury - 75% chance of playing",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_244_2026-09-17T08_30_08.942299Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Armstrong (EVE) is doubtful.\n\"Unspecified injury - 75% chance of playing\"\n\nHow are you covering this one? #FPL #FPLFamily #FPLCommunity #FPLTips",
+      "created_at": "2026-09-17T08:38:30.613571+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789634310.493709",
       "auto": false
     }
   ],
