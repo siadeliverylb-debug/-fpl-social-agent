@@ -1278,8 +1278,8 @@
       "web_name": "Henderson",
       "team": "CHE",
       "now_cost": 49,
-      "status": "i",
-      "news": "Wrist injury - Unknown return date",
+      "status": "d",
+      "news": "Wrist injury - 50% chance of playing",
       "news_added": "2026-08-09T09:30:07.136250Z"
     },
     "136": {
@@ -1382,8 +1382,8 @@
       "web_name": "Palestra",
       "team": "CHE",
       "now_cost": 53,
-      "status": "i",
-      "news": "Thigh injury - Expected back 18 Sep",
+      "status": "d",
+      "news": "Thigh injury - 50% chance of playing",
       "news_added": "2026-08-24T18:30:07.421239Z"
     },
     "154": {
@@ -1422,8 +1422,8 @@
       "web_name": "Caicedo",
       "team": "CHE",
       "now_cost": 53,
-      "status": "i",
-      "news": "Calf injury - Expected back 18 Sep",
+      "status": "d",
+      "news": "Calf injury - 50% chance of playing",
       "news_added": "2026-08-30T16:00:08.393562Z"
     },
     "161": {
@@ -4551,7 +4551,7 @@
       "team": "NFO",
       "now_cost": 45,
       "status": "d",
-      "news": "Hamstring injury - 50% chance of playing",
+      "news": "Hamstring injury - 75% chance of playing",
       "news_added": "2026-09-12T14:00:09.724349Z"
     },
     "475": {
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-17T13:04:23.609599+00:00",
+  "last_snapshot_at": "2026-09-17T13:36:05.505743+00:00",
   "recapped_events": [
     1,
     2,
@@ -5667,6 +5667,60 @@
       "created_at": "2026-09-17T08:38:30.613571+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789634310.493709",
+      "auto": false
+    },
+    {
+      "key": "status:101:2026-08-09T09:30:07.136250Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:101:2026-08-09T09:30:07.136250Z",
+        "player": "Henderson",
+        "team": "CHE",
+        "status": "doubtful",
+        "news": "Wrist injury - 50% chance of playing",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_101_2026-08-09T09_30_07.136250Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Henderson (CHE) is doubtful.\n\"Wrist injury - 50% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #PremierLeague #FantasyPremierLeague #FPLTwitter",
+      "created_at": "2026-09-17T13:36:08.177714+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789652168.077559",
+      "auto": false
+    },
+    {
+      "key": "status:152:2026-08-24T18:30:07.421239Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:152:2026-08-24T18:30:07.421239Z",
+        "player": "Palestra",
+        "team": "CHE",
+        "status": "doubtful",
+        "news": "Thigh injury - 50% chance of playing",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_152_2026-08-24T18_30_07.421239Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Palestra (CHE) is doubtful.\n\"Thigh injury - 50% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FantasyFootball #FPLFamily #FPLTips",
+      "created_at": "2026-09-17T13:36:10.720149+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789652170.642939",
+      "auto": false
+    },
+    {
+      "key": "status:159:2026-08-30T16:00:08.393562Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:159:2026-08-30T16:00:08.393562Z",
+        "player": "Caicedo",
+        "team": "CHE",
+        "status": "doubtful",
+        "news": "Calf injury - 50% chance of playing",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_159_2026-08-30T16_00_08.393562Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Caicedo (CHE) is doubtful.\n\"Calf injury - 50% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #PremierLeague #FPLFamily #FPLTwitter",
+      "created_at": "2026-09-17T13:36:13.361413+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789652173.274949",
       "auto": false
     }
   ],
