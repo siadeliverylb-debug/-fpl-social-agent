@@ -117,7 +117,7 @@
     "15": {
       "web_name": "\u00d8degaard",
       "team": "ARS",
-      "now_cost": 67,
+      "now_cost": 68,
       "status": "a",
       "news": "",
       "news_added": null
@@ -853,7 +853,7 @@
     "96": {
       "web_name": "Damsgaard",
       "team": "BRE",
-      "now_cost": 55,
+      "now_cost": 54,
       "status": "a",
       "news": "",
       "news_added": null
@@ -917,7 +917,7 @@
     "106": {
       "web_name": "Thiago",
       "team": "BRE",
-      "now_cost": 79,
+      "now_cost": 78,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1645,7 +1645,7 @@
     "183": {
       "web_name": "Rudoni",
       "team": "COV",
-      "now_cost": 50,
+      "now_cost": 49,
       "status": "a",
       "news": "",
       "news_added": "2026-07-23T12:01:23.481435Z"
@@ -1661,7 +1661,7 @@
     "185": {
       "web_name": "Sakamoto",
       "team": "COV",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1693,7 +1693,7 @@
     "189": {
       "web_name": "Shepherd",
       "team": "COV",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1821,7 +1821,7 @@
     "42": {
       "web_name": "Guessand",
       "team": "CRY",
-      "now_cost": 55,
+      "now_cost": 54,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2957,7 +2957,7 @@
     "308": {
       "web_name": "Furlong",
       "team": "IPS",
-      "now_cost": 40,
+      "now_cost": 39,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3013,7 +3013,7 @@
     "315": {
       "web_name": "Fatawu",
       "team": "IPS",
-      "now_cost": 55,
+      "now_cost": 54,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3165,7 +3165,7 @@
     "260": {
       "web_name": "Wilson",
       "team": "LEE",
-      "now_cost": 63,
+      "now_cost": 62,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3197,7 +3197,7 @@
     "330": {
       "web_name": "Bogle",
       "team": "LEE",
-      "now_cost": 45,
+      "now_cost": 46,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3469,7 +3469,7 @@
     "357": {
       "web_name": "Frimpong",
       "team": "LIV",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3541,7 +3541,7 @@
     "366": {
       "web_name": "Wirtz",
       "team": "LIV",
-      "now_cost": 74,
+      "now_cost": 73,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3821,7 +3821,7 @@
     "398": {
       "web_name": "Foden",
       "team": "MCI",
-      "now_cost": 70,
+      "now_cost": 69,
       "status": "s",
       "news": "Suspended until 17 Oct",
       "news_added": "2026-09-13T17:00:09.433455Z"
@@ -3901,7 +3901,7 @@
     "411": {
       "web_name": "Haaland",
       "team": "MCI",
-      "now_cost": 155,
+      "now_cost": 156,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4797,7 +4797,7 @@
     "499": {
       "web_name": "Pedro Porro",
       "team": "TOT",
-      "now_cost": 55,
+      "now_cost": 54,
       "status": "d",
       "news": "Unspecified injury - 75% chance of playing",
       "news_added": "2026-09-11T18:00:09.076279Z"
@@ -4941,7 +4941,7 @@
     "519": {
       "web_name": "Gallagher",
       "team": "TOT",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-17T22:32:30.055839+00:00",
+  "last_snapshot_at": "2026-09-17T23:02:18.104172+00:00",
   "recapped_events": [
     1,
     2,
@@ -5809,6 +5809,157 @@
       "created_at": "2026-09-17T17:35:28.373598+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789666528.211219",
+      "auto": false
+    },
+    {
+      "key": "price_batch:106:7.8,366:7.3,398:6.9,260:6.2,96:5.4,42:5.4,315:5.4,499:5.4,357:5.3,519:5.3,183:4.9,185:4.8,189:4.4,308:3.9,411:15.6,15:6.8,330:4.6",
+      "story": {
+        "type": "price_changes",
+        "key": "price_batch:106:7.8,366:7.3,398:6.9,260:6.2,96:5.4,42:5.4,315:5.4,499:5.4,357:5.3,519:5.3,183:4.9,185:4.8,189:4.4,308:3.9,411:15.6,15:6.8,330:4.6",
+        "changes": [
+          {
+            "pid": "106",
+            "player": "Thiago",
+            "team": "BRE",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 7.8
+          },
+          {
+            "pid": "366",
+            "player": "Wirtz",
+            "team": "LIV",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 7.3
+          },
+          {
+            "pid": "398",
+            "player": "Foden",
+            "team": "MCI",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 6.9
+          },
+          {
+            "pid": "260",
+            "player": "Wilson",
+            "team": "LEE",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 6.2
+          },
+          {
+            "pid": "96",
+            "player": "Damsgaard",
+            "team": "BRE",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.4
+          },
+          {
+            "pid": "42",
+            "player": "Guessand",
+            "team": "CRY",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.4
+          },
+          {
+            "pid": "315",
+            "player": "Fatawu",
+            "team": "IPS",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.4
+          },
+          {
+            "pid": "499",
+            "player": "Pedro Porro",
+            "team": "TOT",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.4
+          },
+          {
+            "pid": "357",
+            "player": "Frimpong",
+            "team": "LIV",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.3
+          },
+          {
+            "pid": "519",
+            "player": "Gallagher",
+            "team": "TOT",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.3
+          },
+          {
+            "pid": "183",
+            "player": "Rudoni",
+            "team": "COV",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.9
+          },
+          {
+            "pid": "185",
+            "player": "Sakamoto",
+            "team": "COV",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.8
+          },
+          {
+            "pid": "189",
+            "player": "Shepherd",
+            "team": "COV",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.4
+          },
+          {
+            "pid": "308",
+            "player": "Furlong",
+            "team": "IPS",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 3.9
+          },
+          {
+            "pid": "411",
+            "player": "Haaland",
+            "team": "MCI",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 15.6
+          },
+          {
+            "pid": "15",
+            "player": "\u00d8degaard",
+            "team": "ARS",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 6.8
+          },
+          {
+            "pid": "330",
+            "player": "Bogle",
+            "team": "LEE",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.6
+          }
+        ]
+      },
+      "image_path": "assets/generated/price_batch_106_7.8,366_7.3,398_6.9,260_6.2,96_5.4,42_5.4,315_5.4,499_5.4,357_5.3,519_5.3,183_4.9,185_4.8,189_4.4,308_3.9,411_15.6,15_6.8,330_4.6.png",
+      "caption": "\ud83d\udcca PRICE CHANGES: 14 falls, 3 rises.\n\n\ud83d\udd3b Thiago (BRE) -> \u00a37.8m\n\ud83d\udd3b Wirtz (LIV) -> \u00a37.3m\n\ud83d\udd3b Foden (MCI) -> \u00a36.9m\n\ud83d\udd3b Wilson (LEE) -> \u00a36.2m\n\ud83d\udd3b Damsgaard (BRE) -> \u00a35.4m\n\ud83d\udd3b Guessand (CRY) -> \u00a35.4m\n\ud83d\udd3b Fatawu (IPS) -> \u00a35.4m\n\ud83d\udd3b Pedro Porro (TOT) -> \u00a35.4m\n\ud83d\udd3b Frimpong (LIV) -> \u00a35.3m\n\ud83d\udd3b Gallagher (TOT) -> \u00a35.3m\n\ud83d\udd3b Rudoni (COV) -> \u00a34.9m\n\ud83d\udd3b Sakamoto (COV) -> \u00a34.8m\n\ud83d\udd3b Shepherd (COV) -> \u00a34.4m\n\ud83d\udd3b Furlong (IPS) -> \u00a33.9m\n\ud83d\udd3a Haaland (MCI) -> \u00a315.6m\n\ud83d\udd3a \u00d8degaard (ARS) -> \u00a36.8m\n\ud83d\udd3a Bogle (LEE) -> \u00a34.6m\n\nWinners and losers in your squad? #FPL #FPLTips #FantasyFootball #PremierLeague",
+      "created_at": "2026-09-17T23:02:21.469501+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789686141.351219",
       "auto": false
     }
   ],
