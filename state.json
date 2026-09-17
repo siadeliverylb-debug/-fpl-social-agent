@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-17T17:04:40.635707+00:00",
+  "last_snapshot_at": "2026-09-17T17:35:25.310049+00:00",
   "recapped_events": [
     1,
     2,
@@ -5793,6 +5793,22 @@
       "created_at": "2026-09-17T14:38:55.147931+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789655935.034489",
+      "auto": false
+    },
+    {
+      "key": "deadline:5:24h",
+      "story": {
+        "type": "deadline_reminder",
+        "key": "deadline:5:24h",
+        "gw": 5,
+        "bucket": "24h",
+        "hours_until": 23.9
+      },
+      "image_path": "assets/generated/deadline_5_24h.png",
+      "caption": "\u23f0 GW5 deadline in 24h! Transfers, captain, chip calls -- lock it in NOW.\n\n#FPL #FPLCommunity #FPLTwitter #FantasyPremierLeague",
+      "created_at": "2026-09-17T17:35:28.373598+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789666528.211219",
       "auto": false
     }
   ],
