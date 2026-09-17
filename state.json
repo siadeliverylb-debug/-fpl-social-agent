@@ -1902,8 +1902,8 @@
       "web_name": "Sarr",
       "team": "CRY",
       "now_cost": 62,
-      "status": "d",
-      "news": "Groin injury - 50% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-08-22T18:00:07.363165Z"
     },
     "210": {
@@ -2022,8 +2022,8 @@
       "web_name": "Nketiah",
       "team": "CRY",
       "now_cost": 55,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-12T14:00:09.427136Z"
     },
     "225": {
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-17T19:34:08.122719+00:00",
+  "last_snapshot_at": "2026-09-17T20:04:11.413408+00:00",
   "recapped_events": [
     1,
     2,
