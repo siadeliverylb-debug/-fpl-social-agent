@@ -5284,24 +5284,6 @@
   ],
   "pending": [
     {
-      "key": "status:165:2026-09-16T19:00:09.919929Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:165:2026-09-16T19:00:09.919929Z",
-        "player": "Jo\u00e3o Pedro",
-        "team": "CHE",
-        "status": "doubtful",
-        "news": "Unspecified injury - 75% chance of playing",
-        "category": "injury"
-      },
-      "image_path": "assets/generated/status_165_2026-09-16T19_00_09.919929Z.png",
-      "caption": "\ud83d\udea8 INJURY ALERT: Jo\u00e3o Pedro (CHE) is doubtful.\n\"Unspecified injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FantasyFootball #FantasyPremierLeague #FPLFamily",
-      "created_at": "2026-09-16T19:02:44.834457+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789585364.723979",
-      "auto": false
-    },
-    {
       "key": "status:54:2026-09-16T19:30:08.742410Z",
       "story": {
         "type": "status_change",
@@ -5763,7 +5745,8 @@
     "status:10:2026-09-15T19:30:09.494382Z",
     "price_batch:95:6.3,618:5.9,431:5.7,84:5.4,126:5.4,393:5.4,11:5.3,130:4.9,266:4.9,446:4.9,32:4.4,172:4.4,577:4.4,438:4.4,480:8.0,94:6.1,124:5.7,286:5.1",
     "status:208:2026-08-22T18:00:07.363165Z",
-    "status:246:2026-09-16T18:00:09.541933Z"
+    "status:246:2026-09-16T18:00:09.541933Z",
+    "status:165:2026-09-16T19:00:09.919929Z"
   ],
   "post_log": [
     {
@@ -5923,6 +5906,12 @@
       "type": "status_change",
       "posted_at": "2026-09-18T11:50:11.934972+00:00",
       "tweet_id": "2100915285004017963"
+    },
+    {
+      "key": "status:165:2026-09-16T19:00:09.919929Z",
+      "type": "status_change",
+      "posted_at": "2026-09-18T12:29:38.248539+00:00",
+      "tweet_id": "2100925209863672316"
     }
   ],
   "live": {
