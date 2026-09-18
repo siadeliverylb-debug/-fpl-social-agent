@@ -2358,9 +2358,9 @@
       "web_name": "Tete",
       "team": "FUL",
       "now_cost": 44,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "i",
+      "news": "Concussion - Expected back 10 Oct",
+      "news_added": "2026-09-18T12:30:09.546158Z"
     },
     "257": {
       "web_name": "Bassey",
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-18T12:03:14.000908+00:00",
+  "last_snapshot_at": "2026-09-18T12:41:53.489156+00:00",
   "recapped_events": [
     1,
     2,
@@ -5713,6 +5713,24 @@
       "created_at": "2026-09-18T10:35:36.356877+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789727736.223219",
+      "auto": false
+    },
+    {
+      "key": "status:256:2026-09-18T12:30:09.546158Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:256:2026-09-18T12:30:09.546158Z",
+        "player": "Tete",
+        "team": "FUL",
+        "status": "injured",
+        "news": "Concussion - Expected back 10 Oct",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_256_2026-09-18T12_30_09.546158Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Tete (FUL) is injured.\n\"Concussion - Expected back 10 Oct\"\n\nDoes this wreck your GW plan? #FPL #PremierLeague #FPLTips #FantasyPremierLeague",
+      "created_at": "2026-09-18T12:41:56.080725+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789735315.981299",
       "auto": false
     }
   ],
