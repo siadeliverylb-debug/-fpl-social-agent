@@ -4750,8 +4750,8 @@
       "web_name": "Tonali",
       "team": "TOT",
       "now_cost": 54,
-      "status": "d",
-      "news": "Knock - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-14T14:30:07.387706Z"
     },
     "494": {
@@ -4798,8 +4798,8 @@
       "web_name": "Pedro Porro",
       "team": "TOT",
       "now_cost": 54,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-11T18:00:09.076279Z"
     },
     "500": {
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-18T11:03:30.470285+00:00",
+  "last_snapshot_at": "2026-09-18T11:36:34.842740+00:00",
   "recapped_events": [
     1,
     2,
