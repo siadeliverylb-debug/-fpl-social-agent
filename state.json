@@ -5783,7 +5783,8 @@
       "41:93:assists": 1,
       "41:106:goals_scored": 1,
       "41:94:assists": 1,
-      "41:106:yellow_cards": 1
+      "41:106:yellow_cards": 1,
+      "41:565:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6371,23 +6372,29 @@
       "type": "goal",
       "posted_at": "2026-09-18T20:42:58.094632+00:00",
       "tweet_id": "2101049360801018197"
+    },
+    {
+      "key": "yellow_card:41:106:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-18T20:47:00.489555+00:00",
+      "tweet_id": "2101050376661397943"
     }
   ],
   "live_queue": [
     {
-      "key": "yellow_card:41:106:1",
+      "key": "yellow_card:41:565:1",
       "story": {
         "type": "yellow_card",
-        "key": "yellow_card:41:106:1",
-        "player": "Thiago",
+        "key": "yellow_card:41:565:1",
+        "player": "M.Sangar\u00e9",
         "team": "BRE",
         "home": "BRE",
         "away": "CHE",
-        "minute": 84,
+        "minute": 88,
         "score": "2-0"
       },
-      "image_path": "assets/generated/live_yellow_card_41_106_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 84' Thiago (BRE) is booked. BRE 2-0 CHE.\n\nRisk of a ban building here. #FPL #FPLTwitter #FPLFamily #FantasyPremierLeague #BRE\n\nFollow @fantasycoachai so you don't miss the next update."
+      "image_path": "assets/generated/live_yellow_card_41_565_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 88' M.Sangar\u00e9 (BRE) is booked. BRE 2-0 CHE.\n\nDoes this change your captaincy call? #FPL #FPLCommunity #FPLTwitter #FantasyPremierLeague #BRE\n\nFollowing along? Hit follow so you don't miss what's next."
     }
   ]
 }
