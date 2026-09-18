@@ -1311,7 +1311,7 @@
       "team": "CHE",
       "now_cost": 54,
       "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "news": "Hamstring injury - 75% chance of playing",
       "news_added": "2026-09-18T10:30:09.719371Z"
     },
     "143": {
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-18T18:40:26.122679+00:00",
+  "last_snapshot_at": "2026-09-18T19:03:28.213195+00:00",
   "recapped_events": [
     1,
     2,
@@ -5652,6 +5652,29 @@
       "created_at": "2026-09-18T15:38:31.514023+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789745911.432959",
+      "auto": false
+    },
+    {
+      "key": "injury_batch:142",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:142",
+        "injuries": [
+          {
+            "pid": "142",
+            "player": "James",
+            "team": "CHE",
+            "status": "doubtful",
+            "news": "Hamstring injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_142.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 James (CHE) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\nHow are you covering this one? #FPL #FPLTips #FPLTwitter #PremierLeague",
+      "created_at": "2026-09-18T19:03:31.534223+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789758211.391549",
       "auto": false
     }
   ],
