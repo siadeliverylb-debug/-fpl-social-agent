@@ -1246,8 +1246,8 @@
       "web_name": "Azeez",
       "team": "BHA",
       "now_cost": 55,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "i",
+      "news": "Hamstring injury - Expected back 10 Oct",
       "news_added": "2026-09-04T11:30:08.661589Z"
     },
     "658": {
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-18T09:35:32.156418+00:00",
+  "last_snapshot_at": "2026-09-18T10:03:51.416096+00:00",
   "recapped_events": [
     1,
     2,
@@ -5731,6 +5731,24 @@
       "created_at": "2026-09-17T23:02:21.469501+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789686141.351219",
+      "auto": false
+    },
+    {
+      "key": "status:652:2026-09-04T11:30:08.661589Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:652:2026-09-04T11:30:08.661589Z",
+        "player": "Azeez",
+        "team": "BHA",
+        "status": "injured",
+        "news": "Hamstring injury - Expected back 10 Oct",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_652_2026-09-04T11_30_08.661589Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Azeez (BHA) is injured.\n\"Hamstring injury - Expected back 10 Oct\"\n\nDoes this wreck your GW plan? #FPL #FPLFamily #PremierLeague #FantasyPremierLeague",
+      "created_at": "2026-09-18T10:03:54.484118+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789725834.370619",
       "auto": false
     }
   ],
