@@ -5284,165 +5284,6 @@
   ],
   "pending": [
     {
-      "key": "price_batch:95:6.3,618:5.9,431:5.7,84:5.4,126:5.4,393:5.4,11:5.3,130:4.9,266:4.9,446:4.9,32:4.4,172:4.4,577:4.4,438:4.4,480:8.0,94:6.1,124:5.7,286:5.1",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:95:6.3,618:5.9,431:5.7,84:5.4,126:5.4,393:5.4,11:5.3,130:4.9,266:4.9,446:4.9,32:4.4,172:4.4,577:4.4,438:4.4,480:8.0,94:6.1,124:5.7,286:5.1",
-        "changes": [
-          {
-            "pid": "95",
-            "player": "O.Dango",
-            "team": "BRE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.3
-          },
-          {
-            "pid": "618",
-            "player": "Goretzka",
-            "team": "AVL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.9
-          },
-          {
-            "pid": "431",
-            "player": "Amad",
-            "team": "MUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.7
-          },
-          {
-            "pid": "84",
-            "player": "Collins",
-            "team": "BRE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.4
-          },
-          {
-            "pid": "126",
-            "player": "O'Riley",
-            "team": "BHA",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.4
-          },
-          {
-            "pid": "393",
-            "player": "Khusanov",
-            "team": "MCI",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.4
-          },
-          {
-            "pid": "11",
-            "player": "Mosquera",
-            "team": "ARS",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.3
-          },
-          {
-            "pid": "130",
-            "player": "Wieffer",
-            "team": "BHA",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.9
-          },
-          {
-            "pid": "266",
-            "player": "Cairney",
-            "team": "FUL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.9
-          },
-          {
-            "pid": "446",
-            "player": "Sch\u00e4r",
-            "team": "NEW",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.9
-          },
-          {
-            "pid": "32",
-            "player": "Cash",
-            "team": "AVL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "172",
-            "player": "Wilson",
-            "team": "COV",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "577",
-            "player": "Tomiyasu",
-            "team": "CRY",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "438",
-            "player": "Fletcher",
-            "team": "MUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "480",
-            "player": "Gibbs-White",
-            "team": "NFO",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 8.0
-          },
-          {
-            "pid": "94",
-            "player": "Schade",
-            "team": "BRE",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.1
-          },
-          {
-            "pid": "124",
-            "player": "Gro\u00df",
-            "team": "BHA",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.7
-          },
-          {
-            "pid": "286",
-            "player": "Belloumi",
-            "team": "HUL",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.1
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_95_6.3,618_5.9,431_5.7,84_5.4,126_5.4,393_5.4,11_5.3,130_4.9,266_4.9,446_4.9,32_4.4,172_4.4,577_4.4,438_4.4,480_8.0,94_6.1,124_5.7,286_5.1.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 14 falls, 4 rises.\n\n\ud83d\udd3b O.Dango (BRE) -> \u00a36.3m\n\ud83d\udd3b Goretzka (AVL) -> \u00a35.9m\n\ud83d\udd3b Amad (MUN) -> \u00a35.7m\n\ud83d\udd3b Collins (BRE) -> \u00a35.4m\n\ud83d\udd3b O'Riley (BHA) -> \u00a35.4m\n\ud83d\udd3b Khusanov (MCI) -> \u00a35.4m\n\ud83d\udd3b Mosquera (ARS) -> \u00a35.3m\n\ud83d\udd3b Wieffer (BHA) -> \u00a34.9m\n\ud83d\udd3b Cairney (FUL) -> \u00a34.9m\n\ud83d\udd3b Sch\u00e4r (NEW) -> \u00a34.9m\n\ud83d\udd3b Cash (AVL) -> \u00a34.4m\n\ud83d\udd3b Wilson (COV) -> \u00a34.4m\n\ud83d\udd3b Tomiyasu (CRY) -> \u00a34.4m\n\ud83d\udd3b Fletcher (MUN) -> \u00a34.4m\n\ud83d\udd3a Gibbs-White (NFO) -> \u00a38.0m\n\ud83d\udd3a Schade (BRE) -> \u00a36.1m\n\ud83d\udd3a Gro\u00df (BHA) -> \u00a35.7m\n\ud83d\udd3a Belloumi (HUL) -> \u00a35.1m\n\nWinners and losers in your squad? #FPL #FantasyPremierLeague #FPLFamily #FantasyFootball",
-      "created_at": "2026-09-15T23:02:34.001508+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789513353.871139",
-      "auto": false
-    },
-    {
       "key": "status:208:2026-08-22T18:00:07.363165Z",
       "story": {
         "type": "status_change",
@@ -5919,7 +5760,8 @@
     "status:104:2026-09-15T09:00:07.851220Z",
     "status:456:2026-09-15T09:00:08.191022Z",
     "recap:4",
-    "status:10:2026-09-15T19:30:09.494382Z"
+    "status:10:2026-09-15T19:30:09.494382Z",
+    "price_batch:95:6.3,618:5.9,431:5.7,84:5.4,126:5.4,393:5.4,11:5.3,130:4.9,266:4.9,446:4.9,32:4.4,172:4.4,577:4.4,438:4.4,480:8.0,94:6.1,124:5.7,286:5.1"
   ],
   "post_log": [
     {
@@ -6061,6 +5903,12 @@
       "type": "status_change",
       "posted_at": "2026-09-18T06:30:25.808833+00:00",
       "tweet_id": "2100834812600971732"
+    },
+    {
+      "key": "price_batch:95:6.3,618:5.9,431:5.7,84:5.4,126:5.4,393:5.4,11:5.3,130:4.9,266:4.9,446:4.9,32:4.4,172:4.4,577:4.4,438:4.4,480:8.0,94:6.1,124:5.7,286:5.1",
+      "type": "price_changes",
+      "posted_at": "2026-09-18T08:26:54.754288+00:00",
+      "tweet_id": "2100864126234825123"
     }
   ],
   "live": {
