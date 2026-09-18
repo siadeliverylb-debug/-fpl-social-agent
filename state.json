@@ -5284,24 +5284,6 @@
   ],
   "pending": [
     {
-      "key": "status:246:2026-09-16T18:00:09.541933Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:246:2026-09-16T18:00:09.541933Z",
-        "player": "R\u00f6hl",
-        "team": "EVE",
-        "status": "doubtful",
-        "news": "Unspecified injury - 75% chance of playing",
-        "category": "injury"
-      },
-      "image_path": "assets/generated/status_246_2026-09-16T18_00_09.541933Z.png",
-      "caption": "\ud83d\udea8 INJURY ALERT: R\u00f6hl (EVE) is doubtful.\n\"Unspecified injury - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FPLCommunity #FantasyPremierLeague #FPLFamily",
-      "created_at": "2026-09-16T18:04:49.013428+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789581888.864969",
-      "auto": false
-    },
-    {
       "key": "status:165:2026-09-16T19:00:09.919929Z",
       "story": {
         "type": "status_change",
@@ -5780,7 +5762,8 @@
     "recap:4",
     "status:10:2026-09-15T19:30:09.494382Z",
     "price_batch:95:6.3,618:5.9,431:5.7,84:5.4,126:5.4,393:5.4,11:5.3,130:4.9,266:4.9,446:4.9,32:4.4,172:4.4,577:4.4,438:4.4,480:8.0,94:6.1,124:5.7,286:5.1",
-    "status:208:2026-08-22T18:00:07.363165Z"
+    "status:208:2026-08-22T18:00:07.363165Z",
+    "status:246:2026-09-16T18:00:09.541933Z"
   ],
   "post_log": [
     {
@@ -5934,6 +5917,12 @@
       "type": "status_change",
       "posted_at": "2026-09-18T11:26:43.016706+00:00",
       "tweet_id": "2100909375019721037"
+    },
+    {
+      "key": "status:246:2026-09-16T18:00:09.541933Z",
+      "type": "status_change",
+      "posted_at": "2026-09-18T11:50:11.934972+00:00",
+      "tweet_id": "2100915285004017963"
     }
   ],
   "live": {
