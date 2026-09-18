@@ -5284,24 +5284,6 @@
   ],
   "pending": [
     {
-      "key": "status:556:2026-09-17T14:00:26.419938Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:556:2026-09-17T14:00:26.419938Z",
-        "player": "Targett",
-        "team": "HUL",
-        "status": "doubtful",
-        "news": "Ankle injury - 75% chance of playing",
-        "category": "injury"
-      },
-      "image_path": "assets/generated/status_556_2026-09-17T14_00_26.419938Z.png",
-      "caption": "\ud83d\udea8 INJURY ALERT: Targett (HUL) is doubtful.\n\"Ankle injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #PremierLeague #FantasyFootball #FPLTips",
-      "created_at": "2026-09-17T14:03:18.790279+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789653798.684509",
-      "auto": false
-    },
-    {
       "key": "status:586:2026-09-12T18:00:09.334142Z",
       "story": {
         "type": "status_change",
@@ -5765,7 +5747,8 @@
     "status:244:2026-09-17T08:30:08.942299Z",
     "status:101:2026-08-09T09:30:07.136250Z",
     "status:152:2026-08-24T18:30:07.421239Z",
-    "status:159:2026-08-30T16:00:08.393562Z"
+    "status:159:2026-08-30T16:00:08.393562Z",
+    "status:556:2026-09-17T14:00:26.419938Z"
   ],
   "post_log": [
     {
@@ -5979,6 +5962,12 @@
       "type": "status_change",
       "posted_at": "2026-09-18T16:26:00.696354+00:00",
       "tweet_id": "2100984695513366968"
+    },
+    {
+      "key": "status:556:2026-09-17T14:00:26.419938Z",
+      "type": "status_change",
+      "posted_at": "2026-09-18T16:49:58.823908+00:00",
+      "tweet_id": "2100990727375188005"
     }
   ],
   "live": {
