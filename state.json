@@ -5780,7 +5780,9 @@
       "40:450:assists": 1,
       "40:450:yellow_cards": 1,
       "41:105:goals_scored": 1,
-      "41:93:assists": 1
+      "41:93:assists": 1,
+      "41:106:goals_scored": 1,
+      "41:94:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -5796,10 +5798,10 @@
         "score": "4-1"
       },
       "41:h": {
-        "player": "Anthony",
+        "player": "Thiago",
         "team": "BRE",
-        "assisted_by": "Schuster",
-        "score": "1-0"
+        "assisted_by": "Schade",
+        "score": "2-0"
       }
     },
     "posted_score": {
@@ -5844,7 +5846,7 @@
         0
       ],
       "41": [
-        1,
+        2,
         0
       ],
       "48": [
@@ -5975,7 +5977,9 @@
       "41:90": true,
       "41:565": true,
       "41:151": true,
-      "41:164": true
+      "41:164": true,
+      "41:95": true,
+      "41:620": true
     },
     "subs_baselined": {
       "31": true,
@@ -6346,7 +6350,45 @@
       "type": "substitution",
       "posted_at": "2026-09-18T20:32:24.775729+00:00",
       "tweet_id": "2101046704468554038"
+    },
+    {
+      "key": "sub:41:95",
+      "type": "substitution",
+      "posted_at": "2026-09-18T20:41:31.142968+00:00",
+      "tweet_id": "2101048996064305466"
     }
   ],
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "sub:41:620",
+      "story": {
+        "type": "substitution",
+        "key": "sub:41:620",
+        "player": "Diouf",
+        "team": "BRE",
+        "home": "BRE",
+        "away": "CHE",
+        "score": "1-0",
+        "minute": 83
+      },
+      "image_path": "assets/generated/live_sub_41_620.png",
+      "caption": "\ud83d\udd04 SUB! 83' Diouf (BRE) is on. BRE 1-0 CHE.\n\nImpact sub, or too little too late? #FPL #FPLCommunity #FantasyPremierLeague #FPLTwitter #BRE\n\nFollow for the next one."
+    },
+    {
+      "key": "goal:41:106:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:41:106:1",
+        "player": "Thiago",
+        "team": "BRE",
+        "home": "BRE",
+        "away": "CHE",
+        "minute": 83,
+        "score": "2-0",
+        "assisted_by": "Schade"
+      },
+      "image_path": "assets/generated/live_goal_41_106_1.png",
+      "caption": "\u26bd GOAL! 83' Thiago (BRE)! Assisted by Schade. BRE 2-0 CHE.\n\nHave him in your team? #FPL #FPLCommunity #FantasyFootball #FPLFamily #BRE\n\nTurn on notifications to catch these as they land."
+    }
+  ]
 }
