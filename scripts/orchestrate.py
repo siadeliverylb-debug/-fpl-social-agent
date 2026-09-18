@@ -26,9 +26,15 @@ REPO_ROOT = os.path.join(os.path.dirname(__file__), "..")
 STATE_PATH = os.path.join(REPO_ROOT, "state.json")
 GENERATED_DIR = os.path.join(REPO_ROOT, "assets", "generated")
 
+# Raised from the original 5/day, 90-min gap: real story volume (status
+# changes, price-change batches, etc.) was outpacing that cap, leaving a
+# growing backlog that took multiple days to drain even after approval --
+# e.g. 19 pending items after 2 days against only 8 actually posted. 20/day
+# at a 20-min gap comfortably covers the observed ~13-14 stories/day while
+# still keeping real spacing between posts.
 APPROVAL_TIMEOUT_HOURS = 3
-MIN_GAP_MINUTES = 90
-MAX_POSTS_PER_DAY = 5
+MIN_GAP_MINUTES = 20
+MAX_POSTS_PER_DAY = 20
 
 # Live match events (goals/cards/penalties/kickoff/full-time) get their own,
 # much looser cadence -- they're only worth posting while still live, and a
