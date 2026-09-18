@@ -6386,24 +6386,15 @@
       "type": "yellow_card",
       "posted_at": "2026-09-18T20:47:43.749046+00:00",
       "tweet_id": "2101050558517756036"
+    },
+    {
+      "key": "sub:41:100",
+      "type": "substitution",
+      "posted_at": "2026-09-18T20:48:26.428773+00:00",
+      "tweet_id": "2101050737811652976"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:41:100",
-      "story": {
-        "type": "substitution",
-        "key": "sub:41:100",
-        "player": "Carvalho",
-        "team": "BRE",
-        "home": "BRE",
-        "away": "CHE",
-        "score": "2-0",
-        "minute": 89
-      },
-      "image_path": "assets/generated/live_sub_41_100.png",
-      "caption": "\ud83d\udd04 SUB! 89' Carvalho (BRE) is on. BRE 2-0 CHE.\n\nWorth watching for a late returns. #FPL #FantasyFootball #PremierLeague #FPLCommunity #BRE\n\nFollowing along? Hit follow so you don't miss what's next."
-    },
     {
       "key": "sub:41:157",
       "story": {
