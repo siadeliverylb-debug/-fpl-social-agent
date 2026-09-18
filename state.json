@@ -3166,9 +3166,9 @@
       "web_name": "Wilson",
       "team": "LEE",
       "now_cost": 62,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "i",
+      "news": "Thigh injury - Unknown return date",
+      "news_added": "2026-09-18T13:30:09.626858Z"
     },
     "326": {
       "web_name": "Perri",
@@ -3302,8 +3302,8 @@
       "web_name": "Gruev",
       "team": "LEE",
       "now_cost": 50,
-      "status": "d",
-      "news": "Knee injury - 25% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-08-14T23:00:06.272027Z"
     },
     "345": {
@@ -3838,8 +3838,8 @@
       "web_name": "Doku",
       "team": "MCI",
       "now_cost": 74,
-      "status": "i",
-      "news": "Calf injury - Expected back 20 Sep",
+      "status": "d",
+      "news": "Calf injury - 75% chance of playing",
       "news_added": "2026-08-18T17:00:08.385597Z"
     },
     "402": {
@@ -3974,8 +3974,8 @@
       "web_name": "Baleba",
       "team": "MUN",
       "now_cost": 49,
-      "status": "i",
-      "news": "Ankle injury - Expected back 19 Sep",
+      "status": "d",
+      "news": "Ankle injury - 50% chance of playing",
       "news_added": "2026-08-06T16:00:10.997714Z"
     },
     "162": {
@@ -4087,7 +4087,7 @@
       "team": "MUN",
       "now_cost": 44,
       "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "news": "Unspecified injury - 50% chance of playing",
       "news_added": "2026-09-11T13:00:09.030120Z"
     },
     "424": {
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-18T13:02:52.044140+00:00",
+  "last_snapshot_at": "2026-09-18T13:35:13.108723+00:00",
   "recapped_events": [
     1,
     2,
@@ -5682,6 +5682,78 @@
       "created_at": "2026-09-18T12:41:56.080725+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789735315.981299",
+      "auto": false
+    },
+    {
+      "key": "status:260:2026-09-18T13:30:09.626858Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:260:2026-09-18T13:30:09.626858Z",
+        "player": "Wilson",
+        "team": "LEE",
+        "status": "injured",
+        "news": "Thigh injury - Unknown return date",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_260_2026-09-18T13_30_09.626858Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Wilson (LEE) is injured.\n\"Thigh injury - Unknown return date\"\n\nRisk it, or play it safe this week? #FPL #FPLTips #FPLFamily #FantasyFootball",
+      "created_at": "2026-09-18T13:35:15.822852+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789738515.718149",
+      "auto": false
+    },
+    {
+      "key": "status:400:2026-08-18T17:00:08.385597Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:400:2026-08-18T17:00:08.385597Z",
+        "player": "Doku",
+        "team": "MCI",
+        "status": "doubtful",
+        "news": "Calf injury - 75% chance of playing",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_400_2026-08-18T17_00_08.385597Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Doku (MCI) is doubtful.\n\"Calf injury - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FantasyFootball #FPLTips #PremierLeague",
+      "created_at": "2026-09-18T13:35:18.538032+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789738518.438639",
+      "auto": false
+    },
+    {
+      "key": "status:131:2026-08-06T16:00:10.997714Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:131:2026-08-06T16:00:10.997714Z",
+        "player": "Baleba",
+        "team": "MUN",
+        "status": "doubtful",
+        "news": "Ankle injury - 50% chance of playing",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_131_2026-08-06T16_00_10.997714Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Baleba (MUN) is doubtful.\n\"Ankle injury - 50% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FPLTips #FantasyPremierLeague #FantasyFootball",
+      "created_at": "2026-09-18T13:35:21.334841+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789738521.215779",
+      "auto": false
+    },
+    {
+      "key": "status:423:2026-09-11T13:00:09.030120Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:423:2026-09-11T13:00:09.030120Z",
+        "player": "Shaw",
+        "team": "MUN",
+        "status": "doubtful",
+        "news": "Unspecified injury - 50% chance of playing",
+        "category": "injury"
+      },
+      "image_path": "assets/generated/status_423_2026-09-11T13_00_09.030120Z.png",
+      "caption": "\ud83d\udea8 INJURY ALERT: Shaw (MUN) is doubtful.\n\"Unspecified injury - 50% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLTwitter #FantasyFootball #FantasyPremierLeague",
+      "created_at": "2026-09-18T13:35:24.157387+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789738524.011119",
       "auto": false
     }
   ],
