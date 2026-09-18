@@ -6719,23 +6719,13 @@
       "type": "substitution",
       "posted_at": "2026-09-18T20:31:41.535250+00:00",
       "tweet_id": "2101046523102699884"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "sub:41:164",
-      "story": {
-        "type": "substitution",
-        "key": "sub:41:164",
-        "player": "Quenda",
-        "team": "CHE",
-        "home": "BRE",
-        "away": "CHE",
-        "score": "1-0",
-        "minute": 72
-      },
-      "image_path": "assets/generated/live_sub_41_164.png",
-      "caption": "\ud83d\udd04 SUB! 72' Quenda (CHE) is on. BRE 1-0 CHE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTwitter #FPLTips #FantasyPremierLeague #CHE\n\nTurn on notifications to catch these as they land."
+      "type": "substitution",
+      "posted_at": "2026-09-18T20:32:24.775729+00:00",
+      "tweet_id": "2101046704468554038"
     }
-  ]
+  ],
+  "live_queue": []
 }
