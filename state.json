@@ -5784,7 +5784,8 @@
       "41:106:goals_scored": 1,
       "41:94:assists": 1,
       "41:106:yellow_cards": 1,
-      "41:565:yellow_cards": 1
+      "41:565:yellow_cards": 1,
+      "41:100:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -5800,10 +5801,10 @@
         "score": "4-1"
       },
       "41:h": {
-        "player": "Thiago",
+        "player": "Carvalho",
         "team": "BRE",
-        "assisted_by": "Schade",
-        "score": "2-0"
+        "assisted_by": null,
+        "score": "3-0"
       }
     },
     "posted_score": {
@@ -5848,7 +5849,7 @@
         0
       ],
       "41": [
-        2,
+        3,
         0
       ],
       "48": [
@@ -6401,6 +6402,12 @@
       "type": "substitution",
       "posted_at": "2026-09-18T20:49:09.377191+00:00",
       "tweet_id": "2101050917676102100"
+    },
+    {
+      "key": "goal:41:100:1",
+      "type": "goal",
+      "posted_at": "2026-09-18T20:53:19.332454+00:00",
+      "tweet_id": "2101051966231044538"
     }
   ],
   "live_queue": []
