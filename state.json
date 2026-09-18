@@ -5279,26 +5279,10 @@
   "recapped_events": [
     1,
     2,
-    3
+    3,
+    4
   ],
   "pending": [
-    {
-      "key": "recap:4",
-      "story": {
-        "type": "gw_recap",
-        "key": "recap:4",
-        "gw": 4,
-        "most_captained": 411,
-        "highest_score": 151,
-        "most_selected": 165
-      },
-      "image_path": "assets/generated/recap_4.png",
-      "caption": "\ud83d\udd25 GW4 is in the books. Top score: 151 pts. Most captained ID: 411.\n\nBeat it, matched it, or fell short? #FPL #FantasyFootball #FantasyPremierLeague #PremierLeague",
-      "created_at": "2026-09-15T13:37:50.503082+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789479470.379649",
-      "auto": false
-    },
     {
       "key": "status:10:2026-09-15T19:30:09.494382Z",
       "story": {
@@ -5951,7 +5935,8 @@
     "price:506:44",
     "price:526:58",
     "status:104:2026-09-15T09:00:07.851220Z",
-    "status:456:2026-09-15T09:00:08.191022Z"
+    "status:456:2026-09-15T09:00:08.191022Z",
+    "recap:4"
   ],
   "post_log": [
     {
@@ -6081,6 +6066,12 @@
       "type": "status_change",
       "posted_at": "2026-09-18T02:26:45.473778+00:00",
       "tweet_id": "2100773489883971838"
+    },
+    {
+      "key": "recap:4",
+      "type": "gw_recap",
+      "posted_at": "2026-09-18T04:25:14.796904+00:00",
+      "tweet_id": "2100803309078725000"
     }
   ],
   "live": {
