@@ -463,7 +463,20 @@ SUBSTITUTION_HOOKS = [
 ]
 
 
+FOLLOW_ASKS = [
+    "Follow for the next one.",
+    "Follow @fantasycoachai so you don't miss the next update.",
+    "Turn on notifications to catch these as they land.",
+    "More like this on the feed -- give us a follow.",
+    "Following along? Hit follow so you don't miss what's next.",
+]
+
+
 def build_caption(story):
+    return f"{_build_caption_text(story)}\n\n{random.choice(FOLLOW_ASKS)}"
+
+
+def _build_caption_text(story):
     t = story["type"]
     tags = _random_hashtags(3)
 
