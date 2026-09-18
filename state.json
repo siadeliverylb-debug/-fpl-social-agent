@@ -2262,8 +2262,8 @@
       "web_name": "R\u00f6hl",
       "team": "EVE",
       "now_cost": 49,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "i",
+      "news": "Unspecified injury - Expected back 11 Oct",
       "news_added": "2026-09-16T18:00:09.541933Z"
     },
     "247": {
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-18T12:41:53.489156+00:00",
+  "last_snapshot_at": "2026-09-18T13:02:52.044140+00:00",
   "recapped_events": [
     1,
     2,
