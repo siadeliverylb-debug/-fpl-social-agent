@@ -5284,24 +5284,6 @@
   ],
   "pending": [
     {
-      "key": "status:208:2026-08-22T18:00:07.363165Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:208:2026-08-22T18:00:07.363165Z",
-        "player": "Sarr",
-        "team": "CRY",
-        "status": "doubtful",
-        "news": "Groin injury - 50% chance of playing",
-        "category": "injury"
-      },
-      "image_path": "assets/generated/status_208_2026-08-22T18_00_07.363165Z.png",
-      "caption": "\ud83d\udea8 INJURY ALERT: Sarr (CRY) is doubtful.\n\"Groin injury - 50% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FantasyFootball #PremierLeague #FantasyPremierLeague",
-      "created_at": "2026-09-16T16:35:51.586053+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789576551.450029",
-      "auto": false
-    },
-    {
       "key": "status:246:2026-09-16T18:00:09.541933Z",
       "story": {
         "type": "status_change",
@@ -5797,7 +5779,8 @@
     "status:456:2026-09-15T09:00:08.191022Z",
     "recap:4",
     "status:10:2026-09-15T19:30:09.494382Z",
-    "price_batch:95:6.3,618:5.9,431:5.7,84:5.4,126:5.4,393:5.4,11:5.3,130:4.9,266:4.9,446:4.9,32:4.4,172:4.4,577:4.4,438:4.4,480:8.0,94:6.1,124:5.7,286:5.1"
+    "price_batch:95:6.3,618:5.9,431:5.7,84:5.4,126:5.4,393:5.4,11:5.3,130:4.9,266:4.9,446:4.9,32:4.4,172:4.4,577:4.4,438:4.4,480:8.0,94:6.1,124:5.7,286:5.1",
+    "status:208:2026-08-22T18:00:07.363165Z"
   ],
   "post_log": [
     {
@@ -5945,6 +5928,12 @@
       "type": "price_changes",
       "posted_at": "2026-09-18T08:26:54.754288+00:00",
       "tweet_id": "2100864126234825123"
+    },
+    {
+      "key": "status:208:2026-08-22T18:00:07.363165Z",
+      "type": "status_change",
+      "posted_at": "2026-09-18T11:26:43.016706+00:00",
+      "tweet_id": "2100909375019721037"
     }
   ],
   "live": {
