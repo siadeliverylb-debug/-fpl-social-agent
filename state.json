@@ -5284,24 +5284,6 @@
   ],
   "pending": [
     {
-      "key": "status:586:2026-09-12T18:00:09.334142Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:586:2026-09-12T18:00:09.334142Z",
-        "player": "Mendy",
-        "team": "HUL",
-        "status": "injured",
-        "news": "Concussion - Expected back 11 Oct",
-        "category": "injury"
-      },
-      "image_path": "assets/generated/status_586_2026-09-12T18_00_09.334142Z.png",
-      "caption": "\ud83d\udea8 INJURY ALERT: Mendy (HUL) is injured.\n\"Concussion - Expected back 11 Oct\"\n\nBench him or bank on a late fitness call? #FPL #FantasyPremierLeague #PremierLeague #FPLFamily",
-      "created_at": "2026-09-17T14:03:21.346224+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789653801.243859",
-      "auto": false
-    },
-    {
       "key": "status:97:2026-08-30T12:30:08.176795Z",
       "story": {
         "type": "status_change",
@@ -5748,7 +5730,8 @@
     "status:101:2026-08-09T09:30:07.136250Z",
     "status:152:2026-08-24T18:30:07.421239Z",
     "status:159:2026-08-30T16:00:08.393562Z",
-    "status:556:2026-09-17T14:00:26.419938Z"
+    "status:556:2026-09-17T14:00:26.419938Z",
+    "status:586:2026-09-12T18:00:09.334142Z"
   ],
   "post_log": [
     {
@@ -5968,6 +5951,12 @@
       "type": "status_change",
       "posted_at": "2026-09-18T16:49:58.823908+00:00",
       "tweet_id": "2100990727375188005"
+    },
+    {
+      "key": "status:586:2026-09-12T18:00:09.334142Z",
+      "type": "status_change",
+      "posted_at": "2026-09-18T17:22:20.109574+00:00",
+      "tweet_id": "2100998869781971336"
     }
   ],
   "live": {
