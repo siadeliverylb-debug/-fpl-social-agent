@@ -5980,7 +5980,7 @@
         "finished_provisional": true
       },
       "41": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "48": {
@@ -6625,6 +6625,12 @@
       "type": "bonus_points",
       "posted_at": "2026-09-14T21:55:48.550674+00:00",
       "tweet_id": "2099618140015501426"
+    },
+    {
+      "key": "kickoff:41",
+      "type": "kickoff",
+      "posted_at": "2026-09-18T19:02:29.273699+00:00",
+      "tweet_id": "2101024073987830203"
     }
   ],
   "live_queue": []
