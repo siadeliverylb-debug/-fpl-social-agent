@@ -78,16 +78,16 @@
       "web_name": "White",
       "team": "ARS",
       "now_cost": 55,
-      "status": "d",
-      "news": "Muscular injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-15T19:30:09.494382Z"
     },
     "11": {
       "web_name": "Mosquera",
       "team": "ARS",
       "now_cost": 53,
-      "status": "d",
-      "news": "Muscular injury - 50% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-04T14:00:08.080310Z"
     },
     "12": {
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-18T09:04:36.984989+00:00",
+  "last_snapshot_at": "2026-09-18T09:35:32.156418+00:00",
   "recapped_events": [
     1,
     2,
