@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "auto_mode": false,
+  "auto_mode": true,
   "last_snapshot": {
     "1": {
       "web_name": "Raya",
