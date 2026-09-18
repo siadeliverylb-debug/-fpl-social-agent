@@ -5284,37 +5284,6 @@
   ],
   "pending": [
     {
-      "key": "price_batch:76:4.9,115:4.9",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:76:4.9,115:4.9",
-        "changes": [
-          {
-            "pid": "76",
-            "player": "T\u00f3th.A",
-            "team": "BOU",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.9
-          },
-          {
-            "pid": "115",
-            "player": "De Cuyper",
-            "team": "BHA",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.9
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_76_4.9,115_4.9.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 1 fall, 1 rise.\n\n\ud83d\udd3b T\u00f3th.A (BOU) -> \u00a34.9m\n\ud83d\udd3a De Cuyper (BHA) -> \u00a34.9m\n\nWinners and losers in your squad? #FPL #FantasyFootball #FPLTwitter #FPLFamily",
-      "created_at": "2026-09-16T23:02:41.340221+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789599761.245789",
-      "auto": false
-    },
-    {
       "key": "status:29:2026-09-17T07:30:09.058151Z",
       "story": {
         "type": "status_change",
@@ -5747,7 +5716,8 @@
     "status:208:2026-08-22T18:00:07.363165Z",
     "status:246:2026-09-16T18:00:09.541933Z",
     "status:165:2026-09-16T19:00:09.919929Z",
-    "status:54:2026-09-16T19:30:08.742410Z"
+    "status:54:2026-09-16T19:30:08.742410Z",
+    "price_batch:76:4.9,115:4.9"
   ],
   "post_log": [
     {
@@ -5919,6 +5889,12 @@
       "type": "status_change",
       "posted_at": "2026-09-18T12:54:35.875182+00:00",
       "tweet_id": "2100931491211395162"
+    },
+    {
+      "key": "price_batch:76:4.9,115:4.9",
+      "type": "price_changes",
+      "posted_at": "2026-09-18T13:24:57.325145+00:00",
+      "tweet_id": "2100939131194949899"
     }
   ],
   "live": {
