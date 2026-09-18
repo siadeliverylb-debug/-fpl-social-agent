@@ -6352,7 +6352,9 @@
       "40:462": true,
       "40:559": true,
       "40:641": true,
-      "40:339": true
+      "40:339": true,
+      "41:90": true,
+      "41:565": true
     },
     "subs_baselined": {
       "31": true,
@@ -6695,7 +6697,29 @@
       "type": "goal_update",
       "posted_at": "2026-09-18T20:20:53.407158+00:00",
       "tweet_id": "2101043804476145973"
+    },
+    {
+      "key": "sub:41:90",
+      "type": "substitution",
+      "posted_at": "2026-09-18T20:29:32.944159+00:00",
+      "tweet_id": "2101045983723597843"
     }
   ],
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "sub:41:565",
+      "story": {
+        "type": "substitution",
+        "key": "sub:41:565",
+        "player": "M.Sangar\u00e9",
+        "team": "BRE",
+        "home": "BRE",
+        "away": "CHE",
+        "score": "1-0",
+        "minute": 71
+      },
+      "image_path": "assets/generated/live_sub_41_565.png",
+      "caption": "\ud83d\udd04 SUB! 71' M.Sangar\u00e9 (BRE) is on. BRE 1-0 CHE.\n\nDoes this open a chance for a start next week? #FPL #FantasyPremierLeague #FPLFamily #FPLTips #BRE\n\nTurn on notifications to catch these as they land."
+    }
+  ]
 }
