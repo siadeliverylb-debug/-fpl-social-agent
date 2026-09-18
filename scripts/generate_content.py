@@ -472,8 +472,11 @@ def build_caption(story):
         changes = story["changes"]
         rises = [c for c in changes if c["direction"] == "rise"]
         falls = [c for c in changes if c["direction"] == "fall"]
-        lines = [f"\U0001F53B {c['player']} ({c['team']}) -> £{c['new_price_millions']}m" for c in falls]
-        lines += [f"\U0001F53A {c['player']} ({c['team']}) -> £{c['new_price_millions']}m" for c in rises]
+        # 🔻/🔺 are both literally "red triangle" in Unicode regardless of
+        # direction -- no green/red distinction. Colored circles actually
+        # differ by color: green for a rise, red for a fall.
+        lines = [f"\U0001F534 {c['player']} ({c['team']}) -> £{c['new_price_millions']}m" for c in falls]
+        lines += [f"\U0001F7E2 {c['player']} ({c['team']}) -> £{c['new_price_millions']}m" for c in rises]
         body = "\n".join(lines)
         return (
             f"\U0001F4CA PRICE CHANGES: {len(falls)} fall{'s' if len(falls) != 1 else ''}, "
