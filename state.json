@@ -5284,24 +5284,6 @@
   ],
   "pending": [
     {
-      "key": "status:159:2026-08-30T16:00:08.393562Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:159:2026-08-30T16:00:08.393562Z",
-        "player": "Caicedo",
-        "team": "CHE",
-        "status": "doubtful",
-        "news": "Calf injury - 50% chance of playing",
-        "category": "injury"
-      },
-      "image_path": "assets/generated/status_159_2026-08-30T16_00_08.393562Z.png",
-      "caption": "\ud83d\udea8 INJURY ALERT: Caicedo (CHE) is doubtful.\n\"Calf injury - 50% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #PremierLeague #FPLFamily #FPLTwitter",
-      "created_at": "2026-09-17T13:36:13.361413+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789652173.274949",
-      "auto": false
-    },
-    {
       "key": "status:556:2026-09-17T14:00:26.419938Z",
       "story": {
         "type": "status_change",
@@ -5782,7 +5764,8 @@
     "status:182:2026-09-17T07:30:09.329041Z",
     "status:244:2026-09-17T08:30:08.942299Z",
     "status:101:2026-08-09T09:30:07.136250Z",
-    "status:152:2026-08-24T18:30:07.421239Z"
+    "status:152:2026-08-24T18:30:07.421239Z",
+    "status:159:2026-08-30T16:00:08.393562Z"
   ],
   "post_log": [
     {
@@ -5990,6 +5973,12 @@
       "type": "status_change",
       "posted_at": "2026-09-18T15:51:29.749664+00:00",
       "tweet_id": "2100976009088545097"
+    },
+    {
+      "key": "status:159:2026-08-30T16:00:08.393562Z",
+      "type": "status_change",
+      "posted_at": "2026-09-18T16:26:00.696354+00:00",
+      "tweet_id": "2100984695513366968"
     }
   ],
   "live": {
