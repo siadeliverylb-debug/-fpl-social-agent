@@ -5283,24 +5283,6 @@
   ],
   "pending": [
     {
-      "key": "status:456:2026-09-15T09:00:08.191022Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:456:2026-09-15T09:00:08.191022Z",
-        "player": "J.Ramsey",
-        "team": "NEW",
-        "status": "doubtful",
-        "news": "Thigh injury - 25% chance of playing",
-        "category": "injury"
-      },
-      "image_path": "assets/generated/status_456_2026-09-15T09_00_08.191022Z.png",
-      "caption": "\ud83d\udea8 INJURY ALERT: J.Ramsey (NEW) is doubtful.\n\"Thigh injury - 25% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FantasyPremierLeague #FantasyFootball #FPLTips",
-      "created_at": "2026-09-15T09:05:25.947725+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789463125.832999",
-      "auto": false
-    },
-    {
       "key": "recap:4",
       "story": {
         "type": "gw_recap",
@@ -5968,7 +5950,8 @@
     "price:43:58",
     "price:506:44",
     "price:526:58",
-    "status:104:2026-09-15T09:00:07.851220Z"
+    "status:104:2026-09-15T09:00:07.851220Z",
+    "status:456:2026-09-15T09:00:08.191022Z"
   ],
   "post_log": [
     {
@@ -6092,6 +6075,12 @@
       "type": "status_change",
       "posted_at": "2026-09-18T00:31:47.680980+00:00",
       "tweet_id": "2100744559059939763"
+    },
+    {
+      "key": "status:456:2026-09-15T09:00:08.191022Z",
+      "type": "status_change",
+      "posted_at": "2026-09-18T02:26:45.473778+00:00",
+      "tweet_id": "2100773489883971838"
     }
   ],
   "live": {
