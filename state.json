@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-18T15:03:59.431118+00:00",
+  "last_snapshot_at": "2026-09-18T15:38:28.898965+00:00",
   "recapped_events": [
     1,
     2,
@@ -5744,6 +5744,22 @@
       "created_at": "2026-09-18T15:04:02.711722+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789743842.587339",
+      "auto": false
+    },
+    {
+      "key": "deadline:5:2h",
+      "story": {
+        "type": "deadline_reminder",
+        "key": "deadline:5:2h",
+        "gw": 5,
+        "bucket": "2h",
+        "hours_until": 1.9
+      },
+      "image_path": "assets/generated/deadline_5_2h.png",
+      "caption": "\u23f0 GW5 deadline in 2h! Squad locked in, or still deciding?\n\n#FPL #FPLTwitter #FPLFamily #FPLTips",
+      "created_at": "2026-09-18T15:38:31.514023+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789745911.432959",
       "auto": false
     }
   ],
