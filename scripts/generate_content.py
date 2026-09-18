@@ -258,6 +258,17 @@ def render_card(story, out_path):
         headline = f"{story['player']} ({story['team']})"
         subtext = story["news"]
         hashtags = f"{base_tags} #{story['team']}"
+    elif t == "injury_batch":
+        injuries = story["injuries"]
+        eyebrow = "INJURY ALERT"
+        hero = f"{len(injuries)} UPDATE" + ("S" if len(injuries) != 1 else "")
+        headline = "LATEST INJURY NEWS"
+        names = [i["player"] for i in injuries]
+        shown, extra = names[:12], names[12:]
+        subtext = ", ".join(shown)
+        if extra:
+            subtext += f"  +{len(extra)} more -- full list in caption"
+        hero_color = ALERT
     elif t == "deadline_reminder":
         eyebrow = "DEADLINE ALERT"
         hero = story["bucket"].upper()
@@ -490,6 +501,15 @@ def build_caption(story):
         return (
             f"{emoji} {label}: {story['player']} ({story['team']}) is {story['status']}.\n"
             f"\"{story['news']}\"\n\n"
+            f"{hook} {tags}"
+        )
+    if t == "injury_batch":
+        injuries = story["injuries"]
+        hook = random.choice(STATUS_HOOKS)
+        lines = [f"\U0001F6A8 {i['player']} ({i['team']}) - {i['status']}: \"{i['news']}\"" for i in injuries]
+        body = "\n".join(lines)
+        return (
+            f"\U0001F6A8 INJURY UPDATES ({len(injuries)}):\n\n{body}\n\n"
             f"{hook} {tags}"
         )
     if t == "deadline_reminder":

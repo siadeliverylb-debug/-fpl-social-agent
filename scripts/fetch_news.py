@@ -76,6 +76,7 @@ def diff_snapshots(old, new):
         return stories  # first run: establish baseline only, nothing to report
 
     price_changes = []
+    injury_changes = []
     for pid, cur in new.items():
         prev = old.get(pid)
         if prev is None:
@@ -93,15 +94,32 @@ def diff_snapshots(old, new):
             })
 
         if cur["news"] and cur["news"] != prev["news"]:
-            stories.append({
-                "type": "status_change",
-                "key": f"status:{pid}:{cur['news_added']}",
+            category = _classify_status(cur["status"], cur["news"])
+            entry = {
+                "pid": pid,
                 "player": cur["web_name"],
                 "team": cur["team"],
                 "status": STATUS_LABELS.get(cur["status"], cur["status"]),
                 "news": cur["news"],
-                "category": _classify_status(cur["status"], cur["news"]),
-            })
+                "category": category,
+            }
+            if category == "injury":
+                # Injury news lands in bursts (FPL's editorial team updates
+                # several players' statuses in the same pass), so like price
+                # changes, injuries detected in the same scan are bundled
+                # into one post instead of one tweet per player.
+                injury_changes.append(entry)
+            else:
+                stories.append({"type": "status_change", "key": f"status:{pid}:{cur['news_added']}", **entry})
+
+    if injury_changes:
+        injury_changes.sort(key=lambda c: c["player"])
+        batch_key = "injury_batch:" + ",".join(f"{c['pid']}" for c in injury_changes)
+        stories.append({
+            "type": "injury_batch",
+            "key": batch_key,
+            "injuries": injury_changes,
+        })
 
     if price_changes:
         # All price changes from the same scan land in one post rather than
