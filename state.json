@@ -6160,7 +6160,8 @@
       "40:461:goals_scored": 1,
       "40:450:assists": 1,
       "40:450:yellow_cards": 1,
-      "41:105:goals_scored": 1
+      "41:105:goals_scored": 1,
+      "41:93:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -6178,7 +6179,7 @@
       "41:h": {
         "player": "Anthony",
         "team": "BRE",
-        "assisted_by": null,
+        "assisted_by": "Schuster",
         "score": "1-0"
       }
     },
@@ -6688,6 +6689,12 @@
       "type": "goal",
       "posted_at": "2026-09-18T20:20:10.445123+00:00",
       "tweet_id": "2101043624263729625"
+    },
+    {
+      "key": "goalupdate:assist:41:93:1",
+      "type": "goal_update",
+      "posted_at": "2026-09-18T20:20:53.407158+00:00",
+      "tweet_id": "2101043804476145973"
     }
   ],
   "live_queue": []
