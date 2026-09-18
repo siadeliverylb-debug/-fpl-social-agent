@@ -238,8 +238,8 @@
       "web_name": "M.Bizot",
       "team": "AVL",
       "now_cost": 45,
-      "status": "d",
-      "news": "Back injury - 75% chance of playing",
+      "status": "i",
+      "news": "Back injury - Expected back 10 Oct",
       "news_added": "2026-09-17T07:30:09.058151Z"
     },
     "30": {
@@ -270,8 +270,8 @@
       "web_name": "Pau",
       "team": "AVL",
       "now_cost": 45,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "i",
+      "news": "Hamstring injury - Expected back 10 Oct",
       "news_added": "2026-09-12T18:00:08.712707Z"
     },
     "35": {
@@ -286,8 +286,8 @@
       "web_name": "Maatsen",
       "team": "AVL",
       "now_cost": 45,
-      "status": "d",
-      "news": "Ankle injury - 25% chance of playing",
+      "status": "i",
+      "news": "Ankle injury - Unknown return date",
       "news_added": "2026-09-12T18:00:08.729468Z"
     },
     "37": {
@@ -406,8 +406,8 @@
       "web_name": "Gomes",
       "team": "AVL",
       "now_cost": 55,
-      "status": "d",
-      "news": "Calf injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-16T19:30:08.742410Z"
     },
     "55": {
@@ -5275,7 +5275,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-18T14:03:08.995206+00:00",
+  "last_snapshot_at": "2026-09-18T14:36:27.500177+00:00",
   "recapped_events": [
     1,
     2,
@@ -5718,6 +5718,45 @@
       "created_at": "2026-09-18T13:35:24.157387+00:00",
       "slack_channel": "C0C1SD7MM9S",
       "slack_ts": "1789738524.011119",
+      "auto": false
+    },
+    {
+      "key": "injury_batch:29,36,34",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:29,36,34",
+        "injuries": [
+          {
+            "pid": "29",
+            "player": "M.Bizot",
+            "team": "AVL",
+            "status": "injured",
+            "news": "Back injury - Expected back 10 Oct",
+            "category": "injury"
+          },
+          {
+            "pid": "36",
+            "player": "Maatsen",
+            "team": "AVL",
+            "status": "injured",
+            "news": "Ankle injury - Unknown return date",
+            "category": "injury"
+          },
+          {
+            "pid": "34",
+            "player": "Pau",
+            "team": "AVL",
+            "status": "injured",
+            "news": "Hamstring injury - Expected back 10 Oct",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_29,36,34.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (3):\n\n\ud83d\udea8 M.Bizot (AVL) - injured: \"Back injury - Expected back 10 Oct\"\n\ud83d\udea8 Maatsen (AVL) - injured: \"Ankle injury - Unknown return date\"\n\ud83d\udea8 Pau (AVL) - injured: \"Hamstring injury - Expected back 10 Oct\"\n\nRisk it, or play it safe this week? #FPL #FPLTips #FantasyPremierLeague #FPLCommunity",
+      "created_at": "2026-09-18T14:36:30.056612+00:00",
+      "slack_channel": "C0C1SD7MM9S",
+      "slack_ts": "1789742189.957689",
       "auto": false
     }
   ],
