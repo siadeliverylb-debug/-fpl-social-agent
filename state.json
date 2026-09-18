@@ -5284,24 +5284,6 @@
   ],
   "pending": [
     {
-      "key": "status:97:2026-08-30T12:30:08.176795Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:97:2026-08-30T12:30:08.176795Z",
-        "player": "Jensen",
-        "team": "BRE",
-        "status": "injured",
-        "news": "Unspecified injury - Expected back 10 Oct",
-        "category": "injury"
-      },
-      "image_path": "assets/generated/status_97_2026-08-30T12_30_08.176795Z.png",
-      "caption": "\ud83d\udea8 INJURY ALERT: Jensen (BRE) is injured.\n\"Unspecified injury - Expected back 10 Oct\"\n\nDoes this wreck your GW plan? #FPL #FPLFamily #PremierLeague #FPLTips",
-      "created_at": "2026-09-17T14:38:52.379781+00:00",
-      "slack_channel": "C0C1SD7MM9S",
-      "slack_ts": "1789655932.264479",
-      "auto": false
-    },
-    {
       "key": "status:593:2026-09-17T14:30:09.823731Z",
       "story": {
         "type": "status_change",
@@ -5731,7 +5713,8 @@
     "status:152:2026-08-24T18:30:07.421239Z",
     "status:159:2026-08-30T16:00:08.393562Z",
     "status:556:2026-09-17T14:00:26.419938Z",
-    "status:586:2026-09-12T18:00:09.334142Z"
+    "status:586:2026-09-12T18:00:09.334142Z",
+    "status:97:2026-08-30T12:30:08.176795Z"
   ],
   "post_log": [
     {
@@ -5957,6 +5940,12 @@
       "type": "status_change",
       "posted_at": "2026-09-18T17:22:20.109574+00:00",
       "tweet_id": "2100998869781971336"
+    },
+    {
+      "key": "status:97:2026-08-30T12:30:08.176795Z",
+      "type": "status_change",
+      "posted_at": "2026-09-18T17:50:26.136142+00:00",
+      "tweet_id": "2101005941475037273"
     }
   ],
   "live": {
