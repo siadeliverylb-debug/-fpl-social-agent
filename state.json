@@ -6159,7 +6159,8 @@
       "40:457:yellow_cards": 1,
       "40:461:goals_scored": 1,
       "40:450:assists": 1,
-      "40:450:yellow_cards": 1
+      "40:450:yellow_cards": 1,
+      "41:105:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -6173,6 +6174,12 @@
         "team": "NEW",
         "assisted_by": "Livramento",
         "score": "4-1"
+      },
+      "41:h": {
+        "player": "Anthony",
+        "team": "BRE",
+        "assisted_by": null,
+        "score": "1-0"
       }
     },
     "posted_score": {
@@ -6217,7 +6224,7 @@
         0
       ],
       "41": [
-        0,
+        1,
         0
       ],
       "48": [
@@ -6675,6 +6682,12 @@
       "type": "kickoff",
       "posted_at": "2026-09-18T19:02:29.273699+00:00",
       "tweet_id": "2101024073987830203"
+    },
+    {
+      "key": "goal:41:105:1",
+      "type": "goal",
+      "posted_at": "2026-09-18T20:20:10.445123+00:00",
+      "tweet_id": "2101043624263729625"
     }
   ],
   "live_queue": []
