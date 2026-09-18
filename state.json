@@ -5782,7 +5782,8 @@
       "41:105:goals_scored": 1,
       "41:93:assists": 1,
       "41:106:goals_scored": 1,
-      "41:94:assists": 1
+      "41:94:assists": 1,
+      "41:106:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6093,7 +6094,9 @@
       "41:88": true,
       "41:102": true,
       "41:136": true,
-      "41:145": true
+      "41:145": true,
+      "41:86": true,
+      "41:105": true
     },
     "bonus_posted": {
       "31": true,
@@ -6362,24 +6365,29 @@
       "type": "substitution",
       "posted_at": "2026-09-18T20:42:14.346330+00:00",
       "tweet_id": "2101049177220477187"
+    },
+    {
+      "key": "goal:41:106:1",
+      "type": "goal",
+      "posted_at": "2026-09-18T20:42:58.094632+00:00",
+      "tweet_id": "2101049360801018197"
     }
   ],
   "live_queue": [
     {
-      "key": "goal:41:106:1",
+      "key": "yellow_card:41:106:1",
       "story": {
-        "type": "goal",
-        "key": "goal:41:106:1",
+        "type": "yellow_card",
+        "key": "yellow_card:41:106:1",
         "player": "Thiago",
         "team": "BRE",
         "home": "BRE",
         "away": "CHE",
-        "minute": 83,
-        "score": "2-0",
-        "assisted_by": "Schade"
+        "minute": 84,
+        "score": "2-0"
       },
-      "image_path": "assets/generated/live_goal_41_106_1.png",
-      "caption": "\u26bd GOAL! 83' Thiago (BRE)! Assisted by Schade. BRE 2-0 CHE.\n\nHave him in your team? #FPL #FPLCommunity #FantasyFootball #FPLFamily #BRE\n\nTurn on notifications to catch these as they land."
+      "image_path": "assets/generated/live_yellow_card_41_106_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 84' Thiago (BRE) is booked. BRE 2-0 CHE.\n\nRisk of a ban building here. #FPL #FPLTwitter #FPLFamily #FantasyPremierLeague #BRE\n\nFollow @fantasycoachai so you don't miss the next update."
     }
   ]
 }
