@@ -6356,24 +6356,15 @@
       "type": "substitution",
       "posted_at": "2026-09-18T20:41:31.142968+00:00",
       "tweet_id": "2101048996064305466"
+    },
+    {
+      "key": "sub:41:620",
+      "type": "substitution",
+      "posted_at": "2026-09-18T20:42:14.346330+00:00",
+      "tweet_id": "2101049177220477187"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:41:620",
-      "story": {
-        "type": "substitution",
-        "key": "sub:41:620",
-        "player": "Diouf",
-        "team": "BRE",
-        "home": "BRE",
-        "away": "CHE",
-        "score": "1-0",
-        "minute": 83
-      },
-      "image_path": "assets/generated/live_sub_41_620.png",
-      "caption": "\ud83d\udd04 SUB! 83' Diouf (BRE) is on. BRE 1-0 CHE.\n\nImpact sub, or too little too late? #FPL #FPLCommunity #FantasyPremierLeague #FPLTwitter #BRE\n\nFollow for the next one."
-    },
     {
       "key": "goal:41:106:1",
       "story": {
