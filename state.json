@@ -6392,23 +6392,13 @@
       "type": "substitution",
       "posted_at": "2026-09-18T20:48:26.428773+00:00",
       "tweet_id": "2101050737811652976"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "sub:41:157",
-      "story": {
-        "type": "substitution",
-        "key": "sub:41:157",
-        "player": "Est\u00eav\u00e3o",
-        "team": "CHE",
-        "home": "BRE",
-        "away": "CHE",
-        "score": "2-0",
-        "minute": 89
-      },
-      "image_path": "assets/generated/live_sub_41_157.png",
-      "caption": "\ud83d\udd04 SUB! 89' Est\u00eav\u00e3o (CHE) is on. BRE 2-0 CHE.\n\nWorth watching for a late returns. #FPL #FantasyPremierLeague #FPLFamily #FPLCommunity #CHE\n\nFollow @fantasycoachai so you don't miss the next update."
+      "type": "substitution",
+      "posted_at": "2026-09-18T20:49:09.377191+00:00",
+      "tweet_id": "2101050917676102100"
     }
-  ]
+  ],
+  "live_queue": []
 }
