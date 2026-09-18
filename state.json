@@ -962,6 +962,22 @@
       "news": "",
       "news_added": null
     },
+    "660": {
+      "web_name": "Fredrick",
+      "team": "BRE",
+      "now_cost": 40,
+      "status": "a",
+      "news": "",
+      "news_added": null
+    },
+    "661": {
+      "web_name": "Balcombe",
+      "team": "BRE",
+      "now_cost": 40,
+      "status": "a",
+      "news": "",
+      "news_added": null
+    },
     "109": {
       "web_name": "Verbruggen",
       "team": "BHA",
@@ -1518,6 +1534,14 @@
       "web_name": "Chavarria",
       "team": "CHE",
       "now_cost": 49,
+      "status": "a",
+      "news": "",
+      "news_added": null
+    },
+    "662": {
+      "web_name": "Nicoll-Jazuli",
+      "team": "CHE",
+      "now_cost": 45,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5275,7 +5299,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-18T21:03:36.484737+00:00",
+  "last_snapshot_at": "2026-09-18T21:35:47.893302+00:00",
   "recapped_events": [
     1,
     2,
