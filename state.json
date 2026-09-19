@@ -6266,7 +6266,9 @@
       "43:592": true,
       "43:619": true,
       "42:5": true,
-      "42:452": true
+      "42:452": true,
+      "42:15": true,
+      "42:557": true
     },
     "bonus_posted": {
       "31": true,
@@ -6915,25 +6917,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:34:41.034875+00:00",
       "tweet_id": "2101334165996109948"
+    },
+    {
+      "key": "goal:46:617:1",
+      "type": "goal",
+      "posted_at": "2026-09-19T15:35:23.845681+00:00",
+      "tweet_id": "2101334345617166513"
     }
   ],
   "live_queue": [
-    {
-      "key": "goal:46:617:1",
-      "story": {
-        "type": "goal",
-        "key": "goal:46:617:1",
-        "player": "Cho",
-        "team": "HUL",
-        "home": "NEW",
-        "away": "HUL",
-        "minute": 68,
-        "score": "2-1",
-        "assisted_by": "Belloumi"
-      },
-      "image_path": "assets/generated/live_goal_46_617_1.png",
-      "caption": "\u26bd GOAL! 68' Cho (HUL)! Assisted by Belloumi. NEW 2-1 HUL.\n\nHave him in your team? #FPL #FantasyFootball #FPLCommunity #FantasyPremierLeague #HUL\n\nFollow @fantasycoachai so you don't miss the next update."
-    },
     {
       "key": "sub:42:14",
       "story": {
