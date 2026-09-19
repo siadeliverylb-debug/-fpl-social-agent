@@ -6603,25 +6603,15 @@
       "type": "yellow_card",
       "posted_at": "2026-09-19T13:35:01.991887+00:00",
       "tweet_id": "2101304055092125730"
+    },
+    {
+      "key": "goal:48:112:1",
+      "type": "goal",
+      "posted_at": "2026-09-19T13:35:44.941535+00:00",
+      "tweet_id": "2101304235447251130"
     }
   ],
   "live_queue": [
-    {
-      "key": "goal:48:112:1",
-      "story": {
-        "type": "goal",
-        "key": "goal:48:112:1",
-        "player": "Van Hecke",
-        "team": "TOT",
-        "home": "TOT",
-        "away": "AVL",
-        "minute": 90,
-        "score": "3-3",
-        "assisted_by": "Robertson"
-      },
-      "image_path": "assets/generated/live_goal_48_112_1.png",
-      "caption": "\u26bd GOAL! 90' Van Hecke (TOT)! Assisted by Robertson. TOT 3-3 AVL.\n\nHave him in your team? #FPL #PremierLeague #FPLTips #FPLFamily #TOT\n\nTurn on notifications to catch these as they land."
-    },
     {
       "key": "fulltime:48",
       "story": {
