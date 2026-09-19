@@ -7241,24 +7241,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T18:26:47.230072+00:00",
       "tweet_id": "2101377477532959071"
+    },
+    {
+      "key": "yellow_card:47:474:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-19T18:27:30.279966+00:00",
+      "tweet_id": "2101377658101899428"
     }
   ],
   "live_queue": [
-    {
-      "key": "yellow_card:47:474:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:47:474:1",
-        "player": "Jair Cunha",
-        "team": "NFO",
-        "home": "NFO",
-        "away": "COV",
-        "minute": 90,
-        "score": "1-1"
-      },
-      "image_path": "assets/generated/live_yellow_card_47_474_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Jair Cunha (NFO) is booked. NFO 1-1 COV.\n\nDoes this change your captaincy call? #FPL #FPLCommunity #FPLTips #FantasyFootball #NFO\n\nMore like this on the feed -- give us a follow."
-    },
     {
       "key": "fulltime:47",
       "story": {
