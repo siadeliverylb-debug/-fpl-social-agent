@@ -5796,7 +5796,8 @@
       "41:565:yellow_cards": 1,
       "41:100:goals_scored": 1,
       "48:53:goals_scored": 1,
-      "48:47:assists": 1
+      "48:47:assists": 1,
+      "48:112:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6471,6 +6472,12 @@
       "type": "goal",
       "posted_at": "2026-09-19T12:22:44.435039+00:00",
       "tweet_id": "2101285862067572860"
+    },
+    {
+      "key": "yellow_card:48:112:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-19T12:24:08.364838+00:00",
+      "tweet_id": "2101286214078779683"
     }
   ],
   "live_queue": []
