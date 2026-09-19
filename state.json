@@ -6094,7 +6094,14 @@
       "43:562": true,
       "43:571": true,
       "42:119": true,
-      "42:125": true
+      "42:125": true,
+      "42:20": true,
+      "43:242": true,
+      "43:320": true,
+      "43:640": true,
+      "46:461": true,
+      "46:589": true,
+      "46:637": true
     },
     "subs_baselined": {
       "31": true,
@@ -6270,7 +6277,9 @@
       "42:5": true,
       "42:452": true,
       "42:15": true,
-      "42:557": true
+      "42:557": true,
+      "42:113": true,
+      "42:138": true
     },
     "bonus_posted": {
       "31": true,
@@ -6949,24 +6958,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:38:14.708316+00:00",
       "tweet_id": "2101335062234984568"
+    },
+    {
+      "key": "sub:43:571",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:42:37.987260+00:00",
+      "tweet_id": "2101336166528168395"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:43:571",
-      "story": {
-        "type": "substitution",
-        "key": "sub:43:571",
-        "player": "Florentino",
-        "team": "IPS",
-        "home": "EVE",
-        "away": "IPS",
-        "score": "2-0",
-        "minute": 76
-      },
-      "image_path": "assets/generated/live_sub_43_571.png",
-      "caption": "\ud83d\udd04 SUB! 76' Florentino (IPS) is on. EVE 2-0 IPS.\n\nImpact sub, or too little too late? #FPL #FPLCommunity #FantasyPremierLeague #FantasyFootball #IPS\n\nFollowing along? Hit follow so you don't miss what's next."
-    },
     {
       "key": "sub:42:119",
       "story": {
@@ -6996,6 +6996,111 @@
       },
       "image_path": "assets/generated/live_sub_42_125.png",
       "caption": "\ud83d\udd04 SUB! 76' Georginio (BHA) is on. BHA 3-0 ARS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FPLTwitter #FPLCommunity #BHA\n\nMore like this on the feed -- give us a follow."
+    },
+    {
+      "key": "sub:42:20",
+      "story": {
+        "type": "substitution",
+        "key": "sub:42:20",
+        "player": "Dowman",
+        "team": "ARS",
+        "home": "BHA",
+        "away": "ARS",
+        "score": "3-0",
+        "minute": 82
+      },
+      "image_path": "assets/generated/live_sub_42_20.png",
+      "caption": "\ud83d\udd04 SUB! 82' Dowman (ARS) is on. BHA 3-0 ARS.\n\nImpact sub, or too little too late? #FPL #FPLFamily #FPLTips #FPLTwitter #ARS\n\nFollow @fantasycoachai so you don't miss the next update."
+    },
+    {
+      "key": "sub:43:242",
+      "story": {
+        "type": "substitution",
+        "key": "sub:43:242",
+        "player": "George",
+        "team": "EVE",
+        "home": "EVE",
+        "away": "IPS",
+        "score": "2-0",
+        "minute": 84
+      },
+      "image_path": "assets/generated/live_sub_43_242.png",
+      "caption": "\ud83d\udd04 SUB! 84' George (EVE) is on. EVE 2-0 IPS.\n\nImpact sub, or too little too late? #FPL #FantasyFootball #FPLTips #FPLCommunity #EVE\n\nFollow @fantasycoachai so you don't miss the next update."
+    },
+    {
+      "key": "sub:43:320",
+      "story": {
+        "type": "substitution",
+        "key": "sub:43:320",
+        "player": "Akpom",
+        "team": "IPS",
+        "home": "EVE",
+        "away": "IPS",
+        "score": "2-0",
+        "minute": 84
+      },
+      "image_path": "assets/generated/live_sub_43_320.png",
+      "caption": "\ud83d\udd04 SUB! 84' Akpom (IPS) is on. EVE 2-0 IPS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTwitter #FPLTips #FPLFamily #IPS\n\nTurn on notifications to catch these as they land."
+    },
+    {
+      "key": "sub:43:640",
+      "story": {
+        "type": "substitution",
+        "key": "sub:43:640",
+        "player": "Flemming",
+        "team": "IPS",
+        "home": "EVE",
+        "away": "IPS",
+        "score": "2-0",
+        "minute": 84
+      },
+      "image_path": "assets/generated/live_sub_43_640.png",
+      "caption": "\ud83d\udd04 SUB! 84' Flemming (IPS) is on. EVE 2-0 IPS.\n\nWorth watching for a late returns. #FPL #FPLFamily #FPLTips #FPLTwitter #IPS\n\nFollow for the next one."
+    },
+    {
+      "key": "sub:46:461",
+      "story": {
+        "type": "substitution",
+        "key": "sub:46:461",
+        "player": "Tour\u00e9",
+        "team": "NEW",
+        "home": "NEW",
+        "away": "HUL",
+        "score": "2-1",
+        "minute": 80
+      },
+      "image_path": "assets/generated/live_sub_46_461.png",
+      "caption": "\ud83d\udd04 SUB! 80' Tour\u00e9 (NEW) is on. NEW 2-1 HUL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #FPLTwitter #PremierLeague #NEW\n\nMore like this on the feed -- give us a follow."
+    },
+    {
+      "key": "sub:46:589",
+      "story": {
+        "type": "substitution",
+        "key": "sub:46:589",
+        "player": "Gourna-Douath",
+        "team": "HUL",
+        "home": "NEW",
+        "away": "HUL",
+        "score": "2-1",
+        "minute": 80
+      },
+      "image_path": "assets/generated/live_sub_46_589.png",
+      "caption": "\ud83d\udd04 SUB! 80' Gourna-Douath (HUL) is on. NEW 2-1 HUL.\n\nImpact sub, or too little too late? #FPL #FPLTwitter #PremierLeague #FPLCommunity #HUL\n\nTurn on notifications to catch these as they land."
+    },
+    {
+      "key": "sub:46:637",
+      "story": {
+        "type": "substitution",
+        "key": "sub:46:637",
+        "player": "Vaz",
+        "team": "HUL",
+        "home": "NEW",
+        "away": "HUL",
+        "score": "2-1",
+        "minute": 80
+      },
+      "image_path": "assets/generated/live_sub_46_637.png",
+      "caption": "\ud83d\udd04 SUB! 80' Vaz (HUL) is on. NEW 2-1 HUL.\n\nWorth watching for a late returns. #FPL #FPLCommunity #PremierLeague #FPLTips #HUL\n\nFollow for the next one."
     }
   ]
 }
