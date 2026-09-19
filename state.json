@@ -5810,7 +5810,10 @@
       "48:112:goals_scored": 1,
       "48:502:assists": 1,
       "46:460:goals_scored": 1,
-      "46:453:assists": 1
+      "46:453:assists": 2,
+      "43:249:goals_scored": 1,
+      "43:229:assists": 1,
+      "46:449:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -5844,9 +5847,15 @@
         "score": "3-3"
       },
       "46:h": {
-        "player": "Willock",
+        "player": "Hall",
         "team": "NEW",
         "assisted_by": "Barnes",
+        "score": "2-0"
+      },
+      "43:h": {
+        "player": "Barry",
+        "team": "EVE",
+        "assisted_by": "Tarkowski",
         "score": "1-0"
       }
     },
@@ -5904,11 +5913,11 @@
         0
       ],
       "43": [
-        0,
+        1,
         0
       ],
       "46": [
-        1,
+        2,
         0
       ],
       "47": [
@@ -6166,7 +6175,29 @@
       "48:45": true,
       "48:47": true,
       "48:455": true,
-      "48:516": true
+      "48:516": true,
+      "46:277": true,
+      "46:279": true,
+      "46:280": true,
+      "46:282": true,
+      "46:286": true,
+      "46:289": true,
+      "46:290": true,
+      "46:295": true,
+      "46:572": true,
+      "46:585": true,
+      "46:642": true,
+      "46:445": true,
+      "46:447": true,
+      "46:449": true,
+      "46:453": true,
+      "46:457": true,
+      "46:459": true,
+      "46:460": true,
+      "46:462": true,
+      "46:464": true,
+      "46:567": true,
+      "46:634": true
     },
     "bonus_posted": {
       "31": true,
@@ -6659,7 +6690,30 @@
       "type": "goal_update",
       "posted_at": "2026-09-19T14:06:33.163121+00:00",
       "tweet_id": "2101311987427004619"
+    },
+    {
+      "key": "goal:43:249:1",
+      "type": "goal",
+      "posted_at": "2026-09-19T14:16:52.508075+00:00",
+      "tweet_id": "2101314584946876498"
     }
   ],
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "goal:46:449:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:46:449:1",
+        "player": "Hall",
+        "team": "NEW",
+        "home": "NEW",
+        "away": "HUL",
+        "minute": 16,
+        "score": "2-0",
+        "assisted_by": "Barnes"
+      },
+      "image_path": "assets/generated/live_goal_46_449_1.png",
+      "caption": "\u26bd GOAL! 16' Hall (NEW)! Assisted by Barnes. NEW 2-0 HUL.\n\nNailed on captain material? #FPL #FPLTwitter #FPLFamily #FantasyPremierLeague #NEW\n\nMore like this on the feed -- give us a follow."
+    }
+  ]
 }
