@@ -6923,24 +6923,15 @@
       "type": "goal",
       "posted_at": "2026-09-19T15:35:23.845681+00:00",
       "tweet_id": "2101334345617166513"
+    },
+    {
+      "key": "sub:42:14",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:36:06.573692+00:00",
+      "tweet_id": "2101334524743262339"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:42:14",
-      "story": {
-        "type": "substitution",
-        "key": "sub:42:14",
-        "player": "Eze",
-        "team": "ARS",
-        "home": "BHA",
-        "away": "ARS",
-        "score": "3-0",
-        "minute": 74
-      },
-      "image_path": "assets/generated/live_sub_42_14.png",
-      "caption": "\ud83d\udd04 SUB! 74' Eze (ARS) is on. BHA 3-0 ARS.\n\nDoes this open a chance for a start next week? #FPL #FPLFamily #PremierLeague #FPLTips #ARS\n\nFollow @fantasycoachai so you don't miss the next update."
-    },
     {
       "key": "sub:42:25",
       "story": {
