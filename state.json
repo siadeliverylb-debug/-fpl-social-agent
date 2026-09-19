@@ -7247,22 +7247,15 @@
       "type": "yellow_card",
       "posted_at": "2026-09-19T18:27:30.279966+00:00",
       "tweet_id": "2101377658101899428"
+    },
+    {
+      "key": "fulltime:47",
+      "type": "full_time",
+      "posted_at": "2026-09-19T18:28:13.380095+00:00",
+      "tweet_id": "2101377838872134094"
     }
   ],
   "live_queue": [
-    {
-      "key": "fulltime:47",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:47",
-        "home": "NFO",
-        "away": "COV",
-        "score": "1-1",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_47.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): NFO 1-1 COV.\n\nHow did your FPL assets do? #FPL #FPLFamily #FantasyFootball #FantasyPremierLeague\n\nTurn on notifications to catch these as they land."
-    },
     {
       "key": "bonus:47",
       "story": {
