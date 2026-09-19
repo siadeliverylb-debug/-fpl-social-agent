@@ -5816,7 +5816,8 @@
       "46:449:goals_scored": 1,
       "42:124:goals_scored": 1,
       "42:138:assists": 1,
-      "46:289:yellow_cards": 1
+      "46:289:yellow_cards": 1,
+      "42:138:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6717,23 +6718,29 @@
       "type": "goal",
       "posted_at": "2026-09-19T14:35:18.917912+00:00",
       "tweet_id": "2101319225465766065"
+    },
+    {
+      "key": "yellow_card:46:289:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-19T14:36:01.684272+00:00",
+      "tweet_id": "2101319404977893750"
     }
   ],
   "live_queue": [
     {
-      "key": "yellow_card:46:289:1",
+      "key": "yellow_card:42:138:1",
       "story": {
         "type": "yellow_card",
-        "key": "yellow_card:46:289:1",
-        "player": "Crooks",
-        "team": "HUL",
-        "home": "NEW",
-        "away": "HUL",
-        "minute": 32,
-        "score": "2-0"
+        "key": "yellow_card:42:138:1",
+        "player": "Kostoulas",
+        "team": "BHA",
+        "home": "BHA",
+        "away": "ARS",
+        "minute": 34,
+        "score": "1-0"
       },
-      "image_path": "assets/generated/live_yellow_card_46_289_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 32' Crooks (HUL) is booked. NEW 2-0 HUL.\n\nWorth keeping an eye on for next week. #FPL #PremierLeague #FPLTwitter #FantasyFootball #HUL\n\nMore like this on the feed -- give us a follow."
+      "image_path": "assets/generated/live_yellow_card_42_138_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 34' Kostoulas (BHA) is booked. BHA 1-0 ARS.\n\nDoes this change your captaincy call? #FPL #FantasyFootball #FPLTips #FPLCommunity #BHA\n\nFollow @fantasycoachai so you don't miss the next update."
     }
   ]
 }
