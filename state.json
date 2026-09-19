@@ -6845,24 +6845,13 @@
       "type": "goal",
       "posted_at": "2026-09-19T15:18:34.204549+00:00",
       "tweet_id": "2101330110934593677"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "goalupdate:assist:43:236:1",
-      "story": {
-        "type": "goal_update",
-        "key": "goalupdate:assist:43:236:1",
-        "player": "Barry",
-        "team": "EVE",
-        "assisted_by": "Dewsbury-Hall",
-        "home": "EVE",
-        "away": "IPS",
-        "score": "2-0",
-        "minute": 58
-      },
-      "image_path": "assets/generated/live_goalupdate_assist_43_236_1.png",
-      "caption": "\ud83d\udcdd UPDATE (58'): Barry's goal (EVE) was assisted by Dewsbury-Hall! EVE 2-0 IPS.\n\n#FPL #FPLCommunity #PremierLeague #FantasyPremierLeague #EVE\n\nFollowing along? Hit follow so you don't miss what's next."
+      "type": "goal_update",
+      "posted_at": "2026-09-19T15:19:16.862466+00:00",
+      "tweet_id": "2101330289943306532"
     }
-  ]
+  ],
+  "live_queue": []
 }
