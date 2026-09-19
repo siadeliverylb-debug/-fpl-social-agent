@@ -5661,7 +5661,7 @@
       },
       "42": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       },
       "43": {
         "started": true,
@@ -6306,7 +6306,8 @@
       "39": true,
       "40": true,
       "41": true,
-      "48": true
+      "48": true,
+      "42": true
     }
   },
   "live_post_log": [
@@ -7043,25 +7044,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:53:12.348021+00:00",
       "tweet_id": "2101338826983502285"
+    },
+    {
+      "key": "sub:42:605",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:55:45.702455+00:00",
+      "tweet_id": "2101339470423339126"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:42:605",
-      "story": {
-        "type": "substitution",
-        "key": "sub:42:605",
-        "player": "Yalcouy\u00e9",
-        "team": "BHA",
-        "home": "BHA",
-        "away": "ARS",
-        "score": "3-0",
-        "minute": 90,
-        "subbed_out": "Andr\u00e9s"
-      },
-      "image_path": "assets/generated/live_sub_42_605.png",
-      "caption": "\ud83d\udd04 SUB! 90' Yalcouy\u00e9 (BHA) is on. Off: Andr\u00e9s. BHA 3-0 ARS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyFootball #FPLCommunity #FPLTips #BHA\n\nFollow for the next one."
-    },
     {
       "key": "sub:46:340",
       "story": {
@@ -7151,6 +7142,45 @@
       },
       "image_path": "assets/generated/live_yellow_card_43_640_1.png",
       "caption": "\ud83d\udfe8 YELLOW CARD! 90' Flemming (IPS) is booked. EVE 2-0 IPS.\n\nDoes this change your captaincy call? #FPL #FPLTips #FPLTwitter #FPLFamily #IPS\n\nMore like this on the feed -- give us a follow."
+    },
+    {
+      "key": "fulltime:42",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:42",
+        "home": "BHA",
+        "away": "ARS",
+        "score": "3-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_42.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): BHA 3-0 ARS.\n\nHow did your FPL assets do? #FPL #FantasyPremierLeague #FPLFamily #FPLTwitter\n\nFollowing along? Hit follow so you don't miss what's next."
+    },
+    {
+      "key": "bonus:42",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:42",
+        "home": "BHA",
+        "away": "ARS",
+        "score": "3-0",
+        "players": [
+          {
+            "name": "Gro\u00df",
+            "points": 3
+          },
+          {
+            "name": "Kostoulas",
+            "points": 2
+          },
+          {
+            "name": "Andr\u00e9s",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_42.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: BHA 3-0 ARS.\nGro\u00df +3, Kostoulas +2, Andr\u00e9s +1.\n\n#FPL #FPLCommunity #PremierLeague #FPLTips #BHAvARS\n\nTurn on notifications to catch these as they land."
     }
   ]
 }
