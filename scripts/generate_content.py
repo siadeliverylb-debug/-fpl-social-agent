@@ -259,6 +259,19 @@ def render_card(story, out_path):
         headline = f"{story['player']} ({story['team']})"
         subtext = story["news"]
         hashtags = f"{base_tags} #{story['team']}"
+    elif t in ("form_hot", "form_cold"):
+        hot = t == "form_hot"
+        players_ = story["players"]
+        top, rest = players_[0], players_[1:]
+        eyebrow = "IN FORM" if hot else "STRUGGLING"
+        hero = f"{top['form']:.1f} PPG"
+        headline = f"{top['name']} ({top['team']})"
+        rest_txt = ", ".join(f"{p['name']} {p['form']:.1f}" for p in rest)
+        if hot:
+            subtext = f"Also in form: {rest_txt}"
+        else:
+            subtext = f"Owned by {top['selected']:.0f}%. Also struggling: {rest_txt}"
+        hero_color = ACCENT if hot else ALERT
     elif t == "injury_batch":
         injuries = story["injuries"]
         eyebrow = "INJURY ALERT"
@@ -464,6 +477,19 @@ SUBSTITUTION_HOOKS = [
 ]
 
 
+FORM_HOT_HOOKS = [
+    "Who's in your team? Who are you buying?",
+    "Time to jump on one of them, or too late?",
+    "Which of these are you backing to keep it going?",
+    "Any of them in your squad yet?",
+]
+FORM_COLD_HOOKS = [
+    "Hold, or sell before the next deadline?",
+    "Do you trust any of them to bounce back?",
+    "Who's getting binned first?",
+    "How many of these are in your team?",
+]
+
 FOLLOW_ASKS = [
     "Follow for the next one.",
     "Follow @fantasycoachai so you don't miss the next update.",
@@ -517,6 +543,20 @@ def _build_caption_text(story):
             f"\"{story['news']}\"\n\n"
             f"{hook} {tags}"
         )
+    if t in ("form_hot", "form_cold"):
+        hot = t == "form_hot"
+        lines = []
+        for n, p in enumerate(story["players"], 1):
+            extra = f", owned by {p['selected']:.0f}%" if not hot else ""
+            lines.append(f"{n}. {p['name']} ({p['team']}) - {p['form']:.1f} pts/game, £{p['price_millions']}m{extra}")
+        body = "\n".join(lines)
+        if hot:
+            head = "\U0001F525 IN FORM: the players averaging the most points per game lately."
+            hook = random.choice(FORM_HOT_HOOKS)
+        else:
+            head = "\U0001F976 STRUGGLING: popular picks who've stopped returning."
+            hook = random.choice(FORM_COLD_HOOKS)
+        return f"{head}\n\n{body}\n\n{hook} {tags}"
     if t == "injury_batch":
         injuries = story["injuries"]
         hook = random.choice(STATUS_HOOKS)

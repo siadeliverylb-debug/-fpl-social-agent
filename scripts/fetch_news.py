@@ -185,6 +185,75 @@ def recap_stories(data, state):
     }]
 
 
+# Filler content for quiet stretches: when there's no other news, post who's
+# in form or struggling instead of leaving the account silent. Alternates
+# between the two so consecutive posts differ.
+QUIET_HOURS = 3
+MAX_SPOTLIGHTS_PER_DAY = 4
+SPOTLIGHT_SIZE = 5
+SPOTLIGHT_MIN_MINUTES = 180   # ignore players who've barely played
+SPOTLIGHT_MIN_OWNERSHIP = 10.0  # "struggling" only counts popular picks
+
+
+def _hours_since(iso_ts, now):
+    return (now - datetime.fromisoformat(iso_ts)).total_seconds() / 3600
+
+
+def form_stories(data, state, other_stories, now=None):
+    now = now or datetime.now(timezone.utc)
+
+    # Stories like deadline reminders are regenerated every scan and only
+    # de-duplicated later, so only count ones that are actually new.
+    seen = set(state.get("handled_keys", [])) | {p["key"] for p in state.get("pending", [])}
+    if any(s["key"] not in seen for s in other_stories) or state.get("pending"):
+        return []  # there's real news to post -- no filler
+    log = state.get("post_log", [])
+    if log and _hours_since(log[-1]["posted_at"], now) < QUIET_HOURS:
+        return []
+
+    fs = state.setdefault("form_spotlight", {"last_at": None, "next": "hot", "day": None, "count": 0})
+    if fs["last_at"] and _hours_since(fs["last_at"], now) < QUIET_HOURS:
+        return []
+    today = now.date().isoformat()
+    if fs["day"] != today:
+        fs["day"], fs["count"] = today, 0
+    if fs["count"] >= MAX_SPOTLIGHTS_PER_DAY:
+        return []
+
+    teams = {t["id"]: t["short_name"] for t in data["teams"]}
+    rows = []
+    for p in data["elements"]:
+        if p["minutes"] < SPOTLIGHT_MIN_MINUTES:
+            continue
+        rows.append({
+            "name": p["web_name"],
+            "team": teams.get(p["team"], "?"),
+            "form": float(p["form"]),
+            "total_points": p["total_points"],
+            "price_millions": round(p["now_cost"] / 10, 1),
+            "selected": float(p["selected_by_percent"]),
+        })
+
+    kind = fs["next"]
+    if kind == "hot":
+        picks = sorted(rows, key=lambda r: (-r["form"], -r["total_points"]))[:SPOTLIGHT_SIZE]
+        picks = [r for r in picks if r["form"] > 0]
+    else:
+        popular = [r for r in rows if r["selected"] >= SPOTLIGHT_MIN_OWNERSHIP]
+        picks = sorted(popular, key=lambda r: (r["form"], -r["selected"]))[:SPOTLIGHT_SIZE]
+    if len(picks) < 3:
+        return []
+
+    fs["last_at"] = now.isoformat()
+    fs["next"] = "cold" if kind == "hot" else "hot"
+    fs["count"] += 1
+    return [{
+        "type": "form_hot" if kind == "hot" else "form_cold",
+        "key": f"form:{kind}:{now:%Y%m%d%H%M}",
+        "players": picks,
+    }]
+
+
 def fetch_stories(state):
     """Mutates `state` in place (snapshot + recap bookkeeping) and returns the
     list of new stories. Caller owns loading/saving `state` -- this function
@@ -197,6 +266,7 @@ def fetch_stories(state):
     stories += diff_snapshots(state.get("last_snapshot"), new_snapshot)
     stories += deadline_stories(data)
     stories += recap_stories(data, state)
+    stories += form_stories(data, state, stories)
 
     state["last_snapshot"] = new_snapshot
     state["last_snapshot_at"] = datetime.now(timezone.utc).isoformat()
