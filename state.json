@@ -7096,35 +7096,15 @@
       "type": "full_time",
       "posted_at": "2026-09-19T16:04:12.670370+00:00",
       "tweet_id": "2101341597086687743"
+    },
+    {
+      "key": "bonus:42",
+      "type": "bonus_points",
+      "posted_at": "2026-09-19T16:04:55.660679+00:00",
+      "tweet_id": "2101341777332756535"
     }
   ],
   "live_queue": [
-    {
-      "key": "bonus:42",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:42",
-        "home": "BHA",
-        "away": "ARS",
-        "score": "3-0",
-        "players": [
-          {
-            "name": "Gro\u00df",
-            "points": 3
-          },
-          {
-            "name": "Kostoulas",
-            "points": 2
-          },
-          {
-            "name": "Andr\u00e9s",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_42.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: BHA 3-0 ARS.\nGro\u00df +3, Kostoulas +2, Andr\u00e9s +1.\n\n#FPL #FPLCommunity #PremierLeague #FPLTips #BHAvARS\n\nTurn on notifications to catch these as they land."
-    },
     {
       "key": "yellow_card:43:244:1",
       "story": {
