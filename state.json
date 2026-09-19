@@ -6964,24 +6964,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:42:37.987260+00:00",
       "tweet_id": "2101336166528168395"
+    },
+    {
+      "key": "sub:42:119",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:43:20.720249+00:00",
+      "tweet_id": "2101336345830433060"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:42:119",
-      "story": {
-        "type": "substitution",
-        "key": "sub:42:119",
-        "player": "Costinha",
-        "team": "BHA",
-        "home": "BHA",
-        "away": "ARS",
-        "score": "3-0",
-        "minute": 76
-      },
-      "image_path": "assets/generated/live_sub_42_119.png",
-      "caption": "\ud83d\udd04 SUB! 76' Costinha (BHA) is on. BHA 3-0 ARS.\n\nImpact sub, or too little too late? #FPL #FantasyFootball #PremierLeague #FPLFamily #BHA\n\nFollow @fantasycoachai so you don't miss the next update."
-    },
     {
       "key": "sub:42:125",
       "story": {
