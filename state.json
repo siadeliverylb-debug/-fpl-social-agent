@@ -5826,7 +5826,8 @@
       "42:113:yellow_cards": 1,
       "46:572:penalties_saved": 1,
       "46:464:penalties_missed": 1,
-      "46:572:yellow_cards": 1
+      "46:572:yellow_cards": 1,
+      "46:457:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6763,25 +6764,15 @@
       "type": "yellow_card",
       "posted_at": "2026-09-19T14:49:36.366994+00:00",
       "tweet_id": "2101322821909528804"
+    },
+    {
+      "key": "goal:42:138:1",
+      "type": "goal",
+      "posted_at": "2026-09-19T14:50:19.759794+00:00",
+      "tweet_id": "2101323003946565889"
     }
   ],
   "live_queue": [
-    {
-      "key": "goal:42:138:1",
-      "story": {
-        "type": "goal",
-        "key": "goal:42:138:1",
-        "player": "Kostoulas",
-        "team": "BHA",
-        "home": "BHA",
-        "away": "ARS",
-        "minute": 45,
-        "score": "2-0",
-        "assisted_by": "Gomez"
-      },
-      "image_path": "assets/generated/live_goal_42_138_1.png",
-      "caption": "\u26bd GOAL! 45' Kostoulas (BHA)! Assisted by Gomez. BHA 2-0 ARS.\n\nWho's benefiting from that in FPL? #FPL #FPLTips #FPLTwitter #FPLCommunity #BHA\n\nFollow @fantasycoachai so you don't miss the next update."
-    },
     {
       "key": "penalty_save:46:572:1",
       "story": {
@@ -6826,6 +6817,21 @@
       },
       "image_path": "assets/generated/live_yellow_card_46_572_1.png",
       "caption": "\ud83d\udfe8 YELLOW CARD! 45' Tzolakis (HUL) is booked. NEW 2-0 HUL.\n\nDoes this change your captaincy call? #FPL #FPLTips #FantasyPremierLeague #FPLCommunity #HUL\n\nTurn on notifications to catch these as they land."
+    },
+    {
+      "key": "yellow_card:46:457:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:46:457:1",
+        "player": "J.Murphy",
+        "team": "NEW",
+        "home": "NEW",
+        "away": "HUL",
+        "minute": 45,
+        "score": "2-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_46_457_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 45' J.Murphy (NEW) is booked. NEW 2-0 HUL.\n\nDoes this change your captaincy call? #FPL #FantasyPremierLeague #FPLTwitter #FPLFamily #NEW\n\nFollow for the next one."
     }
   ]
 }
