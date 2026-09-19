@@ -6609,22 +6609,15 @@
       "type": "goal",
       "posted_at": "2026-09-19T13:35:44.941535+00:00",
       "tweet_id": "2101304235447251130"
+    },
+    {
+      "key": "fulltime:48",
+      "type": "full_time",
+      "posted_at": "2026-09-19T13:36:27.632591+00:00",
+      "tweet_id": "2101304414430708081"
     }
   ],
   "live_queue": [
-    {
-      "key": "fulltime:48",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:48",
-        "home": "TOT",
-        "away": "AVL",
-        "score": "3-3",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_48.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): TOT 3-3 AVL.\n\nBonus points still to be confirmed. #FPL #FPLFamily #FPLCommunity #FPLTips\n\nFollow @fantasycoachai so you don't miss the next update."
-    },
     {
       "key": "bonus:48",
       "story": {
