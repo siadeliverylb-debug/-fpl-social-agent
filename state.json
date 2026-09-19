@@ -6770,24 +6770,15 @@
       "type": "goal",
       "posted_at": "2026-09-19T14:50:19.759794+00:00",
       "tweet_id": "2101323003946565889"
+    },
+    {
+      "key": "penalty_save:46:572:1",
+      "type": "penalty_save",
+      "posted_at": "2026-09-19T14:51:03.130150+00:00",
+      "tweet_id": "2101323185102680379"
     }
   ],
   "live_queue": [
-    {
-      "key": "penalty_save:46:572:1",
-      "story": {
-        "type": "penalty_save",
-        "key": "penalty_save:46:572:1",
-        "player": "Tzolakis",
-        "team": "HUL",
-        "home": "NEW",
-        "away": "HUL",
-        "minute": 45,
-        "score": "2-0"
-      },
-      "image_path": "assets/generated/live_penalty_save_46_572_1.png",
-      "caption": "\ud83e\udde4 PENALTY SAVED! 45' Tzolakis (HUL) with the stop! NEW 2-0 HUL.\n\nGoalkeeper picks looking good right now. #FPL #FPLTwitter #FantasyPremierLeague #FantasyFootball #HUL\n\nFollow @fantasycoachai so you don't miss the next update."
-    },
     {
       "key": "penalty_miss:46:464:1",
       "story": {
