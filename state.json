@@ -6105,7 +6105,8 @@
       "42:120": true,
       "42:126": true,
       "42:605": true,
-      "46:340": true
+      "46:340": true,
+      "46:559": true
     },
     "subs_baselined": {
       "31": true,
@@ -7008,24 +7009,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:49:38.968455+00:00",
       "tweet_id": "2101337932455989641"
+    },
+    {
+      "key": "sub:46:461",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:50:21.707955+00:00",
+      "tweet_id": "2101338111510749366"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:46:461",
-      "story": {
-        "type": "substitution",
-        "key": "sub:46:461",
-        "player": "Tour\u00e9",
-        "team": "NEW",
-        "home": "NEW",
-        "away": "HUL",
-        "score": "2-1",
-        "minute": 80
-      },
-      "image_path": "assets/generated/live_sub_46_461.png",
-      "caption": "\ud83d\udd04 SUB! 80' Tour\u00e9 (NEW) is on. NEW 2-1 HUL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #FPLTwitter #PremierLeague #NEW\n\nMore like this on the feed -- give us a follow."
-    },
     {
       "key": "sub:46:589",
       "story": {
@@ -7118,6 +7110,21 @@
       },
       "image_path": "assets/generated/live_sub_46_340.png",
       "caption": "\ud83d\udd04 SUB! 87' Gelhardt (HUL) is on. NEW 2-1 HUL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #FantasyFootball #FPLFamily #HUL\n\nFollow for the next one."
+    },
+    {
+      "key": "sub:46:559",
+      "story": {
+        "type": "substitution",
+        "key": "sub:46:559",
+        "player": "Bamba",
+        "team": "NEW",
+        "home": "NEW",
+        "away": "HUL",
+        "score": "2-1",
+        "minute": 88
+      },
+      "image_path": "assets/generated/live_sub_46_559.png",
+      "caption": "\ud83d\udd04 SUB! 88' Bamba (NEW) is on. NEW 2-1 HUL.\n\nImpact sub, or too little too late? #FPL #FPLCommunity #FPLTwitter #FantasyFootball #NEW\n\nMore like this on the feed -- give us a follow."
     }
   ]
 }
