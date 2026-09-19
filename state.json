@@ -7037,25 +7037,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:52:29.769471+00:00",
       "tweet_id": "2101338648868196677"
+    },
+    {
+      "key": "sub:42:126",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:53:12.348021+00:00",
+      "tweet_id": "2101338826983502285"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:42:126",
-      "story": {
-        "type": "substitution",
-        "key": "sub:42:126",
-        "player": "O'Riley",
-        "team": "BHA",
-        "home": "BHA",
-        "away": "ARS",
-        "score": "3-0",
-        "minute": 90,
-        "subbed_out": "Struijk"
-      },
-      "image_path": "assets/generated/live_sub_42_126.png",
-      "caption": "\ud83d\udd04 SUB! 90' O'Riley (BHA) is on. Off: Struijk. BHA 3-0 ARS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #PremierLeague #FPLFamily #FPLCommunity #BHA\n\nMore like this on the feed -- give us a follow."
-    },
     {
       "key": "sub:42:605",
       "story": {
