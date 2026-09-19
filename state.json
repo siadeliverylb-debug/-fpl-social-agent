@@ -6309,7 +6309,8 @@
       "42:328": true,
       "42:639": true,
       "47:186": true,
-      "47:483": true
+      "47:483": true,
+      "47:581": true
     },
     "bonus_posted": {
       "31": true,
@@ -7195,23 +7196,13 @@
       "type": "substitution",
       "posted_at": "2026-09-19T18:02:55.986544+00:00",
       "tweet_id": "2101371474367963433"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "sub:47:490",
-      "story": {
-        "type": "substitution",
-        "key": "sub:47:490",
-        "player": "Wood",
-        "team": "NFO",
-        "home": "NFO",
-        "away": "COV",
-        "score": "0-1",
-        "minute": 75
-      },
-      "image_path": "assets/generated/live_sub_47_490.png",
-      "caption": "\ud83d\udd04 SUB! 75' Wood (NFO) is on. NFO 0-1 COV.\n\nDoes this open a chance for a start next week? #FPL #FPLTwitter #FPLTips #FantasyPremierLeague #NFO\n\nFollow @fantasycoachai so you don't miss the next update."
+      "type": "substitution",
+      "posted_at": "2026-09-19T18:03:39.541818+00:00",
+      "tweet_id": "2101371656933392592"
     }
-  ]
+  ],
+  "live_queue": []
 }
