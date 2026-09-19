@@ -7050,24 +7050,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:55:45.702455+00:00",
       "tweet_id": "2101339470423339126"
+    },
+    {
+      "key": "sub:46:340",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:56:29.074061+00:00",
+      "tweet_id": "2101339652498047378"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:46:340",
-      "story": {
-        "type": "substitution",
-        "key": "sub:46:340",
-        "player": "Gelhardt",
-        "team": "HUL",
-        "home": "NEW",
-        "away": "HUL",
-        "score": "2-1",
-        "minute": 87
-      },
-      "image_path": "assets/generated/live_sub_46_340.png",
-      "caption": "\ud83d\udd04 SUB! 87' Gelhardt (HUL) is on. NEW 2-1 HUL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #FantasyFootball #FPLFamily #HUL\n\nFollow for the next one."
-    },
     {
       "key": "sub:46:559",
       "story": {
