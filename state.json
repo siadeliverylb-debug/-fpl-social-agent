@@ -5839,7 +5839,8 @@
       "42:115:yellow_cards": 1,
       "43:640:yellow_cards": 1,
       "43:244:yellow_cards": 1,
-      "42:13:yellow_cards": 1
+      "42:13:yellow_cards": 1,
+      "47:176:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -5895,6 +5896,12 @@
         "team": "HUL",
         "assisted_by": "Belloumi",
         "score": "2-1"
+      },
+      "47:a": {
+        "player": "Dasilva",
+        "team": "COV",
+        "assisted_by": null,
+        "score": "0-1"
       }
     },
     "posted_score": {
@@ -5960,7 +5967,7 @@
       ],
       "47": [
         0,
-        0
+        1
       ],
       "49": [
         0,
@@ -7152,6 +7159,12 @@
       "type": "substitution",
       "posted_at": "2026-09-19T17:34:09.272386+00:00",
       "tweet_id": "2101364232055103704"
+    },
+    {
+      "key": "goal:47:176:1",
+      "type": "goal",
+      "posted_at": "2026-09-19T17:44:06.285740+00:00",
+      "tweet_id": "2101366736104645025"
     }
   ],
   "live_queue": []
