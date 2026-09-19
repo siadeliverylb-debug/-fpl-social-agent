@@ -193,6 +193,9 @@ MAX_SPOTLIGHTS_PER_DAY = 4
 SPOTLIGHT_SIZE = 5
 SPOTLIGHT_MIN_MINUTES = 180   # ignore players who've barely played
 SPOTLIGHT_MIN_OWNERSHIP = 10.0  # "struggling" only counts popular picks
+# Filler posts only go out while the (mostly UK/European) audience is awake.
+SPOTLIGHT_START_HOUR_UTC = 7
+SPOTLIGHT_END_HOUR_UTC = 21  # exclusive: last eligible scan is 20:59 UTC
 
 
 def _hours_since(iso_ts, now):
@@ -201,6 +204,9 @@ def _hours_since(iso_ts, now):
 
 def form_stories(data, state, other_stories, now=None):
     now = now or datetime.now(timezone.utc)
+
+    if not (SPOTLIGHT_START_HOUR_UTC <= now.hour < SPOTLIGHT_END_HOUR_UTC):
+        return []
 
     # Stories like deadline reminders are regenerated every scan and only
     # de-duplicated later, so only count ones that are actually new.
