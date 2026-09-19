@@ -2,7 +2,17 @@
 cards, penalties, kickoff and full-time -- for immediate (non-approval)
 posting since they're only worth posting while still live."""
 
+from datetime import datetime, timezone
+
 import requests
+
+# A new goal (and its assist / an own goal) is held this long before posting
+# so a VAR check has time to finish -- FPL's API has no "under review" flag,
+# so "still there after this long" is the only confirmation available. If it
+# drops back out during the hold it's never posted at all. Trade-off: every
+# goal post lands ~this much later than the goal.
+GOAL_CONFIRM_SECONDS = 180
+HELD_STATS = ("goals_scored", "assists", "own_goals")
 
 BOOTSTRAP_URL = "https://fantasy.premierleague.com/api/bootstrap-static/"
 FIXTURES_URL = "https://fantasy.premierleague.com/api/fixtures/"
@@ -75,6 +85,7 @@ def fetch_live_events(state):
     live.setdefault("subs_off_seen", {})
     live.setdefault("subs_baselined", {})
     live.setdefault("bonus_posted", {})
+    live.setdefault("goal_pending", {})
     stories = []
 
     for fx in fixtures:
@@ -190,6 +201,7 @@ def fetch_live_events(state):
         # one of each landed on the same side this poll) into a single post.
         new_goals = {"h": [], "a": []}
         new_assists = {"h": [], "a": []}
+        match_over = bool(fx.get("finished_provisional"))
 
         for stat in fx.get("stats", []):
             story_type = STAT_TYPES.get(stat["identifier"])
@@ -201,6 +213,66 @@ def fetch_live_events(state):
                     value = entry["value"]
                     stat_key = f"{fid}:{pid}:{stat['identifier']}"
                     prev_value = live["stats"].get(stat_key, 0)
+                    if value < prev_value and stat["identifier"] in ("goals_scored", "own_goals"):
+                        # A goal (or own goal) we already posted about got
+                        # retracted -- most commonly VAR overturning it after
+                        # the fact, occasionally a scorer reattribution. FPL's
+                        # own goals_scored/own_goals count going DOWN is the
+                        # only signal for this; there's no explicit "disallowed"
+                        # event. Undo the score bump from when it was first
+                        # posted and tell followers, instead of silently
+                        # leaving the scoreline we've been showing one goal too
+                        # high/low from here on.
+                        player = players.get(pid, {"name": f"Player {pid}", "team": None})
+                        player_team = teams.get(player["team"], "?")
+                        retracted = prev_value - value
+                        for _ in range(retracted):
+                            if stat["identifier"] == "own_goals":
+                                side_scored = "a" if side == "h" else "h"
+                            else:
+                                side_scored = side
+                            if side_scored == "h":
+                                psc[0] = max(0, psc[0] - 1)
+                            else:
+                                psc[1] = max(0, psc[1] - 1)
+                            # Don't let a later assist get glued onto the
+                            # goal that no longer counts.
+                            lg = live["last_goal"].get(f"{fid}:{side_scored}")
+                            if lg and lg.get("player") == player["name"]:
+                                live["last_goal"].pop(f"{fid}:{side_scored}", None)
+                        stories.append({
+                            "type": "goal_disallowed",
+                            "was_own_goal": stat["identifier"] == "own_goals",
+                            "key": f"disallowed:{stat['identifier']}:{fid}:{pid}:{value}",
+                            "player": player["name"],
+                            "team": player_team,
+                            "home": home,
+                            "away": away,
+                            "score": score_str(),
+                            "minute": minute,
+                        })
+                    event_minute = minute
+                    if stat["identifier"] in HELD_STATS:
+                        pend = live["goal_pending"].get(stat_key)
+                        if value > prev_value and not match_over:
+                            now_ts = datetime.now(timezone.utc)
+                            if not pend or pend["value"] != value:
+                                pend = {"value": value, "since": now_ts.isoformat(), "minute": minute}
+                                live["goal_pending"][stat_key] = pend
+                            held_for = (now_ts - datetime.fromisoformat(pend["since"])).total_seconds()
+                            if held_for < GOAL_CONFIRM_SECONDS:
+                                # Not confirmed yet -- leave live["stats"]
+                                # untouched so it's re-evaluated next poll.
+                                continue
+                            event_minute = pend["minute"]
+                            live["goal_pending"].pop(stat_key, None)
+                        elif pend:
+                            # Either the match is over (VAR is done, confirm
+                            # now) or the count fell back before we ever
+                            # posted it (ruled out -- nothing to correct).
+                            if value > prev_value:
+                                event_minute = pend["minute"]
+                            live["goal_pending"].pop(stat_key, None)
                     if value > prev_value:
                         player = players.get(pid, {"name": f"Player {pid}", "team": None})
                         player_team = teams.get(player["team"], "?")
@@ -212,7 +284,7 @@ def fetch_live_events(state):
                                 "team": player_team,
                                 "home": home,
                                 "away": away,
-                                "minute": minute,
+                                "minute": event_minute,
                             }
                             if story_type == "goal":
                                 new_goals[side].append(event)

@@ -210,6 +210,7 @@ LIVE_EVENT_META = {
     "penalty_save": ("PENALTY SAVED", "SAVED", ACCENT),
     "own_goal": ("OWN GOAL", "OWN GOAL", ALERT),
     "substitution": ("SUBSTITUTION", "SUB ON", ACCENT),
+    "goal_disallowed": ("VAR DECISION", "NO GOAL", ALERT),
 }
 
 
@@ -603,6 +604,14 @@ def _build_caption_text(story):
         return (
             f"\U0001F6A8 OWN GOAL!{minute_tag} {story['player']} ({story['team']}). "
             f"{story['home']} {story['score']} {story['away']}.\n\n{hook} {tags} #{story['team']}"
+        )
+    if t == "goal_disallowed":
+        minute_tag = f" {_minute_str(story)}" if story.get("minute") is not None else ""
+        what = "own goal" if story.get("was_own_goal") else "goal"
+        return (
+            f"❌ NO GOAL!{minute_tag} {story['player']}'s ({story['team']}) {what} has been ruled out. "
+            f"Score corrected: {story['home']} {story['score']} {story['away']}.\n\n"
+            f"Any FPL points from it are removed. {tags} #{story['team']}"
         )
     if t == "bonus_points":
         lines = ", ".join(f"{p['name']} +{p['points']}" for p in story["players"])
