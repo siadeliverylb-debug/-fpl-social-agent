@@ -5808,7 +5808,8 @@
       "48:512:assists": 1,
       "48:32:yellow_cards": 1,
       "48:112:goals_scored": 1,
-      "48:502:assists": 1
+      "48:502:assists": 1,
+      "46:460:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -5840,6 +5841,12 @@
         "team": "TOT",
         "assisted_by": "Robertson",
         "score": "3-3"
+      },
+      "46:h": {
+        "player": "Willock",
+        "team": "NEW",
+        "assisted_by": null,
+        "score": "1-0"
       }
     },
     "posted_score": {
@@ -5900,7 +5907,7 @@
         0
       ],
       "46": [
-        0,
+        1,
         0
       ],
       "47": [
@@ -6627,20 +6634,15 @@
       "type": "kickoff",
       "posted_at": "2026-09-19T14:03:39.586286+00:00",
       "tweet_id": "2101311259279040742"
+    },
+    {
+      "key": "kickoff:43",
+      "type": "kickoff",
+      "posted_at": "2026-09-19T14:04:23.940059+00:00",
+      "tweet_id": "2101311445296357819"
     }
   ],
   "live_queue": [
-    {
-      "key": "kickoff:43",
-      "story": {
-        "type": "kickoff",
-        "key": "kickoff:43",
-        "home": "EVE",
-        "away": "IPS"
-      },
-      "image_path": "assets/generated/live_kickoff_43.png",
-      "caption": "\u26bd KICK-OFF: EVE vs IPS.\n\nAny of your players out there? #FPL #FantasyFootball #FPLTips #FPLCommunity\n\nFollowing along? Hit follow so you don't miss what's next."
-    },
     {
       "key": "kickoff:46",
       "story": {
@@ -6651,6 +6653,21 @@
       },
       "image_path": "assets/generated/live_kickoff_46.png",
       "caption": "\u26bd KICK-OFF: NEW vs HUL.\n\nAny of your players out there? #FPL #FPLFamily #FantasyPremierLeague #FPLTips\n\nFollowing along? Hit follow so you don't miss what's next."
+    },
+    {
+      "key": "goal:46:460:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:46:460:1",
+        "player": "Willock",
+        "team": "NEW",
+        "home": "NEW",
+        "away": "HUL",
+        "minute": 3,
+        "score": "1-0"
+      },
+      "image_path": "assets/generated/live_goal_46_460_1.png",
+      "caption": "\u26bd GOAL! 3' Willock (NEW)! NEW 1-0 HUL.\n\nWho's benefiting from that in FPL? #FPL #FantasyFootball #FPLTips #FPLCommunity #NEW\n\nFollowing along? Hit follow so you don't miss what's next."
     }
   ]
 }
