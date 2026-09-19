@@ -6647,24 +6647,15 @@
       "type": "kickoff",
       "posted_at": "2026-09-19T14:05:07.039105+00:00",
       "tweet_id": "2101311626230296787"
+    },
+    {
+      "key": "goal:46:460:1",
+      "type": "goal",
+      "posted_at": "2026-09-19T14:05:50.073470+00:00",
+      "tweet_id": "2101311806610575431"
     }
   ],
   "live_queue": [
-    {
-      "key": "goal:46:460:1",
-      "story": {
-        "type": "goal",
-        "key": "goal:46:460:1",
-        "player": "Willock",
-        "team": "NEW",
-        "home": "NEW",
-        "away": "HUL",
-        "minute": 3,
-        "score": "1-0"
-      },
-      "image_path": "assets/generated/live_goal_46_460_1.png",
-      "caption": "\u26bd GOAL! 3' Willock (NEW)! NEW 1-0 HUL.\n\nWho's benefiting from that in FPL? #FPL #FantasyFootball #FPLTips #FPLCommunity #NEW\n\nFollowing along? Hit follow so you don't miss what's next."
-    },
     {
       "key": "goalupdate:assist:46:453:1",
       "story": {
