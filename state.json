@@ -7090,22 +7090,15 @@
       "type": "yellow_card",
       "posted_at": "2026-09-19T16:03:29.849410+00:00",
       "tweet_id": "2101341417532699063"
+    },
+    {
+      "key": "fulltime:42",
+      "type": "full_time",
+      "posted_at": "2026-09-19T16:04:12.670370+00:00",
+      "tweet_id": "2101341597086687743"
     }
   ],
   "live_queue": [
-    {
-      "key": "fulltime:42",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:42",
-        "home": "BHA",
-        "away": "ARS",
-        "score": "3-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_42.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): BHA 3-0 ARS.\n\nHow did your FPL assets do? #FPL #FantasyPremierLeague #FPLFamily #FPLTwitter\n\nFollowing along? Hit follow so you don't miss what's next."
-    },
     {
       "key": "bonus:42",
       "story": {
