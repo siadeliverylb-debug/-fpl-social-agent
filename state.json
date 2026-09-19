@@ -5840,7 +5840,8 @@
       "43:640:yellow_cards": 1,
       "43:244:yellow_cards": 1,
       "42:13:yellow_cards": 1,
-      "47:176:goals_scored": 1
+      "47:176:goals_scored": 1,
+      "47:110:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -5900,7 +5901,7 @@
       "47:a": {
         "player": "Dasilva",
         "team": "COV",
-        "assisted_by": null,
+        "assisted_by": "Rushworth",
         "score": "0-1"
       }
     },
@@ -7165,6 +7166,12 @@
       "type": "goal",
       "posted_at": "2026-09-19T17:44:06.285740+00:00",
       "tweet_id": "2101366736104645025"
+    },
+    {
+      "key": "goalupdate:assist:47:110:1",
+      "type": "goal_update",
+      "posted_at": "2026-09-19T17:44:49.399203+00:00",
+      "tweet_id": "2101366916925251593"
     }
   ],
   "live_queue": []
