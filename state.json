@@ -5837,7 +5837,8 @@
       "46:286:assists": 1,
       "42:328:yellow_cards": 1,
       "42:115:yellow_cards": 1,
-      "43:640:yellow_cards": 1
+      "43:640:yellow_cards": 1,
+      "43:244:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -7056,24 +7057,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:56:29.074061+00:00",
       "tweet_id": "2101339652498047378"
+    },
+    {
+      "key": "sub:46:559",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:57:12.781419+00:00",
+      "tweet_id": "2101339835143200894"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:46:559",
-      "story": {
-        "type": "substitution",
-        "key": "sub:46:559",
-        "player": "Bamba",
-        "team": "NEW",
-        "home": "NEW",
-        "away": "HUL",
-        "score": "2-1",
-        "minute": 88
-      },
-      "image_path": "assets/generated/live_sub_46_559.png",
-      "caption": "\ud83d\udd04 SUB! 88' Bamba (NEW) is on. NEW 2-1 HUL.\n\nImpact sub, or too little too late? #FPL #FPLCommunity #FPLTwitter #FantasyFootball #NEW\n\nMore like this on the feed -- give us a follow."
-    },
     {
       "key": "yellow_card:42:115:1",
       "story": {
@@ -7172,6 +7164,21 @@
       },
       "image_path": "assets/generated/live_bonus_42.png",
       "caption": "\ud83c\udf81 BONUS POINTS confirmed: BHA 3-0 ARS.\nGro\u00df +3, Kostoulas +2, Andr\u00e9s +1.\n\n#FPL #FPLCommunity #PremierLeague #FPLTips #BHAvARS\n\nTurn on notifications to catch these as they land."
+    },
+    {
+      "key": "yellow_card:43:244:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:43:244:1",
+        "player": "Armstrong",
+        "team": "EVE",
+        "home": "EVE",
+        "away": "IPS",
+        "minute": 90,
+        "score": "2-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_43_244_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Armstrong (EVE) is booked. EVE 2-0 IPS.\n\nDoes this change your captaincy call? #FPL #FPLCommunity #FPLTwitter #FantasyPremierLeague #EVE\n\nFollowing along? Hit follow so you don't miss what's next."
     }
   ]
 }
