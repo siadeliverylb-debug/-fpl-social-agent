@@ -5819,7 +5819,8 @@
       "46:289:yellow_cards": 1,
       "42:138:yellow_cards": 1,
       "43:315:yellow_cards": 1,
-      "46:286:yellow_cards": 1
+      "46:286:yellow_cards": 1,
+      "43:233:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6744,6 +6745,12 @@
       "type": "yellow_card",
       "posted_at": "2026-09-19T14:43:55.717962+00:00",
       "tweet_id": "2101321393292083279"
+    },
+    {
+      "key": "yellow_card:43:233:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-19T14:45:19.906575+00:00",
+      "tweet_id": "2101321746519658774"
     }
   ],
   "live_queue": []
