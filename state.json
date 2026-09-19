@@ -5835,7 +5835,8 @@
       "43:315:red_cards": 1,
       "46:617:goals_scored": 1,
       "46:286:assists": 1,
-      "42:328:yellow_cards": 1
+      "42:328:yellow_cards": 1,
+      "42:115:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6106,7 +6107,9 @@
       "42:126": true,
       "42:605": true,
       "46:340": true,
-      "46:559": true
+      "46:559": true,
+      "43:232": true,
+      "43:247": true
     },
     "subs_baselined": {
       "31": true,
@@ -7015,24 +7018,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:50:21.707955+00:00",
       "tweet_id": "2101338111510749366"
+    },
+    {
+      "key": "sub:46:589",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:51:04.719606+00:00",
+      "tweet_id": "2101338292125900875"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:46:589",
-      "story": {
-        "type": "substitution",
-        "key": "sub:46:589",
-        "player": "Gourna-Douath",
-        "team": "HUL",
-        "home": "NEW",
-        "away": "HUL",
-        "score": "2-1",
-        "minute": 80
-      },
-      "image_path": "assets/generated/live_sub_46_589.png",
-      "caption": "\ud83d\udd04 SUB! 80' Gourna-Douath (HUL) is on. NEW 2-1 HUL.\n\nImpact sub, or too little too late? #FPL #FPLTwitter #PremierLeague #FPLCommunity #HUL\n\nTurn on notifications to catch these as they land."
-    },
     {
       "key": "sub:46:637",
       "story": {
@@ -7125,6 +7119,51 @@
       },
       "image_path": "assets/generated/live_sub_46_559.png",
       "caption": "\ud83d\udd04 SUB! 88' Bamba (NEW) is on. NEW 2-1 HUL.\n\nImpact sub, or too little too late? #FPL #FPLCommunity #FPLTwitter #FantasyFootball #NEW\n\nMore like this on the feed -- give us a follow."
+    },
+    {
+      "key": "yellow_card:42:115:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:42:115:1",
+        "player": "De Cuyper",
+        "team": "BHA",
+        "home": "BHA",
+        "away": "ARS",
+        "minute": 90,
+        "score": "3-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_42_115_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' De Cuyper (BHA) is booked. BHA 3-0 ARS.\n\nRisk of a ban building here. #FPL #FantasyFootball #FPLFamily #FPLTips #BHA\n\nFollowing along? Hit follow so you don't miss what's next."
+    },
+    {
+      "key": "sub:43:232",
+      "story": {
+        "type": "substitution",
+        "key": "sub:43:232",
+        "player": "O'Brien",
+        "team": "EVE",
+        "home": "EVE",
+        "away": "IPS",
+        "score": "2-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_43_232.png",
+      "caption": "\ud83d\udd04 SUB! 90' O'Brien (EVE) is on. EVE 2-0 IPS.\n\nImpact sub, or too little too late? #FPL #PremierLeague #FPLTwitter #FantasyFootball #EVE\n\nFollowing along? Hit follow so you don't miss what's next."
+    },
+    {
+      "key": "sub:43:247",
+      "story": {
+        "type": "substitution",
+        "key": "sub:43:247",
+        "player": "Hackney",
+        "team": "EVE",
+        "home": "EVE",
+        "away": "IPS",
+        "score": "2-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_43_247.png",
+      "caption": "\ud83d\udd04 SUB! 90' Hackney (EVE) is on. EVE 2-0 IPS.\n\nImpact sub, or too little too late? #FPL #PremierLeague #FPLFamily #FPLTips #EVE\n\nFollow @fantasycoachai so you don't miss the next update."
     }
   ]
 }
