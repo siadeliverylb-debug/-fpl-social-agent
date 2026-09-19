@@ -5794,7 +5794,9 @@
       "41:94:assists": 2,
       "41:106:yellow_cards": 1,
       "41:565:yellow_cards": 1,
-      "41:100:goals_scored": 1
+      "41:100:goals_scored": 1,
+      "48:53:goals_scored": 1,
+      "48:47:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -5814,6 +5816,12 @@
         "team": "BRE",
         "assisted_by": "Schade",
         "score": "3-0"
+      },
+      "48:a": {
+        "player": "Manzambi",
+        "team": "AVL",
+        "assisted_by": "Kamara",
+        "score": "0-1"
       }
     },
     "posted_score": {
@@ -5863,7 +5871,7 @@
       ],
       "48": [
         0,
-        0
+        1
       ],
       "42": [
         0,
@@ -6457,6 +6465,12 @@
       "type": "substitution",
       "posted_at": "2026-09-19T11:56:03.263970+00:00",
       "tweet_id": "2101279146261512445"
+    },
+    {
+      "key": "goal:48:53:1",
+      "type": "goal",
+      "posted_at": "2026-09-19T12:22:44.435039+00:00",
+      "tweet_id": "2101285862067572860"
     }
   ],
   "live_queue": []
