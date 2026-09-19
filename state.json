@@ -7071,24 +7071,15 @@
       "type": "yellow_card",
       "posted_at": "2026-09-19T15:57:56.311596+00:00",
       "tweet_id": "2101340018392367519"
+    },
+    {
+      "key": "sub:43:232",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:58:39.582023+00:00",
+      "tweet_id": "2101340199368200522"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:43:232",
-      "story": {
-        "type": "substitution",
-        "key": "sub:43:232",
-        "player": "O'Brien",
-        "team": "EVE",
-        "home": "EVE",
-        "away": "IPS",
-        "score": "2-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_43_232.png",
-      "caption": "\ud83d\udd04 SUB! 90' O'Brien (EVE) is on. EVE 2-0 IPS.\n\nImpact sub, or too little too late? #FPL #PremierLeague #FPLTwitter #FantasyFootball #EVE\n\nFollowing along? Hit follow so you don't miss what's next."
-    },
     {
       "key": "sub:43:247",
       "story": {
