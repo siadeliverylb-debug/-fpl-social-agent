@@ -6788,23 +6788,13 @@
       "type": "yellow_card",
       "posted_at": "2026-09-19T14:52:29.880755+00:00",
       "tweet_id": "2101323549742924282"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "yellow_card:46:457:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:46:457:1",
-        "player": "J.Murphy",
-        "team": "NEW",
-        "home": "NEW",
-        "away": "HUL",
-        "minute": 45,
-        "score": "2-0"
-      },
-      "image_path": "assets/generated/live_yellow_card_46_457_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 45' J.Murphy (NEW) is booked. NEW 2-0 HUL.\n\nDoes this change your captaincy call? #FPL #FantasyPremierLeague #FPLTwitter #FPLFamily #NEW\n\nFollow for the next one."
+      "type": "yellow_card",
+      "posted_at": "2026-09-19T14:53:13.074800+00:00",
+      "tweet_id": "2101323730290950226"
     }
-  ]
+  ],
+  "live_queue": []
 }
