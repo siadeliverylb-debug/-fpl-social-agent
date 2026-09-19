@@ -7253,34 +7253,13 @@
       "type": "full_time",
       "posted_at": "2026-09-19T18:28:13.380095+00:00",
       "tweet_id": "2101377838872134094"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "bonus:47",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:47",
-        "home": "NFO",
-        "away": "COV",
-        "score": "1-1",
-        "players": [
-          {
-            "name": "Rushworth",
-            "points": 3
-          },
-          {
-            "name": "Dasilva",
-            "points": 3
-          },
-          {
-            "name": "Thomas",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_47.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: NFO 1-1 COV.\nRushworth +3, Dasilva +3, Thomas +1.\n\n#FPL #FPLTips #FPLFamily #FPLTwitter #NFOvCOV\n\nFollowing along? Hit follow so you don't miss what's next."
+      "type": "bonus_points",
+      "posted_at": "2026-09-19T18:28:56.308821+00:00",
+      "tweet_id": "2101378018891735049"
     }
-  ]
+  ],
+  "live_queue": []
 }
