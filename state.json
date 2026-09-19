@@ -7126,22 +7126,15 @@
       "type": "bonus_points",
       "posted_at": "2026-09-19T16:17:37.666755+00:00",
       "tweet_id": "2101344973329416576"
+    },
+    {
+      "key": "fulltime:46",
+      "type": "full_time",
+      "posted_at": "2026-09-19T16:18:20.849560+00:00",
+      "tweet_id": "2101345154619846705"
     }
   ],
   "live_queue": [
-    {
-      "key": "fulltime:46",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:46",
-        "home": "NEW",
-        "away": "HUL",
-        "score": "2-1",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_46.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): NEW 2-1 HUL.\n\nBonus points still to be confirmed. #FPL #FPLCommunity #FPLTips #FantasyFootball\n\nFollow for the next one."
-    },
     {
       "key": "bonus:46",
       "story": {
