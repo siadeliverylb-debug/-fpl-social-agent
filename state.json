@@ -6696,24 +6696,13 @@
       "type": "goal",
       "posted_at": "2026-09-19T14:16:52.508075+00:00",
       "tweet_id": "2101314584946876498"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "goal:46:449:1",
-      "story": {
-        "type": "goal",
-        "key": "goal:46:449:1",
-        "player": "Hall",
-        "team": "NEW",
-        "home": "NEW",
-        "away": "HUL",
-        "minute": 16,
-        "score": "2-0",
-        "assisted_by": "Barnes"
-      },
-      "image_path": "assets/generated/live_goal_46_449_1.png",
-      "caption": "\u26bd GOAL! 16' Hall (NEW)! Assisted by Barnes. NEW 2-0 HUL.\n\nNailed on captain material? #FPL #FPLTwitter #FPLFamily #FantasyPremierLeague #NEW\n\nMore like this on the feed -- give us a follow."
+      "type": "goal",
+      "posted_at": "2026-09-19T14:17:35.618369+00:00",
+      "tweet_id": "2101314765968851184"
     }
-  ]
+  ],
+  "live_queue": []
 }
