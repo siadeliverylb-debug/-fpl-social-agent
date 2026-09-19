@@ -7108,24 +7108,15 @@
       "type": "yellow_card",
       "posted_at": "2026-09-19T16:05:38.254553+00:00",
       "tweet_id": "2101341956047876527"
+    },
+    {
+      "key": "yellow_card:42:13:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-19T16:06:21.104458+00:00",
+      "tweet_id": "2101342135832494219"
     }
   ],
   "live_queue": [
-    {
-      "key": "yellow_card:42:13:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:42:13:1",
-        "player": "Rice",
-        "team": "ARS",
-        "home": "BHA",
-        "away": "ARS",
-        "minute": 90,
-        "score": "3-0"
-      },
-      "image_path": "assets/generated/live_yellow_card_42_13_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Rice (ARS) is booked. BHA 3-0 ARS.\n\nWorth keeping an eye on for next week. #FPL #FantasyFootball #PremierLeague #FPLTwitter #ARS\n\nFollowing along? Hit follow so you don't miss what's next."
-    },
     {
       "key": "fulltime:43",
       "story": {
