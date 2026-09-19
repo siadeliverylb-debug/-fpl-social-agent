@@ -7180,23 +7180,13 @@
       "type": "substitution",
       "posted_at": "2026-09-19T17:48:35.808376+00:00",
       "tweet_id": "2101367866519933119"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "yellow_card:47:167:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:47:167:1",
-        "player": "Delap",
-        "team": "NFO",
-        "home": "NFO",
-        "away": "COV",
-        "minute": 60,
-        "score": "0-1"
-      },
-      "image_path": "assets/generated/live_yellow_card_47_167_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 60' Delap (NFO) is booked. NFO 0-1 COV.\n\nDoes this change your captaincy call? #FPL #FPLCommunity #FPLFamily #PremierLeague #NFO\n\nTurn on notifications to catch these as they land."
+      "type": "yellow_card",
+      "posted_at": "2026-09-19T17:49:19.429362+00:00",
+      "tweet_id": "2101368049215418847"
     }
-  ]
+  ],
+  "live_queue": []
 }
