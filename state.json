@@ -6489,25 +6489,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T12:47:17.665665+00:00",
       "tweet_id": "2101292041300746407"
+    },
+    {
+      "key": "sub:48:512",
+      "type": "substitution",
+      "posted_at": "2026-09-19T12:48:00.374094+00:00",
+      "tweet_id": "2101292220393382110"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:48:512",
-      "story": {
-        "type": "substitution",
-        "key": "sub:48:512",
-        "player": "Kudus",
-        "team": "TOT",
-        "home": "TOT",
-        "away": "AVL",
-        "score": "0-1",
-        "minute": 52,
-        "subbed_out": "Fernandes"
-      },
-      "image_path": "assets/generated/live_sub_48_512.png",
-      "caption": "\ud83d\udd04 SUB! 52' Kudus (TOT) is on. Off: Fernandes. TOT 0-1 AVL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #FantasyFootball #FantasyPremierLeague #TOT\n\nFollow @fantasycoachai so you don't miss the next update."
-    },
     {
       "key": "yellow_card:48:166:1",
       "story": {
