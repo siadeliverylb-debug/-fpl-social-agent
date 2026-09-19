@@ -6983,24 +6983,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:44:45.817079+00:00",
       "tweet_id": "2101336702769856985"
+    },
+    {
+      "key": "sub:43:242",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:45:28.516013+00:00",
+      "tweet_id": "2101336881908641969"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:43:242",
-      "story": {
-        "type": "substitution",
-        "key": "sub:43:242",
-        "player": "George",
-        "team": "EVE",
-        "home": "EVE",
-        "away": "IPS",
-        "score": "2-0",
-        "minute": 84
-      },
-      "image_path": "assets/generated/live_sub_43_242.png",
-      "caption": "\ud83d\udd04 SUB! 84' George (EVE) is on. EVE 2-0 IPS.\n\nImpact sub, or too little too late? #FPL #FantasyFootball #FPLTips #FPLCommunity #EVE\n\nFollow @fantasycoachai so you don't miss the next update."
-    },
     {
       "key": "sub:43:320",
       "story": {
