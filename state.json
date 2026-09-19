@@ -6540,24 +6540,13 @@
       "type": "substitution",
       "posted_at": "2026-09-19T13:16:41.283216+00:00",
       "tweet_id": "2101299438404743322"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "goal:48:41:1",
-      "story": {
-        "type": "goal",
-        "key": "goal:48:41:1",
-        "player": "Buend\u00eda",
-        "team": "AVL",
-        "home": "TOT",
-        "away": "AVL",
-        "minute": 81,
-        "score": "1-3",
-        "assisted_by": "McGinn"
-      },
-      "image_path": "assets/generated/live_goal_48_41_1.png",
-      "caption": "\u26bd GOAL! 81' Buend\u00eda (AVL)! Assisted by McGinn. TOT 1-3 AVL.\n\nNailed on captain material? #FPL #FantasyFootball #FPLCommunity #PremierLeague #AVL\n\nMore like this on the feed -- give us a follow."
+      "type": "goal",
+      "posted_at": "2026-09-19T13:17:24.100785+00:00",
+      "tweet_id": "2101299617455345712"
     }
-  ]
+  ],
+  "live_queue": []
 }
