@@ -5805,7 +5805,8 @@
       "48:41:goals_scored": 1,
       "48:45:assists": 1,
       "48:519:goals_scored": 1,
-      "48:512:assists": 1
+      "48:512:assists": 1,
+      "48:32:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6563,25 +6564,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T13:26:54.811748+00:00",
       "tweet_id": "2101302011857961328"
+    },
+    {
+      "key": "sub:48:56",
+      "type": "substitution",
+      "posted_at": "2026-09-19T13:27:38.174904+00:00",
+      "tweet_id": "2101302193618129172"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:48:56",
-      "story": {
-        "type": "substitution",
-        "key": "sub:48:56",
-        "player": "Abraham",
-        "team": "AVL",
-        "home": "TOT",
-        "away": "AVL",
-        "score": "1-3",
-        "minute": 90,
-        "subbed_out": "Kamara"
-      },
-      "image_path": "assets/generated/live_sub_48_56.png",
-      "caption": "\ud83d\udd04 SUB! 90' Abraham (AVL) is on. Off: Kamara. TOT 1-3 AVL.\n\nDoes this open a chance for a start next week? #FPL #FPLTwitter #FPLTips #FantasyPremierLeague #AVL\n\nFollow @fantasycoachai so you don't miss the next update."
-    },
     {
       "key": "sub:48:519",
       "story": {
@@ -6644,6 +6635,21 @@
       },
       "image_path": "assets/generated/live_goal_48_519_1.png",
       "caption": "\u26bd GOAL! 90' Gallagher (TOT)! Assisted by Kudus. TOT 2-3 AVL.\n\nHave him in your team? #FPL #FantasyPremierLeague #PremierLeague #FPLFamily #TOT\n\nFollow @fantasycoachai so you don't miss the next update."
+    },
+    {
+      "key": "yellow_card:48:32:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:48:32:1",
+        "player": "Cash",
+        "team": "AVL",
+        "home": "TOT",
+        "away": "AVL",
+        "minute": 90,
+        "score": "2-3"
+      },
+      "image_path": "assets/generated/live_yellow_card_48_32_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Cash (AVL) is booked. TOT 2-3 AVL.\n\nWorth keeping an eye on for next week. #FPL #FPLFamily #FPLTips #FPLTwitter #AVL\n\nFollow @fantasycoachai so you don't miss the next update."
     }
   ]
 }
