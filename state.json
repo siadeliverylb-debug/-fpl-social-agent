@@ -5836,7 +5836,8 @@
       "46:617:goals_scored": 1,
       "46:286:assists": 1,
       "42:328:yellow_cards": 1,
-      "42:115:yellow_cards": 1
+      "42:115:yellow_cards": 1,
+      "43:640:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -7030,25 +7031,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:51:47.244032+00:00",
       "tweet_id": "2101338470463541480"
+    },
+    {
+      "key": "sub:42:120",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:52:29.769471+00:00",
+      "tweet_id": "2101338648868196677"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:42:120",
-      "story": {
-        "type": "substitution",
-        "key": "sub:42:120",
-        "player": "Svoboda",
-        "team": "BHA",
-        "home": "BHA",
-        "away": "ARS",
-        "score": "3-0",
-        "minute": 90,
-        "subbed_out": "Gomez"
-      },
-      "image_path": "assets/generated/live_sub_42_120.png",
-      "caption": "\ud83d\udd04 SUB! 90' Svoboda (BHA) is on. Off: Gomez. BHA 3-0 ARS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #PremierLeague #FPLCommunity #FantasyPremierLeague #BHA\n\nFollow @fantasycoachai so you don't miss the next update."
-    },
     {
       "key": "sub:42:126",
       "story": {
@@ -7155,6 +7146,21 @@
       },
       "image_path": "assets/generated/live_sub_43_247.png",
       "caption": "\ud83d\udd04 SUB! 90' Hackney (EVE) is on. EVE 2-0 IPS.\n\nImpact sub, or too little too late? #FPL #PremierLeague #FPLFamily #FPLTips #EVE\n\nFollow @fantasycoachai so you don't miss the next update."
+    },
+    {
+      "key": "yellow_card:43:640:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:43:640:1",
+        "player": "Flemming",
+        "team": "IPS",
+        "home": "EVE",
+        "away": "IPS",
+        "minute": 90,
+        "score": "2-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_43_640_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Flemming (IPS) is booked. EVE 2-0 IPS.\n\nDoes this change your captaincy call? #FPL #FPLTips #FPLTwitter #FPLFamily #IPS\n\nMore like this on the feed -- give us a follow."
     }
   ]
 }
