@@ -7132,34 +7132,13 @@
       "type": "full_time",
       "posted_at": "2026-09-19T16:18:20.849560+00:00",
       "tweet_id": "2101345154619846705"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "bonus:46",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:46",
-        "home": "NEW",
-        "away": "HUL",
-        "score": "2-1",
-        "players": [
-          {
-            "name": "Willock",
-            "points": 3
-          },
-          {
-            "name": "Hall",
-            "points": 2
-          },
-          {
-            "name": "Barnes",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_46.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: NEW 2-1 HUL.\nWillock +3, Hall +2, Barnes +1.\n\n#FPL #PremierLeague #FPLCommunity #FPLFamily #NEWvHUL\n\nFollowing along? Hit follow so you don't miss what's next."
+      "type": "bonus_points",
+      "posted_at": "2026-09-19T16:19:04.544945+00:00",
+      "tweet_id": "2101345337894109365"
     }
-  ]
+  ],
+  "live_queue": []
 }
