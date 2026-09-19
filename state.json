@@ -6279,7 +6279,8 @@
       "42:15": true,
       "42:557": true,
       "42:113": true,
-      "42:138": true
+      "42:138": true,
+      "42:12": true
     },
     "bonus_posted": {
       "31": true,
@@ -6970,24 +6971,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:43:20.720249+00:00",
       "tweet_id": "2101336345830433060"
+    },
+    {
+      "key": "sub:42:125",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:44:03.235782+00:00",
+      "tweet_id": "2101336524268744744"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:42:125",
-      "story": {
-        "type": "substitution",
-        "key": "sub:42:125",
-        "player": "Georginio",
-        "team": "BHA",
-        "home": "BHA",
-        "away": "ARS",
-        "score": "3-0",
-        "minute": 76
-      },
-      "image_path": "assets/generated/live_sub_42_125.png",
-      "caption": "\ud83d\udd04 SUB! 76' Georginio (BHA) is on. BHA 3-0 ARS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FPLTwitter #FPLCommunity #BHA\n\nMore like this on the feed -- give us a follow."
-    },
     {
       "key": "sub:42:20",
       "story": {
