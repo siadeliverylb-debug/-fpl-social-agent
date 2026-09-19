@@ -6588,25 +6588,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T13:29:47.153170+00:00",
       "tweet_id": "2101302734700019769"
+    },
+    {
+      "key": "goal:48:519:1",
+      "type": "goal",
+      "posted_at": "2026-09-19T13:30:30.247217+00:00",
+      "tweet_id": "2101302915533283761"
     }
   ],
   "live_queue": [
-    {
-      "key": "goal:48:519:1",
-      "story": {
-        "type": "goal",
-        "key": "goal:48:519:1",
-        "player": "Gallagher",
-        "team": "TOT",
-        "home": "TOT",
-        "away": "AVL",
-        "minute": 90,
-        "score": "2-3",
-        "assisted_by": "Kudus"
-      },
-      "image_path": "assets/generated/live_goal_48_519_1.png",
-      "caption": "\u26bd GOAL! 90' Gallagher (TOT)! Assisted by Kudus. TOT 2-3 AVL.\n\nHave him in your team? #FPL #FantasyPremierLeague #PremierLeague #FPLFamily #TOT\n\nFollow @fantasycoachai so you don't miss the next update."
-    },
     {
       "key": "yellow_card:48:32:1",
       "story": {
