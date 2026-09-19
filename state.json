@@ -5660,15 +5660,15 @@
         "finished_provisional": true
       },
       "42": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "43": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "46": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "47": {
@@ -6621,7 +6621,36 @@
       "type": "bonus_points",
       "posted_at": "2026-09-19T13:37:10.410681+00:00",
       "tweet_id": "2101304593858892151"
+    },
+    {
+      "key": "kickoff:42",
+      "type": "kickoff",
+      "posted_at": "2026-09-19T14:03:39.586286+00:00",
+      "tweet_id": "2101311259279040742"
     }
   ],
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "kickoff:43",
+      "story": {
+        "type": "kickoff",
+        "key": "kickoff:43",
+        "home": "EVE",
+        "away": "IPS"
+      },
+      "image_path": "assets/generated/live_kickoff_43.png",
+      "caption": "\u26bd KICK-OFF: EVE vs IPS.\n\nAny of your players out there? #FPL #FantasyFootball #FPLTips #FPLCommunity\n\nFollowing along? Hit follow so you don't miss what's next."
+    },
+    {
+      "key": "kickoff:46",
+      "story": {
+        "type": "kickoff",
+        "key": "kickoff:46",
+        "home": "NEW",
+        "away": "HUL"
+      },
+      "image_path": "assets/generated/live_kickoff_46.png",
+      "caption": "\u26bd KICK-OFF: NEW vs HUL.\n\nAny of your players out there? #FPL #FPLFamily #FantasyPremierLeague #FPLTips\n\nFollowing along? Hit follow so you don't miss what's next."
+    }
+  ]
 }
