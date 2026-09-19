@@ -5841,7 +5841,8 @@
       "43:244:yellow_cards": 1,
       "42:13:yellow_cards": 1,
       "47:176:goals_scored": 1,
-      "47:110:assists": 1
+      "47:110:assists": 1,
+      "47:167:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6121,7 +6122,8 @@
       "46:559": true,
       "43:232": true,
       "43:247": true,
-      "47:190": true
+      "47:190": true,
+      "47:491": true
     },
     "subs_baselined": {
       "31": true,
@@ -7172,7 +7174,29 @@
       "type": "goal_update",
       "posted_at": "2026-09-19T17:44:49.399203+00:00",
       "tweet_id": "2101366916925251593"
+    },
+    {
+      "key": "sub:47:491",
+      "type": "substitution",
+      "posted_at": "2026-09-19T17:48:35.808376+00:00",
+      "tweet_id": "2101367866519933119"
     }
   ],
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "yellow_card:47:167:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:47:167:1",
+        "player": "Delap",
+        "team": "NFO",
+        "home": "NFO",
+        "away": "COV",
+        "minute": 60,
+        "score": "0-1"
+      },
+      "image_path": "assets/generated/live_yellow_card_47_167_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 60' Delap (NFO) is booked. NFO 0-1 COV.\n\nDoes this change your captaincy call? #FPL #FPLCommunity #FPLFamily #PremierLeague #NFO\n\nTurn on notifications to catch these as they land."
+    }
+  ]
 }
