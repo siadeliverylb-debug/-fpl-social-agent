@@ -5820,7 +5820,13 @@
       "42:138:yellow_cards": 1,
       "43:315:yellow_cards": 1,
       "46:286:yellow_cards": 1,
-      "43:233:yellow_cards": 1
+      "43:233:yellow_cards": 1,
+      "42:138:goals_scored": 1,
+      "42:127:assists": 1,
+      "42:113:yellow_cards": 1,
+      "46:572:penalties_saved": 1,
+      "46:464:penalties_missed": 1,
+      "46:572:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -5866,10 +5872,10 @@
         "score": "1-0"
       },
       "42:h": {
-        "player": "Gro\u00df",
+        "player": "Kostoulas",
         "team": "BHA",
-        "assisted_by": "Kostoulas",
-        "score": "1-0"
+        "assisted_by": "Gomez",
+        "score": "2-0"
       }
     },
     "posted_score": {
@@ -5922,7 +5928,7 @@
         3
       ],
       "42": [
-        1,
+        2,
         0
       ],
       "43": [
@@ -6751,7 +6757,75 @@
       "type": "yellow_card",
       "posted_at": "2026-09-19T14:45:19.906575+00:00",
       "tweet_id": "2101321746519658774"
+    },
+    {
+      "key": "yellow_card:42:113:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-19T14:49:36.366994+00:00",
+      "tweet_id": "2101322821909528804"
     }
   ],
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "goal:42:138:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:42:138:1",
+        "player": "Kostoulas",
+        "team": "BHA",
+        "home": "BHA",
+        "away": "ARS",
+        "minute": 45,
+        "score": "2-0",
+        "assisted_by": "Gomez"
+      },
+      "image_path": "assets/generated/live_goal_42_138_1.png",
+      "caption": "\u26bd GOAL! 45' Kostoulas (BHA)! Assisted by Gomez. BHA 2-0 ARS.\n\nWho's benefiting from that in FPL? #FPL #FPLTips #FPLTwitter #FPLCommunity #BHA\n\nFollow @fantasycoachai so you don't miss the next update."
+    },
+    {
+      "key": "penalty_save:46:572:1",
+      "story": {
+        "type": "penalty_save",
+        "key": "penalty_save:46:572:1",
+        "player": "Tzolakis",
+        "team": "HUL",
+        "home": "NEW",
+        "away": "HUL",
+        "minute": 45,
+        "score": "2-0"
+      },
+      "image_path": "assets/generated/live_penalty_save_46_572_1.png",
+      "caption": "\ud83e\udde4 PENALTY SAVED! 45' Tzolakis (HUL) with the stop! NEW 2-0 HUL.\n\nGoalkeeper picks looking good right now. #FPL #FPLTwitter #FantasyPremierLeague #FantasyFootball #HUL\n\nFollow @fantasycoachai so you don't miss the next update."
+    },
+    {
+      "key": "penalty_miss:46:464:1",
+      "story": {
+        "type": "penalty_miss",
+        "key": "penalty_miss:46:464:1",
+        "player": "Wissa",
+        "team": "NEW",
+        "home": "NEW",
+        "away": "HUL",
+        "minute": 45,
+        "score": "2-0"
+      },
+      "image_path": "assets/generated/live_penalty_miss_46_464_1.png",
+      "caption": "\u274c PENALTY MISSED! 45' Wissa (NEW) can't convert! NEW 2-0 HUL.\n\nDoes this change the pen-taker pecking order? #FPL #FPLTips #PremierLeague #FantasyPremierLeague #NEW\n\nTurn on notifications to catch these as they land."
+    },
+    {
+      "key": "yellow_card:46:572:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:46:572:1",
+        "player": "Tzolakis",
+        "team": "HUL",
+        "home": "NEW",
+        "away": "HUL",
+        "minute": 45,
+        "score": "2-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_46_572_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 45' Tzolakis (HUL) is booked. NEW 2-0 HUL.\n\nDoes this change your captaincy call? #FPL #FPLTips #FantasyPremierLeague #FPLCommunity #HUL\n\nTurn on notifications to catch these as they land."
+    }
+  ]
 }
