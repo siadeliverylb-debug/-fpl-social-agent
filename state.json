@@ -6989,24 +6989,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:45:28.516013+00:00",
       "tweet_id": "2101336881908641969"
+    },
+    {
+      "key": "sub:43:320",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:46:11.167516+00:00",
+      "tweet_id": "2101337060481085918"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:43:320",
-      "story": {
-        "type": "substitution",
-        "key": "sub:43:320",
-        "player": "Akpom",
-        "team": "IPS",
-        "home": "EVE",
-        "away": "IPS",
-        "score": "2-0",
-        "minute": 84
-      },
-      "image_path": "assets/generated/live_sub_43_320.png",
-      "caption": "\ud83d\udd04 SUB! 84' Akpom (IPS) is on. EVE 2-0 IPS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTwitter #FPLTips #FPLFamily #IPS\n\nTurn on notifications to catch these as they land."
-    },
     {
       "key": "sub:43:640",
       "story": {
