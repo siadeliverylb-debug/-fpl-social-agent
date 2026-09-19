@@ -6977,24 +6977,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:44:03.235782+00:00",
       "tweet_id": "2101336524268744744"
+    },
+    {
+      "key": "sub:42:20",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:44:45.817079+00:00",
+      "tweet_id": "2101336702769856985"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:42:20",
-      "story": {
-        "type": "substitution",
-        "key": "sub:42:20",
-        "player": "Dowman",
-        "team": "ARS",
-        "home": "BHA",
-        "away": "ARS",
-        "score": "3-0",
-        "minute": 82
-      },
-      "image_path": "assets/generated/live_sub_42_20.png",
-      "caption": "\ud83d\udd04 SUB! 82' Dowman (ARS) is on. BHA 3-0 ARS.\n\nImpact sub, or too little too late? #FPL #FPLFamily #FPLTips #FPLTwitter #ARS\n\nFollow @fantasycoachai so you don't miss the next update."
-    },
     {
       "key": "sub:43:242",
       "story": {
