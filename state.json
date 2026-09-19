@@ -5811,7 +5811,7 @@
       "48:502:assists": 1,
       "46:460:goals_scored": 1,
       "46:453:assists": 2,
-      "43:249:goals_scored": 1,
+      "43:249:goals_scored": 2,
       "43:229:assists": 1,
       "46:449:goals_scored": 1,
       "42:124:goals_scored": 1,
@@ -5828,7 +5828,9 @@
       "46:464:penalties_missed": 1,
       "46:572:yellow_cards": 1,
       "46:457:yellow_cards": 1,
-      "46:282:yellow_cards": 1
+      "46:282:yellow_cards": 1,
+      "42:639:goals_scored": 1,
+      "42:124:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -5870,14 +5872,14 @@
       "43:h": {
         "player": "Barry",
         "team": "EVE",
-        "assisted_by": "Tarkowski",
-        "score": "1-0"
+        "assisted_by": null,
+        "score": "2-0"
       },
       "42:h": {
-        "player": "Kostoulas",
+        "player": "Andr\u00e9s",
         "team": "BHA",
-        "assisted_by": "Gomez",
-        "score": "2-0"
+        "assisted_by": "Gro\u00df",
+        "score": "3-0"
       }
     },
     "posted_score": {
@@ -5930,11 +5932,11 @@
         3
       ],
       "42": [
-        2,
+        3,
         0
       ],
       "43": [
-        1,
+        2,
         0
       ],
       "46": [
@@ -6824,23 +6826,45 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:16:26.117293+00:00",
       "tweet_id": "2101329573887541491"
+    },
+    {
+      "key": "yellow_card:46:282:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-19T15:17:08.988592+00:00",
+      "tweet_id": "2101329753684705353"
     }
   ],
   "live_queue": [
     {
-      "key": "yellow_card:46:282:1",
+      "key": "goal:42:639:1",
       "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:46:282:1",
-        "player": "Giles",
-        "team": "HUL",
-        "home": "NEW",
-        "away": "HUL",
-        "minute": 53,
+        "type": "goal",
+        "key": "goal:42:639:1",
+        "player": "Andr\u00e9s",
+        "team": "BHA",
+        "home": "BHA",
+        "away": "ARS",
+        "minute": 57,
+        "score": "3-0",
+        "assisted_by": "Gro\u00df"
+      },
+      "image_path": "assets/generated/live_goal_42_639_1.png",
+      "caption": "\u26bd GOAL! 57' Andr\u00e9s (BHA)! Assisted by Gro\u00df. BHA 3-0 ARS.\n\nHave him in your team? #FPL #FPLTwitter #FPLTips #FPLFamily #BHA\n\nFollow @fantasycoachai so you don't miss the next update."
+    },
+    {
+      "key": "goal:43:249:2",
+      "story": {
+        "type": "goal",
+        "key": "goal:43:249:2",
+        "player": "Barry",
+        "team": "EVE",
+        "home": "EVE",
+        "away": "IPS",
+        "minute": 58,
         "score": "2-0"
       },
-      "image_path": "assets/generated/live_yellow_card_46_282_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 53' Giles (HUL) is booked. NEW 2-0 HUL.\n\nRisk of a ban building here. #FPL #FantasyFootball #FPLTips #FPLCommunity #HUL\n\nTurn on notifications to catch these as they land."
+      "image_path": "assets/generated/live_goal_43_249_2.png",
+      "caption": "\u26bd GOAL! 58' Barry (EVE)! EVE 2-0 IPS.\n\nWho's benefiting from that in FPL? #FPL #FPLFamily #FPLTwitter #FPLTips #EVE\n\nFollow @fantasycoachai so you don't miss the next update."
     }
   ]
 }
