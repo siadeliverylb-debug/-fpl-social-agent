@@ -5656,7 +5656,7 @@
         "finished_provisional": true
       },
       "48": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "42": {
@@ -6443,6 +6443,12 @@
       "type": "substitution",
       "posted_at": "2026-09-18T21:22:05.750000+00:00",
       "tweet_id": "2101059207285883160"
+    },
+    {
+      "key": "kickoff:48",
+      "type": "kickoff",
+      "posted_at": "2026-09-19T11:34:32.242703+00:00",
+      "tweet_id": "2101273731360293364"
     }
   ],
   "live_queue": []
