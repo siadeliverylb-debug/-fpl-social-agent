@@ -6883,24 +6883,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:28:35.535680+00:00",
       "tweet_id": "2101332633410269219"
+    },
+    {
+      "key": "red_card:43:315:1",
+      "type": "red_card",
+      "posted_at": "2026-09-19T15:29:18.515532+00:00",
+      "tweet_id": "2101332813584928999"
     }
   ],
   "live_queue": [
-    {
-      "key": "red_card:43:315:1",
-      "story": {
-        "type": "red_card",
-        "key": "red_card:43:315:1",
-        "player": "Fatawu",
-        "team": "IPS",
-        "home": "EVE",
-        "away": "IPS",
-        "minute": 68,
-        "score": "2-0"
-      },
-      "image_path": "assets/generated/live_red_card_43_315_1.png",
-      "caption": "\ud83d\udfe5 RED CARD! 68' Fatawu (IPS) is sent off! EVE 2-0 IPS.\n\nThat's a missed fixture (or more) coming up. #FPL #FPLTwitter #FPLTips #PremierLeague #IPS\n\nFollow for the next one."
-    },
     {
       "key": "sub:46:617",
       "story": {
