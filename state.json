@@ -5306,29 +5306,7 @@
     3,
     4
   ],
-  "pending": [
-    {
-      "key": "injury_batch:170",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:170",
-        "injuries": [
-          {
-            "pid": "170",
-            "player": "Emegha",
-            "team": "CHE",
-            "status": "injured",
-            "news": "Hamstring injury - Expected back 10 Oct",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_170.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Emegha (CHE) - injured: \"Hamstring injury - Expected back 10 Oct\"\n\nRisk it, or play it safe this week? #FPL #FantasyPremierLeague #FPLCommunity #FPLTwitter",
-      "created_at": "2026-09-18T19:33:10.742737+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5384,7 +5362,8 @@
     "injury_batch:29,36,34",
     "injury_batch:448",
     "deadline:5:2h",
-    "injury_batch:142"
+    "injury_batch:142",
+    "injury_batch:170"
   ],
   "post_log": [
     {
@@ -5622,6 +5601,12 @@
       "type": "status_change",
       "posted_at": "2026-09-18T18:28:46.579196+00:00",
       "tweet_id": "2101015590034874839"
+    },
+    {
+      "key": "injury_batch:170",
+      "type": "injury_batch",
+      "posted_at": "2026-09-19T00:31:17.113476+00:00",
+      "tweet_id": "2101106818554658844"
     }
   ],
   "live": {
