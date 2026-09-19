@@ -6839,24 +6839,15 @@
       "type": "goal",
       "posted_at": "2026-09-19T15:17:51.658147+00:00",
       "tweet_id": "2101329932659966101"
+    },
+    {
+      "key": "goal:43:249:2",
+      "type": "goal",
+      "posted_at": "2026-09-19T15:18:34.204549+00:00",
+      "tweet_id": "2101330110934593677"
     }
   ],
   "live_queue": [
-    {
-      "key": "goal:43:249:2",
-      "story": {
-        "type": "goal",
-        "key": "goal:43:249:2",
-        "player": "Barry",
-        "team": "EVE",
-        "home": "EVE",
-        "away": "IPS",
-        "minute": 58,
-        "score": "2-0"
-      },
-      "image_path": "assets/generated/live_goal_43_249_2.png",
-      "caption": "\u26bd GOAL! 58' Barry (EVE)! EVE 2-0 IPS.\n\nWho's benefiting from that in FPL? #FPL #FPLFamily #FPLTwitter #FPLTips #EVE\n\nFollow @fantasycoachai so you don't miss the next update."
-    },
     {
       "key": "goalupdate:assist:43:236:1",
       "story": {
