@@ -6615,34 +6615,13 @@
       "type": "full_time",
       "posted_at": "2026-09-19T13:36:27.632591+00:00",
       "tweet_id": "2101304414430708081"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "bonus:48",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:48",
-        "home": "TOT",
-        "away": "AVL",
-        "score": "3-3",
-        "players": [
-          {
-            "name": "Buend\u00eda",
-            "points": 3
-          },
-          {
-            "name": "Manzambi",
-            "points": 2
-          },
-          {
-            "name": "N.Jackson",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_48.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: TOT 3-3 AVL.\nBuend\u00eda +3, Manzambi +2, N.Jackson +1.\n\n#FPL #FPLTips #FPLCommunity #FantasyFootball #TOTvAVL\n\nFollow for the next one."
+      "type": "bonus_points",
+      "posted_at": "2026-09-19T13:37:10.410681+00:00",
+      "tweet_id": "2101304593858892151"
     }
-  ]
+  ],
+  "live_queue": []
 }
