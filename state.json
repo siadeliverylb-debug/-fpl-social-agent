@@ -5669,7 +5669,7 @@
       },
       "46": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       },
       "47": {
         "started": false,
@@ -6310,7 +6310,8 @@
       "41": true,
       "48": true,
       "42": true,
-      "43": true
+      "43": true,
+      "46": true
     }
   },
   "live_post_log": [
@@ -7083,24 +7084,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:59:23.070346+00:00",
       "tweet_id": "2101340382122385438"
+    },
+    {
+      "key": "yellow_card:43:640:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-19T16:03:29.849410+00:00",
+      "tweet_id": "2101341417532699063"
     }
   ],
   "live_queue": [
-    {
-      "key": "yellow_card:43:640:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:43:640:1",
-        "player": "Flemming",
-        "team": "IPS",
-        "home": "EVE",
-        "away": "IPS",
-        "minute": 90,
-        "score": "2-0"
-      },
-      "image_path": "assets/generated/live_yellow_card_43_640_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Flemming (IPS) is booked. EVE 2-0 IPS.\n\nDoes this change your captaincy call? #FPL #FPLTips #FPLTwitter #FPLFamily #IPS\n\nMore like this on the feed -- give us a follow."
-    },
     {
       "key": "fulltime:42",
       "story": {
@@ -7208,6 +7200,45 @@
       },
       "image_path": "assets/generated/live_bonus_43.png",
       "caption": "\ud83c\udf81 BONUS POINTS confirmed: EVE 2-0 IPS.\nTarkowski +3, Maitland-Niles +2, Pickford +1.\n\n#FPL #FantasyPremierLeague #FPLCommunity #FPLTwitter #EVEvIPS\n\nFollow @fantasycoachai so you don't miss the next update."
+    },
+    {
+      "key": "fulltime:46",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:46",
+        "home": "NEW",
+        "away": "HUL",
+        "score": "2-1",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_46.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): NEW 2-1 HUL.\n\nBonus points still to be confirmed. #FPL #FPLCommunity #FPLTips #FantasyFootball\n\nFollow for the next one."
+    },
+    {
+      "key": "bonus:46",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:46",
+        "home": "NEW",
+        "away": "HUL",
+        "score": "2-1",
+        "players": [
+          {
+            "name": "Willock",
+            "points": 3
+          },
+          {
+            "name": "Hall",
+            "points": 2
+          },
+          {
+            "name": "Barnes",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_46.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: NEW 2-1 HUL.\nWillock +3, Hall +2, Barnes +1.\n\n#FPL #PremierLeague #FPLCommunity #FPLFamily #NEWvHUL\n\nFollowing along? Hit follow so you don't miss what's next."
     }
   ]
 }
