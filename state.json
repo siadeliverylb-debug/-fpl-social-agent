@@ -7120,35 +7120,15 @@
       "type": "full_time",
       "posted_at": "2026-09-19T16:07:04.052343+00:00",
       "tweet_id": "2101342315935883306"
+    },
+    {
+      "key": "bonus:43",
+      "type": "bonus_points",
+      "posted_at": "2026-09-19T16:17:37.666755+00:00",
+      "tweet_id": "2101344973329416576"
     }
   ],
   "live_queue": [
-    {
-      "key": "bonus:43",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:43",
-        "home": "EVE",
-        "away": "IPS",
-        "score": "2-0",
-        "players": [
-          {
-            "name": "Tarkowski",
-            "points": 3
-          },
-          {
-            "name": "Maitland-Niles",
-            "points": 2
-          },
-          {
-            "name": "Pickford",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_43.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: EVE 2-0 IPS.\nTarkowski +3, Maitland-Niles +2, Pickford +1.\n\n#FPL #FantasyPremierLeague #FPLCommunity #FPLTwitter #EVEvIPS\n\nFollow @fantasycoachai so you don't miss the next update."
-    },
     {
       "key": "fulltime:46",
       "story": {
