@@ -5673,7 +5673,7 @@
       },
       "47": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       },
       "49": {
         "started": false,
@@ -5843,7 +5843,8 @@
       "47:176:goals_scored": 1,
       "47:110:assists": 1,
       "47:167:yellow_cards": 1,
-      "47:491:goals_scored": 1
+      "47:491:goals_scored": 1,
+      "47:474:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6134,7 +6135,8 @@
       "47:195": true,
       "47:490": true,
       "47:478": true,
-      "47:488": true
+      "47:488": true,
+      "47:179": true
     },
     "subs_baselined": {
       "31": true,
@@ -6339,7 +6341,8 @@
       "48": true,
       "42": true,
       "43": true,
-      "46": true
+      "46": true,
+      "47": true
     }
   },
   "live_post_log": [
@@ -7232,7 +7235,68 @@
       "type": "goal",
       "posted_at": "2026-09-19T18:14:57.592500+00:00",
       "tweet_id": "2101374500453351489"
+    },
+    {
+      "key": "sub:47:179",
+      "type": "substitution",
+      "posted_at": "2026-09-19T18:26:47.230072+00:00",
+      "tweet_id": "2101377477532959071"
     }
   ],
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "yellow_card:47:474:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:47:474:1",
+        "player": "Jair Cunha",
+        "team": "NFO",
+        "home": "NFO",
+        "away": "COV",
+        "minute": 90,
+        "score": "1-1"
+      },
+      "image_path": "assets/generated/live_yellow_card_47_474_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Jair Cunha (NFO) is booked. NFO 1-1 COV.\n\nDoes this change your captaincy call? #FPL #FPLCommunity #FPLTips #FantasyFootball #NFO\n\nMore like this on the feed -- give us a follow."
+    },
+    {
+      "key": "fulltime:47",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:47",
+        "home": "NFO",
+        "away": "COV",
+        "score": "1-1",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_47.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): NFO 1-1 COV.\n\nHow did your FPL assets do? #FPL #FPLFamily #FantasyFootball #FantasyPremierLeague\n\nTurn on notifications to catch these as they land."
+    },
+    {
+      "key": "bonus:47",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:47",
+        "home": "NFO",
+        "away": "COV",
+        "score": "1-1",
+        "players": [
+          {
+            "name": "Rushworth",
+            "points": 3
+          },
+          {
+            "name": "Dasilva",
+            "points": 3
+          },
+          {
+            "name": "Thomas",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_47.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: NFO 1-1 COV.\nRushworth +3, Dasilva +3, Thomas +1.\n\n#FPL #FPLTips #FPLFamily #FPLTwitter #NFOvCOV\n\nFollowing along? Hit follow so you don't miss what's next."
+    }
+  ]
 }
