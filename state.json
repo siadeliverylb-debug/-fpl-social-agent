@@ -5799,7 +5799,9 @@
       "48:47:assists": 1,
       "48:112:yellow_cards": 1,
       "48:166:yellow_cards": 1,
-      "48:512:goals_scored": 1
+      "48:512:goals_scored": 1,
+      "48:166:goals_scored": 1,
+      "48:53:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -5821,10 +5823,10 @@
         "score": "3-0"
       },
       "48:a": {
-        "player": "Manzambi",
+        "player": "N.Jackson",
         "team": "AVL",
-        "assisted_by": "Kamara",
-        "score": "0-1"
+        "assisted_by": "Manzambi",
+        "score": "1-2"
       },
       "48:h": {
         "player": "Kudus",
@@ -5880,7 +5882,7 @@
       ],
       "48": [
         1,
-        1
+        2
       ],
       "42": [
         0,
@@ -6014,7 +6016,8 @@
       "41:662": true,
       "48:522": true,
       "48:32": true,
-      "48:512": true
+      "48:512": true,
+      "48:515": true
     },
     "subs_baselined": {
       "31": true,
@@ -6514,7 +6517,30 @@
       "type": "goal",
       "posted_at": "2026-09-19T12:55:31.047212+00:00",
       "tweet_id": "2101294110816813345"
+    },
+    {
+      "key": "sub:48:515",
+      "type": "substitution",
+      "posted_at": "2026-09-19T13:03:37.152236+00:00",
+      "tweet_id": "2101296149529309584"
     }
   ],
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "goal:48:166:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:48:166:1",
+        "player": "N.Jackson",
+        "team": "AVL",
+        "home": "TOT",
+        "away": "AVL",
+        "minute": 68,
+        "score": "1-2",
+        "assisted_by": "Manzambi"
+      },
+      "image_path": "assets/generated/live_goal_48_166_1.png",
+      "caption": "\u26bd GOAL! 68' N.Jackson (AVL)! Assisted by Manzambi. TOT 1-2 AVL.\n\nWho's benefiting from that in FPL? #FPL #FantasyFootball #PremierLeague #FPLCommunity #AVL\n\nFollowing along? Hit follow so you don't miss what's next."
+    }
+  ]
 }
