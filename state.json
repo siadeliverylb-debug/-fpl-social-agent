@@ -6077,7 +6077,8 @@
       "42:17": true,
       "42:19": true,
       "43:245": true,
-      "43:318": true
+      "43:318": true,
+      "46:617": true
     },
     "subs_baselined": {
       "31": true,
@@ -6864,25 +6865,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:26:26.822056+00:00",
       "tweet_id": "2101332093523644540"
+    },
+    {
+      "key": "sub:42:19",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:27:09.925321+00:00",
+      "tweet_id": "2101332274281390123"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:42:19",
-      "story": {
-        "type": "substitution",
-        "key": "sub:42:19",
-        "player": "Zubimendi",
-        "team": "ARS",
-        "home": "BHA",
-        "away": "ARS",
-        "score": "3-0",
-        "minute": 67,
-        "subbed_out": "Bruno G."
-      },
-      "image_path": "assets/generated/live_sub_42_19.png",
-      "caption": "\ud83d\udd04 SUB! 67' Zubimendi (ARS) is on. Off: Bruno G.. BHA 3-0 ARS.\n\nImpact sub, or too little too late? #FPL #FPLFamily #FPLTips #FantasyFootball #ARS\n\nMore like this on the feed -- give us a follow."
-    },
     {
       "key": "sub:43:245",
       "story": {
@@ -6927,6 +6918,21 @@
       },
       "image_path": "assets/generated/live_red_card_43_315_1.png",
       "caption": "\ud83d\udfe5 RED CARD! 68' Fatawu (IPS) is sent off! EVE 2-0 IPS.\n\nThat's a missed fixture (or more) coming up. #FPL #FPLTwitter #FPLTips #PremierLeague #IPS\n\nFollow for the next one."
+    },
+    {
+      "key": "sub:46:617",
+      "story": {
+        "type": "substitution",
+        "key": "sub:46:617",
+        "player": "Cho",
+        "team": "HUL",
+        "home": "NEW",
+        "away": "HUL",
+        "score": "2-0",
+        "minute": 64
+      },
+      "image_path": "assets/generated/live_sub_46_617.png",
+      "caption": "\ud83d\udd04 SUB! 64' Cho (HUL) is on. NEW 2-0 HUL.\n\nDoes this open a chance for a start next week? #FPL #FPLFamily #FPLTwitter #FPLCommunity #HUL\n\nFollow @fantasycoachai so you don't miss the next update."
     }
   ]
 }
