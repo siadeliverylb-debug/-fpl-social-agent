@@ -6495,23 +6495,13 @@
       "type": "substitution",
       "posted_at": "2026-09-19T12:48:00.374094+00:00",
       "tweet_id": "2101292220393382110"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "yellow_card:48:166:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:48:166:1",
-        "player": "N.Jackson",
-        "team": "AVL",
-        "home": "TOT",
-        "away": "AVL",
-        "minute": 52,
-        "score": "0-1"
-      },
-      "image_path": "assets/generated/live_yellow_card_48_166_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 52' N.Jackson (AVL) is booked. TOT 0-1 AVL.\n\nDoes this change your captaincy call? #FPL #PremierLeague #FPLFamily #FPLTips #AVL\n\nFollow @fantasycoachai so you don't miss the next update."
+      "type": "yellow_card",
+      "posted_at": "2026-09-19T12:48:42.966245+00:00",
+      "tweet_id": "2101292399087473059"
     }
-  ]
+  ],
+  "live_queue": []
 }
