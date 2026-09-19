@@ -6653,24 +6653,13 @@
       "type": "goal",
       "posted_at": "2026-09-19T14:05:50.073470+00:00",
       "tweet_id": "2101311806610575431"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "goalupdate:assist:46:453:1",
-      "story": {
-        "type": "goal_update",
-        "key": "goalupdate:assist:46:453:1",
-        "player": "Willock",
-        "team": "NEW",
-        "assisted_by": "Barnes",
-        "home": "NEW",
-        "away": "HUL",
-        "score": "1-0",
-        "minute": 3
-      },
-      "image_path": "assets/generated/live_goalupdate_assist_46_453_1.png",
-      "caption": "\ud83d\udcdd UPDATE (3'): Willock's goal (NEW) was assisted by Barnes! NEW 1-0 HUL.\n\n#FPL #FantasyPremierLeague #FPLTips #FPLTwitter #NEW\n\nFollow for the next one."
+      "type": "goal_update",
+      "posted_at": "2026-09-19T14:06:33.163121+00:00",
+      "tweet_id": "2101311987427004619"
     }
-  ]
+  ],
+  "live_queue": []
 }
