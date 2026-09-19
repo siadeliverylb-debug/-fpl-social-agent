@@ -6943,24 +6943,15 @@
       "type": "yellow_card",
       "posted_at": "2026-09-19T15:37:32.102733+00:00",
       "tweet_id": "2101334883700294056"
+    },
+    {
+      "key": "sub:43:562",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:38:14.708316+00:00",
+      "tweet_id": "2101335062234984568"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:43:562",
-      "story": {
-        "type": "substitution",
-        "key": "sub:43:562",
-        "player": "Maeda",
-        "team": "IPS",
-        "home": "EVE",
-        "away": "IPS",
-        "score": "2-0",
-        "minute": 76
-      },
-      "image_path": "assets/generated/live_sub_43_562.png",
-      "caption": "\ud83d\udd04 SUB! 76' Maeda (IPS) is on. EVE 2-0 IPS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTips #FPLFamily #FantasyPremierLeague #IPS\n\nFollow @fantasycoachai so you don't miss the next update."
-    },
     {
       "key": "sub:43:571",
       "story": {
