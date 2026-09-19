@@ -5809,7 +5809,8 @@
       "48:32:yellow_cards": 1,
       "48:112:goals_scored": 1,
       "48:502:assists": 1,
-      "46:460:goals_scored": 1
+      "46:460:goals_scored": 1,
+      "46:453:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -5845,7 +5846,7 @@
       "46:h": {
         "player": "Willock",
         "team": "NEW",
-        "assisted_by": null,
+        "assisted_by": "Barnes",
         "score": "1-0"
       }
     },
@@ -6640,20 +6641,15 @@
       "type": "kickoff",
       "posted_at": "2026-09-19T14:04:23.940059+00:00",
       "tweet_id": "2101311445296357819"
+    },
+    {
+      "key": "kickoff:46",
+      "type": "kickoff",
+      "posted_at": "2026-09-19T14:05:07.039105+00:00",
+      "tweet_id": "2101311626230296787"
     }
   ],
   "live_queue": [
-    {
-      "key": "kickoff:46",
-      "story": {
-        "type": "kickoff",
-        "key": "kickoff:46",
-        "home": "NEW",
-        "away": "HUL"
-      },
-      "image_path": "assets/generated/live_kickoff_46.png",
-      "caption": "\u26bd KICK-OFF: NEW vs HUL.\n\nAny of your players out there? #FPL #FPLFamily #FantasyPremierLeague #FPLTips\n\nFollowing along? Hit follow so you don't miss what's next."
-    },
     {
       "key": "goal:46:460:1",
       "story": {
@@ -6668,6 +6664,22 @@
       },
       "image_path": "assets/generated/live_goal_46_460_1.png",
       "caption": "\u26bd GOAL! 3' Willock (NEW)! NEW 1-0 HUL.\n\nWho's benefiting from that in FPL? #FPL #FantasyFootball #FPLTips #FPLCommunity #NEW\n\nFollowing along? Hit follow so you don't miss what's next."
+    },
+    {
+      "key": "goalupdate:assist:46:453:1",
+      "story": {
+        "type": "goal_update",
+        "key": "goalupdate:assist:46:453:1",
+        "player": "Willock",
+        "team": "NEW",
+        "assisted_by": "Barnes",
+        "home": "NEW",
+        "away": "HUL",
+        "score": "1-0",
+        "minute": 3
+      },
+      "image_path": "assets/generated/live_goalupdate_assist_46_453_1.png",
+      "caption": "\ud83d\udcdd UPDATE (3'): Willock's goal (NEW) was assisted by Barnes! NEW 1-0 HUL.\n\n#FPL #FantasyPremierLeague #FPLTips #FPLTwitter #NEW\n\nFollow for the next one."
     }
   ]
 }
