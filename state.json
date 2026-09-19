@@ -6871,24 +6871,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:27:09.925321+00:00",
       "tweet_id": "2101332274281390123"
+    },
+    {
+      "key": "sub:43:245",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:27:52.747974+00:00",
+      "tweet_id": "2101332453915070575"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:43:245",
-      "story": {
-        "type": "substitution",
-        "key": "sub:43:245",
-        "player": "Dibling",
-        "team": "EVE",
-        "home": "EVE",
-        "away": "IPS",
-        "score": "2-0",
-        "minute": 68
-      },
-      "image_path": "assets/generated/live_sub_43_245.png",
-      "caption": "\ud83d\udd04 SUB! 68' Dibling (EVE) is on. EVE 2-0 IPS.\n\nDoes this open a chance for a start next week? #FPL #FantasyFootball #FPLTips #FPLTwitter #EVE\n\nFollow @fantasycoachai so you don't miss the next update."
-    },
     {
       "key": "sub:43:318",
       "story": {
