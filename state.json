@@ -6101,7 +6101,11 @@
       "43:640": true,
       "46:461": true,
       "46:589": true,
-      "46:637": true
+      "46:637": true,
+      "42:120": true,
+      "42:126": true,
+      "42:605": true,
+      "46:340": true
     },
     "subs_baselined": {
       "31": true,
@@ -6280,7 +6284,10 @@
       "42:557": true,
       "42:113": true,
       "42:138": true,
-      "42:12": true
+      "42:12": true,
+      "42:127": true,
+      "42:328": true,
+      "42:639": true
     },
     "bonus_posted": {
       "31": true,
@@ -6995,24 +7002,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:46:11.167516+00:00",
       "tweet_id": "2101337060481085918"
+    },
+    {
+      "key": "sub:43:640",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:49:38.968455+00:00",
+      "tweet_id": "2101337932455989641"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:43:640",
-      "story": {
-        "type": "substitution",
-        "key": "sub:43:640",
-        "player": "Flemming",
-        "team": "IPS",
-        "home": "EVE",
-        "away": "IPS",
-        "score": "2-0",
-        "minute": 84
-      },
-      "image_path": "assets/generated/live_sub_43_640.png",
-      "caption": "\ud83d\udd04 SUB! 84' Flemming (IPS) is on. EVE 2-0 IPS.\n\nWorth watching for a late returns. #FPL #FPLFamily #FPLTips #FPLTwitter #IPS\n\nFollow for the next one."
-    },
     {
       "key": "sub:46:461",
       "story": {
@@ -7057,6 +7055,69 @@
       },
       "image_path": "assets/generated/live_sub_46_637.png",
       "caption": "\ud83d\udd04 SUB! 80' Vaz (HUL) is on. NEW 2-1 HUL.\n\nWorth watching for a late returns. #FPL #FPLCommunity #PremierLeague #FPLTips #HUL\n\nFollow for the next one."
+    },
+    {
+      "key": "sub:42:120",
+      "story": {
+        "type": "substitution",
+        "key": "sub:42:120",
+        "player": "Svoboda",
+        "team": "BHA",
+        "home": "BHA",
+        "away": "ARS",
+        "score": "3-0",
+        "minute": 90,
+        "subbed_out": "Gomez"
+      },
+      "image_path": "assets/generated/live_sub_42_120.png",
+      "caption": "\ud83d\udd04 SUB! 90' Svoboda (BHA) is on. Off: Gomez. BHA 3-0 ARS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #PremierLeague #FPLCommunity #FantasyPremierLeague #BHA\n\nFollow @fantasycoachai so you don't miss the next update."
+    },
+    {
+      "key": "sub:42:126",
+      "story": {
+        "type": "substitution",
+        "key": "sub:42:126",
+        "player": "O'Riley",
+        "team": "BHA",
+        "home": "BHA",
+        "away": "ARS",
+        "score": "3-0",
+        "minute": 90,
+        "subbed_out": "Struijk"
+      },
+      "image_path": "assets/generated/live_sub_42_126.png",
+      "caption": "\ud83d\udd04 SUB! 90' O'Riley (BHA) is on. Off: Struijk. BHA 3-0 ARS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #PremierLeague #FPLFamily #FPLCommunity #BHA\n\nMore like this on the feed -- give us a follow."
+    },
+    {
+      "key": "sub:42:605",
+      "story": {
+        "type": "substitution",
+        "key": "sub:42:605",
+        "player": "Yalcouy\u00e9",
+        "team": "BHA",
+        "home": "BHA",
+        "away": "ARS",
+        "score": "3-0",
+        "minute": 90,
+        "subbed_out": "Andr\u00e9s"
+      },
+      "image_path": "assets/generated/live_sub_42_605.png",
+      "caption": "\ud83d\udd04 SUB! 90' Yalcouy\u00e9 (BHA) is on. Off: Andr\u00e9s. BHA 3-0 ARS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyFootball #FPLCommunity #FPLTips #BHA\n\nFollow for the next one."
+    },
+    {
+      "key": "sub:46:340",
+      "story": {
+        "type": "substitution",
+        "key": "sub:46:340",
+        "player": "Gelhardt",
+        "team": "HUL",
+        "home": "NEW",
+        "away": "HUL",
+        "score": "2-1",
+        "minute": 87
+      },
+      "image_path": "assets/generated/live_sub_46_340.png",
+      "caption": "\ud83d\udd04 SUB! 87' Gelhardt (HUL) is on. NEW 2-1 HUL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #FantasyFootball #FPLFamily #HUL\n\nFollow for the next one."
     }
   ]
 }
