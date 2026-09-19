@@ -5827,7 +5827,8 @@
       "46:572:penalties_saved": 1,
       "46:464:penalties_missed": 1,
       "46:572:yellow_cards": 1,
-      "46:457:yellow_cards": 1
+      "46:457:yellow_cards": 1,
+      "46:282:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6067,7 +6068,8 @@
       "48:56": true,
       "48:519": true,
       "48:520": true,
-      "48:631": true
+      "48:631": true,
+      "46:240": true
     },
     "subs_baselined": {
       "31": true,
@@ -6217,7 +6219,29 @@
       "46:462": true,
       "46:464": true,
       "46:567": true,
-      "46:634": true
+      "46:634": true,
+      "43:209": true,
+      "43:226": true,
+      "43:229": true,
+      "43:230": true,
+      "43:233": true,
+      "43:236": true,
+      "43:238": true,
+      "43:239": true,
+      "43:244": true,
+      "43:249": true,
+      "43:649": true,
+      "43:259": true,
+      "43:267": true,
+      "43:300": true,
+      "43:304": true,
+      "43:305": true,
+      "43:313": true,
+      "43:315": true,
+      "43:316": true,
+      "43:591": true,
+      "43:592": true,
+      "43:619": true
     },
     "bonus_posted": {
       "31": true,
@@ -6794,7 +6818,29 @@
       "type": "yellow_card",
       "posted_at": "2026-09-19T14:53:13.074800+00:00",
       "tweet_id": "2101323730290950226"
+    },
+    {
+      "key": "sub:46:240",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:16:26.117293+00:00",
+      "tweet_id": "2101329573887541491"
     }
   ],
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "yellow_card:46:282:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:46:282:1",
+        "player": "Giles",
+        "team": "HUL",
+        "home": "NEW",
+        "away": "HUL",
+        "minute": 53,
+        "score": "2-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_46_282_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 53' Giles (HUL) is booked. NEW 2-0 HUL.\n\nRisk of a ban building here. #FPL #FantasyFootball #FPLTips #FPLCommunity #HUL\n\nTurn on notifications to catch these as they land."
+    }
+  ]
 }
