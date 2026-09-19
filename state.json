@@ -5834,7 +5834,8 @@
       "43:236:assists": 1,
       "43:315:red_cards": 1,
       "46:617:goals_scored": 1,
-      "46:286:assists": 1
+      "46:286:assists": 1,
+      "42:328:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6087,7 +6088,11 @@
       "43:245": true,
       "43:318": true,
       "46:617": true,
-      "46:446": true
+      "46:446": true,
+      "42:14": true,
+      "42:25": true,
+      "43:562": true,
+      "43:571": true
     },
     "subs_baselined": {
       "31": true,
@@ -6904,24 +6909,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:30:01.627045+00:00",
       "tweet_id": "2101332994393063572"
+    },
+    {
+      "key": "sub:46:446",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:34:41.034875+00:00",
+      "tweet_id": "2101334165996109948"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:46:446",
-      "story": {
-        "type": "substitution",
-        "key": "sub:46:446",
-        "player": "Sch\u00e4r",
-        "team": "NEW",
-        "home": "NEW",
-        "away": "HUL",
-        "score": "2-0",
-        "minute": 68
-      },
-      "image_path": "assets/generated/live_sub_46_446.png",
-      "caption": "\ud83d\udd04 SUB! 68' Sch\u00e4r (NEW) is on. NEW 2-0 HUL.\n\nDoes this open a chance for a start next week? #FPL #FantasyFootball #PremierLeague #FPLTwitter #NEW\n\nFollowing along? Hit follow so you don't miss what's next."
-    },
     {
       "key": "goal:46:617:1",
       "story": {
@@ -6937,6 +6933,81 @@
       },
       "image_path": "assets/generated/live_goal_46_617_1.png",
       "caption": "\u26bd GOAL! 68' Cho (HUL)! Assisted by Belloumi. NEW 2-1 HUL.\n\nHave him in your team? #FPL #FantasyFootball #FPLCommunity #FantasyPremierLeague #HUL\n\nFollow @fantasycoachai so you don't miss the next update."
+    },
+    {
+      "key": "sub:42:14",
+      "story": {
+        "type": "substitution",
+        "key": "sub:42:14",
+        "player": "Eze",
+        "team": "ARS",
+        "home": "BHA",
+        "away": "ARS",
+        "score": "3-0",
+        "minute": 74
+      },
+      "image_path": "assets/generated/live_sub_42_14.png",
+      "caption": "\ud83d\udd04 SUB! 74' Eze (ARS) is on. BHA 3-0 ARS.\n\nDoes this open a chance for a start next week? #FPL #FPLFamily #PremierLeague #FPLTips #ARS\n\nFollow @fantasycoachai so you don't miss the next update."
+    },
+    {
+      "key": "sub:42:25",
+      "story": {
+        "type": "substitution",
+        "key": "sub:42:25",
+        "player": "Gy\u00f6keres",
+        "team": "ARS",
+        "home": "BHA",
+        "away": "ARS",
+        "score": "3-0",
+        "minute": 74
+      },
+      "image_path": "assets/generated/live_sub_42_25.png",
+      "caption": "\ud83d\udd04 SUB! 74' Gy\u00f6keres (ARS) is on. BHA 3-0 ARS.\n\nWorth watching for a late returns. #FPL #FantasyFootball #FPLTwitter #FPLCommunity #ARS\n\nMore like this on the feed -- give us a follow."
+    },
+    {
+      "key": "yellow_card:42:328:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:42:328:1",
+        "player": "Struijk",
+        "team": "BHA",
+        "home": "BHA",
+        "away": "ARS",
+        "minute": 74,
+        "score": "3-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_42_328_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 74' Struijk (BHA) is booked. BHA 3-0 ARS.\n\nWorth keeping an eye on for next week. #FPL #FPLTips #FantasyFootball #FPLCommunity #BHA\n\nTurn on notifications to catch these as they land."
+    },
+    {
+      "key": "sub:43:562",
+      "story": {
+        "type": "substitution",
+        "key": "sub:43:562",
+        "player": "Maeda",
+        "team": "IPS",
+        "home": "EVE",
+        "away": "IPS",
+        "score": "2-0",
+        "minute": 76
+      },
+      "image_path": "assets/generated/live_sub_43_562.png",
+      "caption": "\ud83d\udd04 SUB! 76' Maeda (IPS) is on. EVE 2-0 IPS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTips #FPLFamily #FantasyPremierLeague #IPS\n\nFollow @fantasycoachai so you don't miss the next update."
+    },
+    {
+      "key": "sub:43:571",
+      "story": {
+        "type": "substitution",
+        "key": "sub:43:571",
+        "player": "Florentino",
+        "team": "IPS",
+        "home": "EVE",
+        "away": "IPS",
+        "score": "2-0",
+        "minute": 76
+      },
+      "image_path": "assets/generated/live_sub_43_571.png",
+      "caption": "\ud83d\udd04 SUB! 76' Florentino (IPS) is on. EVE 2-0 IPS.\n\nImpact sub, or too little too late? #FPL #FPLCommunity #FantasyPremierLeague #FantasyFootball #IPS\n\nFollowing along? Hit follow so you don't miss what's next."
     }
   ]
 }
