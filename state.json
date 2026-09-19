@@ -6937,24 +6937,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:36:49.289925+00:00",
       "tweet_id": "2101334703882035554"
+    },
+    {
+      "key": "yellow_card:42:328:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-19T15:37:32.102733+00:00",
+      "tweet_id": "2101334883700294056"
     }
   ],
   "live_queue": [
-    {
-      "key": "yellow_card:42:328:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:42:328:1",
-        "player": "Struijk",
-        "team": "BHA",
-        "home": "BHA",
-        "away": "ARS",
-        "minute": 74,
-        "score": "3-0"
-      },
-      "image_path": "assets/generated/live_yellow_card_42_328_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 74' Struijk (BHA) is booked. BHA 3-0 ARS.\n\nWorth keeping an eye on for next week. #FPL #FPLTips #FantasyFootball #FPLCommunity #BHA\n\nTurn on notifications to catch these as they land."
-    },
     {
       "key": "sub:43:562",
       "story": {
