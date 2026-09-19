@@ -7024,24 +7024,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:51:04.719606+00:00",
       "tweet_id": "2101338292125900875"
+    },
+    {
+      "key": "sub:46:637",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:51:47.244032+00:00",
+      "tweet_id": "2101338470463541480"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:46:637",
-      "story": {
-        "type": "substitution",
-        "key": "sub:46:637",
-        "player": "Vaz",
-        "team": "HUL",
-        "home": "NEW",
-        "away": "HUL",
-        "score": "2-1",
-        "minute": 80
-      },
-      "image_path": "assets/generated/live_sub_46_637.png",
-      "caption": "\ud83d\udd04 SUB! 80' Vaz (HUL) is on. NEW 2-1 HUL.\n\nWorth watching for a late returns. #FPL #FPLCommunity #PremierLeague #FPLTips #HUL\n\nFollow for the next one."
-    },
     {
       "key": "sub:42:120",
       "story": {
