@@ -5813,7 +5813,10 @@
       "46:453:assists": 2,
       "43:249:goals_scored": 1,
       "43:229:assists": 1,
-      "46:449:goals_scored": 1
+      "46:449:goals_scored": 1,
+      "42:124:goals_scored": 1,
+      "42:138:assists": 1,
+      "46:289:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -5856,6 +5859,12 @@
         "player": "Barry",
         "team": "EVE",
         "assisted_by": "Tarkowski",
+        "score": "1-0"
+      },
+      "42:h": {
+        "player": "Gro\u00df",
+        "team": "BHA",
+        "assisted_by": "Kostoulas",
         "score": "1-0"
       }
     },
@@ -5909,7 +5918,7 @@
         3
       ],
       "42": [
-        0,
+        1,
         0
       ],
       "43": [
@@ -6702,7 +6711,29 @@
       "type": "goal",
       "posted_at": "2026-09-19T14:17:35.618369+00:00",
       "tweet_id": "2101314765968851184"
+    },
+    {
+      "key": "goal:42:124:1",
+      "type": "goal",
+      "posted_at": "2026-09-19T14:35:18.917912+00:00",
+      "tweet_id": "2101319225465766065"
     }
   ],
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "yellow_card:46:289:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:46:289:1",
+        "player": "Crooks",
+        "team": "HUL",
+        "home": "NEW",
+        "away": "HUL",
+        "minute": 32,
+        "score": "2-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_46_289_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 32' Crooks (HUL) is booked. NEW 2-0 HUL.\n\nWorth keeping an eye on for next week. #FPL #PremierLeague #FPLTwitter #FantasyFootball #HUL\n\nMore like this on the feed -- give us a follow."
+    }
+  ]
 }
