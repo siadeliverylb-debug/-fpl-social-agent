@@ -5832,7 +5832,9 @@
       "42:639:goals_scored": 1,
       "42:124:assists": 1,
       "43:236:assists": 1,
-      "43:315:red_cards": 1
+      "43:315:red_cards": 1,
+      "46:617:goals_scored": 1,
+      "46:286:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -5882,6 +5884,12 @@
         "team": "BHA",
         "assisted_by": "Gro\u00df",
         "score": "3-0"
+      },
+      "46:a": {
+        "player": "Cho",
+        "team": "HUL",
+        "assisted_by": "Belloumi",
+        "score": "2-1"
       }
     },
     "posted_score": {
@@ -5943,7 +5951,7 @@
       ],
       "46": [
         2,
-        0
+        1
       ],
       "47": [
         0,
@@ -6078,7 +6086,8 @@
       "42:19": true,
       "43:245": true,
       "43:318": true,
-      "46:617": true
+      "46:617": true,
+      "46:446": true
     },
     "subs_baselined": {
       "31": true,
@@ -6889,23 +6898,45 @@
       "type": "red_card",
       "posted_at": "2026-09-19T15:29:18.515532+00:00",
       "tweet_id": "2101332813584928999"
+    },
+    {
+      "key": "sub:46:617",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:30:01.627045+00:00",
+      "tweet_id": "2101332994393063572"
     }
   ],
   "live_queue": [
     {
-      "key": "sub:46:617",
+      "key": "sub:46:446",
       "story": {
         "type": "substitution",
-        "key": "sub:46:617",
+        "key": "sub:46:446",
+        "player": "Sch\u00e4r",
+        "team": "NEW",
+        "home": "NEW",
+        "away": "HUL",
+        "score": "2-0",
+        "minute": 68
+      },
+      "image_path": "assets/generated/live_sub_46_446.png",
+      "caption": "\ud83d\udd04 SUB! 68' Sch\u00e4r (NEW) is on. NEW 2-0 HUL.\n\nDoes this open a chance for a start next week? #FPL #FantasyFootball #PremierLeague #FPLTwitter #NEW\n\nFollowing along? Hit follow so you don't miss what's next."
+    },
+    {
+      "key": "goal:46:617:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:46:617:1",
         "player": "Cho",
         "team": "HUL",
         "home": "NEW",
         "away": "HUL",
-        "score": "2-0",
-        "minute": 64
+        "minute": 68,
+        "score": "2-1",
+        "assisted_by": "Belloumi"
       },
-      "image_path": "assets/generated/live_sub_46_617.png",
-      "caption": "\ud83d\udd04 SUB! 64' Cho (HUL) is on. NEW 2-0 HUL.\n\nDoes this open a chance for a start next week? #FPL #FPLFamily #FPLTwitter #FPLCommunity #HUL\n\nFollow @fantasycoachai so you don't miss the next update."
+      "image_path": "assets/generated/live_goal_46_617_1.png",
+      "caption": "\u26bd GOAL! 68' Cho (HUL)! Assisted by Belloumi. NEW 2-1 HUL.\n\nHave him in your team? #FPL #FantasyFootball #FPLCommunity #FantasyPremierLeague #HUL\n\nFollow @fantasycoachai so you don't miss the next update."
     }
   ]
 }
