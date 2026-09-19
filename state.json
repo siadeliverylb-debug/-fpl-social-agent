@@ -6523,24 +6523,13 @@
       "type": "substitution",
       "posted_at": "2026-09-19T13:03:37.152236+00:00",
       "tweet_id": "2101296149529309584"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "goal:48:166:1",
-      "story": {
-        "type": "goal",
-        "key": "goal:48:166:1",
-        "player": "N.Jackson",
-        "team": "AVL",
-        "home": "TOT",
-        "away": "AVL",
-        "minute": 68,
-        "score": "1-2",
-        "assisted_by": "Manzambi"
-      },
-      "image_path": "assets/generated/live_goal_48_166_1.png",
-      "caption": "\u26bd GOAL! 68' N.Jackson (AVL)! Assisted by Manzambi. TOT 1-2 AVL.\n\nWho's benefiting from that in FPL? #FPL #FantasyFootball #PremierLeague #FPLCommunity #AVL\n\nFollowing along? Hit follow so you don't miss what's next."
+      "type": "goal",
+      "posted_at": "2026-09-19T13:04:19.766631+00:00",
+      "tweet_id": "2101296328152170740"
     }
-  ]
+  ],
+  "live_queue": []
 }
