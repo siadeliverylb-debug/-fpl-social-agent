@@ -6582,24 +6582,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T13:29:04.127110+00:00",
       "tweet_id": "2101302554273685933"
+    },
+    {
+      "key": "sub:48:631",
+      "type": "substitution",
+      "posted_at": "2026-09-19T13:29:47.153170+00:00",
+      "tweet_id": "2101302734700019769"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:48:631",
-      "story": {
-        "type": "substitution",
-        "key": "sub:48:631",
-        "player": "Mbaye",
-        "team": "AVL",
-        "home": "TOT",
-        "away": "AVL",
-        "score": "1-3",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_48_631.png",
-      "caption": "\ud83d\udd04 SUB! 90' Mbaye (AVL) is on. TOT 1-3 AVL.\n\nWorth watching for a late returns. #FPL #FantasyFootball #PremierLeague #FPLCommunity #AVL\n\nTurn on notifications to catch these as they land."
-    },
     {
       "key": "goal:48:519:1",
       "story": {
