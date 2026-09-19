@@ -5842,7 +5842,8 @@
       "42:13:yellow_cards": 1,
       "47:176:goals_scored": 1,
       "47:110:assists": 1,
-      "47:167:yellow_cards": 1
+      "47:167:yellow_cards": 1,
+      "47:491:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -5904,6 +5905,12 @@
         "team": "COV",
         "assisted_by": "Rushworth",
         "score": "0-1"
+      },
+      "47:h": {
+        "player": "Igor Jesus",
+        "team": "NFO",
+        "assisted_by": null,
+        "score": "1-1"
       }
     },
     "posted_score": {
@@ -5968,7 +5975,7 @@
         1
       ],
       "47": [
-        0,
+        1,
         1
       ],
       "49": [
@@ -7219,6 +7226,12 @@
       "type": "substitution",
       "posted_at": "2026-09-19T18:14:14.726207+00:00",
       "tweet_id": "2101374321109196931"
+    },
+    {
+      "key": "goal:47:491:1",
+      "type": "goal",
+      "posted_at": "2026-09-19T18:14:57.592500+00:00",
+      "tweet_id": "2101374500453351489"
     }
   ],
   "live_queue": []
