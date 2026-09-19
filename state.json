@@ -6092,7 +6092,9 @@
       "42:14": true,
       "42:25": true,
       "43:562": true,
-      "43:571": true
+      "43:571": true,
+      "42:119": true,
+      "42:125": true
     },
     "subs_baselined": {
       "31": true,
@@ -6929,24 +6931,15 @@
       "type": "substitution",
       "posted_at": "2026-09-19T15:36:06.573692+00:00",
       "tweet_id": "2101334524743262339"
+    },
+    {
+      "key": "sub:42:25",
+      "type": "substitution",
+      "posted_at": "2026-09-19T15:36:49.289925+00:00",
+      "tweet_id": "2101334703882035554"
     }
   ],
   "live_queue": [
-    {
-      "key": "sub:42:25",
-      "story": {
-        "type": "substitution",
-        "key": "sub:42:25",
-        "player": "Gy\u00f6keres",
-        "team": "ARS",
-        "home": "BHA",
-        "away": "ARS",
-        "score": "3-0",
-        "minute": 74
-      },
-      "image_path": "assets/generated/live_sub_42_25.png",
-      "caption": "\ud83d\udd04 SUB! 74' Gy\u00f6keres (ARS) is on. BHA 3-0 ARS.\n\nWorth watching for a late returns. #FPL #FantasyFootball #FPLTwitter #FPLCommunity #ARS\n\nMore like this on the feed -- give us a follow."
-    },
     {
       "key": "yellow_card:42:328:1",
       "story": {
@@ -6991,6 +6984,36 @@
       },
       "image_path": "assets/generated/live_sub_43_571.png",
       "caption": "\ud83d\udd04 SUB! 76' Florentino (IPS) is on. EVE 2-0 IPS.\n\nImpact sub, or too little too late? #FPL #FPLCommunity #FantasyPremierLeague #FantasyFootball #IPS\n\nFollowing along? Hit follow so you don't miss what's next."
+    },
+    {
+      "key": "sub:42:119",
+      "story": {
+        "type": "substitution",
+        "key": "sub:42:119",
+        "player": "Costinha",
+        "team": "BHA",
+        "home": "BHA",
+        "away": "ARS",
+        "score": "3-0",
+        "minute": 76
+      },
+      "image_path": "assets/generated/live_sub_42_119.png",
+      "caption": "\ud83d\udd04 SUB! 76' Costinha (BHA) is on. BHA 3-0 ARS.\n\nImpact sub, or too little too late? #FPL #FantasyFootball #PremierLeague #FPLFamily #BHA\n\nFollow @fantasycoachai so you don't miss the next update."
+    },
+    {
+      "key": "sub:42:125",
+      "story": {
+        "type": "substitution",
+        "key": "sub:42:125",
+        "player": "Georginio",
+        "team": "BHA",
+        "home": "BHA",
+        "away": "ARS",
+        "score": "3-0",
+        "minute": 76
+      },
+      "image_path": "assets/generated/live_sub_42_125.png",
+      "caption": "\ud83d\udd04 SUB! 76' Georginio (BHA) is on. BHA 3-0 ARS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FPLTwitter #FPLCommunity #BHA\n\nMore like this on the feed -- give us a follow."
     }
   ]
 }
