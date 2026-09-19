@@ -5797,7 +5797,8 @@
       "41:100:goals_scored": 1,
       "48:53:goals_scored": 1,
       "48:47:assists": 1,
-      "48:112:yellow_cards": 1
+      "48:112:yellow_cards": 1,
+      "48:166:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6004,7 +6005,9 @@
       "41:100": true,
       "41:157": true,
       "41:662": true,
-      "48:522": true
+      "48:522": true,
+      "48:32": true,
+      "48:512": true
     },
     "subs_baselined": {
       "31": true,
@@ -6124,7 +6127,9 @@
       "41:96": true,
       "41:156": true,
       "41:568": true,
-      "48:499": true
+      "48:499": true,
+      "48:611": true,
+      "48:525": true
     },
     "bonus_posted": {
       "31": true,
@@ -6478,7 +6483,45 @@
       "type": "yellow_card",
       "posted_at": "2026-09-19T12:24:08.364838+00:00",
       "tweet_id": "2101286214078779683"
+    },
+    {
+      "key": "sub:48:32",
+      "type": "substitution",
+      "posted_at": "2026-09-19T12:47:17.665665+00:00",
+      "tweet_id": "2101292041300746407"
     }
   ],
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "sub:48:512",
+      "story": {
+        "type": "substitution",
+        "key": "sub:48:512",
+        "player": "Kudus",
+        "team": "TOT",
+        "home": "TOT",
+        "away": "AVL",
+        "score": "0-1",
+        "minute": 52,
+        "subbed_out": "Fernandes"
+      },
+      "image_path": "assets/generated/live_sub_48_512.png",
+      "caption": "\ud83d\udd04 SUB! 52' Kudus (TOT) is on. Off: Fernandes. TOT 0-1 AVL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #FantasyFootball #FantasyPremierLeague #TOT\n\nFollow @fantasycoachai so you don't miss the next update."
+    },
+    {
+      "key": "yellow_card:48:166:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:48:166:1",
+        "player": "N.Jackson",
+        "team": "AVL",
+        "home": "TOT",
+        "away": "AVL",
+        "minute": 52,
+        "score": "0-1"
+      },
+      "image_path": "assets/generated/live_yellow_card_48_166_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 52' N.Jackson (AVL) is booked. TOT 0-1 AVL.\n\nDoes this change your captaincy call? #FPL #PremierLeague #FPLFamily #FPLTips #AVL\n\nFollow @fantasycoachai so you don't miss the next update."
+    }
+  ]
 }
