@@ -6245,7 +6245,9 @@
       "44:213": true,
       "44:337": true,
       "44:343": true,
-      "45:646": true
+      "45:646": true,
+      "49:375": true,
+      "49:377": true
     },
     "subs_baselined": {
       "31": true,
@@ -7492,6 +7494,12 @@
       "type": "goal",
       "posted_at": "2026-09-20T14:31:33.200449+00:00",
       "tweet_id": "2101680666744107022"
+    },
+    {
+      "key": "sub:44:337",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:32:16.656138+00:00",
+      "tweet_id": "2101680848760115478"
     }
   ],
   "form_spotlight": {
@@ -7501,23 +7509,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:44:337",
-      "story": {
-        "type": "substitution",
-        "key": "sub:44:337",
-        "player": "Aaronson",
-        "team": "LEE",
-        "home": "LEE",
-        "away": "CRY",
-        "score": "0-0",
-        "minute": 71,
-        "subbed_out": "Bogle"
-      },
-      "image_path": "assets/generated/live_sub_44_337.png",
-      "caption": "\ud83d\udd04 SUB! 71' Aaronson (LEE) is on. Off: Bogle. LEE 0-0 CRY.\n\nImpact sub, or too little too late? #FPL #FPLTwitter #FPLCommunity #FPLFamily #LEE\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-09-20T14:31:31.740319+00:00"
-    },
     {
       "key": "sub:44:343",
       "story": {
@@ -7584,6 +7575,38 @@
       "image_path": "assets/generated/live_goal_45_552_3.png",
       "caption": "\u26bd GOAL! 58' Brobbey (SUN)! Assisted by N.Angulo. MCI 4-3 SUN.\n\nNailed on captain material? #FPL #PremierLeague #FantasyPremierLeague #FPLFamily #SUN\n\nFollow @fantasycoachai so you don't miss the next update.",
       "queued_at": "2026-09-20T14:31:31.995713+00:00"
+    },
+    {
+      "key": "sub:49:375",
+      "story": {
+        "type": "substitution",
+        "key": "sub:49:375",
+        "player": "Nyoni",
+        "team": "LIV",
+        "home": "BOU",
+        "away": "LIV",
+        "score": "0-1",
+        "minute": 73
+      },
+      "image_path": "assets/generated/live_sub_49_375.png",
+      "caption": "\ud83d\udd04 SUB! 73' Nyoni (LIV) is on. BOU 0-1 LIV.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #FantasyFootball #FantasyPremierLeague #LIV\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-09-20T14:32:15.408499+00:00"
+    },
+    {
+      "key": "sub:49:377",
+      "story": {
+        "type": "substitution",
+        "key": "sub:49:377",
+        "player": "Munoz",
+        "team": "LIV",
+        "home": "BOU",
+        "away": "LIV",
+        "score": "0-1",
+        "minute": 73
+      },
+      "image_path": "assets/generated/live_sub_49_377.png",
+      "caption": "\ud83d\udd04 SUB! 73' Munoz (LIV) is on. BOU 0-1 LIV.\n\nDoes this open a chance for a start next week? #FPL #FantasyPremierLeague #FPLTwitter #PremierLeague #LIV\n\nFollow for the next one.",
+      "queued_at": "2026-09-20T14:32:15.470228+00:00"
     }
   ]
 }
