@@ -6543,6 +6543,11 @@
         "value": 1,
         "since": "2026-09-20T17:17:11.177558+00:00",
         "minute": 89
+      },
+      "50:415:assists": {
+        "value": 1,
+        "since": "2026-09-20T17:17:54.447828+00:00",
+        "minute": 89
       }
     }
   },
@@ -7814,6 +7819,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T17:17:12.704493+00:00",
       "tweet_id": "2101722355999342843"
+    },
+    {
+      "key": "sub:50:271",
+      "type": "substitution",
+      "posted_at": "2026-09-20T17:17:55.349389+00:00",
+      "tweet_id": "2101722534978707856"
     }
   ],
   "form_spotlight": {
@@ -7823,23 +7834,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:50:271",
-      "story": {
-        "type": "substitution",
-        "key": "sub:50:271",
-        "player": "Muniz",
-        "team": "FUL",
-        "home": "FUL",
-        "away": "MUN",
-        "score": "1-0",
-        "minute": 89,
-        "subbed_out": "King"
-      },
-      "image_path": "assets/generated/live_sub_50_271.png",
-      "caption": "\ud83d\udd04 SUB! 89' Muniz (FUL) is on. Off: King. FUL 1-0 MUN.\n\nDoes this open a chance for a start next week? #FPL #FantasyFootball #FPLTips #FantasyPremierLeague #FUL\n\nFollow for the next one.",
-      "queued_at": "2026-09-20T17:17:11.318502+00:00"
-    },
     {
       "key": "sub:50:415",
       "story": {
