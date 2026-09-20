@@ -5963,12 +5963,13 @@
       "46:295:yellow_cards": 1,
       "45:612:yellow_cards": 1,
       "45:155:goals_scored": 1,
-      "45:552:goals_scored": 1,
+      "45:552:goals_scored": 2,
       "45:237:assists": 1,
       "45:542:assists": 1,
       "45:399:goals_scored": 1,
       "45:397:assists": 1,
-      "44:330:yellow_cards": 1
+      "44:330:yellow_cards": 1,
+      "45:541:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -6046,8 +6047,8 @@
       "45:a": {
         "player": "Brobbey",
         "team": "SUN",
-        "assisted_by": "E.Le F\u00e9e",
-        "score": "1-1"
+        "assisted_by": "Meunier",
+        "score": "2-2"
       }
     },
     "posted_score": {
@@ -6125,7 +6126,7 @@
       ],
       "45": [
         2,
-        1
+        2
       ],
       "50": [
         0,
@@ -6480,18 +6481,7 @@
       "46": true,
       "47": true
     },
-    "goal_pending": {
-      "45:552:goals_scored": {
-        "value": 2,
-        "since": "2026-09-20T13:39:05.449773+00:00",
-        "minute": 33
-      },
-      "45:541:assists": {
-        "value": 1,
-        "since": "2026-09-20T13:39:05.449793+00:00",
-        "minute": 33
-      }
-    }
+    "goal_pending": {}
   },
   "live_post_log": [
     {
@@ -7461,6 +7451,12 @@
       "type": "yellow_card",
       "posted_at": "2026-09-20T13:39:50.423925+00:00",
       "tweet_id": "2101667652573745586"
+    },
+    {
+      "key": "goal:45:552:2",
+      "type": "goal",
+      "posted_at": "2026-09-20T13:42:37.059531+00:00",
+      "tweet_id": "2101668351659393189"
     }
   ],
   "form_spotlight": {
