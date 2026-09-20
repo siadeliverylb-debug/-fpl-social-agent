@@ -7825,6 +7825,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T17:17:55.349389+00:00",
       "tweet_id": "2101722534978707856"
+    },
+    {
+      "key": "sub:50:415",
+      "type": "substitution",
+      "posted_at": "2026-09-20T17:18:37.965351+00:00",
+      "tweet_id": "2101722713756766574"
     }
   ],
   "form_spotlight": {
@@ -7834,23 +7840,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:50:415",
-      "story": {
-        "type": "substitution",
-        "key": "sub:50:415",
-        "player": "Dorgu",
-        "team": "MUN",
-        "home": "FUL",
-        "away": "MUN",
-        "score": "1-0",
-        "minute": 89,
-        "subbed_out": "Shaw"
-      },
-      "image_path": "assets/generated/live_sub_50_415.png",
-      "caption": "\ud83d\udd04 SUB! 89' Dorgu (MUN) is on. Off: Shaw. FUL 1-0 MUN.\n\nImpact sub, or too little too late? #FPL #FantasyFootball #FPLTwitter #FPLCommunity #MUN\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-09-20T17:17:11.381632+00:00"
-    },
     {
       "key": "sub:50:430",
       "story": {
