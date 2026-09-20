@@ -5932,7 +5932,8 @@
       "49:366:assists": 1,
       "44:210:yellow_cards": 1,
       "45:551:assists": 1,
-      "49:566:yellow_cards": 1
+      "49:566:yellow_cards": 1,
+      "44:211:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6255,7 +6256,8 @@
       "49:608": true,
       "49:381": true,
       "44:347": true,
-      "45:400": true
+      "45:400": true,
+      "49:371": true
     },
     "subs_baselined": {
       "31": true,
@@ -7545,6 +7547,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:40:40.167173+00:00",
       "tweet_id": "2101682960864858592"
+    },
+    {
+      "key": "sub:49:377",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:41:23.251585+00:00",
+      "tweet_id": "2101683141563838844"
     }
   ],
   "form_spotlight": {
@@ -7554,22 +7562,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:49:377",
-      "story": {
-        "type": "substitution",
-        "key": "sub:49:377",
-        "player": "Munoz",
-        "team": "LIV",
-        "home": "BOU",
-        "away": "LIV",
-        "score": "0-1",
-        "minute": 73
-      },
-      "image_path": "assets/generated/live_sub_49_377.png",
-      "caption": "\ud83d\udd04 SUB! 73' Munoz (LIV) is on. BOU 0-1 LIV.\n\nDoes this open a chance for a start next week? #FPL #FantasyPremierLeague #FPLTwitter #PremierLeague #LIV\n\nFollow for the next one.",
-      "queued_at": "2026-09-20T14:32:15.470228+00:00"
-    },
     {
       "key": "sub:49:71",
       "story": {
@@ -7698,6 +7690,38 @@
       "image_path": "assets/generated/live_sub_45_400.png",
       "caption": "\ud83d\udd04 SUB! 75' Doku (MCI) is on. MCI 4-3 SUN.\n\nImpact sub, or too little too late? #FPL #PremierLeague #FantasyPremierLeague #FPLFamily #MCI\n\nMore like this on the feed -- give us a follow.",
       "queued_at": "2026-09-20T14:40:39.195158+00:00"
+    },
+    {
+      "key": "sub:49:371",
+      "story": {
+        "type": "substitution",
+        "key": "sub:49:371",
+        "player": "Gravenberch",
+        "team": "LIV",
+        "home": "BOU",
+        "away": "LIV",
+        "score": "0-1",
+        "minute": 83
+      },
+      "image_path": "assets/generated/live_sub_49_371.png",
+      "caption": "\ud83d\udd04 SUB! 83' Gravenberch (LIV) is on. BOU 0-1 LIV.\n\nImpact sub, or too little too late? #FPL #FPLTwitter #FantasyPremierLeague #FPLCommunity #LIV\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-09-20T14:41:22.128381+00:00"
+    },
+    {
+      "key": "yellow_card:44:211:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:44:211:1",
+        "player": "Yeremy",
+        "team": "CRY",
+        "home": "LEE",
+        "away": "CRY",
+        "minute": 80,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_44_211_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 80' Yeremy (CRY) is booked. LEE 0-0 CRY.\n\nWorth keeping an eye on for next week. #FPL #FantasyFootball #FPLTwitter #PremierLeague #CRY\n\nFollow for the next one.",
+      "queued_at": "2026-09-20T14:41:22.190426+00:00"
     }
   ]
 }
