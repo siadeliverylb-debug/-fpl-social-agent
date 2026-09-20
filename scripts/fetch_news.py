@@ -80,10 +80,33 @@ def _batch_key(prefix, parts):
     return f"{prefix}:{len(parts)}:{digest}"
 
 
-def diff_snapshots(old, new):
+# Freshness limits -- better to skip an item than to present old news as new.
+MAX_NEWS_AGE_HOURS = 6      # news whose own FPL timestamp is older than this isn't "new"
+STALE_SNAPSHOT_HOURS = 3    # a baseline older than this can't tell us what changed *recently*
+
+
+def _news_is_fresh(news_added, now):
+    if not news_added:
+        return False  # can't verify its age -> don't call it new
+    try:
+        added = datetime.fromisoformat(news_added.replace("Z", "+00:00"))
+    except ValueError:
+        return False
+    return (now - added).total_seconds() <= MAX_NEWS_AGE_HOURS * 3600
+
+
+def diff_snapshots(old, new, now=None, old_age_hours=None):
+    """`old_age_hours` is how long ago `old` was taken. Prices carry no change
+    timestamp, so when the baseline is stale (e.g. after a scan outage) a
+    price diff would lump days of moves together and present them as "tonight's"
+    -- those are skipped. News has its own FPL timestamp, so it's filtered by
+    that instead."""
     stories = []
     if old is None:
         return stories  # first run: establish baseline only, nothing to report
+
+    now = now or datetime.now(timezone.utc)
+    prices_trustworthy = old_age_hours is None or old_age_hours <= STALE_SNAPSHOT_HOURS
 
     price_changes = []
     injury_changes = []
@@ -92,7 +115,7 @@ def diff_snapshots(old, new):
         if prev is None:
             continue  # player not seen before (rare mid-season addition), skip
 
-        if cur["now_cost"] != prev["now_cost"]:
+        if prices_trustworthy and cur["now_cost"] != prev["now_cost"]:
             delta = cur["now_cost"] - prev["now_cost"]
             price_changes.append({
                 "pid": pid,
@@ -103,7 +126,7 @@ def diff_snapshots(old, new):
                 "new_price_millions": round(cur["now_cost"] / 10, 1),
             })
 
-        if cur["news"] and cur["news"] != prev["news"]:
+        if cur["news"] and cur["news"] != prev["news"] and _news_is_fresh(cur["news_added"], now):
             category = _classify_status(cur["status"], cur["news"])
             entry = {
                 "pid": pid,
@@ -279,7 +302,11 @@ def fetch_stories(state):
     new_snapshot = build_snapshot(data)
 
     stories = []
-    stories += diff_snapshots(state.get("last_snapshot"), new_snapshot)
+    last_at = state.get("last_snapshot_at")
+    old_age = _hours_since(last_at, datetime.now(timezone.utc)) if last_at else None
+    if old_age is not None and old_age > STALE_SNAPSHOT_HOURS:
+        print(f"Previous snapshot is {old_age:.1f}h old -- skipping price changes (can't tell which are recent).")
+    stories += diff_snapshots(state.get("last_snapshot"), new_snapshot, old_age_hours=old_age)
     stories += deadline_stories(data)
     stories += recap_stories(data, state)
     stories += form_stories(data, state, stories)

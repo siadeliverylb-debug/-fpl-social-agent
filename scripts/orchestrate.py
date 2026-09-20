@@ -41,6 +41,7 @@ MAX_POSTS_PER_DAY = 20
 # single match day can have far more than 5 FPL-relevant moments. The gap is
 # deliberately tiny: real bursts (a goal + a card in the same poll) must not
 # get throttled against each other.
+LIVE_QUEUE_TTL_MINUTES = 20  # a live event that couldn't post within this is no longer "live"
 LIVE_MIN_GAP_SECONDS = 2
 LIVE_MAX_POSTS_PER_DAY = 150
 
@@ -67,6 +68,24 @@ def _rel_path(abs_path):
 
 def _abs_path(rel_path):
     return os.path.join(REPO_ROOT, rel_path)
+
+
+# How long a queued post stays worth publishing. Normally items go out within
+# ~an hour; anything older was held up (caps, a failed run) and would now be
+# presenting old news as new, so it's dropped rather than posted late.
+PENDING_TTL_HOURS = {
+    "default": 6,
+    "deadline_reminder": 1,   # "deadline in 2h" is wrong an hour later
+    "form_hot": 3,
+    "form_cold": 3,
+    "gw_recap": 24,
+}
+
+
+def is_stale(item, now):
+    ttl = PENDING_TTL_HOURS.get(item["story"]["type"], PENDING_TTL_HOURS["default"])
+    created = datetime.fromisoformat(item["created_at"])
+    return (now - created).total_seconds() > ttl * 3600
 
 
 def can_post_now(state, now):
@@ -193,12 +212,19 @@ def cmd_live(dry_run):
         img_path = os.path.join(GENERATED_DIR, f"live_{key.replace(':', '_')}.png")
         generate_content.render_card(story, img_path)
         caption = generate_content.build_caption(story)
-        queue.append({"key": key, "story": story, "image_path": _rel_path(img_path), "caption": caption})
+        queue.append({
+            "key": key, "story": story, "image_path": _rel_path(img_path), "caption": caption,
+            "queued_at": datetime.now(timezone.utc).isoformat(),
+        })
 
     now = datetime.now(timezone.utc)
     posted = 0
     still_queued = []
     for item in queue:
+        queued_at = item.get("queued_at")
+        if queued_at and (now - datetime.fromisoformat(queued_at)).total_seconds() > LIVE_QUEUE_TTL_MINUTES * 60:
+            print(f"Dropping stale live event {item['key']} -- older than {LIVE_QUEUE_TTL_MINUTES} min, not posting it late")
+            continue
         if not can_post_live_now(state, now):
             print(f"Deferring {item['key']}: live cadence cap hit, will retry next run")
             still_queued.append(item)
@@ -218,6 +244,12 @@ def cmd_publish(dry_run, force=False):
     still_pending = []
 
     for item in state.get("pending", []):
+        if not force and is_stale(item, now):
+            age_h = (now - datetime.fromisoformat(item["created_at"])).total_seconds() / 3600
+            print(f"Dropping stale {item['story']['type']} {item['key'][:40]} ({age_h:.1f}h old) -- not posting old news")
+            state.setdefault("handled_keys", []).append(item["key"])
+            continue
+
         if item.get("auto"):
             decision = "approved"
         else:
