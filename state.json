@@ -53,7 +53,7 @@
     "7": {
       "web_name": "Lewis-Skelly",
       "team": "ARS",
-      "now_cost": 55,
+      "now_cost": 54,
       "status": "a",
       "news": "",
       "news_added": null
@@ -189,7 +189,7 @@
     "25": {
       "web_name": "Gy\u00f6keres",
       "team": "ARS",
-      "now_cost": 72,
+      "now_cost": 71,
       "status": "a",
       "news": "",
       "news_added": null
@@ -213,7 +213,7 @@
     "31": {
       "web_name": "Konsa",
       "team": "ARS",
-      "now_cost": 45,
+      "now_cost": 46,
       "status": "a",
       "news": "",
       "news_added": null
@@ -229,7 +229,7 @@
     "557": {
       "web_name": "Tzolis",
       "team": "ARS",
-      "now_cost": 64,
+      "now_cost": 63,
       "status": "a",
       "news": "",
       "news_added": null
@@ -390,9 +390,9 @@
       "web_name": "Alysson",
       "team": "AVL",
       "now_cost": 50,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-09-19T11:30:09.355376Z"
     },
     "53": {
       "web_name": "Manzambi",
@@ -514,6 +514,14 @@
       "news": "",
       "news_added": null
     },
+    "667": {
+      "web_name": "Wright",
+      "team": "AVL",
+      "now_cost": 40,
+      "status": "a",
+      "news": "",
+      "news_added": null
+    },
     "57": {
       "web_name": "Petrovi\u0107",
       "team": "BOU",
@@ -597,7 +605,7 @@
     "67": {
       "web_name": "Rayan",
       "team": "BOU",
-      "now_cost": 64,
+      "now_cost": 63,
       "status": "a",
       "news": "",
       "news_added": null
@@ -821,7 +829,7 @@
     "92": {
       "web_name": "Ji-soo",
       "team": "BRE",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": null
@@ -933,7 +941,7 @@
     "108": {
       "web_name": "Wilson",
       "team": "BRE",
-      "now_cost": 55,
+      "now_cost": 54,
       "status": "a",
       "news": "",
       "news_added": null
@@ -941,7 +949,7 @@
     "565": {
       "web_name": "M.Sangar\u00e9",
       "team": "BRE",
-      "now_cost": 57,
+      "now_cost": 56,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1069,7 +1077,7 @@
     "122": {
       "web_name": "Minteh",
       "team": "BHA",
-      "now_cost": 59,
+      "now_cost": 58,
       "status": "i",
       "news": "Leg injury - Expected back 28 Nov",
       "news_added": "2026-08-14T18:00:06.418033Z"
@@ -1085,7 +1093,7 @@
     "124": {
       "web_name": "Gro\u00df",
       "team": "BHA",
-      "now_cost": 57,
+      "now_cost": 58,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1093,7 +1101,7 @@
     "125": {
       "web_name": "Georginio",
       "team": "BHA",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": "2026-08-26T16:00:07.608056Z"
@@ -1213,7 +1221,7 @@
     "594": {
       "web_name": "David",
       "team": "BHA",
-      "now_cost": 60,
+      "now_cost": 59,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1373,7 +1381,7 @@
     "149": {
       "web_name": "Colwill",
       "team": "CHE",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1471,7 +1479,7 @@
       "team": "CHE",
       "now_cost": 78,
       "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "news": "Knee injury - 75% chance of playing",
       "news_added": "2026-09-16T19:00:09.919929Z"
     },
     "168": {
@@ -1501,7 +1509,7 @@
     "200": {
       "web_name": "Lacroix",
       "team": "CHE",
-      "now_cost": 60,
+      "now_cost": 59,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1606,9 +1614,9 @@
       "web_name": "van Ewijk",
       "team": "COV",
       "now_cost": 40,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Hamstring injury - 75% chance of playing",
+      "news_added": "2026-09-19T16:00:09.486751Z"
     },
     "176": {
       "web_name": "Dasilva",
@@ -1621,7 +1629,7 @@
     "177": {
       "web_name": "Kesler-Hayden",
       "team": "COV",
-      "now_cost": 40,
+      "now_cost": 39,
       "status": "i",
       "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-08-27T14:56:28.704361Z"
@@ -1662,8 +1670,8 @@
       "web_name": "Amenda",
       "team": "COV",
       "now_cost": 40,
-      "status": "d",
-      "news": "Calf injury - 25% chance of playing",
+      "status": "i",
+      "news": "Calf injury - Unknown return date",
       "news_added": "2026-09-17T07:30:09.329041Z"
     },
     "183": {
@@ -1701,7 +1709,7 @@
     "187": {
       "web_name": "Eccles",
       "team": "COV",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "i",
       "news": "Unspecified injury - Expected back 12 Oct",
       "news_added": "2026-09-10T18:30:08.877110Z"
@@ -1709,7 +1717,7 @@
     "188": {
       "web_name": "Torp",
       "team": "COV",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1789,7 +1797,7 @@
     "492": {
       "web_name": "Awoniyi",
       "team": "COV",
-      "now_cost": 55,
+      "now_cost": 54,
       "status": "s",
       "news": "Suspended until 19 Oct",
       "news_added": "2026-09-13T15:00:09.305127Z"
@@ -1885,7 +1893,7 @@
     "203": {
       "web_name": "Canvot",
       "team": "CRY",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1909,7 +1917,7 @@
     "206": {
       "web_name": "Chadi Riad",
       "team": "CRY",
-      "now_cost": 44,
+      "now_cost": 43,
       "status": "i",
       "news": "Knee injury - Unknown return date",
       "news_added": "2026-08-22T18:00:07.352049Z"
@@ -2205,7 +2213,7 @@
     "233": {
       "web_name": "Mykolenko",
       "team": "EVE",
-      "now_cost": 45,
+      "now_cost": 46,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2229,7 +2237,7 @@
     "236": {
       "web_name": "Dewsbury-Hall",
       "team": "EVE",
-      "now_cost": 65,
+      "now_cost": 66,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2270,8 +2278,8 @@
       "web_name": "Armstrong",
       "team": "EVE",
       "now_cost": 50,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-17T08:30:08.942299Z"
     },
     "245": {
@@ -2693,7 +2701,7 @@
     "289": {
       "web_name": "Crooks",
       "team": "HUL",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": "2026-08-29T15:00:08.569326Z"
@@ -2838,8 +2846,8 @@
       "web_name": "Mendy",
       "team": "HUL",
       "now_cost": 41,
-      "status": "i",
-      "news": "Concussion - Expected back 11 Oct",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-12T18:00:09.334142Z"
     },
     "589": {
@@ -2909,7 +2917,7 @@
     "267": {
       "web_name": "Luki\u0107",
       "team": "IPS",
-      "now_cost": 50,
+      "now_cost": 49,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3013,7 +3021,7 @@
     "312": {
       "web_name": "Taylor",
       "team": "IPS",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "i",
       "news": "Knee injury - Unknown return date",
       "news_added": "2026-07-29T18:00:10.319370Z"
@@ -3038,9 +3046,9 @@
       "web_name": "Fatawu",
       "team": "IPS",
       "now_cost": 54,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "s",
+      "news": "Suspended until 17 Oct",
+      "news_added": "2026-09-19T15:30:10.126897Z"
     },
     "316": {
       "web_name": "Emersonn",
@@ -3109,7 +3117,7 @@
     "324": {
       "web_name": "Mehmeti",
       "team": "IPS",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3125,7 +3133,7 @@
     "562": {
       "web_name": "Maeda",
       "team": "IPS",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3213,7 +3221,7 @@
     "329": {
       "web_name": "Rodon",
       "team": "LEE",
-      "now_cost": 44,
+      "now_cost": 43,
       "status": "i",
       "news": "Hamstring injury - Expected back 21 Nov",
       "news_added": "2026-08-30T16:00:08.564382Z"
@@ -3589,7 +3597,7 @@
     "369": {
       "web_name": "Ngumoha",
       "team": "LIV",
-      "now_cost": 58,
+      "now_cost": 57,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3597,7 +3605,7 @@
     "370": {
       "web_name": "Chiesa",
       "team": "LIV",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "i",
       "news": "Back injury - Unknown return date",
       "news_added": "2026-08-27T13:30:07.598926Z"
@@ -3605,7 +3613,7 @@
     "371": {
       "web_name": "Gravenberch",
       "team": "LIV",
-      "now_cost": 59,
+      "now_cost": 58,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3733,7 +3741,7 @@
     "237": {
       "web_name": "Ndiaye",
       "team": "MCI",
-      "now_cost": 59,
+      "now_cost": 58,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4085,7 +4093,7 @@
     "420": {
       "web_name": "Yoro",
       "team": "MUN",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4109,7 +4117,7 @@
     "423": {
       "web_name": "Shaw",
       "team": "MUN",
-      "now_cost": 44,
+      "now_cost": 43,
       "status": "d",
       "news": "Unspecified injury - 50% chance of playing",
       "news_added": "2026-09-11T13:00:09.030120Z"
@@ -4245,7 +4253,7 @@
     "440": {
       "web_name": "Zirkzee",
       "team": "MUN",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4262,8 +4270,8 @@
       "web_name": "N.Gonzalez",
       "team": "NEW",
       "now_cost": 55,
-      "status": "i",
-      "news": "Concussion - Expected back 12 Oct",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-14T21:30:07.343728Z"
     },
     "442": {
@@ -4285,7 +4293,7 @@
     "444": {
       "web_name": "Jaouen",
       "team": "NEW",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "d",
       "news": "Ankle injury - 50% chance of playing",
       "news_added": "2026-09-10T16:00:09.127466Z"
@@ -4334,9 +4342,9 @@
       "web_name": "Livramento",
       "team": "NEW",
       "now_cost": 49,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-07-23T12:01:23.753221Z"
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-09-19T14:00:09.046677Z"
     },
     "451": {
       "web_name": "A.Murphy",
@@ -4349,7 +4357,7 @@
     "453": {
       "web_name": "Barnes",
       "team": "NEW",
-      "now_cost": 60,
+      "now_cost": 61,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4357,7 +4365,7 @@
     "454": {
       "web_name": "Elanga",
       "team": "NEW",
-      "now_cost": 62,
+      "now_cost": 61,
       "status": "i",
       "news": "Unspecified injury - Unknown return date",
       "news_added": "2026-09-14T20:00:09.505598Z"
@@ -4437,7 +4445,7 @@
     "465": {
       "web_name": "Osula",
       "team": "NEW",
-      "now_cost": 59,
+      "now_cost": 58,
       "status": "i",
       "news": "Foot injury - Unknown return date",
       "news_added": "2026-08-25T19:00:08.004915Z"
@@ -4498,10 +4506,42 @@
       "news": "",
       "news_added": null
     },
+    "663": {
+      "web_name": "Pivas",
+      "team": "NEW",
+      "now_cost": 40,
+      "status": "a",
+      "news": "",
+      "news_added": null
+    },
+    "664": {
+      "web_name": "Salia",
+      "team": "NEW",
+      "now_cost": 45,
+      "status": "a",
+      "news": "",
+      "news_added": null
+    },
+    "665": {
+      "web_name": "Mills",
+      "team": "NEW",
+      "now_cost": 45,
+      "status": "a",
+      "news": "",
+      "news_added": null
+    },
+    "666": {
+      "web_name": "Thompson",
+      "team": "NEW",
+      "now_cost": 45,
+      "status": "a",
+      "news": "",
+      "news_added": null
+    },
     "167": {
       "web_name": "Delap",
       "team": "NFO",
-      "now_cost": 55,
+      "now_cost": 56,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4549,7 +4589,7 @@
     "471": {
       "web_name": "Milenkovi\u0107",
       "team": "NFO",
-      "now_cost": 55,
+      "now_cost": 54,
       "status": "i",
       "news": "Hamstring injury - Expected back 11 Oct",
       "news_added": "2026-09-12T14:00:09.705107Z"
@@ -4574,8 +4614,8 @@
       "web_name": "Jair Cunha",
       "team": "NFO",
       "now_cost": 45,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-12T14:00:09.724349Z"
     },
     "475": {
@@ -4773,7 +4813,7 @@
     "455": {
       "web_name": "Tonali",
       "team": "TOT",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": "2026-09-14T14:30:07.387706Z"
@@ -4822,9 +4862,9 @@
       "web_name": "Pedro Porro",
       "team": "TOT",
       "now_cost": 54,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-11T18:00:09.076279Z"
+      "status": "d",
+      "news": "Hamstring injury - 75% chance of playing",
+      "news_added": "2026-09-19T12:00:08.823872Z"
     },
     "500": {
       "web_name": "Romero",
@@ -4877,7 +4917,7 @@
     "508": {
       "web_name": "Davies",
       "team": "TOT",
-      "now_cost": 40,
+      "now_cost": 39,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4925,7 +4965,7 @@
     "514": {
       "web_name": "Tel",
       "team": "TOT",
-      "now_cost": 58,
+      "now_cost": 57,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5045,7 +5085,7 @@
     "578": {
       "web_name": "Mudryk",
       "team": "TOT",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "i",
       "news": "Ankle injury - Unknown return date",
       "news_added": "2026-09-11T18:00:09.154412Z"
@@ -5109,7 +5149,7 @@
     "534": {
       "web_name": "Hume",
       "team": "SUN",
-      "now_cost": 44,
+      "now_cost": 43,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5117,7 +5157,7 @@
     "535": {
       "web_name": "Alderete",
       "team": "SUN",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": "2026-08-09T08:30:05.962393Z"
@@ -5125,7 +5165,7 @@
     "536": {
       "web_name": "Reinildo",
       "team": "SUN",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "s",
       "news": "Suspended until 10 Oct",
       "news_added": "2026-09-12T21:30:09.421687Z"
@@ -5149,7 +5189,7 @@
     "539": {
       "web_name": "O'Nien",
       "team": "SUN",
-      "now_cost": 40,
+      "now_cost": 39,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5173,7 +5213,7 @@
     "542": {
       "web_name": "E.Le F\u00e9e",
       "team": "SUN",
-      "now_cost": 58,
+      "now_cost": 57,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5253,7 +5293,7 @@
     "552": {
       "web_name": "Brobbey",
       "team": "SUN",
-      "now_cost": 58,
+      "now_cost": 57,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5299,14 +5339,514 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-18T22:36:31.776115+00:00",
+  "last_snapshot_at": "2026-09-20T08:40:37.835014+00:00",
   "recapped_events": [
     1,
     2,
     3,
     4
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "status:315:2026-09-19T15:30:10.126897Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:315:2026-09-19T15:30:10.126897Z",
+        "pid": "315",
+        "player": "Fatawu",
+        "team": "IPS",
+        "status": "suspended",
+        "news": "Suspended until 17 Oct",
+        "category": "suspension"
+      },
+      "image_path": "assets/generated/status_315_2026-09-19T15_30_10.126897Z.png",
+      "caption": "\ud83d\udfe5 SUSPENDED: Fatawu (IPS) is suspended.\n\"Suspended until 17 Oct\"\n\nWho's covering for him while he's out? #FPL #FantasyFootball #PremierLeague #FPLFamily\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-09-20T08:40:37.916265+00:00",
+      "auto": true
+    },
+    {
+      "key": "injury_batch:6:70f16b9127b6",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:6:70f16b9127b6",
+        "injuries": [
+          {
+            "pid": "52",
+            "player": "Alysson",
+            "team": "AVL",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "182",
+            "player": "Amenda",
+            "team": "COV",
+            "status": "injured",
+            "news": "Calf injury - Unknown return date",
+            "category": "injury"
+          },
+          {
+            "pid": "165",
+            "player": "Jo\u00e3o Pedro",
+            "team": "CHE",
+            "status": "doubtful",
+            "news": "Knee injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "450",
+            "player": "Livramento",
+            "team": "NEW",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "499",
+            "player": "Pedro Porro",
+            "team": "TOT",
+            "status": "doubtful",
+            "news": "Hamstring injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "175",
+            "player": "van Ewijk",
+            "team": "COV",
+            "status": "doubtful",
+            "news": "Hamstring injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_6_70f16b9127b6.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (6):\n\n\ud83d\udea8 Alysson (AVL) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Amenda (COV) - injured: \"Calf injury - Unknown return date\"\n\ud83d\udea8 Jo\u00e3o Pedro (CHE) - doubtful: \"Knee injury - 75% chance of playing\"\n\ud83d\udea8 Livramento (NEW) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Pedro Porro (TOT) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\ud83d\udea8 van Ewijk (COV) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #PremierLeague #FPLTwitter #FPLCommunity\n\nTurn on notifications to catch these as they land.",
+      "created_at": "2026-09-20T08:40:37.980566+00:00",
+      "auto": true
+    },
+    {
+      "key": "price_batch:51:3800610d9c98",
+      "story": {
+        "type": "price_changes",
+        "key": "price_batch:51:3800610d9c98",
+        "changes": [
+          {
+            "pid": "25",
+            "player": "Gy\u00f6keres",
+            "team": "ARS",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 7.1
+          },
+          {
+            "pid": "557",
+            "player": "Tzolis",
+            "team": "ARS",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 6.3
+          },
+          {
+            "pid": "67",
+            "player": "Rayan",
+            "team": "BOU",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 6.3
+          },
+          {
+            "pid": "454",
+            "player": "Elanga",
+            "team": "NEW",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 6.1
+          },
+          {
+            "pid": "594",
+            "player": "David",
+            "team": "BHA",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.9
+          },
+          {
+            "pid": "200",
+            "player": "Lacroix",
+            "team": "CHE",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.9
+          },
+          {
+            "pid": "122",
+            "player": "Minteh",
+            "team": "BHA",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.8
+          },
+          {
+            "pid": "371",
+            "player": "Gravenberch",
+            "team": "LIV",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.8
+          },
+          {
+            "pid": "237",
+            "player": "Ndiaye",
+            "team": "MCI",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.8
+          },
+          {
+            "pid": "465",
+            "player": "Osula",
+            "team": "NEW",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.8
+          },
+          {
+            "pid": "369",
+            "player": "Ngumoha",
+            "team": "LIV",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.7
+          },
+          {
+            "pid": "514",
+            "player": "Tel",
+            "team": "TOT",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.7
+          },
+          {
+            "pid": "542",
+            "player": "E.Le F\u00e9e",
+            "team": "SUN",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.7
+          },
+          {
+            "pid": "552",
+            "player": "Brobbey",
+            "team": "SUN",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.7
+          },
+          {
+            "pid": "565",
+            "player": "M.Sangar\u00e9",
+            "team": "BRE",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.6
+          },
+          {
+            "pid": "7",
+            "player": "Lewis-Skelly",
+            "team": "ARS",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.4
+          },
+          {
+            "pid": "108",
+            "player": "Wilson",
+            "team": "BRE",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.4
+          },
+          {
+            "pid": "492",
+            "player": "Awoniyi",
+            "team": "COV",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.4
+          },
+          {
+            "pid": "471",
+            "player": "Milenkovi\u0107",
+            "team": "NFO",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.4
+          },
+          {
+            "pid": "125",
+            "player": "Georginio",
+            "team": "BHA",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.3
+          },
+          {
+            "pid": "188",
+            "player": "Torp",
+            "team": "COV",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.3
+          },
+          {
+            "pid": "562",
+            "player": "Maeda",
+            "team": "IPS",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.3
+          },
+          {
+            "pid": "370",
+            "player": "Chiesa",
+            "team": "LIV",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.3
+          },
+          {
+            "pid": "440",
+            "player": "Zirkzee",
+            "team": "MUN",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.3
+          },
+          {
+            "pid": "455",
+            "player": "Tonali",
+            "team": "TOT",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.3
+          },
+          {
+            "pid": "578",
+            "player": "Mudryk",
+            "team": "TOT",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.3
+          },
+          {
+            "pid": "267",
+            "player": "Luki\u0107",
+            "team": "IPS",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.9
+          },
+          {
+            "pid": "149",
+            "player": "Colwill",
+            "team": "CHE",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.8
+          },
+          {
+            "pid": "187",
+            "player": "Eccles",
+            "team": "COV",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.8
+          },
+          {
+            "pid": "203",
+            "player": "Canvot",
+            "team": "CRY",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.8
+          },
+          {
+            "pid": "324",
+            "player": "Mehmeti",
+            "team": "IPS",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.8
+          },
+          {
+            "pid": "420",
+            "player": "Yoro",
+            "team": "MUN",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.8
+          },
+          {
+            "pid": "535",
+            "player": "Alderete",
+            "team": "SUN",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.8
+          },
+          {
+            "pid": "92",
+            "player": "Ji-soo",
+            "team": "BRE",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.4
+          },
+          {
+            "pid": "289",
+            "player": "Crooks",
+            "team": "HUL",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.4
+          },
+          {
+            "pid": "312",
+            "player": "Taylor",
+            "team": "IPS",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.4
+          },
+          {
+            "pid": "444",
+            "player": "Jaouen",
+            "team": "NEW",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.4
+          },
+          {
+            "pid": "536",
+            "player": "Reinildo",
+            "team": "SUN",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.4
+          },
+          {
+            "pid": "206",
+            "player": "Chadi Riad",
+            "team": "CRY",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.3
+          },
+          {
+            "pid": "329",
+            "player": "Rodon",
+            "team": "LEE",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.3
+          },
+          {
+            "pid": "423",
+            "player": "Shaw",
+            "team": "MUN",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.3
+          },
+          {
+            "pid": "534",
+            "player": "Hume",
+            "team": "SUN",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.3
+          },
+          {
+            "pid": "177",
+            "player": "Kesler-Hayden",
+            "team": "COV",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 3.9
+          },
+          {
+            "pid": "508",
+            "player": "Davies",
+            "team": "TOT",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 3.9
+          },
+          {
+            "pid": "539",
+            "player": "O'Nien",
+            "team": "SUN",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 3.9
+          },
+          {
+            "pid": "236",
+            "player": "Dewsbury-Hall",
+            "team": "EVE",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 6.6
+          },
+          {
+            "pid": "453",
+            "player": "Barnes",
+            "team": "NEW",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 6.1
+          },
+          {
+            "pid": "124",
+            "player": "Gro\u00df",
+            "team": "BHA",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.8
+          },
+          {
+            "pid": "167",
+            "player": "Delap",
+            "team": "NFO",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.6
+          },
+          {
+            "pid": "31",
+            "player": "Konsa",
+            "team": "ARS",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.6
+          },
+          {
+            "pid": "233",
+            "player": "Mykolenko",
+            "team": "EVE",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.6
+          }
+        ]
+      },
+      "image_path": "assets/generated/price_batch_51_3800610d9c98.png",
+      "caption": "\ud83d\udcca PRICE CHANGES: 45 falls, 6 rises.\n\n\ud83d\udd34 Gy\u00f6keres (ARS) -> \u00a37.1m\n\ud83d\udd34 Tzolis (ARS) -> \u00a36.3m\n\ud83d\udd34 Rayan (BOU) -> \u00a36.3m\n\ud83d\udd34 Elanga (NEW) -> \u00a36.1m\n\ud83d\udd34 David (BHA) -> \u00a35.9m\n\ud83d\udd34 Lacroix (CHE) -> \u00a35.9m\n\ud83d\udd34 Minteh (BHA) -> \u00a35.8m\n\ud83d\udd34 Gravenberch (LIV) -> \u00a35.8m\n\ud83d\udd34 Ndiaye (MCI) -> \u00a35.8m\n\ud83d\udd34 Osula (NEW) -> \u00a35.8m\n\ud83d\udd34 Ngumoha (LIV) -> \u00a35.7m\n\ud83d\udd34 Tel (TOT) -> \u00a35.7m\n\ud83d\udd34 E.Le F\u00e9e (SUN) -> \u00a35.7m\n\ud83d\udd34 Brobbey (SUN) -> \u00a35.7m\n\ud83d\udd34 M.Sangar\u00e9 (BRE) -> \u00a35.6m\n\ud83d\udd34 Lewis-Skelly (ARS) -> \u00a35.4m\n\ud83d\udd34 Wilson (BRE) -> \u00a35.4m\n\ud83d\udd34 Awoniyi (COV) -> \u00a35.4m\n\ud83d\udd34 Milenkovi\u0107 (NFO) -> \u00a35.4m\n\ud83d\udd34 Georginio (BHA) -> \u00a35.3m\n\ud83d\udd34 Torp (COV) -> \u00a35.3m\n\ud83d\udd34 Maeda (IPS) -> \u00a35.3m\n\ud83d\udd34 Chiesa (LIV) -> \u00a35.3m\n\ud83d\udd34 Zirkzee (MUN) -> \u00a35.3m\n\ud83d\udd34 Tonali (TOT) -> \u00a35.3m\n\ud83d\udd34 Mudryk (TOT) -> \u00a35.3m\n\ud83d\udd34 Luki\u0107 (IPS) -> \u00a34.9m\n\ud83d\udd34 Colwill (CHE) -> \u00a34.8m\n\ud83d\udd34 Eccles (COV) -> \u00a34.8m\n\ud83d\udd34 Canvot (CRY) -> \u00a34.8m\n\ud83d\udd34 Mehmeti (IPS) -> \u00a34.8m\n\ud83d\udd34 Yoro (MUN) -> \u00a34.8m\n\ud83d\udd34 Alderete (SUN) -> \u00a34.8m\n\ud83d\udd34 Ji-soo (BRE) -> \u00a34.4m\n\ud83d\udd34 Crooks (HUL) -> \u00a34.4m\n\ud83d\udd34 Taylor (IPS) -> \u00a34.4m\n\ud83d\udd34 Jaouen (NEW) -> \u00a34.4m\n\ud83d\udd34 Reinildo (SUN) -> \u00a34.4m\n\ud83d\udd34 Chadi Riad (CRY) -> \u00a34.3m\n\ud83d\udd34 Rodon (LEE) -> \u00a34.3m\n\ud83d\udd34 Shaw (MUN) -> \u00a34.3m\n\ud83d\udd34 Hume (SUN) -> \u00a34.3m\n\ud83d\udd34 Kesler-Hayden (COV) -> \u00a33.9m\n\ud83d\udd34 Davies (TOT) -> \u00a33.9m\n\ud83d\udd34 O'Nien (SUN) -> \u00a33.9m\n\ud83d\udfe2 Dewsbury-Hall (EVE) -> \u00a36.6m\n\ud83d\udfe2 Barnes (NEW) -> \u00a36.1m\n\ud83d\udfe2 Gro\u00df (BHA) -> \u00a35.8m\n\ud83d\udfe2 Delap (NFO) -> \u00a35.6m\n\ud83d\udfe2 Konsa (ARS) -> \u00a34.6m\n\ud83d\udfe2 Mykolenko (EVE) -> \u00a34.6m\n\nWinners and losers in your squad? #FPL #FPLFamily #PremierLeague #FPLTwitter\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-09-20T08:40:38.047727+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
