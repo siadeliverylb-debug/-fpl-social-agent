@@ -7375,25 +7375,13 @@
       "type": "goal",
       "posted_at": "2026-09-20T13:23:39.768757+00:00",
       "tweet_id": "2101663581565489421"
-    }
-  ],
-  "live_queue": [
+    },
     {
       "key": "goal:45:552:1",
-      "story": {
-        "type": "goal",
-        "key": "goal:45:552:1",
-        "player": "Brobbey",
-        "team": "SUN",
-        "home": "MCI",
-        "away": "SUN",
-        "minute": 16,
-        "score": "1-1",
-        "assisted_by": "E.Le F\u00e9e"
-      },
-      "image_path": "assets/generated/live_goal_45_552_1.png",
-      "caption": "\u26bd GOAL! 16' Brobbey (SUN)! Assisted by E.Le F\u00e9e. MCI 1-1 SUN.\n\nWho's benefiting from that in FPL? #FPL #FantasyPremierLeague #FPLTwitter #PremierLeague #SUN\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-09-20T13:23:38.597591+00:00"
+      "type": "goal",
+      "posted_at": "2026-09-20T13:30:08.941665+00:00",
+      "tweet_id": "2101665213816676755"
     }
-  ]
+  ],
+  "live_queue": []
 }
