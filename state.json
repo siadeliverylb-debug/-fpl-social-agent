@@ -5916,7 +5916,7 @@
       "46:295:yellow_cards": 1,
       "45:612:yellow_cards": 1,
       "45:155:goals_scored": 1,
-      "45:552:goals_scored": 2,
+      "45:552:goals_scored": 3,
       "45:237:assists": 1,
       "45:542:assists": 1,
       "45:399:goals_scored": 1,
@@ -5929,7 +5929,9 @@
       "49:379:goals_scored": 1,
       "49:379:yellow_cards": 1,
       "44:345:yellow_cards": 1,
-      "49:366:assists": 1
+      "49:366:assists": 1,
+      "44:210:yellow_cards": 1,
+      "45:551:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -6007,8 +6009,8 @@
       "45:a": {
         "player": "Brobbey",
         "team": "SUN",
-        "assisted_by": "Meunier",
-        "score": "2-2"
+        "assisted_by": "N.Angulo",
+        "score": "4-3"
       },
       "49:a": {
         "player": "Isak",
@@ -6092,7 +6094,7 @@
       ],
       "45": [
         4,
-        2
+        3
       ],
       "50": [
         0,
@@ -6240,7 +6242,10 @@
       "47:478": true,
       "47:488": true,
       "47:179": true,
-      "44:213": true
+      "44:213": true,
+      "44:337": true,
+      "44:343": true,
+      "45:646": true
     },
     "subs_baselined": {
       "31": true,
@@ -6429,7 +6434,10 @@
       "47:183": true,
       "47:201": true,
       "47:486": true,
-      "44:577": true
+      "44:577": true,
+      "44:330": true,
+      "44:345": true,
+      "45:551": true
     },
     "bonus_posted": {
       "31": true,
@@ -6459,16 +6467,6 @@
         "value": 1,
         "since": "2026-09-20T14:12:11.942247+00:00",
         "minute": 51
-      },
-      "45:552:goals_scored": {
-        "value": 3,
-        "since": "2026-09-20T14:23:23.044985+00:00",
-        "minute": 58
-      },
-      "45:551:assists": {
-        "value": 1,
-        "since": "2026-09-20T14:24:46.934555+00:00",
-        "minute": 59
       }
     }
   },
@@ -7488,6 +7486,12 @@
       "type": "goal_update",
       "posted_at": "2026-09-20T14:25:30.079881+00:00",
       "tweet_id": "2101679143817810312"
+    },
+    {
+      "key": "goal:45:397:2",
+      "type": "goal",
+      "posted_at": "2026-09-20T14:31:33.200449+00:00",
+      "tweet_id": "2101680666744107022"
     }
   ],
   "form_spotlight": {
@@ -7498,20 +7502,88 @@
   },
   "live_queue": [
     {
-      "key": "goal:45:397:2",
+      "key": "sub:44:337",
       "story": {
-        "type": "goal",
-        "key": "goal:45:397:2",
-        "player": "Semenyo",
-        "team": "MCI",
+        "type": "substitution",
+        "key": "sub:44:337",
+        "player": "Aaronson",
+        "team": "LEE",
+        "home": "LEE",
+        "away": "CRY",
+        "score": "0-0",
+        "minute": 71,
+        "subbed_out": "Bogle"
+      },
+      "image_path": "assets/generated/live_sub_44_337.png",
+      "caption": "\ud83d\udd04 SUB! 71' Aaronson (LEE) is on. Off: Bogle. LEE 0-0 CRY.\n\nImpact sub, or too little too late? #FPL #FPLTwitter #FPLCommunity #FPLFamily #LEE\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-09-20T14:31:31.740319+00:00"
+    },
+    {
+      "key": "sub:44:343",
+      "story": {
+        "type": "substitution",
+        "key": "sub:44:343",
+        "player": "James",
+        "team": "LEE",
+        "home": "LEE",
+        "away": "CRY",
+        "score": "0-0",
+        "minute": 71,
+        "subbed_out": "Tanaka"
+      },
+      "image_path": "assets/generated/live_sub_44_343.png",
+      "caption": "\ud83d\udd04 SUB! 71' James (LEE) is on. Off: Tanaka. LEE 0-0 CRY.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #PremierLeague #FPLFamily #LEE\n\nFollow for the next one.",
+      "queued_at": "2026-09-20T14:31:31.803712+00:00"
+    },
+    {
+      "key": "yellow_card:44:210:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:44:210:1",
+        "player": "Wharton",
+        "team": "CRY",
+        "home": "LEE",
+        "away": "CRY",
+        "minute": 71,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_44_210_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 71' Wharton (CRY) is booked. LEE 0-0 CRY.\n\nWorth keeping an eye on for next week. #FPL #FPLCommunity #FPLFamily #FPLTwitter #CRY\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-09-20T14:31:31.867456+00:00"
+    },
+    {
+      "key": "sub:45:646",
+      "story": {
+        "type": "substitution",
+        "key": "sub:45:646",
+        "player": "Fofana",
+        "team": "SUN",
         "home": "MCI",
         "away": "SUN",
-        "minute": 55,
-        "score": "4-2"
+        "score": "4-2",
+        "minute": 66,
+        "subbed_out": "N.Angulo"
       },
-      "image_path": "assets/generated/live_goal_45_397_2.png",
-      "caption": "\u26bd GOAL! 55' Semenyo (MCI)! MCI 4-2 SUN.\n\nBig green arrow incoming for whoever owns him. #FPL #FPLTips #FantasyFootball #FPLFamily #MCI\n\nFollow for the next one.",
-      "queued_at": "2026-09-20T14:25:29.030866+00:00"
+      "image_path": "assets/generated/live_sub_45_646.png",
+      "caption": "\ud83d\udd04 SUB! 66' Fofana (SUN) is on. Off: N.Angulo. MCI 4-2 SUN.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #FPLFamily #FantasyPremierLeague #SUN\n\nFollow for the next one.",
+      "queued_at": "2026-09-20T14:31:31.932197+00:00"
+    },
+    {
+      "key": "goal:45:552:3",
+      "story": {
+        "type": "goal",
+        "key": "goal:45:552:3",
+        "player": "Brobbey",
+        "team": "SUN",
+        "home": "MCI",
+        "away": "SUN",
+        "minute": 58,
+        "score": "4-3",
+        "assisted_by": "N.Angulo"
+      },
+      "image_path": "assets/generated/live_goal_45_552_3.png",
+      "caption": "\u26bd GOAL! 58' Brobbey (SUN)! Assisted by N.Angulo. MCI 4-3 SUN.\n\nNailed on captain material? #FPL #PremierLeague #FantasyPremierLeague #FPLFamily #SUN\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-09-20T14:31:31.995713+00:00"
     }
   ]
 }
