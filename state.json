@@ -5756,7 +5756,7 @@
         "finished_provisional": true
       },
       "50": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       }
     },
@@ -7723,6 +7723,12 @@
       "type": "bonus_points",
       "posted_at": "2026-09-20T15:12:55.086217+00:00",
       "tweet_id": "2101691076306153521"
+    },
+    {
+      "key": "kickoff:50",
+      "type": "kickoff",
+      "posted_at": "2026-09-20T15:31:43.582713+00:00",
+      "tweet_id": "2101695809935065340"
     }
   ],
   "form_spotlight": {
