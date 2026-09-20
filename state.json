@@ -5749,7 +5749,7 @@
       },
       "44": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       },
       "45": {
         "started": true,
@@ -6492,7 +6492,8 @@
       "43": true,
       "46": true,
       "47": true,
-      "49": true
+      "49": true,
+      "44": true
     },
     "goal_pending": {
       "44:204:goals_scored": {
@@ -7655,6 +7656,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:56:05.853717+00:00",
       "tweet_id": "2101686843393683875"
+    },
+    {
+      "key": "sub:49:72",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:56:48.759425+00:00",
+      "tweet_id": "2101687023014682835"
     }
   ],
   "form_spotlight": {
@@ -7664,22 +7671,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:49:72",
-      "story": {
-        "type": "substitution",
-        "key": "sub:49:72",
-        "player": "Gannon-Doak",
-        "team": "BOU",
-        "home": "BOU",
-        "away": "LIV",
-        "score": "0-1",
-        "minute": 88
-      },
-      "image_path": "assets/generated/live_sub_49_72.png",
-      "caption": "\ud83d\udd04 SUB! 88' Gannon-Doak (BOU) is on. BOU 0-1 LIV.\n\nImpact sub, or too little too late? #FPL #FantasyFootball #FPLTwitter #FantasyPremierLeague #BOU\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-09-20T14:49:06.629580+00:00"
-    },
     {
       "key": "sub:45:387",
       "story": {
@@ -7785,6 +7776,47 @@
       "image_path": "assets/generated/live_goal_45_411_1.png",
       "caption": "\u26bd GOAL! 84' Haaland (MCI)! Assisted by Gvardiol. MCI 5-3 SUN.\n\nNailed on captain material? #FPL #FPLTips #FPLTwitter #FPLCommunity #MCI\n\nMore like this on the feed -- give us a follow.",
       "queued_at": "2026-09-20T14:53:55.615482+00:00"
+    },
+    {
+      "key": "fulltime:44",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:44",
+        "home": "LEE",
+        "away": "CRY",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_44.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): LEE 0-0 CRY.\n\nHow did your FPL assets do? #FPL #FPLFamily #FPLCommunity #PremierLeague\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-09-20T14:56:47.620558+00:00"
+    },
+    {
+      "key": "bonus:44",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:44",
+        "home": "LEE",
+        "away": "CRY",
+        "score": "0-0",
+        "players": [
+          {
+            "name": "Trafford",
+            "points": 3
+          },
+          {
+            "name": "Justin",
+            "points": 2
+          },
+          {
+            "name": "Mitchell",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_44.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: LEE 0-0 CRY.\nTrafford +3, Justin +2, Mitchell +1.\n\n#FPL #FPLFamily #FantasyPremierLeague #FPLTwitter #LEEvCRY\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-09-20T14:56:47.683158+00:00"
     }
   ]
 }
