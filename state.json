@@ -7637,6 +7637,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:53:56.943919+00:00",
       "tweet_id": "2101686302760415399"
+    },
+    {
+      "key": "sub:44:224",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:54:40.236074+00:00",
+      "tweet_id": "2101686484004667574"
     }
   ],
   "form_spotlight": {
@@ -7646,22 +7652,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:44:224",
-      "story": {
-        "type": "substitution",
-        "key": "sub:44:224",
-        "player": "Nketiah",
-        "team": "CRY",
-        "home": "LEE",
-        "away": "CRY",
-        "score": "0-0",
-        "minute": 83
-      },
-      "image_path": "assets/generated/live_sub_44_224.png",
-      "caption": "\ud83d\udd04 SUB! 83' Nketiah (CRY) is on. LEE 0-0 CRY.\n\nImpact sub, or too little too late? #FPL #FantasyPremierLeague #FPLFamily #FPLTips #CRY\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-09-20T14:43:31.341950+00:00"
-    },
     {
       "key": "sub:49:76",
       "story": {
