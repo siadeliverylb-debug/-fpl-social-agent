@@ -7693,6 +7693,12 @@
       "type": "yellow_card",
       "posted_at": "2026-09-20T15:02:10.212084+00:00",
       "tweet_id": "2101688371877949611"
+    },
+    {
+      "key": "goal:45:411:1",
+      "type": "goal",
+      "posted_at": "2026-09-20T15:02:53.130274+00:00",
+      "tweet_id": "2101688551385825296"
     }
   ],
   "form_spotlight": {
@@ -7702,23 +7708,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "goal:45:411:1",
-      "story": {
-        "type": "goal",
-        "key": "goal:45:411:1",
-        "player": "Haaland",
-        "team": "MCI",
-        "home": "MCI",
-        "away": "SUN",
-        "minute": 84,
-        "score": "5-3",
-        "assisted_by": "Gvardiol"
-      },
-      "image_path": "assets/generated/live_goal_45_411_1.png",
-      "caption": "\u26bd GOAL! 84' Haaland (MCI)! Assisted by Gvardiol. MCI 5-3 SUN.\n\nNailed on captain material? #FPL #FPLTips #FPLTwitter #FPLCommunity #MCI\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-09-20T14:53:55.615482+00:00"
-    },
     {
       "key": "fulltime:44",
       "story": {
