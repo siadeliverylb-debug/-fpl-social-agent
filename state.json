@@ -7711,6 +7711,12 @@
       "type": "bonus_points",
       "posted_at": "2026-09-20T15:11:28.767415+00:00",
       "tweet_id": "2101690714539044977"
+    },
+    {
+      "key": "fulltime:45",
+      "type": "full_time",
+      "posted_at": "2026-09-20T15:12:11.888875+00:00",
+      "tweet_id": "2101690895309402576"
     }
   ],
   "form_spotlight": {
@@ -7720,20 +7726,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "fulltime:45",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:45",
-        "home": "MCI",
-        "away": "SUN",
-        "score": "5-3",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_45.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): MCI 5-3 SUN.\n\nBonus points still to be confirmed. #FPL #FPLCommunity #FPLTips #FantasyPremierLeague\n\nFollow for the next one.",
-      "queued_at": "2026-09-20T15:01:26.399676+00:00"
-    },
     {
       "key": "bonus:45",
       "story": {
