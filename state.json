@@ -5348,67 +5348,6 @@
   ],
   "pending": [
     {
-      "key": "injury_batch:6:70f16b9127b6",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:6:70f16b9127b6",
-        "injuries": [
-          {
-            "pid": "52",
-            "player": "Alysson",
-            "team": "AVL",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "182",
-            "player": "Amenda",
-            "team": "COV",
-            "status": "injured",
-            "news": "Calf injury - Unknown return date",
-            "category": "injury"
-          },
-          {
-            "pid": "165",
-            "player": "Jo\u00e3o Pedro",
-            "team": "CHE",
-            "status": "doubtful",
-            "news": "Knee injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "450",
-            "player": "Livramento",
-            "team": "NEW",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "499",
-            "player": "Pedro Porro",
-            "team": "TOT",
-            "status": "doubtful",
-            "news": "Hamstring injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "175",
-            "player": "van Ewijk",
-            "team": "COV",
-            "status": "doubtful",
-            "news": "Hamstring injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_6_70f16b9127b6.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (6):\n\n\ud83d\udea8 Alysson (AVL) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Amenda (COV) - injured: \"Calf injury - Unknown return date\"\n\ud83d\udea8 Jo\u00e3o Pedro (CHE) - doubtful: \"Knee injury - 75% chance of playing\"\n\ud83d\udea8 Livramento (NEW) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Pedro Porro (TOT) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\ud83d\udea8 van Ewijk (COV) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #PremierLeague #FPLTwitter #FPLCommunity\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-09-20T08:40:37.980566+00:00",
-      "auto": true
-    },
-    {
       "key": "price_batch:51:3800610d9c98",
       "story": {
         "type": "price_changes",
@@ -5887,7 +5826,8 @@
     "deadline:5:2h",
     "injury_batch:142",
     "injury_batch:170",
-    "status:315:2026-09-19T15:30:10.126897Z"
+    "status:315:2026-09-19T15:30:10.126897Z",
+    "injury_batch:6:70f16b9127b6"
   ],
   "post_log": [
     {
@@ -6137,6 +6077,12 @@
       "type": "status_change",
       "posted_at": "2026-09-20T08:50:33.912474+00:00",
       "tweet_id": "2101594854295781858"
+    },
+    {
+      "key": "injury_batch:6:70f16b9127b6",
+      "type": "injury_batch",
+      "posted_at": "2026-09-20T09:23:55.701225+00:00",
+      "tweet_id": "2101603250470281707"
     }
   ],
   "live": {
