@@ -7662,6 +7662,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:56:48.759425+00:00",
       "tweet_id": "2101687023014682835"
+    },
+    {
+      "key": "sub:45:387",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:57:31.383730+00:00",
+      "tweet_id": "2101687202166022377"
     }
   ],
   "form_spotlight": {
@@ -7671,22 +7677,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:45:387",
-      "story": {
-        "type": "substitution",
-        "key": "sub:45:387",
-        "player": "O'Reilly",
-        "team": "MCI",
-        "home": "MCI",
-        "away": "SUN",
-        "score": "4-3",
-        "minute": 85
-      },
-      "image_path": "assets/generated/live_sub_45_387.png",
-      "caption": "\ud83d\udd04 SUB! 85' O'Reilly (MCI) is on. MCI 4-3 SUN.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #FantasyPremierLeague #FPLFamily #MCI\n\nFollow for the next one.",
-      "queued_at": "2026-09-20T14:51:16.261885+00:00"
-    },
     {
       "key": "fulltime:49",
       "story": {
