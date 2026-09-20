@@ -6257,7 +6257,8 @@
       "49:381": true,
       "44:347": true,
       "45:400": true,
-      "49:371": true
+      "49:371": true,
+      "44:208": true
     },
     "subs_baselined": {
       "31": true,
@@ -6456,7 +6457,9 @@
       "49:68": true,
       "49:75": true,
       "44:336": true,
-      "45:545": true
+      "45:545": true,
+      "49:368": true,
+      "49:379": true
     },
     "bonus_posted": {
       "31": true,
@@ -7559,6 +7562,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:42:06.338470+00:00",
       "tweet_id": "2101683321918849373"
+    },
+    {
+      "key": "sub:45:553",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:42:49.504886+00:00",
+      "tweet_id": "2101683503167316170"
     }
   ],
   "form_spotlight": {
@@ -7568,22 +7577,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:45:553",
-      "story": {
-        "type": "substitution",
-        "key": "sub:45:553",
-        "player": "Isidor",
-        "team": "SUN",
-        "home": "MCI",
-        "away": "SUN",
-        "score": "4-3",
-        "minute": 69
-      },
-      "image_path": "assets/generated/live_sub_45_553.png",
-      "caption": "\ud83d\udd04 SUB! 69' Isidor (SUN) is on. MCI 4-3 SUN.\n\nFresh legs -- could this pay off in FPL terms? #FPL #PremierLeague #FPLFamily #FantasyPremierLeague #SUN\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-09-20T14:34:24.814366+00:00"
-    },
     {
       "key": "sub:49:74",
       "story": {
@@ -7712,6 +7705,22 @@
       "image_path": "assets/generated/live_yellow_card_44_211_1.png",
       "caption": "\ud83d\udfe8 YELLOW CARD! 80' Yeremy (CRY) is booked. LEE 0-0 CRY.\n\nWorth keeping an eye on for next week. #FPL #FantasyFootball #FPLTwitter #PremierLeague #CRY\n\nFollow for the next one.",
       "queued_at": "2026-09-20T14:41:22.190426+00:00"
+    },
+    {
+      "key": "sub:44:208",
+      "story": {
+        "type": "substitution",
+        "key": "sub:44:208",
+        "player": "Sarr",
+        "team": "CRY",
+        "home": "LEE",
+        "away": "CRY",
+        "score": "0-0",
+        "minute": 81
+      },
+      "image_path": "assets/generated/live_sub_44_208.png",
+      "caption": "\ud83d\udd04 SUB! 81' Sarr (CRY) is on. LEE 0-0 CRY.\n\nFresh legs -- could this pay off in FPL terms? #FPL #PremierLeague #FPLFamily #FantasyPremierLeague #CRY\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-09-20T14:42:48.401389+00:00"
     }
   ]
 }
