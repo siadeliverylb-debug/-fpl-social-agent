@@ -5339,14 +5339,68 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-20T12:38:20.507678+00:00",
+  "last_snapshot_at": "2026-09-20T13:33:51.985861+00:00",
   "recapped_events": [
     1,
     2,
     3,
     4
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form:hot:202609201333",
+      "story": {
+        "type": "form_hot",
+        "key": "form:hot:202609201333",
+        "players": [
+          {
+            "name": "Gro\u00df",
+            "team": "BHA",
+            "form": 9.4,
+            "total_points": 47,
+            "price_millions": 5.8,
+            "selected": 24.4
+          },
+          {
+            "name": "Tarkowski",
+            "team": "EVE",
+            "form": 8.6,
+            "total_points": 43,
+            "price_millions": 6.1,
+            "selected": 14.6
+          },
+          {
+            "name": "Schade",
+            "team": "BRE",
+            "form": 7.8,
+            "total_points": 39,
+            "price_millions": 6.1,
+            "selected": 8.8
+          },
+          {
+            "name": "De Cuyper",
+            "team": "BHA",
+            "form": 7.6,
+            "total_points": 38,
+            "price_millions": 4.9,
+            "selected": 25.9
+          },
+          {
+            "name": "Bogle",
+            "team": "LEE",
+            "form": 7.6,
+            "total_points": 38,
+            "price_millions": 4.6,
+            "selected": 6.2
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_202609201333.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Gro\u00df (BHA) - 9.4 pts/game, \u00a35.8m\n2. Tarkowski (EVE) - 8.6 pts/game, \u00a36.1m\n3. Schade (BRE) - 7.8 pts/game, \u00a36.1m\n4. De Cuyper (BHA) - 7.6 pts/game, \u00a34.9m\n5. Bogle (LEE) - 7.6 pts/game, \u00a34.6m\n\nWho's in your team? Who are you buying? #FPL #PremierLeague #FPLFamily #FantasyPremierLeague\n\nFollow for the next one.",
+      "created_at": "2026-09-20T13:33:52.063482+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -7394,5 +7448,11 @@
       "tweet_id": "2101665213816676755"
     }
   ],
-  "live_queue": []
+  "live_queue": [],
+  "form_spotlight": {
+    "last_at": "2026-09-20T13:33:51.985300+00:00",
+    "next": "cold",
+    "day": "2026-09-20",
+    "count": 1
+  }
 }
