@@ -5922,7 +5922,9 @@
       "45:399:goals_scored": 1,
       "45:397:assists": 1,
       "44:330:yellow_cards": 1,
-      "45:541:assists": 1
+      "45:541:assists": 1,
+      "45:397:goals_scored": 1,
+      "45:388:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -5992,10 +5994,10 @@
         "score": "1-1"
       },
       "45:h": {
-        "player": "Cherki",
+        "player": "Semenyo",
         "team": "MCI",
-        "assisted_by": "Semenyo",
-        "score": "2-1"
+        "assisted_by": "Gu\u00e9hi",
+        "score": "3-2"
       },
       "45:a": {
         "player": "Brobbey",
@@ -6078,7 +6080,7 @@
         0
       ],
       "45": [
-        2,
+        3,
         2
       ],
       "50": [
@@ -6434,18 +6436,7 @@
       "46": true,
       "47": true
     },
-    "goal_pending": {
-      "45:397:goals_scored": {
-        "value": 1,
-        "since": "2026-09-20T13:46:57.526988+00:00",
-        "minute": 43
-      },
-      "45:388:assists": {
-        "value": 1,
-        "since": "2026-09-20T13:48:20.326090+00:00",
-        "minute": 43
-      }
-    }
+    "goal_pending": {}
   },
   "live_post_log": [
     {
@@ -7421,6 +7412,12 @@
       "type": "goal",
       "posted_at": "2026-09-20T13:42:37.059531+00:00",
       "tweet_id": "2101668351659393189"
+    },
+    {
+      "key": "goal:45:397:1",
+      "type": "goal",
+      "posted_at": "2026-09-20T13:53:22.806647+00:00",
+      "tweet_id": "2101671060114448637"
     }
   ],
   "form_spotlight": {
