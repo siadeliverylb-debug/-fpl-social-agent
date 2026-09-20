@@ -6249,7 +6249,9 @@
       "49:375": true,
       "49:377": true,
       "49:71": true,
-      "45:553": true
+      "45:553": true,
+      "49:74": true,
+      "49:608": true
     },
     "subs_baselined": {
       "31": true,
@@ -7522,6 +7524,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:34:25.932303+00:00",
       "tweet_id": "2101681391196934603"
+    },
+    {
+      "key": "goal:45:552:3",
+      "type": "goal",
+      "posted_at": "2026-09-20T14:35:09.131583+00:00",
+      "tweet_id": "2101681572327907758"
     }
   ],
   "form_spotlight": {
@@ -7531,23 +7539,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "goal:45:552:3",
-      "story": {
-        "type": "goal",
-        "key": "goal:45:552:3",
-        "player": "Brobbey",
-        "team": "SUN",
-        "home": "MCI",
-        "away": "SUN",
-        "minute": 58,
-        "score": "4-3",
-        "assisted_by": "N.Angulo"
-      },
-      "image_path": "assets/generated/live_goal_45_552_3.png",
-      "caption": "\u26bd GOAL! 58' Brobbey (SUN)! Assisted by N.Angulo. MCI 4-3 SUN.\n\nNailed on captain material? #FPL #PremierLeague #FantasyPremierLeague #FPLFamily #SUN\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-09-20T14:31:31.995713+00:00"
-    },
     {
       "key": "sub:49:375",
       "story": {
@@ -7611,6 +7602,38 @@
       "image_path": "assets/generated/live_sub_45_553.png",
       "caption": "\ud83d\udd04 SUB! 69' Isidor (SUN) is on. MCI 4-3 SUN.\n\nFresh legs -- could this pay off in FPL terms? #FPL #PremierLeague #FPLFamily #FantasyPremierLeague #SUN\n\nTurn on notifications to catch these as they land.",
       "queued_at": "2026-09-20T14:34:24.814366+00:00"
+    },
+    {
+      "key": "sub:49:74",
+      "story": {
+        "type": "substitution",
+        "key": "sub:49:74",
+        "player": "Brooks",
+        "team": "BOU",
+        "home": "BOU",
+        "away": "LIV",
+        "score": "0-1",
+        "minute": 77
+      },
+      "image_path": "assets/generated/live_sub_49_74.png",
+      "caption": "\ud83d\udd04 SUB! 77' Brooks (BOU) is on. BOU 0-1 LIV.\n\nWorth watching for a late returns. #FPL #FPLTips #PremierLeague #FantasyPremierLeague #BOU\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-09-20T14:35:07.915802+00:00"
+    },
+    {
+      "key": "sub:49:608",
+      "story": {
+        "type": "substitution",
+        "key": "sub:49:608",
+        "player": "Jebbison",
+        "team": "BOU",
+        "home": "BOU",
+        "away": "LIV",
+        "score": "0-1",
+        "minute": 77
+      },
+      "image_path": "assets/generated/live_sub_49_608.png",
+      "caption": "\ud83d\udd04 SUB! 77' Jebbison (BOU) is on. BOU 0-1 LIV.\n\nImpact sub, or too little too late? #FPL #FPLFamily #FantasyPremierLeague #FPLCommunity #BOU\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-09-20T14:35:07.978829+00:00"
     }
   ]
 }
