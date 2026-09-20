@@ -5925,7 +5925,9 @@
       "45:541:assists": 1,
       "45:397:goals_scored": 1,
       "45:388:assists": 1,
-      "49:368:yellow_cards": 1
+      "49:368:yellow_cards": 1,
+      "49:379:goals_scored": 1,
+      "49:379:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6005,6 +6007,12 @@
         "team": "SUN",
         "assisted_by": "Meunier",
         "score": "2-2"
+      },
+      "49:a": {
+        "player": "Isak",
+        "team": "LIV",
+        "assisted_by": null,
+        "score": "0-1"
       }
     },
     "posted_score": {
@@ -6074,7 +6082,7 @@
       ],
       "49": [
         0,
-        0
+        1
       ],
       "44": [
         0,
@@ -6450,9 +6458,14 @@
         "since": "2026-09-20T14:12:11.942247+00:00",
         "minute": 51
       },
-      "49:379:goals_scored": {
+      "49:366:assists": {
         "value": 1,
-        "since": "2026-09-20T14:14:58.053040+00:00",
+        "since": "2026-09-20T14:21:56.747338+00:00",
+        "minute": 63
+      },
+      "45:397:goals_scored": {
+        "value": 2,
+        "since": "2026-09-20T14:21:56.747380+00:00",
         "minute": 55
       }
     }
@@ -7449,6 +7462,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:12:12.848646+00:00",
       "tweet_id": "2101675800017989846"
+    },
+    {
+      "key": "yellow_card:49:379:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-20T14:21:57.768211+00:00",
+      "tweet_id": "2101678253337702809"
     }
   ],
   "form_spotlight": {
@@ -7457,5 +7476,22 @@
     "day": "2026-09-20",
     "count": 1
   },
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "goal:49:379:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:49:379:1",
+        "player": "Isak",
+        "team": "LIV",
+        "home": "BOU",
+        "away": "LIV",
+        "minute": 55,
+        "score": "0-1"
+      },
+      "image_path": "assets/generated/live_goal_49_379_1.png",
+      "caption": "\u26bd GOAL! 55' Isak (LIV)! BOU 0-1 LIV.\n\nWho's benefiting from that in FPL? #FPL #FantasyFootball #FantasyPremierLeague #FPLCommunity #LIV\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-09-20T14:21:56.888254+00:00"
+    }
+  ]
 }
