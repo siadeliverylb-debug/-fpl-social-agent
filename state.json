@@ -7509,6 +7509,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:32:59.805098+00:00",
       "tweet_id": "2101681029828268454"
+    },
+    {
+      "key": "yellow_card:44:210:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-20T14:33:42.746370+00:00",
+      "tweet_id": "2101681210028179941"
     }
   ],
   "form_spotlight": {
@@ -7518,22 +7524,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "yellow_card:44:210:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:44:210:1",
-        "player": "Wharton",
-        "team": "CRY",
-        "home": "LEE",
-        "away": "CRY",
-        "minute": 71,
-        "score": "0-0"
-      },
-      "image_path": "assets/generated/live_yellow_card_44_210_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 71' Wharton (CRY) is booked. LEE 0-0 CRY.\n\nWorth keeping an eye on for next week. #FPL #FPLCommunity #FPLFamily #FPLTwitter #CRY\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-09-20T14:31:31.867456+00:00"
-    },
     {
       "key": "sub:45:646",
       "story": {
