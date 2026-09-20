@@ -3870,8 +3870,8 @@
       "web_name": "Doku",
       "team": "MCI",
       "now_cost": 74,
-      "status": "d",
-      "news": "Calf injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-08-18T17:00:08.385597Z"
     },
     "402": {
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-20T13:33:51.985861+00:00",
+  "last_snapshot_at": "2026-09-20T14:03:31.352741+00:00",
   "recapped_events": [
     1,
     2,
