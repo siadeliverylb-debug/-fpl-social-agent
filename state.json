@@ -5745,7 +5745,7 @@
       },
       "49": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       },
       "44": {
         "started": true,
@@ -5933,7 +5933,10 @@
       "44:210:yellow_cards": 1,
       "45:551:assists": 1,
       "49:566:yellow_cards": 1,
-      "44:211:yellow_cards": 1
+      "44:211:yellow_cards": 1,
+      "44:213:yellow_cards": 1,
+      "45:411:goals_scored": 1,
+      "45:391:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -6003,10 +6006,10 @@
         "score": "1-1"
       },
       "45:h": {
-        "player": "Semenyo",
+        "player": "Haaland",
         "team": "MCI",
-        "assisted_by": null,
-        "score": "4-2"
+        "assisted_by": "Gvardiol",
+        "score": "5-3"
       },
       "45:a": {
         "player": "Brobbey",
@@ -6095,7 +6098,7 @@
         0
       ],
       "45": [
-        4,
+        5,
         3
       ],
       "50": [
@@ -6263,7 +6266,8 @@
       "49:76": true,
       "45:534": true,
       "49:72": true,
-      "45:387": true
+      "45:387": true,
+      "44:648": true
     },
     "subs_baselined": {
       "31": true,
@@ -6468,7 +6472,8 @@
       "45:237": true,
       "44:211": true,
       "44:222": true,
-      "45:541": true
+      "45:541": true,
+      "45:399": true
     },
     "bonus_posted": {
       "31": true,
@@ -6486,7 +6491,8 @@
       "42": true,
       "43": true,
       "46": true,
-      "47": true
+      "47": true,
+      "49": true
     },
     "goal_pending": {
       "44:204:goals_scored": {
@@ -6498,16 +6504,6 @@
         "value": 1,
         "since": "2026-09-20T14:12:11.942247+00:00",
         "minute": 51
-      },
-      "45:411:goals_scored": {
-        "value": 1,
-        "since": "2026-09-20T14:49:49.764647+00:00",
-        "minute": 84
-      },
-      "45:391:assists": {
-        "value": 1,
-        "since": "2026-09-20T14:49:49.764675+00:00",
-        "minute": 84
       }
     }
   },
@@ -7635,6 +7631,12 @@
       "type": "yellow_card",
       "posted_at": "2026-09-20T14:51:17.359105+00:00",
       "tweet_id": "2101685633286901824"
+    },
+    {
+      "key": "sub:44:208",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:53:56.943919+00:00",
+      "tweet_id": "2101686302760415399"
     }
   ],
   "form_spotlight": {
@@ -7644,22 +7646,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:44:208",
-      "story": {
-        "type": "substitution",
-        "key": "sub:44:208",
-        "player": "Sarr",
-        "team": "CRY",
-        "home": "LEE",
-        "away": "CRY",
-        "score": "0-0",
-        "minute": 81
-      },
-      "image_path": "assets/generated/live_sub_44_208.png",
-      "caption": "\ud83d\udd04 SUB! 81' Sarr (CRY) is on. LEE 0-0 CRY.\n\nFresh legs -- could this pay off in FPL terms? #FPL #PremierLeague #FPLFamily #FantasyPremierLeague #CRY\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-09-20T14:42:48.401389+00:00"
-    },
     {
       "key": "sub:44:224",
       "story": {
@@ -7739,6 +7725,96 @@
       "image_path": "assets/generated/live_sub_45_387.png",
       "caption": "\ud83d\udd04 SUB! 85' O'Reilly (MCI) is on. MCI 4-3 SUN.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #FantasyPremierLeague #FPLFamily #MCI\n\nFollow for the next one.",
       "queued_at": "2026-09-20T14:51:16.261885+00:00"
+    },
+    {
+      "key": "fulltime:49",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:49",
+        "home": "BOU",
+        "away": "LIV",
+        "score": "0-1",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_49.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): BOU 0-1 LIV.\n\nBonus points still to be confirmed. #FPL #FantasyFootball #FPLFamily #FPLTips\n\nFollow for the next one.",
+      "queued_at": "2026-09-20T14:53:55.366177+00:00"
+    },
+    {
+      "key": "bonus:49",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:49",
+        "home": "BOU",
+        "away": "LIV",
+        "score": "0-1",
+        "players": [
+          {
+            "name": "Isak",
+            "points": 3
+          },
+          {
+            "name": "A.Becker",
+            "points": 2
+          },
+          {
+            "name": "Araujo",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_49.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: BOU 0-1 LIV.\nIsak +3, A.Becker +2, Araujo +1.\n\n#FPL #PremierLeague #FPLTips #FPLCommunity #BOUvLIV\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-09-20T14:53:55.427280+00:00"
+    },
+    {
+      "key": "sub:44:648",
+      "story": {
+        "type": "substitution",
+        "key": "sub:44:648",
+        "player": "Bahoya",
+        "team": "LEE",
+        "home": "LEE",
+        "away": "CRY",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_44_648.png",
+      "caption": "\ud83d\udd04 SUB! 90' Bahoya (LEE) is on. LEE 0-0 CRY.\n\nImpact sub, or too little too late? #FPL #FPLCommunity #FantasyFootball #FPLFamily #LEE\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-09-20T14:53:55.490038+00:00"
+    },
+    {
+      "key": "yellow_card:44:213:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:44:213:1",
+        "player": "Lerma",
+        "team": "CRY",
+        "home": "LEE",
+        "away": "CRY",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_44_213_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Lerma (CRY) is booked. LEE 0-0 CRY.\n\nWorth keeping an eye on for next week. #FPL #FPLFamily #FPLCommunity #FPLTwitter #CRY\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-09-20T14:53:55.552281+00:00"
+    },
+    {
+      "key": "goal:45:411:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:45:411:1",
+        "player": "Haaland",
+        "team": "MCI",
+        "home": "MCI",
+        "away": "SUN",
+        "minute": 84,
+        "score": "5-3",
+        "assisted_by": "Gvardiol"
+      },
+      "image_path": "assets/generated/live_goal_45_411_1.png",
+      "caption": "\u26bd GOAL! 84' Haaland (MCI)! Assisted by Gvardiol. MCI 5-3 SUN.\n\nNailed on captain material? #FPL #FPLTips #FPLTwitter #FPLCommunity #MCI\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-09-20T14:53:55.615482+00:00"
     }
   ]
 }
