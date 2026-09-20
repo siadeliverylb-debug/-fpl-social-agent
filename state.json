@@ -5943,7 +5943,8 @@
       "44:211:yellow_cards": 1,
       "44:213:yellow_cards": 1,
       "45:411:goals_scored": 1,
-      "45:391:assists": 1
+      "45:391:assists": 1,
+      "50:268:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -7736,6 +7737,12 @@
       "type": "kickoff",
       "posted_at": "2026-09-20T15:31:43.582713+00:00",
       "tweet_id": "2101695809935065340"
+    },
+    {
+      "key": "yellow_card:50:268:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-20T16:23:58.770852+00:00",
+      "tweet_id": "2101708959384007088"
     }
   ],
   "form_spotlight": {
