@@ -2390,8 +2390,8 @@
       "web_name": "Tete",
       "team": "FUL",
       "now_cost": 44,
-      "status": "i",
-      "news": "Concussion - Expected back 10 Oct",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-18T12:30:09.546158Z"
     },
     "257": {
@@ -5339,14 +5339,68 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-20T18:36:13.647020+00:00",
+  "last_snapshot_at": "2026-09-20T19:04:07.112753+00:00",
   "recapped_events": [
     1,
     2,
     3,
     4
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form:cold:202609201904",
+      "story": {
+        "type": "form_cold",
+        "key": "form:cold:202609201904",
+        "players": [
+          {
+            "name": "Lammens",
+            "team": "MUN",
+            "form": 2.2,
+            "total_points": 11,
+            "price_millions": 4.9,
+            "selected": 10.1
+          },
+          {
+            "name": "Konsa",
+            "team": "ARS",
+            "form": 2.4,
+            "total_points": 12,
+            "price_millions": 4.6,
+            "selected": 19.4
+          },
+          {
+            "name": "Diop",
+            "team": "IPS",
+            "form": 2.4,
+            "total_points": 12,
+            "price_millions": 4.0,
+            "selected": 13.1
+          },
+          {
+            "name": "Wissa",
+            "team": "NEW",
+            "form": 3.0,
+            "total_points": 15,
+            "price_millions": 6.2,
+            "selected": 18.9
+          },
+          {
+            "name": "Tzolis",
+            "team": "ARS",
+            "form": 3.2,
+            "total_points": 16,
+            "price_millions": 6.3,
+            "selected": 12.7
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_cold_202609201904.png",
+      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Lammens (MUN) - 2.2 pts/game, \u00a34.9m, owned by 10%\n2. Konsa (ARS) - 2.4 pts/game, \u00a34.6m, owned by 19%\n3. Diop (IPS) - 2.4 pts/game, \u00a34.0m, owned by 13%\n4. Wissa (NEW) - 3.0 pts/game, \u00a36.2m, owned by 19%\n5. Tzolis (ARS) - 3.2 pts/game, \u00a36.3m, owned by 13%\n\nWho's getting binned first? #FPL #FantasyPremierLeague #FPLTips #FantasyFootball\n\nTurn on notifications to catch these as they land.",
+      "created_at": "2026-09-20T19:04:07.181665+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -7871,10 +7925,10 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-09-20T13:33:51.985300+00:00",
-    "next": "cold",
+    "last_at": "2026-09-20T19:04:07.112264+00:00",
+    "next": "hot",
     "day": "2026-09-20",
-    "count": 1
+    "count": 2
   },
   "live_queue": []
 }
