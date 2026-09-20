@@ -5166,8 +5166,8 @@
       "web_name": "Reinildo",
       "team": "SUN",
       "now_cost": 44,
-      "status": "s",
-      "news": "Suspended until 10 Oct",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-12T21:30:09.421687Z"
     },
     "537": {
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-20T15:35:23.983654+00:00",
+  "last_snapshot_at": "2026-09-20T16:03:25.300959+00:00",
   "recapped_events": [
     1,
     2,
