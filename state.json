@@ -6247,7 +6247,8 @@
       "44:343": true,
       "45:646": true,
       "49:375": true,
-      "49:377": true
+      "49:377": true,
+      "49:71": true
     },
     "subs_baselined": {
       "31": true,
@@ -6439,7 +6440,9 @@
       "44:577": true,
       "44:330": true,
       "44:345": true,
-      "45:551": true
+      "45:551": true,
+      "49:366": true,
+      "49:627": true
     },
     "bonus_posted": {
       "31": true,
@@ -7500,6 +7503,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:32:16.656138+00:00",
       "tweet_id": "2101680848760115478"
+    },
+    {
+      "key": "sub:44:343",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:32:59.805098+00:00",
+      "tweet_id": "2101681029828268454"
     }
   ],
   "form_spotlight": {
@@ -7509,23 +7518,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:44:343",
-      "story": {
-        "type": "substitution",
-        "key": "sub:44:343",
-        "player": "James",
-        "team": "LEE",
-        "home": "LEE",
-        "away": "CRY",
-        "score": "0-0",
-        "minute": 71,
-        "subbed_out": "Tanaka"
-      },
-      "image_path": "assets/generated/live_sub_44_343.png",
-      "caption": "\ud83d\udd04 SUB! 71' James (LEE) is on. Off: Tanaka. LEE 0-0 CRY.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #PremierLeague #FPLFamily #LEE\n\nFollow for the next one.",
-      "queued_at": "2026-09-20T14:31:31.803712+00:00"
-    },
     {
       "key": "yellow_card:44:210:1",
       "story": {
@@ -7607,6 +7599,22 @@
       "image_path": "assets/generated/live_sub_49_377.png",
       "caption": "\ud83d\udd04 SUB! 73' Munoz (LIV) is on. BOU 0-1 LIV.\n\nDoes this open a chance for a start next week? #FPL #FantasyPremierLeague #FPLTwitter #PremierLeague #LIV\n\nFollow for the next one.",
       "queued_at": "2026-09-20T14:32:15.470228+00:00"
+    },
+    {
+      "key": "sub:49:71",
+      "story": {
+        "type": "substitution",
+        "key": "sub:49:71",
+        "player": "Cook",
+        "team": "BOU",
+        "home": "BOU",
+        "away": "LIV",
+        "score": "0-1",
+        "minute": 75
+      },
+      "image_path": "assets/generated/live_sub_49_71.png",
+      "caption": "\ud83d\udd04 SUB! 75' Cook (BOU) is on. BOU 0-1 LIV.\n\nImpact sub, or too little too late? #FPL #FPLTwitter #FPLFamily #FantasyPremierLeague #BOU\n\nFollow for the next one.",
+      "queued_at": "2026-09-20T14:32:58.642361+00:00"
     }
   ]
 }
