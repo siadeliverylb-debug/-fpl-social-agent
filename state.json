@@ -7553,6 +7553,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:41:23.251585+00:00",
       "tweet_id": "2101683141563838844"
+    },
+    {
+      "key": "sub:49:71",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:42:06.338470+00:00",
+      "tweet_id": "2101683321918849373"
     }
   ],
   "form_spotlight": {
@@ -7562,22 +7568,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:49:71",
-      "story": {
-        "type": "substitution",
-        "key": "sub:49:71",
-        "player": "Cook",
-        "team": "BOU",
-        "home": "BOU",
-        "away": "LIV",
-        "score": "0-1",
-        "minute": 75
-      },
-      "image_path": "assets/generated/live_sub_49_71.png",
-      "caption": "\ud83d\udd04 SUB! 75' Cook (BOU) is on. BOU 0-1 LIV.\n\nImpact sub, or too little too late? #FPL #FPLTwitter #FPLFamily #FantasyPremierLeague #BOU\n\nFollow for the next one.",
-      "queued_at": "2026-09-20T14:32:58.642361+00:00"
-    },
     {
       "key": "sub:45:553",
       "story": {
