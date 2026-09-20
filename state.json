@@ -5753,7 +5753,7 @@
       },
       "45": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       },
       "50": {
         "started": false,
@@ -6493,7 +6493,8 @@
       "46": true,
       "47": true,
       "49": true,
-      "44": true
+      "44": true,
+      "45": true
     },
     "goal_pending": {
       "44:204:goals_scored": {
@@ -7680,6 +7681,12 @@
       "type": "bonus_points",
       "posted_at": "2026-09-20T15:00:44.442743+00:00",
       "tweet_id": "2101688012161884546"
+    },
+    {
+      "key": "sub:44:648",
+      "type": "substitution",
+      "posted_at": "2026-09-20T15:01:27.484385+00:00",
+      "tweet_id": "2101688192613437744"
     }
   ],
   "form_spotlight": {
@@ -7689,22 +7696,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:44:648",
-      "story": {
-        "type": "substitution",
-        "key": "sub:44:648",
-        "player": "Bahoya",
-        "team": "LEE",
-        "home": "LEE",
-        "away": "CRY",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_44_648.png",
-      "caption": "\ud83d\udd04 SUB! 90' Bahoya (LEE) is on. LEE 0-0 CRY.\n\nImpact sub, or too little too late? #FPL #FPLCommunity #FantasyFootball #FPLFamily #LEE\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-09-20T14:53:55.490038+00:00"
-    },
     {
       "key": "yellow_card:44:213:1",
       "story": {
@@ -7778,6 +7769,47 @@
       "image_path": "assets/generated/live_bonus_44.png",
       "caption": "\ud83c\udf81 BONUS POINTS confirmed: LEE 0-0 CRY.\nTrafford +3, Justin +2, Mitchell +1.\n\n#FPL #FPLFamily #FantasyPremierLeague #FPLTwitter #LEEvCRY\n\nMore like this on the feed -- give us a follow.",
       "queued_at": "2026-09-20T14:56:47.683158+00:00"
+    },
+    {
+      "key": "fulltime:45",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:45",
+        "home": "MCI",
+        "away": "SUN",
+        "score": "5-3",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_45.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): MCI 5-3 SUN.\n\nBonus points still to be confirmed. #FPL #FPLCommunity #FPLTips #FantasyPremierLeague\n\nFollow for the next one.",
+      "queued_at": "2026-09-20T15:01:26.399676+00:00"
+    },
+    {
+      "key": "bonus:45",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:45",
+        "home": "MCI",
+        "away": "SUN",
+        "score": "5-3",
+        "players": [
+          {
+            "name": "Brobbey",
+            "points": 3
+          },
+          {
+            "name": "Semenyo",
+            "points": 2
+          },
+          {
+            "name": "Cherki",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_45.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: MCI 5-3 SUN.\nBrobbey +3, Semenyo +2, Cherki +1.\n\n#FPL #FPLTwitter #FPLFamily #FPLTips #MCIvSUN\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-09-20T15:01:26.435059+00:00"
     }
   ]
 }
