@@ -5947,7 +5947,9 @@
       "50:268:yellow_cards": 1,
       "50:258:yellow_cards": 1,
       "50:419:own_goals": 1,
-      "50:271:yellow_cards": 1
+      "50:271:yellow_cards": 1,
+      "50:428:goals_scored": 1,
+      "50:257:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -6033,6 +6035,12 @@
         "team": "LIV",
         "assisted_by": "Wirtz",
         "score": "0-1"
+      },
+      "50:a": {
+        "player": "Cunha",
+        "team": "MUN",
+        "assisted_by": null,
+        "score": "1-1"
       }
     },
     "posted_score": {
@@ -6114,7 +6122,7 @@
       ],
       "50": [
         1,
-        0
+        1
       ]
     },
     "subs_seen": {
@@ -6533,16 +6541,6 @@
         "value": 1,
         "since": "2026-09-20T14:12:11.942247+00:00",
         "minute": 51
-      },
-      "50:428:goals_scored": {
-        "value": 1,
-        "since": "2026-09-20T17:17:11.177538+00:00",
-        "minute": 89
-      },
-      "50:257:assists": {
-        "value": 1,
-        "since": "2026-09-20T17:17:11.177558+00:00",
-        "minute": 89
       },
       "50:415:assists": {
         "value": 1,
@@ -7843,6 +7841,12 @@
       "type": "yellow_card",
       "posted_at": "2026-09-20T17:20:03.020173+00:00",
       "tweet_id": "2101723070339657972"
+    },
+    {
+      "key": "assist:50:257:1",
+      "type": "assist",
+      "posted_at": "2026-09-20T17:20:45.689193+00:00",
+      "tweet_id": "2101723249235124368"
     }
   ],
   "form_spotlight": {
@@ -7851,5 +7855,22 @@
     "day": "2026-09-20",
     "count": 1
   },
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "goal:50:428:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:50:428:1",
+        "player": "Cunha",
+        "team": "MUN",
+        "home": "FUL",
+        "away": "MUN",
+        "minute": 89,
+        "score": "1-1"
+      },
+      "image_path": "assets/generated/live_goal_50_428_1.png",
+      "caption": "\u26bd GOAL! 89' Cunha (MUN)! FUL 1-1 MUN.\n\nWho's benefiting from that in FPL? #FPL #PremierLeague #FantasyPremierLeague #FPLTwitter #MUN\n\nFollow for the next one.",
+      "queued_at": "2026-09-20T17:20:44.701615+00:00"
+    }
+  ]
 }
