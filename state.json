@@ -6466,7 +6466,8 @@
       "49:379": true,
       "45:237": true,
       "44:211": true,
-      "44:222": true
+      "44:222": true,
+      "45:541": true
     },
     "bonus_posted": {
       "31": true,
@@ -6496,6 +6497,16 @@
         "value": 1,
         "since": "2026-09-20T14:12:11.942247+00:00",
         "minute": 51
+      },
+      "45:411:goals_scored": {
+        "value": 1,
+        "since": "2026-09-20T14:49:49.764647+00:00",
+        "minute": 84
+      },
+      "45:391:assists": {
+        "value": 1,
+        "since": "2026-09-20T14:49:49.764675+00:00",
+        "minute": 84
       }
     }
   },
@@ -7605,6 +7616,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:49:07.826448+00:00",
       "tweet_id": "2101685090271322483"
+    },
+    {
+      "key": "sub:45:400",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:49:50.848715+00:00",
+      "tweet_id": "2101685270693454245"
     }
   ],
   "form_spotlight": {
@@ -7614,22 +7631,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:45:400",
-      "story": {
-        "type": "substitution",
-        "key": "sub:45:400",
-        "player": "Doku",
-        "team": "MCI",
-        "home": "MCI",
-        "away": "SUN",
-        "score": "4-3",
-        "minute": 75
-      },
-      "image_path": "assets/generated/live_sub_45_400.png",
-      "caption": "\ud83d\udd04 SUB! 75' Doku (MCI) is on. MCI 4-3 SUN.\n\nImpact sub, or too little too late? #FPL #PremierLeague #FantasyPremierLeague #FPLFamily #MCI\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-09-20T14:40:39.195158+00:00"
-    },
     {
       "key": "sub:49:371",
       "story": {
