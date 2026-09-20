@@ -7649,6 +7649,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:55:23.046038+00:00",
       "tweet_id": "2101686663659315326"
+    },
+    {
+      "key": "sub:45:534",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:56:05.853717+00:00",
+      "tweet_id": "2101686843393683875"
     }
   ],
   "form_spotlight": {
@@ -7658,22 +7664,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:45:534",
-      "story": {
-        "type": "substitution",
-        "key": "sub:45:534",
-        "player": "Hume",
-        "team": "SUN",
-        "home": "MCI",
-        "away": "SUN",
-        "score": "4-3",
-        "minute": 81
-      },
-      "image_path": "assets/generated/live_sub_45_534.png",
-      "caption": "\ud83d\udd04 SUB! 81' Hume (SUN) is on. MCI 4-3 SUN.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyPremierLeague #FantasyFootball #FPLCommunity #SUN\n\nFollow for the next one.",
-      "queued_at": "2026-09-20T14:47:40.007127+00:00"
-    },
     {
       "key": "sub:49:72",
       "story": {
