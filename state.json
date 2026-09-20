@@ -5,7 +5,7 @@
     "1": {
       "web_name": "Raya",
       "team": "ARS",
-      "now_cost": 60,
+      "now_cost": 61,
       "status": "a",
       "news": "",
       "news_added": null
@@ -69,7 +69,7 @@
     "9": {
       "web_name": "Hincapie",
       "team": "ARS",
-      "now_cost": 53,
+      "now_cost": 52,
       "status": "a",
       "news": "",
       "news_added": null
@@ -565,7 +565,7 @@
     "62": {
       "web_name": "Diakit\u00e9",
       "team": "BOU",
-      "now_cost": 50,
+      "now_cost": 49,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1189,7 +1189,7 @@
     "138": {
       "web_name": "Kostoulas",
       "team": "BHA",
-      "now_cost": 55,
+      "now_cost": 56,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1437,7 +1437,7 @@
     "158": {
       "web_name": "Gittens",
       "team": "CHE",
-      "now_cost": 59,
+      "now_cost": 58,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1805,7 +1805,7 @@
     "575": {
       "web_name": "Yirenkyi",
       "team": "COV",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2205,7 +2205,7 @@
     "232": {
       "web_name": "O'Brien",
       "team": "EVE",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2301,7 +2301,7 @@
     "247": {
       "web_name": "Hackney",
       "team": "EVE",
-      "now_cost": 55,
+      "now_cost": 54,
       "status": "a",
       "news": "",
       "news_added": "2026-08-26T22:00:07.797766Z"
@@ -2469,7 +2469,7 @@
     "269": {
       "web_name": "Sessegnon",
       "team": "FUL",
-      "now_cost": 44,
+      "now_cost": 43,
       "status": "a",
       "news": "",
       "news_added": "2026-09-14T11:30:07.403957Z"
@@ -3149,7 +3149,7 @@
     "571": {
       "web_name": "Florentino",
       "team": "IPS",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": "2026-08-25T11:30:07.678802Z"
@@ -3285,7 +3285,7 @@
     "337": {
       "web_name": "Aaronson",
       "team": "LEE",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4325,7 +4325,7 @@
     "448": {
       "web_name": "Burn",
       "team": "NEW",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "i",
       "news": "Ankle injury - Expected back 12 Oct",
       "news_added": "2026-08-23T18:00:08.367241Z"
@@ -5053,7 +5053,7 @@
     "525": {
       "web_name": "Fernandes",
       "team": "TOT",
-      "now_cost": 58,
+      "now_cost": 57,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5339,14 +5339,132 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-20T22:35:22.240851+00:00",
+  "last_snapshot_at": "2026-09-20T23:05:40.929255+00:00",
   "recapped_events": [
     1,
     2,
     3,
     4
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "price_batch:13:25a4d44eeed8",
+      "story": {
+        "type": "price_changes",
+        "key": "price_batch:13:25a4d44eeed8",
+        "changes": [
+          {
+            "pid": "158",
+            "player": "Gittens",
+            "team": "CHE",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.8
+          },
+          {
+            "pid": "525",
+            "player": "Fernandes",
+            "team": "TOT",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.7
+          },
+          {
+            "pid": "247",
+            "player": "Hackney",
+            "team": "EVE",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.4
+          },
+          {
+            "pid": "337",
+            "player": "Aaronson",
+            "team": "LEE",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.3
+          },
+          {
+            "pid": "9",
+            "player": "Hincapie",
+            "team": "ARS",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.2
+          },
+          {
+            "pid": "62",
+            "player": "Diakit\u00e9",
+            "team": "BOU",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.9
+          },
+          {
+            "pid": "575",
+            "player": "Yirenkyi",
+            "team": "COV",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.8
+          },
+          {
+            "pid": "232",
+            "player": "O'Brien",
+            "team": "EVE",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.8
+          },
+          {
+            "pid": "571",
+            "player": "Florentino",
+            "team": "IPS",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.8
+          },
+          {
+            "pid": "448",
+            "player": "Burn",
+            "team": "NEW",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.8
+          },
+          {
+            "pid": "269",
+            "player": "Sessegnon",
+            "team": "FUL",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.3
+          },
+          {
+            "pid": "1",
+            "player": "Raya",
+            "team": "ARS",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 6.1
+          },
+          {
+            "pid": "138",
+            "player": "Kostoulas",
+            "team": "BHA",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.6
+          }
+        ]
+      },
+      "image_path": "assets/generated/price_batch_13_25a4d44eeed8.png",
+      "caption": "\ud83d\udcca PRICE CHANGES: 11 falls, 2 rises.\n\n\ud83d\udd34 Gittens (CHE) -> \u00a35.8m\n\ud83d\udd34 Fernandes (TOT) -> \u00a35.7m\n\ud83d\udd34 Hackney (EVE) -> \u00a35.4m\n\ud83d\udd34 Aaronson (LEE) -> \u00a35.3m\n\ud83d\udd34 Hincapie (ARS) -> \u00a35.2m\n\ud83d\udd34 Diakit\u00e9 (BOU) -> \u00a34.9m\n\ud83d\udd34 Yirenkyi (COV) -> \u00a34.8m\n\ud83d\udd34 O'Brien (EVE) -> \u00a34.8m\n\ud83d\udd34 Florentino (IPS) -> \u00a34.8m\n\ud83d\udd34 Burn (NEW) -> \u00a34.8m\n\ud83d\udd34 Sessegnon (FUL) -> \u00a34.3m\n\ud83d\udfe2 Raya (ARS) -> \u00a36.1m\n\ud83d\udfe2 Kostoulas (BHA) -> \u00a35.6m\n\nWinners and losers in your squad? #FPL #FPLFamily #FantasyFootball #FPLTips\n\nFollow for the next one.",
+      "created_at": "2026-09-20T23:05:41.010563+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
