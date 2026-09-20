@@ -7831,6 +7831,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T17:18:37.965351+00:00",
       "tweet_id": "2101722713756766574"
+    },
+    {
+      "key": "sub:50:430",
+      "type": "substitution",
+      "posted_at": "2026-09-20T17:19:20.504326+00:00",
+      "tweet_id": "2101722891926524282"
     }
   ],
   "form_spotlight": {
@@ -7840,23 +7846,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:50:430",
-      "story": {
-        "type": "substitution",
-        "key": "sub:50:430",
-        "player": "Mount",
-        "team": "MUN",
-        "home": "FUL",
-        "away": "MUN",
-        "score": "1-0",
-        "minute": 89,
-        "subbed_out": "Rashford"
-      },
-      "image_path": "assets/generated/live_sub_50_430.png",
-      "caption": "\ud83d\udd04 SUB! 89' Mount (MUN) is on. Off: Rashford. FUL 1-0 MUN.\n\nFresh legs -- could this pay off in FPL terms? #FPL #PremierLeague #FantasyFootball #FPLFamily #MUN\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-09-20T17:17:11.444773+00:00"
-    },
     {
       "key": "yellow_card:50:271:1",
       "story": {
