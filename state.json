@@ -6248,7 +6248,8 @@
       "45:646": true,
       "49:375": true,
       "49:377": true,
-      "49:71": true
+      "49:71": true,
+      "45:553": true
     },
     "subs_baselined": {
       "31": true,
@@ -7515,6 +7516,12 @@
       "type": "yellow_card",
       "posted_at": "2026-09-20T14:33:42.746370+00:00",
       "tweet_id": "2101681210028179941"
+    },
+    {
+      "key": "sub:45:646",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:34:25.932303+00:00",
+      "tweet_id": "2101681391196934603"
     }
   ],
   "form_spotlight": {
@@ -7524,23 +7531,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:45:646",
-      "story": {
-        "type": "substitution",
-        "key": "sub:45:646",
-        "player": "Fofana",
-        "team": "SUN",
-        "home": "MCI",
-        "away": "SUN",
-        "score": "4-2",
-        "minute": 66,
-        "subbed_out": "N.Angulo"
-      },
-      "image_path": "assets/generated/live_sub_45_646.png",
-      "caption": "\ud83d\udd04 SUB! 66' Fofana (SUN) is on. Off: N.Angulo. MCI 4-2 SUN.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #FPLFamily #FantasyPremierLeague #SUN\n\nFollow for the next one.",
-      "queued_at": "2026-09-20T14:31:31.932197+00:00"
-    },
     {
       "key": "goal:45:552:3",
       "story": {
@@ -7605,6 +7595,22 @@
       "image_path": "assets/generated/live_sub_49_71.png",
       "caption": "\ud83d\udd04 SUB! 75' Cook (BOU) is on. BOU 0-1 LIV.\n\nImpact sub, or too little too late? #FPL #FPLTwitter #FPLFamily #FantasyPremierLeague #BOU\n\nFollow for the next one.",
       "queued_at": "2026-09-20T14:32:58.642361+00:00"
+    },
+    {
+      "key": "sub:45:553",
+      "story": {
+        "type": "substitution",
+        "key": "sub:45:553",
+        "player": "Isidor",
+        "team": "SUN",
+        "home": "MCI",
+        "away": "SUN",
+        "score": "4-3",
+        "minute": 69
+      },
+      "image_path": "assets/generated/live_sub_45_553.png",
+      "caption": "\ud83d\udd04 SUB! 69' Isidor (SUN) is on. MCI 4-3 SUN.\n\nFresh legs -- could this pay off in FPL terms? #FPL #PremierLeague #FPLFamily #FantasyPremierLeague #SUN\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-09-20T14:34:24.814366+00:00"
     }
   ]
 }
