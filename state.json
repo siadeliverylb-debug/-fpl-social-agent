@@ -7576,6 +7576,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:43:32.396923+00:00",
       "tweet_id": "2101683683048509509"
+    },
+    {
+      "key": "sub:49:608",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:44:15.172436+00:00",
+      "tweet_id": "2101683862682149180"
     }
   ],
   "form_spotlight": {
@@ -7585,22 +7591,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:49:608",
-      "story": {
-        "type": "substitution",
-        "key": "sub:49:608",
-        "player": "Jebbison",
-        "team": "BOU",
-        "home": "BOU",
-        "away": "LIV",
-        "score": "0-1",
-        "minute": 77
-      },
-      "image_path": "assets/generated/live_sub_49_608.png",
-      "caption": "\ud83d\udd04 SUB! 77' Jebbison (BOU) is on. BOU 0-1 LIV.\n\nImpact sub, or too little too late? #FPL #FPLFamily #FantasyPremierLeague #FPLCommunity #BOU\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-09-20T14:35:07.978829+00:00"
-    },
     {
       "key": "sub:49:381",
       "story": {
