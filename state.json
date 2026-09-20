@@ -5346,37 +5346,7 @@
     3,
     4
   ],
-  "pending": [
-    {
-      "key": "injury_batch:2:87209d52d30b",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:2:87209d52d30b",
-        "injuries": [
-          {
-            "pid": "10",
-            "player": "White",
-            "team": "ARS",
-            "status": "doubtful",
-            "news": "Groin injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "439",
-            "player": "\u0160e\u0161ko",
-            "team": "MUN",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_2_87209d52d30b.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 White (ARS) - doubtful: \"Groin injury - 75% chance of playing\"\n\ud83d\udea8 \u0160e\u0161ko (MUN) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nHow are you covering this one? #FPL #FPLTips #FPLTwitter #FantasyFootball\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-09-20T19:31:52.576093+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5439,7 +5409,8 @@
     "price_batch:51:3800610d9c98",
     "form:hot:202609201333",
     "injury_batch:1:b7103ca278a7",
-    "form:cold:202609201904"
+    "form:cold:202609201904",
+    "injury_batch:2:87209d52d30b"
   ],
   "post_log": [
     {
@@ -5719,6 +5690,12 @@
       "type": "form_cold",
       "posted_at": "2026-09-20T19:23:20.224452+00:00",
       "tweet_id": "2101754096449425899"
+    },
+    {
+      "key": "injury_batch:2:87209d52d30b",
+      "type": "injury_batch",
+      "posted_at": "2026-09-20T19:51:17.069116+00:00",
+      "tweet_id": "2101761129508712709"
     }
   ],
   "live": {
