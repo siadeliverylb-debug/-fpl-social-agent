@@ -7592,6 +7592,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:47:41.172632+00:00",
       "tweet_id": "2101684726780272907"
+    },
+    {
+      "key": "yellow_card:49:566:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-20T14:48:24.474924+00:00",
+      "tweet_id": "2101684908334936378"
     }
   ],
   "form_spotlight": {
@@ -7601,22 +7607,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "yellow_card:49:566:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:49:566:1",
-        "player": "Silva",
-        "team": "BOU",
-        "home": "BOU",
-        "away": "LIV",
-        "minute": 81,
-        "score": "0-1"
-      },
-      "image_path": "assets/generated/live_yellow_card_49_566_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 81' Silva (BOU) is booked. BOU 0-1 LIV.\n\nWorth keeping an eye on for next week. #FPL #FPLTips #FPLCommunity #PremierLeague #BOU\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-09-20T14:40:39.068036+00:00"
-    },
     {
       "key": "sub:44:347",
       "story": {
