@@ -6259,7 +6259,9 @@
       "45:400": true,
       "49:371": true,
       "44:208": true,
-      "44:224": true
+      "44:224": true,
+      "49:76": true,
+      "45:534": true
     },
     "subs_baselined": {
       "31": true,
@@ -6461,7 +6463,9 @@
       "45:545": true,
       "49:368": true,
       "49:379": true,
-      "45:237": true
+      "45:237": true,
+      "44:211": true,
+      "44:222": true
     },
     "bonus_posted": {
       "31": true,
@@ -7582,6 +7586,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:44:15.172436+00:00",
       "tweet_id": "2101683862682149180"
+    },
+    {
+      "key": "sub:49:381",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:47:41.172632+00:00",
+      "tweet_id": "2101684726780272907"
     }
   ],
   "form_spotlight": {
@@ -7591,22 +7601,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:49:381",
-      "story": {
-        "type": "substitution",
-        "key": "sub:49:381",
-        "player": "Koumas",
-        "team": "LIV",
-        "home": "BOU",
-        "away": "LIV",
-        "score": "0-1",
-        "minute": 81
-      },
-      "image_path": "assets/generated/live_sub_49_381.png",
-      "caption": "\ud83d\udd04 SUB! 81' Koumas (LIV) is on. BOU 0-1 LIV.\n\nDoes this open a chance for a start next week? #FPL #FantasyFootball #FPLFamily #FPLTips #LIV\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-09-20T14:40:39.005740+00:00"
-    },
     {
       "key": "yellow_card:49:566:1",
       "story": {
@@ -7719,6 +7713,38 @@
       "image_path": "assets/generated/live_sub_44_224.png",
       "caption": "\ud83d\udd04 SUB! 83' Nketiah (CRY) is on. LEE 0-0 CRY.\n\nImpact sub, or too little too late? #FPL #FantasyPremierLeague #FPLFamily #FPLTips #CRY\n\nFollow @fantasycoachai so you don't miss the next update.",
       "queued_at": "2026-09-20T14:43:31.341950+00:00"
+    },
+    {
+      "key": "sub:49:76",
+      "story": {
+        "type": "substitution",
+        "key": "sub:49:76",
+        "player": "T\u00f3th.A",
+        "team": "BOU",
+        "home": "BOU",
+        "away": "LIV",
+        "score": "0-1",
+        "minute": 88
+      },
+      "image_path": "assets/generated/live_sub_49_76.png",
+      "caption": "\ud83d\udd04 SUB! 88' T\u00f3th.A (BOU) is on. BOU 0-1 LIV.\n\nDoes this open a chance for a start next week? #FPL #FantasyFootball #FPLTwitter #FPLCommunity #BOU\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-09-20T14:47:39.946622+00:00"
+    },
+    {
+      "key": "sub:45:534",
+      "story": {
+        "type": "substitution",
+        "key": "sub:45:534",
+        "player": "Hume",
+        "team": "SUN",
+        "home": "MCI",
+        "away": "SUN",
+        "score": "4-3",
+        "minute": 81
+      },
+      "image_path": "assets/generated/live_sub_45_534.png",
+      "caption": "\ud83d\udd04 SUB! 81' Hume (SUN) is on. MCI 4-3 SUN.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyPremierLeague #FantasyFootball #FPLCommunity #SUN\n\nFollow for the next one.",
+      "queued_at": "2026-09-20T14:47:40.007127+00:00"
     }
   ]
 }
