@@ -7643,6 +7643,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:54:40.236074+00:00",
       "tweet_id": "2101686484004667574"
+    },
+    {
+      "key": "sub:49:76",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:55:23.046038+00:00",
+      "tweet_id": "2101686663659315326"
     }
   ],
   "form_spotlight": {
@@ -7652,22 +7658,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:49:76",
-      "story": {
-        "type": "substitution",
-        "key": "sub:49:76",
-        "player": "T\u00f3th.A",
-        "team": "BOU",
-        "home": "BOU",
-        "away": "LIV",
-        "score": "0-1",
-        "minute": 88
-      },
-      "image_path": "assets/generated/live_sub_49_76.png",
-      "caption": "\ud83d\udd04 SUB! 88' T\u00f3th.A (BOU) is on. BOU 0-1 LIV.\n\nDoes this open a chance for a start next week? #FPL #FantasyFootball #FPLTwitter #FPLCommunity #BOU\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-09-20T14:47:39.946622+00:00"
-    },
     {
       "key": "sub:45:534",
       "story": {
