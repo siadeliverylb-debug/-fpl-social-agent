@@ -6262,7 +6262,8 @@
       "44:224": true,
       "49:76": true,
       "45:534": true,
-      "49:72": true
+      "49:72": true,
+      "45:387": true
     },
     "subs_baselined": {
       "31": true,
@@ -7628,6 +7629,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:50:34.098426+00:00",
       "tweet_id": "2101685452134875174"
+    },
+    {
+      "key": "yellow_card:44:211:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-20T14:51:17.359105+00:00",
+      "tweet_id": "2101685633286901824"
     }
   ],
   "form_spotlight": {
@@ -7637,22 +7644,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "yellow_card:44:211:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:44:211:1",
-        "player": "Yeremy",
-        "team": "CRY",
-        "home": "LEE",
-        "away": "CRY",
-        "minute": 80,
-        "score": "0-0"
-      },
-      "image_path": "assets/generated/live_yellow_card_44_211_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 80' Yeremy (CRY) is booked. LEE 0-0 CRY.\n\nWorth keeping an eye on for next week. #FPL #FantasyFootball #FPLTwitter #PremierLeague #CRY\n\nFollow for the next one.",
-      "queued_at": "2026-09-20T14:41:22.190426+00:00"
-    },
     {
       "key": "sub:44:208",
       "story": {
@@ -7732,6 +7723,22 @@
       "image_path": "assets/generated/live_sub_49_72.png",
       "caption": "\ud83d\udd04 SUB! 88' Gannon-Doak (BOU) is on. BOU 0-1 LIV.\n\nImpact sub, or too little too late? #FPL #FantasyFootball #FPLTwitter #FantasyPremierLeague #BOU\n\nFollowing along? Hit follow so you don't miss what's next.",
       "queued_at": "2026-09-20T14:49:06.629580+00:00"
+    },
+    {
+      "key": "sub:45:387",
+      "story": {
+        "type": "substitution",
+        "key": "sub:45:387",
+        "player": "O'Reilly",
+        "team": "MCI",
+        "home": "MCI",
+        "away": "SUN",
+        "score": "4-3",
+        "minute": 85
+      },
+      "image_path": "assets/generated/live_sub_45_387.png",
+      "caption": "\ud83d\udd04 SUB! 85' O'Reilly (MCI) is on. MCI 4-3 SUN.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #FantasyPremierLeague #FPLFamily #MCI\n\nFollow for the next one.",
+      "queued_at": "2026-09-20T14:51:16.261885+00:00"
     }
   ]
 }
