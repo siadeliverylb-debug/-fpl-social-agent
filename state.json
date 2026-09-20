@@ -5923,12 +5923,13 @@
       "45:397:assists": 1,
       "44:330:yellow_cards": 1,
       "45:541:assists": 1,
-      "45:397:goals_scored": 1,
+      "45:397:goals_scored": 2,
       "45:388:assists": 1,
       "49:368:yellow_cards": 1,
       "49:379:goals_scored": 1,
       "49:379:yellow_cards": 1,
-      "44:345:yellow_cards": 1
+      "44:345:yellow_cards": 1,
+      "49:366:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -6000,8 +6001,8 @@
       "45:h": {
         "player": "Semenyo",
         "team": "MCI",
-        "assisted_by": "Gu\u00e9hi",
-        "score": "3-2"
+        "assisted_by": null,
+        "score": "4-2"
       },
       "45:a": {
         "player": "Brobbey",
@@ -6012,7 +6013,7 @@
       "49:a": {
         "player": "Isak",
         "team": "LIV",
-        "assisted_by": null,
+        "assisted_by": "Wirtz",
         "score": "0-1"
       }
     },
@@ -6090,7 +6091,7 @@
         0
       ],
       "45": [
-        3,
+        4,
         2
       ],
       "50": [
@@ -6458,16 +6459,6 @@
         "value": 1,
         "since": "2026-09-20T14:12:11.942247+00:00",
         "minute": 51
-      },
-      "49:366:assists": {
-        "value": 1,
-        "since": "2026-09-20T14:21:56.747338+00:00",
-        "minute": 63
-      },
-      "45:397:goals_scored": {
-        "value": 2,
-        "since": "2026-09-20T14:21:56.747380+00:00",
-        "minute": 55
       },
       "45:552:goals_scored": {
         "value": 3,
@@ -7491,6 +7482,12 @@
       "type": "yellow_card",
       "posted_at": "2026-09-20T14:23:24.018798+00:00",
       "tweet_id": "2101678615125758217"
+    },
+    {
+      "key": "goalupdate:assist:49:366:1",
+      "type": "goal_update",
+      "posted_at": "2026-09-20T14:25:30.079881+00:00",
+      "tweet_id": "2101679143817810312"
     }
   ],
   "form_spotlight": {
@@ -7499,5 +7496,22 @@
     "day": "2026-09-20",
     "count": 1
   },
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "goal:45:397:2",
+      "story": {
+        "type": "goal",
+        "key": "goal:45:397:2",
+        "player": "Semenyo",
+        "team": "MCI",
+        "home": "MCI",
+        "away": "SUN",
+        "minute": 55,
+        "score": "4-2"
+      },
+      "image_path": "assets/generated/live_goal_45_397_2.png",
+      "caption": "\u26bd GOAL! 55' Semenyo (MCI)! MCI 4-2 SUN.\n\nBig green arrow incoming for whoever owns him. #FPL #FPLTips #FantasyFootball #FPLFamily #MCI\n\nFollow for the next one.",
+      "queued_at": "2026-09-20T14:25:29.030866+00:00"
+    }
+  ]
 }
