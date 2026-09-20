@@ -6261,7 +6261,8 @@
       "44:208": true,
       "44:224": true,
       "49:76": true,
-      "45:534": true
+      "45:534": true,
+      "49:72": true
     },
     "subs_baselined": {
       "31": true,
@@ -7598,6 +7599,12 @@
       "type": "yellow_card",
       "posted_at": "2026-09-20T14:48:24.474924+00:00",
       "tweet_id": "2101684908334936378"
+    },
+    {
+      "key": "sub:44:347",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:49:07.826448+00:00",
+      "tweet_id": "2101685090271322483"
     }
   ],
   "form_spotlight": {
@@ -7607,23 +7614,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:44:347",
-      "story": {
-        "type": "substitution",
-        "key": "sub:44:347",
-        "player": "Nmecha",
-        "team": "LEE",
-        "home": "LEE",
-        "away": "CRY",
-        "score": "0-0",
-        "minute": 80,
-        "subbed_out": "Okafor"
-      },
-      "image_path": "assets/generated/live_sub_44_347.png",
-      "caption": "\ud83d\udd04 SUB! 80' Nmecha (LEE) is on. Off: Okafor. LEE 0-0 CRY.\n\nDoes this open a chance for a start next week? #FPL #FPLFamily #FantasyFootball #FPLCommunity #LEE\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-09-20T14:40:39.132122+00:00"
-    },
     {
       "key": "sub:45:400",
       "story": {
@@ -7735,6 +7725,22 @@
       "image_path": "assets/generated/live_sub_45_534.png",
       "caption": "\ud83d\udd04 SUB! 81' Hume (SUN) is on. MCI 4-3 SUN.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyPremierLeague #FantasyFootball #FPLCommunity #SUN\n\nFollow for the next one.",
       "queued_at": "2026-09-20T14:47:40.007127+00:00"
+    },
+    {
+      "key": "sub:49:72",
+      "story": {
+        "type": "substitution",
+        "key": "sub:49:72",
+        "player": "Gannon-Doak",
+        "team": "BOU",
+        "home": "BOU",
+        "away": "LIV",
+        "score": "0-1",
+        "minute": 88
+      },
+      "image_path": "assets/generated/live_sub_49_72.png",
+      "caption": "\ud83d\udd04 SUB! 88' Gannon-Doak (BOU) is on. BOU 0-1 LIV.\n\nImpact sub, or too little too late? #FPL #FantasyFootball #FPLTwitter #FantasyPremierLeague #BOU\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-09-20T14:49:06.629580+00:00"
     }
   ]
 }
