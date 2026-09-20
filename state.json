@@ -6423,7 +6423,18 @@
       "46": true,
       "47": true
     },
-    "goal_pending": {}
+    "goal_pending": {
+      "45:399:goals_scored": {
+        "value": 1,
+        "since": "2026-09-20T13:32:54.604721+00:00",
+        "minute": 29
+      },
+      "45:397:assists": {
+        "value": 1,
+        "since": "2026-09-20T13:32:54.604750+00:00",
+        "minute": 29
+      }
+    }
   },
   "live_post_log": [
     {
