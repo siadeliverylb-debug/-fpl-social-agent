@@ -5907,7 +5907,11 @@
       "47:491:goals_scored": 1,
       "47:474:yellow_cards": 1,
       "46:295:yellow_cards": 1,
-      "45:612:yellow_cards": 1
+      "45:612:yellow_cards": 1,
+      "45:155:goals_scored": 1,
+      "45:552:goals_scored": 1,
+      "45:237:assists": 1,
+      "45:542:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -5974,6 +5978,18 @@
         "player": "Igor Jesus",
         "team": "NFO",
         "assisted_by": null,
+        "score": "1-1"
+      },
+      "45:h": {
+        "player": "Enzo",
+        "team": "MCI",
+        "assisted_by": "Ndiaye",
+        "score": "1-0"
+      },
+      "45:a": {
+        "player": "Brobbey",
+        "team": "SUN",
+        "assisted_by": "E.Le F\u00e9e",
         "score": "1-1"
       }
     },
@@ -6051,8 +6067,8 @@
         0
       ],
       "45": [
-        0,
-        0
+        1,
+        1
       ],
       "50": [
         0,
@@ -6407,28 +6423,7 @@
       "46": true,
       "47": true
     },
-    "goal_pending": {
-      "45:155:goals_scored": {
-        "value": 1,
-        "since": "2026-09-20T13:20:09.311317+00:00",
-        "minute": 16
-      },
-      "45:552:goals_scored": {
-        "value": 1,
-        "since": "2026-09-20T13:20:09.311339+00:00",
-        "minute": 16
-      },
-      "45:237:assists": {
-        "value": 1,
-        "since": "2026-09-20T13:20:09.311345+00:00",
-        "minute": 16
-      },
-      "45:542:assists": {
-        "value": 1,
-        "since": "2026-09-20T13:20:09.311349+00:00",
-        "minute": 16
-      }
-    }
+    "goal_pending": {}
   },
   "live_post_log": [
     {
@@ -7374,7 +7369,31 @@
       "type": "yellow_card",
       "posted_at": "2026-09-20T13:20:10.810468+00:00",
       "tweet_id": "2101662704943444060"
+    },
+    {
+      "key": "goal:45:155:1",
+      "type": "goal",
+      "posted_at": "2026-09-20T13:23:39.768757+00:00",
+      "tweet_id": "2101663581565489421"
     }
   ],
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "goal:45:552:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:45:552:1",
+        "player": "Brobbey",
+        "team": "SUN",
+        "home": "MCI",
+        "away": "SUN",
+        "minute": 16,
+        "score": "1-1",
+        "assisted_by": "E.Le F\u00e9e"
+      },
+      "image_path": "assets/generated/live_goal_45_552_1.png",
+      "caption": "\u26bd GOAL! 16' Brobbey (SUN)! Assisted by E.Le F\u00e9e. MCI 1-1 SUN.\n\nWho's benefiting from that in FPL? #FPL #FantasyPremierLeague #FPLTwitter #PremierLeague #SUN\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-09-20T13:23:38.597591+00:00"
+    }
+  ]
 }
