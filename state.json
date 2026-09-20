@@ -5924,7 +5924,8 @@
       "44:330:yellow_cards": 1,
       "45:541:assists": 1,
       "45:397:goals_scored": 1,
-      "45:388:assists": 1
+      "45:388:assists": 1,
+      "49:368:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6228,7 +6229,8 @@
       "47:490": true,
       "47:478": true,
       "47:488": true,
-      "47:179": true
+      "47:179": true,
+      "44:213": true
     },
     "subs_baselined": {
       "31": true,
@@ -6416,7 +6418,8 @@
       "47:581": true,
       "47:183": true,
       "47:201": true,
-      "47:486": true
+      "47:486": true,
+      "44:577": true
     },
     "bonus_posted": {
       "31": true,
@@ -7418,6 +7421,12 @@
       "type": "goal",
       "posted_at": "2026-09-20T13:53:22.806647+00:00",
       "tweet_id": "2101671060114448637"
+    },
+    {
+      "key": "yellow_card:49:368:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-20T14:11:29.995936+00:00",
+      "tweet_id": "2101675620287840314"
     }
   ],
   "form_spotlight": {
@@ -7426,5 +7435,23 @@
     "day": "2026-09-20",
     "count": 1
   },
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "sub:44:213",
+      "story": {
+        "type": "substitution",
+        "key": "sub:44:213",
+        "player": "Lerma",
+        "team": "CRY",
+        "home": "LEE",
+        "away": "CRY",
+        "score": "0-0",
+        "minute": 50,
+        "subbed_out": "Tomiyasu"
+      },
+      "image_path": "assets/generated/live_sub_44_213.png",
+      "caption": "\ud83d\udd04 SUB! 50' Lerma (CRY) is on. Off: Tomiyasu. LEE 0-0 CRY.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FPLTwitter #PremierLeague #CRY\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-09-20T14:11:28.891004+00:00"
+    }
+  ]
 }
