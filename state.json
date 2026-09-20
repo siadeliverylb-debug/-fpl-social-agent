@@ -5967,7 +5967,8 @@
       "45:237:assists": 1,
       "45:542:assists": 1,
       "45:399:goals_scored": 1,
-      "45:397:assists": 1
+      "45:397:assists": 1,
+      "44:330:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -7454,6 +7455,12 @@
       "type": "goal",
       "posted_at": "2026-09-20T13:39:07.059050+00:00",
       "tweet_id": "2101667470863901043"
+    },
+    {
+      "key": "yellow_card:44:330:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-20T13:39:50.423925+00:00",
+      "tweet_id": "2101667652573745586"
     }
   ],
   "form_spotlight": {
