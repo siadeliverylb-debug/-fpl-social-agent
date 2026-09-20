@@ -5931,7 +5931,8 @@
       "44:345:yellow_cards": 1,
       "49:366:assists": 1,
       "44:210:yellow_cards": 1,
-      "45:551:assists": 1
+      "45:551:assists": 1,
+      "49:566:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6251,7 +6252,10 @@
       "49:71": true,
       "45:553": true,
       "49:74": true,
-      "49:608": true
+      "49:608": true,
+      "49:381": true,
+      "44:347": true,
+      "45:400": true
     },
     "subs_baselined": {
       "31": true,
@@ -6445,7 +6449,12 @@
       "44:345": true,
       "45:551": true,
       "49:366": true,
-      "49:627": true
+      "49:627": true,
+      "49:64": true,
+      "49:68": true,
+      "49:75": true,
+      "44:336": true,
+      "45:545": true
     },
     "bonus_posted": {
       "31": true,
@@ -7530,6 +7539,12 @@
       "type": "goal",
       "posted_at": "2026-09-20T14:35:09.131583+00:00",
       "tweet_id": "2101681572327907758"
+    },
+    {
+      "key": "sub:49:375",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:40:40.167173+00:00",
+      "tweet_id": "2101682960864858592"
     }
   ],
   "form_spotlight": {
@@ -7539,22 +7554,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:49:375",
-      "story": {
-        "type": "substitution",
-        "key": "sub:49:375",
-        "player": "Nyoni",
-        "team": "LIV",
-        "home": "BOU",
-        "away": "LIV",
-        "score": "0-1",
-        "minute": 73
-      },
-      "image_path": "assets/generated/live_sub_49_375.png",
-      "caption": "\ud83d\udd04 SUB! 73' Nyoni (LIV) is on. BOU 0-1 LIV.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #FantasyFootball #FantasyPremierLeague #LIV\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-09-20T14:32:15.408499+00:00"
-    },
     {
       "key": "sub:49:377",
       "story": {
@@ -7634,6 +7633,71 @@
       "image_path": "assets/generated/live_sub_49_608.png",
       "caption": "\ud83d\udd04 SUB! 77' Jebbison (BOU) is on. BOU 0-1 LIV.\n\nImpact sub, or too little too late? #FPL #FPLFamily #FantasyPremierLeague #FPLCommunity #BOU\n\nFollow @fantasycoachai so you don't miss the next update.",
       "queued_at": "2026-09-20T14:35:07.978829+00:00"
+    },
+    {
+      "key": "sub:49:381",
+      "story": {
+        "type": "substitution",
+        "key": "sub:49:381",
+        "player": "Koumas",
+        "team": "LIV",
+        "home": "BOU",
+        "away": "LIV",
+        "score": "0-1",
+        "minute": 81
+      },
+      "image_path": "assets/generated/live_sub_49_381.png",
+      "caption": "\ud83d\udd04 SUB! 81' Koumas (LIV) is on. BOU 0-1 LIV.\n\nDoes this open a chance for a start next week? #FPL #FantasyFootball #FPLFamily #FPLTips #LIV\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-09-20T14:40:39.005740+00:00"
+    },
+    {
+      "key": "yellow_card:49:566:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:49:566:1",
+        "player": "Silva",
+        "team": "BOU",
+        "home": "BOU",
+        "away": "LIV",
+        "minute": 81,
+        "score": "0-1"
+      },
+      "image_path": "assets/generated/live_yellow_card_49_566_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 81' Silva (BOU) is booked. BOU 0-1 LIV.\n\nWorth keeping an eye on for next week. #FPL #FPLTips #FPLCommunity #PremierLeague #BOU\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-09-20T14:40:39.068036+00:00"
+    },
+    {
+      "key": "sub:44:347",
+      "story": {
+        "type": "substitution",
+        "key": "sub:44:347",
+        "player": "Nmecha",
+        "team": "LEE",
+        "home": "LEE",
+        "away": "CRY",
+        "score": "0-0",
+        "minute": 80,
+        "subbed_out": "Okafor"
+      },
+      "image_path": "assets/generated/live_sub_44_347.png",
+      "caption": "\ud83d\udd04 SUB! 80' Nmecha (LEE) is on. Off: Okafor. LEE 0-0 CRY.\n\nDoes this open a chance for a start next week? #FPL #FPLFamily #FantasyFootball #FPLCommunity #LEE\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-09-20T14:40:39.132122+00:00"
+    },
+    {
+      "key": "sub:45:400",
+      "story": {
+        "type": "substitution",
+        "key": "sub:45:400",
+        "player": "Doku",
+        "team": "MCI",
+        "home": "MCI",
+        "away": "SUN",
+        "score": "4-3",
+        "minute": 75
+      },
+      "image_path": "assets/generated/live_sub_45_400.png",
+      "caption": "\ud83d\udd04 SUB! 75' Doku (MCI) is on. MCI 4-3 SUN.\n\nImpact sub, or too little too late? #FPL #PremierLeague #FantasyPremierLeague #FPLFamily #MCI\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-09-20T14:40:39.195158+00:00"
     }
   ]
 }
