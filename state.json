@@ -7687,6 +7687,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T15:01:27.484385+00:00",
       "tweet_id": "2101688192613437744"
+    },
+    {
+      "key": "yellow_card:44:213:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-20T15:02:10.212084+00:00",
+      "tweet_id": "2101688371877949611"
     }
   ],
   "form_spotlight": {
@@ -7696,22 +7702,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "yellow_card:44:213:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:44:213:1",
-        "player": "Lerma",
-        "team": "CRY",
-        "home": "LEE",
-        "away": "CRY",
-        "minute": 90,
-        "score": "0-0"
-      },
-      "image_path": "assets/generated/live_yellow_card_44_213_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Lerma (CRY) is booked. LEE 0-0 CRY.\n\nWorth keeping an eye on for next week. #FPL #FPLFamily #FPLCommunity #FPLTwitter #CRY\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-09-20T14:53:55.552281+00:00"
-    },
     {
       "key": "goal:45:411:1",
       "story": {
