@@ -7856,6 +7856,12 @@
       "type": "goal_update",
       "posted_at": "2026-09-20T17:26:56.071617+00:00",
       "tweet_id": "2101724802817896526"
+    },
+    {
+      "key": "fulltime:50",
+      "type": "full_time",
+      "posted_at": "2026-09-20T17:27:39.154002+00:00",
+      "tweet_id": "2101724983592468904"
     }
   ],
   "form_spotlight": {
@@ -7865,20 +7871,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "fulltime:50",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:50",
-        "home": "FUL",
-        "away": "MUN",
-        "score": "1-1",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_50.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): FUL 1-1 MUN.\n\nBonus points still to be confirmed. #FPL #FantasyFootball #FPLTips #FantasyPremierLeague\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-09-20T17:26:11.956544+00:00"
-    },
     {
       "key": "bonus:50",
       "story": {
