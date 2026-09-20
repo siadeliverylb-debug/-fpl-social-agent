@@ -6439,7 +6439,18 @@
       "46": true,
       "47": true
     },
-    "goal_pending": {}
+    "goal_pending": {
+      "44:204:goals_scored": {
+        "value": 1,
+        "since": "2026-09-20T14:12:11.942228+00:00",
+        "minute": 51
+      },
+      "44:588:assists": {
+        "value": 1,
+        "since": "2026-09-20T14:12:11.942247+00:00",
+        "minute": 51
+      }
+    }
   },
   "live_post_log": [
     {
@@ -7427,6 +7438,12 @@
       "type": "yellow_card",
       "posted_at": "2026-09-20T14:11:29.995936+00:00",
       "tweet_id": "2101675620287840314"
+    },
+    {
+      "key": "sub:44:213",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:12:12.848646+00:00",
+      "tweet_id": "2101675800017989846"
     }
   ],
   "form_spotlight": {
@@ -7435,23 +7452,5 @@
     "day": "2026-09-20",
     "count": 1
   },
-  "live_queue": [
-    {
-      "key": "sub:44:213",
-      "story": {
-        "type": "substitution",
-        "key": "sub:44:213",
-        "player": "Lerma",
-        "team": "CRY",
-        "home": "LEE",
-        "away": "CRY",
-        "score": "0-0",
-        "minute": 50,
-        "subbed_out": "Tomiyasu"
-      },
-      "image_path": "assets/generated/live_sub_44_213.png",
-      "caption": "\ud83d\udd04 SUB! 50' Lerma (CRY) is on. Off: Tomiyasu. LEE 0-0 CRY.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FPLTwitter #PremierLeague #CRY\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-09-20T14:11:28.891004+00:00"
-    }
-  ]
+  "live_queue": []
 }
