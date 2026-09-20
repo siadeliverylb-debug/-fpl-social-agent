@@ -7668,6 +7668,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:57:31.383730+00:00",
       "tweet_id": "2101687202166022377"
+    },
+    {
+      "key": "fulltime:49",
+      "type": "full_time",
+      "posted_at": "2026-09-20T15:00:01.067403+00:00",
+      "tweet_id": "2101687830124826869"
     }
   ],
   "form_spotlight": {
@@ -7677,20 +7683,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "fulltime:49",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:49",
-        "home": "BOU",
-        "away": "LIV",
-        "score": "0-1",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_49.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): BOU 0-1 LIV.\n\nBonus points still to be confirmed. #FPL #FantasyFootball #FPLFamily #FPLTips\n\nFollow for the next one.",
-      "queued_at": "2026-09-20T14:53:55.366177+00:00"
-    },
     {
       "key": "bonus:49",
       "story": {
