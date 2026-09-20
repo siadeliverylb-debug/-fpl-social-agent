@@ -5737,15 +5737,15 @@
         "finished_provisional": true
       },
       "49": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "44": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "45": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "50": {
@@ -7328,7 +7328,38 @@
       "type": "yellow_card",
       "posted_at": "2026-09-20T10:13:21.725599+00:00",
       "tweet_id": "2101615690914623737"
+    },
+    {
+      "key": "kickoff:49",
+      "type": "kickoff",
+      "posted_at": "2026-09-20T13:00:42.484828+00:00",
+      "tweet_id": "2101657804129903037"
     }
   ],
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "kickoff:44",
+      "story": {
+        "type": "kickoff",
+        "key": "kickoff:44",
+        "home": "LEE",
+        "away": "CRY"
+      },
+      "image_path": "assets/generated/live_kickoff_44.png",
+      "caption": "\u26bd KICK-OFF: LEE vs CRY.\n\nWho are you backing for returns? #FPL #FantasyPremierLeague #PremierLeague #FantasyFootball\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-09-20T13:00:41.047259+00:00"
+    },
+    {
+      "key": "kickoff:45",
+      "story": {
+        "type": "kickoff",
+        "key": "kickoff:45",
+        "home": "MCI",
+        "away": "SUN"
+      },
+      "image_path": "assets/generated/live_kickoff_45.png",
+      "caption": "\u26bd KICK-OFF: MCI vs SUN.\n\nAny of your players out there? #FPL #FPLTips #FantasyPremierLeague #PremierLeague\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-09-20T13:00:41.092732+00:00"
+    }
+  ]
 }
