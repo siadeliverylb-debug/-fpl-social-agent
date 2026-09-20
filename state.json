@@ -5946,7 +5946,8 @@
       "45:391:assists": 1,
       "50:268:yellow_cards": 1,
       "50:258:yellow_cards": 1,
-      "50:419:own_goals": 1
+      "50:419:own_goals": 1,
+      "50:271:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6281,7 +6282,11 @@
       "50:263": true,
       "50:570": true,
       "50:635": true,
-      "50:440": true
+      "50:440": true,
+      "50:253": true,
+      "50:271": true,
+      "50:415": true,
+      "50:430": true
     },
     "subs_baselined": {
       "31": true,
@@ -6489,7 +6494,13 @@
       "45:541": true,
       "45:399": true,
       "50:261": true,
-      "50:264": true
+      "50:264": true,
+      "50:265": true,
+      "50:268": true,
+      "50:423": true,
+      "50:429": true,
+      "50:569": true,
+      "50:432": true
     },
     "bonus_posted": {
       "31": true,
@@ -6522,6 +6533,16 @@
         "value": 1,
         "since": "2026-09-20T14:12:11.942247+00:00",
         "minute": 51
+      },
+      "50:428:goals_scored": {
+        "value": 1,
+        "since": "2026-09-20T17:17:11.177538+00:00",
+        "minute": 89
+      },
+      "50:257:assists": {
+        "value": 1,
+        "since": "2026-09-20T17:17:11.177558+00:00",
+        "minute": 89
       }
     }
   },
@@ -7787,6 +7808,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T17:06:59.787172+00:00",
       "tweet_id": "2101719785285288049"
+    },
+    {
+      "key": "sub:50:253",
+      "type": "substitution",
+      "posted_at": "2026-09-20T17:17:12.704493+00:00",
+      "tweet_id": "2101722355999342843"
     }
   ],
   "form_spotlight": {
@@ -7795,5 +7822,73 @@
     "day": "2026-09-20",
     "count": 1
   },
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "sub:50:271",
+      "story": {
+        "type": "substitution",
+        "key": "sub:50:271",
+        "player": "Muniz",
+        "team": "FUL",
+        "home": "FUL",
+        "away": "MUN",
+        "score": "1-0",
+        "minute": 89,
+        "subbed_out": "King"
+      },
+      "image_path": "assets/generated/live_sub_50_271.png",
+      "caption": "\ud83d\udd04 SUB! 89' Muniz (FUL) is on. Off: King. FUL 1-0 MUN.\n\nDoes this open a chance for a start next week? #FPL #FantasyFootball #FPLTips #FantasyPremierLeague #FUL\n\nFollow for the next one.",
+      "queued_at": "2026-09-20T17:17:11.318502+00:00"
+    },
+    {
+      "key": "sub:50:415",
+      "story": {
+        "type": "substitution",
+        "key": "sub:50:415",
+        "player": "Dorgu",
+        "team": "MUN",
+        "home": "FUL",
+        "away": "MUN",
+        "score": "1-0",
+        "minute": 89,
+        "subbed_out": "Shaw"
+      },
+      "image_path": "assets/generated/live_sub_50_415.png",
+      "caption": "\ud83d\udd04 SUB! 89' Dorgu (MUN) is on. Off: Shaw. FUL 1-0 MUN.\n\nImpact sub, or too little too late? #FPL #FantasyFootball #FPLTwitter #FPLCommunity #MUN\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-09-20T17:17:11.381632+00:00"
+    },
+    {
+      "key": "sub:50:430",
+      "story": {
+        "type": "substitution",
+        "key": "sub:50:430",
+        "player": "Mount",
+        "team": "MUN",
+        "home": "FUL",
+        "away": "MUN",
+        "score": "1-0",
+        "minute": 89,
+        "subbed_out": "Rashford"
+      },
+      "image_path": "assets/generated/live_sub_50_430.png",
+      "caption": "\ud83d\udd04 SUB! 89' Mount (MUN) is on. Off: Rashford. FUL 1-0 MUN.\n\nFresh legs -- could this pay off in FPL terms? #FPL #PremierLeague #FantasyFootball #FPLFamily #MUN\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-09-20T17:17:11.444773+00:00"
+    },
+    {
+      "key": "yellow_card:50:271:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:50:271:1",
+        "player": "Muniz",
+        "team": "FUL",
+        "home": "FUL",
+        "away": "MUN",
+        "minute": 89,
+        "score": "1-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_50_271_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 89' Muniz (FUL) is booked. FUL 1-0 MUN.\n\nWorth keeping an eye on for next week. #FPL #FPLTips #FantasyFootball #FantasyPremierLeague #FUL\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-09-20T17:17:11.506056+00:00"
+    }
+  ]
 }
