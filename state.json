@@ -5927,7 +5927,8 @@
       "45:388:assists": 1,
       "49:368:yellow_cards": 1,
       "49:379:goals_scored": 1,
-      "49:379:yellow_cards": 1
+      "49:379:yellow_cards": 1,
+      "44:345:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6467,6 +6468,11 @@
         "value": 2,
         "since": "2026-09-20T14:21:56.747380+00:00",
         "minute": 55
+      },
+      "45:552:goals_scored": {
+        "value": 3,
+        "since": "2026-09-20T14:23:23.044985+00:00",
+        "minute": 58
       }
     }
   },
@@ -7474,6 +7480,12 @@
       "type": "goal",
       "posted_at": "2026-09-20T14:22:40.784534+00:00",
       "tweet_id": "2101678433667514453"
+    },
+    {
+      "key": "yellow_card:44:345:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-20T14:23:24.018798+00:00",
+      "tweet_id": "2101678615125758217"
     }
   ],
   "form_spotlight": {
