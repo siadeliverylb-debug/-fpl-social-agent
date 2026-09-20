@@ -7850,6 +7850,12 @@
       "type": "goal",
       "posted_at": "2026-09-20T17:26:13.060993+00:00",
       "tweet_id": "2101724622462877818"
+    },
+    {
+      "key": "goalupdate:assist:50:415:1",
+      "type": "goal_update",
+      "posted_at": "2026-09-20T17:26:56.071617+00:00",
+      "tweet_id": "2101724802817896526"
     }
   ],
   "form_spotlight": {
@@ -7859,23 +7865,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "goalupdate:assist:50:415:1",
-      "story": {
-        "type": "goal_update",
-        "key": "goalupdate:assist:50:415:1",
-        "player": "Cunha",
-        "team": "MUN",
-        "assisted_by": "Dorgu",
-        "home": "FUL",
-        "away": "MUN",
-        "score": "1-1",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_goalupdate_assist_50_415_1.png",
-      "caption": "\ud83d\udcdd UPDATE (90'): Cunha's goal (MUN) was assisted by Dorgu! FUL 1-1 MUN.\n\n#FPL #FPLTips #FPLFamily #PremierLeague #MUN\n\nFollow for the next one.",
-      "queued_at": "2026-09-20T17:26:11.897057+00:00"
-    },
     {
       "key": "fulltime:50",
       "story": {
