@@ -7622,6 +7622,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:49:50.848715+00:00",
       "tweet_id": "2101685270693454245"
+    },
+    {
+      "key": "sub:49:371",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:50:34.098426+00:00",
+      "tweet_id": "2101685452134875174"
     }
   ],
   "form_spotlight": {
@@ -7631,22 +7637,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:49:371",
-      "story": {
-        "type": "substitution",
-        "key": "sub:49:371",
-        "player": "Gravenberch",
-        "team": "LIV",
-        "home": "BOU",
-        "away": "LIV",
-        "score": "0-1",
-        "minute": 83
-      },
-      "image_path": "assets/generated/live_sub_49_371.png",
-      "caption": "\ud83d\udd04 SUB! 83' Gravenberch (LIV) is on. BOU 0-1 LIV.\n\nImpact sub, or too little too late? #FPL #FPLTwitter #FantasyPremierLeague #FPLCommunity #LIV\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-09-20T14:41:22.128381+00:00"
-    },
     {
       "key": "yellow_card:44:211:1",
       "story": {
