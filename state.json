@@ -5764,7 +5764,7 @@
       },
       "50": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       }
     },
     "stats": {
@@ -5949,7 +5949,8 @@
       "50:419:own_goals": 1,
       "50:271:yellow_cards": 1,
       "50:428:goals_scored": 1,
-      "50:257:assists": 1
+      "50:257:assists": 1,
+      "50:415:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -6039,7 +6040,7 @@
       "50:a": {
         "player": "Cunha",
         "team": "MUN",
-        "assisted_by": null,
+        "assisted_by": "Dorgu",
         "score": "1-1"
       }
     },
@@ -6529,7 +6530,8 @@
       "47": true,
       "49": true,
       "44": true,
-      "45": true
+      "45": true,
+      "50": true
     },
     "goal_pending": {
       "44:204:goals_scored": {
@@ -6541,11 +6543,6 @@
         "value": 1,
         "since": "2026-09-20T14:12:11.942247+00:00",
         "minute": 51
-      },
-      "50:415:assists": {
-        "value": 1,
-        "since": "2026-09-20T17:17:54.447828+00:00",
-        "minute": 89
       }
     }
   },
@@ -7847,6 +7844,12 @@
       "type": "assist",
       "posted_at": "2026-09-20T17:20:45.689193+00:00",
       "tweet_id": "2101723249235124368"
+    },
+    {
+      "key": "goal:50:428:1",
+      "type": "goal",
+      "posted_at": "2026-09-20T17:26:13.060993+00:00",
+      "tweet_id": "2101724622462877818"
     }
   ],
   "form_spotlight": {
@@ -7857,20 +7860,62 @@
   },
   "live_queue": [
     {
-      "key": "goal:50:428:1",
+      "key": "goalupdate:assist:50:415:1",
       "story": {
-        "type": "goal",
-        "key": "goal:50:428:1",
+        "type": "goal_update",
+        "key": "goalupdate:assist:50:415:1",
         "player": "Cunha",
         "team": "MUN",
+        "assisted_by": "Dorgu",
         "home": "FUL",
         "away": "MUN",
-        "minute": 89,
-        "score": "1-1"
+        "score": "1-1",
+        "minute": 90
       },
-      "image_path": "assets/generated/live_goal_50_428_1.png",
-      "caption": "\u26bd GOAL! 89' Cunha (MUN)! FUL 1-1 MUN.\n\nWho's benefiting from that in FPL? #FPL #PremierLeague #FantasyPremierLeague #FPLTwitter #MUN\n\nFollow for the next one.",
-      "queued_at": "2026-09-20T17:20:44.701615+00:00"
+      "image_path": "assets/generated/live_goalupdate_assist_50_415_1.png",
+      "caption": "\ud83d\udcdd UPDATE (90'): Cunha's goal (MUN) was assisted by Dorgu! FUL 1-1 MUN.\n\n#FPL #FPLTips #FPLFamily #PremierLeague #MUN\n\nFollow for the next one.",
+      "queued_at": "2026-09-20T17:26:11.897057+00:00"
+    },
+    {
+      "key": "fulltime:50",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:50",
+        "home": "FUL",
+        "away": "MUN",
+        "score": "1-1",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_50.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): FUL 1-1 MUN.\n\nBonus points still to be confirmed. #FPL #FantasyFootball #FPLTips #FantasyPremierLeague\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-09-20T17:26:11.956544+00:00"
+    },
+    {
+      "key": "bonus:50",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:50",
+        "home": "FUL",
+        "away": "MUN",
+        "score": "1-1",
+        "players": [
+          {
+            "name": "Cunha",
+            "points": 3
+          },
+          {
+            "name": "Iwobi",
+            "points": 2
+          },
+          {
+            "name": "Bassey",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_50.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: FUL 1-1 MUN.\nCunha +3, Iwobi +2, Bassey +1.\n\n#FPL #FPLTwitter #FPLFamily #FantasyPremierLeague #FULvMUN\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-09-20T17:26:12.017583+00:00"
     }
   ]
 }
