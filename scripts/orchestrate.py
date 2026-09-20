@@ -105,8 +105,14 @@ def cmd_scan(dry_run):
             continue
 
         img_path = os.path.join(GENERATED_DIR, f"{key.replace(':', '_')}.png")
-        generate_content.render_card(story, img_path)
-        caption = generate_content.build_caption(story)
+        try:
+            generate_content.render_card(story, img_path)
+            caption = generate_content.build_caption(story)
+        except Exception as e:
+            # One story that can't be rendered must not take down the whole
+            # scan -- a single oversized batch did exactly that for 34 hours.
+            print(f"Skipping {key[:60]}: could not render ({type(e).__name__}: {e})")
+            continue
         rel_img_path = _rel_path(img_path)
 
         if state.get("auto_mode"):

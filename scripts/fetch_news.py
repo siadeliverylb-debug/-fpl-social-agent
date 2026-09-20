@@ -1,6 +1,7 @@
 """Poll the FPL bootstrap-static API and diff against the last-seen snapshot
 in state.json to produce a list of "story" dicts worth posting about."""
 
+import hashlib
 import json
 import os
 from datetime import datetime, timezone
@@ -70,6 +71,15 @@ def build_snapshot(data):
     return snapshot
 
 
+def _batch_key(prefix, parts):
+    """The key doubles as the card's filename, so it must stay short no
+    matter how many players are in the batch -- listing every player in it
+    overflowed the filesystem's filename limit on a big price-change night
+    and crashed every scan afterwards."""
+    digest = hashlib.sha1(",".join(parts).encode("utf-8")).hexdigest()[:12]
+    return f"{prefix}:{len(parts)}:{digest}"
+
+
 def diff_snapshots(old, new):
     stories = []
     if old is None:
@@ -114,7 +124,7 @@ def diff_snapshots(old, new):
 
     if injury_changes:
         injury_changes.sort(key=lambda c: c["player"])
-        batch_key = "injury_batch:" + ",".join(f"{c['pid']}" for c in injury_changes)
+        batch_key = _batch_key("injury_batch", [f"{c['pid']}" for c in injury_changes])
         stories.append({
             "type": "injury_batch",
             "key": batch_key,
@@ -128,7 +138,7 @@ def diff_snapshots(old, new):
         # players, which would otherwise blow through the daily post cap on
         # its own and take days to fully get out via the 90-min posting gap.
         price_changes.sort(key=lambda c: (c["direction"], -c["new_price_millions"]))
-        batch_key = "price_batch:" + ",".join(f"{c['pid']}:{c['new_price_millions']}" for c in price_changes)
+        batch_key = _batch_key("price_batch", [f"{c['pid']}:{c['new_price_millions']}" for c in price_changes])
         stories.append({
             "type": "price_changes",
             "key": batch_key,
