@@ -6278,7 +6278,8 @@
       "49:72": true,
       "45:387": true,
       "44:648": true,
-      "50:263": true
+      "50:263": true,
+      "50:570": true
     },
     "subs_baselined": {
       "31": true,
@@ -6484,7 +6485,9 @@
       "44:211": true,
       "44:222": true,
       "45:541": true,
-      "45:399": true
+      "45:399": true,
+      "50:261": true,
+      "50:264": true
     },
     "bonus_posted": {
       "31": true,
@@ -7764,6 +7767,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T16:59:25.680908+00:00",
       "tweet_id": "2101717880664404047"
+    },
+    {
+      "key": "sub:50:570",
+      "type": "substitution",
+      "posted_at": "2026-09-20T17:04:51.661113+00:00",
+      "tweet_id": "2101719247831310464"
     }
   ],
   "form_spotlight": {
