@@ -5906,7 +5906,8 @@
       "47:167:yellow_cards": 1,
       "47:491:goals_scored": 1,
       "47:474:yellow_cards": 1,
-      "46:295:yellow_cards": 1
+      "46:295:yellow_cards": 1,
+      "45:612:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6406,7 +6407,28 @@
       "46": true,
       "47": true
     },
-    "goal_pending": {}
+    "goal_pending": {
+      "45:155:goals_scored": {
+        "value": 1,
+        "since": "2026-09-20T13:20:09.311317+00:00",
+        "minute": 16
+      },
+      "45:552:goals_scored": {
+        "value": 1,
+        "since": "2026-09-20T13:20:09.311339+00:00",
+        "minute": 16
+      },
+      "45:237:assists": {
+        "value": 1,
+        "since": "2026-09-20T13:20:09.311345+00:00",
+        "minute": 16
+      },
+      "45:542:assists": {
+        "value": 1,
+        "since": "2026-09-20T13:20:09.311349+00:00",
+        "minute": 16
+      }
+    }
   },
   "live_post_log": [
     {
@@ -7346,6 +7368,12 @@
       "type": "kickoff",
       "posted_at": "2026-09-20T13:02:09.300541+00:00",
       "tweet_id": "2101658168027721894"
+    },
+    {
+      "key": "yellow_card:45:612:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-20T13:20:10.810468+00:00",
+      "tweet_id": "2101662704943444060"
     }
   ],
   "live_queue": []
