@@ -7837,6 +7837,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T17:19:20.504326+00:00",
       "tweet_id": "2101722891926524282"
+    },
+    {
+      "key": "yellow_card:50:271:1",
+      "type": "yellow_card",
+      "posted_at": "2026-09-20T17:20:03.020173+00:00",
+      "tweet_id": "2101723070339657972"
     }
   ],
   "form_spotlight": {
@@ -7845,22 +7851,5 @@
     "day": "2026-09-20",
     "count": 1
   },
-  "live_queue": [
-    {
-      "key": "yellow_card:50:271:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:50:271:1",
-        "player": "Muniz",
-        "team": "FUL",
-        "home": "FUL",
-        "away": "MUN",
-        "minute": 89,
-        "score": "1-0"
-      },
-      "image_path": "assets/generated/live_yellow_card_50_271_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 89' Muniz (FUL) is booked. FUL 1-0 MUN.\n\nWorth keeping an eye on for next week. #FPL #FPLTips #FantasyFootball #FantasyPremierLeague #FUL\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-09-20T17:17:11.506056+00:00"
-    }
-  ]
+  "live_queue": []
 }
