@@ -6258,7 +6258,8 @@
       "44:347": true,
       "45:400": true,
       "49:371": true,
-      "44:208": true
+      "44:208": true,
+      "44:224": true
     },
     "subs_baselined": {
       "31": true,
@@ -6459,7 +6460,8 @@
       "44:336": true,
       "45:545": true,
       "49:368": true,
-      "49:379": true
+      "49:379": true,
+      "45:237": true
     },
     "bonus_posted": {
       "31": true,
@@ -7568,6 +7570,12 @@
       "type": "substitution",
       "posted_at": "2026-09-20T14:42:49.504886+00:00",
       "tweet_id": "2101683503167316170"
+    },
+    {
+      "key": "sub:49:74",
+      "type": "substitution",
+      "posted_at": "2026-09-20T14:43:32.396923+00:00",
+      "tweet_id": "2101683683048509509"
     }
   ],
   "form_spotlight": {
@@ -7577,22 +7585,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "sub:49:74",
-      "story": {
-        "type": "substitution",
-        "key": "sub:49:74",
-        "player": "Brooks",
-        "team": "BOU",
-        "home": "BOU",
-        "away": "LIV",
-        "score": "0-1",
-        "minute": 77
-      },
-      "image_path": "assets/generated/live_sub_49_74.png",
-      "caption": "\ud83d\udd04 SUB! 77' Brooks (BOU) is on. BOU 0-1 LIV.\n\nWorth watching for a late returns. #FPL #FPLTips #PremierLeague #FantasyPremierLeague #BOU\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-09-20T14:35:07.915802+00:00"
-    },
     {
       "key": "sub:49:608",
       "story": {
@@ -7721,6 +7713,22 @@
       "image_path": "assets/generated/live_sub_44_208.png",
       "caption": "\ud83d\udd04 SUB! 81' Sarr (CRY) is on. LEE 0-0 CRY.\n\nFresh legs -- could this pay off in FPL terms? #FPL #PremierLeague #FPLFamily #FantasyPremierLeague #CRY\n\nTurn on notifications to catch these as they land.",
       "queued_at": "2026-09-20T14:42:48.401389+00:00"
+    },
+    {
+      "key": "sub:44:224",
+      "story": {
+        "type": "substitution",
+        "key": "sub:44:224",
+        "player": "Nketiah",
+        "team": "CRY",
+        "home": "LEE",
+        "away": "CRY",
+        "score": "0-0",
+        "minute": 83
+      },
+      "image_path": "assets/generated/live_sub_44_224.png",
+      "caption": "\ud83d\udd04 SUB! 83' Nketiah (CRY) is on. LEE 0-0 CRY.\n\nImpact sub, or too little too late? #FPL #FantasyPremierLeague #FPLFamily #FPLTips #CRY\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-09-20T14:43:31.341950+00:00"
     }
   ]
 }
