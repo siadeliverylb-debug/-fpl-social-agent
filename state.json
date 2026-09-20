@@ -7717,6 +7717,12 @@
       "type": "full_time",
       "posted_at": "2026-09-20T15:12:11.888875+00:00",
       "tweet_id": "2101690895309402576"
+    },
+    {
+      "key": "bonus:45",
+      "type": "bonus_points",
+      "posted_at": "2026-09-20T15:12:55.086217+00:00",
+      "tweet_id": "2101691076306153521"
     }
   ],
   "form_spotlight": {
@@ -7725,33 +7731,5 @@
     "day": "2026-09-20",
     "count": 1
   },
-  "live_queue": [
-    {
-      "key": "bonus:45",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:45",
-        "home": "MCI",
-        "away": "SUN",
-        "score": "5-3",
-        "players": [
-          {
-            "name": "Brobbey",
-            "points": 3
-          },
-          {
-            "name": "Semenyo",
-            "points": 2
-          },
-          {
-            "name": "Cherki",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_45.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: MCI 5-3 SUN.\nBrobbey +3, Semenyo +2, Cherki +1.\n\n#FPL #FPLTwitter #FPLFamily #FPLTips #MCIvSUN\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-09-20T15:01:26.435059+00:00"
-    }
-  ]
+  "live_queue": []
 }
