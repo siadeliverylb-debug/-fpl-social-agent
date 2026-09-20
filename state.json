@@ -7674,6 +7674,12 @@
       "type": "full_time",
       "posted_at": "2026-09-20T15:00:01.067403+00:00",
       "tweet_id": "2101687830124826869"
+    },
+    {
+      "key": "bonus:49",
+      "type": "bonus_points",
+      "posted_at": "2026-09-20T15:00:44.442743+00:00",
+      "tweet_id": "2101688012161884546"
     }
   ],
   "form_spotlight": {
@@ -7683,33 +7689,6 @@
     "count": 1
   },
   "live_queue": [
-    {
-      "key": "bonus:49",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:49",
-        "home": "BOU",
-        "away": "LIV",
-        "score": "0-1",
-        "players": [
-          {
-            "name": "Isak",
-            "points": 3
-          },
-          {
-            "name": "A.Becker",
-            "points": 2
-          },
-          {
-            "name": "Araujo",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_49.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: BOU 0-1 LIV.\nIsak +3, A.Becker +2, Araujo +1.\n\n#FPL #PremierLeague #FPLTips #FPLCommunity #BOUvLIV\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-09-20T14:53:55.427280+00:00"
-    },
     {
       "key": "sub:44:648",
       "story": {
