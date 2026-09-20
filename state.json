@@ -7334,21 +7334,15 @@
       "type": "kickoff",
       "posted_at": "2026-09-20T13:00:42.484828+00:00",
       "tweet_id": "2101657804129903037"
+    },
+    {
+      "key": "kickoff:44",
+      "type": "kickoff",
+      "posted_at": "2026-09-20T13:01:26.035601+00:00",
+      "tweet_id": "2101657986905026934"
     }
   ],
   "live_queue": [
-    {
-      "key": "kickoff:44",
-      "story": {
-        "type": "kickoff",
-        "key": "kickoff:44",
-        "home": "LEE",
-        "away": "CRY"
-      },
-      "image_path": "assets/generated/live_kickoff_44.png",
-      "caption": "\u26bd KICK-OFF: LEE vs CRY.\n\nWho are you backing for returns? #FPL #FantasyPremierLeague #PremierLeague #FantasyFootball\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-09-20T13:00:41.047259+00:00"
-    },
     {
       "key": "kickoff:45",
       "story": {
