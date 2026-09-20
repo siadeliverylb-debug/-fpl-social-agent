@@ -7862,6 +7862,12 @@
       "type": "full_time",
       "posted_at": "2026-09-20T17:27:39.154002+00:00",
       "tweet_id": "2101724983592468904"
+    },
+    {
+      "key": "bonus:50",
+      "type": "bonus_points",
+      "posted_at": "2026-09-20T17:28:21.924916+00:00",
+      "tweet_id": "2101725162986946870"
     }
   ],
   "form_spotlight": {
@@ -7870,33 +7876,5 @@
     "day": "2026-09-20",
     "count": 1
   },
-  "live_queue": [
-    {
-      "key": "bonus:50",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:50",
-        "home": "FUL",
-        "away": "MUN",
-        "score": "1-1",
-        "players": [
-          {
-            "name": "Cunha",
-            "points": 3
-          },
-          {
-            "name": "Iwobi",
-            "points": 2
-          },
-          {
-            "name": "Bassey",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_50.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: FUL 1-1 MUN.\nCunha +3, Iwobi +2, Bassey +1.\n\n#FPL #FPLTwitter #FPLFamily #FantasyPremierLeague #FULvMUN\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-09-20T17:26:12.017583+00:00"
-    }
-  ]
+  "live_queue": []
 }
