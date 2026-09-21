@@ -102,9 +102,9 @@
       "web_name": "Rice",
       "team": "ARS",
       "now_cost": 74,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-09-21T13:00:08.896379Z"
     },
     "14": {
       "web_name": "Eze",
@@ -1414,9 +1414,9 @@
       "web_name": "Palmer",
       "team": "CHE",
       "now_cost": 97,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-24T22:00:07.971542Z"
+      "status": "d",
+      "news": "Muscular injury - 75% chance of playing",
+      "news_added": "2026-09-21T13:00:09.022726Z"
     },
     "156": {
       "web_name": "Neto",
@@ -4190,9 +4190,9 @@
       "web_name": "Mainoo",
       "team": "MUN",
       "now_cost": 55,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-09-21T13:00:09.169862Z"
     },
     "433": {
       "web_name": "Ugarte",
@@ -5339,14 +5339,52 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-21T12:37:46.990526+00:00",
+  "last_snapshot_at": "2026-09-21T13:03:25.630427+00:00",
   "recapped_events": [
     1,
     2,
     3,
     4
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:3:4536bd04f8ac",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:3:4536bd04f8ac",
+        "injuries": [
+          {
+            "pid": "432",
+            "player": "Mainoo",
+            "team": "MUN",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "154",
+            "player": "Palmer",
+            "team": "CHE",
+            "status": "doubtful",
+            "news": "Muscular injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "13",
+            "player": "Rice",
+            "team": "ARS",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_3_4536bd04f8ac.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (3):\n\n\ud83d\udea8 Mainoo (MUN) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Palmer (CHE) - doubtful: \"Muscular injury - 75% chance of playing\"\n\ud83d\udea8 Rice (ARS) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLCommunity #PremierLeague #FantasyFootball\n\nFollow for the next one.",
+      "created_at": "2026-09-21T13:03:25.706689+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
