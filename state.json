@@ -5346,45 +5346,7 @@
     3,
     4
   ],
-  "pending": [
-    {
-      "key": "injury_batch:3:4536bd04f8ac",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:3:4536bd04f8ac",
-        "injuries": [
-          {
-            "pid": "432",
-            "player": "Mainoo",
-            "team": "MUN",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "154",
-            "player": "Palmer",
-            "team": "CHE",
-            "status": "doubtful",
-            "news": "Muscular injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "13",
-            "player": "Rice",
-            "team": "ARS",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_3_4536bd04f8ac.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (3):\n\n\ud83d\udea8 Mainoo (MUN) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Palmer (CHE) - doubtful: \"Muscular injury - 75% chance of playing\"\n\ud83d\udea8 Rice (ARS) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLCommunity #PremierLeague #FantasyFootball\n\nFollow for the next one.",
-      "created_at": "2026-09-21T13:03:25.706689+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5452,7 +5414,8 @@
     "price_batch:13:25a4d44eeed8",
     "form:hot:202609210705",
     "injury_batch:1:afc3bf9d346f",
-    "injury_batch:1:75988f5ac057"
+    "injury_batch:1:75988f5ac057",
+    "injury_batch:3:4536bd04f8ac"
   ],
   "post_log": [
     {
@@ -5762,6 +5725,12 @@
       "type": "injury_batch",
       "posted_at": "2026-09-21T10:51:20.637230+00:00",
       "tweet_id": "2101987637158674872"
+    },
+    {
+      "key": "injury_batch:3:4536bd04f8ac",
+      "type": "injury_batch",
+      "posted_at": "2026-09-21T13:27:16.823993+00:00",
+      "tweet_id": "2102026879922569326"
     }
   ],
   "live": {
