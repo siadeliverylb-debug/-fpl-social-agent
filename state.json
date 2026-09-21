@@ -5346,29 +5346,7 @@
     3,
     4
   ],
-  "pending": [
-    {
-      "key": "injury_batch:1:75988f5ac057",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:75988f5ac057",
-        "injuries": [
-          {
-            "pid": "429",
-            "player": "Rashford",
-            "team": "MUN",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_75988f5ac057.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Rashford (MUN) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FantasyFootball #FPLTips #FPLFamily\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-09-21T10:37:52.883078+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5435,7 +5413,8 @@
     "injury_batch:2:87209d52d30b",
     "price_batch:13:25a4d44eeed8",
     "form:hot:202609210705",
-    "injury_batch:1:afc3bf9d346f"
+    "injury_batch:1:afc3bf9d346f",
+    "injury_batch:1:75988f5ac057"
   ],
   "post_log": [
     {
@@ -5739,6 +5718,12 @@
       "type": "injury_batch",
       "posted_at": "2026-09-21T08:54:43.440163+00:00",
       "tweet_id": "2101958288745136583"
+    },
+    {
+      "key": "injury_batch:1:75988f5ac057",
+      "type": "injury_batch",
+      "posted_at": "2026-09-21T10:51:20.637230+00:00",
+      "tweet_id": "2101987637158674872"
     }
   ],
   "live": {
