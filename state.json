@@ -5346,29 +5346,7 @@
     3,
     4
   ],
-  "pending": [
-    {
-      "key": "injury_batch:1:afc3bf9d346f",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:afc3bf9d346f",
-        "injuries": [
-          {
-            "pid": "638",
-            "player": "Norton-Cuffy",
-            "team": "HUL",
-            "status": "doubtful",
-            "news": "Hamstring injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_afc3bf9d346f.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Norton-Cuffy (HUL) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLTips #FantasyPremierLeague #FPLCommunity\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-09-21T08:37:00.402133+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5434,7 +5412,8 @@
     "form:cold:202609201904",
     "injury_batch:2:87209d52d30b",
     "price_batch:13:25a4d44eeed8",
-    "form:hot:202609210705"
+    "form:hot:202609210705",
+    "injury_batch:1:afc3bf9d346f"
   ],
   "post_log": [
     {
@@ -5732,6 +5711,12 @@
       "type": "form_hot",
       "posted_at": "2026-09-21T07:27:30.707061+00:00",
       "tweet_id": "2101936341026062363"
+    },
+    {
+      "key": "injury_batch:1:afc3bf9d346f",
+      "type": "injury_batch",
+      "posted_at": "2026-09-21T08:54:43.440163+00:00",
+      "tweet_id": "2101958288745136583"
     }
   ],
   "live": {
