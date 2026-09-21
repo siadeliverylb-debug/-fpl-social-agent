@@ -5347,141 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "price_batch:15:330ac9f8782c",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:15:330ac9f8782c",
-        "changes": [
-          {
-            "pid": "426",
-            "player": "B.Fernandes",
-            "team": "MUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 11.9
-          },
-          {
-            "pid": "165",
-            "player": "Jo\u00e3o Pedro",
-            "team": "CHE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 7.7
-          },
-          {
-            "pid": "387",
-            "player": "O'Reilly",
-            "team": "MCI",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.3
-          },
-          {
-            "pid": "61",
-            "player": "Truffert",
-            "team": "BOU",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.4
-          },
-          {
-            "pid": "186",
-            "player": "Mason-Clark",
-            "team": "COV",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.3
-          },
-          {
-            "pid": "520",
-            "player": "Bergvall",
-            "team": "TOT",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.3
-          },
-          {
-            "pid": "35",
-            "player": "Bogarde",
-            "team": "AVL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.9
-          },
-          {
-            "pid": "144",
-            "player": "Gusto",
-            "team": "CHE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.9
-          },
-          {
-            "pid": "195",
-            "player": "Simms",
-            "team": "COV",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.9
-          },
-          {
-            "pid": "213",
-            "player": "Lerma",
-            "team": "CRY",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.8
-          },
-          {
-            "pid": "218",
-            "player": "Doucour\u00e9",
-            "team": "CRY",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.8
-          },
-          {
-            "pid": "323",
-            "player": "McAteer",
-            "team": "IPS",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "473",
-            "player": "Aina",
-            "team": "NFO",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "94",
-            "player": "Schade",
-            "team": "BRE",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.2
-          },
-          {
-            "pid": "449",
-            "player": "Hall",
-            "team": "NEW",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.3
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_15_330ac9f8782c.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 13 falls, 2 rises.\n\n\ud83d\udd34 B.Fernandes (MUN) -> \u00a311.9m\n\ud83d\udd34 Jo\u00e3o Pedro (CHE) -> \u00a37.7m\n\ud83d\udd34 O'Reilly (MCI) -> \u00a36.3m\n\ud83d\udd34 Truffert (BOU) -> \u00a35.4m\n\ud83d\udd34 Mason-Clark (COV) -> \u00a35.3m\n\ud83d\udd34 Bergvall (TOT) -> \u00a35.3m\n\ud83d\udd34 Bogarde (AVL) -> \u00a34.9m\n\ud83d\udd34 Gusto (CHE) -> \u00a34.9m\n\ud83d\udd34 Simms (COV) -> \u00a34.9m\n\ud83d\udd34 Lerma (CRY) -> \u00a34.8m\n\ud83d\udd34 Doucour\u00e9 (CRY) -> \u00a34.8m\n\ud83d\udd34 McAteer (IPS) -> \u00a34.4m\n\ud83d\udd34 Aina (NFO) -> \u00a34.4m\n\ud83d\udfe2 Schade (BRE) -> \u00a36.2m\n\ud83d\udfe2 Hall (NEW) -> \u00a35.3m\n\nWinners and losers in your squad? #FPL #FPLFamily #FPLTips #FPLCommunity\n\nFollow for the next one.",
-      "created_at": "2026-09-21T23:02:46.958031+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5553,7 +5419,8 @@
     "injury_batch:3:4536bd04f8ac",
     "injury_batch:2:fe365eea79c2",
     "recap:5",
-    "form:cold:202609211733"
+    "form:cold:202609211733",
+    "price_batch:15:330ac9f8782c"
   ],
   "post_log": [
     {
@@ -5887,6 +5754,12 @@
       "type": "form_cold",
       "posted_at": "2026-09-21T17:50:30.645404+00:00",
       "tweet_id": "2102093123958534632"
+    },
+    {
+      "key": "price_batch:15:330ac9f8782c",
+      "type": "price_changes",
+      "posted_at": "2026-09-21T23:24:03.030902+00:00",
+      "tweet_id": "2102177061842423987"
     }
   ],
   "live": {
