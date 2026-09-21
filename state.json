@@ -5346,37 +5346,7 @@
     3,
     4
   ],
-  "pending": [
-    {
-      "key": "injury_batch:2:fe365eea79c2",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:2:fe365eea79c2",
-        "injuries": [
-          {
-            "pid": "325",
-            "player": "Darlow",
-            "team": "MUN",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "577",
-            "player": "Tomiyasu",
-            "team": "CRY",
-            "status": "doubtful",
-            "news": "Calf injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_2_fe365eea79c2.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Darlow (MUN) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Tomiyasu (CRY) - doubtful: \"Calf injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLFamily #PremierLeague #FPLTips\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-09-21T13:37:33.049950+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5445,7 +5415,8 @@
     "form:hot:202609210705",
     "injury_batch:1:afc3bf9d346f",
     "injury_batch:1:75988f5ac057",
-    "injury_batch:3:4536bd04f8ac"
+    "injury_batch:3:4536bd04f8ac",
+    "injury_batch:2:fe365eea79c2"
   ],
   "post_log": [
     {
@@ -5761,6 +5732,12 @@
       "type": "injury_batch",
       "posted_at": "2026-09-21T13:27:16.823993+00:00",
       "tweet_id": "2102026879922569326"
+    },
+    {
+      "key": "injury_batch:2:fe365eea79c2",
+      "type": "injury_batch",
+      "posted_at": "2026-09-21T13:52:56.781587+00:00",
+      "tweet_id": "2102033338890645999"
     }
   ],
   "live": {
