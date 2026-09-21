@@ -2086,9 +2086,9 @@
       "web_name": "Tomiyasu",
       "team": "CRY",
       "now_cost": 44,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Calf injury - 75% chance of playing",
+      "news_added": "2026-09-21T13:30:09.030724Z"
     },
     "588": {
       "web_name": "Khalaili",
@@ -4022,9 +4022,9 @@
       "web_name": "Darlow",
       "team": "MUN",
       "now_cost": 45,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-07-23T12:01:23.549136Z"
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-09-21T13:30:08.885505Z"
     },
     "412": {
       "web_name": "Lammens",
@@ -5339,14 +5339,44 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-21T13:03:25.630427+00:00",
+  "last_snapshot_at": "2026-09-21T13:37:32.993657+00:00",
   "recapped_events": [
     1,
     2,
     3,
     4
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:2:fe365eea79c2",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:2:fe365eea79c2",
+        "injuries": [
+          {
+            "pid": "325",
+            "player": "Darlow",
+            "team": "MUN",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "577",
+            "player": "Tomiyasu",
+            "team": "CRY",
+            "status": "doubtful",
+            "news": "Calf injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_2_fe365eea79c2.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Darlow (MUN) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Tomiyasu (CRY) - doubtful: \"Calf injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLFamily #PremierLeague #FPLTips\n\nTurn on notifications to catch these as they land.",
+      "created_at": "2026-09-21T13:37:33.049950+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
