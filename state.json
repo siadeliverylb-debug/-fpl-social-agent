@@ -4166,9 +4166,9 @@
       "web_name": "Rashford",
       "team": "MUN",
       "now_cost": 70,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-09-21T10:30:09.221479Z"
     },
     "430": {
       "web_name": "Mount",
@@ -4247,7 +4247,7 @@
       "team": "MUN",
       "now_cost": 70,
       "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "news": "Shin injury - 75% chance of playing",
       "news_added": "2026-09-20T19:30:08.505755Z"
     },
     "440": {
@@ -5339,14 +5339,36 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-21T10:03:31.776183+00:00",
+  "last_snapshot_at": "2026-09-21T10:37:52.826732+00:00",
   "recapped_events": [
     1,
     2,
     3,
     4
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:75988f5ac057",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:75988f5ac057",
+        "injuries": [
+          {
+            "pid": "429",
+            "player": "Rashford",
+            "team": "MUN",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_75988f5ac057.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Rashford (MUN) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FantasyFootball #FPLTips #FPLFamily\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-09-21T10:37:52.883078+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
