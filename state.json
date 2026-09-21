@@ -2886,9 +2886,9 @@
       "web_name": "Norton-Cuffy",
       "team": "HUL",
       "now_cost": 40,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Hamstring injury - 75% chance of playing",
+      "news_added": "2026-09-21T08:30:09.561308Z"
     },
     "642": {
       "web_name": "Thomas",
@@ -5339,14 +5339,36 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-21T08:04:16.292110+00:00",
+  "last_snapshot_at": "2026-09-21T08:37:00.326228+00:00",
   "recapped_events": [
     1,
     2,
     3,
     4
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:afc3bf9d346f",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:afc3bf9d346f",
+        "injuries": [
+          {
+            "pid": "638",
+            "player": "Norton-Cuffy",
+            "team": "HUL",
+            "status": "doubtful",
+            "news": "Hamstring injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_afc3bf9d346f.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Norton-Cuffy (HUL) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLTips #FantasyPremierLeague #FPLCommunity\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-09-21T08:37:00.402133+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
