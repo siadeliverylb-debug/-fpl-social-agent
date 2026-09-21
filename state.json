@@ -5339,14 +5339,68 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-21T06:42:52.681129+00:00",
+  "last_snapshot_at": "2026-09-21T07:05:34.299587+00:00",
   "recapped_events": [
     1,
     2,
     3,
     4
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form:hot:202609210705",
+      "story": {
+        "type": "form_hot",
+        "key": "form:hot:202609210705",
+        "players": [
+          {
+            "name": "Gro\u00df",
+            "team": "BHA",
+            "form": 9.4,
+            "total_points": 47,
+            "price_millions": 5.8,
+            "selected": 26.2
+          },
+          {
+            "name": "Tarkowski",
+            "team": "EVE",
+            "form": 8.6,
+            "total_points": 43,
+            "price_millions": 6.1,
+            "selected": 15.3
+          },
+          {
+            "name": "Bogle",
+            "team": "LEE",
+            "form": 8.4,
+            "total_points": 42,
+            "price_millions": 4.6,
+            "selected": 6.5
+          },
+          {
+            "name": "Schade",
+            "team": "BRE",
+            "form": 7.8,
+            "total_points": 39,
+            "price_millions": 6.1,
+            "selected": 9.9
+          },
+          {
+            "name": "Haaland",
+            "team": "MCI",
+            "form": 7.8,
+            "total_points": 39,
+            "price_millions": 15.6,
+            "selected": 73.5
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_202609210705.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Gro\u00df (BHA) - 9.4 pts/game, \u00a35.8m\n2. Tarkowski (EVE) - 8.6 pts/game, \u00a36.1m\n3. Bogle (LEE) - 8.4 pts/game, \u00a34.6m\n4. Schade (BRE) - 7.8 pts/game, \u00a36.1m\n5. Haaland (MCI) - 7.8 pts/game, \u00a315.6m\n\nWho's in your team? Who are you buying? #FPL #PremierLeague #FPLCommunity #FantasyPremierLeague\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-09-21T07:05:34.379103+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -7892,10 +7946,10 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-09-20T19:04:07.112264+00:00",
-    "next": "hot",
-    "day": "2026-09-20",
-    "count": 2
+    "last_at": "2026-09-21T07:05:34.299016+00:00",
+    "next": "cold",
+    "day": "2026-09-21",
+    "count": 1
   },
   "live_queue": []
 }
