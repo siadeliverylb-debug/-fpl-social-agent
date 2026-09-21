@@ -5339,14 +5339,30 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-21T13:37:32.993657+00:00",
+  "last_snapshot_at": "2026-09-21T14:05:05.473286+00:00",
   "recapped_events": [
     1,
     2,
     3,
     4
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "recap:5",
+      "story": {
+        "type": "gw_recap",
+        "key": "recap:5",
+        "gw": 5,
+        "most_captained": 411,
+        "highest_score": 126,
+        "most_selected": 411
+      },
+      "image_path": "assets/generated/recap_5.png",
+      "caption": "\ud83d\udd25 GW5 is in the books. Top score: 126 pts. Most captained ID: 411.\n\nBeat it, matched it, or fell short? #FPL #FantasyPremierLeague #FantasyFootball #FPLFamily\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-09-21T14:05:05.534102+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
