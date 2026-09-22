@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-22T16:37:38.636259+00:00",
+  "last_snapshot_at": "2026-09-22T17:03:18.647805+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,61 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form:hot:202609221703",
+      "story": {
+        "type": "form_hot",
+        "key": "form:hot:202609221703",
+        "players": [
+          {
+            "name": "Gro\u00df",
+            "team": "BHA",
+            "form": 11.2,
+            "total_points": 47,
+            "price_millions": 5.8,
+            "selected": 27.5
+          },
+          {
+            "name": "Tarkowski",
+            "team": "EVE",
+            "form": 9.2,
+            "total_points": 43,
+            "price_millions": 6.1,
+            "selected": 15.8
+          },
+          {
+            "name": "Haaland",
+            "team": "MCI",
+            "form": 9.2,
+            "total_points": 39,
+            "price_millions": 15.6,
+            "selected": 73.7
+          },
+          {
+            "name": "Bogle",
+            "team": "LEE",
+            "form": 9.0,
+            "total_points": 42,
+            "price_millions": 4.6,
+            "selected": 6.8
+          },
+          {
+            "name": "Schade",
+            "team": "BRE",
+            "form": 9.0,
+            "total_points": 39,
+            "price_millions": 6.2,
+            "selected": 10.7
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_202609221703.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Gro\u00df (BHA) - 11.2 pts/game, \u00a35.8m\n2. Tarkowski (EVE) - 9.2 pts/game, \u00a36.1m\n3. Haaland (MCI) - 9.2 pts/game, \u00a315.6m\n4. Bogle (LEE) - 9.0 pts/game, \u00a34.6m\n5. Schade (BRE) - 9.0 pts/game, \u00a36.2m\n\nWhich of these are you backing to keep it going? #FPL #FPLTwitter #PremierLeague #FantasyPremierLeague\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-09-22T17:03:18.709612+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -7977,10 +8031,10 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-09-22T13:36:46.263003+00:00",
-    "next": "hot",
+    "last_at": "2026-09-22T17:03:18.647256+00:00",
+    "next": "cold",
     "day": "2026-09-22",
-    "count": 2
+    "count": 3
   },
   "live_queue": []
 }
