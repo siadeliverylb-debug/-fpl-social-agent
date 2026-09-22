@@ -5347,61 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "price_batch:5:17cb27e9631a",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:5:17cb27e9631a",
-        "changes": [
-          {
-            "pid": "210",
-            "player": "Wharton",
-            "team": "CRY",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.4
-          },
-          {
-            "pid": "418",
-            "player": "Maguire",
-            "team": "MUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.8
-          },
-          {
-            "pid": "36",
-            "player": "Maatsen",
-            "team": "AVL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "297",
-            "player": "Gyabi",
-            "team": "HUL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "437",
-            "player": "Bendito Mantato",
-            "team": "MUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_5_17cb27e9631a.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 5 falls, 0 rises.\n\n\ud83d\udd34 Wharton (CRY) -> \u00a35.4m\n\ud83d\udd34 Maguire (MUN) -> \u00a34.8m\n\ud83d\udd34 Maatsen (AVL) -> \u00a34.4m\n\ud83d\udd34 Gyabi (HUL) -> \u00a34.4m\n\ud83d\udd34 Bendito Mantato (MUN) -> \u00a34.4m\n\nWinners and losers in your squad? #FPL #PremierLeague #FantasyFootball #FantasyPremierLeague\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-09-22T23:02:24.200102+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5480,7 +5426,8 @@
     "injury_batch:1:5547f6312291",
     "form:cold:202609221336",
     "form:hot:202609221703",
-    "form:cold:202609222035"
+    "form:cold:202609222035",
+    "price_batch:5:17cb27e9631a"
   ],
   "post_log": [
     {
@@ -5856,6 +5803,12 @@
       "type": "form_cold",
       "posted_at": "2026-09-22T20:51:26.229271+00:00",
       "tweet_id": "2102501043120832729"
+    },
+    {
+      "key": "price_batch:5:17cb27e9631a",
+      "type": "price_changes",
+      "posted_at": "2026-09-22T23:22:49.763976+00:00",
+      "tweet_id": "2102539142294843638"
     }
   ],
   "live": {
