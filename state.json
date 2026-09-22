@@ -5347,29 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "injury_batch:1:683e725c03a8",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:683e725c03a8",
-        "injuries": [
-          {
-            "pid": "116",
-            "player": "Dunk",
-            "team": "BHA",
-            "status": "doubtful",
-            "news": "Neck injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_683e725c03a8.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Dunk (BHA) - doubtful: \"Neck injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #PremierLeague #FantasyFootball #FantasyPremierLeague\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-09-22T09:35:07.227633+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5443,7 +5421,8 @@
     "recap:5",
     "form:cold:202609211733",
     "price_batch:15:330ac9f8782c",
-    "form:hot:202609220707"
+    "form:hot:202609220707",
+    "injury_batch:1:683e725c03a8"
   ],
   "post_log": [
     {
@@ -5789,6 +5768,12 @@
       "type": "form_hot",
       "posted_at": "2026-09-22T07:25:44.572991+00:00",
       "tweet_id": "2102298283876266328"
+    },
+    {
+      "key": "injury_batch:1:683e725c03a8",
+      "type": "injury_batch",
+      "posted_at": "2026-09-22T09:51:47.179338+00:00",
+      "tweet_id": "2102335036846391366"
     }
   ],
   "live": {
