@@ -5347,29 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "price_batch:1:c39ab5731131",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:1:c39ab5731131",
-        "changes": [
-          {
-            "pid": "274",
-            "player": "Butland",
-            "team": "HUL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_1_c39ab5731131.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 1 fall, 0 rises.\n\n\ud83d\udd34 Butland (HUL) -> \u00a34.4m\n\nWinners and losers in your squad? #FPL #FPLTwitter #FPLFamily #PremierLeague\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-09-23T23:02:18.522852+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5453,7 +5431,8 @@
     "form:hot:202609230703",
     "form:cold:202609231036",
     "form:hot:202609231438",
-    "form:cold:202609231803"
+    "form:cold:202609231803",
+    "price_batch:1:c39ab5731131"
   ],
   "post_log": [
     {
@@ -5859,6 +5838,12 @@
       "type": "form_cold",
       "posted_at": "2026-09-23T18:28:47.091444+00:00",
       "tweet_id": "2102827531468476794"
+    },
+    {
+      "key": "price_batch:1:c39ab5731131",
+      "type": "price_changes",
+      "posted_at": "2026-09-23T23:21:13.801292+00:00",
+      "tweet_id": "2102901127989854676"
     }
   ],
   "live": {
