@@ -2581,7 +2581,7 @@
     "274": {
       "web_name": "Butland",
       "team": "HUL",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "i",
       "news": "Arm injury - Unknown return date",
       "news_added": "2026-08-08T19:00:05.601633Z"
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-23T22:34:10.035807+00:00",
+  "last_snapshot_at": "2026-09-23T23:02:18.448539+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,29 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "price_batch:1:c39ab5731131",
+      "story": {
+        "type": "price_changes",
+        "key": "price_batch:1:c39ab5731131",
+        "changes": [
+          {
+            "pid": "274",
+            "player": "Butland",
+            "team": "HUL",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.4
+          }
+        ]
+      },
+      "image_path": "assets/generated/price_batch_1_c39ab5731131.png",
+      "caption": "\ud83d\udcca PRICE CHANGES: 1 fall, 0 rises.\n\n\ud83d\udd34 Butland (HUL) -> \u00a34.4m\n\nWinners and losers in your squad? #FPL #FPLTwitter #FPLFamily #PremierLeague\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-09-23T23:02:18.522852+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
