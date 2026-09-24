@@ -5347,29 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "injury_batch:1:20387dbb740a",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:20387dbb740a",
-        "injuries": [
-          {
-            "pid": "397",
-            "player": "Semenyo",
-            "team": "MCI",
-            "status": "doubtful",
-            "news": "Ankle injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_20387dbb740a.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Semenyo (MCI) - doubtful: \"Ankle injury - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FPLFamily #FPLCommunity #FantasyPremierLeague\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-09-24T12:04:28.505442+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5456,7 +5434,8 @@
     "form:cold:202609231803",
     "price_batch:1:c39ab5731131",
     "form:hot:202609240703",
-    "form:cold:202609241037"
+    "form:cold:202609241037",
+    "injury_batch:1:20387dbb740a"
   ],
   "post_log": [
     {
@@ -5880,6 +5859,12 @@
       "type": "form_cold",
       "posted_at": "2026-09-24T10:52:24.268986+00:00",
       "tweet_id": "2103075067651305658"
+    },
+    {
+      "key": "injury_batch:1:20387dbb740a",
+      "type": "injury_batch",
+      "posted_at": "2026-09-24T12:31:24.782643+00:00",
+      "tweet_id": "2103099984061374957"
     }
   ],
   "live": {
