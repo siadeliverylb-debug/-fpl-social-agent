@@ -5347,61 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "form:hot:202609240703",
-      "story": {
-        "type": "form_hot",
-        "key": "form:hot:202609240703",
-        "players": [
-          {
-            "name": "Gro\u00df",
-            "team": "BHA",
-            "form": 11.2,
-            "total_points": 47,
-            "price_millions": 5.8,
-            "selected": 28.0
-          },
-          {
-            "name": "Tarkowski",
-            "team": "EVE",
-            "form": 9.2,
-            "total_points": 43,
-            "price_millions": 6.1,
-            "selected": 16.0
-          },
-          {
-            "name": "Haaland",
-            "team": "MCI",
-            "form": 9.2,
-            "total_points": 39,
-            "price_millions": 15.6,
-            "selected": 73.7
-          },
-          {
-            "name": "Bogle",
-            "team": "LEE",
-            "form": 9.0,
-            "total_points": 42,
-            "price_millions": 4.6,
-            "selected": 6.9
-          },
-          {
-            "name": "Schade",
-            "team": "BRE",
-            "form": 9.0,
-            "total_points": 39,
-            "price_millions": 6.2,
-            "selected": 10.9
-          }
-        ]
-      },
-      "image_path": "assets/generated/form_hot_202609240703.png",
-      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Gro\u00df (BHA) - 11.2 pts/game, \u00a35.8m\n2. Tarkowski (EVE) - 9.2 pts/game, \u00a36.1m\n3. Haaland (MCI) - 9.2 pts/game, \u00a315.6m\n4. Bogle (LEE) - 9.0 pts/game, \u00a34.6m\n5. Schade (BRE) - 9.0 pts/game, \u00a36.2m\n\nWho's in your team? Who are you buying? #FPL #FPLFamily #FPLCommunity #PremierLeague\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-09-24T07:03:55.861944+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5486,7 +5432,8 @@
     "form:cold:202609231036",
     "form:hot:202609231438",
     "form:cold:202609231803",
-    "price_batch:1:c39ab5731131"
+    "price_batch:1:c39ab5731131",
+    "form:hot:202609240703"
   ],
   "post_log": [
     {
@@ -5898,6 +5845,12 @@
       "type": "price_changes",
       "posted_at": "2026-09-23T23:21:13.801292+00:00",
       "tweet_id": "2102901127989854676"
+    },
+    {
+      "key": "form:hot:202609240703",
+      "type": "form_hot",
+      "posted_at": "2026-09-24T07:26:35.143163+00:00",
+      "tweet_id": "2103023271381733467"
     }
   ],
   "live": {
