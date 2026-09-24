@@ -5347,37 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "price_batch:2:8e560311c1ba",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:2:8e560311c1ba",
-        "changes": [
-          {
-            "pid": "262",
-            "player": "Smith Rowe",
-            "team": "FUL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.3
-          },
-          {
-            "pid": "572",
-            "player": "Tzolakis",
-            "team": "HUL",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.7
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_2_8e560311c1ba.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 1 fall, 1 rise.\n\n\ud83d\udd34 Smith Rowe (FUL) -> \u00a35.3m\n\ud83d\udfe2 Tzolakis (HUL) -> \u00a34.7m\n\nWinners and losers in your squad? #FPL #FantasyPremierLeague #FPLTwitter #FantasyFootball\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-09-24T23:02:53.005884+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5469,7 +5439,8 @@
     "form:hot:202609241536",
     "form:cold:202609241903",
     "injury_batch:1:f53eac2e4221",
-    "injury_batch:1:887309d048be"
+    "injury_batch:1:887309d048be",
+    "price_batch:2:8e560311c1ba"
   ],
   "post_log": [
     {
@@ -5923,6 +5894,12 @@
       "type": "injury_batch",
       "posted_at": "2026-09-24T22:25:56.822006+00:00",
       "tweet_id": "2103249603176841695"
+    },
+    {
+      "key": "price_batch:2:8e560311c1ba",
+      "type": "price_changes",
+      "posted_at": "2026-09-24T23:23:31.751056+00:00",
+      "tweet_id": "2103264094489051233"
     }
   ],
   "live": {
