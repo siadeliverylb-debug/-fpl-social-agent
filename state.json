@@ -5347,29 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "injury_batch:1:887309d048be",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:887309d048be",
-        "injuries": [
-          {
-            "pid": "26",
-            "player": "Havertz",
-            "team": "ARS",
-            "status": "doubtful",
-            "news": "Hamstring injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_887309d048be.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Havertz (ARS) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FPLTips #FPLFamily #FPLCommunity\n\nFollow for the next one.",
-      "created_at": "2026-09-24T22:03:01.996122+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5460,7 +5438,8 @@
     "injury_batch:1:20387dbb740a",
     "form:hot:202609241536",
     "form:cold:202609241903",
-    "injury_batch:1:f53eac2e4221"
+    "injury_batch:1:f53eac2e4221",
+    "injury_batch:1:887309d048be"
   ],
   "post_log": [
     {
@@ -5908,6 +5887,12 @@
       "type": "injury_batch",
       "posted_at": "2026-09-24T21:49:44.492379+00:00",
       "tweet_id": "2103240491936416202"
+    },
+    {
+      "key": "injury_batch:1:887309d048be",
+      "type": "injury_batch",
+      "posted_at": "2026-09-24T22:25:56.822006+00:00",
+      "tweet_id": "2103249603176841695"
     }
   ],
   "live": {
