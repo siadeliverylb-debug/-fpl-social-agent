@@ -5347,61 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "form_cold:5:1fc6b6f6aeab",
-      "story": {
-        "type": "form_cold",
-        "key": "form_cold:5:1fc6b6f6aeab",
-        "players": [
-          {
-            "name": "M.Sangar\u00e9",
-            "team": "BRE",
-            "form": 2.0,
-            "total_points": 22,
-            "price_millions": 5.6,
-            "selected": 10.0
-          },
-          {
-            "name": "Diop",
-            "team": "IPS",
-            "form": 2.5,
-            "total_points": 12,
-            "price_millions": 4.0,
-            "selected": 12.8
-          },
-          {
-            "name": "Tzolis",
-            "team": "ARS",
-            "form": 2.5,
-            "total_points": 16,
-            "price_millions": 6.3,
-            "selected": 12.2
-          },
-          {
-            "name": "Wissa",
-            "team": "NEW",
-            "form": 2.8,
-            "total_points": 15,
-            "price_millions": 6.2,
-            "selected": 18.7
-          },
-          {
-            "name": "Szoboszlai",
-            "team": "LIV",
-            "form": 3.0,
-            "total_points": 20,
-            "price_millions": 7.0,
-            "selected": 32.9
-          }
-        ]
-      },
-      "image_path": "assets/generated/form_cold_5_1fc6b6f6aeab.png",
-      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. M.Sangar\u00e9 (BRE) - 2.0 pts/game, \u00a35.6m, owned by 10%\n2. Diop (IPS) - 2.5 pts/game, \u00a34.0m, owned by 13%\n3. Tzolis (ARS) - 2.5 pts/game, \u00a36.3m, owned by 12%\n4. Wissa (NEW) - 2.8 pts/game, \u00a36.2m, owned by 19%\n5. Szoboszlai (LIV) - 3.0 pts/game, \u00a37.0m, owned by 33%\n\nHold, or sell before the next deadline? #FPL #FPLFamily #FPLTwitter #FPLCommunity\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-09-25T17:35:43.037178+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5497,7 +5443,8 @@
     "price_batch:2:8e560311c1ba",
     "form:hot:202609250704",
     "form:cold:202609251036",
-    "form:hot:202609251405"
+    "form:hot:202609251405",
+    "form_cold:5:1fc6b6f6aeab"
   ],
   "post_log": [
     {
@@ -5975,6 +5922,12 @@
       "type": "form_hot",
       "posted_at": "2026-09-25T14:27:26.288273+00:00",
       "tweet_id": "2103491570477719691"
+    },
+    {
+      "key": "form_cold:5:1fc6b6f6aeab",
+      "type": "form_cold",
+      "posted_at": "2026-09-25T17:55:45.325099+00:00",
+      "tweet_id": "2103543995242541478"
     }
   ],
   "live": {
