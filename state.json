@@ -5347,29 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "injury_batch:1:0313e644f8fd",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:0313e644f8fd",
-        "injuries": [
-          {
-            "pid": "532",
-            "player": "Ballard",
-            "team": "SUN",
-            "status": "doubtful",
-            "news": "Hamstring injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_0313e644f8fd.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Ballard (SUN) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #FPLTwitter #FPLFamily #FPLCommunity\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-09-25T21:36:03.438488+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5466,7 +5444,8 @@
     "form:hot:202609250704",
     "form:cold:202609251036",
     "form:hot:202609251405",
-    "form_cold:5:1fc6b6f6aeab"
+    "form_cold:5:1fc6b6f6aeab",
+    "injury_batch:1:0313e644f8fd"
   ],
   "post_log": [
     {
@@ -5950,6 +5929,12 @@
       "type": "form_cold",
       "posted_at": "2026-09-25T17:55:45.325099+00:00",
       "tweet_id": "2103543995242541478"
+    },
+    {
+      "key": "injury_batch:1:0313e644f8fd",
+      "type": "injury_batch",
+      "posted_at": "2026-09-25T21:52:02.577407+00:00",
+      "tweet_id": "2103603458813092120"
     }
   ],
   "live": {
