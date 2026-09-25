@@ -273,24 +273,38 @@ def form_stories(data, state, other_stories, now=None):
             "selected": float(p["selected_by_percent"]),
         })
 
-    kind = fs["next"]
-    if kind == "hot":
-        picks = sorted(rows, key=lambda r: (-r["form"], -r["total_points"]))[:SPOTLIGHT_SIZE]
-        picks = [r for r in picks if r["form"] > 0]
-    else:
+    def compute(kind):
+        if kind == "hot":
+            picks = sorted(rows, key=lambda r: (-r["form"], -r["total_points"]))[:SPOTLIGHT_SIZE]
+            return [r for r in picks if r["form"] > 0]
         popular = [r for r in rows if r["selected"] >= SPOTLIGHT_MIN_OWNERSHIP]
-        picks = sorted(popular, key=lambda r: (r["form"], -r["selected"]))[:SPOTLIGHT_SIZE]
-    if len(picks) < 3:
-        return []
+        return sorted(popular, key=lambda r: (r["form"], -r["selected"]))[:SPOTLIGHT_SIZE]
 
-    fs["last_at"] = now.isoformat()
-    fs["next"] = "cold" if kind == "hot" else "hot"
-    fs["count"] += 1
-    return [{
-        "type": "form_hot" if kind == "hot" else "form_cold",
-        "key": f"form:{kind}:{now:%Y%m%d%H%M}",
-        "players": picks,
-    }]
+    # FPL's "form" is derived from recent gameweeks and can sit unchanged for
+    # days (or, between gameweeks, weeks) -- without this, the exact same
+    # top-5/bottom-5 got reposted on a timer regardless of whether anything
+    # had actually changed. Try the intended kind first, fall back to the
+    # other one if it's stale, and post nothing rather than repeat either.
+    fs.setdefault("last_picks", {})
+    first_kind = fs["next"]
+    for kind in (first_kind, "cold" if first_kind == "hot" else "hot"):
+        picks = compute(kind)
+        if len(picks) < 3:
+            continue
+        names = [p["name"] for p in picks]
+        if names == fs["last_picks"].get(kind):
+            continue  # identical to what we already posted -- not news
+        fs["last_picks"][kind] = names
+        fs["last_at"] = now.isoformat()
+        fs["next"] = "cold" if kind == "hot" else "hot"
+        fs["count"] += 1
+        return [{
+            "type": "form_hot" if kind == "hot" else "form_cold",
+            "key": _batch_key(f"form_{kind}", names),
+            "players": picks,
+        }]
+
+    return []
 
 
 def fetch_stories(state):
