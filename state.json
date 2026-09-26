@@ -109,7 +109,7 @@
     "14": {
       "web_name": "Eze",
       "team": "ARS",
-      "now_cost": 63,
+      "now_cost": 62,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1021,7 +1021,7 @@
     "115": {
       "web_name": "De Cuyper",
       "team": "BHA",
-      "now_cost": 49,
+      "now_cost": 50,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1173,7 +1173,7 @@
     "135": {
       "web_name": "Yohanna",
       "team": "BHA",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "i",
       "news": "Unspecified injury - Expected back 10 Oct",
       "news_added": "2026-09-10T13:00:08.617941Z"
@@ -2101,7 +2101,7 @@
     "595": {
       "web_name": "Gozo",
       "team": "CRY",
-      "now_cost": 50,
+      "now_cost": 49,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-25T22:02:50.669430+00:00",
+  "last_snapshot_at": "2026-09-26T00:42:59.278851+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,53 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "price_batch:4:5c1c404c5a8e",
+      "story": {
+        "type": "price_changes",
+        "key": "price_batch:4:5c1c404c5a8e",
+        "changes": [
+          {
+            "pid": "14",
+            "player": "Eze",
+            "team": "ARS",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 6.2
+          },
+          {
+            "pid": "595",
+            "player": "Gozo",
+            "team": "CRY",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.9
+          },
+          {
+            "pid": "135",
+            "player": "Yohanna",
+            "team": "BHA",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.8
+          },
+          {
+            "pid": "115",
+            "player": "De Cuyper",
+            "team": "BHA",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.0
+          }
+        ]
+      },
+      "image_path": "assets/generated/price_batch_4_5c1c404c5a8e.png",
+      "caption": "\ud83d\udcca PRICE CHANGES: 3 falls, 1 rise.\n\n\ud83d\udd34 Eze (ARS) -> \u00a36.2m\n\ud83d\udd34 Gozo (CRY) -> \u00a34.9m\n\ud83d\udd34 Yohanna (BHA) -> \u00a34.8m\n\ud83d\udfe2 De Cuyper (BHA) -> \u00a35.0m\n\nWinners and losers in your squad? #FPL #FPLTwitter #PremierLeague #FPLCommunity\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-09-26T00:42:59.337432+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
