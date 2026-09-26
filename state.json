@@ -5347,53 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "price_batch:4:5c1c404c5a8e",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:4:5c1c404c5a8e",
-        "changes": [
-          {
-            "pid": "14",
-            "player": "Eze",
-            "team": "ARS",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.2
-          },
-          {
-            "pid": "595",
-            "player": "Gozo",
-            "team": "CRY",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.9
-          },
-          {
-            "pid": "135",
-            "player": "Yohanna",
-            "team": "BHA",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.8
-          },
-          {
-            "pid": "115",
-            "player": "De Cuyper",
-            "team": "BHA",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.0
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_4_5c1c404c5a8e.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 3 falls, 1 rise.\n\n\ud83d\udd34 Eze (ARS) -> \u00a36.2m\n\ud83d\udd34 Gozo (CRY) -> \u00a34.9m\n\ud83d\udd34 Yohanna (BHA) -> \u00a34.8m\n\ud83d\udfe2 De Cuyper (BHA) -> \u00a35.0m\n\nWinners and losers in your squad? #FPL #FPLTwitter #PremierLeague #FPLCommunity\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-09-26T00:42:59.337432+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5491,7 +5445,8 @@
     "form:cold:202609251036",
     "form:hot:202609251405",
     "form_cold:5:1fc6b6f6aeab",
-    "injury_batch:1:0313e644f8fd"
+    "injury_batch:1:0313e644f8fd",
+    "price_batch:4:5c1c404c5a8e"
   ],
   "post_log": [
     {
@@ -5981,6 +5936,12 @@
       "type": "injury_batch",
       "posted_at": "2026-09-25T21:52:02.577407+00:00",
       "tweet_id": "2103603458813092120"
+    },
+    {
+      "key": "price_batch:4:5c1c404c5a8e",
+      "type": "price_changes",
+      "posted_at": "2026-09-26T05:29:16.946427+00:00",
+      "tweet_id": "2103718527069045111"
     }
   ],
   "live": {
