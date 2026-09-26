@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-26T10:27:41.422772+00:00",
+  "last_snapshot_at": "2026-09-26T14:38:30.129729+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,61 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_hot:5:722de5d580ea",
+      "story": {
+        "type": "form_hot",
+        "key": "form_hot:5:722de5d580ea",
+        "players": [
+          {
+            "name": "Gro\u00df",
+            "team": "BHA",
+            "form": 11.2,
+            "total_points": 47,
+            "price_millions": 5.8,
+            "selected": 28.5
+          },
+          {
+            "name": "Tarkowski",
+            "team": "EVE",
+            "form": 9.2,
+            "total_points": 43,
+            "price_millions": 6.1,
+            "selected": 16.2
+          },
+          {
+            "name": "Haaland",
+            "team": "MCI",
+            "form": 9.2,
+            "total_points": 39,
+            "price_millions": 15.6,
+            "selected": 73.8
+          },
+          {
+            "name": "Bogle",
+            "team": "LEE",
+            "form": 9.0,
+            "total_points": 42,
+            "price_millions": 4.6,
+            "selected": 7.1
+          },
+          {
+            "name": "Schade",
+            "team": "BRE",
+            "form": 9.0,
+            "total_points": 39,
+            "price_millions": 6.2,
+            "selected": 11.2
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_5_722de5d580ea.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Gro\u00df (BHA) - 11.2 pts/game, \u00a35.8m\n2. Tarkowski (EVE) - 9.2 pts/game, \u00a36.1m\n3. Haaland (MCI) - 9.2 pts/game, \u00a315.6m\n4. Bogle (LEE) - 9.0 pts/game, \u00a34.6m\n5. Schade (BRE) - 9.0 pts/game, \u00a36.2m\n\nTime to jump on one of them, or too late? #FPL #PremierLeague #FPLFamily #FPLTips\n\nFollow for the next one.",
+      "created_at": "2026-09-26T14:38:30.190533+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -8138,10 +8192,10 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-09-25T17:35:42.973001+00:00",
-    "next": "hot",
-    "day": "2026-09-25",
-    "count": 4,
+    "last_at": "2026-09-26T14:38:30.129193+00:00",
+    "next": "cold",
+    "day": "2026-09-26",
+    "count": 1,
     "last_picks": {
       "cold": [
         "M.Sangar\u00e9",
@@ -8149,6 +8203,13 @@
         "Tzolis",
         "Wissa",
         "Szoboszlai"
+      ],
+      "hot": [
+        "Gro\u00df",
+        "Tarkowski",
+        "Haaland",
+        "Bogle",
+        "Schade"
       ]
     }
   },
