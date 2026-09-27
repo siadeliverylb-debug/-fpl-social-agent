@@ -5347,37 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "injury_batch:2:8d70a5422756",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:2:8d70a5422756",
-        "injuries": [
-          {
-            "pid": "415",
-            "player": "Dorgu",
-            "team": "MUN",
-            "status": "doubtful",
-            "news": "Hamstring injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "367",
-            "player": "Gakpo",
-            "team": "LIV",
-            "status": "doubtful",
-            "news": "Ankle injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_2_8d70a5422756.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Dorgu (MUN) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\ud83d\udea8 Gakpo (LIV) - doubtful: \"Ankle injury - 75% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #FPLTwitter #PremierLeague #FantasyFootball\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-09-27T21:43:34.444926+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5480,7 +5450,8 @@
     "injury_batch:1:a3d12597f93e",
     "form_hot:5:722de5d580ea",
     "price_batch:1:11101321a535",
-    "injury_batch:1:c829eb96cef0"
+    "injury_batch:1:c829eb96cef0",
+    "injury_batch:2:8d70a5422756"
   ],
   "post_log": [
     {
@@ -6000,6 +5971,12 @@
       "type": "injury_batch",
       "posted_at": "2026-09-27T18:22:21.648025+00:00",
       "tweet_id": "2104275466383179801"
+    },
+    {
+      "key": "injury_batch:2:8d70a5422756",
+      "type": "injury_batch",
+      "posted_at": "2026-09-27T23:58:21.149788+00:00",
+      "tweet_id": "2104360021471408410"
     }
   ],
   "live": {
