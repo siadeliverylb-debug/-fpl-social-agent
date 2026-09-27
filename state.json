@@ -3582,9 +3582,9 @@
       "web_name": "Gakpo",
       "team": "LIV",
       "now_cost": 72,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-09T18:30:08.772955Z"
+      "status": "d",
+      "news": "Ankle injury - 75% chance of playing",
+      "news_added": "2026-09-27T21:30:07.786183Z"
     },
     "368": {
       "web_name": "Szoboszlai",
@@ -3679,7 +3679,7 @@
       "team": "LIV",
       "now_cost": 91,
       "status": "d",
-      "news": "Foot injury - 75% chance of playing",
+      "news": "Thigh injury - 75% chance of playing",
       "news_added": "2026-09-27T10:30:09.051435Z"
     },
     "380": {
@@ -4054,9 +4054,9 @@
       "web_name": "Dorgu",
       "team": "MUN",
       "now_cost": 58,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Hamstring injury - 75% chance of playing",
+      "news_added": "2026-09-27T21:30:07.831640Z"
     },
     "416": {
       "web_name": "De Ligt",
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-27T18:32:37.398418+00:00",
+  "last_snapshot_at": "2026-09-27T21:43:34.367819+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,37 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:2:8d70a5422756",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:2:8d70a5422756",
+        "injuries": [
+          {
+            "pid": "415",
+            "player": "Dorgu",
+            "team": "MUN",
+            "status": "doubtful",
+            "news": "Hamstring injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "367",
+            "player": "Gakpo",
+            "team": "LIV",
+            "status": "doubtful",
+            "news": "Ankle injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_2_8d70a5422756.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Dorgu (MUN) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\ud83d\udea8 Gakpo (LIV) - doubtful: \"Ankle injury - 75% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #FPLTwitter #PremierLeague #FantasyFootball\n\nTurn on notifications to catch these as they land.",
+      "created_at": "2026-09-27T21:43:34.444926+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
