@@ -3678,9 +3678,9 @@
       "web_name": "Isak",
       "team": "LIV",
       "now_cost": 91,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Foot injury - 75% chance of playing",
+      "news_added": "2026-09-27T10:30:09.051435Z"
     },
     "380": {
       "web_name": "Ekitik\u00e9",
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-27T08:24:10.933805+00:00",
+  "last_snapshot_at": "2026-09-27T14:08:52.136792+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,29 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:c829eb96cef0",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:c829eb96cef0",
+        "injuries": [
+          {
+            "pid": "379",
+            "player": "Isak",
+            "team": "LIV",
+            "status": "doubtful",
+            "news": "Foot injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_c829eb96cef0.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Isak (LIV) - doubtful: \"Foot injury - 75% chance of playing\"\n\nHow are you covering this one? #FPL #FPLTwitter #PremierLeague #FPLCommunity\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-09-27T14:08:52.186015+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
