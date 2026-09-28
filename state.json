@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-28T12:15:59.196808+00:00",
+  "last_snapshot_at": "2026-09-28T19:44:56.889865+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,61 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_hot:5:c5d7bfe1a57e",
+      "story": {
+        "type": "form_hot",
+        "key": "form_hot:5:c5d7bfe1a57e",
+        "players": [
+          {
+            "name": "Gro\u00df",
+            "team": "BHA",
+            "form": 11.2,
+            "total_points": 47,
+            "price_millions": 5.8,
+            "selected": 28.7
+          },
+          {
+            "name": "Bogle",
+            "team": "LEE",
+            "form": 9.0,
+            "total_points": 42,
+            "price_millions": 4.6,
+            "selected": 7.1
+          },
+          {
+            "name": "Schade",
+            "team": "BRE",
+            "form": 9.0,
+            "total_points": 39,
+            "price_millions": 6.2,
+            "selected": 11.4
+          },
+          {
+            "name": "Semenyo",
+            "team": "MCI",
+            "form": 8.7,
+            "total_points": 33,
+            "price_millions": 8.4,
+            "selected": 15.4
+          },
+          {
+            "name": "Tarkowski",
+            "team": "EVE",
+            "form": 8.3,
+            "total_points": 43,
+            "price_millions": 6.1,
+            "selected": 16.4
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_5_c5d7bfe1a57e.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Gro\u00df (BHA) - 11.2 pts/game, \u00a35.8m\n2. Bogle (LEE) - 9.0 pts/game, \u00a34.6m\n3. Schade (BRE) - 9.0 pts/game, \u00a36.2m\n4. Semenyo (MCI) - 8.7 pts/game, \u00a38.4m\n5. Tarkowski (EVE) - 8.3 pts/game, \u00a36.1m\n\nAny of them in your squad yet? #FPL #FPLTips #FantasyPremierLeague #FantasyFootball\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-09-28T19:44:56.960557+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -8174,10 +8228,10 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-09-28T12:15:59.196164+00:00",
-    "next": "hot",
+    "last_at": "2026-09-28T19:44:56.889201+00:00",
+    "next": "cold",
     "day": "2026-09-28",
-    "count": 1,
+    "count": 2,
     "last_picks": {
       "cold": [
         "Diop",
@@ -8188,10 +8242,10 @@
       ],
       "hot": [
         "Gro\u00df",
-        "Tarkowski",
-        "Haaland",
         "Bogle",
-        "Schade"
+        "Schade",
+        "Semenyo",
+        "Tarkowski"
       ]
     }
   },
