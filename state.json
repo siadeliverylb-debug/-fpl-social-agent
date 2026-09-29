@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-29T11:45:01.428266+00:00",
+  "last_snapshot_at": "2026-09-29T17:11:59.523090+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,61 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_hot:5:449b2d0926ef",
+      "story": {
+        "type": "form_hot",
+        "key": "form_hot:5:449b2d0926ef",
+        "players": [
+          {
+            "name": "Bogle",
+            "team": "LEE",
+            "form": 11.3,
+            "total_points": 42,
+            "price_millions": 4.6,
+            "selected": 7.2
+          },
+          {
+            "name": "Gro\u00df",
+            "team": "BHA",
+            "form": 10.7,
+            "total_points": 47,
+            "price_millions": 5.8,
+            "selected": 28.8
+          },
+          {
+            "name": "Schade",
+            "team": "BRE",
+            "form": 8.7,
+            "total_points": 39,
+            "price_millions": 6.2,
+            "selected": 11.4
+          },
+          {
+            "name": "Semenyo",
+            "team": "MCI",
+            "form": 8.7,
+            "total_points": 33,
+            "price_millions": 8.4,
+            "selected": 15.4
+          },
+          {
+            "name": "Vuskovic",
+            "team": "BHA",
+            "form": 8.7,
+            "total_points": 32,
+            "price_millions": 5.0,
+            "selected": 3.6
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_5_449b2d0926ef.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Bogle (LEE) - 11.3 pts/game, \u00a34.6m\n2. Gro\u00df (BHA) - 10.7 pts/game, \u00a35.8m\n3. Schade (BRE) - 8.7 pts/game, \u00a36.2m\n4. Semenyo (MCI) - 8.7 pts/game, \u00a38.4m\n5. Vuskovic (BHA) - 8.7 pts/game, \u00a35.0m\n\nAny of them in your squad yet? #FPL #FantasyFootball #FPLFamily #FPLCommunity\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-09-29T17:11:59.608895+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -8176,10 +8230,10 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-09-29T11:45:01.427678+00:00",
-    "next": "hot",
+    "last_at": "2026-09-29T17:11:59.522472+00:00",
+    "next": "cold",
     "day": "2026-09-29",
-    "count": 1,
+    "count": 2,
     "last_picks": {
       "cold": [
         "Wissa",
@@ -8189,11 +8243,11 @@
         "Szoboszlai"
       ],
       "hot": [
-        "Gro\u00df",
         "Bogle",
+        "Gro\u00df",
         "Schade",
         "Semenyo",
-        "Tarkowski"
+        "Vuskovic"
       ]
     }
   },
