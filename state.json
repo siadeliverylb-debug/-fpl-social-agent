@@ -2141,7 +2141,7 @@
     "21": {
       "web_name": "N\u00f8rgaard",
       "team": "EVE",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "i",
       "news": "Groin injury - Unknown return date",
       "news_added": "2026-08-15T20:00:06.779594Z"
@@ -2805,7 +2805,7 @@
     "563": {
       "web_name": "Morita",
       "team": "HUL",
-      "now_cost": 50,
+      "now_cost": 49,
       "status": "i",
       "news": "Calf injury - Expected back 11 Oct",
       "news_added": "2026-09-09T14:00:08.474217Z"
@@ -5125,7 +5125,7 @@
     "531": {
       "web_name": "Ellborg",
       "team": "SUN",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5221,7 +5221,7 @@
     "543": {
       "web_name": "Diarra",
       "team": "SUN",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "i",
       "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-08-30T16:30:08.428960Z"
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-28T19:44:56.889865+00:00",
+  "last_snapshot_at": "2026-09-29T00:02:30.218812+00:00",
   "recapped_events": [
     1,
     2,
