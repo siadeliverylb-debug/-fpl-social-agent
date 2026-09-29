@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-29T05:55:08.935824+00:00",
+  "last_snapshot_at": "2026-09-29T11:45:01.428266+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,61 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_cold:5:6d88012e0244",
+      "story": {
+        "type": "form_cold",
+        "key": "form_cold:5:6d88012e0244",
+        "players": [
+          {
+            "name": "Wissa",
+            "team": "NEW",
+            "form": 1.0,
+            "total_points": 15,
+            "price_millions": 6.2,
+            "selected": 18.7
+          },
+          {
+            "name": "Ajayi",
+            "team": "HUL",
+            "form": 2.3,
+            "total_points": 27,
+            "price_millions": 4.2,
+            "selected": 14.0
+          },
+          {
+            "name": "Diop",
+            "team": "IPS",
+            "form": 2.5,
+            "total_points": 12,
+            "price_millions": 4.0,
+            "selected": 12.7
+          },
+          {
+            "name": "Tzolis",
+            "team": "ARS",
+            "form": 2.5,
+            "total_points": 16,
+            "price_millions": 6.3,
+            "selected": 12.2
+          },
+          {
+            "name": "Szoboszlai",
+            "team": "LIV",
+            "form": 2.7,
+            "total_points": 20,
+            "price_millions": 7.0,
+            "selected": 32.8
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_cold_5_6d88012e0244.png",
+      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Wissa (NEW) - 1.0 pts/game, \u00a36.2m, owned by 19%\n2. Ajayi (HUL) - 2.3 pts/game, \u00a34.2m, owned by 14%\n3. Diop (IPS) - 2.5 pts/game, \u00a34.0m, owned by 13%\n4. Tzolis (ARS) - 2.5 pts/game, \u00a36.3m, owned by 12%\n5. Szoboszlai (LIV) - 2.7 pts/game, \u00a37.0m, owned by 33%\n\nWho's getting binned first? #FPL #FPLFamily #FPLTips #FantasyPremierLeague\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-09-29T11:45:01.508771+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -8175,17 +8229,17 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-09-28T19:44:56.889201+00:00",
-    "next": "cold",
-    "day": "2026-09-28",
-    "count": 2,
+    "last_at": "2026-09-29T11:45:01.427678+00:00",
+    "next": "hot",
+    "day": "2026-09-29",
+    "count": 1,
     "last_picks": {
       "cold": [
+        "Wissa",
+        "Ajayi",
         "Diop",
         "Tzolis",
-        "Szoboszlai",
-        "Wissa",
-        "Konsa"
+        "Szoboszlai"
       ],
       "hot": [
         "Gro\u00df",
