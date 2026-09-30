@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-30T06:07:00.543703+00:00",
+  "last_snapshot_at": "2026-09-30T12:50:22.036177+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,61 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_cold:5:7815121a4f66",
+      "story": {
+        "type": "form_cold",
+        "key": "form_cold:5:7815121a4f66",
+        "players": [
+          {
+            "name": "Wissa",
+            "team": "NEW",
+            "form": 1.0,
+            "total_points": 15,
+            "price_millions": 6.2,
+            "selected": 18.7
+          },
+          {
+            "name": "B.Fernandes",
+            "team": "MUN",
+            "form": 2.0,
+            "total_points": 31,
+            "price_millions": 11.9,
+            "selected": 38.5
+          },
+          {
+            "name": "Ajayi",
+            "team": "HUL",
+            "form": 2.3,
+            "total_points": 27,
+            "price_millions": 4.2,
+            "selected": 14.0
+          },
+          {
+            "name": "Tzolis",
+            "team": "ARS",
+            "form": 2.5,
+            "total_points": 16,
+            "price_millions": 6.3,
+            "selected": 12.2
+          },
+          {
+            "name": "Szoboszlai",
+            "team": "LIV",
+            "form": 2.7,
+            "total_points": 20,
+            "price_millions": 7.0,
+            "selected": 32.8
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_cold_5_7815121a4f66.png",
+      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Wissa (NEW) - 1.0 pts/game, \u00a36.2m, owned by 19%\n2. B.Fernandes (MUN) - 2.0 pts/game, \u00a311.9m, owned by 38%\n3. Ajayi (HUL) - 2.3 pts/game, \u00a34.2m, owned by 14%\n4. Tzolis (ARS) - 2.5 pts/game, \u00a36.3m, owned by 12%\n5. Szoboszlai (LIV) - 2.7 pts/game, \u00a37.0m, owned by 33%\n\nDo you trust any of them to bounce back? #FPL #FPLTips #FantasyPremierLeague #FantasyFootball\n\nTurn on notifications to catch these as they land.",
+      "created_at": "2026-09-30T12:50:22.114095+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -8177,15 +8231,15 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-09-29T17:11:59.522472+00:00",
-    "next": "cold",
-    "day": "2026-09-29",
-    "count": 2,
+    "last_at": "2026-09-30T12:50:22.035625+00:00",
+    "next": "hot",
+    "day": "2026-09-30",
+    "count": 1,
     "last_picks": {
       "cold": [
         "Wissa",
+        "B.Fernandes",
         "Ajayi",
-        "Diop",
         "Tzolis",
         "Szoboszlai"
       ],
