@@ -4782,9 +4782,9 @@
       "web_name": "Van Hecke",
       "team": "TOT",
       "now_cost": 49,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Foot injury - 75% chance of playing",
+      "news_added": "2026-09-30T16:00:09.552205Z"
     },
     "147": {
       "web_name": "Tosin",
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-30T12:50:22.036177+00:00",
+  "last_snapshot_at": "2026-09-30T18:11:55.021463+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,29 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:601ca99d55f0",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:601ca99d55f0",
+        "injuries": [
+          {
+            "pid": "112",
+            "player": "Van Hecke",
+            "team": "TOT",
+            "status": "doubtful",
+            "news": "Foot injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_601ca99d55f0.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Van Hecke (TOT) - doubtful: \"Foot injury - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FantasyPremierLeague #FPLFamily #PremierLeague\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-09-30T18:11:55.096815+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
