@@ -269,7 +269,7 @@
     "34": {
       "web_name": "Pau",
       "team": "AVL",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "i",
       "news": "Hamstring injury - Expected back 10 Oct",
       "news_added": "2026-09-12T18:00:08.712707Z"
@@ -1757,7 +1757,7 @@
     "193": {
       "web_name": "Wright",
       "team": "COV",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "i",
       "news": "Thigh injury - Unknown return date",
       "news_added": "2026-08-14T22:00:07.214508Z"
@@ -3509,7 +3509,7 @@
     "358": {
       "web_name": "Kerkez",
       "team": "LIV",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-09-29T21:28:12.096299+00:00",
+  "last_snapshot_at": "2026-09-30T00:39:27.286732+00:00",
   "recapped_events": [
     1,
     2,
