@@ -5347,45 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "injury_batch:3:5aa3df372966",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:3:5aa3df372966",
-        "injuries": [
-          {
-            "pid": "459",
-            "player": "L.Miley",
-            "team": "NEW",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "233",
-            "player": "Mykolenko",
-            "team": "EVE",
-            "status": "doubtful",
-            "news": "Leg injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "387",
-            "player": "O'Reilly",
-            "team": "MCI",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_3_5aa3df372966.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (3):\n\n\ud83d\udea8 L.Miley (NEW) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Mykolenko (EVE) - doubtful: \"Leg injury - 75% chance of playing\"\n\ud83d\udea8 O'Reilly (MCI) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLTips #FantasyPremierLeague #FPLCommunity\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-10-01T19:57:30.014799+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5498,7 +5460,8 @@
     "form_cold:5:7815121a4f66",
     "injury_batch:1:601ca99d55f0",
     "price_batch:4:79824db55231",
-    "form_cold:5:092042ae11ff"
+    "form_cold:5:092042ae11ff",
+    "injury_batch:3:5aa3df372966"
   ],
   "post_log": [
     {
@@ -6054,6 +6017,12 @@
       "type": "form_cold",
       "posted_at": "2026-10-01T07:48:26.905167+00:00",
       "tweet_id": "2105565488587702281"
+    },
+    {
+      "key": "injury_batch:3:5aa3df372966",
+      "type": "injury_batch",
+      "posted_at": "2026-10-01T20:30:20.546524+00:00",
+      "tweet_id": "2105757225520148637"
     }
   ],
   "live": {
