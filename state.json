@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-01T01:22:49.768832+00:00",
+  "last_snapshot_at": "2026-10-01T07:20:26.756188+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,61 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_cold:5:092042ae11ff",
+      "story": {
+        "type": "form_cold",
+        "key": "form_cold:5:092042ae11ff",
+        "players": [
+          {
+            "name": "Wissa",
+            "team": "NEW",
+            "form": 1.0,
+            "total_points": 15,
+            "price_millions": 6.2,
+            "selected": 18.7
+          },
+          {
+            "name": "B.Fernandes",
+            "team": "MUN",
+            "form": 2.0,
+            "total_points": 31,
+            "price_millions": 11.9,
+            "selected": 38.5
+          },
+          {
+            "name": "Ajayi",
+            "team": "HUL",
+            "form": 2.3,
+            "total_points": 27,
+            "price_millions": 4.2,
+            "selected": 14.0
+          },
+          {
+            "name": "Szoboszlai",
+            "team": "LIV",
+            "form": 2.7,
+            "total_points": 20,
+            "price_millions": 7.0,
+            "selected": 32.8
+          },
+          {
+            "name": "Palmer",
+            "team": "CHE",
+            "form": 2.7,
+            "total_points": 28,
+            "price_millions": 9.7,
+            "selected": 25.7
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_cold_5_092042ae11ff.png",
+      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Wissa (NEW) - 1.0 pts/game, \u00a36.2m, owned by 19%\n2. B.Fernandes (MUN) - 2.0 pts/game, \u00a311.9m, owned by 38%\n3. Ajayi (HUL) - 2.3 pts/game, \u00a34.2m, owned by 14%\n4. Szoboszlai (LIV) - 2.7 pts/game, \u00a37.0m, owned by 33%\n5. Palmer (CHE) - 2.7 pts/game, \u00a39.7m, owned by 26%\n\nHold, or sell before the next deadline? #FPL #FPLTips #PremierLeague #FPLFamily\n\nTurn on notifications to catch these as they land.",
+      "created_at": "2026-10-01T07:20:26.838812+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -8198,17 +8252,17 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-09-30T12:50:22.035625+00:00",
+    "last_at": "2026-10-01T07:20:26.755463+00:00",
     "next": "hot",
-    "day": "2026-09-30",
+    "day": "2026-10-01",
     "count": 1,
     "last_picks": {
       "cold": [
         "Wissa",
         "B.Fernandes",
         "Ajayi",
-        "Tzolis",
-        "Szoboszlai"
+        "Szoboszlai",
+        "Palmer"
       ],
       "hot": [
         "Bogle",
