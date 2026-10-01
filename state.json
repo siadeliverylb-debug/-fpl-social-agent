@@ -5347,53 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "price_batch:4:79824db55231",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:4:79824db55231",
-        "changes": [
-          {
-            "pid": "17",
-            "player": "Merino",
-            "team": "ARS",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.7
-          },
-          {
-            "pid": "202",
-            "player": "Richards",
-            "team": "CRY",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.9
-          },
-          {
-            "pid": "421",
-            "player": "Heaven",
-            "team": "MUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.3
-          },
-          {
-            "pid": "229",
-            "player": "Tarkowski",
-            "team": "EVE",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.2
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_4_79824db55231.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 3 falls, 1 rise.\n\n\ud83d\udd34 Merino (ARS) -> \u00a35.7m\n\ud83d\udd34 Richards (CRY) -> \u00a34.9m\n\ud83d\udd34 Heaven (MUN) -> \u00a34.3m\n\ud83d\udfe2 Tarkowski (EVE) -> \u00a36.2m\n\nWinners and losers in your squad? #FPL #FPLTips #FantasyFootball #FPLTwitter\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-10-01T01:22:49.810868+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5504,7 +5458,8 @@
     "form_cold:5:6d88012e0244",
     "form_hot:5:449b2d0926ef",
     "form_cold:5:7815121a4f66",
-    "injury_batch:1:601ca99d55f0"
+    "injury_batch:1:601ca99d55f0",
+    "price_batch:4:79824db55231"
   ],
   "post_log": [
     {
@@ -6048,6 +6003,12 @@
       "type": "injury_batch",
       "posted_at": "2026-09-30T18:26:25.673927+00:00",
       "tweet_id": "2105363653621129463"
+    },
+    {
+      "key": "price_batch:4:79824db55231",
+      "type": "price_changes",
+      "posted_at": "2026-10-01T01:35:09.868089+00:00",
+      "tweet_id": "2105471548660355407"
     }
   ],
   "live": {
