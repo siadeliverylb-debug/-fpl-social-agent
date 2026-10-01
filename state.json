@@ -2214,9 +2214,9 @@
       "web_name": "Mykolenko",
       "team": "EVE",
       "now_cost": 46,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Leg injury - 75% chance of playing",
+      "news_added": "2026-10-01T19:30:09.402881Z"
     },
     "234": {
       "web_name": "Patterson",
@@ -3766,9 +3766,9 @@
       "web_name": "O'Reilly",
       "team": "MCI",
       "now_cost": 63,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-05T18:00:06.379802Z"
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-01T15:30:10.272693Z"
     },
     "388": {
       "web_name": "Gu\u00e9hi",
@@ -4398,9 +4398,9 @@
       "web_name": "L.Miley",
       "team": "NEW",
       "now_cost": 55,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-07-23T12:01:23.785456Z"
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-01T15:30:10.335504Z"
     },
     "460": {
       "web_name": "Willock",
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-01T14:37:38.721853+00:00",
+  "last_snapshot_at": "2026-10-01T19:57:29.947806+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,45 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:3:5aa3df372966",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:3:5aa3df372966",
+        "injuries": [
+          {
+            "pid": "459",
+            "player": "L.Miley",
+            "team": "NEW",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "233",
+            "player": "Mykolenko",
+            "team": "EVE",
+            "status": "doubtful",
+            "news": "Leg injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "387",
+            "player": "O'Reilly",
+            "team": "MCI",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_3_5aa3df372966.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (3):\n\n\ud83d\udea8 L.Miley (NEW) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Mykolenko (EVE) - doubtful: \"Leg injury - 75% chance of playing\"\n\ud83d\udea8 O'Reilly (MCI) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLTips #FantasyPremierLeague #FPLCommunity\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-10-01T19:57:30.014799+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
