@@ -5347,29 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "injury_batch:1:859371c78674",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:859371c78674",
-        "injuries": [
-          {
-            "pid": "557",
-            "player": "Tzolis",
-            "team": "ARS",
-            "status": "doubtful",
-            "news": "Hamstring injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_859371c78674.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Tzolis (ARS) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #PremierLeague #FPLFamily #FantasyFootball\n\nFollow for the next one.",
-      "created_at": "2026-10-02T15:54:29.106668+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5483,7 +5461,8 @@
     "injury_batch:1:601ca99d55f0",
     "price_batch:4:79824db55231",
     "form_cold:5:092042ae11ff",
-    "injury_batch:3:5aa3df372966"
+    "injury_batch:3:5aa3df372966",
+    "injury_batch:1:859371c78674"
   ],
   "post_log": [
     {
@@ -6045,6 +6024,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-01T20:30:20.546524+00:00",
       "tweet_id": "2105757225520148637"
+    },
+    {
+      "key": "injury_batch:1:859371c78674",
+      "type": "injury_batch",
+      "posted_at": "2026-10-02T16:49:46.342126+00:00",
+      "tweet_id": "2106064105203437801"
     }
   ],
   "live": {
