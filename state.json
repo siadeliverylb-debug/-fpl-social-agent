@@ -1869,7 +1869,7 @@
     "198": {
       "web_name": "Henderson",
       "team": "CRY",
-      "now_cost": 50,
+      "now_cost": 49,
       "status": "i",
       "news": "Foot injury - Expected back 11 Oct",
       "news_added": "2026-09-12T14:00:09.378740Z"
@@ -3301,7 +3301,7 @@
     "339": {
       "web_name": "Longstaff",
       "team": "LEE",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3453,7 +3453,7 @@
     "351": {
       "web_name": "Mamardashvili",
       "team": "LIV",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3589,7 +3589,7 @@
     "368": {
       "web_name": "Szoboszlai",
       "team": "LIV",
-      "now_cost": 70,
+      "now_cost": 69,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3805,7 +3805,7 @@
     "392": {
       "web_name": "A\u00eft-Nouri",
       "team": "MCI",
-      "now_cost": 53,
+      "now_cost": 52,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4717,7 +4717,7 @@
     "488": {
       "web_name": "I.Sangar\u00e9",
       "team": "NFO",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": "2026-08-28T09:30:07.471668Z"
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-02T20:14:01.536673+00:00",
+  "last_snapshot_at": "2026-10-02T23:53:00.518797+00:00",
   "recapped_events": [
     1,
     2,
