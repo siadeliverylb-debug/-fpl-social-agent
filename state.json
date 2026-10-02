@@ -230,9 +230,9 @@
       "web_name": "Tzolis",
       "team": "ARS",
       "now_cost": 63,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Hamstring injury - 75% chance of playing",
+      "news_added": "2026-10-02T15:00:11.091226Z"
     },
     "29": {
       "web_name": "M.Bizot",
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-02T09:24:52.083622+00:00",
+  "last_snapshot_at": "2026-10-02T15:54:29.050256+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,29 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:859371c78674",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:859371c78674",
+        "injuries": [
+          {
+            "pid": "557",
+            "player": "Tzolis",
+            "team": "ARS",
+            "status": "doubtful",
+            "news": "Hamstring injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_859371c78674.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Tzolis (ARS) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #PremierLeague #FPLFamily #FantasyFootball\n\nFollow for the next one.",
+      "created_at": "2026-10-02T15:54:29.106668+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
