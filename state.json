@@ -862,9 +862,9 @@
       "web_name": "Damsgaard",
       "team": "BRE",
       "now_cost": 54,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-03T19:30:08.141728Z"
     },
     "97": {
       "web_name": "Jensen",
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-03T18:02:47.840833+00:00",
+  "last_snapshot_at": "2026-10-03T21:32:44.479662+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,29 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:6fb84aed32fa",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:6fb84aed32fa",
+        "injuries": [
+          {
+            "pid": "96",
+            "player": "Damsgaard",
+            "team": "BRE",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_6fb84aed32fa.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Damsgaard (BRE) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FPLTwitter #FPLFamily #FPLCommunity\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-10-03T21:32:44.554423+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
