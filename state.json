@@ -1093,7 +1093,7 @@
     "124": {
       "web_name": "Gro\u00df",
       "team": "BHA",
-      "now_cost": 58,
+      "now_cost": 59,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1333,7 +1333,7 @@
     "142": {
       "web_name": "James",
       "team": "CHE",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "d",
       "news": "Hamstring injury - 75% chance of playing",
       "news_added": "2026-09-18T10:30:09.719371Z"
@@ -1653,7 +1653,7 @@
     "180": {
       "web_name": "Woolfenden",
       "team": "COV",
-      "now_cost": 40,
+      "now_cost": 39,
       "status": "i",
       "news": "Knee injury - Unknown return date",
       "news_added": "2026-08-27T14:56:28.718566Z"
@@ -2069,7 +2069,7 @@
     "241": {
       "web_name": "McNeil",
       "team": "CRY",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2693,7 +2693,7 @@
     "288": {
       "web_name": "Dowell",
       "team": "HUL",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3893,7 +3893,7 @@
     "406": {
       "web_name": "Kova\u010di\u0107",
       "team": "MCI",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4085,7 +4085,7 @@
     "419": {
       "web_name": "Martinez",
       "team": "MUN",
-      "now_cost": 50,
+      "now_cost": 49,
       "status": "a",
       "news": "",
       "news_added": "2026-07-24T20:00:10.337107Z"
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-03T21:32:44.479662+00:00",
+  "last_snapshot_at": "2026-10-04T00:12:45.177096+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,77 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "price_batch:7:6365df2d70fc",
+      "story": {
+        "type": "price_changes",
+        "key": "price_batch:7:6365df2d70fc",
+        "changes": [
+          {
+            "pid": "142",
+            "player": "James",
+            "team": "CHE",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.3
+          },
+          {
+            "pid": "241",
+            "player": "McNeil",
+            "team": "CRY",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.3
+          },
+          {
+            "pid": "406",
+            "player": "Kova\u010di\u0107",
+            "team": "MCI",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.3
+          },
+          {
+            "pid": "419",
+            "player": "Martinez",
+            "team": "MUN",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.9
+          },
+          {
+            "pid": "288",
+            "player": "Dowell",
+            "team": "HUL",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.4
+          },
+          {
+            "pid": "180",
+            "player": "Woolfenden",
+            "team": "COV",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 3.9
+          },
+          {
+            "pid": "124",
+            "player": "Gro\u00df",
+            "team": "BHA",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.9
+          }
+        ]
+      },
+      "image_path": "assets/generated/price_batch_7_6365df2d70fc.png",
+      "caption": "\ud83d\udcca PRICE CHANGES: 6 falls, 1 rise.\n\n\ud83d\udd34 James (CHE) -> \u00a35.3m\n\ud83d\udd34 McNeil (CRY) -> \u00a35.3m\n\ud83d\udd34 Kova\u010di\u0107 (MCI) -> \u00a35.3m\n\ud83d\udd34 Martinez (MUN) -> \u00a34.9m\n\ud83d\udd34 Dowell (HUL) -> \u00a34.4m\n\ud83d\udd34 Woolfenden (COV) -> \u00a33.9m\n\ud83d\udfe2 Gro\u00df (BHA) -> \u00a35.9m\n\nWinners and losers in your squad? #FPL #FPLTips #PremierLeague #FantasyFootball\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-10-04T00:12:45.267044+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
