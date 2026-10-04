@@ -5347,77 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "price_batch:7:6365df2d70fc",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:7:6365df2d70fc",
-        "changes": [
-          {
-            "pid": "142",
-            "player": "James",
-            "team": "CHE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.3
-          },
-          {
-            "pid": "241",
-            "player": "McNeil",
-            "team": "CRY",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.3
-          },
-          {
-            "pid": "406",
-            "player": "Kova\u010di\u0107",
-            "team": "MCI",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.3
-          },
-          {
-            "pid": "419",
-            "player": "Martinez",
-            "team": "MUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.9
-          },
-          {
-            "pid": "288",
-            "player": "Dowell",
-            "team": "HUL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "180",
-            "player": "Woolfenden",
-            "team": "COV",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 3.9
-          },
-          {
-            "pid": "124",
-            "player": "Gro\u00df",
-            "team": "BHA",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.9
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_7_6365df2d70fc.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 6 falls, 1 rise.\n\n\ud83d\udd34 James (CHE) -> \u00a35.3m\n\ud83d\udd34 McNeil (CRY) -> \u00a35.3m\n\ud83d\udd34 Kova\u010di\u0107 (MCI) -> \u00a35.3m\n\ud83d\udd34 Martinez (MUN) -> \u00a34.9m\n\ud83d\udd34 Dowell (HUL) -> \u00a34.4m\n\ud83d\udd34 Woolfenden (COV) -> \u00a33.9m\n\ud83d\udfe2 Gro\u00df (BHA) -> \u00a35.9m\n\nWinners and losers in your squad? #FPL #FPLTips #PremierLeague #FantasyFootball\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-10-04T00:12:45.267044+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5533,7 +5463,8 @@
     "form_cold:5:092042ae11ff",
     "injury_batch:3:5aa3df372966",
     "injury_batch:1:859371c78674",
-    "injury_batch:1:6fb84aed32fa"
+    "injury_batch:1:6fb84aed32fa",
+    "price_batch:7:6365df2d70fc"
   ],
   "post_log": [
     {
@@ -6107,6 +6038,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-03T21:46:55.079041+00:00",
       "tweet_id": "2106501272123691343"
+    },
+    {
+      "key": "price_batch:7:6365df2d70fc",
+      "type": "price_changes",
+      "posted_at": "2026-10-04T00:36:22.314628+00:00",
+      "tweet_id": "2106543916568780840"
     }
   ],
   "live": {
