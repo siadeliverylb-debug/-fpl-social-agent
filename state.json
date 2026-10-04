@@ -5347,37 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "injury_batch:2:dab4015ae818",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:2:dab4015ae818",
-        "injuries": [
-          {
-            "pid": "588",
-            "player": "Khalaili",
-            "team": "CRY",
-            "status": "doubtful",
-            "news": "Hamstring injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "422",
-            "player": "Mazraoui",
-            "team": "MUN",
-            "status": "doubtful",
-            "news": "Back injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_2_dab4015ae818.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Khalaili (CRY) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\ud83d\udea8 Mazraoui (MUN) - doubtful: \"Back injury - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #PremierLeague #FPLTwitter #FantasyPremierLeague\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-10-04T23:20:11.110007+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5495,7 +5465,8 @@
     "injury_batch:1:859371c78674",
     "injury_batch:1:6fb84aed32fa",
     "price_batch:7:6365df2d70fc",
-    "form_cold:5:f84463e8b2f5"
+    "form_cold:5:f84463e8b2f5",
+    "injury_batch:2:dab4015ae818"
   ],
   "post_log": [
     {
@@ -6081,6 +6052,12 @@
       "type": "form_cold",
       "posted_at": "2026-10-04T20:26:55.548664+00:00",
       "tweet_id": "2106843529175810273"
+    },
+    {
+      "key": "injury_batch:2:dab4015ae818",
+      "type": "injury_batch",
+      "posted_at": "2026-10-04T23:35:41.358442+00:00",
+      "tweet_id": "2106891033007009854"
     }
   ],
   "live": {
