@@ -5347,61 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "form_hot:5:1fcc7fca2873",
-      "story": {
-        "type": "form_hot",
-        "key": "form_hot:5:1fcc7fca2873",
-        "players": [
-          {
-            "name": "Gro\u00df",
-            "team": "BHA",
-            "form": 15.5,
-            "total_points": 47,
-            "price_millions": 5.9,
-            "selected": 29.4
-          },
-          {
-            "name": "Schade",
-            "team": "BRE",
-            "form": 12.0,
-            "total_points": 39,
-            "price_millions": 6.2,
-            "selected": 11.9
-          },
-          {
-            "name": "Bogle",
-            "team": "LEE",
-            "form": 10.0,
-            "total_points": 42,
-            "price_millions": 4.6,
-            "selected": 7.4
-          },
-          {
-            "name": "Semenyo",
-            "team": "MCI",
-            "form": 10.0,
-            "total_points": 33,
-            "price_millions": 8.4,
-            "selected": 15.2
-          },
-          {
-            "name": "Kostoulas",
-            "team": "BHA",
-            "form": 10.0,
-            "total_points": 28,
-            "price_millions": 5.6,
-            "selected": 4.5
-          }
-        ]
-      },
-      "image_path": "assets/generated/form_hot_5_1fcc7fca2873.png",
-      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Gro\u00df (BHA) - 15.5 pts/game, \u00a35.9m\n2. Schade (BRE) - 12.0 pts/game, \u00a36.2m\n3. Bogle (LEE) - 10.0 pts/game, \u00a34.6m\n4. Semenyo (MCI) - 10.0 pts/game, \u00a38.4m\n5. Kostoulas (BHA) - 10.0 pts/game, \u00a35.6m\n\nAny of them in your squad yet? #FPL #FPLFamily #FPLTwitter #PremierLeague\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-10-05T18:37:31.439281+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5520,7 +5466,8 @@
     "injury_batch:1:6fb84aed32fa",
     "price_batch:7:6365df2d70fc",
     "form_cold:5:f84463e8b2f5",
-    "injury_batch:2:dab4015ae818"
+    "injury_batch:2:dab4015ae818",
+    "form_hot:5:1fcc7fca2873"
   ],
   "post_log": [
     {
@@ -6112,6 +6059,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-04T23:35:41.358442+00:00",
       "tweet_id": "2106891033007009854"
+    },
+    {
+      "key": "form_hot:5:1fcc7fca2873",
+      "type": "form_hot",
+      "posted_at": "2026-10-05T18:50:10.163703+00:00",
+      "tweet_id": "2107181567625900362"
     }
   ],
   "live": {
