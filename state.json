@@ -4294,8 +4294,8 @@
       "web_name": "Jaouen",
       "team": "NEW",
       "now_cost": 44,
-      "status": "d",
-      "news": "Ankle injury - 50% chance of playing",
+      "status": "i",
+      "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-09-10T16:00:09.127466Z"
     },
     "445": {
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-06T13:44:59.259801+00:00",
+  "last_snapshot_at": "2026-10-06T19:12:12.791541+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,61 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_hot:5:964780c2a44a",
+      "story": {
+        "type": "form_hot",
+        "key": "form_hot:5:964780c2a44a",
+        "players": [
+          {
+            "name": "Gro\u00df",
+            "team": "BHA",
+            "form": 15.5,
+            "total_points": 47,
+            "price_millions": 5.9,
+            "selected": 29.7
+          },
+          {
+            "name": "Schade",
+            "team": "BRE",
+            "form": 12.0,
+            "total_points": 39,
+            "price_millions": 6.2,
+            "selected": 12.0
+          },
+          {
+            "name": "Tarkowski",
+            "team": "EVE",
+            "form": 11.0,
+            "total_points": 43,
+            "price_millions": 6.2,
+            "selected": 16.8
+          },
+          {
+            "name": "Bogle",
+            "team": "LEE",
+            "form": 10.0,
+            "total_points": 42,
+            "price_millions": 4.6,
+            "selected": 7.4
+          },
+          {
+            "name": "Semenyo",
+            "team": "MCI",
+            "form": 10.0,
+            "total_points": 33,
+            "price_millions": 8.4,
+            "selected": 15.1
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_5_964780c2a44a.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Gro\u00df (BHA) - 15.5 pts/game, \u00a35.9m\n2. Schade (BRE) - 12.0 pts/game, \u00a36.2m\n3. Tarkowski (EVE) - 11.0 pts/game, \u00a36.2m\n4. Bogle (LEE) - 10.0 pts/game, \u00a34.6m\n5. Semenyo (MCI) - 10.0 pts/game, \u00a38.4m\n\nTime to jump on one of them, or too late? #FPL #FantasyPremierLeague #FantasyFootball #FPLCommunity\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-10-06T19:12:12.872348+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -8268,10 +8322,10 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-10-06T13:44:59.259193+00:00",
-    "next": "hot",
+    "last_at": "2026-10-06T19:12:12.790896+00:00",
+    "next": "cold",
     "day": "2026-10-06",
-    "count": 1,
+    "count": 2,
     "last_picks": {
       "cold": [
         "Wissa",
@@ -8283,9 +8337,9 @@
       "hot": [
         "Gro\u00df",
         "Schade",
+        "Tarkowski",
         "Bogle",
-        "Semenyo",
-        "Kostoulas"
+        "Semenyo"
       ]
     }
   },
