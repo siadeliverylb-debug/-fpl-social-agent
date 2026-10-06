@@ -1293,7 +1293,7 @@
     "40": {
       "web_name": "Rogers",
       "team": "CHE",
-      "now_cost": 77,
+      "now_cost": 78,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2461,7 +2461,7 @@
     "268": {
       "web_name": "King",
       "team": "FUL",
-      "now_cost": 55,
+      "now_cost": 56,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-06T19:12:12.791541+00:00",
+  "last_snapshot_at": "2026-10-06T23:08:43.888354+00:00",
   "recapped_events": [
     1,
     2,
