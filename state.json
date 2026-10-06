@@ -3542,9 +3542,9 @@
       "web_name": "Jacquet",
       "team": "LIV",
       "now_cost": 50,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-07-23T12:01:23.581126Z"
+      "status": "d",
+      "news": "Hamstring injury - 75% chance of playing",
+      "news_added": "2026-10-06T00:30:10.323830Z"
     },
     "363": {
       "web_name": "Leoni",
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-06T00:27:31.476363+00:00",
+  "last_snapshot_at": "2026-10-06T06:39:29.145998+00:00",
   "recapped_events": [
     1,
     2,
