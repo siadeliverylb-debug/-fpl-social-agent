@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-06T06:39:29.145998+00:00",
+  "last_snapshot_at": "2026-10-06T13:44:59.259801+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,61 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_cold:5:900d1071848e",
+      "story": {
+        "type": "form_cold",
+        "key": "form_cold:5:900d1071848e",
+        "players": [
+          {
+            "name": "Wissa",
+            "team": "NEW",
+            "form": 1.0,
+            "total_points": 15,
+            "price_millions": 6.2,
+            "selected": 18.7
+          },
+          {
+            "name": "Ajayi",
+            "team": "HUL",
+            "form": 1.0,
+            "total_points": 27,
+            "price_millions": 4.2,
+            "selected": 13.9
+          },
+          {
+            "name": "B.Fernandes",
+            "team": "MUN",
+            "form": 2.0,
+            "total_points": 31,
+            "price_millions": 11.9,
+            "selected": 38.4
+          },
+          {
+            "name": "Mbeumo",
+            "team": "MUN",
+            "form": 2.0,
+            "total_points": 25,
+            "price_millions": 7.9,
+            "selected": 20.5
+          },
+          {
+            "name": "Gakpo",
+            "team": "LIV",
+            "form": 2.0,
+            "total_points": 32,
+            "price_millions": 7.2,
+            "selected": 12.2
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_cold_5_900d1071848e.png",
+      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Wissa (NEW) - 1.0 pts/game, \u00a36.2m, owned by 19%\n2. Ajayi (HUL) - 1.0 pts/game, \u00a34.2m, owned by 14%\n3. B.Fernandes (MUN) - 2.0 pts/game, \u00a311.9m, owned by 38%\n4. Mbeumo (MUN) - 2.0 pts/game, \u00a37.9m, owned by 20%\n5. Gakpo (LIV) - 2.0 pts/game, \u00a37.2m, owned by 12%\n\nWho's getting binned first? #FPL #FPLTwitter #FantasyPremierLeague #FPLFamily\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-10-06T13:44:59.342794+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -8261,17 +8315,17 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-10-05T18:37:31.360534+00:00",
-    "next": "cold",
-    "day": "2026-10-05",
+    "last_at": "2026-10-06T13:44:59.259193+00:00",
+    "next": "hot",
+    "day": "2026-10-06",
     "count": 1,
     "last_picks": {
       "cold": [
         "Wissa",
-        "B.Fernandes",
-        "Gakpo",
         "Ajayi",
-        "Szoboszlai"
+        "B.Fernandes",
+        "Mbeumo",
+        "Gakpo"
       ],
       "hot": [
         "Gro\u00df",
