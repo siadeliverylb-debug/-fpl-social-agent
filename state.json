@@ -61,7 +61,7 @@
     "8": {
       "web_name": "Calafiori",
       "team": "ARS",
-      "now_cost": 58,
+      "now_cost": 59,
       "status": "a",
       "news": "",
       "news_added": null
@@ -93,7 +93,7 @@
     "12": {
       "web_name": "Saka",
       "team": "ARS",
-      "now_cost": 95,
+      "now_cost": 96,
       "status": "a",
       "news": "",
       "news_added": null
@@ -158,9 +158,9 @@
       "web_name": "Dowman",
       "team": "ARS",
       "now_cost": 53,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-05T19:00:10.141532Z"
     },
     "22": {
       "web_name": "Nwaneri",
@@ -4373,7 +4373,7 @@
     "456": {
       "web_name": "J.Ramsey",
       "team": "NEW",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "i",
       "news": "Thigh injury - Unknown return date",
       "news_added": "2026-09-15T09:00:08.191022Z"
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-05T18:37:31.361254+00:00",
+  "last_snapshot_at": "2026-10-06T00:27:31.476363+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,29 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:91032ad7bbcb",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:91032ad7bbcb",
+        "injuries": [
+          {
+            "pid": "20",
+            "player": "Dowman",
+            "team": "ARS",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_91032ad7bbcb.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Dowman (ARS) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLTips #PremierLeague #FPLTwitter\n\nTurn on notifications to catch these as they land.",
+      "created_at": "2026-10-06T00:27:31.546352+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
