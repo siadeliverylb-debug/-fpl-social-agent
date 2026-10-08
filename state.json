@@ -5347,37 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "injury_batch:2:1f165d0637da",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:2:1f165d0637da",
-        "injuries": [
-          {
-            "pid": "648",
-            "player": "Bahoya",
-            "team": "LEE",
-            "status": "doubtful",
-            "news": "Ankle injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "343",
-            "player": "James",
-            "team": "LEE",
-            "status": "injured",
-            "news": "Back injury - Expected back 18 Oct",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_2_1f165d0637da.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Bahoya (LEE) - doubtful: \"Ankle injury - 75% chance of playing\"\n\ud83d\udea8 James (LEE) - injured: \"Back injury - Expected back 18 Oct\"\n\nBench him or bank on a late fitness call? #FPL #FantasyFootball #FPLCommunity #FPLTips\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-10-08T15:02:32.947769+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5500,7 +5470,8 @@
     "form_hot:5:1fcc7fca2873",
     "injury_batch:1:91032ad7bbcb",
     "form_cold:5:900d1071848e",
-    "form_hot:5:964780c2a44a"
+    "form_hot:5:964780c2a44a",
+    "injury_batch:2:1f165d0637da"
   ],
   "post_log": [
     {
@@ -6116,6 +6087,12 @@
       "type": "form_hot",
       "posted_at": "2026-10-06T19:49:44.236016+00:00",
       "tweet_id": "2107558946177180121"
+    },
+    {
+      "key": "injury_batch:2:1f165d0637da",
+      "type": "injury_batch",
+      "posted_at": "2026-10-08T19:26:34.756439+00:00",
+      "tweet_id": "2108277893990166963"
     }
   ],
   "live": {
