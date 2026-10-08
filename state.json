@@ -2973,7 +2973,7 @@
     "306": {
       "web_name": "Greaves",
       "team": "IPS",
-      "now_cost": 40,
+      "now_cost": 39,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3965,7 +3965,7 @@
     "621": {
       "web_name": "McAidoo",
       "team": "MCI",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-07T21:41:29.698778+00:00",
+  "last_snapshot_at": "2026-10-08T01:26:03.232123+00:00",
   "recapped_events": [
     1,
     2,
