@@ -622,8 +622,8 @@
       "web_name": "Scott",
       "team": "BOU",
       "now_cost": 61,
-      "status": "d",
-      "news": "Thigh injury - 50% chance of playing",
+      "status": "i",
+      "news": "Thigh injury - Unknown return date",
       "news_added": "2026-10-05T09:30:09.910752Z"
     },
     "70": {
@@ -1630,8 +1630,8 @@
       "web_name": "Kesler-Hayden",
       "team": "COV",
       "now_cost": 39,
-      "status": "i",
-      "news": "Hamstring injury - Unknown return date",
+      "status": "d",
+      "news": "Hamstring injury - 50% chance of playing",
       "news_added": "2026-08-27T14:56:28.704361Z"
     },
     "178": {
@@ -3198,8 +3198,8 @@
       "web_name": "Wilson",
       "team": "LEE",
       "now_cost": 62,
-      "status": "i",
-      "news": "Thigh injury - Unknown return date",
+      "status": "d",
+      "news": "Thigh injury - 75% chance of playing",
       "news_added": "2026-09-18T13:30:09.626858Z"
     },
     "326": {
@@ -3326,9 +3326,9 @@
       "web_name": "James",
       "team": "LEE",
       "now_cost": 49,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "i",
+      "news": "Back injury - Expected back 18 Oct",
+      "news_added": "2026-10-08T14:00:11.803126Z"
     },
     "344": {
       "web_name": "Gruev",
@@ -3438,9 +3438,9 @@
       "web_name": "Bahoya",
       "team": "LEE",
       "now_cost": 50,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Ankle injury - 75% chance of playing",
+      "news_added": "2026-10-08T14:00:12.276121Z"
     },
     "350": {
       "web_name": "A.Becker",
@@ -4390,8 +4390,8 @@
       "web_name": "Joelinton",
       "team": "NEW",
       "now_cost": 54,
-      "status": "i",
-      "news": "Unspecified injury - Unknown return date",
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
       "news_added": "2026-08-16T08:00:08.074045Z"
     },
     "459": {
@@ -5134,8 +5134,8 @@
       "web_name": "Ballard",
       "team": "SUN",
       "now_cost": 49,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "i",
+      "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-09-25T21:30:10.370384Z"
     },
     "533": {
@@ -5223,7 +5223,7 @@
       "team": "SUN",
       "now_cost": 53,
       "status": "i",
-      "news": "Hamstring injury - Unknown return date",
+      "news": "Hamstring injury - Expected back 18 Oct",
       "news_added": "2026-08-30T16:30:08.428960Z"
     },
     "544": {
@@ -5294,8 +5294,8 @@
       "web_name": "Brobbey",
       "team": "SUN",
       "now_cost": 57,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "i",
+      "news": "Hamstring injury - Expected back 25 Oct",
       "news_added": "2026-09-24T21:30:10.382142Z"
     },
     "553": {
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-08T07:39:05.955932+00:00",
+  "last_snapshot_at": "2026-10-08T15:02:32.889783+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,37 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:2:1f165d0637da",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:2:1f165d0637da",
+        "injuries": [
+          {
+            "pid": "648",
+            "player": "Bahoya",
+            "team": "LEE",
+            "status": "doubtful",
+            "news": "Ankle injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "343",
+            "player": "James",
+            "team": "LEE",
+            "status": "injured",
+            "news": "Back injury - Expected back 18 Oct",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_2_1f165d0637da.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Bahoya (LEE) - doubtful: \"Ankle injury - 75% chance of playing\"\n\ud83d\udea8 James (LEE) - injured: \"Back injury - Expected back 18 Oct\"\n\nBench him or bank on a late fitness call? #FPL #FantasyFootball #FPLCommunity #FPLTips\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-10-08T15:02:32.947769+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
