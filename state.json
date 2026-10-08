@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-08T01:26:03.232123+00:00",
+  "last_snapshot_at": "2026-10-08T07:39:05.955932+00:00",
   "recapped_events": [
     1,
     2,
@@ -8277,7 +8277,7 @@
   "form_spotlight": {
     "last_at": "2026-10-06T19:12:12.790896+00:00",
     "next": "cold",
-    "day": "2026-10-07",
+    "day": "2026-10-08",
     "count": 0,
     "last_picks": {
       "cold": [
