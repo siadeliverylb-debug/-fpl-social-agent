@@ -5347,37 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "injury_batch:2:830c5302ded9",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:2:830c5302ded9",
-        "injuries": [
-          {
-            "pid": "491",
-            "player": "Igor Jesus",
-            "team": "NFO",
-            "status": "injured",
-            "news": "Calf injury - Unknown return date",
-            "category": "injury"
-          },
-          {
-            "pid": "469",
-            "player": "N.Williams",
-            "team": "NFO",
-            "status": "doubtful",
-            "news": "Illness - 50% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_2_830c5302ded9.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Igor Jesus (NFO) - injured: \"Calf injury - Unknown return date\"\n\ud83d\udea8 N.Williams (NFO) - doubtful: \"Illness - 50% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FantasyPremierLeague #FantasyFootball #FPLTips\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-10-09T19:14:32.532793+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5503,7 +5473,8 @@
     "form_hot:5:964780c2a44a",
     "injury_batch:2:1f165d0637da",
     "injury_batch:1:c9f13c161440",
-    "deadline:6:24h"
+    "deadline:6:24h",
+    "injury_batch:2:830c5302ded9"
   ],
   "post_log": [
     {
@@ -6131,6 +6102,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-09T18:51:01.374708+00:00",
       "tweet_id": "2108631333878853964"
+    },
+    {
+      "key": "injury_batch:2:830c5302ded9",
+      "type": "injury_batch",
+      "posted_at": "2026-10-09T23:15:24.233130+00:00",
+      "tweet_id": "2108697867552805049"
     }
   ],
   "live": {
