@@ -5347,43 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "injury_batch:1:c9f13c161440",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:c9f13c161440",
-        "injuries": [
-          {
-            "pid": "254",
-            "player": "Robinson",
-            "team": "FUL",
-            "status": "doubtful",
-            "news": "Ankle injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_c9f13c161440.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Robinson (FUL) - doubtful: \"Ankle injury - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #PremierLeague #FantasyFootball #FPLCommunity\n\nFollow for the next one.",
-      "created_at": "2026-10-09T13:58:20.099037+00:00",
-      "auto": true
-    },
-    {
-      "key": "deadline:6:24h",
-      "story": {
-        "type": "deadline_reminder",
-        "key": "deadline:6:24h",
-        "gw": 6,
-        "bucket": "24h",
-        "hours_until": 20.0
-      },
-      "image_path": "assets/generated/deadline_6_24h.png",
-      "caption": "\u23f0 GW6 deadline in 24h! Don't get caught out -- set your team now.\n\n#FPL #FantasyFootball #FPLTips #PremierLeague\n\nFollow for the next one.",
-      "created_at": "2026-10-09T13:58:20.160401+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5507,7 +5471,9 @@
     "injury_batch:1:91032ad7bbcb",
     "form_cold:5:900d1071848e",
     "form_hot:5:964780c2a44a",
-    "injury_batch:2:1f165d0637da"
+    "injury_batch:2:1f165d0637da",
+    "injury_batch:1:c9f13c161440",
+    "deadline:6:24h"
   ],
   "post_log": [
     {
@@ -6129,6 +6095,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-08T19:26:34.756439+00:00",
       "tweet_id": "2108277893990166963"
+    },
+    {
+      "key": "injury_batch:1:c9f13c161440",
+      "type": "injury_batch",
+      "posted_at": "2026-10-09T18:51:01.374708+00:00",
+      "tweet_id": "2108631333878853964"
     }
   ],
   "live": {
