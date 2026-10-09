@@ -77,7 +77,7 @@
     "10": {
       "web_name": "White",
       "team": "ARS",
-      "now_cost": 55,
+      "now_cost": 54,
       "status": "a",
       "news": "",
       "news_added": "2026-09-20T19:30:08.247780Z"
@@ -238,8 +238,8 @@
       "web_name": "M.Bizot",
       "team": "AVL",
       "now_cost": 45,
-      "status": "i",
-      "news": "Back injury - Expected back 10 Oct",
+      "status": "d",
+      "news": "Back injury - 75% chance of playing",
       "news_added": "2026-09-17T07:30:09.058151Z"
     },
     "30": {
@@ -629,7 +629,7 @@
     "70": {
       "web_name": "Kluivert",
       "team": "BOU",
-      "now_cost": 60,
+      "now_cost": 59,
       "status": "i",
       "news": "Unspecified injury - Unknown return date",
       "news_added": "2026-09-20T15:30:09.074071Z"
@@ -1165,7 +1165,7 @@
     "134": {
       "web_name": "Oriola",
       "team": "BHA",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1733,7 +1733,7 @@
     "190": {
       "web_name": "Tchaouna",
       "team": "COV",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1813,7 +1813,7 @@
     "584": {
       "web_name": "Hamer",
       "team": "COV",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2501,7 +2501,7 @@
     "569": {
       "web_name": "Gonzalo",
       "team": "FUL",
-      "now_cost": 60,
+      "now_cost": 61,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3029,7 +3029,7 @@
     "313": {
       "web_name": "Clarke",
       "team": "IPS",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3053,7 +3053,7 @@
     "316": {
       "web_name": "Emersonn",
       "team": "IPS",
-      "now_cost": 55,
+      "now_cost": 56,
       "status": "a",
       "news": "",
       "news_added": "2026-08-31T09:30:08.306145Z"
@@ -3645,7 +3645,7 @@
     "375": {
       "web_name": "Nyoni",
       "team": "LIV",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5253,7 +5253,7 @@
     "547": {
       "web_name": "Mundle",
       "team": "SUN",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "i",
       "news": "Knee injury - Unknown return date",
       "news_added": "2026-09-09T14:00:08.462705Z"
@@ -5277,7 +5277,7 @@
     "550": {
       "web_name": "Jocelin.T",
       "team": "SUN",
-      "now_cost": 50,
+      "now_cost": 49,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-09T19:14:32.451532+00:00",
+  "last_snapshot_at": "2026-10-09T23:22:23.023138+00:00",
   "recapped_events": [
     1,
     2,
