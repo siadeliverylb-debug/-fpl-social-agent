@@ -5349,23 +5349,6 @@
   ],
   "pending": [
     {
-      "key": "status:328:2026-10-10T16:00:08.881447Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:328:2026-10-10T16:00:08.881447Z",
-        "pid": "328",
-        "player": "Struijk",
-        "team": "BHA",
-        "status": "suspended",
-        "news": "Suspended until 25 Oct",
-        "category": "suspension"
-      },
-      "image_path": "assets/generated/status_328_2026-10-10T16_00_08.881447Z.png",
-      "caption": "\ud83d\udfe5 SUSPENDED: Struijk (BHA) is suspended.\n\"Suspended until 25 Oct\"\n\nDoes this change your captaincy plans? #FPL #FPLTwitter #FPLFamily #FPLCommunity\n\nFollow for the next one.",
-      "created_at": "2026-10-10T19:02:27.435494+00:00",
-      "auto": true
-    },
-    {
       "key": "status:516:2026-10-10T18:30:09.519346Z",
       "story": {
         "type": "status_change",
@@ -5572,7 +5555,8 @@
     "deadline:6:24h",
     "injury_batch:2:830c5302ded9",
     "deadline:6:2h",
-    "injury_batch:1:2a2b47bf21a3"
+    "injury_batch:1:2a2b47bf21a3",
+    "status:328:2026-10-10T16:00:08.881447Z"
   ],
   "post_log": [
     {
@@ -6218,6 +6202,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-10T15:52:01.015157+00:00",
       "tweet_id": "2108948673329537217"
+    },
+    {
+      "key": "status:328:2026-10-10T16:00:08.881447Z",
+      "type": "status_change",
+      "posted_at": "2026-10-10T20:03:18.712286+00:00",
+      "tweet_id": "2109011913896005645"
     }
   ],
   "live": {
