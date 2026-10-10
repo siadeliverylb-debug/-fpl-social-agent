@@ -8827,6 +8827,12 @@
       "type": "substitution",
       "posted_at": "2026-10-10T18:44:46.201808+00:00",
       "tweet_id": "2108992148259717517"
+    },
+    {
+      "key": "sub:52:90",
+      "type": "substitution",
+      "posted_at": "2026-10-10T18:45:29.249590+00:00",
+      "tweet_id": "2108992328799302043"
     }
   ],
   "form_spotlight": {
@@ -8852,22 +8858,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:52:90",
-      "story": {
-        "type": "substitution",
-        "key": "sub:52:90",
-        "player": "Hickey",
-        "team": "BRE",
-        "home": "AVL",
-        "away": "BRE",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_52_90.png",
-      "caption": "\ud83d\udd04 SUB! 90' Hickey (BRE) is on. AVL 0-0 BRE.\n\nWorth watching for a late returns. #FPL #PremierLeague #FantasyPremierLeague #FPLFamily #BRE\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-10T18:43:55.793250+00:00"
-    },
     {
       "key": "sub:52:95",
       "story": {
