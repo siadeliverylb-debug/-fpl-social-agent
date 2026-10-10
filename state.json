@@ -8845,6 +8845,12 @@
       "type": "substitution",
       "posted_at": "2026-10-10T18:46:54.852569+00:00",
       "tweet_id": "2108992687861006804"
+    },
+    {
+      "key": "sub:52:108",
+      "type": "substitution",
+      "posted_at": "2026-10-10T18:47:37.544695+00:00",
+      "tweet_id": "2108992866957840680"
     }
   ],
   "form_spotlight": {
@@ -8870,22 +8876,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:52:108",
-      "story": {
-        "type": "substitution",
-        "key": "sub:52:108",
-        "player": "Wilson",
-        "team": "BRE",
-        "home": "AVL",
-        "away": "BRE",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_52_108.png",
-      "caption": "\ud83d\udd04 SUB! 90' Wilson (BRE) is on. AVL 0-0 BRE.\n\nDoes this open a chance for a start next week? #FPL #FantasyPremierLeague #FPLCommunity #FantasyFootball #BRE\n\nFollow for the next one.",
-      "queued_at": "2026-10-10T18:43:55.940204+00:00"
-    },
     {
       "key": "sub:52:565",
       "story": {
