@@ -382,16 +382,16 @@
       "web_name": "George Hemmings",
       "team": "AVL",
       "now_cost": 45,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Knee injury - 75% chance of playing",
+      "news_added": "2026-10-10T18:00:10.386738Z"
     },
     "52": {
       "web_name": "Alysson",
       "team": "AVL",
       "now_cost": 50,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-19T11:30:09.355376Z"
     },
     "53": {
@@ -454,9 +454,9 @@
       "web_name": "Ruggeri",
       "team": "AVL",
       "now_cost": 45,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Hamstring injury - 75% chance of playing",
+      "news_added": "2026-10-10T18:00:10.750593Z"
     },
     "597": {
       "web_name": "Suzuki",
@@ -838,17 +838,17 @@
       "web_name": "Schuster",
       "team": "BRE",
       "now_cost": 45,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Ankle injury - 75% chance of playing",
+      "news_added": "2026-10-10T18:00:10.423378Z"
     },
     "94": {
       "web_name": "Schade",
       "team": "BRE",
       "now_cost": 62,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Shoulder injury - 75% chance of playing",
+      "news_added": "2026-10-10T16:30:08.848962Z"
     },
     "95": {
       "web_name": "O.Dango",
@@ -1206,9 +1206,9 @@
       "web_name": "Struijk",
       "team": "BHA",
       "now_cost": 49,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-22T10:00:09.404233Z"
+      "status": "s",
+      "news": "Suspended until 25 Oct",
+      "news_added": "2026-10-10T16:00:08.881447Z"
     },
     "504": {
       "web_name": "Vuskovic",
@@ -1335,7 +1335,7 @@
       "team": "CHE",
       "now_cost": 53,
       "status": "d",
-      "news": "Hamstring injury - 50% chance of playing",
+      "news": "Unspecified injury - 75% chance of playing",
       "news_added": "2026-10-10T13:30:08.699019Z"
     },
     "143": {
@@ -3046,8 +3046,8 @@
       "web_name": "Fatawu",
       "team": "IPS",
       "now_cost": 54,
-      "status": "s",
-      "news": "Suspended until 17 Oct",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-19T15:30:10.126897Z"
     },
     "316": {
@@ -4022,8 +4022,8 @@
       "web_name": "Darlow",
       "team": "MUN",
       "now_cost": 45,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-21T13:30:08.885505Z"
     },
     "412": {
@@ -4166,8 +4166,8 @@
       "web_name": "Rashford",
       "team": "MUN",
       "now_cost": 69,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-21T10:30:09.221479Z"
     },
     "430": {
@@ -4182,16 +4182,16 @@
       "web_name": "Amad",
       "team": "MUN",
       "now_cost": 57,
-      "status": "i",
-      "news": "Unspecified injury - Unknown return date",
+      "status": "a",
+      "news": "",
       "news_added": "2026-08-22T11:00:08.617283Z"
     },
     "432": {
       "web_name": "Mainoo",
       "team": "MUN",
       "now_cost": 55,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-21T13:00:09.169862Z"
     },
     "433": {
@@ -4982,9 +4982,9 @@
       "web_name": "Bentancur",
       "team": "TOT",
       "now_cost": 55,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "s",
+      "news": "Suspended until 7 Nov",
+      "news_added": "2026-10-10T18:30:09.519346Z"
     },
     "517": {
       "web_name": "Odobert",
@@ -5206,9 +5206,9 @@
       "web_name": "Meunier",
       "team": "SUN",
       "now_cost": 45,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-16T08:30:07.830062Z"
+      "status": "d",
+      "news": "Groin injury - 75% chance of playing",
+      "news_added": "2026-10-10T16:30:09.200467Z"
     },
     "542": {
       "web_name": "E.Le F\u00e9e",
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-10T14:53:42.107973+00:00",
+  "last_snapshot_at": "2026-10-10T19:02:27.377281+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,103 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "status:328:2026-10-10T16:00:08.881447Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:328:2026-10-10T16:00:08.881447Z",
+        "pid": "328",
+        "player": "Struijk",
+        "team": "BHA",
+        "status": "suspended",
+        "news": "Suspended until 25 Oct",
+        "category": "suspension"
+      },
+      "image_path": "assets/generated/status_328_2026-10-10T16_00_08.881447Z.png",
+      "caption": "\ud83d\udfe5 SUSPENDED: Struijk (BHA) is suspended.\n\"Suspended until 25 Oct\"\n\nDoes this change your captaincy plans? #FPL #FPLTwitter #FPLFamily #FPLCommunity\n\nFollow for the next one.",
+      "created_at": "2026-10-10T19:02:27.435494+00:00",
+      "auto": true
+    },
+    {
+      "key": "status:516:2026-10-10T18:30:09.519346Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:516:2026-10-10T18:30:09.519346Z",
+        "pid": "516",
+        "player": "Bentancur",
+        "team": "TOT",
+        "status": "suspended",
+        "news": "Suspended until 7 Nov",
+        "category": "suspension"
+      },
+      "image_path": "assets/generated/status_516_2026-10-10T18_30_09.519346Z.png",
+      "caption": "\ud83d\udfe5 SUSPENDED: Bentancur (TOT) is suspended.\n\"Suspended until 7 Nov\"\n\nDoes this change your captaincy plans? #FPL #FPLTips #FPLFamily #FantasyPremierLeague\n\nFollow for the next one.",
+      "created_at": "2026-10-10T19:02:27.506660+00:00",
+      "auto": true
+    },
+    {
+      "key": "injury_batch:6:ce1daf4b6792",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:6:ce1daf4b6792",
+        "injuries": [
+          {
+            "pid": "51",
+            "player": "George Hemmings",
+            "team": "AVL",
+            "status": "doubtful",
+            "news": "Knee injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "142",
+            "player": "James",
+            "team": "CHE",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "541",
+            "player": "Meunier",
+            "team": "SUN",
+            "status": "doubtful",
+            "news": "Groin injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "596",
+            "player": "Ruggeri",
+            "team": "AVL",
+            "status": "doubtful",
+            "news": "Hamstring injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "94",
+            "player": "Schade",
+            "team": "BRE",
+            "status": "doubtful",
+            "news": "Shoulder injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "93",
+            "player": "Schuster",
+            "team": "BRE",
+            "status": "doubtful",
+            "news": "Ankle injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_6_ce1daf4b6792.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (6):\n\n\ud83d\udea8 George Hemmings (AVL) - doubtful: \"Knee injury - 75% chance of playing\"\n\ud83d\udea8 James (CHE) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Meunier (SUN) - doubtful: \"Groin injury - 75% chance of playing\"\n\ud83d\udea8 Ruggeri (AVL) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\ud83d\udea8 Schade (BRE) - doubtful: \"Shoulder injury - 75% chance of playing\"\n\ud83d\udea8 Schuster (BRE) - doubtful: \"Ankle injury - 75% chance of playing\"\n\nHow are you covering this one? #FPL #FPLFamily #FPLTwitter #FantasyPremierLeague\n\nTurn on notifications to catch these as they land.",
+      "created_at": "2026-10-10T19:02:27.555783+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
