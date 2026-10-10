@@ -8821,6 +8821,12 @@
       "type": "substitution",
       "posted_at": "2026-10-10T18:44:01.738141+00:00",
       "tweet_id": "2108991961730605315"
+    },
+    {
+      "key": "sub:52:52",
+      "type": "substitution",
+      "posted_at": "2026-10-10T18:44:46.201808+00:00",
+      "tweet_id": "2108992148259717517"
     }
   ],
   "form_spotlight": {
@@ -8846,22 +8852,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:52:52",
-      "story": {
-        "type": "substitution",
-        "key": "sub:52:52",
-        "player": "Alysson",
-        "team": "AVL",
-        "home": "AVL",
-        "away": "BRE",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_52_52.png",
-      "caption": "\ud83d\udd04 SUB! 90' Alysson (AVL) is on. AVL 0-0 BRE.\n\nDoes this open a chance for a start next week? #FPL #FPLFamily #PremierLeague #FPLTwitter #AVL\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-10T18:43:55.743709+00:00"
-    },
     {
       "key": "sub:52:90",
       "story": {
