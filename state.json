@@ -102,8 +102,8 @@
       "web_name": "Rice",
       "team": "ARS",
       "now_cost": 74,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-21T13:00:08.896379Z"
     },
     "14": {
@@ -198,8 +198,8 @@
       "web_name": "Havertz",
       "team": "ARS",
       "now_cost": 76,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-24T22:00:09.120308Z"
     },
     "27": {
@@ -214,8 +214,8 @@
       "web_name": "Konsa",
       "team": "ARS",
       "now_cost": 46,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-05T09:30:09.853316Z"
     },
     "452": {
@@ -238,8 +238,8 @@
       "web_name": "M.Bizot",
       "team": "AVL",
       "now_cost": 45,
-      "status": "d",
-      "news": "Back injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-17T07:30:09.058151Z"
     },
     "30": {
@@ -270,8 +270,8 @@
       "web_name": "Pau",
       "team": "AVL",
       "now_cost": 44,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-12T18:00:08.712707Z"
     },
     "35": {
@@ -782,8 +782,8 @@
       "web_name": "Van den Berg",
       "team": "BRE",
       "now_cost": 49,
-      "status": "i",
-      "news": "Groin injury - Unknown return date",
+      "status": "a",
+      "news": "",
       "news_added": "2026-08-15T15:30:06.416627Z"
     },
     "86": {
@@ -870,8 +870,8 @@
       "web_name": "Jensen",
       "team": "BRE",
       "now_cost": 54,
-      "status": "i",
-      "news": "Unspecified injury - Expected back 10 Oct",
+      "status": "a",
+      "news": "",
       "news_added": "2026-08-30T12:30:08.176795Z"
     },
     "98": {
@@ -1071,7 +1071,7 @@
       "team": "BHA",
       "now_cost": 59,
       "status": "i",
-      "news": "Hamstring injury - Expected back 10 Oct",
+      "news": "Hamstring injury - Expected back 18 Oct",
       "news_added": "2026-07-24T18:30:10.661894Z"
     },
     "122": {
@@ -1175,7 +1175,7 @@
       "team": "BHA",
       "now_cost": 48,
       "status": "i",
-      "news": "Unspecified injury - Expected back 10 Oct",
+      "news": "Unspecified injury - Expected back 18 Oct",
       "news_added": "2026-09-10T13:00:08.617941Z"
     },
     "137": {
@@ -1199,15 +1199,15 @@
       "team": "BHA",
       "now_cost": 50,
       "status": "i",
-      "news": "Ankle injury - Expected back 10 Oct",
+      "news": "Ankle injury - Expected back 18 Oct",
       "news_added": "2026-07-23T12:01:23.448357Z"
     },
     "328": {
       "web_name": "Struijk",
       "team": "BHA",
       "now_cost": 49,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-22T10:00:09.404233Z"
     },
     "504": {
@@ -1271,7 +1271,7 @@
       "team": "BHA",
       "now_cost": 55,
       "status": "i",
-      "news": "Hamstring injury - Expected back 10 Oct",
+      "news": "Hamstring injury - Expected back 18 Oct",
       "news_added": "2026-09-04T11:30:08.661589Z"
     },
     "658": {
@@ -1334,9 +1334,9 @@
       "web_name": "James",
       "team": "CHE",
       "now_cost": 53,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-18T10:30:09.719371Z"
+      "status": "d",
+      "news": "Hamstring injury - 50% chance of playing",
+      "news_added": "2026-10-10T13:30:08.699019Z"
     },
     "143": {
       "web_name": "Chalobah",
@@ -1503,7 +1503,7 @@
       "team": "CHE",
       "now_cost": 49,
       "status": "i",
-      "news": "Hamstring injury - Expected back 10 Oct",
+      "news": "Hamstring injury - Expected back 17 Oct",
       "news_added": "2026-09-09T15:00:09.063849Z"
     },
     "200": {
@@ -3198,8 +3198,8 @@
       "web_name": "Wilson",
       "team": "LEE",
       "now_cost": 62,
-      "status": "d",
-      "news": "Thigh injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-18T13:30:09.626858Z"
     },
     "326": {
@@ -3438,8 +3438,8 @@
       "web_name": "Bahoya",
       "team": "LEE",
       "now_cost": 50,
-      "status": "d",
-      "news": "Ankle injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-08T14:00:12.276121Z"
     },
     "350": {
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-10T08:48:20.209810+00:00",
+  "last_snapshot_at": "2026-10-10T14:53:42.107973+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,29 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:2a2b47bf21a3",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:2a2b47bf21a3",
+        "injuries": [
+          {
+            "pid": "142",
+            "player": "James",
+            "team": "CHE",
+            "status": "doubtful",
+            "news": "Hamstring injury - 50% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_2a2b47bf21a3.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 James (CHE) - doubtful: \"Hamstring injury - 50% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FantasyPremierLeague #FPLCommunity #FPLTwitter\n\nFollow for the next one.",
+      "created_at": "2026-10-10T14:53:42.182740+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
