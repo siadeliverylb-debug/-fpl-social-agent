@@ -5347,22 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "deadline:6:2h",
-      "story": {
-        "type": "deadline_reminder",
-        "key": "deadline:6:2h",
-        "gw": 6,
-        "bucket": "2h",
-        "hours_until": 1.2
-      },
-      "image_path": "assets/generated/deadline_6_2h.png",
-      "caption": "\u23f0 GW6 deadline in 2h! Transfers, captain, chip calls -- lock it in NOW.\n\n#FPL #FPLTwitter #FPLCommunity #FantasyFootball\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-10-10T08:48:20.283683+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5489,7 +5474,8 @@
     "injury_batch:2:1f165d0637da",
     "injury_batch:1:c9f13c161440",
     "deadline:6:24h",
-    "injury_batch:2:830c5302ded9"
+    "injury_batch:2:830c5302ded9",
+    "deadline:6:2h"
   ],
   "post_log": [
     {
@@ -6123,6 +6109,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-09T23:15:24.233130+00:00",
       "tweet_id": "2108697867552805049"
+    },
+    {
+      "key": "deadline:6:2h",
+      "type": "deadline_reminder",
+      "posted_at": "2026-10-10T09:47:59.279371+00:00",
+      "tweet_id": "2108857062503457038"
     }
   ],
   "live": {
