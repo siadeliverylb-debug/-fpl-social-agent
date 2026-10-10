@@ -8839,6 +8839,12 @@
       "type": "substitution",
       "posted_at": "2026-10-10T18:46:12.020474+00:00",
       "tweet_id": "2108992508147712504"
+    },
+    {
+      "key": "sub:52:97",
+      "type": "substitution",
+      "posted_at": "2026-10-10T18:46:54.852569+00:00",
+      "tweet_id": "2108992687861006804"
     }
   ],
   "form_spotlight": {
@@ -8864,22 +8870,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:52:97",
-      "story": {
-        "type": "substitution",
-        "key": "sub:52:97",
-        "player": "Jensen",
-        "team": "BRE",
-        "home": "AVL",
-        "away": "BRE",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_52_97.png",
-      "caption": "\ud83d\udd04 SUB! 90' Jensen (BRE) is on. AVL 0-0 BRE.\n\nWorth watching for a late returns. #FPL #FPLCommunity #FantasyPremierLeague #FantasyFootball #BRE\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-10-10T18:43:55.891532+00:00"
-    },
     {
       "key": "sub:52:108",
       "story": {
