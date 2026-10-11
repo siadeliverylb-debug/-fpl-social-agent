@@ -5347,61 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "form_hot:5:33485f30c078",
-      "story": {
-        "type": "form_hot",
-        "key": "form_hot:5:33485f30c078",
-        "players": [
-          {
-            "name": "Gro\u00df",
-            "team": "BHA",
-            "form": 12.3,
-            "total_points": 53,
-            "price_millions": 6.0,
-            "selected": 37.0
-          },
-          {
-            "name": "De Cuyper",
-            "team": "BHA",
-            "form": 10.7,
-            "total_points": 53,
-            "price_millions": 5.0,
-            "selected": 32.7
-          },
-          {
-            "name": "Tarkowski",
-            "team": "EVE",
-            "form": 8.3,
-            "total_points": 46,
-            "price_millions": 6.2,
-            "selected": 18.2
-          },
-          {
-            "name": "Schade",
-            "team": "BRE",
-            "form": 8.3,
-            "total_points": 40,
-            "price_millions": 6.2,
-            "selected": 15.9
-          },
-          {
-            "name": "Jo\u00e3o Pedro",
-            "team": "CHE",
-            "form": 8.0,
-            "total_points": 45,
-            "price_millions": 7.7,
-            "selected": 67.6
-          }
-        ]
-      },
-      "image_path": "assets/generated/form_hot_5_33485f30c078.png",
-      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Gro\u00df (BHA) - 12.3 pts/game, \u00a36.0m\n2. De Cuyper (BHA) - 10.7 pts/game, \u00a35.0m\n3. Tarkowski (EVE) - 8.3 pts/game, \u00a36.2m\n4. Schade (BRE) - 8.3 pts/game, \u00a36.2m\n5. Jo\u00e3o Pedro (CHE) - 8.0 pts/game, \u00a37.7m\n\nTime to jump on one of them, or too late? #FPL #PremierLeague #FantasyPremierLeague #FPLFamily\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-10-11T14:15:42.955639+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5535,7 +5481,8 @@
     "status:516:2026-10-10T18:30:09.519346Z",
     "injury_batch:6:ce1daf4b6792",
     "price_batch:21:64f5350bf7e2",
-    "form_cold:5:e7511617ec15"
+    "form_cold:5:e7511617ec15",
+    "form_hot:5:33485f30c078"
   ],
   "post_log": [
     {
@@ -6205,6 +6152,12 @@
       "type": "form_cold",
       "posted_at": "2026-10-11T08:50:32.040631+00:00",
       "tweet_id": "2109204991600701887"
+    },
+    {
+      "key": "form_hot:5:33485f30c078",
+      "type": "form_hot",
+      "posted_at": "2026-10-11T15:38:35.394909+00:00",
+      "tweet_id": "2109307682138014170"
     }
   ],
   "live": {
