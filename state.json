@@ -9009,6 +9009,12 @@
       "type": "substitution",
       "posted_at": "2026-10-11T18:04:12.433007+00:00",
       "tweet_id": "2109344327960850532"
+    },
+    {
+      "key": "sub:55:224",
+      "type": "substitution",
+      "posted_at": "2026-10-11T18:04:56.690847+00:00",
+      "tweet_id": "2109344513709732244"
     }
   ],
   "form_spotlight": {
@@ -9034,22 +9040,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:55:224",
-      "story": {
-        "type": "substitution",
-        "key": "sub:55:224",
-        "player": "Nketiah",
-        "team": "CRY",
-        "home": "CRY",
-        "away": "NFO",
-        "score": "0-1",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_55_224.png",
-      "caption": "\ud83d\udd04 SUB! 90' Nketiah (CRY) is on. CRY 0-1 NFO.\n\nWorth watching for a late returns. #FPL #FantasyPremierLeague #FPLTips #FPLTwitter #CRY\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-11T18:04:08.811989+00:00"
-    },
     {
       "key": "sub:55:241",
       "story": {
