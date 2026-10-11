@@ -6260,11 +6260,11 @@
         "finished_provisional": true
       },
       "55": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "56": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "58": {
@@ -7519,6 +7519,11 @@
         "value": 1,
         "since": "2026-09-20T14:12:11.942247+00:00",
         "minute": 51
+      },
+      "55:483:goals_scored": {
+        "value": 1,
+        "since": "2026-10-11T13:13:17.644527+00:00",
+        "minute": 11
       }
     }
   },
@@ -8880,6 +8885,12 @@
       "type": "substitution",
       "posted_at": "2026-10-10T18:47:37.544695+00:00",
       "tweet_id": "2108992866957840680"
+    },
+    {
+      "key": "kickoff:55",
+      "type": "kickoff",
+      "posted_at": "2026-10-11T13:13:18.754657+00:00",
+      "tweet_id": "2109271122139312346"
     }
   ],
   "form_spotlight": {
@@ -8904,5 +8915,18 @@
       ]
     }
   },
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "kickoff:56",
+      "story": {
+        "type": "kickoff",
+        "key": "kickoff:56",
+        "home": "HUL",
+        "away": "EVE"
+      },
+      "image_path": "assets/generated/live_kickoff_56.png",
+      "caption": "\u26bd KICK-OFF: HUL vs EVE.\n\nWho are you backing for returns? #FPL #FPLTwitter #FPLCommunity #FPLFamily\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-11T13:13:17.785317+00:00"
+    }
+  ]
 }
