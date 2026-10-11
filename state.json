@@ -8891,6 +8891,12 @@
       "type": "kickoff",
       "posted_at": "2026-10-11T13:13:18.754657+00:00",
       "tweet_id": "2109271122139312346"
+    },
+    {
+      "key": "kickoff:56",
+      "type": "kickoff",
+      "posted_at": "2026-10-11T13:14:02.139937+00:00",
+      "tweet_id": "2109271304079855882"
     }
   ],
   "form_spotlight": {
@@ -8915,18 +8921,5 @@
       ]
     }
   },
-  "live_queue": [
-    {
-      "key": "kickoff:56",
-      "story": {
-        "type": "kickoff",
-        "key": "kickoff:56",
-        "home": "HUL",
-        "away": "EVE"
-      },
-      "image_path": "assets/generated/live_kickoff_56.png",
-      "caption": "\u26bd KICK-OFF: HUL vs EVE.\n\nWho are you backing for returns? #FPL #FPLTwitter #FPLCommunity #FPLFamily\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-11T13:13:17.785317+00:00"
-    }
-  ]
+  "live_queue": []
 }
