@@ -5349,23 +5349,6 @@
   ],
   "pending": [
     {
-      "key": "status:371:2026-10-11T17:00:08.994657Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:371:2026-10-11T17:00:08.994657Z",
-        "pid": "371",
-        "player": "Gravenberch",
-        "team": "LIV",
-        "status": "suspended",
-        "news": "Suspended until 25 Oct",
-        "category": "suspension"
-      },
-      "image_path": "assets/generated/status_371_2026-10-11T17_00_08.994657Z.png",
-      "caption": "\ud83d\udfe5 SUSPENDED: Gravenberch (LIV) is suspended.\n\"Suspended until 25 Oct\"\n\nCostly ban, or no big loss for his side? #FPL #FPLCommunity #FantasyFootball #FPLTwitter\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-10-11T19:03:24.901669+00:00",
-      "auto": true
-    },
-    {
       "key": "injury_batch:1:9aaa0b523023",
       "story": {
         "type": "injury_batch",
@@ -5521,7 +5504,8 @@
     "injury_batch:6:ce1daf4b6792",
     "price_batch:21:64f5350bf7e2",
     "form_cold:5:e7511617ec15",
-    "form_hot:5:33485f30c078"
+    "form_hot:5:33485f30c078",
+    "status:371:2026-10-11T17:00:08.994657Z"
   ],
   "post_log": [
     {
@@ -6197,6 +6181,12 @@
       "type": "form_hot",
       "posted_at": "2026-10-11T15:38:35.394909+00:00",
       "tweet_id": "2109307682138014170"
+    },
+    {
+      "key": "status:371:2026-10-11T17:00:08.994657Z",
+      "type": "status_change",
+      "posted_at": "2026-10-11T19:43:20.820952+00:00",
+      "tweet_id": "2109369277560267122"
     }
   ],
   "live": {
