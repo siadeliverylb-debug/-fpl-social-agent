@@ -9021,6 +9021,12 @@
       "type": "substitution",
       "posted_at": "2026-10-11T18:05:39.621314+00:00",
       "tweet_id": "2109344693783785595"
+    },
+    {
+      "key": "sub:55:482",
+      "type": "substitution",
+      "posted_at": "2026-10-11T18:06:22.475308+00:00",
+      "tweet_id": "2109344873493012496"
     }
   ],
   "form_spotlight": {
@@ -9046,22 +9052,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:55:482",
-      "story": {
-        "type": "substitution",
-        "key": "sub:55:482",
-        "player": "Hudson-Odoi",
-        "team": "NFO",
-        "home": "CRY",
-        "away": "NFO",
-        "score": "0-1",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_55_482.png",
-      "caption": "\ud83d\udd04 SUB! 90' Hudson-Odoi (NFO) is on. CRY 0-1 NFO.\n\nWorth watching for a late returns. #FPL #FPLTips #FPLFamily #FantasyFootball #NFO\n\nFollow for the next one.",
-      "queued_at": "2026-10-11T18:04:08.884313+00:00"
-    },
     {
       "key": "sub:55:488",
       "story": {
