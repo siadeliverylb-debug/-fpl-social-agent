@@ -6759,7 +6759,8 @@
       "59:519:yellow_cards": 1,
       "59:522:yellow_cards": 1,
       "59:516:red_cards": 1,
-      "56:289:yellow_cards": 1
+      "56:289:yellow_cards": 1,
+      "55:483:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -6905,6 +6906,12 @@
         "team": "TOT",
         "assisted_by": "Tonali",
         "score": "1-1"
+      },
+      "55:a": {
+        "player": "Ndoye",
+        "team": "NFO",
+        "assisted_by": null,
+        "score": "0-1"
       }
     },
     "posted_score": {
@@ -7014,7 +7021,7 @@
       ],
       "55": [
         0,
-        0
+        1
       ],
       "56": [
         0,
@@ -7520,11 +7527,6 @@
         "value": 1,
         "since": "2026-09-20T14:12:11.942247+00:00",
         "minute": 51
-      },
-      "55:483:goals_scored": {
-        "value": 1,
-        "since": "2026-10-11T13:13:17.644527+00:00",
-        "minute": 11
       }
     }
   },
@@ -8904,6 +8906,12 @@
       "type": "yellow_card",
       "posted_at": "2026-10-11T13:16:07.155954+00:00",
       "tweet_id": "2109271828476874774"
+    },
+    {
+      "key": "goal:55:483:1",
+      "type": "goal",
+      "posted_at": "2026-10-11T13:16:50.114653+00:00",
+      "tweet_id": "2109272008647385333"
     }
   ],
   "form_spotlight": {
