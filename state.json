@@ -9015,6 +9015,12 @@
       "type": "substitution",
       "posted_at": "2026-10-11T18:04:56.690847+00:00",
       "tweet_id": "2109344513709732244"
+    },
+    {
+      "key": "sub:55:241",
+      "type": "substitution",
+      "posted_at": "2026-10-11T18:05:39.621314+00:00",
+      "tweet_id": "2109344693783785595"
     }
   ],
   "form_spotlight": {
@@ -9040,22 +9046,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:55:241",
-      "story": {
-        "type": "substitution",
-        "key": "sub:55:241",
-        "player": "McNeil",
-        "team": "CRY",
-        "home": "CRY",
-        "away": "NFO",
-        "score": "0-1",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_55_241.png",
-      "caption": "\ud83d\udd04 SUB! 90' McNeil (CRY) is on. CRY 0-1 NFO.\n\nImpact sub, or too little too late? #FPL #FPLCommunity #FantasyPremierLeague #FPLTwitter #CRY\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-10-11T18:04:08.847740+00:00"
-    },
     {
       "key": "sub:55:482",
       "story": {
