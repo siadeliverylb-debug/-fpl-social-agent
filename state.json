@@ -5347,250 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "injury_batch:6:ce1daf4b6792",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:6:ce1daf4b6792",
-        "injuries": [
-          {
-            "pid": "51",
-            "player": "George Hemmings",
-            "team": "AVL",
-            "status": "doubtful",
-            "news": "Knee injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "142",
-            "player": "James",
-            "team": "CHE",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "541",
-            "player": "Meunier",
-            "team": "SUN",
-            "status": "doubtful",
-            "news": "Groin injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "596",
-            "player": "Ruggeri",
-            "team": "AVL",
-            "status": "doubtful",
-            "news": "Hamstring injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "94",
-            "player": "Schade",
-            "team": "BRE",
-            "status": "doubtful",
-            "news": "Shoulder injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "93",
-            "player": "Schuster",
-            "team": "BRE",
-            "status": "doubtful",
-            "news": "Ankle injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_6_ce1daf4b6792.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (6):\n\n\ud83d\udea8 George Hemmings (AVL) - doubtful: \"Knee injury - 75% chance of playing\"\n\ud83d\udea8 James (CHE) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Meunier (SUN) - doubtful: \"Groin injury - 75% chance of playing\"\n\ud83d\udea8 Ruggeri (AVL) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\ud83d\udea8 Schade (BRE) - doubtful: \"Shoulder injury - 75% chance of playing\"\n\ud83d\udea8 Schuster (BRE) - doubtful: \"Ankle injury - 75% chance of playing\"\n\nHow are you covering this one? #FPL #FPLFamily #FPLTwitter #FantasyPremierLeague\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-10-10T19:02:27.555783+00:00",
-      "auto": true
-    },
-    {
-      "key": "price_batch:21:64f5350bf7e2",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:21:64f5350bf7e2",
-        "changes": [
-          {
-            "pid": "379",
-            "player": "Isak",
-            "team": "LIV",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 9.0
-          },
-          {
-            "pid": "4",
-            "player": "Gabriel",
-            "team": "ARS",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 7.9
-          },
-          {
-            "pid": "26",
-            "player": "Havertz",
-            "team": "ARS",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 7.5
-          },
-          {
-            "pid": "13",
-            "player": "Rice",
-            "team": "ARS",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 7.3
-          },
-          {
-            "pid": "398",
-            "player": "Foden",
-            "team": "MCI",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.8
-          },
-          {
-            "pid": "647",
-            "player": "Osorio",
-            "team": "CRY",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.4
-          },
-          {
-            "pid": "544",
-            "player": "Xhaka",
-            "team": "SUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.4
-          },
-          {
-            "pid": "589",
-            "player": "Gourna-Douath",
-            "team": "HUL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.9
-          },
-          {
-            "pid": "648",
-            "player": "Bahoya",
-            "team": "LEE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.9
-          },
-          {
-            "pid": "360",
-            "player": "Bradley",
-            "team": "LIV",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.9
-          },
-          {
-            "pid": "587",
-            "player": "Rulli",
-            "team": "MCI",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.9
-          },
-          {
-            "pid": "574",
-            "player": "Hjert\u00f8-Dahl",
-            "team": "HUL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.8
-          },
-          {
-            "pid": "532",
-            "player": "Ballard",
-            "team": "SUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.8
-          },
-          {
-            "pid": "545",
-            "player": "Sadiki",
-            "team": "SUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.8
-          },
-          {
-            "pid": "548",
-            "player": "Rigg",
-            "team": "SUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.8
-          },
-          {
-            "pid": "50",
-            "player": "Burrowes",
-            "team": "AVL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "153",
-            "player": "Disasi",
-            "team": "CRY",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "643",
-            "player": "Chilwell",
-            "team": "CRY",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "464",
-            "player": "Wissa",
-            "team": "NEW",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.3
-          },
-          {
-            "pid": "124",
-            "player": "Gro\u00df",
-            "team": "BHA",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.0
-          },
-          {
-            "pid": "391",
-            "player": "Gvardiol",
-            "team": "MCI",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.8
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_21_64f5350bf7e2.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 18 falls, 3 rises.\n\n\ud83d\udd34 Isak (LIV) -> \u00a39.0m\n\ud83d\udd34 Gabriel (ARS) -> \u00a37.9m\n\ud83d\udd34 Havertz (ARS) -> \u00a37.5m\n\ud83d\udd34 Rice (ARS) -> \u00a37.3m\n\ud83d\udd34 Foden (MCI) -> \u00a36.8m\n\ud83d\udd34 Osorio (CRY) -> \u00a35.4m\n\ud83d\udd34 Xhaka (SUN) -> \u00a35.4m\n\ud83d\udd34 Gourna-Douath (HUL) -> \u00a34.9m\n\ud83d\udd34 Bahoya (LEE) -> \u00a34.9m\n\ud83d\udd34 Bradley (LIV) -> \u00a34.9m\n\ud83d\udd34 Rulli (MCI) -> \u00a34.9m\n\ud83d\udd34 Hjert\u00f8-Dahl (HUL) -> \u00a34.8m\n\ud83d\udd34 Ballard (SUN) -> \u00a34.8m\n\ud83d\udd34 Sadiki (SUN) -> \u00a34.8m\n\ud83d\udd34 Rigg (SUN) -> \u00a34.8m\n\ud83d\udd34 Burrowes (AVL) -> \u00a34.4m\n\ud83d\udd34 Disasi (CRY) -> \u00a34.4m\n\ud83d\udd34 Chilwell (CRY) -> \u00a34.4m\n\ud83d\udfe2 Wissa (NEW) -> \u00a36.3m\n\ud83d\udfe2 Gro\u00df (BHA) -> \u00a36.0m\n\ud83d\udfe2 Gvardiol (MCI) -> \u00a35.8m\n\nWinners and losers in your squad? #FPL #PremierLeague #FPLTwitter #FPLFamily\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-10-11T01:23:56.219830+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5721,7 +5478,9 @@
     "deadline:6:2h",
     "injury_batch:1:2a2b47bf21a3",
     "status:328:2026-10-10T16:00:08.881447Z",
-    "status:516:2026-10-10T18:30:09.519346Z"
+    "status:516:2026-10-10T18:30:09.519346Z",
+    "injury_batch:6:ce1daf4b6792",
+    "price_batch:21:64f5350bf7e2"
   ],
   "post_log": [
     {
@@ -6379,6 +6138,12 @@
       "type": "status_change",
       "posted_at": "2026-10-10T23:32:13.177181+00:00",
       "tweet_id": "2109064487303290902"
+    },
+    {
+      "key": "price_batch:21:64f5350bf7e2",
+      "type": "price_changes",
+      "posted_at": "2026-10-11T02:11:31.344675+00:00",
+      "tweet_id": "2109104576989171754"
     }
   ],
   "live": {
