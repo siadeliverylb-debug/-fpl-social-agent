@@ -9033,6 +9033,12 @@
       "type": "substitution",
       "posted_at": "2026-10-11T18:07:05.517290+00:00",
       "tweet_id": "2109345053793558733"
+    },
+    {
+      "key": "sub:55:490",
+      "type": "substitution",
+      "posted_at": "2026-10-11T18:07:48.364968+00:00",
+      "tweet_id": "2109345233804665000"
     }
   ],
   "form_spotlight": {
@@ -9058,22 +9064,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:55:490",
-      "story": {
-        "type": "substitution",
-        "key": "sub:55:490",
-        "player": "Wood",
-        "team": "NFO",
-        "home": "CRY",
-        "away": "NFO",
-        "score": "0-1",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_55_490.png",
-      "caption": "\ud83d\udd04 SUB! 90' Wood (NFO) is on. CRY 0-1 NFO.\n\nDoes this open a chance for a start next week? #FPL #PremierLeague #FPLTips #FantasyFootball #NFO\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-10-11T18:04:08.957208+00:00"
-    },
     {
       "key": "sub:55:493",
       "story": {
