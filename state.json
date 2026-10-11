@@ -3590,9 +3590,9 @@
       "web_name": "Szoboszlai",
       "team": "LIV",
       "now_cost": 69,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Hamstring injury - 75% chance of playing",
+      "news_added": "2026-10-11T15:00:09.494018Z"
     },
     "369": {
       "web_name": "Ngumoha",
@@ -3606,17 +3606,17 @@
       "web_name": "Chiesa",
       "team": "LIV",
       "now_cost": 53,
-      "status": "d",
-      "news": "Back injury - 25% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-08-27T13:30:07.598926Z"
     },
     "371": {
       "web_name": "Gravenberch",
       "team": "LIV",
       "now_cost": 58,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "s",
+      "news": "Suspended until 25 Oct",
+      "news_added": "2026-10-11T17:00:08.994657Z"
     },
     "372": {
       "web_name": "Mac Allister",
@@ -3766,8 +3766,8 @@
       "web_name": "O'Reilly",
       "team": "MCI",
       "now_cost": 63,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-01T15:30:10.272693Z"
     },
     "388": {
@@ -3846,16 +3846,16 @@
       "web_name": "Semenyo",
       "team": "MCI",
       "now_cost": 84,
-      "status": "d",
-      "news": "Ankle injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-24T12:00:09.848000Z"
     },
     "398": {
       "web_name": "Foden",
       "team": "MCI",
       "now_cost": 68,
-      "status": "s",
-      "news": "Suspended until 17 Oct",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-13T17:00:09.433455Z"
     },
     "399": {
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-11T14:15:42.894677+00:00",
+  "last_snapshot_at": "2026-10-11T19:03:24.827025+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,46 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "status:371:2026-10-11T17:00:08.994657Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:371:2026-10-11T17:00:08.994657Z",
+        "pid": "371",
+        "player": "Gravenberch",
+        "team": "LIV",
+        "status": "suspended",
+        "news": "Suspended until 25 Oct",
+        "category": "suspension"
+      },
+      "image_path": "assets/generated/status_371_2026-10-11T17_00_08.994657Z.png",
+      "caption": "\ud83d\udfe5 SUSPENDED: Gravenberch (LIV) is suspended.\n\"Suspended until 25 Oct\"\n\nCostly ban, or no big loss for his side? #FPL #FPLCommunity #FantasyFootball #FPLTwitter\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-10-11T19:03:24.901669+00:00",
+      "auto": true
+    },
+    {
+      "key": "injury_batch:1:9aaa0b523023",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:9aaa0b523023",
+        "injuries": [
+          {
+            "pid": "368",
+            "player": "Szoboszlai",
+            "team": "LIV",
+            "status": "doubtful",
+            "news": "Hamstring injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_9aaa0b523023.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Szoboszlai (LIV) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FantasyFootball #PremierLeague #FPLTips\n\nTurn on notifications to catch these as they land.",
+      "created_at": "2026-10-11T19:03:24.960992+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
