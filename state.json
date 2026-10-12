@@ -9119,6 +9119,12 @@
       "type": "substitution",
       "posted_at": "2026-10-12T22:47:23.033491+00:00",
       "tweet_id": "2109777979635085651"
+    },
+    {
+      "key": "sub:54:195",
+      "type": "substitution",
+      "posted_at": "2026-10-12T22:48:05.543558+00:00",
+      "tweet_id": "2109778157939118394"
     }
   ],
   "form_spotlight": {
@@ -9144,22 +9150,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:54:195",
-      "story": {
-        "type": "substitution",
-        "key": "sub:54:195",
-        "player": "Simms",
-        "team": "COV",
-        "home": "COV",
-        "away": "NEW",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_54_195.png",
-      "caption": "\ud83d\udd04 SUB! 90' Simms (COV) is on. COV 0-0 NEW.\n\nImpact sub, or too little too late? #FPL #FPLTips #FPLFamily #FPLTwitter #COV\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-12T22:45:11.237685+00:00"
-    },
     {
       "key": "sub:54:448",
       "story": {
