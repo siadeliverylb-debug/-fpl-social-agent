@@ -9101,6 +9101,12 @@
       "type": "kickoff",
       "posted_at": "2026-10-12T22:45:13.520305+00:00",
       "tweet_id": "2109777436384596369"
+    },
+    {
+      "key": "sub:54:104",
+      "type": "substitution",
+      "posted_at": "2026-10-12T22:45:57.924910+00:00",
+      "tweet_id": "2109777622368465032"
     }
   ],
   "form_spotlight": {
@@ -9126,22 +9132,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:54:104",
-      "story": {
-        "type": "substitution",
-        "key": "sub:54:104",
-        "player": "Onyeka",
-        "team": "COV",
-        "home": "COV",
-        "away": "NEW",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_54_104.png",
-      "caption": "\ud83d\udd04 SUB! 90' Onyeka (COV) is on. COV 0-0 NEW.\n\nDoes this open a chance for a start next week? #FPL #FantasyPremierLeague #FantasyFootball #FPLTwitter #COV\n\nFollow for the next one.",
-      "queued_at": "2026-10-12T22:45:11.039659+00:00"
-    },
     {
       "key": "sub:54:185",
       "story": {
