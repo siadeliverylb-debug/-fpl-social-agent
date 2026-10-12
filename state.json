@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-12T02:31:18.156595+00:00",
+  "last_snapshot_at": "2026-10-12T09:56:46.289019+00:00",
   "recapped_events": [
     1,
     2,
@@ -9058,8 +9058,8 @@
   "form_spotlight": {
     "last_at": "2026-10-11T14:15:42.894169+00:00",
     "next": "cold",
-    "day": "2026-10-11",
-    "count": 2,
+    "day": "2026-10-12",
+    "count": 0,
     "last_picks": {
       "cold": [
         "Wissa",
