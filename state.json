@@ -9125,6 +9125,12 @@
       "type": "substitution",
       "posted_at": "2026-10-12T22:48:05.543558+00:00",
       "tweet_id": "2109778157939118394"
+    },
+    {
+      "key": "sub:54:448",
+      "type": "substitution",
+      "posted_at": "2026-10-12T22:48:48.101975+00:00",
+      "tweet_id": "2109778336448729300"
     }
   ],
   "form_spotlight": {
@@ -9150,22 +9156,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:54:448",
-      "story": {
-        "type": "substitution",
-        "key": "sub:54:448",
-        "player": "Burn",
-        "team": "NEW",
-        "home": "COV",
-        "away": "NEW",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_54_448.png",
-      "caption": "\ud83d\udd04 SUB! 90' Burn (NEW) is on. COV 0-0 NEW.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #FantasyFootball #FPLCommunity #NEW\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-12T22:45:11.301990+00:00"
-    },
     {
       "key": "sub:54:458",
       "story": {
