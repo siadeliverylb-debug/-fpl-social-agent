@@ -9107,6 +9107,12 @@
       "type": "substitution",
       "posted_at": "2026-10-12T22:45:57.924910+00:00",
       "tweet_id": "2109777622368465032"
+    },
+    {
+      "key": "sub:54:185",
+      "type": "substitution",
+      "posted_at": "2026-10-12T22:46:40.460160+00:00",
+      "tweet_id": "2109777800840315007"
     }
   ],
   "form_spotlight": {
@@ -9132,22 +9138,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:54:185",
-      "story": {
-        "type": "substitution",
-        "key": "sub:54:185",
-        "player": "Sakamoto",
-        "team": "COV",
-        "home": "COV",
-        "away": "NEW",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_54_185.png",
-      "caption": "\ud83d\udd04 SUB! 90' Sakamoto (COV) is on. COV 0-0 NEW.\n\nWorth watching for a late returns. #FPL #FPLTips #FPLTwitter #FantasyPremierLeague #COV\n\nFollow for the next one.",
-      "queued_at": "2026-10-12T22:45:11.104781+00:00"
-    },
     {
       "key": "sub:54:188",
       "story": {
