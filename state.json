@@ -6300,8 +6300,8 @@
         "finished_provisional": true
       },
       "54": {
-        "started": false,
-        "finished_provisional": false
+        "started": true,
+        "finished_provisional": true
       }
     },
     "stats": {
@@ -6818,7 +6818,19 @@
       "58:579:yellow_cards": 1,
       "58:387:yellow_cards": 1,
       "58:616:yellow_cards": 1,
-      "58:371:red_cards": 1
+      "58:371:red_cards": 1,
+      "54:183:goals_scored": 1,
+      "54:195:goals_scored": 1,
+      "54:599:goals_scored": 1,
+      "54:656:goals_scored": 1,
+      "54:447:goals_scored": 1,
+      "54:175:assists": 1,
+      "54:176:assists": 1,
+      "54:194:assists": 1,
+      "54:599:assists": 1,
+      "54:405:assists": 1,
+      "54:175:yellow_cards": 1,
+      "54:458:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -6994,6 +7006,18 @@
         "team": "MCI",
         "assisted_by": null,
         "score": "0-3"
+      },
+      "54:h": {
+        "player": "Mfuni",
+        "team": "COV",
+        "assisted_by": null,
+        "score": "4-0"
+      },
+      "54:a": {
+        "player": "Botman",
+        "team": "NEW",
+        "assisted_by": "N.Gonzalez",
+        "score": "4-1"
       }
     },
     "posted_score": {
@@ -7114,8 +7138,8 @@
         3
       ],
       "54": [
-        0,
-        0
+        4,
+        1
       ]
     },
     "subs_seen": {
@@ -7372,7 +7396,17 @@
       "58:391": true,
       "58:400": true,
       "58:616": true,
-      "58:628": true
+      "58:628": true,
+      "54:104": true,
+      "54:185": true,
+      "54:188": true,
+      "54:195": true,
+      "54:448": true,
+      "54:458": true,
+      "54:461": true,
+      "54:465": true,
+      "54:593": true,
+      "54:656": true
     },
     "subs_baselined": {
       "31": true,
@@ -7627,7 +7661,8 @@
       "59": true,
       "55": true,
       "56": true,
-      "58": true
+      "58": true,
+      "54": true
     },
     "goal_pending": {
       "44:204:goals_scored": {
@@ -9060,6 +9095,12 @@
       "type": "substitution",
       "posted_at": "2026-10-11T18:07:48.364968+00:00",
       "tweet_id": "2109345233804665000"
+    },
+    {
+      "key": "kickoff:54",
+      "type": "kickoff",
+      "posted_at": "2026-10-12T22:45:13.520305+00:00",
+      "tweet_id": "2109777436384596369"
     }
   ],
   "form_spotlight": {
@@ -9084,5 +9125,384 @@
       ]
     }
   },
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "sub:54:104",
+      "story": {
+        "type": "substitution",
+        "key": "sub:54:104",
+        "player": "Onyeka",
+        "team": "COV",
+        "home": "COV",
+        "away": "NEW",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_54_104.png",
+      "caption": "\ud83d\udd04 SUB! 90' Onyeka (COV) is on. COV 0-0 NEW.\n\nDoes this open a chance for a start next week? #FPL #FantasyPremierLeague #FantasyFootball #FPLTwitter #COV\n\nFollow for the next one.",
+      "queued_at": "2026-10-12T22:45:11.039659+00:00"
+    },
+    {
+      "key": "sub:54:185",
+      "story": {
+        "type": "substitution",
+        "key": "sub:54:185",
+        "player": "Sakamoto",
+        "team": "COV",
+        "home": "COV",
+        "away": "NEW",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_54_185.png",
+      "caption": "\ud83d\udd04 SUB! 90' Sakamoto (COV) is on. COV 0-0 NEW.\n\nWorth watching for a late returns. #FPL #FPLTips #FPLTwitter #FantasyPremierLeague #COV\n\nFollow for the next one.",
+      "queued_at": "2026-10-12T22:45:11.104781+00:00"
+    },
+    {
+      "key": "sub:54:188",
+      "story": {
+        "type": "substitution",
+        "key": "sub:54:188",
+        "player": "Torp",
+        "team": "COV",
+        "home": "COV",
+        "away": "NEW",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_54_188.png",
+      "caption": "\ud83d\udd04 SUB! 90' Torp (COV) is on. COV 0-0 NEW.\n\nWorth watching for a late returns. #FPL #FPLFamily #FPLTwitter #FantasyFootball #COV\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-12T22:45:11.172989+00:00"
+    },
+    {
+      "key": "sub:54:195",
+      "story": {
+        "type": "substitution",
+        "key": "sub:54:195",
+        "player": "Simms",
+        "team": "COV",
+        "home": "COV",
+        "away": "NEW",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_54_195.png",
+      "caption": "\ud83d\udd04 SUB! 90' Simms (COV) is on. COV 0-0 NEW.\n\nImpact sub, or too little too late? #FPL #FPLTips #FPLFamily #FPLTwitter #COV\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-12T22:45:11.237685+00:00"
+    },
+    {
+      "key": "sub:54:448",
+      "story": {
+        "type": "substitution",
+        "key": "sub:54:448",
+        "player": "Burn",
+        "team": "NEW",
+        "home": "COV",
+        "away": "NEW",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_54_448.png",
+      "caption": "\ud83d\udd04 SUB! 90' Burn (NEW) is on. COV 0-0 NEW.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #FantasyFootball #FPLCommunity #NEW\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-12T22:45:11.301990+00:00"
+    },
+    {
+      "key": "sub:54:458",
+      "story": {
+        "type": "substitution",
+        "key": "sub:54:458",
+        "player": "Joelinton",
+        "team": "NEW",
+        "home": "COV",
+        "away": "NEW",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_54_458.png",
+      "caption": "\ud83d\udd04 SUB! 90' Joelinton (NEW) is on. COV 0-0 NEW.\n\nWorth watching for a late returns. #FPL #FPLTips #PremierLeague #FantasyPremierLeague #NEW\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-12T22:45:11.366697+00:00"
+    },
+    {
+      "key": "sub:54:461",
+      "story": {
+        "type": "substitution",
+        "key": "sub:54:461",
+        "player": "Tour\u00e9",
+        "team": "NEW",
+        "home": "COV",
+        "away": "NEW",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_54_461.png",
+      "caption": "\ud83d\udd04 SUB! 90' Tour\u00e9 (NEW) is on. COV 0-0 NEW.\n\nImpact sub, or too little too late? #FPL #FPLTips #FPLCommunity #FantasyPremierLeague #NEW\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-12T22:45:11.434449+00:00"
+    },
+    {
+      "key": "sub:54:465",
+      "story": {
+        "type": "substitution",
+        "key": "sub:54:465",
+        "player": "Osula",
+        "team": "NEW",
+        "home": "COV",
+        "away": "NEW",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_54_465.png",
+      "caption": "\ud83d\udd04 SUB! 90' Osula (NEW) is on. COV 0-0 NEW.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTwitter #FantasyPremierLeague #FantasyFootball #NEW\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-12T22:45:11.498324+00:00"
+    },
+    {
+      "key": "sub:54:593",
+      "story": {
+        "type": "substitution",
+        "key": "sub:54:593",
+        "player": "Dedi\u0107",
+        "team": "NEW",
+        "home": "COV",
+        "away": "NEW",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_54_593.png",
+      "caption": "\ud83d\udd04 SUB! 90' Dedi\u0107 (NEW) is on. COV 0-0 NEW.\n\nDoes this open a chance for a start next week? #FPL #FPLCommunity #FantasyPremierLeague #FPLTips #NEW\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-12T22:45:11.563012+00:00"
+    },
+    {
+      "key": "sub:54:656",
+      "story": {
+        "type": "substitution",
+        "key": "sub:54:656",
+        "player": "Mfuni",
+        "team": "COV",
+        "home": "COV",
+        "away": "NEW",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_54_656.png",
+      "caption": "\ud83d\udd04 SUB! 90' Mfuni (COV) is on. COV 0-0 NEW.\n\nFresh legs -- could this pay off in FPL terms? #FPL #PremierLeague #FantasyFootball #FPLCommunity #COV\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-12T22:45:11.627723+00:00"
+    },
+    {
+      "key": "yellow_card:54:175:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:54:175:1",
+        "player": "van Ewijk",
+        "team": "COV",
+        "home": "COV",
+        "away": "NEW",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_54_175_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' van Ewijk (COV) is booked. COV 0-0 NEW.\n\nWorth keeping an eye on for next week. #FPL #FPLCommunity #FantasyPremierLeague #FPLTips #COV\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-12T22:45:11.693116+00:00"
+    },
+    {
+      "key": "yellow_card:54:458:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:54:458:1",
+        "player": "Joelinton",
+        "team": "NEW",
+        "home": "COV",
+        "away": "NEW",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_54_458_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Joelinton (NEW) is booked. COV 0-0 NEW.\n\nRisk of a ban building here. #FPL #FantasyFootball #FPLCommunity #FPLFamily #NEW\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-12T22:45:11.757473+00:00"
+    },
+    {
+      "key": "goal:54:183:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:54:183:1",
+        "player": "Rudoni",
+        "team": "COV",
+        "home": "COV",
+        "away": "NEW",
+        "minute": 90,
+        "score": "1-0"
+      },
+      "image_path": "assets/generated/live_goal_54_183_1.png",
+      "caption": "\u26bd GOAL! 90' Rudoni (COV)! COV 1-0 NEW.\n\nNailed on captain material? #FPL #FPLFamily #FantasyPremierLeague #FPLTwitter #COV\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-12T22:45:11.821726+00:00"
+    },
+    {
+      "key": "goal:54:195:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:54:195:1",
+        "player": "Simms",
+        "team": "COV",
+        "home": "COV",
+        "away": "NEW",
+        "minute": 90,
+        "score": "2-0"
+      },
+      "image_path": "assets/generated/live_goal_54_195_1.png",
+      "caption": "\u26bd GOAL! 90' Simms (COV)! COV 2-0 NEW.\n\nHave him in your team? #FPL #FPLFamily #FantasyFootball #FantasyPremierLeague #COV\n\nFollow for the next one.",
+      "queued_at": "2026-10-12T22:45:11.885678+00:00"
+    },
+    {
+      "key": "goal:54:599:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:54:599:1",
+        "player": "Cherif",
+        "team": "COV",
+        "home": "COV",
+        "away": "NEW",
+        "minute": 90,
+        "score": "3-0"
+      },
+      "image_path": "assets/generated/live_goal_54_599_1.png",
+      "caption": "\u26bd GOAL! 90' Cherif (COV)! COV 3-0 NEW.\n\nHave him in your team? #FPL #FantasyPremierLeague #FantasyFootball #FPLFamily #COV\n\nFollow for the next one.",
+      "queued_at": "2026-10-12T22:45:11.949728+00:00"
+    },
+    {
+      "key": "goal:54:656:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:54:656:1",
+        "player": "Mfuni",
+        "team": "COV",
+        "home": "COV",
+        "away": "NEW",
+        "minute": 90,
+        "score": "4-0"
+      },
+      "image_path": "assets/generated/live_goal_54_656_1.png",
+      "caption": "\u26bd GOAL! 90' Mfuni (COV)! COV 4-0 NEW.\n\nNailed on captain material? #FPL #FPLFamily #FPLCommunity #PremierLeague #COV\n\nFollow for the next one.",
+      "queued_at": "2026-10-12T22:45:12.013083+00:00"
+    },
+    {
+      "key": "assist:54:175:1",
+      "story": {
+        "type": "assist",
+        "key": "assist:54:175:1",
+        "player": "van Ewijk",
+        "team": "COV",
+        "home": "COV",
+        "away": "NEW",
+        "minute": 90,
+        "score": "4-0"
+      },
+      "image_path": "assets/generated/live_assist_54_175_1.png",
+      "caption": "\ud83c\udfaf ASSIST! 90' van Ewijk (COV) with the assist! COV 4-0 NEW.\n\nQuietly racking up the returns. #FPL #FPLTips #PremierLeague #FPLCommunity #COV\n\nFollow for the next one.",
+      "queued_at": "2026-10-12T22:45:12.076733+00:00"
+    },
+    {
+      "key": "assist:54:176:1",
+      "story": {
+        "type": "assist",
+        "key": "assist:54:176:1",
+        "player": "Dasilva",
+        "team": "COV",
+        "home": "COV",
+        "away": "NEW",
+        "minute": 90,
+        "score": "4-0"
+      },
+      "image_path": "assets/generated/live_assist_54_176_1.png",
+      "caption": "\ud83c\udfaf ASSIST! 90' Dasilva (COV) with the assist! COV 4-0 NEW.\n\nUnderrated FPL pick, or expected? #FPL #FantasyFootball #FPLFamily #FPLTwitter #COV\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-12T22:45:12.141086+00:00"
+    },
+    {
+      "key": "assist:54:194:1",
+      "story": {
+        "type": "assist",
+        "key": "assist:54:194:1",
+        "player": "Thomas-Asante",
+        "team": "COV",
+        "home": "COV",
+        "away": "NEW",
+        "minute": 90,
+        "score": "4-0"
+      },
+      "image_path": "assets/generated/live_assist_54_194_1.png",
+      "caption": "\ud83c\udfaf ASSIST! 90' Thomas-Asante (COV) with the assist! COV 4-0 NEW.\n\nUnderrated FPL pick, or expected? #FPL #FantasyFootball #FPLFamily #PremierLeague #COV\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-12T22:45:12.207619+00:00"
+    },
+    {
+      "key": "assist:54:599:1",
+      "story": {
+        "type": "assist",
+        "key": "assist:54:599:1",
+        "player": "Cherif",
+        "team": "COV",
+        "home": "COV",
+        "away": "NEW",
+        "minute": 90,
+        "score": "4-0"
+      },
+      "image_path": "assets/generated/live_assist_54_599_1.png",
+      "caption": "\ud83c\udfaf ASSIST! 90' Cherif (COV) with the assist! COV 4-0 NEW.\n\nUnderrated FPL pick, or expected? #FPL #PremierLeague #FPLTips #FPLTwitter #COV\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-12T22:45:12.271844+00:00"
+    },
+    {
+      "key": "goal:54:447:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:54:447:1",
+        "player": "Botman",
+        "team": "NEW",
+        "home": "COV",
+        "away": "NEW",
+        "minute": 90,
+        "score": "4-1",
+        "assisted_by": "N.Gonzalez"
+      },
+      "image_path": "assets/generated/live_goal_54_447_1.png",
+      "caption": "\u26bd GOAL! 90' Botman (NEW)! Assisted by N.Gonzalez. COV 4-1 NEW.\n\nWho's benefiting from that in FPL? #FPL #FantasyFootball #FantasyPremierLeague #FPLFamily #NEW\n\nFollow for the next one.",
+      "queued_at": "2026-10-12T22:45:12.337296+00:00"
+    },
+    {
+      "key": "fulltime:54",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:54",
+        "home": "COV",
+        "away": "NEW",
+        "score": "4-1",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_54.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): COV 4-1 NEW.\n\nHow did your FPL assets do? #FPL #FPLTwitter #FPLCommunity #FPLTips\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-12T22:45:12.401368+00:00"
+    },
+    {
+      "key": "bonus:54",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:54",
+        "home": "COV",
+        "away": "NEW",
+        "score": "4-1",
+        "players": [
+          {
+            "name": "Cherif",
+            "points": 3
+          },
+          {
+            "name": "N.Gonzalez",
+            "points": 2
+          },
+          {
+            "name": "Simms",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_54.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: COV 4-1 NEW.\nCherif +3, N.Gonzalez +2, Simms +1.\n\n#FPL #FantasyPremierLeague #FPLTips #FPLCommunity #COVvNEW\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-12T22:45:12.464543+00:00"
+    }
+  ]
 }
