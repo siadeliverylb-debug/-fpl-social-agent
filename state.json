@@ -9113,6 +9113,12 @@
       "type": "substitution",
       "posted_at": "2026-10-12T22:46:40.460160+00:00",
       "tweet_id": "2109777800840315007"
+    },
+    {
+      "key": "sub:54:188",
+      "type": "substitution",
+      "posted_at": "2026-10-12T22:47:23.033491+00:00",
+      "tweet_id": "2109777979635085651"
     }
   ],
   "form_spotlight": {
@@ -9138,22 +9144,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:54:188",
-      "story": {
-        "type": "substitution",
-        "key": "sub:54:188",
-        "player": "Torp",
-        "team": "COV",
-        "home": "COV",
-        "away": "NEW",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_54_188.png",
-      "caption": "\ud83d\udd04 SUB! 90' Torp (COV) is on. COV 0-0 NEW.\n\nWorth watching for a late returns. #FPL #FPLFamily #FPLTwitter #FantasyFootball #COV\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-10-12T22:45:11.172989+00:00"
-    },
     {
       "key": "sub:54:195",
       "story": {
