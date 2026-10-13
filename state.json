@@ -5347,45 +5347,7 @@
     4,
     5
   ],
-  "pending": [
-    {
-      "key": "injury_batch:3:cc972c0122fb",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:3:cc972c0122fb",
-        "injuries": [
-          {
-            "pid": "432",
-            "player": "Mainoo",
-            "team": "MUN",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "423",
-            "player": "Shaw",
-            "team": "MUN",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "461",
-            "player": "Tour\u00e9",
-            "team": "NEW",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_3_cc972c0122fb.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (3):\n\n\ud83d\udea8 Mainoo (MUN) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Shaw (MUN) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Tour\u00e9 (NEW) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nHow are you covering this one? #FPL #PremierLeague #FPLTips #FantasyPremierLeague\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-10-13T01:42:44.517143+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5523,7 +5485,8 @@
     "form_hot:5:33485f30c078",
     "status:371:2026-10-11T17:00:08.994657Z",
     "injury_batch:1:9aaa0b523023",
-    "injury_batch:2:c296f1ae7f0c"
+    "injury_batch:2:c296f1ae7f0c",
+    "injury_batch:3:cc972c0122fb"
   ],
   "post_log": [
     {
@@ -6217,6 +6180,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-12T19:47:59.708137+00:00",
       "tweet_id": "2109732835007619098"
+    },
+    {
+      "key": "injury_batch:3:cc972c0122fb",
+      "type": "injury_batch",
+      "posted_at": "2026-10-13T02:00:19.966023+00:00",
+      "tweet_id": "2109826536891375696"
     }
   ],
   "live": {
