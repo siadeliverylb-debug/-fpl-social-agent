@@ -455,7 +455,7 @@
       "team": "AVL",
       "now_cost": 45,
       "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "news": "Hamstring injury - 25% chance of playing",
       "news_added": "2026-10-10T18:00:10.750593Z"
     },
     "597": {
@@ -1189,7 +1189,7 @@
     "138": {
       "web_name": "Kostoulas",
       "team": "BHA",
-      "now_cost": 56,
+      "now_cost": 57,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1229,7 +1229,7 @@
     "600": {
       "web_name": "Osman",
       "team": "BHA",
-      "now_cost": 50,
+      "now_cost": 49,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1613,7 +1613,7 @@
     "175": {
       "web_name": "van Ewijk",
       "team": "COV",
-      "now_cost": 40,
+      "now_cost": 39,
       "status": "a",
       "news": "",
       "news_added": "2026-09-19T16:00:09.486751Z"
@@ -1798,8 +1798,8 @@
       "web_name": "Awoniyi",
       "team": "COV",
       "now_cost": 54,
-      "status": "s",
-      "news": "Suspended until 19 Oct",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-13T15:00:09.305127Z"
     },
     "575": {
@@ -4053,7 +4053,7 @@
     "415": {
       "web_name": "Dorgu",
       "team": "MUN",
-      "now_cost": 58,
+      "now_cost": 57,
       "status": "i",
       "news": "Hamstring injury - Expected back 25 Oct",
       "news_added": "2026-09-27T21:30:07.831640Z"
@@ -4118,9 +4118,9 @@
       "web_name": "Shaw",
       "team": "MUN",
       "now_cost": 43,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-11T13:00:09.030120Z"
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-12T21:30:08.995810Z"
     },
     "424": {
       "web_name": "Amass",
@@ -4190,9 +4190,9 @@
       "web_name": "Mainoo",
       "team": "MUN",
       "now_cost": 55,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-21T13:00:09.169862Z"
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-12T21:30:09.006287Z"
     },
     "433": {
       "web_name": "Ugarte",
@@ -4414,9 +4414,9 @@
       "web_name": "Tour\u00e9",
       "team": "NEW",
       "now_cost": 58,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-12T21:30:09.043536Z"
     },
     "462": {
       "web_name": "Steur",
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-12T19:33:06.128613+00:00",
+  "last_snapshot_at": "2026-10-13T01:42:44.472087+00:00",
   "recapped_events": [
     1,
     2,
@@ -5347,7 +5347,45 @@
     4,
     5
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:3:cc972c0122fb",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:3:cc972c0122fb",
+        "injuries": [
+          {
+            "pid": "432",
+            "player": "Mainoo",
+            "team": "MUN",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "423",
+            "player": "Shaw",
+            "team": "MUN",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "461",
+            "player": "Tour\u00e9",
+            "team": "NEW",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_3_cc972c0122fb.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (3):\n\n\ud83d\udea8 Mainoo (MUN) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Shaw (MUN) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Tour\u00e9 (NEW) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nHow are you covering this one? #FPL #PremierLeague #FPLTips #FantasyPremierLeague\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-10-13T01:42:44.517143+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
