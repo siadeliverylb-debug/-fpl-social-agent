@@ -853,7 +853,7 @@
     "95": {
       "web_name": "O.Dango",
       "team": "BRE",
-      "now_cost": 63,
+      "now_cost": 62,
       "status": "a",
       "news": "",
       "news_added": null
@@ -989,7 +989,7 @@
     "109": {
       "web_name": "Verbruggen",
       "team": "BHA",
-      "now_cost": 45,
+      "now_cost": 46,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1213,7 +1213,7 @@
     "504": {
       "web_name": "Vuskovic",
       "team": "BHA",
-      "now_cost": 50,
+      "now_cost": 51,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1669,7 +1669,7 @@
     "182": {
       "web_name": "Amenda",
       "team": "COV",
-      "now_cost": 40,
+      "now_cost": 39,
       "status": "i",
       "news": "Calf injury - Unknown return date",
       "news_added": "2026-09-17T07:30:09.329041Z"
@@ -2493,7 +2493,7 @@
     "272": {
       "web_name": "Kusi-Asare",
       "team": "FUL",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3829,7 +3829,7 @@
     "395": {
       "web_name": "Lewis",
       "team": "MCI",
-      "now_cost": 44,
+      "now_cost": 43,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3861,7 +3861,7 @@
     "399": {
       "web_name": "Cherki",
       "team": "MCI",
-      "now_cost": 78,
+      "now_cost": 79,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-13T21:38:27.506210+00:00",
+  "last_snapshot_at": "2026-10-14T00:43:29.656926+00:00",
   "recapped_events": [
     1,
     2,
