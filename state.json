@@ -447,7 +447,7 @@
       "team": "AVL",
       "now_cost": 54,
       "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "news": "Unspecified injury - 50% chance of playing",
       "news_added": "2026-08-15T16:00:07.974271Z"
     },
     "596": {
@@ -494,8 +494,8 @@
       "web_name": "Goretzka",
       "team": "AVL",
       "now_cost": 59,
-      "status": "i",
-      "news": "Knee injury - Expected back 17 Oct",
+      "status": "d",
+      "news": "Knee injury - 75% chance of playing",
       "news_added": "2026-09-09T09:30:08.229436Z"
     },
     "630": {
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-14T05:36:13.167160+00:00",
+  "last_snapshot_at": "2026-10-14T10:48:00.732060+00:00",
   "recapped_events": [
     1,
     2,
@@ -5348,7 +5348,61 @@
     5,
     6
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_hot:5:d5d28a02123c",
+      "story": {
+        "type": "form_hot",
+        "key": "form_hot:5:d5d28a02123c",
+        "players": [
+          {
+            "name": "De Cuyper",
+            "team": "BHA",
+            "form": 10.5,
+            "total_points": 53,
+            "price_millions": 5.1,
+            "selected": 35.3
+          },
+          {
+            "name": "Gro\u00df",
+            "team": "BHA",
+            "form": 10.0,
+            "total_points": 53,
+            "price_millions": 6.0,
+            "selected": 39.5
+          },
+          {
+            "name": "Semenyo",
+            "team": "MCI",
+            "form": 10.0,
+            "total_points": 36,
+            "price_millions": 8.3,
+            "selected": 13.7
+          },
+          {
+            "name": "Cunha",
+            "team": "MUN",
+            "form": 10.0,
+            "total_points": 36,
+            "price_millions": 7.9,
+            "selected": 6.4
+          },
+          {
+            "name": "Dasilva",
+            "team": "COV",
+            "form": 10.0,
+            "total_points": 25,
+            "price_millions": 4.0,
+            "selected": 0.9
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_5_d5d28a02123c.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. De Cuyper (BHA) - 10.5 pts/game, \u00a35.1m\n2. Gro\u00df (BHA) - 10.0 pts/game, \u00a36.0m\n3. Semenyo (MCI) - 10.0 pts/game, \u00a38.3m\n4. Cunha (MUN) - 10.0 pts/game, \u00a37.9m\n5. Dasilva (COV) - 10.0 pts/game, \u00a34.0m\n\nTime to jump on one of them, or too late? #FPL #PremierLeague #FPLTips #FPLTwitter\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-10-14T10:48:00.793230+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -9156,9 +9210,9 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-10-13T08:39:50.013591+00:00",
-    "next": "hot",
-    "day": "2026-10-13",
+    "last_at": "2026-10-14T10:48:00.731437+00:00",
+    "next": "cold",
+    "day": "2026-10-14",
     "count": 1,
     "last_picks": {
       "cold": [
@@ -9169,11 +9223,11 @@
         "\u00d8degaard"
       ],
       "hot": [
-        "Gro\u00df",
         "De Cuyper",
-        "Tarkowski",
-        "Schade",
-        "Jo\u00e3o Pedro"
+        "Gro\u00df",
+        "Semenyo",
+        "Cunha",
+        "Dasilva"
       ]
     }
   },
