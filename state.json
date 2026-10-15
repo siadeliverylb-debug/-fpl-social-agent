@@ -2118,9 +2118,9 @@
       "web_name": "Chilwell",
       "team": "CRY",
       "now_cost": 44,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "i",
+      "news": "Unspecified injury - Unknown return date",
+      "news_added": "2026-10-15T20:30:08.876514Z"
     },
     "644": {
       "web_name": "Timber",
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-15T19:32:57.594266+00:00",
+  "last_snapshot_at": "2026-10-15T22:45:10.377916+00:00",
   "recapped_events": [
     1,
     2,
@@ -5348,7 +5348,29 @@
     5,
     6
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:dcd7d0e3f3c0",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:dcd7d0e3f3c0",
+        "injuries": [
+          {
+            "pid": "643",
+            "player": "Chilwell",
+            "team": "CRY",
+            "status": "injured",
+            "news": "Unspecified injury - Unknown return date",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_dcd7d0e3f3c0.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Chilwell (CRY) - injured: \"Unspecified injury - Unknown return date\"\n\nBench him or bank on a late fitness call? #FPL #FPLTips #PremierLeague #FantasyFootball\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-10-15T22:45:10.422475+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
