@@ -5348,61 +5348,7 @@
     5,
     6
   ],
-  "pending": [
-    {
-      "key": "price_batch:5:71880d0aaa61",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:5:71880d0aaa61",
-        "changes": [
-          {
-            "pid": "498",
-            "player": "Senesi",
-            "team": "TOT",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.7
-          },
-          {
-            "pid": "201",
-            "player": "Mu\u00f1oz",
-            "team": "NFO",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.3
-          },
-          {
-            "pid": "499",
-            "player": "Pedro Porro",
-            "team": "TOT",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.3
-          },
-          {
-            "pid": "103",
-            "player": "Dasilva",
-            "team": "BRE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.8
-          },
-          {
-            "pid": "422",
-            "player": "Mazraoui",
-            "team": "MUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.3
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_5_71880d0aaa61.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 5 falls, 0 rises.\n\n\ud83d\udd34 Senesi (TOT) -> \u00a35.7m\n\ud83d\udd34 Mu\u00f1oz (NFO) -> \u00a35.3m\n\ud83d\udd34 Pedro Porro (TOT) -> \u00a35.3m\n\ud83d\udd34 Dasilva (BRE) -> \u00a34.8m\n\ud83d\udd34 Mazraoui (MUN) -> \u00a34.3m\n\nWinners and losers in your squad? #FPL #FPLCommunity #FantasyPremierLeague #FPLTwitter\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-10-15T01:03:46.643446+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5545,7 +5491,8 @@
     "form_cold:5:63d33902fa39",
     "recap:6",
     "form_hot:5:d5d28a02123c",
-    "form_cold:5:3c206115c2b2"
+    "form_cold:5:3c206115c2b2",
+    "price_batch:5:71880d0aaa61"
   ],
   "post_log": [
     {
@@ -6269,6 +6216,12 @@
       "type": "form_cold",
       "posted_at": "2026-10-14T17:08:17.500637+00:00",
       "tweet_id": "2110417420015767716"
+    },
+    {
+      "key": "price_batch:5:71880d0aaa61",
+      "type": "price_changes",
+      "posted_at": "2026-10-15T01:50:53.172552+00:00",
+      "tweet_id": "2110548935232180382"
     }
   ],
   "live": {
