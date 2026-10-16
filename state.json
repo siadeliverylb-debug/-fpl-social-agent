@@ -2454,8 +2454,8 @@
       "web_name": "Cairney",
       "team": "FUL",
       "now_cost": 49,
-      "status": "i",
-      "news": "Knee injury - Expected back 17 Oct",
+      "status": "d",
+      "news": "Knee injury - 75% chance of playing",
       "news_added": "2026-08-14T18:00:06.460944Z"
     },
     "268": {
@@ -2846,17 +2846,17 @@
       "web_name": "Mendy",
       "team": "HUL",
       "now_cost": 41,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-12T18:00:09.334142Z"
+      "status": "i",
+      "news": "Groin injury - Expected back 31 Oct",
+      "news_added": "2026-10-16T12:30:09.976274Z"
     },
     "589": {
       "web_name": "Gourna-Douath",
       "team": "HUL",
       "now_cost": 49,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "i",
+      "news": "Calf injury - Expected back 25 Oct",
+      "news_added": "2026-10-16T13:00:08.314070Z"
     },
     "617": {
       "web_name": "Cho",
@@ -4590,8 +4590,8 @@
       "web_name": "Milenkovi\u0107",
       "team": "NFO",
       "now_cost": 54,
-      "status": "i",
-      "news": "Knee injury - Unknown return date",
+      "status": "d",
+      "news": "Knee injury - 75% chance of playing",
       "news_added": "2026-09-12T14:00:09.705107Z"
     },
     "472": {
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-16T09:58:59.673117+00:00",
+  "last_snapshot_at": "2026-10-16T14:33:46.779765+00:00",
   "recapped_events": [
     1,
     2,
@@ -5348,7 +5348,51 @@
     5,
     6
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:2:137b618865a9",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:2:137b618865a9",
+        "injuries": [
+          {
+            "pid": "589",
+            "player": "Gourna-Douath",
+            "team": "HUL",
+            "status": "injured",
+            "news": "Calf injury - Expected back 25 Oct",
+            "category": "injury"
+          },
+          {
+            "pid": "586",
+            "player": "Mendy",
+            "team": "HUL",
+            "status": "injured",
+            "news": "Groin injury - Expected back 31 Oct",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_2_137b618865a9.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Gourna-Douath (HUL) - injured: \"Calf injury - Expected back 25 Oct\"\n\ud83d\udea8 Mendy (HUL) - injured: \"Groin injury - Expected back 31 Oct\"\n\nRisk it, or play it safe this week? #FPL #FPLTips #FPLCommunity #FantasyPremierLeague\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-10-16T14:33:46.856165+00:00",
+      "auto": true
+    },
+    {
+      "key": "deadline:7:24h",
+      "story": {
+        "type": "deadline_reminder",
+        "key": "deadline:7:24h",
+        "gw": 7,
+        "bucket": "24h",
+        "hours_until": 19.4
+      },
+      "image_path": "assets/generated/deadline_7_24h.png",
+      "caption": "\u23f0 GW7 deadline in 24h! Transfers, captain, chip calls -- lock it in NOW.\n\n#FPL #FPLTwitter #FPLFamily #FantasyPremierLeague\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-10-16T14:33:46.918572+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
