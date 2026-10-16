@@ -229,7 +229,7 @@
     "557": {
       "web_name": "Tzolis",
       "team": "ARS",
-      "now_cost": 63,
+      "now_cost": 62,
       "status": "i",
       "news": "Hamstring injury - Expected back 1 Nov",
       "news_added": "2026-10-02T15:00:11.091226Z"
@@ -4245,7 +4245,7 @@
     "439": {
       "web_name": "\u0160e\u0161ko",
       "team": "MUN",
-      "now_cost": 70,
+      "now_cost": 69,
       "status": "i",
       "news": "Shin injury - Expected back 18 Oct",
       "news_added": "2026-09-20T19:30:08.505755Z"
@@ -4741,7 +4741,7 @@
     "491": {
       "web_name": "Igor Jesus",
       "team": "NFO",
-      "now_cost": 58,
+      "now_cost": 57,
       "status": "i",
       "news": "Calf injury - Unknown return date",
       "news_added": "2026-10-09T14:30:11.491800Z"
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-15T22:45:10.377916+00:00",
+  "last_snapshot_at": "2026-10-16T00:53:08.173918+00:00",
   "recapped_events": [
     1,
     2,
@@ -5348,7 +5348,45 @@
     5,
     6
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "price_batch:3:76de86947ce4",
+      "story": {
+        "type": "price_changes",
+        "key": "price_batch:3:76de86947ce4",
+        "changes": [
+          {
+            "pid": "439",
+            "player": "\u0160e\u0161ko",
+            "team": "MUN",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 6.9
+          },
+          {
+            "pid": "557",
+            "player": "Tzolis",
+            "team": "ARS",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 6.2
+          },
+          {
+            "pid": "491",
+            "player": "Igor Jesus",
+            "team": "NFO",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.7
+          }
+        ]
+      },
+      "image_path": "assets/generated/price_batch_3_76de86947ce4.png",
+      "caption": "\ud83d\udcca PRICE CHANGES: 3 falls, 0 rises.\n\n\ud83d\udd34 \u0160e\u0161ko (MUN) -> \u00a36.9m\n\ud83d\udd34 Tzolis (ARS) -> \u00a36.2m\n\ud83d\udd34 Igor Jesus (NFO) -> \u00a35.7m\n\nWinners and losers in your squad? #FPL #FPLFamily #FantasyFootball #FPLTips\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-10-16T00:53:08.249303+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
