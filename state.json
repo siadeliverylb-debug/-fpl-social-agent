@@ -5348,112 +5348,7 @@
     5,
     6
   ],
-  "pending": [
-    {
-      "key": "injury_batch:2:137b618865a9",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:2:137b618865a9",
-        "injuries": [
-          {
-            "pid": "589",
-            "player": "Gourna-Douath",
-            "team": "HUL",
-            "status": "injured",
-            "news": "Calf injury - Expected back 25 Oct",
-            "category": "injury"
-          },
-          {
-            "pid": "586",
-            "player": "Mendy",
-            "team": "HUL",
-            "status": "injured",
-            "news": "Groin injury - Expected back 31 Oct",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_2_137b618865a9.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Gourna-Douath (HUL) - injured: \"Calf injury - Expected back 25 Oct\"\n\ud83d\udea8 Mendy (HUL) - injured: \"Groin injury - Expected back 31 Oct\"\n\nRisk it, or play it safe this week? #FPL #FPLTips #FPLCommunity #FantasyPremierLeague\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-10-16T14:33:46.856165+00:00",
-      "auto": true
-    },
-    {
-      "key": "deadline:7:24h",
-      "story": {
-        "type": "deadline_reminder",
-        "key": "deadline:7:24h",
-        "gw": 7,
-        "bucket": "24h",
-        "hours_until": 19.4
-      },
-      "image_path": "assets/generated/deadline_7_24h.png",
-      "caption": "\u23f0 GW7 deadline in 24h! Transfers, captain, chip calls -- lock it in NOW.\n\n#FPL #FPLTwitter #FPLFamily #FantasyPremierLeague\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-10-16T14:33:46.918572+00:00",
-      "auto": true
-    },
-    {
-      "key": "injury_batch:6:081e149de809",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:6:081e149de809",
-        "injuries": [
-          {
-            "pid": "46",
-            "player": "Barkley",
-            "team": "AVL",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "230",
-            "player": "Branthwaite",
-            "team": "EVE",
-            "status": "doubtful",
-            "news": "Leg injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "617",
-            "player": "Cho",
-            "team": "HUL",
-            "status": "injured",
-            "news": "Unspecified injury - Expected back 25 Oct",
-            "category": "injury"
-          },
-          {
-            "pid": "480",
-            "player": "Gibbs-White",
-            "team": "NFO",
-            "status": "doubtful",
-            "news": "Muscular injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "635",
-            "player": "Larsson",
-            "team": "FUL",
-            "status": "doubtful",
-            "news": "Groin injury - 25% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "328",
-            "player": "Struijk",
-            "team": "BHA",
-            "status": "doubtful",
-            "news": "Hamstring injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_6_081e149de809.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (6):\n\n\ud83d\udea8 Barkley (AVL) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Branthwaite (EVE) - doubtful: \"Leg injury - 75% chance of playing\"\n\ud83d\udea8 Cho (HUL) - injured: \"Unspecified injury - Expected back 25 Oct\"\n\ud83d\udea8 Gibbs-White (NFO) - doubtful: \"Muscular injury - 75% chance of playing\"\n\ud83d\udea8 Larsson (FUL) - doubtful: \"Groin injury - 25% chance of playing\"\n\ud83d\udea8 Struijk (BHA) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLCommunity #FPLTips #FPLFamily\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-10-16T18:30:12.080003+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5601,7 +5496,10 @@
     "form_cold:5:ab70219efe57",
     "injury_batch:1:53e56691fe7c",
     "injury_batch:1:dcd7d0e3f3c0",
-    "price_batch:3:76de86947ce4"
+    "price_batch:3:76de86947ce4",
+    "injury_batch:2:137b618865a9",
+    "deadline:7:24h",
+    "injury_batch:6:081e149de809"
   ],
   "post_log": [
     {
@@ -6355,6 +6253,12 @@
       "type": "price_changes",
       "posted_at": "2026-10-16T04:29:21.879733+00:00",
       "tweet_id": "2110951205568479542"
+    },
+    {
+      "key": "injury_batch:6:081e149de809",
+      "type": "injury_batch",
+      "posted_at": "2026-10-16T21:43:26.330208+00:00",
+      "tweet_id": "2111211438442250377"
     }
   ],
   "live": {
