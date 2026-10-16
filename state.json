@@ -342,9 +342,9 @@
       "web_name": "Barkley",
       "team": "AVL",
       "now_cost": 50,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-16T17:30:09.276181Z"
     },
     "47": {
       "web_name": "Kamara",
@@ -774,8 +774,8 @@
       "web_name": "Collins",
       "team": "BRE",
       "now_cost": 54,
-      "status": "i",
-      "news": "Calf injury - Unknown return date",
+      "status": "d",
+      "news": "Calf injury - 50% chance of playing",
       "news_added": "2026-09-05T18:00:06.182495Z"
     },
     "85": {
@@ -1206,9 +1206,9 @@
       "web_name": "Struijk",
       "team": "BHA",
       "now_cost": 49,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-10T16:00:08.881447Z"
+      "status": "d",
+      "news": "Hamstring injury - 75% chance of playing",
+      "news_added": "2026-10-16T17:30:09.428175Z"
     },
     "504": {
       "web_name": "Vuskovic",
@@ -2190,9 +2190,9 @@
       "web_name": "Branthwaite",
       "team": "EVE",
       "now_cost": 55,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Leg injury - 75% chance of playing",
+      "news_added": "2026-10-16T17:00:07.929499Z"
     },
     "231": {
       "web_name": "Keane",
@@ -2215,7 +2215,7 @@
       "team": "EVE",
       "now_cost": 46,
       "status": "d",
-      "news": "Leg injury - 75% chance of playing",
+      "news": "Leg injury - 50% chance of playing",
       "news_added": "2026-10-01T19:30:09.402881Z"
     },
     "234": {
@@ -2542,9 +2542,9 @@
       "web_name": "Larsson",
       "team": "FUL",
       "now_cost": 50,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Groin injury - 25% chance of playing",
+      "news_added": "2026-10-16T17:30:09.637224Z"
     },
     "636": {
       "web_name": "\u00c1ngel",
@@ -2862,9 +2862,9 @@
       "web_name": "Cho",
       "team": "HUL",
       "now_cost": 50,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "i",
+      "news": "Unspecified injury - Expected back 25 Oct",
+      "news_added": "2026-10-16T17:30:09.623338Z"
     },
     "632": {
       "web_name": "Ansah",
@@ -3326,8 +3326,8 @@
       "web_name": "James",
       "team": "LEE",
       "now_cost": 49,
-      "status": "i",
-      "news": "Back injury - Expected back 18 Oct",
+      "status": "d",
+      "news": "Back injury - 50% chance of playing",
       "news_added": "2026-10-08T14:00:11.803126Z"
     },
     "344": {
@@ -4111,7 +4111,7 @@
       "team": "MUN",
       "now_cost": 43,
       "status": "d",
-      "news": "Back injury - 75% chance of playing",
+      "news": "Back injury - 25% chance of playing",
       "news_added": "2026-10-04T21:30:08.533022Z"
     },
     "423": {
@@ -4342,8 +4342,8 @@
       "web_name": "Livramento",
       "team": "NEW",
       "now_cost": 49,
-      "status": "d",
-      "news": "Unspecified injury - 50% chance of playing",
+      "status": "i",
+      "news": "Unspecified injury - Expected back 2 Nov",
       "news_added": "2026-09-19T14:00:09.046677Z"
     },
     "451": {
@@ -4662,9 +4662,9 @@
       "web_name": "Gibbs-White",
       "team": "NFO",
       "now_cost": 80,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-24T15:30:08.350159Z"
+      "status": "d",
+      "news": "Muscular injury - 75% chance of playing",
+      "news_added": "2026-10-16T17:30:09.546992Z"
     },
     "482": {
       "web_name": "Hudson-Odoi",
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-16T14:33:46.779765+00:00",
+  "last_snapshot_at": "2026-10-16T18:30:11.999430+00:00",
   "recapped_events": [
     1,
     2,
@@ -5390,6 +5390,67 @@
       "image_path": "assets/generated/deadline_7_24h.png",
       "caption": "\u23f0 GW7 deadline in 24h! Transfers, captain, chip calls -- lock it in NOW.\n\n#FPL #FPLTwitter #FPLFamily #FantasyPremierLeague\n\nFollow @fantasycoachai so you don't miss the next update.",
       "created_at": "2026-10-16T14:33:46.918572+00:00",
+      "auto": true
+    },
+    {
+      "key": "injury_batch:6:081e149de809",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:6:081e149de809",
+        "injuries": [
+          {
+            "pid": "46",
+            "player": "Barkley",
+            "team": "AVL",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "230",
+            "player": "Branthwaite",
+            "team": "EVE",
+            "status": "doubtful",
+            "news": "Leg injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "617",
+            "player": "Cho",
+            "team": "HUL",
+            "status": "injured",
+            "news": "Unspecified injury - Expected back 25 Oct",
+            "category": "injury"
+          },
+          {
+            "pid": "480",
+            "player": "Gibbs-White",
+            "team": "NFO",
+            "status": "doubtful",
+            "news": "Muscular injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "635",
+            "player": "Larsson",
+            "team": "FUL",
+            "status": "doubtful",
+            "news": "Groin injury - 25% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "328",
+            "player": "Struijk",
+            "team": "BHA",
+            "status": "doubtful",
+            "news": "Hamstring injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_6_081e149de809.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (6):\n\n\ud83d\udea8 Barkley (AVL) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Branthwaite (EVE) - doubtful: \"Leg injury - 75% chance of playing\"\n\ud83d\udea8 Cho (HUL) - injured: \"Unspecified injury - Expected back 25 Oct\"\n\ud83d\udea8 Gibbs-White (NFO) - doubtful: \"Muscular injury - 75% chance of playing\"\n\ud83d\udea8 Larsson (FUL) - doubtful: \"Groin injury - 25% chance of playing\"\n\ud83d\udea8 Struijk (BHA) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLCommunity #FPLTips #FPLFamily\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-10-16T18:30:12.080003+00:00",
       "auto": true
     }
   ],
