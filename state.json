@@ -5348,45 +5348,7 @@
     5,
     6
   ],
-  "pending": [
-    {
-      "key": "price_batch:3:76de86947ce4",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:3:76de86947ce4",
-        "changes": [
-          {
-            "pid": "439",
-            "player": "\u0160e\u0161ko",
-            "team": "MUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.9
-          },
-          {
-            "pid": "557",
-            "player": "Tzolis",
-            "team": "ARS",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.2
-          },
-          {
-            "pid": "491",
-            "player": "Igor Jesus",
-            "team": "NFO",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.7
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_3_76de86947ce4.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 3 falls, 0 rises.\n\n\ud83d\udd34 \u0160e\u0161ko (MUN) -> \u00a36.9m\n\ud83d\udd34 Tzolis (ARS) -> \u00a36.2m\n\ud83d\udd34 Igor Jesus (NFO) -> \u00a35.7m\n\nWinners and losers in your squad? #FPL #FPLFamily #FantasyFootball #FPLTips\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-10-16T00:53:08.249303+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5533,7 +5495,8 @@
     "price_batch:5:71880d0aaa61",
     "form_cold:5:ab70219efe57",
     "injury_batch:1:53e56691fe7c",
-    "injury_batch:1:dcd7d0e3f3c0"
+    "injury_batch:1:dcd7d0e3f3c0",
+    "price_batch:3:76de86947ce4"
   ],
   "post_log": [
     {
@@ -6281,6 +6244,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-15T23:52:33.357063+00:00",
       "tweet_id": "2110881544072052952"
+    },
+    {
+      "key": "price_batch:3:76de86947ce4",
+      "type": "price_changes",
+      "posted_at": "2026-10-16T04:29:21.879733+00:00",
+      "tweet_id": "2110951205568479542"
     }
   ],
   "live": {
