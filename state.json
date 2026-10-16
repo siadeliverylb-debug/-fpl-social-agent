@@ -70,8 +70,8 @@
       "web_name": "Hincapie",
       "team": "ARS",
       "now_cost": 52,
-      "status": "d",
-      "news": "Ankle injury - 75% chance of playing",
+      "status": "i",
+      "news": "Ankle injury - Expected back 24 Oct",
       "news_added": "2026-10-12T15:00:07.550884Z"
     },
     "10": {
@@ -1870,8 +1870,8 @@
       "web_name": "Henderson",
       "team": "CRY",
       "now_cost": 49,
-      "status": "i",
-      "news": "Foot injury - Expected back 18 Oct",
+      "status": "d",
+      "news": "Foot injury - 50% chance of playing",
       "news_added": "2026-09-12T14:00:09.378740Z"
     },
     "199": {
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-16T18:30:11.999430+00:00",
+  "last_snapshot_at": "2026-10-16T21:34:11.683978+00:00",
   "recapped_events": [
     1,
     2,
