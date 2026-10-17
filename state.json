@@ -7883,6 +7883,11 @@
         "value": 1,
         "since": "2026-09-20T14:12:11.942247+00:00",
         "minute": 51
+      },
+      "67:398:goals_scored": {
+        "value": 1,
+        "since": "2026-10-17T14:22:45.086670+00:00",
+        "minute": 19
       }
     }
   },
@@ -9346,6 +9351,12 @@
       "type": "substitution",
       "posted_at": "2026-10-17T14:21:59.914523+00:00",
       "tweet_id": "2111462734735048751"
+    },
+    {
+      "key": "sub:64:136",
+      "type": "substitution",
+      "posted_at": "2026-10-17T14:22:45.996116+00:00",
+      "tweet_id": "2111462927983411389"
     }
   ],
   "form_spotlight": {
@@ -9371,22 +9382,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:64:136",
-      "story": {
-        "type": "substitution",
-        "key": "sub:64:136",
-        "player": "Welbeck",
-        "team": "CHE",
-        "home": "EVE",
-        "away": "CHE",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_64_136.png",
-      "caption": "\ud83d\udd04 SUB! 90' Welbeck (CHE) is on. EVE 0-0 CHE.\n\nDoes this open a chance for a start next week? #FPL #FantasyPremierLeague #FPLFamily #FantasyFootball #CHE\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-17T14:21:57.764730+00:00"
-    },
     {
       "key": "sub:64:152",
       "story": {
