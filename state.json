@@ -878,9 +878,9 @@
       "web_name": "Janelt",
       "team": "BRE",
       "now_cost": 50,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "s",
+      "news": "Suspended until 31 Oct",
+      "news_added": "2026-10-17T16:30:09.272910Z"
     },
     "99": {
       "web_name": "Milambo",
@@ -1350,9 +1350,9 @@
       "web_name": "Gusto",
       "team": "CHE",
       "now_cost": 49,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Illness - 75% chance of playing",
+      "news_added": "2026-10-17T18:30:09.695564Z"
     },
     "145": {
       "web_name": "Fofana",
@@ -2470,9 +2470,9 @@
       "web_name": "Sessegnon",
       "team": "FUL",
       "now_cost": 43,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-14T11:30:07.403957Z"
+      "status": "s",
+      "news": "Suspended until 7 Nov",
+      "news_added": "2026-10-17T16:30:09.374216Z"
     },
     "270": {
       "web_name": "Reed",
@@ -2878,9 +2878,9 @@
       "web_name": "Vaz",
       "team": "HUL",
       "now_cost": 50,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Achilles injury - 50% chance of playing",
+      "news_added": "2026-10-17T17:00:08.108262Z"
     },
     "638": {
       "web_name": "Norton-Cuffy",
@@ -3502,8 +3502,8 @@
       "web_name": "Frimpong",
       "team": "LIV",
       "now_cost": 52,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "i",
+      "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-10-17T15:30:09.979166Z"
     },
     "358": {
@@ -3590,8 +3590,8 @@
       "web_name": "Szoboszlai",
       "team": "LIV",
       "now_cost": 68,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "i",
+      "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-10-17T15:00:08.293301Z"
     },
     "369": {
@@ -3614,8 +3614,8 @@
       "web_name": "Gravenberch",
       "team": "LIV",
       "now_cost": 58,
-      "status": "s",
-      "news": "Suspended until 25 Oct",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-11T17:00:08.994657Z"
     },
     "372": {
@@ -3784,7 +3784,7 @@
       "now_cost": 59,
       "status": "a",
       "news": "",
-      "news_added": "2026-08-27T11:30:08.171622Z"
+      "news_added": "2026-10-17T16:30:09.444861Z"
     },
     "390": {
       "web_name": "R\u00faben",
@@ -3846,9 +3846,9 @@
       "web_name": "Semenyo",
       "team": "MCI",
       "now_cost": 83,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-24T12:00:09.848000Z"
+      "status": "d",
+      "news": "Knee injury - 75% chance of playing",
+      "news_added": "2026-10-17T17:30:09.977110Z"
     },
     "398": {
       "web_name": "Foden",
@@ -3896,7 +3896,7 @@
       "now_cost": 53,
       "status": "a",
       "news": "",
-      "news_added": null
+      "news_added": "2026-10-17T16:30:09.455961Z"
     },
     "407": {
       "web_name": "Echeverri",
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-17T16:01:13.071634+00:00",
+  "last_snapshot_at": "2026-10-17T18:38:01.350496+00:00",
   "recapped_events": [
     1,
     2,
@@ -5384,6 +5384,93 @@
       "image_path": "assets/generated/injury_batch_3_ab3f4bd77247.png",
       "caption": "\ud83d\udea8 INJURY UPDATES (3):\n\n\ud83d\udea8 Frimpong (LIV) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Martinez (CHE) - doubtful: \"Head injury - 25% chance of playing\"\n\ud83d\udea8 Szoboszlai (LIV) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nHow are you covering this one? #FPL #FantasyFootball #FPLTips #FantasyPremierLeague\n\nFollow for the next one.",
       "created_at": "2026-10-17T16:01:13.172755+00:00",
+      "auto": true
+    },
+    {
+      "key": "status:98:2026-10-17T16:30:09.272910Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:98:2026-10-17T16:30:09.272910Z",
+        "pid": "98",
+        "player": "Janelt",
+        "team": "BRE",
+        "status": "suspended",
+        "news": "Suspended until 31 Oct",
+        "category": "suspension"
+      },
+      "image_path": "assets/generated/status_98_2026-10-17T16_30_09.272910Z.png",
+      "caption": "\ud83d\udfe5 SUSPENDED: Janelt (BRE) is suspended.\n\"Suspended until 31 Oct\"\n\nDoes this change your captaincy plans? #FPL #FPLTwitter #PremierLeague #FantasyPremierLeague\n\nTurn on notifications to catch these as they land.",
+      "created_at": "2026-10-17T18:38:01.420860+00:00",
+      "auto": true
+    },
+    {
+      "key": "status:269:2026-10-17T16:30:09.374216Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:269:2026-10-17T16:30:09.374216Z",
+        "pid": "269",
+        "player": "Sessegnon",
+        "team": "FUL",
+        "status": "suspended",
+        "news": "Suspended until 7 Nov",
+        "category": "suspension"
+      },
+      "image_path": "assets/generated/status_269_2026-10-17T16_30_09.374216Z.png",
+      "caption": "\ud83d\udfe5 SUSPENDED: Sessegnon (FUL) is suspended.\n\"Suspended until 7 Nov\"\n\nDoes this change your captaincy plans? #FPL #FPLFamily #FPLTips #FPLCommunity\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-10-17T18:38:01.479402+00:00",
+      "auto": true
+    },
+    {
+      "key": "injury_batch:5:ca757c9f8df9",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:5:ca757c9f8df9",
+        "injuries": [
+          {
+            "pid": "357",
+            "player": "Frimpong",
+            "team": "LIV",
+            "status": "injured",
+            "news": "Hamstring injury - Unknown return date",
+            "category": "injury"
+          },
+          {
+            "pid": "144",
+            "player": "Gusto",
+            "team": "CHE",
+            "status": "doubtful",
+            "news": "Illness - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "397",
+            "player": "Semenyo",
+            "team": "MCI",
+            "status": "doubtful",
+            "news": "Knee injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "368",
+            "player": "Szoboszlai",
+            "team": "LIV",
+            "status": "injured",
+            "news": "Hamstring injury - Unknown return date",
+            "category": "injury"
+          },
+          {
+            "pid": "637",
+            "player": "Vaz",
+            "team": "HUL",
+            "status": "doubtful",
+            "news": "Achilles injury - 50% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_5_ca757c9f8df9.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (5):\n\n\ud83d\udea8 Frimpong (LIV) - injured: \"Hamstring injury - Unknown return date\"\n\ud83d\udea8 Gusto (CHE) - doubtful: \"Illness - 75% chance of playing\"\n\ud83d\udea8 Semenyo (MCI) - doubtful: \"Knee injury - 75% chance of playing\"\n\ud83d\udea8 Szoboszlai (LIV) - injured: \"Hamstring injury - Unknown return date\"\n\ud83d\udea8 Vaz (HUL) - doubtful: \"Achilles injury - 50% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FantasyPremierLeague #FPLTips #FantasyFootball\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-10-17T18:38:01.540024+00:00",
       "auto": true
     }
   ],
