@@ -5350,23 +5350,6 @@
   ],
   "pending": [
     {
-      "key": "status:98:2026-10-17T16:30:09.272910Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:98:2026-10-17T16:30:09.272910Z",
-        "pid": "98",
-        "player": "Janelt",
-        "team": "BRE",
-        "status": "suspended",
-        "news": "Suspended until 31 Oct",
-        "category": "suspension"
-      },
-      "image_path": "assets/generated/status_98_2026-10-17T16_30_09.272910Z.png",
-      "caption": "\ud83d\udfe5 SUSPENDED: Janelt (BRE) is suspended.\n\"Suspended until 31 Oct\"\n\nDoes this change your captaincy plans? #FPL #FPLTwitter #PremierLeague #FantasyPremierLeague\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-10-17T18:38:01.420860+00:00",
-      "auto": true
-    },
-    {
       "key": "status:269:2026-10-17T16:30:09.374216Z",
       "story": {
         "type": "status_change",
@@ -5621,7 +5604,8 @@
     "deadline:7:2h",
     "injury_batch:1:9c676e003b89",
     "status:102:2026-10-17T15:00:07.992801Z",
-    "injury_batch:3:ab3f4bd77247"
+    "injury_batch:3:ab3f4bd77247",
+    "status:98:2026-10-17T16:30:09.272910Z"
   ],
   "post_log": [
     {
@@ -6405,6 +6389,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-17T18:50:22.851636+00:00",
       "tweet_id": "2111530275306184977"
+    },
+    {
+      "key": "status:98:2026-10-17T16:30:09.272910Z",
+      "type": "status_change",
+      "posted_at": "2026-10-17T21:26:47.585387+00:00",
+      "tweet_id": "2111569637754216822"
     }
   ],
   "live": {
