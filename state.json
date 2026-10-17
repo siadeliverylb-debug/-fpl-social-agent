@@ -9552,6 +9552,12 @@
       "type": "substitution",
       "posted_at": "2026-10-17T17:21:27.526375+00:00",
       "tweet_id": "2111507897419194584"
+    },
+    {
+      "key": "sub:62:359",
+      "type": "substitution",
+      "posted_at": "2026-10-17T17:22:10.572284+00:00",
+      "tweet_id": "2111508077786919174"
     }
   ],
   "form_spotlight": {
@@ -9577,22 +9583,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:62:359",
-      "story": {
-        "type": "substitution",
-        "key": "sub:62:359",
-        "player": "Gomez",
-        "team": "LIV",
-        "home": "BRE",
-        "away": "LIV",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_62_359.png",
-      "caption": "\ud83d\udd04 SUB! 90' Gomez (LIV) is on. BRE 0-0 LIV.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FantasyFootball #FPLCommunity #LIV\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-10-17T17:19:12.851874+00:00"
-    },
     {
       "key": "sub:62:369",
       "story": {
