@@ -5348,237 +5348,7 @@
     5,
     6
   ],
-  "pending": [
-    {
-      "key": "price_batch:27:60f32315ac5a",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:27:60f32315ac5a",
-        "changes": [
-          {
-            "pid": "426",
-            "player": "B.Fernandes",
-            "team": "MUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 11.8
-          },
-          {
-            "pid": "427",
-            "player": "Mbeumo",
-            "team": "MUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 7.8
-          },
-          {
-            "pid": "78",
-            "player": "Kroupi.Jr",
-            "team": "BOU",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 7.3
-          },
-          {
-            "pid": "366",
-            "player": "Wirtz",
-            "team": "LIV",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 7.2
-          },
-          {
-            "pid": "368",
-            "player": "Szoboszlai",
-            "team": "LIV",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.8
-          },
-          {
-            "pid": "464",
-            "player": "Wissa",
-            "team": "NEW",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.2
-          },
-          {
-            "pid": "515",
-            "player": "Maddison",
-            "team": "TOT",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.2
-          },
-          {
-            "pid": "454",
-            "player": "Elanga",
-            "team": "NEW",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.0
-          },
-          {
-            "pid": "43",
-            "player": "Tielemans",
-            "team": "MUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.7
-          },
-          {
-            "pid": "565",
-            "player": "M.Sangar\u00e9",
-            "team": "BRE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.5
-          },
-          {
-            "pid": "167",
-            "player": "Delap",
-            "team": "NFO",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.5
-          },
-          {
-            "pid": "96",
-            "player": "Damsgaard",
-            "team": "BRE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.3
-          },
-          {
-            "pid": "11",
-            "player": "Mosquera",
-            "team": "ARS",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.2
-          },
-          {
-            "pid": "357",
-            "player": "Frimpong",
-            "team": "LIV",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.2
-          },
-          {
-            "pid": "52",
-            "player": "Alysson",
-            "team": "AVL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.9
-          },
-          {
-            "pid": "309",
-            "player": "N\u00fa\u00f1ez",
-            "team": "IPS",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.8
-          },
-          {
-            "pid": "462",
-            "player": "Steur",
-            "team": "NEW",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.8
-          },
-          {
-            "pid": "83",
-            "player": "Valdimarsson",
-            "team": "BRE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "468",
-            "player": "John",
-            "team": "NFO",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "474",
-            "player": "Jair Cunha",
-            "team": "NFO",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "179",
-            "player": "Latibeaudiere",
-            "team": "COV",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 3.9
-          },
-          {
-            "pid": "556",
-            "player": "Targett",
-            "team": "HUL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 3.9
-          },
-          {
-            "pid": "476",
-            "player": "O.Richards",
-            "team": "NFO",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 3.9
-          },
-          {
-            "pid": "411",
-            "player": "Haaland",
-            "team": "MCI",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 15.7
-          },
-          {
-            "pid": "79",
-            "player": "Evanilson",
-            "team": "BOU",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.1
-          },
-          {
-            "pid": "124",
-            "player": "Gro\u00df",
-            "team": "BHA",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.1
-          },
-          {
-            "pid": "115",
-            "player": "De Cuyper",
-            "team": "BHA",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.2
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_27_60f32315ac5a.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 23 falls, 4 rises.\n\n\ud83d\udd34 B.Fernandes (MUN) -> \u00a311.8m\n\ud83d\udd34 Mbeumo (MUN) -> \u00a37.8m\n\ud83d\udd34 Kroupi.Jr (BOU) -> \u00a37.3m\n\ud83d\udd34 Wirtz (LIV) -> \u00a37.2m\n\ud83d\udd34 Szoboszlai (LIV) -> \u00a36.8m\n\ud83d\udd34 Wissa (NEW) -> \u00a36.2m\n\ud83d\udd34 Maddison (TOT) -> \u00a36.2m\n\ud83d\udd34 Elanga (NEW) -> \u00a36.0m\n\ud83d\udd34 Tielemans (MUN) -> \u00a35.7m\n\ud83d\udd34 M.Sangar\u00e9 (BRE) -> \u00a35.5m\n\ud83d\udd34 Delap (NFO) -> \u00a35.5m\n\ud83d\udd34 Damsgaard (BRE) -> \u00a35.3m\n\ud83d\udd34 Mosquera (ARS) -> \u00a35.2m\n\ud83d\udd34 Frimpong (LIV) -> \u00a35.2m\n\ud83d\udd34 Alysson (AVL) -> \u00a34.9m\n\ud83d\udd34 N\u00fa\u00f1ez (IPS) -> \u00a34.8m\n\ud83d\udd34 Steur (NEW) -> \u00a34.8m\n\ud83d\udd34 Valdimarsson (BRE) -> \u00a34.4m\n\ud83d\udd34 John (NFO) -> \u00a34.4m\n\ud83d\udd34 Jair Cunha (NFO) -> \u00a34.4m\n\ud83d\udd34 Latibeaudiere (COV) -> \u00a33.9m\n\ud83d\udd34 Targett (HUL) -> \u00a33.9m\n\ud83d\udd34 O.Richards (NFO) -> \u00a33.9m\n\ud83d\udfe2 Haaland (MCI) -> \u00a315.7m\n\ud83d\udfe2 Evanilson (BOU) -> \u00a36.1m\n\ud83d\udfe2 Gro\u00df (BHA) -> \u00a36.1m\n\ud83d\udfe2 De Cuyper (BHA) -> \u00a35.2m\n\nWinners and losers in your squad? #FPL #FPLFamily #FantasyPremierLeague #PremierLeague\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-10-17T00:01:48.699977+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5729,7 +5499,8 @@
     "price_batch:3:76de86947ce4",
     "injury_batch:2:137b618865a9",
     "deadline:7:24h",
-    "injury_batch:6:081e149de809"
+    "injury_batch:6:081e149de809",
+    "price_batch:27:60f32315ac5a"
   ],
   "post_log": [
     {
@@ -6489,6 +6260,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-16T21:43:26.330208+00:00",
       "tweet_id": "2111211438442250377"
+    },
+    {
+      "key": "price_batch:27:60f32315ac5a",
+      "type": "price_changes",
+      "posted_at": "2026-10-17T04:22:43.273625+00:00",
+      "tweet_id": "2111311921580568589"
     }
   ],
   "live": {
