@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-17T04:43:54.283702+00:00",
+  "last_snapshot_at": "2026-10-17T08:54:37.174276+00:00",
   "recapped_events": [
     1,
     2,
@@ -5348,7 +5348,22 @@
     5,
     6
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "deadline:7:2h",
+      "story": {
+        "type": "deadline_reminder",
+        "key": "deadline:7:2h",
+        "gw": 7,
+        "bucket": "2h",
+        "hours_until": 1.1
+      },
+      "image_path": "assets/generated/deadline_7_2h.png",
+      "caption": "\u23f0 GW7 deadline in 2h! Don't get caught out -- set your team now.\n\n#FPL #FPLCommunity #FPLFamily #FPLTwitter\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-10-17T08:54:37.235743+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
