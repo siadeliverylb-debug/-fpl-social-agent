@@ -5350,23 +5350,6 @@
   ],
   "pending": [
     {
-      "key": "status:269:2026-10-17T16:30:09.374216Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:269:2026-10-17T16:30:09.374216Z",
-        "pid": "269",
-        "player": "Sessegnon",
-        "team": "FUL",
-        "status": "suspended",
-        "news": "Suspended until 7 Nov",
-        "category": "suspension"
-      },
-      "image_path": "assets/generated/status_269_2026-10-17T16_30_09.374216Z.png",
-      "caption": "\ud83d\udfe5 SUSPENDED: Sessegnon (FUL) is suspended.\n\"Suspended until 7 Nov\"\n\nDoes this change your captaincy plans? #FPL #FPLFamily #FPLTips #FPLCommunity\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-10-17T18:38:01.479402+00:00",
-      "auto": true
-    },
-    {
       "key": "injury_batch:5:ca757c9f8df9",
       "story": {
         "type": "injury_batch",
@@ -5698,7 +5681,8 @@
     "injury_batch:1:9c676e003b89",
     "status:102:2026-10-17T15:00:07.992801Z",
     "injury_batch:3:ab3f4bd77247",
-    "status:98:2026-10-17T16:30:09.272910Z"
+    "status:98:2026-10-17T16:30:09.272910Z",
+    "status:269:2026-10-17T16:30:09.374216Z"
   ],
   "post_log": [
     {
@@ -6488,6 +6472,12 @@
       "type": "status_change",
       "posted_at": "2026-10-17T21:26:47.585387+00:00",
       "tweet_id": "2111569637754216822"
+    },
+    {
+      "key": "status:269:2026-10-17T16:30:09.374216Z",
+      "type": "status_change",
+      "posted_at": "2026-10-17T23:25:30.149303+00:00",
+      "tweet_id": "2111599511864758613"
     }
   ],
   "live": {
