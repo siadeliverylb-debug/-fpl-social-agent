@@ -7888,6 +7888,11 @@
         "value": 1,
         "since": "2026-10-17T14:22:45.086670+00:00",
         "minute": 19
+      },
+      "67:400:assists": {
+        "value": 1,
+        "since": "2026-10-17T14:23:27.986863+00:00",
+        "minute": 20
       }
     }
   },
@@ -9357,6 +9362,12 @@
       "type": "substitution",
       "posted_at": "2026-10-17T14:22:45.996116+00:00",
       "tweet_id": "2111462927983411389"
+    },
+    {
+      "key": "sub:64:152",
+      "type": "substitution",
+      "posted_at": "2026-10-17T14:23:28.831287+00:00",
+      "tweet_id": "2111463107705086270"
     }
   ],
   "form_spotlight": {
@@ -9382,22 +9393,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:64:152",
-      "story": {
-        "type": "substitution",
-        "key": "sub:64:152",
-        "player": "Palestra",
-        "team": "CHE",
-        "home": "EVE",
-        "away": "CHE",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_64_152.png",
-      "caption": "\ud83d\udd04 SUB! 90' Palestra (CHE) is on. EVE 0-0 CHE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FantasyPremierLeague #PremierLeague #CHE\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-10-17T14:21:57.823918+00:00"
-    },
     {
       "key": "sub:64:161",
       "story": {
