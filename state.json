@@ -9540,6 +9540,12 @@
       "type": "substitution",
       "posted_at": "2026-10-17T17:20:01.834837+00:00",
       "tweet_id": "2111507537891885085"
+    },
+    {
+      "key": "sub:62:96",
+      "type": "substitution",
+      "posted_at": "2026-10-17T17:20:44.731877+00:00",
+      "tweet_id": "2111507717835899083"
     }
   ],
   "form_spotlight": {
@@ -9565,22 +9571,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:62:96",
-      "story": {
-        "type": "substitution",
-        "key": "sub:62:96",
-        "player": "Damsgaard",
-        "team": "BRE",
-        "home": "BRE",
-        "away": "LIV",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_62_96.png",
-      "caption": "\ud83d\udd04 SUB! 90' Damsgaard (BRE) is on. BRE 0-0 LIV.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #FPLFamily #FPLTips #BRE\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-17T17:19:12.760719+00:00"
-    },
     {
       "key": "sub:62:357",
       "story": {
