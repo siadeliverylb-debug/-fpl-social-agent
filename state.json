@@ -9656,6 +9656,12 @@
       "type": "substitution",
       "posted_at": "2026-10-17T19:30:10.387625+00:00",
       "tweet_id": "2111540289475403979"
+    },
+    {
+      "key": "sub:68:461",
+      "type": "substitution",
+      "posted_at": "2026-10-17T19:30:52.912192+00:00",
+      "tweet_id": "2111540467791974525"
     }
   ],
   "form_spotlight": {
@@ -9681,22 +9687,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:68:461",
-      "story": {
-        "type": "substitution",
-        "key": "sub:68:461",
-        "player": "Tour\u00e9",
-        "team": "NEW",
-        "home": "NEW",
-        "away": "AVL",
-        "score": "0-1",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_68_461.png",
-      "caption": "\ud83d\udd04 SUB! 90' Tour\u00e9 (NEW) is on. NEW 0-1 AVL.\n\nWorth watching for a late returns. #FPL #FPLTips #FPLFamily #PremierLeague #NEW\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-10-17T19:28:00.029142+00:00"
-    },
     {
       "key": "sub:68:465",
       "story": {
