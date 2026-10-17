@@ -5350,23 +5350,6 @@
   ],
   "pending": [
     {
-      "key": "status:102:2026-10-17T15:00:07.992801Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:102:2026-10-17T15:00:07.992801Z",
-        "pid": "102",
-        "player": "Yarmoliuk",
-        "team": "BRE",
-        "status": "suspended",
-        "news": "Suspended until 8 Nov",
-        "category": "suspension"
-      },
-      "image_path": "assets/generated/status_102_2026-10-17T15_00_07.992801Z.png",
-      "caption": "\ud83d\udfe5 SUSPENDED: Yarmoliuk (BRE) is suspended.\n\"Suspended until 8 Nov\"\n\nCostly ban, or no big loss for his side? #FPL #PremierLeague #FantasyFootball #FantasyPremierLeague\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-10-17T16:01:13.125995+00:00",
-      "auto": true
-    },
-    {
       "key": "injury_batch:3:ab3f4bd77247",
       "story": {
         "type": "injury_batch",
@@ -5557,7 +5540,8 @@
     "injury_batch:6:081e149de809",
     "price_batch:27:60f32315ac5a",
     "deadline:7:2h",
-    "injury_batch:1:9c676e003b89"
+    "injury_batch:1:9c676e003b89",
+    "status:102:2026-10-17T15:00:07.992801Z"
   ],
   "post_log": [
     {
@@ -6329,6 +6313,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-17T12:57:37.116423+00:00",
       "tweet_id": "2111441499619504529"
+    },
+    {
+      "key": "status:102:2026-10-17T15:00:07.992801Z",
+      "type": "status_change",
+      "posted_at": "2026-10-17T16:24:07.466206+00:00",
+      "tweet_id": "2111493468593766411"
     }
   ],
   "live": {
