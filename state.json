@@ -9662,6 +9662,12 @@
       "type": "substitution",
       "posted_at": "2026-10-17T19:30:52.912192+00:00",
       "tweet_id": "2111540467791974525"
+    },
+    {
+      "key": "sub:68:465",
+      "type": "substitution",
+      "posted_at": "2026-10-17T19:31:35.506876+00:00",
+      "tweet_id": "2111540646490333377"
     }
   ],
   "form_spotlight": {
@@ -9687,22 +9693,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:68:465",
-      "story": {
-        "type": "substitution",
-        "key": "sub:68:465",
-        "player": "Osula",
-        "team": "NEW",
-        "home": "NEW",
-        "away": "AVL",
-        "score": "0-1",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_68_465.png",
-      "caption": "\ud83d\udd04 SUB! 90' Osula (NEW) is on. NEW 0-1 AVL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FPLTwitter #FPLCommunity #NEW\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-17T19:28:00.061571+00:00"
-    },
     {
       "key": "sub:68:618",
       "story": {
