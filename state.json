@@ -6400,18 +6400,18 @@
       },
       "64": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       },
       "62": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "65": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "67": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "68": {
@@ -6965,7 +6965,16 @@
       "54:599:assists": 1,
       "54:405:assists": 1,
       "54:175:yellow_cards": 1,
-      "54:458:yellow_cards": 1
+      "54:458:yellow_cards": 1,
+      "64:156:goals_scored": 2,
+      "64:148:assists": 1,
+      "64:21:yellow_cards": 1,
+      "64:229:yellow_cards": 1,
+      "64:244:yellow_cards": 1,
+      "64:40:yellow_cards": 1,
+      "64:151:yellow_cards": 1,
+      "64:154:yellow_cards": 1,
+      "64:156:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -7153,6 +7162,12 @@
         "team": "NEW",
         "assisted_by": "N.Gonzalez",
         "score": "4-1"
+      },
+      "64:a": {
+        "player": "Neto",
+        "team": "CHE",
+        "assisted_by": "Hato",
+        "score": "0-2"
       }
     },
     "posted_score": {
@@ -7278,7 +7293,7 @@
       ],
       "64": [
         0,
-        0
+        2
       ],
       "62": [
         0,
@@ -7581,7 +7596,15 @@
       "54:461": true,
       "54:465": true,
       "54:593": true,
-      "54:656": true
+      "54:656": true,
+      "64:21": true,
+      "64:136": true,
+      "64:152": true,
+      "64:161": true,
+      "64:164": true,
+      "64:209": true,
+      "64:242": true,
+      "64:560": true
     },
     "subs_baselined": {
       "31": true,
@@ -7847,7 +7870,8 @@
       "55": true,
       "56": true,
       "58": true,
-      "54": true
+      "54": true,
+      "64": true
     },
     "goal_pending": {
       "44:204:goals_scored": {
@@ -9316,6 +9340,12 @@
       "type": "substitution",
       "posted_at": "2026-10-12T22:48:48.101975+00:00",
       "tweet_id": "2109778336448729300"
+    },
+    {
+      "key": "sub:64:21",
+      "type": "substitution",
+      "posted_at": "2026-10-17T14:21:59.914523+00:00",
+      "tweet_id": "2111462734735048751"
     }
   ],
   "form_spotlight": {
@@ -9340,5 +9370,356 @@
       ]
     }
   },
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "sub:64:136",
+      "story": {
+        "type": "substitution",
+        "key": "sub:64:136",
+        "player": "Welbeck",
+        "team": "CHE",
+        "home": "EVE",
+        "away": "CHE",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_64_136.png",
+      "caption": "\ud83d\udd04 SUB! 90' Welbeck (CHE) is on. EVE 0-0 CHE.\n\nDoes this open a chance for a start next week? #FPL #FantasyPremierLeague #FPLFamily #FantasyFootball #CHE\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-17T14:21:57.764730+00:00"
+    },
+    {
+      "key": "sub:64:152",
+      "story": {
+        "type": "substitution",
+        "key": "sub:64:152",
+        "player": "Palestra",
+        "team": "CHE",
+        "home": "EVE",
+        "away": "CHE",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_64_152.png",
+      "caption": "\ud83d\udd04 SUB! 90' Palestra (CHE) is on. EVE 0-0 CHE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FantasyPremierLeague #PremierLeague #CHE\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-17T14:21:57.823918+00:00"
+    },
+    {
+      "key": "sub:64:161",
+      "story": {
+        "type": "substitution",
+        "key": "sub:64:161",
+        "player": "Lavia",
+        "team": "CHE",
+        "home": "EVE",
+        "away": "CHE",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_64_161.png",
+      "caption": "\ud83d\udd04 SUB! 90' Lavia (CHE) is on. EVE 0-0 CHE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTips #FPLTwitter #FantasyFootball #CHE\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-17T14:21:57.882897+00:00"
+    },
+    {
+      "key": "sub:64:164",
+      "story": {
+        "type": "substitution",
+        "key": "sub:64:164",
+        "player": "Quenda",
+        "team": "CHE",
+        "home": "EVE",
+        "away": "CHE",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_64_164.png",
+      "caption": "\ud83d\udd04 SUB! 90' Quenda (CHE) is on. EVE 0-0 CHE.\n\nImpact sub, or too little too late? #FPL #FPLFamily #FantasyFootball #FantasyPremierLeague #CHE\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-17T14:21:57.941919+00:00"
+    },
+    {
+      "key": "sub:64:209",
+      "story": {
+        "type": "substitution",
+        "key": "sub:64:209",
+        "player": "Johnson",
+        "team": "EVE",
+        "home": "EVE",
+        "away": "CHE",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_64_209.png",
+      "caption": "\ud83d\udd04 SUB! 90' Johnson (EVE) is on. EVE 0-0 CHE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #FPLTips #PremierLeague #EVE\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-17T14:21:58.001435+00:00"
+    },
+    {
+      "key": "sub:64:242",
+      "story": {
+        "type": "substitution",
+        "key": "sub:64:242",
+        "player": "George",
+        "team": "EVE",
+        "home": "EVE",
+        "away": "CHE",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_64_242.png",
+      "caption": "\ud83d\udd04 SUB! 90' George (EVE) is on. EVE 0-0 CHE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyPremierLeague #PremierLeague #FPLTips #EVE\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-17T14:21:58.061212+00:00"
+    },
+    {
+      "key": "sub:64:560",
+      "story": {
+        "type": "substitution",
+        "key": "sub:64:560",
+        "player": "Penders",
+        "team": "CHE",
+        "home": "EVE",
+        "away": "CHE",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_64_560.png",
+      "caption": "\ud83d\udd04 SUB! 90' Penders (CHE) is on. EVE 0-0 CHE.\n\nDoes this open a chance for a start next week? #FPL #FPLCommunity #FPLFamily #FPLTwitter #CHE\n\nFollow for the next one.",
+      "queued_at": "2026-10-17T14:21:58.126102+00:00"
+    },
+    {
+      "key": "yellow_card:64:21:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:64:21:1",
+        "player": "N\u00f8rgaard",
+        "team": "EVE",
+        "home": "EVE",
+        "away": "CHE",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_64_21_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' N\u00f8rgaard (EVE) is booked. EVE 0-0 CHE.\n\nWorth keeping an eye on for next week. #FPL #FPLTips #FantasyFootball #FPLTwitter #EVE\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-17T14:21:58.185685+00:00"
+    },
+    {
+      "key": "yellow_card:64:229:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:64:229:1",
+        "player": "Tarkowski",
+        "team": "EVE",
+        "home": "EVE",
+        "away": "CHE",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_64_229_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Tarkowski (EVE) is booked. EVE 0-0 CHE.\n\nRisk of a ban building here. #FPL #PremierLeague #FPLFamily #FPLCommunity #EVE\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-17T14:21:58.245519+00:00"
+    },
+    {
+      "key": "yellow_card:64:244:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:64:244:1",
+        "player": "Armstrong",
+        "team": "EVE",
+        "home": "EVE",
+        "away": "CHE",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_64_244_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Armstrong (EVE) is booked. EVE 0-0 CHE.\n\nWorth keeping an eye on for next week. #FPL #FantasyPremierLeague #FPLTwitter #FPLTips #EVE\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-17T14:21:58.305266+00:00"
+    },
+    {
+      "key": "yellow_card:64:40:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:64:40:1",
+        "player": "Rogers",
+        "team": "CHE",
+        "home": "EVE",
+        "away": "CHE",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_64_40_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Rogers (CHE) is booked. EVE 0-0 CHE.\n\nDoes this change your captaincy call? #FPL #PremierLeague #FPLFamily #FPLTips #CHE\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-17T14:21:58.365410+00:00"
+    },
+    {
+      "key": "yellow_card:64:151:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:64:151:1",
+        "player": "Acheampong",
+        "team": "CHE",
+        "home": "EVE",
+        "away": "CHE",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_64_151_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Acheampong (CHE) is booked. EVE 0-0 CHE.\n\nWorth keeping an eye on for next week. #FPL #FPLTwitter #FPLCommunity #FantasyPremierLeague #CHE\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-17T14:21:58.425437+00:00"
+    },
+    {
+      "key": "yellow_card:64:154:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:64:154:1",
+        "player": "Palmer",
+        "team": "CHE",
+        "home": "EVE",
+        "away": "CHE",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_64_154_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Palmer (CHE) is booked. EVE 0-0 CHE.\n\nWorth keeping an eye on for next week. #FPL #FPLFamily #PremierLeague #FantasyPremierLeague #CHE\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-17T14:21:58.485030+00:00"
+    },
+    {
+      "key": "yellow_card:64:156:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:64:156:1",
+        "player": "Neto",
+        "team": "CHE",
+        "home": "EVE",
+        "away": "CHE",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_64_156_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Neto (CHE) is booked. EVE 0-0 CHE.\n\nDoes this change your captaincy call? #FPL #FPLCommunity #PremierLeague #FantasyPremierLeague #CHE\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-17T14:21:58.544020+00:00"
+    },
+    {
+      "key": "goal:64:156:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:64:156:1",
+        "player": "Neto",
+        "team": "CHE",
+        "home": "EVE",
+        "away": "CHE",
+        "minute": 90,
+        "score": "0-1"
+      },
+      "image_path": "assets/generated/live_goal_64_156_1.png",
+      "caption": "\u26bd GOAL! 90' Neto (CHE)! EVE 0-1 CHE.\n\nWho's benefiting from that in FPL? #FPL #PremierLeague #FPLFamily #FantasyFootball #CHE\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-17T14:21:58.602448+00:00"
+    },
+    {
+      "key": "goal:64:156:2",
+      "story": {
+        "type": "goal",
+        "key": "goal:64:156:2",
+        "player": "Neto",
+        "team": "CHE",
+        "home": "EVE",
+        "away": "CHE",
+        "minute": 90,
+        "score": "0-2"
+      },
+      "image_path": "assets/generated/live_goal_64_156_2.png",
+      "caption": "\u26bd GOAL! 90' Neto (CHE)! EVE 0-2 CHE.\n\nHave him in your team? #FPL #PremierLeague #FPLTips #FantasyPremierLeague #CHE\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-17T14:21:58.661046+00:00"
+    },
+    {
+      "key": "goalupdate:assist:64:148:1",
+      "story": {
+        "type": "goal_update",
+        "key": "goalupdate:assist:64:148:1",
+        "player": "Neto",
+        "team": "CHE",
+        "assisted_by": "Hato",
+        "home": "EVE",
+        "away": "CHE",
+        "score": "0-2",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_goalupdate_assist_64_148_1.png",
+      "caption": "\ud83d\udcdd UPDATE (90'): Neto's goal (CHE) was assisted by Hato! EVE 0-2 CHE.\n\n#FPL #FPLFamily #FPLTwitter #PremierLeague #CHE\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-17T14:21:58.720508+00:00"
+    },
+    {
+      "key": "fulltime:64",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:64",
+        "home": "EVE",
+        "away": "CHE",
+        "score": "0-2",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_64.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): EVE 0-2 CHE.\n\nAny big returns from this one? #FPL #FPLTips #FantasyFootball #FPLCommunity\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-17T14:21:58.779138+00:00"
+    },
+    {
+      "key": "bonus:64",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:64",
+        "home": "EVE",
+        "away": "CHE",
+        "score": "0-2",
+        "players": [
+          {
+            "name": "Neto",
+            "points": 3
+          },
+          {
+            "name": "Hato",
+            "points": 2
+          },
+          {
+            "name": "Martinez",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_64.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: EVE 0-2 CHE.\nNeto +3, Hato +2, Martinez +1.\n\n#FPL #FPLCommunity #FantasyFootball #FantasyPremierLeague #EVEvCHE\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-17T14:21:58.836607+00:00"
+    },
+    {
+      "key": "kickoff:62",
+      "story": {
+        "type": "kickoff",
+        "key": "kickoff:62",
+        "home": "BRE",
+        "away": "LIV"
+      },
+      "image_path": "assets/generated/live_kickoff_62.png",
+      "caption": "\u26bd KICK-OFF: BRE vs LIV.\n\nWho are you backing for returns? #FPL #FantasyFootball #PremierLeague #FPLCommunity\n\nFollow for the next one.",
+      "queued_at": "2026-10-17T14:21:58.895391+00:00"
+    },
+    {
+      "key": "kickoff:65",
+      "story": {
+        "type": "kickoff",
+        "key": "kickoff:65",
+        "home": "FUL",
+        "away": "HUL"
+      },
+      "image_path": "assets/generated/live_kickoff_65.png",
+      "caption": "\u26bd KICK-OFF: FUL vs HUL.\n\nAny of your players out there? #FPL #FPLTwitter #FPLTips #FantasyPremierLeague\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-17T14:21:58.953701+00:00"
+    },
+    {
+      "key": "kickoff:67",
+      "story": {
+        "type": "kickoff",
+        "key": "kickoff:67",
+        "home": "MCI",
+        "away": "IPS"
+      },
+      "image_path": "assets/generated/live_kickoff_67.png",
+      "caption": "\u26bd KICK-OFF: MCI vs IPS.\n\nAny of your players out there? #FPL #PremierLeague #FPLFamily #FPLTwitter\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-17T14:21:59.012095+00:00"
+    }
+  ]
 }
