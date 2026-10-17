@@ -9644,6 +9644,12 @@
       "type": "substitution",
       "posted_at": "2026-10-17T19:28:44.810109+00:00",
       "tweet_id": "2111539930514284643"
+    },
+    {
+      "key": "sub:68:46",
+      "type": "substitution",
+      "posted_at": "2026-10-17T19:29:27.512994+00:00",
+      "tweet_id": "2111540109531308492"
     }
   ],
   "form_spotlight": {
@@ -9669,22 +9675,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:68:46",
-      "story": {
-        "type": "substitution",
-        "key": "sub:68:46",
-        "player": "Barkley",
-        "team": "AVL",
-        "home": "NEW",
-        "away": "AVL",
-        "score": "0-1",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_68_46.png",
-      "caption": "\ud83d\udd04 SUB! 90' Barkley (AVL) is on. NEW 0-1 AVL.\n\nDoes this open a chance for a start next week? #FPL #FantasyPremierLeague #FPLTwitter #FantasyFootball #AVL\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-17T19:27:59.963353+00:00"
-    },
     {
       "key": "sub:68:448",
       "story": {
