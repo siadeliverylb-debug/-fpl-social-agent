@@ -61,7 +61,7 @@
     "8": {
       "web_name": "Calafiori",
       "team": "ARS",
-      "now_cost": 59,
+      "now_cost": 60,
       "status": "a",
       "news": "",
       "news_added": null
@@ -397,7 +397,7 @@
     "53": {
       "web_name": "Manzambi",
       "team": "AVL",
-      "now_cost": 59,
+      "now_cost": 60,
       "status": "d",
       "news": "Calf injury - 75% chance of playing",
       "news_added": "2026-10-17T19:30:09.768277Z"
@@ -2373,7 +2373,7 @@
     "254": {
       "web_name": "Robinson",
       "team": "FUL",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": "2026-10-09T11:30:11.109085Z"
@@ -2909,7 +2909,7 @@
     "259": {
       "web_name": "Diop",
       "team": "IPS",
-      "now_cost": 40,
+      "now_cost": 39,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3813,7 +3813,7 @@
     "393": {
       "web_name": "Khusanov",
       "team": "MCI",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3861,7 +3861,7 @@
     "399": {
       "web_name": "Cherki",
       "team": "MCI",
-      "now_cost": 79,
+      "now_cost": 80,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4413,7 +4413,7 @@
     "461": {
       "web_name": "Tour\u00e9",
       "team": "NEW",
-      "now_cost": 58,
+      "now_cost": 57,
       "status": "a",
       "news": "",
       "news_added": "2026-10-12T21:30:09.043536Z"
@@ -4605,7 +4605,7 @@
     "473": {
       "web_name": "Aina",
       "team": "NFO",
-      "now_cost": 44,
+      "now_cost": 43,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4965,7 +4965,7 @@
     "514": {
       "web_name": "Tel",
       "team": "TOT",
-      "now_cost": 57,
+      "now_cost": 56,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4981,7 +4981,7 @@
     "516": {
       "web_name": "Bentancur",
       "team": "TOT",
-      "now_cost": 55,
+      "now_cost": 54,
       "status": "s",
       "news": "Suspended until 7 Nov",
       "news_added": "2026-10-10T18:30:09.519346Z"
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-17T21:07:25.385621+00:00",
+  "last_snapshot_at": "2026-10-17T23:14:13.013422+00:00",
   "recapped_events": [
     1,
     2,
@@ -5446,6 +5446,99 @@
       "image_path": "assets/generated/injury_batch_2_0a8113e06e38.png",
       "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Manzambi (AVL) - doubtful: \"Calf injury - 75% chance of playing\"\n\ud83d\udea8 Wan-Bissaka (AVL) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLFamily #FPLTwitter #PremierLeague\n\nFollow for the next one.",
       "created_at": "2026-10-17T21:07:25.432134+00:00",
+      "auto": true
+    },
+    {
+      "key": "price_batch:10:373e78a669eb",
+      "story": {
+        "type": "price_changes",
+        "key": "price_batch:10:373e78a669eb",
+        "changes": [
+          {
+            "pid": "461",
+            "player": "Tour\u00e9",
+            "team": "NEW",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.7
+          },
+          {
+            "pid": "514",
+            "player": "Tel",
+            "team": "TOT",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.6
+          },
+          {
+            "pid": "516",
+            "player": "Bentancur",
+            "team": "TOT",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.4
+          },
+          {
+            "pid": "393",
+            "player": "Khusanov",
+            "team": "MCI",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.3
+          },
+          {
+            "pid": "254",
+            "player": "Robinson",
+            "team": "FUL",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.4
+          },
+          {
+            "pid": "473",
+            "player": "Aina",
+            "team": "NFO",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.3
+          },
+          {
+            "pid": "259",
+            "player": "Diop",
+            "team": "IPS",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 3.9
+          },
+          {
+            "pid": "399",
+            "player": "Cherki",
+            "team": "MCI",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 8.0
+          },
+          {
+            "pid": "8",
+            "player": "Calafiori",
+            "team": "ARS",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 6.0
+          },
+          {
+            "pid": "53",
+            "player": "Manzambi",
+            "team": "AVL",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 6.0
+          }
+        ]
+      },
+      "image_path": "assets/generated/price_batch_10_373e78a669eb.png",
+      "caption": "\ud83d\udcca PRICE CHANGES: 7 falls, 3 rises.\n\n\ud83d\udd34 Tour\u00e9 (NEW) -> \u00a35.7m\n\ud83d\udd34 Tel (TOT) -> \u00a35.6m\n\ud83d\udd34 Bentancur (TOT) -> \u00a35.4m\n\ud83d\udd34 Khusanov (MCI) -> \u00a35.3m\n\ud83d\udd34 Robinson (FUL) -> \u00a34.4m\n\ud83d\udd34 Aina (NFO) -> \u00a34.3m\n\ud83d\udd34 Diop (IPS) -> \u00a33.9m\n\ud83d\udfe2 Cherki (MCI) -> \u00a38.0m\n\ud83d\udfe2 Calafiori (ARS) -> \u00a36.0m\n\ud83d\udfe2 Manzambi (AVL) -> \u00a36.0m\n\nWinners and losers in your squad? #FPL #FPLCommunity #PremierLeague #FPLTips\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-10-17T23:14:13.085763+00:00",
       "auto": true
     }
   ],
