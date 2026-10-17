@@ -1542,9 +1542,9 @@
       "web_name": "Chavarria",
       "team": "CHE",
       "now_cost": 49,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-17T12:00:10.154091Z"
     },
     "662": {
       "web_name": "Nicoll-Jazuli",
@@ -2190,8 +2190,8 @@
       "web_name": "Branthwaite",
       "team": "EVE",
       "now_cost": 55,
-      "status": "d",
-      "news": "Leg injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-16T17:00:07.929499Z"
     },
     "231": {
@@ -2214,8 +2214,8 @@
       "web_name": "Mykolenko",
       "team": "EVE",
       "now_cost": 46,
-      "status": "d",
-      "news": "Leg injury - 50% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-01T19:30:09.402881Z"
     },
     "234": {
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-17T08:54:37.174276+00:00",
+  "last_snapshot_at": "2026-10-17T12:33:01.688921+00:00",
   "recapped_events": [
     1,
     2,
@@ -5361,6 +5361,27 @@
       "image_path": "assets/generated/deadline_7_2h.png",
       "caption": "\u23f0 GW7 deadline in 2h! Don't get caught out -- set your team now.\n\n#FPL #FPLCommunity #FPLFamily #FPLTwitter\n\nFollow @fantasycoachai so you don't miss the next update.",
       "created_at": "2026-10-17T08:54:37.235743+00:00",
+      "auto": true
+    },
+    {
+      "key": "injury_batch:1:9c676e003b89",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:9c676e003b89",
+        "injuries": [
+          {
+            "pid": "583",
+            "player": "Chavarria",
+            "team": "CHE",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_9c676e003b89.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Chavarria (CHE) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FPLFamily #PremierLeague #FPLTwitter\n\nTurn on notifications to catch these as they land.",
+      "created_at": "2026-10-17T12:33:01.751718+00:00",
       "auto": true
     }
   ],
