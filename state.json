@@ -342,8 +342,8 @@
       "web_name": "Barkley",
       "team": "AVL",
       "now_cost": 50,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-16T17:30:09.276181Z"
     },
     "47": {
@@ -446,8 +446,8 @@
       "web_name": "Madjo",
       "team": "AVL",
       "now_cost": 54,
-      "status": "d",
-      "news": "Unspecified injury - 50% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-08-15T16:00:07.974271Z"
     },
     "596": {
@@ -774,8 +774,8 @@
       "web_name": "Collins",
       "team": "BRE",
       "now_cost": 54,
-      "status": "d",
-      "news": "Calf injury - 50% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-05T18:00:06.182495Z"
     },
     "85": {
@@ -846,8 +846,8 @@
       "web_name": "Schade",
       "team": "BRE",
       "now_cost": 62,
-      "status": "d",
-      "news": "Shoulder injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-10T16:30:08.848962Z"
     },
     "95": {
@@ -862,8 +862,8 @@
       "web_name": "Damsgaard",
       "team": "BRE",
       "now_cost": 53,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-03T19:30:08.141728Z"
     },
     "97": {
@@ -902,9 +902,9 @@
       "web_name": "Yarmoliuk",
       "team": "BRE",
       "now_cost": 48,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "s",
+      "news": "Suspended until 8 Nov",
+      "news_added": "2026-10-17T15:00:07.992801Z"
     },
     "103": {
       "web_name": "Dasilva",
@@ -1286,9 +1286,9 @@
       "web_name": "Martinez",
       "team": "CHE",
       "now_cost": 50,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Head injury - 25% chance of playing",
+      "news_added": "2026-10-17T13:30:08.724000Z"
     },
     "40": {
       "web_name": "Rogers",
@@ -2374,8 +2374,8 @@
       "web_name": "Robinson",
       "team": "FUL",
       "now_cost": 45,
-      "status": "d",
-      "news": "Ankle injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-09T11:30:11.109085Z"
     },
     "255": {
@@ -2454,8 +2454,8 @@
       "web_name": "Cairney",
       "team": "FUL",
       "now_cost": 49,
-      "status": "d",
-      "news": "Knee injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-08-14T18:00:06.460944Z"
     },
     "268": {
@@ -3502,9 +3502,9 @@
       "web_name": "Frimpong",
       "team": "LIV",
       "now_cost": 52,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-17T15:30:09.979166Z"
     },
     "358": {
       "web_name": "Kerkez",
@@ -3582,8 +3582,8 @@
       "web_name": "Gakpo",
       "team": "LIV",
       "now_cost": 71,
-      "status": "d",
-      "news": "Ankle injury - 25% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-27T21:30:07.786183Z"
     },
     "368": {
@@ -3591,8 +3591,8 @@
       "team": "LIV",
       "now_cost": 68,
       "status": "d",
-      "news": "Hamstring injury - 25% chance of playing",
-      "news_added": "2026-10-11T15:00:09.494018Z"
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-17T15:00:08.293301Z"
     },
     "369": {
       "web_name": "Ngumoha",
@@ -3678,8 +3678,8 @@
       "web_name": "Isak",
       "team": "LIV",
       "now_cost": 90,
-      "status": "d",
-      "news": "Thigh injury - 25% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-27T10:30:09.051435Z"
     },
     "380": {
@@ -4414,8 +4414,8 @@
       "web_name": "Tour\u00e9",
       "team": "NEW",
       "now_cost": 58,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-12T21:30:09.043536Z"
     },
     "462": {
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-17T12:33:01.688921+00:00",
+  "last_snapshot_at": "2026-10-17T16:01:13.071634+00:00",
   "recapped_events": [
     1,
     2,
@@ -5348,7 +5348,62 @@
     5,
     6
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "status:102:2026-10-17T15:00:07.992801Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:102:2026-10-17T15:00:07.992801Z",
+        "pid": "102",
+        "player": "Yarmoliuk",
+        "team": "BRE",
+        "status": "suspended",
+        "news": "Suspended until 8 Nov",
+        "category": "suspension"
+      },
+      "image_path": "assets/generated/status_102_2026-10-17T15_00_07.992801Z.png",
+      "caption": "\ud83d\udfe5 SUSPENDED: Yarmoliuk (BRE) is suspended.\n\"Suspended until 8 Nov\"\n\nCostly ban, or no big loss for his side? #FPL #PremierLeague #FantasyFootball #FantasyPremierLeague\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-10-17T16:01:13.125995+00:00",
+      "auto": true
+    },
+    {
+      "key": "injury_batch:3:ab3f4bd77247",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:3:ab3f4bd77247",
+        "injuries": [
+          {
+            "pid": "357",
+            "player": "Frimpong",
+            "team": "LIV",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "28",
+            "player": "Martinez",
+            "team": "CHE",
+            "status": "doubtful",
+            "news": "Head injury - 25% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "368",
+            "player": "Szoboszlai",
+            "team": "LIV",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_3_ab3f4bd77247.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (3):\n\n\ud83d\udea8 Frimpong (LIV) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Martinez (CHE) - doubtful: \"Head injury - 25% chance of playing\"\n\ud83d\udea8 Szoboszlai (LIV) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nHow are you covering this one? #FPL #FantasyFootball #FPLTips #FantasyPremierLeague\n\nFollow for the next one.",
+      "created_at": "2026-10-17T16:01:13.172755+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
