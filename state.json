@@ -6404,6 +6404,46 @@
       "54": {
         "started": true,
         "finished_provisional": true
+      },
+      "64": {
+        "started": true,
+        "finished_provisional": false
+      },
+      "62": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "65": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "67": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "68": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "61": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "63": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "66": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "69": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "70": {
+        "started": false,
+        "finished_provisional": false
       }
     },
     "stats": {
@@ -7242,6 +7282,46 @@
       "54": [
         4,
         1
+      ],
+      "64": [
+        0,
+        0
+      ],
+      "62": [
+        0,
+        0
+      ],
+      "65": [
+        0,
+        0
+      ],
+      "67": [
+        0,
+        0
+      ],
+      "68": [
+        0,
+        0
+      ],
+      "61": [
+        0,
+        0
+      ],
+      "63": [
+        0,
+        0
+      ],
+      "66": [
+        0,
+        0
+      ],
+      "69": [
+        0,
+        0
+      ],
+      "70": [
+        0,
+        0
       ]
     },
     "subs_seen": {
@@ -7540,7 +7620,17 @@
       "55": true,
       "56": true,
       "58": true,
-      "54": true
+      "54": true,
+      "64": true,
+      "62": true,
+      "65": true,
+      "67": true,
+      "68": true,
+      "61": true,
+      "63": true,
+      "66": true,
+      "69": true,
+      "70": true
     },
     "subs_off_seen": {
       "31:34": true,
