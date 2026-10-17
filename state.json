@@ -9650,6 +9650,12 @@
       "type": "substitution",
       "posted_at": "2026-10-17T19:29:27.512994+00:00",
       "tweet_id": "2111540109531308492"
+    },
+    {
+      "key": "sub:68:448",
+      "type": "substitution",
+      "posted_at": "2026-10-17T19:30:10.387625+00:00",
+      "tweet_id": "2111540289475403979"
     }
   ],
   "form_spotlight": {
@@ -9675,22 +9681,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:68:448",
-      "story": {
-        "type": "substitution",
-        "key": "sub:68:448",
-        "player": "Burn",
-        "team": "NEW",
-        "home": "NEW",
-        "away": "AVL",
-        "score": "0-1",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_68_448.png",
-      "caption": "\ud83d\udd04 SUB! 90' Burn (NEW) is on. NEW 0-1 AVL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #PremierLeague #FPLFamily #NEW\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-17T19:27:59.996505+00:00"
-    },
     {
       "key": "sub:68:461",
       "story": {
