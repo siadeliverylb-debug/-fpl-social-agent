@@ -7899,6 +7899,11 @@
         "value": 1,
         "since": "2026-10-17T14:24:53.829125+00:00",
         "minute": 21
+      },
+      "67:592:assists": {
+        "value": 1,
+        "since": "2026-10-17T14:25:36.717252+00:00",
+        "minute": 22
       }
     }
   },
@@ -9386,6 +9391,12 @@
       "type": "substitution",
       "posted_at": "2026-10-17T14:24:54.730314+00:00",
       "tweet_id": "2111463467911884845"
+    },
+    {
+      "key": "sub:64:209",
+      "type": "substitution",
+      "posted_at": "2026-10-17T14:25:37.567755+00:00",
+      "tweet_id": "2111463647696527458"
     }
   ],
   "form_spotlight": {
@@ -9411,22 +9422,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:64:209",
-      "story": {
-        "type": "substitution",
-        "key": "sub:64:209",
-        "player": "Johnson",
-        "team": "EVE",
-        "home": "EVE",
-        "away": "CHE",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_64_209.png",
-      "caption": "\ud83d\udd04 SUB! 90' Johnson (EVE) is on. EVE 0-0 CHE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #FPLTips #PremierLeague #EVE\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-17T14:21:58.001435+00:00"
-    },
     {
       "key": "sub:64:242",
       "story": {
