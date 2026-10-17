@@ -9534,6 +9534,12 @@
       "type": "substitution",
       "posted_at": "2026-10-17T17:19:16.886892+00:00",
       "tweet_id": "2111507349441794433"
+    },
+    {
+      "key": "sub:62:94",
+      "type": "substitution",
+      "posted_at": "2026-10-17T17:20:01.834837+00:00",
+      "tweet_id": "2111507537891885085"
     }
   ],
   "form_spotlight": {
@@ -9559,22 +9565,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:62:94",
-      "story": {
-        "type": "substitution",
-        "key": "sub:62:94",
-        "player": "Schade",
-        "team": "BRE",
-        "home": "BRE",
-        "away": "LIV",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_62_94.png",
-      "caption": "\ud83d\udd04 SUB! 90' Schade (BRE) is on. BRE 0-0 LIV.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyFootball #FPLTwitter #FPLFamily #BRE\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-10-17T17:19:12.715160+00:00"
-    },
     {
       "key": "sub:62:96",
       "story": {
