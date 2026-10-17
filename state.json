@@ -6974,7 +6974,8 @@
       "64:40:yellow_cards": 1,
       "64:151:yellow_cards": 1,
       "64:154:yellow_cards": 1,
-      "64:156:yellow_cards": 1
+      "64:156:yellow_cards": 1,
+      "65:585:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -9368,6 +9369,12 @@
       "type": "substitution",
       "posted_at": "2026-10-17T14:23:28.831287+00:00",
       "tweet_id": "2111463107705086270"
+    },
+    {
+      "key": "sub:64:161",
+      "type": "substitution",
+      "posted_at": "2026-10-17T14:24:11.791014+00:00",
+      "tweet_id": "2111463287812657360"
     }
   ],
   "form_spotlight": {
@@ -9393,22 +9400,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:64:161",
-      "story": {
-        "type": "substitution",
-        "key": "sub:64:161",
-        "player": "Lavia",
-        "team": "CHE",
-        "home": "EVE",
-        "away": "CHE",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_64_161.png",
-      "caption": "\ud83d\udd04 SUB! 90' Lavia (CHE) is on. EVE 0-0 CHE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTips #FPLTwitter #FantasyFootball #CHE\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-17T14:21:57.882897+00:00"
-    },
     {
       "key": "sub:64:164",
       "story": {
@@ -9710,6 +9701,22 @@
       "image_path": "assets/generated/live_kickoff_67.png",
       "caption": "\u26bd KICK-OFF: MCI vs IPS.\n\nAny of your players out there? #FPL #PremierLeague #FPLFamily #FPLTwitter\n\nFollowing along? Hit follow so you don't miss what's next.",
       "queued_at": "2026-10-17T14:21:59.012095+00:00"
+    },
+    {
+      "key": "yellow_card:65:585:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:65:585:1",
+        "player": "Herrington",
+        "team": "HUL",
+        "home": "FUL",
+        "away": "HUL",
+        "minute": 22,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_65_585_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 22' Herrington (HUL) is booked. FUL 0-0 HUL.\n\nRisk of a ban building here. #FPL #FantasyPremierLeague #FPLTwitter #FantasyFootball #HUL\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-17T14:24:10.942284+00:00"
     }
   ]
 }
