@@ -7894,6 +7894,11 @@
         "value": 1,
         "since": "2026-10-17T14:23:27.986863+00:00",
         "minute": 20
+      },
+      "67:562:goals_scored": {
+        "value": 1,
+        "since": "2026-10-17T14:24:53.829125+00:00",
+        "minute": 21
       }
     }
   },
@@ -9375,6 +9380,12 @@
       "type": "substitution",
       "posted_at": "2026-10-17T14:24:11.791014+00:00",
       "tweet_id": "2111463287812657360"
+    },
+    {
+      "key": "sub:64:164",
+      "type": "substitution",
+      "posted_at": "2026-10-17T14:24:54.730314+00:00",
+      "tweet_id": "2111463467911884845"
     }
   ],
   "form_spotlight": {
@@ -9400,22 +9411,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:64:164",
-      "story": {
-        "type": "substitution",
-        "key": "sub:64:164",
-        "player": "Quenda",
-        "team": "CHE",
-        "home": "EVE",
-        "away": "CHE",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_64_164.png",
-      "caption": "\ud83d\udd04 SUB! 90' Quenda (CHE) is on. EVE 0-0 CHE.\n\nImpact sub, or too little too late? #FPL #FPLFamily #FantasyFootball #FantasyPremierLeague #CHE\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-17T14:21:57.941919+00:00"
-    },
     {
       "key": "sub:64:209",
       "story": {
