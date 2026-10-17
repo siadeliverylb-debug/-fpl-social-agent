@@ -7055,7 +7055,9 @@
       "68:447:yellow_cards": 1,
       "68:458:yellow_cards": 1,
       "68:52:yellow_cards": 1,
-      "68:54:yellow_cards": 1
+      "68:54:yellow_cards": 1,
+      "68:53:goals_scored": 1,
+      "68:54:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -7279,6 +7281,12 @@
         "team": "IPS",
         "assisted_by": null,
         "score": "3-2"
+      },
+      "68:a": {
+        "player": "Manzambi",
+        "team": "AVL",
+        "assisted_by": "Gomes",
+        "score": "0-1"
       }
     },
     "posted_score": {
@@ -7420,7 +7428,7 @@
       ],
       "68": [
         0,
-        0
+        1
       ],
       "61": [
         0,
@@ -8025,16 +8033,6 @@
         "value": 1,
         "since": "2026-09-20T14:12:11.942247+00:00",
         "minute": 51
-      },
-      "68:53:goals_scored": {
-        "value": 1,
-        "since": "2026-10-17T17:19:12.612484+00:00",
-        "minute": 45
-      },
-      "68:54:assists": {
-        "value": 1,
-        "since": "2026-10-17T17:19:12.612505+00:00",
-        "minute": 45
       }
     }
   },
@@ -9558,6 +9556,12 @@
       "type": "substitution",
       "posted_at": "2026-10-17T17:22:10.572284+00:00",
       "tweet_id": "2111508077786919174"
+    },
+    {
+      "key": "sub:62:369",
+      "type": "substitution",
+      "posted_at": "2026-10-17T17:22:53.458798+00:00",
+      "tweet_id": "2111508257802195135"
     }
   ],
   "form_spotlight": {
@@ -9583,22 +9587,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:62:369",
-      "story": {
-        "type": "substitution",
-        "key": "sub:62:369",
-        "player": "Ngumoha",
-        "team": "LIV",
-        "home": "BRE",
-        "away": "LIV",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_62_369.png",
-      "caption": "\ud83d\udd04 SUB! 90' Ngumoha (LIV) is on. BRE 0-0 LIV.\n\nWorth watching for a late returns. #FPL #FantasyFootball #FPLFamily #FPLTips #LIV\n\nFollow for the next one.",
-      "queued_at": "2026-10-17T17:19:12.897575+00:00"
-    },
     {
       "key": "sub:62:375",
       "story": {
@@ -10635,6 +10623,23 @@
       "image_path": "assets/generated/live_yellow_card_68_54_1.png",
       "caption": "\ud83d\udfe8 YELLOW CARD! 45' Gomes (AVL) is booked. NEW 0-0 AVL.\n\nDoes this change your captaincy call? #FPL #PremierLeague #FPLFamily #FPLTips #AVL\n\nTurn on notifications to catch these as they land.",
       "queued_at": "2026-10-17T17:19:15.753345+00:00"
+    },
+    {
+      "key": "goal:68:53:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:68:53:1",
+        "player": "Manzambi",
+        "team": "AVL",
+        "home": "NEW",
+        "away": "AVL",
+        "minute": 45,
+        "score": "0-1",
+        "assisted_by": "Gomes"
+      },
+      "image_path": "assets/generated/live_goal_68_53_1.png",
+      "caption": "\u26bd GOAL! 45' Manzambi (AVL)! Assisted by Gomes. NEW 0-1 AVL.\n\nHave him in your team? #FPL #PremierLeague #FPLTips #FantasyPremierLeague #AVL\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-17T17:22:52.505885+00:00"
     }
   ]
 }
