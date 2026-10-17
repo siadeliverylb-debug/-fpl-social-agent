@@ -5350,43 +5350,6 @@
   ],
   "pending": [
     {
-      "key": "injury_batch:3:ab3f4bd77247",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:3:ab3f4bd77247",
-        "injuries": [
-          {
-            "pid": "357",
-            "player": "Frimpong",
-            "team": "LIV",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "28",
-            "player": "Martinez",
-            "team": "CHE",
-            "status": "doubtful",
-            "news": "Head injury - 25% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "368",
-            "player": "Szoboszlai",
-            "team": "LIV",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_3_ab3f4bd77247.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (3):\n\n\ud83d\udea8 Frimpong (LIV) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Martinez (CHE) - doubtful: \"Head injury - 25% chance of playing\"\n\ud83d\udea8 Szoboszlai (LIV) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nHow are you covering this one? #FPL #FantasyFootball #FPLTips #FantasyPremierLeague\n\nFollow for the next one.",
-      "created_at": "2026-10-17T16:01:13.172755+00:00",
-      "auto": true
-    },
-    {
       "key": "status:98:2026-10-17T16:30:09.272910Z",
       "story": {
         "type": "status_change",
@@ -5628,7 +5591,8 @@
     "price_batch:27:60f32315ac5a",
     "deadline:7:2h",
     "injury_batch:1:9c676e003b89",
-    "status:102:2026-10-17T15:00:07.992801Z"
+    "status:102:2026-10-17T15:00:07.992801Z",
+    "injury_batch:3:ab3f4bd77247"
   ],
   "post_log": [
     {
@@ -6406,6 +6370,12 @@
       "type": "status_change",
       "posted_at": "2026-10-17T16:24:07.466206+00:00",
       "tweet_id": "2111493468593766411"
+    },
+    {
+      "key": "injury_batch:3:ab3f4bd77247",
+      "type": "injury_batch",
+      "posted_at": "2026-10-17T18:50:22.851636+00:00",
+      "tweet_id": "2111530275306184977"
     }
   ],
   "live": {
