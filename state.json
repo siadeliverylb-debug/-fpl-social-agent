@@ -9546,6 +9546,12 @@
       "type": "substitution",
       "posted_at": "2026-10-17T17:20:44.731877+00:00",
       "tweet_id": "2111507717835899083"
+    },
+    {
+      "key": "sub:62:357",
+      "type": "substitution",
+      "posted_at": "2026-10-17T17:21:27.526375+00:00",
+      "tweet_id": "2111507897419194584"
     }
   ],
   "form_spotlight": {
@@ -9571,22 +9577,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:62:357",
-      "story": {
-        "type": "substitution",
-        "key": "sub:62:357",
-        "player": "Frimpong",
-        "team": "LIV",
-        "home": "BRE",
-        "away": "LIV",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_62_357.png",
-      "caption": "\ud83d\udd04 SUB! 90' Frimpong (LIV) is on. BRE 0-0 LIV.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTips #PremierLeague #FPLFamily #LIV\n\nFollow for the next one.",
-      "queued_at": "2026-10-17T17:19:12.806628+00:00"
-    },
     {
       "key": "sub:62:359",
       "story": {
