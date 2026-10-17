@@ -5348,43 +5348,7 @@
     5,
     6
   ],
-  "pending": [
-    {
-      "key": "deadline:7:2h",
-      "story": {
-        "type": "deadline_reminder",
-        "key": "deadline:7:2h",
-        "gw": 7,
-        "bucket": "2h",
-        "hours_until": 1.1
-      },
-      "image_path": "assets/generated/deadline_7_2h.png",
-      "caption": "\u23f0 GW7 deadline in 2h! Don't get caught out -- set your team now.\n\n#FPL #FPLCommunity #FPLFamily #FPLTwitter\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-10-17T08:54:37.235743+00:00",
-      "auto": true
-    },
-    {
-      "key": "injury_batch:1:9c676e003b89",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:9c676e003b89",
-        "injuries": [
-          {
-            "pid": "583",
-            "player": "Chavarria",
-            "team": "CHE",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_9c676e003b89.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Chavarria (CHE) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FPLFamily #PremierLeague #FPLTwitter\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-10-17T12:33:01.751718+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5536,7 +5500,9 @@
     "injury_batch:2:137b618865a9",
     "deadline:7:24h",
     "injury_batch:6:081e149de809",
-    "price_batch:27:60f32315ac5a"
+    "price_batch:27:60f32315ac5a",
+    "deadline:7:2h",
+    "injury_batch:1:9c676e003b89"
   ],
   "post_log": [
     {
@@ -6302,6 +6268,12 @@
       "type": "price_changes",
       "posted_at": "2026-10-17T04:22:43.273625+00:00",
       "tweet_id": "2111311921580568589"
+    },
+    {
+      "key": "injury_batch:1:9c676e003b89",
+      "type": "injury_batch",
+      "posted_at": "2026-10-17T12:57:37.116423+00:00",
+      "tweet_id": "2111441499619504529"
     }
   ],
   "live": {
