@@ -9837,6 +9837,12 @@
       "type": "substitution",
       "posted_at": "2026-10-18T19:05:57.716088+00:00",
       "tweet_id": "2111896584153628845"
+    },
+    {
+      "key": "sub:69:493",
+      "type": "substitution",
+      "posted_at": "2026-10-18T19:06:40.334911+00:00",
+      "tweet_id": "2111896762940109030"
     }
   ],
   "form_spotlight": {
@@ -9862,22 +9868,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:69:493",
-      "story": {
-        "type": "substitution",
-        "key": "sub:69:493",
-        "player": "Kalimuendo",
-        "team": "NFO",
-        "home": "NFO",
-        "away": "ARS",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_69_493.png",
-      "caption": "\ud83d\udd04 SUB! 90' Kalimuendo (NFO) is on. NFO 0-0 ARS.\n\nImpact sub, or too little too late? #FPL #FantasyPremierLeague #FPLTwitter #FPLTips #NFO\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-18T19:04:29.941059+00:00"
-    },
     {
       "key": "goal:69:16:1",
       "story": {
