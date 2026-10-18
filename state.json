@@ -9843,6 +9843,12 @@
       "type": "substitution",
       "posted_at": "2026-10-18T19:06:40.334911+00:00",
       "tweet_id": "2111896762940109030"
+    },
+    {
+      "key": "goal:69:16:1",
+      "type": "goal",
+      "posted_at": "2026-10-18T19:07:23.088214+00:00",
+      "tweet_id": "2111896942288552350"
     }
   ],
   "form_spotlight": {
@@ -9868,23 +9874,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "goal:69:16:1",
-      "story": {
-        "type": "goal",
-        "key": "goal:69:16:1",
-        "player": "Madueke",
-        "team": "ARS",
-        "home": "NFO",
-        "away": "ARS",
-        "minute": 90,
-        "score": "0-1",
-        "assisted_by": "Rice"
-      },
-      "image_path": "assets/generated/live_goal_69_16_1.png",
-      "caption": "\u26bd GOAL! 90' Madueke (ARS)! Assisted by Rice. NFO 0-1 ARS.\n\nHave him in your team? #FPL #FPLTwitter #FPLCommunity #PremierLeague #ARS\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-18T19:04:29.999518+00:00"
-    },
     {
       "key": "fulltime:69",
       "story": {
