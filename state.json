@@ -9849,6 +9849,12 @@
       "type": "goal",
       "posted_at": "2026-10-18T19:07:23.088214+00:00",
       "tweet_id": "2111896942288552350"
+    },
+    {
+      "key": "fulltime:69",
+      "type": "full_time",
+      "posted_at": "2026-10-18T19:08:05.686733+00:00",
+      "tweet_id": "2111897121041330367"
     }
   ],
   "form_spotlight": {
@@ -9874,20 +9880,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "fulltime:69",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:69",
-        "home": "NFO",
-        "away": "ARS",
-        "score": "0-1",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_69.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): NFO 0-1 ARS.\n\nBonus points still to be confirmed. #FPL #FantasyPremierLeague #FPLCommunity #FPLFamily\n\nFollow for the next one.",
-      "queued_at": "2026-10-18T19:04:30.056251+00:00"
-    },
     {
       "key": "bonus:69",
       "story": {
