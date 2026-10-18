@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-18T06:08:54.174416+00:00",
+  "last_snapshot_at": "2026-10-18T11:27:09.278808+00:00",
   "recapped_events": [
     1,
     2,
@@ -5348,7 +5348,61 @@
     5,
     6
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_hot:5:e9b5b205457b",
+      "story": {
+        "type": "form_hot",
+        "key": "form_hot:5:e9b5b205457b",
+        "players": [
+          {
+            "name": "Manzambi",
+            "team": "AVL",
+            "form": 9.7,
+            "total_points": 30,
+            "price_millions": 6.0,
+            "selected": 2.4
+          },
+          {
+            "name": "Haaland",
+            "team": "MCI",
+            "form": 8.3,
+            "total_points": 58,
+            "price_millions": 15.7,
+            "selected": 76.5
+          },
+          {
+            "name": "Henderson",
+            "team": "CHE",
+            "form": 7.7,
+            "total_points": 23,
+            "price_millions": 4.9,
+            "selected": 0.9
+          },
+          {
+            "name": "Neto",
+            "team": "CHE",
+            "form": 7.3,
+            "total_points": 34,
+            "price_millions": 6.5,
+            "selected": 1.7
+          },
+          {
+            "name": "De Cuyper",
+            "team": "BHA",
+            "form": 7.0,
+            "total_points": 53,
+            "price_millions": 5.2,
+            "selected": 40.0
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_5_e9b5b205457b.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Manzambi (AVL) - 9.7 pts/game, \u00a36.0m\n2. Haaland (MCI) - 8.3 pts/game, \u00a315.7m\n3. Henderson (CHE) - 7.7 pts/game, \u00a34.9m\n4. Neto (CHE) - 7.3 pts/game, \u00a36.5m\n5. De Cuyper (BHA) - 7.0 pts/game, \u00a35.2m\n\nWhich of these are you backing to keep it going? #FPL #FPLCommunity #PremierLeague #FantasyPremierLeague\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-10-18T11:27:09.352084+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -9606,10 +9660,10 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-10-15T11:47:52.740013+00:00",
-    "next": "hot",
-    "day": "2026-10-16",
-    "count": 0,
+    "last_at": "2026-10-18T11:27:09.278055+00:00",
+    "next": "cold",
+    "day": "2026-10-18",
+    "count": 1,
     "last_picks": {
       "cold": [
         "Szoboszlai",
@@ -9619,11 +9673,11 @@
         "Gabriel"
       ],
       "hot": [
-        "De Cuyper",
-        "Gro\u00df",
-        "Semenyo",
-        "Cunha",
-        "Dasilva"
+        "Manzambi",
+        "Haaland",
+        "Henderson",
+        "Neto",
+        "De Cuyper"
       ]
     }
   },
