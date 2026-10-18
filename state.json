@@ -7880,7 +7880,9 @@
       "66:428": true,
       "66:430": true,
       "69:16": true,
-      "69:5": true
+      "69:5": true,
+      "69:17": true,
+      "69:25": true
     },
     "subs_baselined": {
       "31": true,
@@ -9799,6 +9801,12 @@
       "type": "substitution",
       "posted_at": "2026-10-18T16:58:45.159173+00:00",
       "tweet_id": "2111864570750836901"
+    },
+    {
+      "key": "sub:61:539",
+      "type": "substitution",
+      "posted_at": "2026-10-18T16:59:28.284991+00:00",
+      "tweet_id": "2111864751630225811"
     }
   ],
   "form_spotlight": {
@@ -9824,22 +9832,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:61:539",
-      "story": {
-        "type": "substitution",
-        "key": "sub:61:539",
-        "player": "O'Nien",
-        "team": "SUN",
-        "home": "BOU",
-        "away": "SUN",
-        "score": "1-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_61_539.png",
-      "caption": "\ud83d\udd04 SUB! 90' O'Nien (SUN) is on. BOU 1-0 SUN.\n\nDoes this open a chance for a start next week? #FPL #FPLTwitter #FPLCommunity #FantasyFootball #SUN\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-10-18T16:55:47.659762+00:00"
-    },
     {
       "key": "sub:61:543",
       "story": {
@@ -10524,6 +10516,38 @@
       "image_path": "assets/generated/live_sub_69_5.png",
       "caption": "\ud83d\udd04 SUB! 66' J.Timber (ARS) is on. NFO 0-0 ARS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FPLTwitter #FantasyPremierLeague #ARS\n\nFollowing along? Hit follow so you don't miss what's next.",
       "queued_at": "2026-10-18T16:58:00.885375+00:00"
+    },
+    {
+      "key": "sub:69:17",
+      "story": {
+        "type": "substitution",
+        "key": "sub:69:17",
+        "player": "Merino",
+        "team": "ARS",
+        "home": "NFO",
+        "away": "ARS",
+        "score": "0-0",
+        "minute": 67
+      },
+      "image_path": "assets/generated/live_sub_69_17.png",
+      "caption": "\ud83d\udd04 SUB! 67' Merino (ARS) is on. NFO 0-0 ARS.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #FantasyPremierLeague #FantasyFootball #ARS\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-18T16:59:27.094607+00:00"
+    },
+    {
+      "key": "sub:69:25",
+      "story": {
+        "type": "substitution",
+        "key": "sub:69:25",
+        "player": "Gy\u00f6keres",
+        "team": "ARS",
+        "home": "NFO",
+        "away": "ARS",
+        "score": "0-0",
+        "minute": 67
+      },
+      "image_path": "assets/generated/live_sub_69_25.png",
+      "caption": "\ud83d\udd04 SUB! 67' Gy\u00f6keres (ARS) is on. NFO 0-0 ARS.\n\nDoes this open a chance for a start next week? #FPL #FPLTwitter #FPLTips #PremierLeague #ARS\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-18T16:59:27.153715+00:00"
     }
   ]
 }
