@@ -9872,33 +9872,5 @@
       ]
     }
   },
-  "live_queue": [
-    {
-      "key": "bonus:69",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:69",
-        "home": "NFO",
-        "away": "ARS",
-        "score": "0-1",
-        "players": [
-          {
-            "name": "Raya",
-            "points": 3
-          },
-          {
-            "name": "Konsa",
-            "points": 3
-          },
-          {
-            "name": "Rice",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_69.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: NFO 0-1 ARS.\nRaya +3, Konsa +3, Rice +1.\n\n#FPL #FPLTips #FantasyPremierLeague #PremierLeague #NFOvARS\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-18T19:04:30.112493+00:00"
-    }
-  ]
+  "live_queue": []
 }
