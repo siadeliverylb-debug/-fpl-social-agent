@@ -9685,6 +9685,12 @@
       "type": "yellow_card",
       "posted_at": "2026-10-18T13:44:22.301528+00:00",
       "tweet_id": "2111815653472739739"
+    },
+    {
+      "key": "red_card:61:501:1",
+      "type": "red_card",
+      "posted_at": "2026-10-18T13:45:05.333607+00:00",
+      "tweet_id": "2111815833995616403"
     }
   ],
   "form_spotlight": {
@@ -9710,22 +9716,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "red_card:61:501:1",
-      "story": {
-        "type": "red_card",
-        "key": "red_card:61:501:1",
-        "player": "Danso",
-        "team": "SUN",
-        "home": "BOU",
-        "away": "SUN",
-        "minute": 40,
-        "score": "0-0"
-      },
-      "image_path": "assets/generated/live_red_card_61_501_1.png",
-      "caption": "\ud83d\udfe5 RED CARD! 40' Danso (SUN) is sent off! BOU 0-0 SUN.\n\nDoes this change your transfer plans? #FPL #FPLTwitter #FPLCommunity #FantasyPremierLeague #SUN\n\nFollow for the next one.",
-      "queued_at": "2026-10-18T13:42:53.820285+00:00"
-    },
     {
       "key": "kickoff:63",
       "story": {
