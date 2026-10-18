@@ -7066,7 +7066,17 @@
       "61:501:red_cards": 1,
       "63:124:yellow_cards": 1,
       "66:331:yellow_cards": 1,
-      "66:426:yellow_cards": 1
+      "66:426:yellow_cards": 1,
+      "61:68:goals_scored": 1,
+      "61:79:assists": 1,
+      "63:127:goals_scored": 1,
+      "63:129:goals_scored": 1,
+      "63:114:assists": 1,
+      "63:124:assists": 1,
+      "63:138:assists": 1,
+      "63:203:own_goals": 1,
+      "66:427:goals_scored": 1,
+      "66:43:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -7296,6 +7306,24 @@
         "team": "AVL",
         "assisted_by": "Gomes",
         "score": "0-1"
+      },
+      "61:h": {
+        "player": "Tavernier",
+        "team": "BOU",
+        "assisted_by": "Evanilson",
+        "score": "1-0"
+      },
+      "63:h": {
+        "player": "Ayari",
+        "team": "BHA",
+        "assisted_by": null,
+        "score": "3-0"
+      },
+      "66:a": {
+        "player": "Mbeumo",
+        "team": "MUN",
+        "assisted_by": "Tielemans",
+        "score": "0-1"
       }
     },
     "posted_score": {
@@ -7440,16 +7468,16 @@
         1
       ],
       "61": [
-        0,
+        1,
         0
       ],
       "63": [
-        0,
+        3,
         0
       ],
       "66": [
         0,
-        0
+        1
       ],
       "69": [
         0,
@@ -8052,56 +8080,6 @@
         "value": 1,
         "since": "2026-09-20T14:12:11.942247+00:00",
         "minute": 51
-      },
-      "61:68:goals_scored": {
-        "value": 1,
-        "since": "2026-10-18T13:42:53.573963+00:00",
-        "minute": 40
-      },
-      "61:79:assists": {
-        "value": 1,
-        "since": "2026-10-18T13:42:53.573982+00:00",
-        "minute": 40
-      },
-      "63:127:goals_scored": {
-        "value": 1,
-        "since": "2026-10-18T13:42:53.574009+00:00",
-        "minute": 40
-      },
-      "63:129:goals_scored": {
-        "value": 1,
-        "since": "2026-10-18T13:42:53.574013+00:00",
-        "minute": 40
-      },
-      "63:114:assists": {
-        "value": 1,
-        "since": "2026-10-18T13:42:53.574016+00:00",
-        "minute": 40
-      },
-      "63:124:assists": {
-        "value": 1,
-        "since": "2026-10-18T13:42:53.574020+00:00",
-        "minute": 40
-      },
-      "63:138:assists": {
-        "value": 1,
-        "since": "2026-10-18T13:42:53.574023+00:00",
-        "minute": 40
-      },
-      "63:203:own_goals": {
-        "value": 1,
-        "since": "2026-10-18T13:42:53.574026+00:00",
-        "minute": 40
-      },
-      "66:427:goals_scored": {
-        "value": 1,
-        "since": "2026-10-18T13:42:53.574038+00:00",
-        "minute": 39
-      },
-      "66:43:assists": {
-        "value": 1,
-        "since": "2026-10-18T13:42:53.574042+00:00",
-        "minute": 39
       }
     }
   },
@@ -9697,6 +9675,12 @@
       "type": "kickoff",
       "posted_at": "2026-10-18T13:45:48.355681+00:00",
       "tweet_id": "2111816014438797798"
+    },
+    {
+      "key": "yellow_card:63:124:1",
+      "type": "yellow_card",
+      "posted_at": "2026-10-18T13:46:31.731881+00:00",
+      "tweet_id": "2111816196341596521"
     }
   ],
   "form_spotlight": {
@@ -9722,22 +9706,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "yellow_card:63:124:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:63:124:1",
-        "player": "Gro\u00df",
-        "team": "BHA",
-        "home": "BHA",
-        "away": "CRY",
-        "minute": 40,
-        "score": "0-0"
-      },
-      "image_path": "assets/generated/live_yellow_card_63_124_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 40' Gro\u00df (BHA) is booked. BHA 0-0 CRY.\n\nRisk of a ban building here. #FPL #PremierLeague #FPLTwitter #FPLFamily #BHA\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-18T13:42:53.937170+00:00"
-    },
     {
       "key": "kickoff:66",
       "story": {
@@ -9781,6 +9749,136 @@
       "image_path": "assets/generated/live_yellow_card_66_426_1.png",
       "caption": "\ud83d\udfe8 YELLOW CARD! 39' B.Fernandes (MUN) is booked. LEE 0-0 MUN.\n\nWorth keeping an eye on for next week. #FPL #FPLFamily #PremierLeague #FPLTwitter #MUN\n\nTurn on notifications to catch these as they land.",
       "queued_at": "2026-10-18T13:42:54.113727+00:00"
+    },
+    {
+      "key": "goal:61:68:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:61:68:1",
+        "player": "Tavernier",
+        "team": "BOU",
+        "home": "BOU",
+        "away": "SUN",
+        "minute": 40,
+        "score": "1-0",
+        "assisted_by": "Evanilson"
+      },
+      "image_path": "assets/generated/live_goal_61_68_1.png",
+      "caption": "\u26bd GOAL! 40' Tavernier (BOU)! Assisted by Evanilson. BOU 1-0 SUN.\n\nWho's benefiting from that in FPL? #FPL #PremierLeague #FPLTwitter #FantasyFootball #BOU\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-18T13:46:30.295397+00:00"
+    },
+    {
+      "key": "own_goal:63:203:1",
+      "story": {
+        "type": "own_goal",
+        "key": "own_goal:63:203:1",
+        "player": "Canvot",
+        "team": "CRY",
+        "home": "BHA",
+        "away": "CRY",
+        "minute": 40,
+        "score": "1-0"
+      },
+      "image_path": "assets/generated/live_own_goal_63_203_1.png",
+      "caption": "\ud83d\udea8 OWN GOAL! 40' Canvot (CRY). BHA 1-0 CRY.\n\nRough moment -- feel for him. #FPL #FPLCommunity #FPLTwitter #PremierLeague #CRY\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-18T13:46:30.354148+00:00"
+    },
+    {
+      "key": "goal:63:127:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:63:127:1",
+        "player": "Gomez",
+        "team": "BHA",
+        "home": "BHA",
+        "away": "CRY",
+        "minute": 40,
+        "score": "2-0"
+      },
+      "image_path": "assets/generated/live_goal_63_127_1.png",
+      "caption": "\u26bd GOAL! 40' Gomez (BHA)! BHA 2-0 CRY.\n\nNailed on captain material? #FPL #FPLCommunity #FPLTwitter #FPLTips #BHA\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-18T13:46:30.413135+00:00"
+    },
+    {
+      "key": "goal:63:129:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:63:129:1",
+        "player": "Ayari",
+        "team": "BHA",
+        "home": "BHA",
+        "away": "CRY",
+        "minute": 40,
+        "score": "3-0"
+      },
+      "image_path": "assets/generated/live_goal_63_129_1.png",
+      "caption": "\u26bd GOAL! 40' Ayari (BHA)! BHA 3-0 CRY.\n\nWho's benefiting from that in FPL? #FPL #FPLTips #FantasyFootball #FPLTwitter #BHA\n\nFollow for the next one.",
+      "queued_at": "2026-10-18T13:46:30.472404+00:00"
+    },
+    {
+      "key": "assist:63:114:1",
+      "story": {
+        "type": "assist",
+        "key": "assist:63:114:1",
+        "player": "Boscagli",
+        "team": "BHA",
+        "home": "BHA",
+        "away": "CRY",
+        "minute": 40,
+        "score": "3-0"
+      },
+      "image_path": "assets/generated/live_assist_63_114_1.png",
+      "caption": "\ud83c\udfaf ASSIST! 40' Boscagli (BHA) with the assist! BHA 3-0 CRY.\n\nUnderrated FPL pick, or expected? #FPL #FPLTips #FPLCommunity #FPLFamily #BHA\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-18T13:46:30.531641+00:00"
+    },
+    {
+      "key": "assist:63:124:1",
+      "story": {
+        "type": "assist",
+        "key": "assist:63:124:1",
+        "player": "Gro\u00df",
+        "team": "BHA",
+        "home": "BHA",
+        "away": "CRY",
+        "minute": 40,
+        "score": "3-0"
+      },
+      "image_path": "assets/generated/live_assist_63_124_1.png",
+      "caption": "\ud83c\udfaf ASSIST! 40' Gro\u00df (BHA) with the assist! BHA 3-0 CRY.\n\nQuietly racking up the returns. #FPL #FPLTips #FPLTwitter #FantasyPremierLeague #BHA\n\nFollow for the next one.",
+      "queued_at": "2026-10-18T13:46:30.590195+00:00"
+    },
+    {
+      "key": "assist:63:138:1",
+      "story": {
+        "type": "assist",
+        "key": "assist:63:138:1",
+        "player": "Kostoulas",
+        "team": "BHA",
+        "home": "BHA",
+        "away": "CRY",
+        "minute": 40,
+        "score": "3-0"
+      },
+      "image_path": "assets/generated/live_assist_63_138_1.png",
+      "caption": "\ud83c\udfaf ASSIST! 40' Kostoulas (BHA) with the assist! BHA 3-0 CRY.\n\nUnderrated FPL pick, or expected? #FPL #FPLCommunity #FantasyPremierLeague #FPLTips #BHA\n\nFollow for the next one.",
+      "queued_at": "2026-10-18T13:46:30.649442+00:00"
+    },
+    {
+      "key": "goal:66:427:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:66:427:1",
+        "player": "Mbeumo",
+        "team": "MUN",
+        "home": "LEE",
+        "away": "MUN",
+        "minute": 39,
+        "score": "0-1",
+        "assisted_by": "Tielemans"
+      },
+      "image_path": "assets/generated/live_goal_66_427_1.png",
+      "caption": "\u26bd GOAL! 39' Mbeumo (MUN)! Assisted by Tielemans. LEE 0-1 MUN.\n\nWho's benefiting from that in FPL? #FPL #FPLTips #PremierLeague #FPLCommunity #MUN\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-18T13:46:30.709211+00:00"
     }
   ]
 }
