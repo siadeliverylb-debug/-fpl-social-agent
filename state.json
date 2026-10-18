@@ -7879,7 +7879,8 @@
       "66:422": true,
       "66:428": true,
       "66:430": true,
-      "69:16": true
+      "69:16": true,
+      "69:5": true
     },
     "subs_baselined": {
       "31": true,
@@ -9786,6 +9787,12 @@
       "type": "substitution",
       "posted_at": "2026-10-18T16:57:18.885801+00:00",
       "tweet_id": "2111864209004785721"
+    },
+    {
+      "key": "sub:61:77",
+      "type": "substitution",
+      "posted_at": "2026-10-18T16:58:01.975002+00:00",
+      "tweet_id": "2111864389825421534"
     }
   ],
   "form_spotlight": {
@@ -9811,22 +9818,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:61:77",
-      "story": {
-        "type": "substitution",
-        "key": "sub:61:77",
-        "player": "Adli",
-        "team": "BOU",
-        "home": "BOU",
-        "away": "SUN",
-        "score": "1-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_61_77.png",
-      "caption": "\ud83d\udd04 SUB! 90' Adli (BOU) is on. BOU 1-0 SUN.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyPremierLeague #FPLCommunity #FPLFamily #BOU\n\nFollow for the next one.",
-      "queued_at": "2026-10-18T16:55:47.540202+00:00"
-    },
     {
       "key": "sub:61:81",
       "story": {
@@ -10527,6 +10518,22 @@
       "image_path": "assets/generated/live_yellow_card_69_16_1.png",
       "caption": "\ud83d\udfe8 YELLOW CARD! 63' Madueke (ARS) is booked. NFO 0-0 ARS.\n\nDoes this change your captaincy call? #FPL #PremierLeague #FPLFamily #FPLTwitter #ARS\n\nFollowing along? Hit follow so you don't miss what's next.",
       "queued_at": "2026-10-18T16:55:50.017053+00:00"
+    },
+    {
+      "key": "sub:69:5",
+      "story": {
+        "type": "substitution",
+        "key": "sub:69:5",
+        "player": "J.Timber",
+        "team": "ARS",
+        "home": "NFO",
+        "away": "ARS",
+        "score": "0-0",
+        "minute": 66
+      },
+      "image_path": "assets/generated/live_sub_69_5.png",
+      "caption": "\ud83d\udd04 SUB! 66' J.Timber (ARS) is on. NFO 0-0 ARS.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FPLTwitter #FantasyPremierLeague #ARS\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-18T16:58:00.885375+00:00"
     }
   ]
 }
