@@ -9691,6 +9691,12 @@
       "type": "red_card",
       "posted_at": "2026-10-18T13:45:05.333607+00:00",
       "tweet_id": "2111815833995616403"
+    },
+    {
+      "key": "kickoff:63",
+      "type": "kickoff",
+      "posted_at": "2026-10-18T13:45:48.355681+00:00",
+      "tweet_id": "2111816014438797798"
     }
   ],
   "form_spotlight": {
@@ -9716,18 +9722,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "kickoff:63",
-      "story": {
-        "type": "kickoff",
-        "key": "kickoff:63",
-        "home": "BHA",
-        "away": "CRY"
-      },
-      "image_path": "assets/generated/live_kickoff_63.png",
-      "caption": "\u26bd KICK-OFF: BHA vs CRY.\n\nAny of your players out there? #FPL #FantasyFootball #FPLTwitter #FPLCommunity\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-18T13:42:53.877893+00:00"
-    },
     {
       "key": "yellow_card:63:124:1",
       "story": {
