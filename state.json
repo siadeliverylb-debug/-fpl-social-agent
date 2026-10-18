@@ -9679,6 +9679,12 @@
       "type": "yellow_card",
       "posted_at": "2026-10-18T13:43:39.165364+00:00",
       "tweet_id": "2111815472534745496"
+    },
+    {
+      "key": "yellow_card:61:535:1",
+      "type": "yellow_card",
+      "posted_at": "2026-10-18T13:44:22.301528+00:00",
+      "tweet_id": "2111815653472739739"
     }
   ],
   "form_spotlight": {
@@ -9704,22 +9710,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "yellow_card:61:535:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:61:535:1",
-        "player": "Alderete",
-        "team": "SUN",
-        "home": "BOU",
-        "away": "SUN",
-        "minute": 40,
-        "score": "0-0"
-      },
-      "image_path": "assets/generated/live_yellow_card_61_535_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 40' Alderete (SUN) is booked. BOU 0-0 SUN.\n\nDoes this change your captaincy call? #FPL #PremierLeague #FPLFamily #FantasyFootball #SUN\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-10-18T13:42:53.762357+00:00"
-    },
     {
       "key": "red_card:61:501:1",
       "story": {
