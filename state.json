@@ -9774,6 +9774,12 @@
       "type": "substitution",
       "posted_at": "2026-10-18T16:55:51.182283+00:00",
       "tweet_id": "2111863841227251997"
+    },
+    {
+      "key": "sub:61:70",
+      "type": "substitution",
+      "posted_at": "2026-10-18T16:56:35.860095+00:00",
+      "tweet_id": "2111864028662214774"
     }
   ],
   "form_spotlight": {
@@ -9799,22 +9805,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:61:70",
-      "story": {
-        "type": "substitution",
-        "key": "sub:61:70",
-        "player": "Kluivert",
-        "team": "BOU",
-        "home": "BOU",
-        "away": "SUN",
-        "score": "1-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_61_70.png",
-      "caption": "\ud83d\udd04 SUB! 90' Kluivert (BOU) is on. BOU 1-0 SUN.\n\nDoes this open a chance for a start next week? #FPL #FPLCommunity #FantasyFootball #PremierLeague #BOU\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-18T16:55:47.419328+00:00"
-    },
     {
       "key": "sub:61:72",
       "story": {
