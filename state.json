@@ -903,7 +903,7 @@
       "team": "BRE",
       "now_cost": 48,
       "status": "s",
-      "news": "Suspended until 8 Nov",
+      "news": "Suspended until 23 Nov",
       "news_added": "2026-10-17T15:00:07.992801Z"
     },
     "103": {
@@ -1286,8 +1286,8 @@
       "web_name": "Martinez",
       "team": "CHE",
       "now_cost": 50,
-      "status": "d",
-      "news": "Head injury - 25% chance of playing",
+      "status": "i",
+      "news": "Head injury - Unknown return date",
       "news_added": "2026-10-17T13:30:08.724000Z"
     },
     "40": {
@@ -2471,7 +2471,7 @@
       "team": "FUL",
       "now_cost": 43,
       "status": "s",
-      "news": "Suspended until 7 Nov",
+      "news": "Suspended until 21 Nov",
       "news_added": "2026-10-17T16:30:09.374216Z"
     },
     "270": {
@@ -5339,7 +5339,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-18T01:16:22.447832+00:00",
+  "last_snapshot_at": "2026-10-18T06:08:54.174416+00:00",
   "recapped_events": [
     1,
     2,
