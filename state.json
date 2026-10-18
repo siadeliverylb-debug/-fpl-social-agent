@@ -9793,6 +9793,12 @@
       "type": "substitution",
       "posted_at": "2026-10-18T16:58:01.975002+00:00",
       "tweet_id": "2111864389825421534"
+    },
+    {
+      "key": "sub:61:81",
+      "type": "substitution",
+      "posted_at": "2026-10-18T16:58:45.159173+00:00",
+      "tweet_id": "2111864570750836901"
     }
   ],
   "form_spotlight": {
@@ -9818,22 +9824,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:61:81",
-      "story": {
-        "type": "substitution",
-        "key": "sub:61:81",
-        "player": "Rodr\u00edguez",
-        "team": "BOU",
-        "home": "BOU",
-        "away": "SUN",
-        "score": "1-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_61_81.png",
-      "caption": "\ud83d\udd04 SUB! 90' Rodr\u00edguez (BOU) is on. BOU 1-0 SUN.\n\nWorth watching for a late returns. #FPL #FPLCommunity #FPLTips #FantasyFootball #BOU\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-18T16:55:47.600090+00:00"
-    },
     {
       "key": "sub:61:539",
       "story": {
