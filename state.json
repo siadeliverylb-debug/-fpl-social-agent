@@ -9825,6 +9825,12 @@
       "type": "substitution",
       "posted_at": "2026-10-18T19:04:31.374884+00:00",
       "tweet_id": "2111896221774229663"
+    },
+    {
+      "key": "sub:69:488",
+      "type": "substitution",
+      "posted_at": "2026-10-18T19:05:15.105865+00:00",
+      "tweet_id": "2111896405476319295"
     }
   ],
   "form_spotlight": {
@@ -9850,22 +9856,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:69:488",
-      "story": {
-        "type": "substitution",
-        "key": "sub:69:488",
-        "player": "I.Sangar\u00e9",
-        "team": "NFO",
-        "home": "NFO",
-        "away": "ARS",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_69_488.png",
-      "caption": "\ud83d\udd04 SUB! 90' I.Sangar\u00e9 (NFO) is on. NFO 0-0 ARS.\n\nImpact sub, or too little too late? #FPL #FPLTips #FPLCommunity #FantasyPremierLeague #NFO\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-18T19:04:29.816583+00:00"
-    },
     {
       "key": "sub:69:490",
       "story": {
