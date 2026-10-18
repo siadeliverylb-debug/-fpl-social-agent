@@ -5348,61 +5348,7 @@
     5,
     6
   ],
-  "pending": [
-    {
-      "key": "form_hot:5:e9b5b205457b",
-      "story": {
-        "type": "form_hot",
-        "key": "form_hot:5:e9b5b205457b",
-        "players": [
-          {
-            "name": "Manzambi",
-            "team": "AVL",
-            "form": 9.7,
-            "total_points": 30,
-            "price_millions": 6.0,
-            "selected": 2.4
-          },
-          {
-            "name": "Haaland",
-            "team": "MCI",
-            "form": 8.3,
-            "total_points": 58,
-            "price_millions": 15.7,
-            "selected": 76.5
-          },
-          {
-            "name": "Henderson",
-            "team": "CHE",
-            "form": 7.7,
-            "total_points": 23,
-            "price_millions": 4.9,
-            "selected": 0.9
-          },
-          {
-            "name": "Neto",
-            "team": "CHE",
-            "form": 7.3,
-            "total_points": 34,
-            "price_millions": 6.5,
-            "selected": 1.7
-          },
-          {
-            "name": "De Cuyper",
-            "team": "BHA",
-            "form": 7.0,
-            "total_points": 53,
-            "price_millions": 5.2,
-            "selected": 40.0
-          }
-        ]
-      },
-      "image_path": "assets/generated/form_hot_5_e9b5b205457b.png",
-      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Manzambi (AVL) - 9.7 pts/game, \u00a36.0m\n2. Haaland (MCI) - 8.3 pts/game, \u00a315.7m\n3. Henderson (CHE) - 7.7 pts/game, \u00a34.9m\n4. Neto (CHE) - 7.3 pts/game, \u00a36.5m\n5. De Cuyper (BHA) - 7.0 pts/game, \u00a35.2m\n\nWhich of these are you backing to keep it going? #FPL #FPLCommunity #PremierLeague #FantasyPremierLeague\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-10-18T11:27:09.352084+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5563,7 +5509,8 @@
     "status:269:2026-10-17T16:30:09.374216Z",
     "injury_batch:5:ca757c9f8df9",
     "injury_batch:2:0a8113e06e38",
-    "price_batch:10:373e78a669eb"
+    "price_batch:10:373e78a669eb",
+    "form_hot:5:e9b5b205457b"
   ],
   "post_log": [
     {
@@ -6365,6 +6312,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-18T01:32:09.113593+00:00",
       "tweet_id": "2111631384250892557"
+    },
+    {
+      "key": "form_hot:5:e9b5b205457b",
+      "type": "form_hot",
+      "posted_at": "2026-10-18T11:43:15.239265+00:00",
+      "tweet_id": "2111785172781654393"
     }
   ],
   "live": {
