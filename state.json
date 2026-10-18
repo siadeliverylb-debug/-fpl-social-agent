@@ -9673,6 +9673,12 @@
       "type": "kickoff",
       "posted_at": "2026-10-18T13:42:55.234042+00:00",
       "tweet_id": "2111815288207598063"
+    },
+    {
+      "key": "yellow_card:61:566:1",
+      "type": "yellow_card",
+      "posted_at": "2026-10-18T13:43:39.165364+00:00",
+      "tweet_id": "2111815472534745496"
     }
   ],
   "form_spotlight": {
@@ -9698,22 +9704,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "yellow_card:61:566:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:61:566:1",
-        "player": "Silva",
-        "team": "BOU",
-        "home": "BOU",
-        "away": "SUN",
-        "minute": 40,
-        "score": "0-0"
-      },
-      "image_path": "assets/generated/live_yellow_card_61_566_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 40' Silva (BOU) is booked. BOU 0-0 SUN.\n\nRisk of a ban building here. #FPL #FantasyPremierLeague #FantasyFootball #FPLTips #BOU\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-10-18T13:42:53.703672+00:00"
-    },
     {
       "key": "yellow_card:61:535:1",
       "story": {
