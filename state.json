@@ -9780,6 +9780,12 @@
       "type": "substitution",
       "posted_at": "2026-10-18T16:56:35.860095+00:00",
       "tweet_id": "2111864028662214774"
+    },
+    {
+      "key": "sub:61:72",
+      "type": "substitution",
+      "posted_at": "2026-10-18T16:57:18.885801+00:00",
+      "tweet_id": "2111864209004785721"
     }
   ],
   "form_spotlight": {
@@ -9805,22 +9811,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:61:72",
-      "story": {
-        "type": "substitution",
-        "key": "sub:61:72",
-        "player": "Gannon-Doak",
-        "team": "BOU",
-        "home": "BOU",
-        "away": "SUN",
-        "score": "1-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_61_72.png",
-      "caption": "\ud83d\udd04 SUB! 90' Gannon-Doak (BOU) is on. BOU 1-0 SUN.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #FPLTwitter #PremierLeague #BOU\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-18T16:55:47.480500+00:00"
-    },
     {
       "key": "sub:61:77",
       "story": {
