@@ -9831,6 +9831,12 @@
       "type": "substitution",
       "posted_at": "2026-10-18T19:05:15.105865+00:00",
       "tweet_id": "2111896405476319295"
+    },
+    {
+      "key": "sub:69:490",
+      "type": "substitution",
+      "posted_at": "2026-10-18T19:05:57.716088+00:00",
+      "tweet_id": "2111896584153628845"
     }
   ],
   "form_spotlight": {
@@ -9856,22 +9862,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:69:490",
-      "story": {
-        "type": "substitution",
-        "key": "sub:69:490",
-        "player": "Wood",
-        "team": "NFO",
-        "home": "NFO",
-        "away": "ARS",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_69_490.png",
-      "caption": "\ud83d\udd04 SUB! 90' Wood (NFO) is on. NFO 0-0 ARS.\n\nWorth watching for a late returns. #FPL #PremierLeague #FPLFamily #FantasyFootball #NFO\n\nFollow for the next one.",
-      "queued_at": "2026-10-18T19:04:29.882247+00:00"
-    },
     {
       "key": "sub:69:493",
       "story": {
