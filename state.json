@@ -6463,15 +6463,15 @@
         "finished_provisional": true
       },
       "61": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "63": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "66": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "69": {
@@ -7060,7 +7060,13 @@
       "68:405:yellow_cards": 1,
       "68:445:yellow_cards": 1,
       "68:464:yellow_cards": 1,
-      "68:465:yellow_cards": 1
+      "68:465:yellow_cards": 1,
+      "61:566:yellow_cards": 1,
+      "61:535:yellow_cards": 1,
+      "61:501:red_cards": 1,
+      "63:124:yellow_cards": 1,
+      "66:331:yellow_cards": 1,
+      "66:426:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -7996,7 +8002,8 @@
       "50:423": true,
       "50:429": true,
       "50:569": true,
-      "50:432": true
+      "50:432": true,
+      "61:501": true
     },
     "bonus_posted": {
       "31": true,
@@ -8045,6 +8052,56 @@
         "value": 1,
         "since": "2026-09-20T14:12:11.942247+00:00",
         "minute": 51
+      },
+      "61:68:goals_scored": {
+        "value": 1,
+        "since": "2026-10-18T13:42:53.573963+00:00",
+        "minute": 40
+      },
+      "61:79:assists": {
+        "value": 1,
+        "since": "2026-10-18T13:42:53.573982+00:00",
+        "minute": 40
+      },
+      "63:127:goals_scored": {
+        "value": 1,
+        "since": "2026-10-18T13:42:53.574009+00:00",
+        "minute": 40
+      },
+      "63:129:goals_scored": {
+        "value": 1,
+        "since": "2026-10-18T13:42:53.574013+00:00",
+        "minute": 40
+      },
+      "63:114:assists": {
+        "value": 1,
+        "since": "2026-10-18T13:42:53.574016+00:00",
+        "minute": 40
+      },
+      "63:124:assists": {
+        "value": 1,
+        "since": "2026-10-18T13:42:53.574020+00:00",
+        "minute": 40
+      },
+      "63:138:assists": {
+        "value": 1,
+        "since": "2026-10-18T13:42:53.574023+00:00",
+        "minute": 40
+      },
+      "63:203:own_goals": {
+        "value": 1,
+        "since": "2026-10-18T13:42:53.574026+00:00",
+        "minute": 40
+      },
+      "66:427:goals_scored": {
+        "value": 1,
+        "since": "2026-10-18T13:42:53.574038+00:00",
+        "minute": 39
+      },
+      "66:43:assists": {
+        "value": 1,
+        "since": "2026-10-18T13:42:53.574042+00:00",
+        "minute": 39
       }
     }
   },
@@ -9610,6 +9667,12 @@
       "type": "substitution",
       "posted_at": "2026-10-17T19:31:35.506876+00:00",
       "tweet_id": "2111540646490333377"
+    },
+    {
+      "key": "kickoff:61",
+      "type": "kickoff",
+      "posted_at": "2026-10-18T13:42:55.234042+00:00",
+      "tweet_id": "2111815288207598063"
     }
   ],
   "form_spotlight": {
@@ -9634,5 +9697,126 @@
       ]
     }
   },
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "yellow_card:61:566:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:61:566:1",
+        "player": "Silva",
+        "team": "BOU",
+        "home": "BOU",
+        "away": "SUN",
+        "minute": 40,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_61_566_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 40' Silva (BOU) is booked. BOU 0-0 SUN.\n\nRisk of a ban building here. #FPL #FantasyPremierLeague #FantasyFootball #FPLTips #BOU\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-18T13:42:53.703672+00:00"
+    },
+    {
+      "key": "yellow_card:61:535:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:61:535:1",
+        "player": "Alderete",
+        "team": "SUN",
+        "home": "BOU",
+        "away": "SUN",
+        "minute": 40,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_61_535_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 40' Alderete (SUN) is booked. BOU 0-0 SUN.\n\nDoes this change your captaincy call? #FPL #PremierLeague #FPLFamily #FantasyFootball #SUN\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-18T13:42:53.762357+00:00"
+    },
+    {
+      "key": "red_card:61:501:1",
+      "story": {
+        "type": "red_card",
+        "key": "red_card:61:501:1",
+        "player": "Danso",
+        "team": "SUN",
+        "home": "BOU",
+        "away": "SUN",
+        "minute": 40,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_red_card_61_501_1.png",
+      "caption": "\ud83d\udfe5 RED CARD! 40' Danso (SUN) is sent off! BOU 0-0 SUN.\n\nDoes this change your transfer plans? #FPL #FPLTwitter #FPLCommunity #FantasyPremierLeague #SUN\n\nFollow for the next one.",
+      "queued_at": "2026-10-18T13:42:53.820285+00:00"
+    },
+    {
+      "key": "kickoff:63",
+      "story": {
+        "type": "kickoff",
+        "key": "kickoff:63",
+        "home": "BHA",
+        "away": "CRY"
+      },
+      "image_path": "assets/generated/live_kickoff_63.png",
+      "caption": "\u26bd KICK-OFF: BHA vs CRY.\n\nAny of your players out there? #FPL #FantasyFootball #FPLTwitter #FPLCommunity\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-18T13:42:53.877893+00:00"
+    },
+    {
+      "key": "yellow_card:63:124:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:63:124:1",
+        "player": "Gro\u00df",
+        "team": "BHA",
+        "home": "BHA",
+        "away": "CRY",
+        "minute": 40,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_63_124_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 40' Gro\u00df (BHA) is booked. BHA 0-0 CRY.\n\nRisk of a ban building here. #FPL #PremierLeague #FPLTwitter #FPLFamily #BHA\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-18T13:42:53.937170+00:00"
+    },
+    {
+      "key": "kickoff:66",
+      "story": {
+        "type": "kickoff",
+        "key": "kickoff:66",
+        "home": "LEE",
+        "away": "MUN"
+      },
+      "image_path": "assets/generated/live_kickoff_66.png",
+      "caption": "\u26bd KICK-OFF: LEE vs MUN.\n\nLet's see what this one brings. #FPL #FPLTips #FantasyPremierLeague #FPLCommunity\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-18T13:42:53.995850+00:00"
+    },
+    {
+      "key": "yellow_card:66:331:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:66:331:1",
+        "player": "Gudmundsson",
+        "team": "LEE",
+        "home": "LEE",
+        "away": "MUN",
+        "minute": 39,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_66_331_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 39' Gudmundsson (LEE) is booked. LEE 0-0 MUN.\n\nWorth keeping an eye on for next week. #FPL #FantasyPremierLeague #FPLFamily #FantasyFootball #LEE\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-18T13:42:54.054575+00:00"
+    },
+    {
+      "key": "yellow_card:66:426:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:66:426:1",
+        "player": "B.Fernandes",
+        "team": "MUN",
+        "home": "LEE",
+        "away": "MUN",
+        "minute": 39,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_66_426_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 39' B.Fernandes (MUN) is booked. LEE 0-0 MUN.\n\nWorth keeping an eye on for next week. #FPL #FPLFamily #PremierLeague #FPLTwitter #MUN\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-18T13:42:54.113727+00:00"
+    }
+  ]
 }
