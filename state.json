@@ -5348,101 +5348,7 @@
     5,
     6
   ],
-  "pending": [
-    {
-      "key": "price_batch:10:373e78a669eb",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:10:373e78a669eb",
-        "changes": [
-          {
-            "pid": "461",
-            "player": "Tour\u00e9",
-            "team": "NEW",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.7
-          },
-          {
-            "pid": "514",
-            "player": "Tel",
-            "team": "TOT",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.6
-          },
-          {
-            "pid": "516",
-            "player": "Bentancur",
-            "team": "TOT",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.4
-          },
-          {
-            "pid": "393",
-            "player": "Khusanov",
-            "team": "MCI",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.3
-          },
-          {
-            "pid": "254",
-            "player": "Robinson",
-            "team": "FUL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "473",
-            "player": "Aina",
-            "team": "NFO",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.3
-          },
-          {
-            "pid": "259",
-            "player": "Diop",
-            "team": "IPS",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 3.9
-          },
-          {
-            "pid": "399",
-            "player": "Cherki",
-            "team": "MCI",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 8.0
-          },
-          {
-            "pid": "8",
-            "player": "Calafiori",
-            "team": "ARS",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.0
-          },
-          {
-            "pid": "53",
-            "player": "Manzambi",
-            "team": "AVL",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.0
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_10_373e78a669eb.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 7 falls, 3 rises.\n\n\ud83d\udd34 Tour\u00e9 (NEW) -> \u00a35.7m\n\ud83d\udd34 Tel (TOT) -> \u00a35.6m\n\ud83d\udd34 Bentancur (TOT) -> \u00a35.4m\n\ud83d\udd34 Khusanov (MCI) -> \u00a35.3m\n\ud83d\udd34 Robinson (FUL) -> \u00a34.4m\n\ud83d\udd34 Aina (NFO) -> \u00a34.3m\n\ud83d\udd34 Diop (IPS) -> \u00a33.9m\n\ud83d\udfe2 Cherki (MCI) -> \u00a38.0m\n\ud83d\udfe2 Calafiori (ARS) -> \u00a36.0m\n\ud83d\udfe2 Manzambi (AVL) -> \u00a36.0m\n\nWinners and losers in your squad? #FPL #FPLCommunity #PremierLeague #FPLTips\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-10-17T23:14:13.085763+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5602,7 +5508,8 @@
     "status:98:2026-10-17T16:30:09.272910Z",
     "status:269:2026-10-17T16:30:09.374216Z",
     "injury_batch:5:ca757c9f8df9",
-    "injury_batch:2:0a8113e06e38"
+    "injury_batch:2:0a8113e06e38",
+    "price_batch:10:373e78a669eb"
   ],
   "post_log": [
     {
