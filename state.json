@@ -9934,6 +9934,12 @@
       "type": "substitution",
       "posted_at": "2026-10-19T22:58:52.421409+00:00",
       "tweet_id": "2112317586306154590"
+    },
+    {
+      "key": "sub:70:177",
+      "type": "substitution",
+      "posted_at": "2026-10-19T22:59:36.673253+00:00",
+      "tweet_id": "2112317771795022306"
     }
   ],
   "form_spotlight": {
@@ -9959,22 +9965,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:70:177",
-      "story": {
-        "type": "substitution",
-        "key": "sub:70:177",
-        "player": "Kesler-Hayden",
-        "team": "COV",
-        "home": "TOT",
-        "away": "COV",
-        "score": "1-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_70_177.png",
-      "caption": "\ud83d\udd04 SUB! 90' Kesler-Hayden (COV) is on. TOT 1-0 COV.\n\nImpact sub, or too little too late? #FPL #FPLFamily #FantasyFootball #FPLCommunity #COV\n\nFollow for the next one.",
-      "queued_at": "2026-10-19T22:58:50.376506+00:00"
-    },
     {
       "key": "sub:70:186",
       "story": {
