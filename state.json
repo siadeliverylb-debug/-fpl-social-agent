@@ -9952,6 +9952,12 @@
       "type": "substitution",
       "posted_at": "2026-10-19T23:01:02.081284+00:00",
       "tweet_id": "2112318129992831433"
+    },
+    {
+      "key": "sub:70:508",
+      "type": "substitution",
+      "posted_at": "2026-10-19T23:01:44.631238+00:00",
+      "tweet_id": "2112318308565274938"
     }
   ],
   "form_spotlight": {
@@ -9977,22 +9983,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:70:508",
-      "story": {
-        "type": "substitution",
-        "key": "sub:70:508",
-        "player": "Davies",
-        "team": "TOT",
-        "home": "TOT",
-        "away": "COV",
-        "score": "1-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_70_508.png",
-      "caption": "\ud83d\udd04 SUB! 90' Davies (TOT) is on. TOT 1-0 COV.\n\nImpact sub, or too little too late? #FPL #FPLTwitter #PremierLeague #FPLCommunity #TOT\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-19T22:58:50.557689+00:00"
-    },
     {
       "key": "sub:70:514",
       "story": {
