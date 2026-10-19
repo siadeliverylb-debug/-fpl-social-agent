@@ -9940,6 +9940,12 @@
       "type": "substitution",
       "posted_at": "2026-10-19T22:59:36.673253+00:00",
       "tweet_id": "2112317771795022306"
+    },
+    {
+      "key": "sub:70:186",
+      "type": "substitution",
+      "posted_at": "2026-10-19T23:00:19.404942+00:00",
+      "tweet_id": "2112317951097385423"
     }
   ],
   "form_spotlight": {
@@ -9965,22 +9971,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:70:186",
-      "story": {
-        "type": "substitution",
-        "key": "sub:70:186",
-        "player": "Mason-Clark",
-        "team": "COV",
-        "home": "TOT",
-        "away": "COV",
-        "score": "1-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_70_186.png",
-      "caption": "\ud83d\udd04 SUB! 90' Mason-Clark (COV) is on. TOT 1-0 COV.\n\nWorth watching for a late returns. #FPL #FPLCommunity #FPLTwitter #FantasyPremierLeague #COV\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-19T22:58:50.437214+00:00"
-    },
     {
       "key": "sub:70:492",
       "story": {
