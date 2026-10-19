@@ -9946,6 +9946,12 @@
       "type": "substitution",
       "posted_at": "2026-10-19T23:00:19.404942+00:00",
       "tweet_id": "2112317951097385423"
+    },
+    {
+      "key": "sub:70:492",
+      "type": "substitution",
+      "posted_at": "2026-10-19T23:01:02.081284+00:00",
+      "tweet_id": "2112318129992831433"
     }
   ],
   "form_spotlight": {
@@ -9971,22 +9977,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:70:492",
-      "story": {
-        "type": "substitution",
-        "key": "sub:70:492",
-        "player": "Awoniyi",
-        "team": "COV",
-        "home": "TOT",
-        "away": "COV",
-        "score": "1-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_70_492.png",
-      "caption": "\ud83d\udd04 SUB! 90' Awoniyi (COV) is on. TOT 1-0 COV.\n\nWorth watching for a late returns. #FPL #PremierLeague #FPLTwitter #FantasyFootball #COV\n\nFollow for the next one.",
-      "queued_at": "2026-10-19T22:58:50.497782+00:00"
-    },
     {
       "key": "sub:70:508",
       "story": {
