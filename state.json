@@ -9893,6 +9893,12 @@
       "type": "yellow_card",
       "posted_at": "2026-10-19T19:28:08.870618+00:00",
       "tweet_id": "2112264555334168680"
+    },
+    {
+      "key": "yellow_card:70:575:1",
+      "type": "yellow_card",
+      "posted_at": "2026-10-19T19:28:51.960359+00:00",
+      "tweet_id": "2112264736146362506"
     }
   ],
   "form_spotlight": {
@@ -9917,22 +9923,5 @@
       ]
     }
   },
-  "live_queue": [
-    {
-      "key": "yellow_card:70:575:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:70:575:1",
-        "player": "Yirenkyi",
-        "team": "COV",
-        "home": "TOT",
-        "away": "COV",
-        "minute": 22,
-        "score": "0-0"
-      },
-      "image_path": "assets/generated/live_yellow_card_70_575_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 22' Yirenkyi (COV) is booked. TOT 0-0 COV.\n\nWorth keeping an eye on for next week. #FPL #FPLTips #FantasyFootball #FantasyPremierLeague #COV\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-10-19T19:27:22.291645+00:00"
-    }
-  ]
+  "live_queue": []
 }
