@@ -7146,7 +7146,9 @@
       "69:16:goals_scored": 1,
       "69:13:assists": 1,
       "70:526:yellow_cards": 1,
-      "70:575:yellow_cards": 1
+      "70:575:yellow_cards": 1,
+      "70:515:goals_scored": 1,
+      "70:512:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -7406,6 +7408,12 @@
         "team": "ARS",
         "assisted_by": "Rice",
         "score": "0-1"
+      },
+      "70:h": {
+        "player": "Maddison",
+        "team": "TOT",
+        "assisted_by": "Kudus",
+        "score": "1-0"
       }
     },
     "posted_score": {
@@ -7566,7 +7574,7 @@
         1
       ],
       "70": [
-        0,
+        1,
         0
       ]
     },
@@ -8198,16 +8206,6 @@
         "value": 1,
         "since": "2026-09-20T14:12:11.942247+00:00",
         "minute": 51
-      },
-      "70:515:goals_scored": {
-        "value": 1,
-        "since": "2026-10-19T19:27:22.087488+00:00",
-        "minute": 22
-      },
-      "70:512:assists": {
-        "value": 1,
-        "since": "2026-10-19T19:27:22.087511+00:00",
-        "minute": 22
       }
     }
   },
@@ -9899,6 +9897,12 @@
       "type": "yellow_card",
       "posted_at": "2026-10-19T19:28:51.960359+00:00",
       "tweet_id": "2112264736146362506"
+    },
+    {
+      "key": "goal:70:515:1",
+      "type": "goal",
+      "posted_at": "2026-10-19T19:30:56.681950+00:00",
+      "tweet_id": "2112265259222208676"
     }
   ],
   "form_spotlight": {
