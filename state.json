@@ -1503,7 +1503,7 @@
       "team": "CHE",
       "now_cost": 49,
       "status": "i",
-      "news": "Hamstring injury - Expected back 17 Oct",
+      "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-09-09T15:00:09.063849Z"
     },
     "200": {
@@ -1630,8 +1630,8 @@
       "web_name": "Kesler-Hayden",
       "team": "COV",
       "now_cost": 39,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-08-27T14:56:28.704361Z"
     },
     "178": {
@@ -2087,7 +2087,7 @@
       "team": "CRY",
       "now_cost": 44,
       "status": "i",
-      "news": "Calf injury - Expected back 18 Oct",
+      "news": "Calf injury - Expected back 25 Oct",
       "news_added": "2026-09-21T13:30:09.030724Z"
     },
     "588": {
@@ -4247,7 +4247,7 @@
       "team": "MUN",
       "now_cost": 69,
       "status": "i",
-      "news": "Shin injury - Expected back 18 Oct",
+      "news": "Shin injury - Expected back 31 Oct",
       "news_added": "2026-09-20T19:30:08.505755Z"
     },
     "440": {
@@ -5022,8 +5022,8 @@
       "web_name": "Kulusevski",
       "team": "TOT",
       "now_cost": 65,
-      "status": "d",
-      "news": "Knee injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-07-23T12:01:23.895175Z"
     },
     "522": {
@@ -5347,7 +5347,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-19T17:04:48.800615+00:00",
+  "last_snapshot_at": "2026-10-19T21:37:07.550816+00:00",
   "recapped_events": [
     1,
     2,
