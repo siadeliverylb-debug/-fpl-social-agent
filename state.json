@@ -5358,27 +5358,6 @@
   ],
   "pending": [
     {
-      "key": "injury_batch:1:be4d979ef980",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:be4d979ef980",
-        "injuries": [
-          {
-            "pid": "377",
-            "player": "Munoz",
-            "team": "LIV",
-            "status": "doubtful",
-            "news": "Knee injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_be4d979ef980.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Munoz (LIV) - doubtful: \"Knee injury - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FantasyFootball #FPLFamily #FantasyPremierLeague\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-10-20T19:25:18.902781+00:00",
-      "auto": true
-    },
-    {
       "key": "recap:7",
       "story": {
         "type": "gw_recap",
@@ -5564,7 +5543,8 @@
     "injury_batch:5:0e9c4cccd08f",
     "injury_batch:4:22cf1909a0a8",
     "form_hot:5:56c9d6511c48",
-    "form_cold:5:6a022ce92f93"
+    "form_cold:5:6a022ce92f93",
+    "injury_batch:1:be4d979ef980"
   ],
   "post_log": [
     {
@@ -6426,6 +6406,12 @@
       "type": "form_cold",
       "posted_at": "2026-10-20T17:08:33.135852+00:00",
       "tweet_id": "2112591812871307719"
+    },
+    {
+      "key": "injury_batch:1:be4d979ef980",
+      "type": "injury_batch",
+      "posted_at": "2026-10-20T20:34:11.489933+00:00",
+      "tweet_id": "2112643563741962624"
     }
   ],
   "live": {
