@@ -5356,53 +5356,7 @@
     5,
     6
   ],
-  "pending": [
-    {
-      "key": "injury_batch:4:22cf1909a0a8",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:4:22cf1909a0a8",
-        "injuries": [
-          {
-            "pid": "401",
-            "player": "Marmoush",
-            "team": "TOT",
-            "status": "doubtful",
-            "news": "Calf injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "502",
-            "player": "Robertson",
-            "team": "TOT",
-            "status": "doubtful",
-            "news": "Foot injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "147",
-            "player": "Tosin",
-            "team": "TOT",
-            "status": "doubtful",
-            "news": "Calf injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "506",
-            "player": "Udogie",
-            "team": "TOT",
-            "status": "doubtful",
-            "news": "Knee injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_4_22cf1909a0a8.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (4):\n\n\ud83d\udea8 Marmoush (TOT) - doubtful: \"Calf injury - 75% chance of playing\"\n\ud83d\udea8 Robertson (TOT) - doubtful: \"Foot injury - 75% chance of playing\"\n\ud83d\udea8 Tosin (TOT) - doubtful: \"Calf injury - 75% chance of playing\"\n\ud83d\udea8 Udogie (TOT) - doubtful: \"Knee injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #PremierLeague #FantasyPremierLeague #FPLCommunity\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-10-20T00:47:06.750199+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5570,7 +5524,8 @@
     "injury_batch:1:1f0037c5e924",
     "price_batch:13:ff28d20f6b38",
     "form_cold:5:637faa5f30e3",
-    "injury_batch:5:0e9c4cccd08f"
+    "injury_batch:5:0e9c4cccd08f",
+    "injury_batch:4:22cf1909a0a8"
   ],
   "post_log": [
     {
@@ -6414,6 +6369,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-19T17:46:21.403547+00:00",
       "tweet_id": "2112238938806972503"
+    },
+    {
+      "key": "injury_batch:4:22cf1909a0a8",
+      "type": "injury_batch",
+      "posted_at": "2026-10-20T01:16:24.809991+00:00",
+      "tweet_id": "2112352199309144298"
     }
   ],
   "live": {
