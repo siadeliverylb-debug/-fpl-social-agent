@@ -5354,24 +5354,10 @@
     3,
     4,
     5,
-    6
+    6,
+    7
   ],
   "pending": [
-    {
-      "key": "recap:7",
-      "story": {
-        "type": "gw_recap",
-        "key": "recap:7",
-        "gw": 7,
-        "most_captained": 411,
-        "highest_score": 122,
-        "most_selected": 411
-      },
-      "image_path": "assets/generated/recap_7.png",
-      "caption": "\ud83d\udd25 GW7 is in the books. Top score: 122 pts. Most captained ID: 411.\n\nGutted or buzzing with your GW? #FPL #FantasyFootball #FPLTwitter #FantasyPremierLeague\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-10-20T19:25:18.935373+00:00",
-      "auto": true
-    },
     {
       "key": "injury_batch:2:b31f1744c0e3",
       "story": {
@@ -5573,7 +5559,8 @@
     "injury_batch:4:22cf1909a0a8",
     "form_hot:5:56c9d6511c48",
     "form_cold:5:6a022ce92f93",
-    "injury_batch:1:be4d979ef980"
+    "injury_batch:1:be4d979ef980",
+    "recap:7"
   ],
   "post_log": [
     {
@@ -6441,6 +6428,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-20T20:34:11.489933+00:00",
       "tweet_id": "2112643563741962624"
+    },
+    {
+      "key": "recap:7",
+      "type": "gw_recap",
+      "posted_at": "2026-10-20T23:24:33.671523+00:00",
+      "tweet_id": "2112686438693433618"
     }
   ],
   "live": {
