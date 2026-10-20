@@ -3662,9 +3662,9 @@
       "web_name": "Munoz",
       "team": "LIV",
       "now_cost": 65,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Knee injury - 75% chance of playing",
+      "news_added": "2026-10-20T18:30:09.999223Z"
     },
     "378": {
       "web_name": "McConnell",
@@ -3934,8 +3934,8 @@
       "web_name": "Haaland",
       "team": "MCI",
       "now_cost": 157,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-19T13:00:10.543876Z"
     },
     "481": {
@@ -5347,7 +5347,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-20T15:13:54.068562+00:00",
+  "last_snapshot_at": "2026-10-20T19:25:18.862513+00:00",
   "recapped_events": [
     1,
     2,
@@ -5356,7 +5356,44 @@
     5,
     6
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:be4d979ef980",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:be4d979ef980",
+        "injuries": [
+          {
+            "pid": "377",
+            "player": "Munoz",
+            "team": "LIV",
+            "status": "doubtful",
+            "news": "Knee injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_be4d979ef980.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Munoz (LIV) - doubtful: \"Knee injury - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FantasyFootball #FPLFamily #FantasyPremierLeague\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-10-20T19:25:18.902781+00:00",
+      "auto": true
+    },
+    {
+      "key": "recap:7",
+      "story": {
+        "type": "gw_recap",
+        "key": "recap:7",
+        "gw": 7,
+        "most_captained": 411,
+        "highest_score": 122,
+        "most_selected": 411
+      },
+      "image_path": "assets/generated/recap_7.png",
+      "caption": "\ud83d\udd25 GW7 is in the books. Top score: 122 pts. Most captained ID: 411.\n\nGutted or buzzing with your GW? #FPL #FantasyFootball #FPLTwitter #FantasyPremierLeague\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-10-20T19:25:18.935373+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
