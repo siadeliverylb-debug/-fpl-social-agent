@@ -4102,9 +4102,9 @@
       "web_name": "Heaven",
       "team": "MUN",
       "now_cost": 43,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Illness - 75% chance of playing",
+      "news_added": "2026-10-20T20:00:09.902224Z"
     },
     "422": {
       "web_name": "Mazraoui",
@@ -4118,8 +4118,8 @@
       "web_name": "Shaw",
       "team": "MUN",
       "now_cost": 43,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "i",
+      "news": "Unspecified injury - Unknown return date",
       "news_added": "2026-10-12T21:30:08.995810Z"
     },
     "424": {
@@ -4166,9 +4166,9 @@
       "web_name": "Rashford",
       "team": "MUN",
       "now_cost": 69,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-21T10:30:09.221479Z"
+      "status": "d",
+      "news": "Hip injury - 75% chance of playing",
+      "news_added": "2026-10-20T20:00:09.925594Z"
     },
     "430": {
       "web_name": "Mount",
@@ -4190,8 +4190,8 @@
       "web_name": "Mainoo",
       "team": "MUN",
       "now_cost": 55,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "i",
+      "news": "Unspecified injury - Expected back 8 Nov",
       "news_added": "2026-10-12T21:30:09.006287Z"
     },
     "433": {
@@ -5347,7 +5347,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-20T19:25:18.862513+00:00",
+  "last_snapshot_at": "2026-10-20T22:27:41.093846+00:00",
   "recapped_events": [
     1,
     2,
@@ -5370,6 +5370,35 @@
       "image_path": "assets/generated/recap_7.png",
       "caption": "\ud83d\udd25 GW7 is in the books. Top score: 122 pts. Most captained ID: 411.\n\nGutted or buzzing with your GW? #FPL #FantasyFootball #FPLTwitter #FantasyPremierLeague\n\nMore like this on the feed -- give us a follow.",
       "created_at": "2026-10-20T19:25:18.935373+00:00",
+      "auto": true
+    },
+    {
+      "key": "injury_batch:2:b31f1744c0e3",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:2:b31f1744c0e3",
+        "injuries": [
+          {
+            "pid": "421",
+            "player": "Heaven",
+            "team": "MUN",
+            "status": "doubtful",
+            "news": "Illness - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "429",
+            "player": "Rashford",
+            "team": "MUN",
+            "status": "doubtful",
+            "news": "Hip injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_2_b31f1744c0e3.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Heaven (MUN) - doubtful: \"Illness - 75% chance of playing\"\n\ud83d\udea8 Rashford (MUN) - doubtful: \"Hip injury - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FantasyFootball #FPLFamily #FPLTips\n\nFollow for the next one.",
+      "created_at": "2026-10-20T22:27:41.142000+00:00",
       "auto": true
     }
   ],
