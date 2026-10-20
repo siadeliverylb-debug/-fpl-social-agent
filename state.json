@@ -1021,7 +1021,7 @@
     "115": {
       "web_name": "De Cuyper",
       "team": "BHA",
-      "now_cost": 52,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1093,7 +1093,7 @@
     "124": {
       "web_name": "Gro\u00df",
       "team": "BHA",
-      "now_cost": 61,
+      "now_cost": 62,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1141,7 +1141,7 @@
     "130": {
       "web_name": "Wieffer",
       "team": "BHA",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "i",
       "news": "Knee injury - Unknown return date",
       "news_added": "2026-09-04T09:30:08.612904Z"
@@ -1293,7 +1293,7 @@
     "40": {
       "web_name": "Rogers",
       "team": "CHE",
-      "now_cost": 79,
+      "now_cost": 80,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1309,7 +1309,7 @@
     "136": {
       "web_name": "Welbeck",
       "team": "CHE",
-      "now_cost": 59,
+      "now_cost": 58,
       "status": "a",
       "news": "",
       "news_added": "2026-08-20T14:00:07.949090Z"
@@ -1565,7 +1565,7 @@
     "104": {
       "web_name": "Onyeka",
       "team": "COV",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": "2026-09-15T09:00:07.851220Z"
@@ -1685,7 +1685,7 @@
     "184": {
       "web_name": "Grimes",
       "team": "COV",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2269,7 +2269,7 @@
     "243": {
       "web_name": "Alcaraz",
       "team": "EVE",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2829,7 +2829,7 @@
     "576": {
       "web_name": "Stroud",
       "team": "HUL",
-      "now_cost": 50,
+      "now_cost": 49,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3869,7 +3869,7 @@
     "400": {
       "web_name": "Doku",
       "team": "MCI",
-      "now_cost": 74,
+      "now_cost": 75,
       "status": "a",
       "news": "",
       "news_added": "2026-08-18T17:00:08.385597Z"
@@ -4790,17 +4790,17 @@
       "web_name": "Tosin",
       "team": "TOT",
       "now_cost": 44,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Calf injury - 75% chance of playing",
+      "news_added": "2026-10-19T22:30:08.516742Z"
     },
     "401": {
       "web_name": "Marmoush",
       "team": "TOT",
       "now_cost": 70,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Calf injury - 75% chance of playing",
+      "news_added": "2026-10-19T22:30:08.721497Z"
     },
     "403": {
       "web_name": "S\u00e1vio",
@@ -4878,9 +4878,9 @@
       "web_name": "Robertson",
       "team": "TOT",
       "now_cost": 44,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Foot injury - 75% chance of playing",
+      "news_added": "2026-10-19T22:30:08.861525Z"
     },
     "503": {
       "web_name": "Van de Ven",
@@ -4902,9 +4902,9 @@
       "web_name": "Udogie",
       "team": "TOT",
       "now_cost": 44,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-11T18:00:09.092110Z"
+      "status": "d",
+      "news": "Knee injury - 75% chance of playing",
+      "news_added": "2026-10-19T22:30:08.875960Z"
     },
     "507": {
       "web_name": "Phillips",
@@ -5347,7 +5347,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-19T21:37:07.550816+00:00",
+  "last_snapshot_at": "2026-10-20T00:47:06.677471+00:00",
   "recapped_events": [
     1,
     2,
@@ -5356,7 +5356,53 @@
     5,
     6
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:4:22cf1909a0a8",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:4:22cf1909a0a8",
+        "injuries": [
+          {
+            "pid": "401",
+            "player": "Marmoush",
+            "team": "TOT",
+            "status": "doubtful",
+            "news": "Calf injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "502",
+            "player": "Robertson",
+            "team": "TOT",
+            "status": "doubtful",
+            "news": "Foot injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "147",
+            "player": "Tosin",
+            "team": "TOT",
+            "status": "doubtful",
+            "news": "Calf injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "506",
+            "player": "Udogie",
+            "team": "TOT",
+            "status": "doubtful",
+            "news": "Knee injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_4_22cf1909a0a8.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (4):\n\n\ud83d\udea8 Marmoush (TOT) - doubtful: \"Calf injury - 75% chance of playing\"\n\ud83d\udea8 Robertson (TOT) - doubtful: \"Foot injury - 75% chance of playing\"\n\ud83d\udea8 Tosin (TOT) - doubtful: \"Calf injury - 75% chance of playing\"\n\ud83d\udea8 Udogie (TOT) - doubtful: \"Knee injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #PremierLeague #FantasyPremierLeague #FPLCommunity\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-10-20T00:47:06.750199+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
