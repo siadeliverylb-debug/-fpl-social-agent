@@ -5356,61 +5356,7 @@
     5,
     6
   ],
-  "pending": [
-    {
-      "key": "form_cold:5:6a022ce92f93",
-      "story": {
-        "type": "form_cold",
-        "key": "form_cold:5:6a022ce92f93",
-        "players": [
-          {
-            "name": "Szoboszlai",
-            "team": "LIV",
-            "form": 0.5,
-            "total_points": 21,
-            "price_millions": 6.8,
-            "selected": 19.4
-          },
-          {
-            "name": "Schade",
-            "team": "BRE",
-            "form": 0.5,
-            "total_points": 40,
-            "price_millions": 6.2,
-            "selected": 14.0
-          },
-          {
-            "name": "Gibbs-White",
-            "team": "NFO",
-            "form": 1.0,
-            "total_points": 30,
-            "price_millions": 7.9,
-            "selected": 11.4
-          },
-          {
-            "name": "B.Fernandes",
-            "team": "MUN",
-            "form": 1.3,
-            "total_points": 33,
-            "price_millions": 11.8,
-            "selected": 29.3
-          },
-          {
-            "name": "Tarkowski",
-            "team": "EVE",
-            "form": 1.5,
-            "total_points": 46,
-            "price_millions": 6.2,
-            "selected": 18.4
-          }
-        ]
-      },
-      "image_path": "assets/generated/form_cold_5_6a022ce92f93.png",
-      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Szoboszlai (LIV) - 0.5 pts/game, \u00a36.8m, owned by 19%\n2. Schade (BRE) - 0.5 pts/game, \u00a36.2m, owned by 14%\n3. Gibbs-White (NFO) - 1.0 pts/game, \u00a37.9m, owned by 11%\n4. B.Fernandes (MUN) - 1.3 pts/game, \u00a311.8m, owned by 29%\n5. Tarkowski (EVE) - 1.5 pts/game, \u00a36.2m, owned by 18%\n\nHold, or sell before the next deadline? #FPL #FPLTips #FPLFamily #FantasyFootball\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-10-20T15:13:54.125468+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5580,7 +5526,8 @@
     "form_cold:5:637faa5f30e3",
     "injury_batch:5:0e9c4cccd08f",
     "injury_batch:4:22cf1909a0a8",
-    "form_hot:5:56c9d6511c48"
+    "form_hot:5:56c9d6511c48",
+    "form_cold:5:6a022ce92f93"
   ],
   "post_log": [
     {
@@ -6436,6 +6383,12 @@
       "type": "form_hot",
       "posted_at": "2026-10-20T12:12:24.059374+00:00",
       "tweet_id": "2112517283918578129"
+    },
+    {
+      "key": "form_cold:5:6a022ce92f93",
+      "type": "form_cold",
+      "posted_at": "2026-10-20T17:08:33.135852+00:00",
+      "tweet_id": "2112591812871307719"
     }
   ],
   "live": {
