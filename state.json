@@ -5347,7 +5347,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-20T05:29:53.965864+00:00",
+  "last_snapshot_at": "2026-10-20T10:18:19.948829+00:00",
   "recapped_events": [
     1,
     2,
@@ -5356,7 +5356,61 @@
     5,
     6
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_hot:5:56c9d6511c48",
+      "story": {
+        "type": "form_hot",
+        "key": "form_hot:5:56c9d6511c48",
+        "players": [
+          {
+            "name": "De Cuyper",
+            "team": "BHA",
+            "form": 10.5,
+            "total_points": 59,
+            "price_millions": 5.3,
+            "selected": 40.9
+          },
+          {
+            "name": "Henderson",
+            "team": "CHE",
+            "form": 10.5,
+            "total_points": 23,
+            "price_millions": 4.9,
+            "selected": 1.1
+          },
+          {
+            "name": "Neto",
+            "team": "CHE",
+            "form": 10.0,
+            "total_points": 34,
+            "price_millions": 6.5,
+            "selected": 2.3
+          },
+          {
+            "name": "Vuskovic",
+            "team": "BHA",
+            "form": 9.5,
+            "total_points": 51,
+            "price_millions": 5.1,
+            "selected": 5.5
+          },
+          {
+            "name": "Haaland",
+            "team": "MCI",
+            "form": 8.3,
+            "total_points": 58,
+            "price_millions": 15.7,
+            "selected": 76.8
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_5_56c9d6511c48.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. De Cuyper (BHA) - 10.5 pts/game, \u00a35.3m\n2. Henderson (CHE) - 10.5 pts/game, \u00a34.9m\n3. Neto (CHE) - 10.0 pts/game, \u00a36.5m\n4. Vuskovic (BHA) - 9.5 pts/game, \u00a35.1m\n5. Haaland (MCI) - 8.3 pts/game, \u00a315.7m\n\nWho's in your team? Who are you buying? #FPL #FantasyPremierLeague #FantasyFootball #FPLTips\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-10-20T10:18:20.006685+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -9974,9 +10028,9 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-10-19T10:29:27.939116+00:00",
-    "next": "hot",
-    "day": "2026-10-19",
+    "last_at": "2026-10-20T10:18:19.948241+00:00",
+    "next": "cold",
+    "day": "2026-10-20",
     "count": 1,
     "last_picks": {
       "cold": [
@@ -9987,11 +10041,11 @@
         "Ajayi"
       ],
       "hot": [
-        "Manzambi",
-        "Haaland",
+        "De Cuyper",
         "Henderson",
         "Neto",
-        "De Cuyper"
+        "Vuskovic",
+        "Haaland"
       ]
     }
   },
