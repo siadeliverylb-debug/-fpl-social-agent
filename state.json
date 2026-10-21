@@ -70,8 +70,8 @@
       "web_name": "Hincapie",
       "team": "ARS",
       "now_cost": 52,
-      "status": "i",
-      "news": "Ankle injury - Expected back 24 Oct",
+      "status": "d",
+      "news": "Ankle injury - 75% chance of playing",
       "news_added": "2026-10-12T15:00:07.550884Z"
     },
     "10": {
@@ -2854,16 +2854,16 @@
       "web_name": "Gourna-Douath",
       "team": "HUL",
       "now_cost": 49,
-      "status": "i",
-      "news": "Calf injury - Expected back 25 Oct",
+      "status": "d",
+      "news": "Calf injury - 50% chance of playing",
       "news_added": "2026-10-16T13:00:08.314070Z"
     },
     "617": {
       "web_name": "Cho",
       "team": "HUL",
       "now_cost": 50,
-      "status": "i",
-      "news": "Unspecified injury - Expected back 25 Oct",
+      "status": "d",
+      "news": "Unspecified injury - 50% chance of playing",
       "news_added": "2026-10-16T17:30:09.623338Z"
     },
     "632": {
@@ -2879,7 +2879,7 @@
       "team": "HUL",
       "now_cost": 50,
       "status": "d",
-      "news": "Achilles injury - 50% chance of playing",
+      "news": "Achilles injury - 75% chance of playing",
       "news_added": "2026-10-17T17:00:08.108262Z"
     },
     "638": {
@@ -5347,7 +5347,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-21T05:30:24.558733+00:00",
+  "last_snapshot_at": "2026-10-21T10:46:41.370287+00:00",
   "recapped_events": [
     1,
     2,
@@ -5357,7 +5357,61 @@
     6,
     7
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_hot:5:98861bc050c2",
+      "story": {
+        "type": "form_hot",
+        "key": "form_hot:5:98861bc050c2",
+        "players": [
+          {
+            "name": "De Cuyper",
+            "team": "BHA",
+            "form": 10.5,
+            "total_points": 59,
+            "price_millions": 5.3,
+            "selected": 41.1
+          },
+          {
+            "name": "Henderson",
+            "team": "CHE",
+            "form": 10.5,
+            "total_points": 23,
+            "price_millions": 4.9,
+            "selected": 1.1
+          },
+          {
+            "name": "Neto",
+            "team": "CHE",
+            "form": 10.0,
+            "total_points": 34,
+            "price_millions": 6.5,
+            "selected": 2.5
+          },
+          {
+            "name": "Haaland",
+            "team": "MCI",
+            "form": 9.5,
+            "total_points": 58,
+            "price_millions": 15.7,
+            "selected": 76.8
+          },
+          {
+            "name": "Vuskovic",
+            "team": "BHA",
+            "form": 9.5,
+            "total_points": 51,
+            "price_millions": 5.1,
+            "selected": 5.7
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_5_98861bc050c2.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. De Cuyper (BHA) - 10.5 pts/game, \u00a35.3m\n2. Henderson (CHE) - 10.5 pts/game, \u00a34.9m\n3. Neto (CHE) - 10.0 pts/game, \u00a36.5m\n4. Haaland (MCI) - 9.5 pts/game, \u00a315.7m\n5. Vuskovic (BHA) - 9.5 pts/game, \u00a35.1m\n\nWho's in your team? Who are you buying? #FPL #FPLTwitter #FPLFamily #FPLTips\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-10-21T10:46:41.461116+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -10011,10 +10065,10 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-10-20T15:13:54.068078+00:00",
-    "next": "hot",
-    "day": "2026-10-20",
-    "count": 2,
+    "last_at": "2026-10-21T10:46:41.369441+00:00",
+    "next": "cold",
+    "day": "2026-10-21",
+    "count": 1,
     "last_picks": {
       "cold": [
         "Szoboszlai",
@@ -10027,8 +10081,8 @@
         "De Cuyper",
         "Henderson",
         "Neto",
-        "Vuskovic",
-        "Haaland"
+        "Haaland",
+        "Vuskovic"
       ]
     }
   },
