@@ -302,9 +302,9 @@
       "web_name": "A.Garc\u00eda",
       "team": "AVL",
       "now_cost": 40,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "u",
+      "news": "Has joined Getafe on loan for the rest of the season",
+      "news_added": "2026-10-21T13:24:48.628998Z"
     },
     "39": {
       "web_name": "Nedeljkovic",
@@ -575,7 +575,7 @@
       "team": "BOU",
       "now_cost": 49,
       "status": "i",
-      "news": "Thigh injury - Unknown return date",
+      "news": "Thigh injury - Expected back 8 Nov",
       "news_added": "2026-08-06T10:00:10.456051Z"
     },
     "64": {
@@ -623,7 +623,7 @@
       "team": "BOU",
       "now_cost": 60,
       "status": "i",
-      "news": "Thigh injury - Unknown return date",
+      "news": "Thigh injury - Expected back 8 Nov",
       "news_added": "2026-10-05T09:30:09.910752Z"
     },
     "70": {
@@ -694,8 +694,8 @@
       "web_name": "Kroupi.Jr",
       "team": "BOU",
       "now_cost": 73,
-      "status": "i",
-      "news": "Foot injury - Expected back 7 Nov",
+      "status": "d",
+      "news": "Foot injury - 50% chance of playing",
       "news_added": "2026-07-29T17:30:09.796802Z"
     },
     "79": {
@@ -1583,7 +1583,7 @@
       "team": "COV",
       "now_cost": 40,
       "status": "u",
-      "news": "Has joined Leyton Orient on loan for the rest of the season",
+      "news": "not included in squad.",
       "news_added": "2026-09-02T15:44:14.839336Z"
     },
     "172": {
@@ -4247,7 +4247,7 @@
       "team": "MUN",
       "now_cost": 69,
       "status": "i",
-      "news": "Shin injury - Expected back 31 Oct",
+      "news": "Shin injury - Unknown return date",
       "news_added": "2026-09-20T19:30:08.505755Z"
     },
     "440": {
@@ -4662,8 +4662,8 @@
       "web_name": "Gibbs-White",
       "team": "NFO",
       "now_cost": 79,
-      "status": "d",
-      "news": "Muscular injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-16T17:30:09.546992Z"
     },
     "482": {
@@ -5347,7 +5347,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-21T10:46:41.370287+00:00",
+  "last_snapshot_at": "2026-10-21T15:43:29.455140+00:00",
   "recapped_events": [
     1,
     2,
@@ -5357,7 +5357,25 @@
     6,
     7
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "status:38:2026-10-21T13:24:48.628998Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:38:2026-10-21T13:24:48.628998Z",
+        "pid": "38",
+        "player": "A.Garc\u00eda",
+        "team": "AVL",
+        "status": "unavailable",
+        "news": "Has joined Getafe on loan for the rest of the season",
+        "category": "loan"
+      },
+      "image_path": "assets/generated/status_38_2026-10-21T13_24_48.628998Z.png",
+      "caption": "\ud83d\udd04 LOAN MOVE: A.Garc\u00eda (AVL) is unavailable.\n\"Has joined Getafe on loan for the rest of the season\"\n\nStill fantasy relevant from his new club, or done for now? #FPL #FPLTips #FPLCommunity #FantasyFootball\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-10-21T15:43:29.532529+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
