@@ -5357,85 +5357,7 @@
     6,
     7
   ],
-  "pending": [
-    {
-      "key": "price_batch:8:e93708582c0f",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:8:e93708582c0f",
-        "changes": [
-          {
-            "pid": "25",
-            "player": "Gy\u00f6keres",
-            "team": "ARS",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 7.0
-          },
-          {
-            "pid": "482",
-            "player": "Hudson-Odoi",
-            "team": "NFO",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.7
-          },
-          {
-            "pid": "271",
-            "player": "Muniz",
-            "team": "FUL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.3
-          },
-          {
-            "pid": "347",
-            "player": "Nmecha",
-            "team": "LEE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.3
-          },
-          {
-            "pid": "374",
-            "player": "Endo",
-            "team": "LIV",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.8
-          },
-          {
-            "pid": "596",
-            "player": "Ruggeri",
-            "team": "AVL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "212",
-            "player": "Hughes",
-            "team": "CRY",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.3
-          },
-          {
-            "pid": "362",
-            "player": "Jacquet",
-            "team": "LIV",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.1
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_8_e93708582c0f.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 7 falls, 1 rise.\n\n\ud83d\udd34 Gy\u00f6keres (ARS) -> \u00a37.0m\n\ud83d\udd34 Hudson-Odoi (NFO) -> \u00a35.7m\n\ud83d\udd34 Muniz (FUL) -> \u00a35.3m\n\ud83d\udd34 Nmecha (LEE) -> \u00a35.3m\n\ud83d\udd34 Endo (LIV) -> \u00a34.8m\n\ud83d\udd34 Ruggeri (AVL) -> \u00a34.4m\n\ud83d\udd34 Hughes (CRY) -> \u00a34.3m\n\ud83d\udfe2 Jacquet (LIV) -> \u00a35.1m\n\nWinners and losers in your squad? #FPL #FPLTips #FPLCommunity #FPLTwitter\n\nFollow for the next one.",
-      "created_at": "2026-10-21T00:44:07.538701+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5609,7 +5531,8 @@
     "form_cold:5:6a022ce92f93",
     "injury_batch:1:be4d979ef980",
     "recap:7",
-    "injury_batch:2:b31f1744c0e3"
+    "injury_batch:2:b31f1744c0e3",
+    "price_batch:8:e93708582c0f"
   ],
   "post_log": [
     {
