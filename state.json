@@ -286,8 +286,8 @@
       "web_name": "Maatsen",
       "team": "AVL",
       "now_cost": 44,
-      "status": "d",
-      "news": "Ankle injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-12T18:00:08.729468Z"
     },
     "37": {
@@ -382,8 +382,8 @@
       "web_name": "George Hemmings",
       "team": "AVL",
       "now_cost": 45,
-      "status": "d",
-      "news": "Knee injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-10T18:00:10.386738Z"
     },
     "52": {
@@ -4046,8 +4046,8 @@
       "web_name": "Heaton",
       "team": "MUN",
       "now_cost": 40,
-      "status": "i",
-      "news": "Hamstring injury - Unknown return date",
+      "status": "a",
+      "news": "",
       "news_added": "2026-08-15T16:00:07.854151Z"
     },
     "415": {
@@ -4343,7 +4343,7 @@
       "team": "NEW",
       "now_cost": 49,
       "status": "i",
-      "news": "Unspecified injury - Expected back 2 Nov",
+      "news": "Knee injury - Expected back 7 Nov",
       "news_added": "2026-09-19T14:00:09.046677Z"
     },
     "451": {
@@ -5347,7 +5347,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-21T15:43:29.455140+00:00",
+  "last_snapshot_at": "2026-10-21T19:45:13.918538+00:00",
   "recapped_events": [
     1,
     2,
