@@ -5359,35 +5359,6 @@
   ],
   "pending": [
     {
-      "key": "injury_batch:2:b31f1744c0e3",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:2:b31f1744c0e3",
-        "injuries": [
-          {
-            "pid": "421",
-            "player": "Heaven",
-            "team": "MUN",
-            "status": "doubtful",
-            "news": "Illness - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "429",
-            "player": "Rashford",
-            "team": "MUN",
-            "status": "doubtful",
-            "news": "Hip injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_2_b31f1744c0e3.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Heaven (MUN) - doubtful: \"Illness - 75% chance of playing\"\n\ud83d\udea8 Rashford (MUN) - doubtful: \"Hip injury - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FantasyFootball #FPLFamily #FPLTips\n\nFollow for the next one.",
-      "created_at": "2026-10-20T22:27:41.142000+00:00",
-      "auto": true
-    },
-    {
       "key": "price_batch:8:e93708582c0f",
       "story": {
         "type": "price_changes",
@@ -5637,7 +5608,8 @@
     "form_hot:5:56c9d6511c48",
     "form_cold:5:6a022ce92f93",
     "injury_batch:1:be4d979ef980",
-    "recap:7"
+    "recap:7",
+    "injury_batch:2:b31f1744c0e3"
   ],
   "post_log": [
     {
@@ -6511,6 +6483,12 @@
       "type": "gw_recap",
       "posted_at": "2026-10-20T23:24:33.671523+00:00",
       "tweet_id": "2112686438693433618"
+    },
+    {
+      "key": "injury_batch:2:b31f1744c0e3",
+      "type": "injury_batch",
+      "posted_at": "2026-10-21T02:02:40.270747+00:00",
+      "tweet_id": "2112726228386083294"
     }
   ],
   "live": {
