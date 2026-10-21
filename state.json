@@ -189,7 +189,7 @@
     "25": {
       "web_name": "Gy\u00f6keres",
       "team": "ARS",
-      "now_cost": 71,
+      "now_cost": 70,
       "status": "a",
       "news": "",
       "news_added": null
@@ -453,7 +453,7 @@
     "596": {
       "web_name": "Ruggeri",
       "team": "AVL",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "i",
       "news": "Hamstring injury - Expected back 2 Jan",
       "news_added": "2026-10-10T18:00:10.750593Z"
@@ -1957,7 +1957,7 @@
     "212": {
       "web_name": "Hughes",
       "team": "CRY",
-      "now_cost": 44,
+      "now_cost": 43,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2485,7 +2485,7 @@
     "271": {
       "web_name": "Muniz",
       "team": "FUL",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3357,7 +3357,7 @@
     "347": {
       "web_name": "Nmecha",
       "team": "LEE",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3541,7 +3541,7 @@
     "362": {
       "web_name": "Jacquet",
       "team": "LIV",
-      "now_cost": 50,
+      "now_cost": 51,
       "status": "a",
       "news": "",
       "news_added": "2026-10-06T00:30:10.323830Z"
@@ -3637,7 +3637,7 @@
     "374": {
       "web_name": "Endo",
       "team": "LIV",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": "2026-07-23T12:01:23.612529Z"
@@ -4669,7 +4669,7 @@
     "482": {
       "web_name": "Hudson-Odoi",
       "team": "NFO",
-      "now_cost": 58,
+      "now_cost": 57,
       "status": "a",
       "news": "",
       "news_added": "2026-07-23T12:01:23.832709Z"
@@ -5347,7 +5347,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-20T22:27:41.093846+00:00",
+  "last_snapshot_at": "2026-10-21T00:44:07.469037+00:00",
   "recapped_events": [
     1,
     2,
@@ -5385,6 +5385,83 @@
       "image_path": "assets/generated/injury_batch_2_b31f1744c0e3.png",
       "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Heaven (MUN) - doubtful: \"Illness - 75% chance of playing\"\n\ud83d\udea8 Rashford (MUN) - doubtful: \"Hip injury - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FantasyFootball #FPLFamily #FPLTips\n\nFollow for the next one.",
       "created_at": "2026-10-20T22:27:41.142000+00:00",
+      "auto": true
+    },
+    {
+      "key": "price_batch:8:e93708582c0f",
+      "story": {
+        "type": "price_changes",
+        "key": "price_batch:8:e93708582c0f",
+        "changes": [
+          {
+            "pid": "25",
+            "player": "Gy\u00f6keres",
+            "team": "ARS",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 7.0
+          },
+          {
+            "pid": "482",
+            "player": "Hudson-Odoi",
+            "team": "NFO",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.7
+          },
+          {
+            "pid": "271",
+            "player": "Muniz",
+            "team": "FUL",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.3
+          },
+          {
+            "pid": "347",
+            "player": "Nmecha",
+            "team": "LEE",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.3
+          },
+          {
+            "pid": "374",
+            "player": "Endo",
+            "team": "LIV",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.8
+          },
+          {
+            "pid": "596",
+            "player": "Ruggeri",
+            "team": "AVL",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.4
+          },
+          {
+            "pid": "212",
+            "player": "Hughes",
+            "team": "CRY",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.3
+          },
+          {
+            "pid": "362",
+            "player": "Jacquet",
+            "team": "LIV",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.1
+          }
+        ]
+      },
+      "image_path": "assets/generated/price_batch_8_e93708582c0f.png",
+      "caption": "\ud83d\udcca PRICE CHANGES: 7 falls, 1 rise.\n\n\ud83d\udd34 Gy\u00f6keres (ARS) -> \u00a37.0m\n\ud83d\udd34 Hudson-Odoi (NFO) -> \u00a35.7m\n\ud83d\udd34 Muniz (FUL) -> \u00a35.3m\n\ud83d\udd34 Nmecha (LEE) -> \u00a35.3m\n\ud83d\udd34 Endo (LIV) -> \u00a34.8m\n\ud83d\udd34 Ruggeri (AVL) -> \u00a34.4m\n\ud83d\udd34 Hughes (CRY) -> \u00a34.3m\n\ud83d\udfe2 Jacquet (LIV) -> \u00a35.1m\n\nWinners and losers in your squad? #FPL #FPLTips #FPLCommunity #FPLTwitter\n\nFollow for the next one.",
+      "created_at": "2026-10-21T00:44:07.538701+00:00",
       "auto": true
     }
   ],
