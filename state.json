@@ -2918,8 +2918,8 @@
       "web_name": "Luki\u0107",
       "team": "IPS",
       "now_cost": 49,
-      "status": "d",
-      "news": "Groin injury - 75% chance of playing",
+      "status": "i",
+      "news": "Groin injury - Expected back 23 Oct",
       "news_added": "2026-10-19T15:30:08.949503Z"
     },
     "300": {
@@ -5347,7 +5347,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-22T12:10:15.818356+00:00",
+  "last_snapshot_at": "2026-10-22T17:24:18.703511+00:00",
   "recapped_events": [
     1,
     2,
