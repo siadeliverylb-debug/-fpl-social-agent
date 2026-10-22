@@ -5347,7 +5347,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-22T17:24:18.703511+00:00",
+  "last_snapshot_at": "2026-10-22T20:39:36.827712+00:00",
   "recapped_events": [
     1,
     2,
@@ -5357,7 +5357,22 @@
     6,
     7
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "deadline:8:24h",
+      "story": {
+        "type": "deadline_reminder",
+        "key": "deadline:8:24h",
+        "gw": 8,
+        "bucket": "24h",
+        "hours_until": 20.8
+      },
+      "image_path": "assets/generated/deadline_8_24h.png",
+      "caption": "\u23f0 GW8 deadline in 24h! Don't get caught out -- set your team now.\n\n#FPL #FPLTips #FantasyPremierLeague #PremierLeague\n\nTurn on notifications to catch these as they land.",
+      "created_at": "2026-10-22T20:39:36.896872+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
