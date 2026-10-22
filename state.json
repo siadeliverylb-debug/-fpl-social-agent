@@ -5357,61 +5357,7 @@
     6,
     7
   ],
-  "pending": [
-    {
-      "key": "form_cold:5:e993c656e21a",
-      "story": {
-        "type": "form_cold",
-        "key": "form_cold:5:e993c656e21a",
-        "players": [
-          {
-            "name": "Szoboszlai",
-            "team": "LIV",
-            "form": 0.5,
-            "total_points": 21,
-            "price_millions": 6.8,
-            "selected": 18.7
-          },
-          {
-            "name": "Schade",
-            "team": "BRE",
-            "form": 0.5,
-            "total_points": 40,
-            "price_millions": 6.2,
-            "selected": 14.1
-          },
-          {
-            "name": "B.Fernandes",
-            "team": "MUN",
-            "form": 1.0,
-            "total_points": 33,
-            "price_millions": 11.8,
-            "selected": 28.7
-          },
-          {
-            "name": "Gibbs-White",
-            "team": "NFO",
-            "form": 1.0,
-            "total_points": 30,
-            "price_millions": 7.9,
-            "selected": 11.4
-          },
-          {
-            "name": "Tarkowski",
-            "team": "EVE",
-            "form": 1.5,
-            "total_points": 46,
-            "price_millions": 6.2,
-            "selected": 18.3
-          }
-        ]
-      },
-      "image_path": "assets/generated/form_cold_5_e993c656e21a.png",
-      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Szoboszlai (LIV) - 0.5 pts/game, \u00a36.8m, owned by 19%\n2. Schade (BRE) - 0.5 pts/game, \u00a36.2m, owned by 14%\n3. B.Fernandes (MUN) - 1.0 pts/game, \u00a311.8m, owned by 29%\n4. Gibbs-White (NFO) - 1.0 pts/game, \u00a37.9m, owned by 11%\n5. Tarkowski (EVE) - 1.5 pts/game, \u00a36.2m, owned by 18%\n\nWho's getting binned first? #FPL #FPLCommunity #PremierLeague #FPLTwitter\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-10-22T12:10:15.861666+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5590,7 +5536,8 @@
     "form_hot:5:98861bc050c2",
     "status:38:2026-10-21T13:24:48.628998Z",
     "injury_batch:2:cf96303ed426",
-    "price_batch:2:d4d42b6239b4"
+    "price_batch:2:d4d42b6239b4",
+    "form_cold:5:e993c656e21a"
   ],
   "post_log": [
     {
