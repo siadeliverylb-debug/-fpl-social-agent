@@ -5357,22 +5357,7 @@
     6,
     7
   ],
-  "pending": [
-    {
-      "key": "deadline:8:24h",
-      "story": {
-        "type": "deadline_reminder",
-        "key": "deadline:8:24h",
-        "gw": 8,
-        "bucket": "24h",
-        "hours_until": 20.8
-      },
-      "image_path": "assets/generated/deadline_8_24h.png",
-      "caption": "\u23f0 GW8 deadline in 24h! Don't get caught out -- set your team now.\n\n#FPL #FPLTips #FantasyPremierLeague #PremierLeague\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-10-22T20:39:36.896872+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5552,7 +5537,8 @@
     "status:38:2026-10-21T13:24:48.628998Z",
     "injury_batch:2:cf96303ed426",
     "price_batch:2:d4d42b6239b4",
-    "form_cold:5:e993c656e21a"
+    "form_cold:5:e993c656e21a",
+    "deadline:8:24h"
   ],
   "post_log": [
     {
