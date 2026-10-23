@@ -10212,6 +10212,12 @@
       "type": "substitution",
       "posted_at": "2026-10-23T22:51:15.808889+00:00",
       "tweet_id": "2113765222284513499"
+    },
+    {
+      "key": "sub:77:320",
+      "type": "substitution",
+      "posted_at": "2026-10-23T22:51:58.476212+00:00",
+      "tweet_id": "2113765401490289035"
     }
   ],
   "form_spotlight": {
@@ -10237,22 +10243,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:77:320",
-      "story": {
-        "type": "substitution",
-        "key": "sub:77:320",
-        "player": "Akpom",
-        "team": "IPS",
-        "home": "IPS",
-        "away": "NFO",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_77_320.png",
-      "caption": "\ud83d\udd04 SUB! 90' Akpom (IPS) is on. IPS 0-0 NFO.\n\nDoes this open a chance for a start next week? #FPL #FPLTwitter #PremierLeague #FPLFamily #IPS\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-10-23T22:50:30.281052+00:00"
-    },
     {
       "key": "sub:77:478",
       "story": {
