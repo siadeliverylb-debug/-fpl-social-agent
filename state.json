@@ -10218,6 +10218,12 @@
       "type": "substitution",
       "posted_at": "2026-10-23T22:51:58.476212+00:00",
       "tweet_id": "2113765401490289035"
+    },
+    {
+      "key": "sub:77:478",
+      "type": "substitution",
+      "posted_at": "2026-10-23T22:52:41.118667+00:00",
+      "tweet_id": "2113765580440318025"
     }
   ],
   "form_spotlight": {
@@ -10243,22 +10249,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:77:478",
-      "story": {
-        "type": "substitution",
-        "key": "sub:77:478",
-        "player": "Netz",
-        "team": "NFO",
-        "home": "IPS",
-        "away": "NFO",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_77_478.png",
-      "caption": "\ud83d\udd04 SUB! 90' Netz (NFO) is on. IPS 0-0 NFO.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyFootball #FPLCommunity #FantasyPremierLeague #NFO\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-23T22:50:30.339566+00:00"
-    },
     {
       "key": "sub:77:482",
       "story": {
