@@ -94,8 +94,8 @@
       "web_name": "Saka",
       "team": "ARS",
       "now_cost": 96,
-      "status": "d",
-      "news": "Thigh injury - 50% chance of playing",
+      "status": "i",
+      "news": "Thigh injury - Unknown return date",
       "news_added": "2026-10-21T20:30:09.540957Z"
     },
     "13": {
@@ -1350,8 +1350,8 @@
       "web_name": "Gusto",
       "team": "CHE",
       "now_cost": 49,
-      "status": "d",
-      "news": "Illness - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-17T18:30:09.695564Z"
     },
     "145": {
@@ -1542,8 +1542,8 @@
       "web_name": "Chavarria",
       "team": "CHE",
       "now_cost": 49,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "i",
+      "news": "Unspecified injury - Expected back 31 Oct",
       "news_added": "2026-10-17T12:00:10.154091Z"
     },
     "662": {
@@ -2038,9 +2038,9 @@
       "web_name": "Strand Larsen",
       "team": "CRY",
       "now_cost": 60,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-23T17:00:09.672494Z"
     },
     "223": {
       "web_name": "Mateta",
@@ -2855,7 +2855,7 @@
       "team": "HUL",
       "now_cost": 49,
       "status": "d",
-      "news": "Calf injury - 50% chance of playing",
+      "news": "Calf injury - 75% chance of playing",
       "news_added": "2026-10-16T13:00:08.314070Z"
     },
     "617": {
@@ -2863,7 +2863,7 @@
       "team": "HUL",
       "now_cost": 50,
       "status": "d",
-      "news": "Unspecified injury - 50% chance of playing",
+      "news": "Unspecified injury - 75% chance of playing",
       "news_added": "2026-10-16T17:30:09.623338Z"
     },
     "632": {
@@ -3270,17 +3270,17 @@
       "web_name": "Stach",
       "team": "LEE",
       "now_cost": 60,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Foot injury - 50% chance of playing",
+      "news_added": "2026-10-23T13:00:09.404908Z"
     },
     "336": {
       "web_name": "Okafor",
       "team": "LEE",
       "now_cost": 58,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Thigh injury - 50% chance of playing",
+      "news_added": "2026-10-23T13:00:09.421868Z"
     },
     "337": {
       "web_name": "Aaronson",
@@ -3326,8 +3326,8 @@
       "web_name": "James",
       "team": "LEE",
       "now_cost": 49,
-      "status": "d",
-      "news": "Back injury - 50% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-08T14:00:11.803126Z"
     },
     "344": {
@@ -3350,9 +3350,9 @@
       "web_name": "Calvert-Lewin",
       "team": "LEE",
       "now_cost": 61,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Foot injury - 50% chance of playing",
+      "news_added": "2026-10-23T13:00:09.444671Z"
     },
     "347": {
       "web_name": "Nmecha",
@@ -3663,7 +3663,7 @@
       "team": "LIV",
       "now_cost": 65,
       "status": "d",
-      "news": "Knee injury - 75% chance of playing",
+      "news": "Knee injury - 25% chance of playing",
       "news_added": "2026-10-20T18:30:09.999223Z"
     },
     "378": {
@@ -4102,8 +4102,8 @@
       "web_name": "Heaven",
       "team": "MUN",
       "now_cost": 43,
-      "status": "d",
-      "news": "Illness - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-20T20:00:09.902224Z"
     },
     "422": {
@@ -4366,8 +4366,8 @@
       "web_name": "Elanga",
       "team": "NEW",
       "now_cost": 60,
-      "status": "i",
-      "news": "Unspecified injury - Expected back 25 Oct",
+      "status": "d",
+      "news": "Hamstring injury - 75% chance of playing",
       "news_added": "2026-09-14T20:00:09.505598Z"
     },
     "456": {
@@ -4494,9 +4494,9 @@
       "web_name": "Fernandez-Pardo",
       "team": "NEW",
       "now_cost": 60,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Illness - 75% chance of playing",
+      "news_added": "2026-10-23T14:30:10.429365Z"
     },
     "659": {
       "web_name": "Miley",
@@ -4790,16 +4790,16 @@
       "web_name": "Tosin",
       "team": "TOT",
       "now_cost": 44,
-      "status": "d",
-      "news": "Calf injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-19T22:30:08.516742Z"
     },
     "401": {
       "web_name": "Marmoush",
       "team": "TOT",
       "now_cost": 70,
-      "status": "d",
-      "news": "Calf injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-19T22:30:08.721497Z"
     },
     "403": {
@@ -4862,8 +4862,8 @@
       "web_name": "Pedro Porro",
       "team": "TOT",
       "now_cost": 53,
-      "status": "i",
-      "news": "Hamstring injury - Expected back 24 Oct",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-19T12:00:08.823872Z"
     },
     "500": {
@@ -4878,8 +4878,8 @@
       "web_name": "Robertson",
       "team": "TOT",
       "now_cost": 44,
-      "status": "d",
-      "news": "Foot injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-19T22:30:08.861525Z"
     },
     "503": {
@@ -4902,8 +4902,8 @@
       "web_name": "Udogie",
       "team": "TOT",
       "now_cost": 44,
-      "status": "d",
-      "news": "Knee injury - 75% chance of playing",
+      "status": "i",
+      "news": "Knee injury - Unknown return date",
       "news_added": "2026-10-19T22:30:08.875960Z"
     },
     "507": {
@@ -4974,9 +4974,9 @@
       "web_name": "Maddison",
       "team": "TOT",
       "now_cost": 62,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-25T14:30:07.623508Z"
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-23T14:30:10.270986Z"
     },
     "516": {
       "web_name": "Bentancur",
@@ -5347,7 +5347,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-23T12:56:22.266091+00:00",
+  "last_snapshot_at": "2026-10-23T17:37:50.849294+00:00",
   "recapped_events": [
     1,
     2,
@@ -5357,7 +5357,69 @@
     6,
     7
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:6:42ed184fd755",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:6:42ed184fd755",
+        "injuries": [
+          {
+            "pid": "346",
+            "player": "Calvert-Lewin",
+            "team": "LEE",
+            "status": "doubtful",
+            "news": "Foot injury - 50% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "634",
+            "player": "Fernandez-Pardo",
+            "team": "NEW",
+            "status": "doubtful",
+            "news": "Illness - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "515",
+            "player": "Maddison",
+            "team": "TOT",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "336",
+            "player": "Okafor",
+            "team": "LEE",
+            "status": "doubtful",
+            "news": "Thigh injury - 50% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "335",
+            "player": "Stach",
+            "team": "LEE",
+            "status": "doubtful",
+            "news": "Foot injury - 50% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "222",
+            "player": "Strand Larsen",
+            "team": "CRY",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_6_42ed184fd755.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (6):\n\n\ud83d\udea8 Calvert-Lewin (LEE) - doubtful: \"Foot injury - 50% chance of playing\"\n\ud83d\udea8 Fernandez-Pardo (NEW) - doubtful: \"Illness - 75% chance of playing\"\n\ud83d\udea8 Maddison (TOT) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Okafor (LEE) - doubtful: \"Thigh injury - 50% chance of playing\"\n\ud83d\udea8 Stach (LEE) - doubtful: \"Foot injury - 50% chance of playing\"\n\ud83d\udea8 Strand Larsen (CRY) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #PremierLeague #FantasyPremierLeague #FantasyFootball\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-10-23T17:37:50.892904+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
