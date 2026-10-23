@@ -10206,6 +10206,12 @@
       "type": "substitution",
       "posted_at": "2026-10-23T22:50:31.923886+00:00",
       "tweet_id": "2113765038502592945"
+    },
+    {
+      "key": "sub:77:313",
+      "type": "substitution",
+      "posted_at": "2026-10-23T22:51:15.808889+00:00",
+      "tweet_id": "2113765222284513499"
     }
   ],
   "form_spotlight": {
@@ -10231,22 +10237,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:77:313",
-      "story": {
-        "type": "substitution",
-        "key": "sub:77:313",
-        "player": "Clarke",
-        "team": "IPS",
-        "home": "IPS",
-        "away": "NFO",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_77_313.png",
-      "caption": "\ud83d\udd04 SUB! 90' Clarke (IPS) is on. IPS 0-0 NFO.\n\nImpact sub, or too little too late? #FPL #FPLTwitter #FPLCommunity #FPLTips #IPS\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-10-23T22:50:30.222717+00:00"
-    },
     {
       "key": "sub:77:320",
       "story": {
