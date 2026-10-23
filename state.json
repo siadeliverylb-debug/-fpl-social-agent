@@ -6622,7 +6622,7 @@
       },
       "77": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       },
       "72": {
         "started": false,
@@ -7331,7 +7331,9 @@
       "77:167:defensive_contribution": 1,
       "77:472:defensive_contribution": 1,
       "77:474:defensive_contribution": 1,
-      "77:483:defensive_contribution": 1
+      "77:483:defensive_contribution": 1,
+      "77:259:yellow_cards": 1,
+      "77:472:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -8156,7 +8158,15 @@
       "70:519": true,
       "70:521": true,
       "70:525": true,
-      "70:584": true
+      "70:584": true,
+      "77:310": true,
+      "77:313": true,
+      "77:320": true,
+      "77:478": true,
+      "77:482": true,
+      "77:490": true,
+      "77:562": true,
+      "77:640": true
     },
     "subs_baselined": {
       "31": true,
@@ -8444,7 +8454,8 @@
       "63": true,
       "66": true,
       "69": true,
-      "70": true
+      "70": true,
+      "77": true
     },
     "goal_pending": {
       "44:204:goals_scored": {
@@ -10189,6 +10200,12 @@
       "type": "substitution",
       "posted_at": "2026-10-19T23:02:27.178473+00:00",
       "tweet_id": "2112318487087436035"
+    },
+    {
+      "key": "sub:77:310",
+      "type": "substitution",
+      "posted_at": "2026-10-23T22:50:31.923886+00:00",
+      "tweet_id": "2113765038502592945"
     }
   ],
   "form_spotlight": {
@@ -10213,5 +10230,191 @@
       ]
     }
   },
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "sub:77:313",
+      "story": {
+        "type": "substitution",
+        "key": "sub:77:313",
+        "player": "Clarke",
+        "team": "IPS",
+        "home": "IPS",
+        "away": "NFO",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_77_313.png",
+      "caption": "\ud83d\udd04 SUB! 90' Clarke (IPS) is on. IPS 0-0 NFO.\n\nImpact sub, or too little too late? #FPL #FPLTwitter #FPLCommunity #FPLTips #IPS\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-23T22:50:30.222717+00:00"
+    },
+    {
+      "key": "sub:77:320",
+      "story": {
+        "type": "substitution",
+        "key": "sub:77:320",
+        "player": "Akpom",
+        "team": "IPS",
+        "home": "IPS",
+        "away": "NFO",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_77_320.png",
+      "caption": "\ud83d\udd04 SUB! 90' Akpom (IPS) is on. IPS 0-0 NFO.\n\nDoes this open a chance for a start next week? #FPL #FPLTwitter #PremierLeague #FPLFamily #IPS\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-23T22:50:30.281052+00:00"
+    },
+    {
+      "key": "sub:77:478",
+      "story": {
+        "type": "substitution",
+        "key": "sub:77:478",
+        "player": "Netz",
+        "team": "NFO",
+        "home": "IPS",
+        "away": "NFO",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_77_478.png",
+      "caption": "\ud83d\udd04 SUB! 90' Netz (NFO) is on. IPS 0-0 NFO.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyFootball #FPLCommunity #FantasyPremierLeague #NFO\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-23T22:50:30.339566+00:00"
+    },
+    {
+      "key": "sub:77:482",
+      "story": {
+        "type": "substitution",
+        "key": "sub:77:482",
+        "player": "Hudson-Odoi",
+        "team": "NFO",
+        "home": "IPS",
+        "away": "NFO",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_77_482.png",
+      "caption": "\ud83d\udd04 SUB! 90' Hudson-Odoi (NFO) is on. IPS 0-0 NFO.\n\nDoes this open a chance for a start next week? #FPL #FPLFamily #FPLTwitter #FantasyFootball #NFO\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-23T22:50:30.397833+00:00"
+    },
+    {
+      "key": "sub:77:490",
+      "story": {
+        "type": "substitution",
+        "key": "sub:77:490",
+        "player": "Wood",
+        "team": "NFO",
+        "home": "IPS",
+        "away": "NFO",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_77_490.png",
+      "caption": "\ud83d\udd04 SUB! 90' Wood (NFO) is on. IPS 0-0 NFO.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #FantasyFootball #FantasyPremierLeague #NFO\n\nFollow for the next one.",
+      "queued_at": "2026-10-23T22:50:30.456008+00:00"
+    },
+    {
+      "key": "sub:77:562",
+      "story": {
+        "type": "substitution",
+        "key": "sub:77:562",
+        "player": "Maeda",
+        "team": "IPS",
+        "home": "IPS",
+        "away": "NFO",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_77_562.png",
+      "caption": "\ud83d\udd04 SUB! 90' Maeda (IPS) is on. IPS 0-0 NFO.\n\nWorth watching for a late returns. #FPL #FPLFamily #FantasyFootball #FPLCommunity #IPS\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-23T22:50:30.515179+00:00"
+    },
+    {
+      "key": "sub:77:640",
+      "story": {
+        "type": "substitution",
+        "key": "sub:77:640",
+        "player": "Flemming",
+        "team": "IPS",
+        "home": "IPS",
+        "away": "NFO",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_77_640.png",
+      "caption": "\ud83d\udd04 SUB! 90' Flemming (IPS) is on. IPS 0-0 NFO.\n\nImpact sub, or too little too late? #FPL #FPLTips #FantasyFootball #FPLTwitter #IPS\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-23T22:50:30.573932+00:00"
+    },
+    {
+      "key": "yellow_card:77:259:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:77:259:1",
+        "player": "Diop",
+        "team": "IPS",
+        "home": "IPS",
+        "away": "NFO",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_77_259_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Diop (IPS) is booked. IPS 0-0 NFO.\n\nDoes this change your captaincy call? #FPL #FPLTwitter #FantasyPremierLeague #FPLFamily #IPS\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-23T22:50:30.631965+00:00"
+    },
+    {
+      "key": "yellow_card:77:472:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:77:472:1",
+        "player": "Murillo",
+        "team": "NFO",
+        "home": "IPS",
+        "away": "NFO",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_77_472_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Murillo (NFO) is booked. IPS 0-0 NFO.\n\nDoes this change your captaincy call? #FPL #FPLCommunity #PremierLeague #FPLTips #NFO\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-23T22:50:30.689567+00:00"
+    },
+    {
+      "key": "fulltime:77",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:77",
+        "home": "IPS",
+        "away": "NFO",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_77.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): IPS 0-0 NFO.\n\nAny big returns from this one? #FPL #FPLFamily #FantasyPremierLeague #FPLTwitter\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-23T22:50:30.746525+00:00"
+    },
+    {
+      "key": "bonus:77",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:77",
+        "home": "IPS",
+        "away": "NFO",
+        "score": "0-0",
+        "players": [
+          {
+            "name": "Enciso",
+            "points": 3
+          },
+          {
+            "name": "Mu\u00f1oz",
+            "points": 2
+          },
+          {
+            "name": "McAtee",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_77.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: IPS 0-0 NFO.\nEnciso +3, Mu\u00f1oz +2, McAtee +1.\n\n#FPL #FPLFamily #FPLTwitter #FPLTips #IPSvNFO\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-23T22:50:30.802947+00:00"
+    }
+  ]
 }
