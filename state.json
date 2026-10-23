@@ -10230,6 +10230,12 @@
       "type": "substitution",
       "posted_at": "2026-10-23T22:53:23.879453+00:00",
       "tweet_id": "2113765759675478022"
+    },
+    {
+      "key": "sub:77:490",
+      "type": "substitution",
+      "posted_at": "2026-10-23T22:54:06.520563+00:00",
+      "tweet_id": "2113765938541518853"
     }
   ],
   "form_spotlight": {
@@ -10255,22 +10261,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:77:490",
-      "story": {
-        "type": "substitution",
-        "key": "sub:77:490",
-        "player": "Wood",
-        "team": "NFO",
-        "home": "IPS",
-        "away": "NFO",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_77_490.png",
-      "caption": "\ud83d\udd04 SUB! 90' Wood (NFO) is on. IPS 0-0 NFO.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #FantasyFootball #FantasyPremierLeague #NFO\n\nFollow for the next one.",
-      "queued_at": "2026-10-23T22:50:30.456008+00:00"
-    },
     {
       "key": "sub:77:562",
       "story": {
