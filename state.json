@@ -5357,69 +5357,7 @@
     6,
     7
   ],
-  "pending": [
-    {
-      "key": "injury_batch:6:42ed184fd755",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:6:42ed184fd755",
-        "injuries": [
-          {
-            "pid": "346",
-            "player": "Calvert-Lewin",
-            "team": "LEE",
-            "status": "doubtful",
-            "news": "Foot injury - 50% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "634",
-            "player": "Fernandez-Pardo",
-            "team": "NEW",
-            "status": "doubtful",
-            "news": "Illness - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "515",
-            "player": "Maddison",
-            "team": "TOT",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "336",
-            "player": "Okafor",
-            "team": "LEE",
-            "status": "doubtful",
-            "news": "Thigh injury - 50% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "335",
-            "player": "Stach",
-            "team": "LEE",
-            "status": "doubtful",
-            "news": "Foot injury - 50% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "222",
-            "player": "Strand Larsen",
-            "team": "CRY",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_6_42ed184fd755.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (6):\n\n\ud83d\udea8 Calvert-Lewin (LEE) - doubtful: \"Foot injury - 50% chance of playing\"\n\ud83d\udea8 Fernandez-Pardo (NEW) - doubtful: \"Illness - 75% chance of playing\"\n\ud83d\udea8 Maddison (TOT) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Okafor (LEE) - doubtful: \"Thigh injury - 50% chance of playing\"\n\ud83d\udea8 Stach (LEE) - doubtful: \"Foot injury - 50% chance of playing\"\n\ud83d\udea8 Strand Larsen (CRY) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #PremierLeague #FantasyPremierLeague #FantasyFootball\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-10-23T17:37:50.892904+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5601,7 +5539,8 @@
     "price_batch:2:d4d42b6239b4",
     "form_cold:5:e993c656e21a",
     "deadline:8:24h",
-    "injury_batch:2:b782631de35f"
+    "injury_batch:2:b782631de35f",
+    "injury_batch:6:42ed184fd755"
   ],
   "post_log": [
     {
@@ -6511,6 +6450,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-23T17:04:33.143204+00:00",
       "tweet_id": "2113677969696956829"
+    },
+    {
+      "key": "injury_batch:6:42ed184fd755",
+      "type": "injury_batch",
+      "posted_at": "2026-10-23T20:26:27.867499+00:00",
+      "tweet_id": "2113728782636818571"
     }
   ],
   "live": {
