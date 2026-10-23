@@ -575,7 +575,7 @@
       "team": "BOU",
       "now_cost": 49,
       "status": "i",
-      "news": "Thigh injury - Expected back 8 Nov",
+      "news": "Thigh injury - Expected back 31 Oct",
       "news_added": "2026-08-06T10:00:10.456051Z"
     },
     "64": {
@@ -678,9 +678,9 @@
       "web_name": "T\u00f3th.A",
       "team": "BOU",
       "now_cost": 49,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "i",
+      "news": "Hamstring injury - Unknown return date",
+      "news_added": "2026-10-23T11:30:09.133819Z"
     },
     "77": {
       "web_name": "Adli",
@@ -695,7 +695,7 @@
       "team": "BOU",
       "now_cost": 73,
       "status": "d",
-      "news": "Foot injury - 50% chance of playing",
+      "news": "Foot injury - 75% chance of playing",
       "news_added": "2026-07-29T17:30:09.796802Z"
     },
     "79": {
@@ -1078,8 +1078,8 @@
       "web_name": "Minteh",
       "team": "BHA",
       "now_cost": 58,
-      "status": "i",
-      "news": "Leg injury - Expected back 28 Nov",
+      "status": "d",
+      "news": "Leg injury - 50% chance of playing",
       "news_added": "2026-08-14T18:00:06.418033Z"
     },
     "123": {
@@ -1142,8 +1142,8 @@
       "web_name": "Wieffer",
       "team": "BHA",
       "now_cost": 48,
-      "status": "i",
-      "news": "Knee injury - Unknown return date",
+      "status": "d",
+      "news": "Knee injury - 25% chance of playing",
       "news_added": "2026-09-04T09:30:08.612904Z"
     },
     "132": {
@@ -2422,9 +2422,9 @@
       "web_name": "Smith Rowe",
       "team": "FUL",
       "now_cost": 53,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Knock - 75% chance of playing",
+      "news_added": "2026-10-23T11:30:09.310090Z"
     },
     "263": {
       "web_name": "Kevin",
@@ -2542,8 +2542,8 @@
       "web_name": "Larsson",
       "team": "FUL",
       "now_cost": 50,
-      "status": "d",
-      "news": "Groin injury - 25% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-16T17:30:09.637224Z"
     },
     "636": {
@@ -5347,7 +5347,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-23T07:46:11.253666+00:00",
+  "last_snapshot_at": "2026-10-23T12:56:22.266091+00:00",
   "recapped_events": [
     1,
     2,
@@ -5357,7 +5357,37 @@
     6,
     7
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:2:b782631de35f",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:2:b782631de35f",
+        "injuries": [
+          {
+            "pid": "262",
+            "player": "Smith Rowe",
+            "team": "FUL",
+            "status": "doubtful",
+            "news": "Knock - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "76",
+            "player": "T\u00f3th.A",
+            "team": "BOU",
+            "status": "injured",
+            "news": "Hamstring injury - Unknown return date",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_2_b782631de35f.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Smith Rowe (FUL) - doubtful: \"Knock - 75% chance of playing\"\n\ud83d\udea8 T\u00f3th.A (BOU) - injured: \"Hamstring injury - Unknown return date\"\n\nDoes this wreck your GW plan? #FPL #FPLTwitter #FPLCommunity #FPLFamily\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-10-23T12:56:22.339138+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
