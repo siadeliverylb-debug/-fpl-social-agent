@@ -10224,6 +10224,12 @@
       "type": "substitution",
       "posted_at": "2026-10-23T22:52:41.118667+00:00",
       "tweet_id": "2113765580440318025"
+    },
+    {
+      "key": "sub:77:482",
+      "type": "substitution",
+      "posted_at": "2026-10-23T22:53:23.879453+00:00",
+      "tweet_id": "2113765759675478022"
     }
   ],
   "form_spotlight": {
@@ -10249,22 +10255,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:77:482",
-      "story": {
-        "type": "substitution",
-        "key": "sub:77:482",
-        "player": "Hudson-Odoi",
-        "team": "NFO",
-        "home": "IPS",
-        "away": "NFO",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_77_482.png",
-      "caption": "\ud83d\udd04 SUB! 90' Hudson-Odoi (NFO) is on. IPS 0-0 NFO.\n\nDoes this open a chance for a start next week? #FPL #FPLFamily #FPLTwitter #FantasyFootball #NFO\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-10-23T22:50:30.397833+00:00"
-    },
     {
       "key": "sub:77:490",
       "story": {
