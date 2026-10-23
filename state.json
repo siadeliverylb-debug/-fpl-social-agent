@@ -6674,6 +6674,46 @@
       "70": {
         "started": true,
         "finished_provisional": true
+      },
+      "77": {
+        "started": true,
+        "finished_provisional": false
+      },
+      "72": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "71": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "74": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "73": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "75": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "76": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "78": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "79": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "80": {
+        "started": false,
+        "finished_provisional": false
       }
     },
     "stats": {
@@ -7299,7 +7339,54 @@
       "70:526:assists": 1,
       "70:194:assists": 1,
       "70:176:yellow_cards": 1,
-      "70:183:yellow_cards": 1
+      "70:183:yellow_cards": 1,
+      "77:591:goals_scored": 1,
+      "77:469:goals_scored": 1,
+      "77:201:assists": 1,
+      "77:300:saves": 1,
+      "77:467:saves": 2,
+      "77:591:bonus": 3,
+      "77:619:bonus": 1,
+      "77:201:bonus": 2,
+      "77:591:bps": 28,
+      "77:619:bps": 15,
+      "77:305:bps": 9,
+      "77:571:bps": 9,
+      "77:316:bps": 7,
+      "77:304:bps": 5,
+      "77:300:bps": 3,
+      "77:318:bps": 3,
+      "77:315:bps": 2,
+      "77:592:bps": 1,
+      "77:201:bps": 18,
+      "77:469:bps": 14,
+      "77:558:bps": 10,
+      "77:486:bps": 9,
+      "77:474:bps": 6,
+      "77:480:bps": 6,
+      "77:483:bps": 6,
+      "77:467:bps": 5,
+      "77:472:bps": -1,
+      "77:471:bps": -2,
+      "77:619:defensive_contribution": 9,
+      "77:571:defensive_contribution": 5,
+      "77:259:defensive_contribution": 4,
+      "77:318:defensive_contribution": 3,
+      "77:592:defensive_contribution": 3,
+      "77:304:defensive_contribution": 2,
+      "77:305:defensive_contribution": 2,
+      "77:591:defensive_contribution": 2,
+      "77:315:defensive_contribution": 1,
+      "77:316:defensive_contribution": 1,
+      "77:486:defensive_contribution": 11,
+      "77:558:defensive_contribution": 9,
+      "77:201:defensive_contribution": 5,
+      "77:471:defensive_contribution": 3,
+      "77:480:defensive_contribution": 3,
+      "77:167:defensive_contribution": 1,
+      "77:472:defensive_contribution": 1,
+      "77:474:defensive_contribution": 1,
+      "77:483:defensive_contribution": 1
     },
     "last_goal": {
       "40:h": {
@@ -7733,6 +7820,46 @@
       "70": [
         3,
         1
+      ],
+      "77": [
+        0,
+        0
+      ],
+      "72": [
+        0,
+        0
+      ],
+      "71": [
+        0,
+        0
+      ],
+      "74": [
+        0,
+        0
+      ],
+      "73": [
+        0,
+        0
+      ],
+      "75": [
+        0,
+        0
+      ],
+      "76": [
+        0,
+        0
+      ],
+      "78": [
+        0,
+        0
+      ],
+      "79": [
+        0,
+        0
+      ],
+      "80": [
+        0,
+        0
       ]
     },
     "subs_seen": {
@@ -8126,7 +8253,17 @@
       "63": true,
       "66": true,
       "69": true,
-      "70": true
+      "70": true,
+      "77": true,
+      "72": true,
+      "71": true,
+      "74": true,
+      "73": true,
+      "75": true,
+      "76": true,
+      "78": true,
+      "79": true,
+      "80": true
     },
     "subs_off_seen": {
       "31:34": true,
