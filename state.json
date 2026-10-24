@@ -10425,6 +10425,12 @@
       "type": "substitution",
       "posted_at": "2026-10-24T16:58:10.347864+00:00",
       "tweet_id": "2114038752146268573"
+    },
+    {
+      "key": "sub:71:26",
+      "type": "substitution",
+      "posted_at": "2026-10-24T16:58:53.153154+00:00",
+      "tweet_id": "2114038931721212263"
     }
   ],
   "form_spotlight": {
@@ -10450,22 +10456,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:71:26",
-      "story": {
-        "type": "substitution",
-        "key": "sub:71:26",
-        "player": "Havertz",
-        "team": "ARS",
-        "home": "ARS",
-        "away": "EVE",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_71_26.png",
-      "caption": "\ud83d\udd04 SUB! 90' Havertz (ARS) is on. ARS 0-0 EVE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTips #FPLFamily #FantasyPremierLeague #ARS\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-24T16:55:58.255865+00:00"
-    },
     {
       "key": "sub:71:243",
       "story": {
