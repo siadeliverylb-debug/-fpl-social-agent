@@ -10315,6 +10315,12 @@
       "type": "substitution",
       "posted_at": "2026-10-24T13:40:44.662427+00:00",
       "tweet_id": "2113989067801301152"
+    },
+    {
+      "key": "sub:72:398",
+      "type": "substitution",
+      "posted_at": "2026-10-24T13:41:27.565935+00:00",
+      "tweet_id": "2113989247778824507"
     }
   ],
   "form_spotlight": {
@@ -10340,22 +10346,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:72:398",
-      "story": {
-        "type": "substitution",
-        "key": "sub:72:398",
-        "player": "Foden",
-        "team": "MCI",
-        "home": "AVL",
-        "away": "MCI",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_72_398.png",
-      "caption": "\ud83d\udd04 SUB! 90' Foden (MCI) is on. AVL 0-0 MCI.\n\nImpact sub, or too little too late? #FPL #FPLTwitter #FPLCommunity #FPLTips #MCI\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-10-24T13:38:31.969537+00:00"
-    },
     {
       "key": "sub:72:582",
       "story": {
