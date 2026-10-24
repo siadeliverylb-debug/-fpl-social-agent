@@ -10488,6 +10488,12 @@
       "type": "substitution",
       "posted_at": "2026-10-24T19:10:49.419077+00:00",
       "tweet_id": "2114072134922190964"
+    },
+    {
+      "key": "sub:73:157",
+      "type": "substitution",
+      "posted_at": "2026-10-24T19:11:32.325461+00:00",
+      "tweet_id": "2114072314782322873"
     }
   ],
   "form_spotlight": {
@@ -10513,22 +10519,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:73:157",
-      "story": {
-        "type": "substitution",
-        "key": "sub:73:157",
-        "player": "Est\u00eav\u00e3o",
-        "team": "CHE",
-        "home": "CHE",
-        "away": "TOT",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_73_157.png",
-      "caption": "\ud83d\udd04 SUB! 90' Est\u00eav\u00e3o (CHE) is on. CHE 0-0 TOT.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTwitter #FPLCommunity #PremierLeague #CHE\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-24T19:10:03.538879+00:00"
-    },
     {
       "key": "sub:73:499",
       "story": {
