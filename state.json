@@ -5357,205 +5357,7 @@
     6,
     7
   ],
-  "pending": [
-    {
-      "key": "price_batch:23:4750d0f8705a",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:23:4750d0f8705a",
-        "changes": [
-          {
-            "pid": "426",
-            "player": "B.Fernandes",
-            "team": "MUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 11.7
-          },
-          {
-            "pid": "12",
-            "player": "Saka",
-            "team": "ARS",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 9.5
-          },
-          {
-            "pid": "397",
-            "player": "Semenyo",
-            "team": "MCI",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 8.2
-          },
-          {
-            "pid": "209",
-            "player": "Johnson",
-            "team": "EVE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.8
-          },
-          {
-            "pid": "525",
-            "player": "Fernandes",
-            "team": "TOT",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.6
-          },
-          {
-            "pid": "316",
-            "player": "Emersonn",
-            "team": "IPS",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.5
-          },
-          {
-            "pid": "553",
-            "player": "Isidor",
-            "team": "SUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.4
-          },
-          {
-            "pid": "142",
-            "player": "James",
-            "team": "CHE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.2
-          },
-          {
-            "pid": "164",
-            "player": "Quenda",
-            "team": "CHE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.2
-          },
-          {
-            "pid": "549",
-            "player": "Talbi",
-            "team": "SUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.2
-          },
-          {
-            "pid": "144",
-            "player": "Gusto",
-            "team": "CHE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.8
-          },
-          {
-            "pid": "564",
-            "player": "Scherpen",
-            "team": "IPS",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "496",
-            "player": "Kinsky",
-            "team": "TOT",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "32",
-            "player": "Cash",
-            "team": "AVL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.3
-          },
-          {
-            "pid": "147",
-            "player": "Tosin",
-            "team": "TOT",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.3
-          },
-          {
-            "pid": "502",
-            "player": "Robertson",
-            "team": "TOT",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.3
-          },
-          {
-            "pid": "423",
-            "player": "Shaw",
-            "team": "MUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.2
-          },
-          {
-            "pid": "363",
-            "player": "Leoni",
-            "team": "LIV",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 3.9
-          },
-          {
-            "pid": "156",
-            "player": "Neto",
-            "team": "CHE",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.6
-          },
-          {
-            "pid": "68",
-            "player": "Tavernier",
-            "team": "BOU",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.3
-          },
-          {
-            "pid": "1",
-            "player": "Raya",
-            "team": "ARS",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.2
-          },
-          {
-            "pid": "79",
-            "player": "Evanilson",
-            "team": "BOU",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.2
-          },
-          {
-            "pid": "138",
-            "player": "Kostoulas",
-            "team": "BHA",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.8
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_23_4750d0f8705a.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 18 falls, 5 rises.\n\n\ud83d\udd34 B.Fernandes (MUN) -> \u00a311.7m\n\ud83d\udd34 Saka (ARS) -> \u00a39.5m\n\ud83d\udd34 Semenyo (MCI) -> \u00a38.2m\n\ud83d\udd34 Johnson (EVE) -> \u00a35.8m\n\ud83d\udd34 Fernandes (TOT) -> \u00a35.6m\n\ud83d\udd34 Emersonn (IPS) -> \u00a35.5m\n\ud83d\udd34 Isidor (SUN) -> \u00a35.4m\n\ud83d\udd34 James (CHE) -> \u00a35.2m\n\ud83d\udd34 Quenda (CHE) -> \u00a35.2m\n\ud83d\udd34 Talbi (SUN) -> \u00a35.2m\n\ud83d\udd34 Gusto (CHE) -> \u00a34.8m\n\ud83d\udd34 Scherpen (IPS) -> \u00a34.4m\n\ud83d\udd34 Kinsky (TOT) -> \u00a34.4m\n\ud83d\udd34 Cash (AVL) -> \u00a34.3m\n\ud83d\udd34 Tosin (TOT) -> \u00a34.3m\n\ud83d\udd34 Robertson (TOT) -> \u00a34.3m\n\ud83d\udd34 Shaw (MUN) -> \u00a34.2m\n\ud83d\udd34 Leoni (LIV) -> \u00a33.9m\n\ud83d\udfe2 Neto (CHE) -> \u00a36.6m\n\ud83d\udfe2 Tavernier (BOU) -> \u00a36.3m\n\ud83d\udfe2 Raya (ARS) -> \u00a36.2m\n\ud83d\udfe2 Evanilson (BOU) -> \u00a36.2m\n\ud83d\udfe2 Kostoulas (BHA) -> \u00a35.8m\n\nWinners and losers in your squad? #FPL #FantasyFootball #FPLTwitter #PremierLeague\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-10-23T23:38:08.369301+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5738,7 +5540,8 @@
     "form_cold:5:e993c656e21a",
     "deadline:8:24h",
     "injury_batch:2:b782631de35f",
-    "injury_batch:6:42ed184fd755"
+    "injury_batch:6:42ed184fd755",
+    "price_batch:23:4750d0f8705a"
   ],
   "post_log": [
     {
@@ -6654,6 +6457,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-23T20:26:27.867499+00:00",
       "tweet_id": "2113728782636818571"
+    },
+    {
+      "key": "price_batch:23:4750d0f8705a",
+      "type": "price_changes",
+      "posted_at": "2026-10-24T01:58:47.993357+00:00",
+      "tweet_id": "2113812417612247117"
     }
   ],
   "live": {
