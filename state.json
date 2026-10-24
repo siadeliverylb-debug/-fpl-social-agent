@@ -10413,6 +10413,12 @@
       "type": "substitution",
       "posted_at": "2026-10-24T16:56:44.568149+00:00",
       "tweet_id": "2114038392442753058"
+    },
+    {
+      "key": "sub:71:19",
+      "type": "substitution",
+      "posted_at": "2026-10-24T16:57:27.543578+00:00",
+      "tweet_id": "2114038572432936991"
     }
   ],
   "form_spotlight": {
@@ -10438,22 +10444,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:71:19",
-      "story": {
-        "type": "substitution",
-        "key": "sub:71:19",
-        "player": "Zubimendi",
-        "team": "ARS",
-        "home": "ARS",
-        "away": "EVE",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_71_19.png",
-      "caption": "\ud83d\udd04 SUB! 90' Zubimendi (ARS) is on. ARS 0-0 EVE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #PremierLeague #FPLCommunity #FPLTips #ARS\n\nFollow for the next one.",
-      "queued_at": "2026-10-24T16:55:58.191267+00:00"
-    },
     {
       "key": "sub:71:20",
       "story": {
