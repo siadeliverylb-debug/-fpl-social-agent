@@ -10500,6 +10500,12 @@
       "type": "substitution",
       "posted_at": "2026-10-24T19:12:15.216463+00:00",
       "tweet_id": "2114072494768304140"
+    },
+    {
+      "key": "sub:73:508",
+      "type": "substitution",
+      "posted_at": "2026-10-24T19:12:58.046553+00:00",
+      "tweet_id": "2114072674456461524"
     }
   ],
   "form_spotlight": {
@@ -10525,22 +10531,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:73:508",
-      "story": {
-        "type": "substitution",
-        "key": "sub:73:508",
-        "player": "Davies",
-        "team": "TOT",
-        "home": "CHE",
-        "away": "TOT",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_73_508.png",
-      "caption": "\ud83d\udd04 SUB! 90' Davies (TOT) is on. CHE 0-0 TOT.\n\nDoes this open a chance for a start next week? #FPL #FantasyFootball #FPLTwitter #FPLCommunity #TOT\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-10-24T19:10:03.609998+00:00"
-    },
     {
       "key": "sub:73:519",
       "story": {
