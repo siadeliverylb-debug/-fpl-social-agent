@@ -6646,8 +6646,8 @@
         "finished_provisional": true
       },
       "72": {
-        "started": false,
-        "finished_provisional": false
+        "started": true,
+        "finished_provisional": true
       },
       "71": {
         "started": false,
@@ -7354,7 +7354,20 @@
       "77:474:defensive_contribution": 1,
       "77:483:defensive_contribution": 1,
       "77:259:yellow_cards": 1,
-      "77:472:yellow_cards": 1
+      "77:472:yellow_cards": 1,
+      "72:166:goals_scored": 2,
+      "72:411:goals_scored": 1,
+      "72:45:assists": 1,
+      "72:631:assists": 1,
+      "72:237:assists": 1,
+      "72:32:yellow_cards": 1,
+      "72:41:yellow_cards": 1,
+      "72:53:yellow_cards": 1,
+      "72:582:yellow_cards": 1,
+      "72:388:yellow_cards": 1,
+      "72:399:yellow_cards": 1,
+      "72:481:yellow_cards": 1,
+      "72:621:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -7626,6 +7639,18 @@
         "team": "COV",
         "assisted_by": "Thomas-Asante",
         "score": "3-1"
+      },
+      "72:h": {
+        "player": "N.Jackson",
+        "team": "AVL",
+        "assisted_by": null,
+        "score": "2-0"
+      },
+      "72:a": {
+        "player": "Haaland",
+        "team": "MCI",
+        "assisted_by": "Ndiaye",
+        "score": "2-1"
       }
     },
     "posted_score": {
@@ -7794,8 +7819,8 @@
         0
       ],
       "72": [
-        0,
-        0
+        2,
+        1
       ],
       "71": [
         0,
@@ -8187,7 +8212,15 @@
       "77:482": true,
       "77:490": true,
       "77:562": true,
-      "77:640": true
+      "77:640": true,
+      "72:41": true,
+      "72:46": true,
+      "72:395": true,
+      "72:398": true,
+      "72:582": true,
+      "72:618": true,
+      "72:621": true,
+      "72:631": true
     },
     "subs_baselined": {
       "31": true,
@@ -8476,7 +8509,8 @@
       "66": true,
       "69": true,
       "70": true,
-      "77": true
+      "77": true,
+      "72": true
     },
     "goal_pending": {
       "44:204:goals_scored": {
@@ -10257,6 +10291,12 @@
       "type": "substitution",
       "posted_at": "2026-10-23T22:54:06.520563+00:00",
       "tweet_id": "2113765938541518853"
+    },
+    {
+      "key": "kickoff:72",
+      "type": "kickoff",
+      "posted_at": "2026-10-24T13:38:34.087529+00:00",
+      "tweet_id": "2113988520117428305"
     }
   ],
   "form_spotlight": {
@@ -10281,5 +10321,384 @@
       ]
     }
   },
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "sub:72:41",
+      "story": {
+        "type": "substitution",
+        "key": "sub:72:41",
+        "player": "Buend\u00eda",
+        "team": "AVL",
+        "home": "AVL",
+        "away": "MCI",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_72_41.png",
+      "caption": "\ud83d\udd04 SUB! 90' Buend\u00eda (AVL) is on. AVL 0-0 MCI.\n\nImpact sub, or too little too late? #FPL #FPLTips #FPLFamily #FantasyFootball #AVL\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-24T13:38:31.832768+00:00"
+    },
+    {
+      "key": "sub:72:46",
+      "story": {
+        "type": "substitution",
+        "key": "sub:72:46",
+        "player": "Barkley",
+        "team": "AVL",
+        "home": "AVL",
+        "away": "MCI",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_72_46.png",
+      "caption": "\ud83d\udd04 SUB! 90' Barkley (AVL) is on. AVL 0-0 MCI.\n\nDoes this open a chance for a start next week? #FPL #FPLCommunity #FPLFamily #PremierLeague #AVL\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-24T13:38:31.878144+00:00"
+    },
+    {
+      "key": "sub:72:395",
+      "story": {
+        "type": "substitution",
+        "key": "sub:72:395",
+        "player": "Lewis",
+        "team": "MCI",
+        "home": "AVL",
+        "away": "MCI",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_72_395.png",
+      "caption": "\ud83d\udd04 SUB! 90' Lewis (MCI) is on. AVL 0-0 MCI.\n\nWorth watching for a late returns. #FPL #FPLTwitter #FPLFamily #PremierLeague #MCI\n\nFollow for the next one.",
+      "queued_at": "2026-10-24T13:38:31.923819+00:00"
+    },
+    {
+      "key": "sub:72:398",
+      "story": {
+        "type": "substitution",
+        "key": "sub:72:398",
+        "player": "Foden",
+        "team": "MCI",
+        "home": "AVL",
+        "away": "MCI",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_72_398.png",
+      "caption": "\ud83d\udd04 SUB! 90' Foden (MCI) is on. AVL 0-0 MCI.\n\nImpact sub, or too little too late? #FPL #FPLTwitter #FPLCommunity #FPLTips #MCI\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-24T13:38:31.969537+00:00"
+    },
+    {
+      "key": "sub:72:582",
+      "story": {
+        "type": "substitution",
+        "key": "sub:72:582",
+        "player": "Madjo",
+        "team": "AVL",
+        "home": "AVL",
+        "away": "MCI",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_72_582.png",
+      "caption": "\ud83d\udd04 SUB! 90' Madjo (AVL) is on. AVL 0-0 MCI.\n\nWorth watching for a late returns. #FPL #FPLCommunity #FPLFamily #FantasyPremierLeague #AVL\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-24T13:38:32.015031+00:00"
+    },
+    {
+      "key": "sub:72:618",
+      "story": {
+        "type": "substitution",
+        "key": "sub:72:618",
+        "player": "Goretzka",
+        "team": "AVL",
+        "home": "AVL",
+        "away": "MCI",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_72_618.png",
+      "caption": "\ud83d\udd04 SUB! 90' Goretzka (AVL) is on. AVL 0-0 MCI.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #FantasyFootball #FantasyPremierLeague #AVL\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-24T13:38:32.060940+00:00"
+    },
+    {
+      "key": "sub:72:621",
+      "story": {
+        "type": "substitution",
+        "key": "sub:72:621",
+        "player": "McAidoo",
+        "team": "MCI",
+        "home": "AVL",
+        "away": "MCI",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_72_621.png",
+      "caption": "\ud83d\udd04 SUB! 90' McAidoo (MCI) is on. AVL 0-0 MCI.\n\nWorth watching for a late returns. #FPL #FantasyFootball #FantasyPremierLeague #FPLFamily #MCI\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-24T13:38:32.106785+00:00"
+    },
+    {
+      "key": "sub:72:631",
+      "story": {
+        "type": "substitution",
+        "key": "sub:72:631",
+        "player": "Mbaye",
+        "team": "AVL",
+        "home": "AVL",
+        "away": "MCI",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_72_631.png",
+      "caption": "\ud83d\udd04 SUB! 90' Mbaye (AVL) is on. AVL 0-0 MCI.\n\nWorth watching for a late returns. #FPL #PremierLeague #FPLTips #FantasyPremierLeague #AVL\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-24T13:38:32.153527+00:00"
+    },
+    {
+      "key": "yellow_card:72:32:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:72:32:1",
+        "player": "Cash",
+        "team": "AVL",
+        "home": "AVL",
+        "away": "MCI",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_72_32_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Cash (AVL) is booked. AVL 0-0 MCI.\n\nDoes this change your captaincy call? #FPL #FPLCommunity #FPLFamily #FPLTwitter #AVL\n\nFollow for the next one.",
+      "queued_at": "2026-10-24T13:38:32.199069+00:00"
+    },
+    {
+      "key": "yellow_card:72:41:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:72:41:1",
+        "player": "Buend\u00eda",
+        "team": "AVL",
+        "home": "AVL",
+        "away": "MCI",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_72_41_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Buend\u00eda (AVL) is booked. AVL 0-0 MCI.\n\nDoes this change your captaincy call? #FPL #FantasyFootball #FantasyPremierLeague #FPLTips #AVL\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-24T13:38:32.244369+00:00"
+    },
+    {
+      "key": "yellow_card:72:53:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:72:53:1",
+        "player": "Manzambi",
+        "team": "AVL",
+        "home": "AVL",
+        "away": "MCI",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_72_53_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Manzambi (AVL) is booked. AVL 0-0 MCI.\n\nDoes this change your captaincy call? #FPL #FPLCommunity #FPLTwitter #PremierLeague #AVL\n\nFollow for the next one.",
+      "queued_at": "2026-10-24T13:38:32.290071+00:00"
+    },
+    {
+      "key": "yellow_card:72:582:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:72:582:1",
+        "player": "Madjo",
+        "team": "AVL",
+        "home": "AVL",
+        "away": "MCI",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_72_582_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Madjo (AVL) is booked. AVL 0-0 MCI.\n\nWorth keeping an eye on for next week. #FPL #FPLTwitter #FPLTips #PremierLeague #AVL\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-24T13:38:32.335568+00:00"
+    },
+    {
+      "key": "yellow_card:72:388:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:72:388:1",
+        "player": "Gu\u00e9hi",
+        "team": "MCI",
+        "home": "AVL",
+        "away": "MCI",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_72_388_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Gu\u00e9hi (MCI) is booked. AVL 0-0 MCI.\n\nRisk of a ban building here. #FPL #FPLFamily #FPLTwitter #FantasyFootball #MCI\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-24T13:38:32.381022+00:00"
+    },
+    {
+      "key": "yellow_card:72:399:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:72:399:1",
+        "player": "Cherki",
+        "team": "MCI",
+        "home": "AVL",
+        "away": "MCI",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_72_399_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Cherki (MCI) is booked. AVL 0-0 MCI.\n\nRisk of a ban building here. #FPL #FPLFamily #FPLCommunity #FPLTwitter #MCI\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-24T13:38:32.427472+00:00"
+    },
+    {
+      "key": "yellow_card:72:481:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:72:481:1",
+        "player": "Anderson",
+        "team": "MCI",
+        "home": "AVL",
+        "away": "MCI",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_72_481_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Anderson (MCI) is booked. AVL 0-0 MCI.\n\nWorth keeping an eye on for next week. #FPL #FPLCommunity #FantasyPremierLeague #FPLTips #MCI\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-24T13:38:32.473263+00:00"
+    },
+    {
+      "key": "yellow_card:72:621:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:72:621:1",
+        "player": "McAidoo",
+        "team": "MCI",
+        "home": "AVL",
+        "away": "MCI",
+        "minute": 90,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_72_621_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' McAidoo (MCI) is booked. AVL 0-0 MCI.\n\nDoes this change your captaincy call? #FPL #PremierLeague #FPLCommunity #FPLTips #MCI\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-24T13:38:32.518703+00:00"
+    },
+    {
+      "key": "goal:72:166:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:72:166:1",
+        "player": "N.Jackson",
+        "team": "AVL",
+        "home": "AVL",
+        "away": "MCI",
+        "minute": 90,
+        "score": "1-0"
+      },
+      "image_path": "assets/generated/live_goal_72_166_1.png",
+      "caption": "\u26bd GOAL! 90' N.Jackson (AVL)! AVL 1-0 MCI.\n\nHave him in your team? #FPL #FantasyPremierLeague #FPLFamily #FantasyFootball #AVL\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-24T13:38:32.564740+00:00"
+    },
+    {
+      "key": "goal:72:166:2",
+      "story": {
+        "type": "goal",
+        "key": "goal:72:166:2",
+        "player": "N.Jackson",
+        "team": "AVL",
+        "home": "AVL",
+        "away": "MCI",
+        "minute": 90,
+        "score": "2-0"
+      },
+      "image_path": "assets/generated/live_goal_72_166_2.png",
+      "caption": "\u26bd GOAL! 90' N.Jackson (AVL)! AVL 2-0 MCI.\n\nBig green arrow incoming for whoever owns him. #FPL #FPLTwitter #FPLTips #PremierLeague #AVL\n\nFollow for the next one.",
+      "queued_at": "2026-10-24T13:38:32.609793+00:00"
+    },
+    {
+      "key": "assist:72:45:1",
+      "story": {
+        "type": "assist",
+        "key": "assist:72:45:1",
+        "player": "McGinn",
+        "team": "AVL",
+        "home": "AVL",
+        "away": "MCI",
+        "minute": 90,
+        "score": "2-0"
+      },
+      "image_path": "assets/generated/live_assist_72_45_1.png",
+      "caption": "\ud83c\udfaf ASSIST! 90' McGinn (AVL) with the assist! AVL 2-0 MCI.\n\nAttacking returns keep coming for him. #FPL #FantasyFootball #FPLCommunity #PremierLeague #AVL\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-24T13:38:32.654529+00:00"
+    },
+    {
+      "key": "assist:72:631:1",
+      "story": {
+        "type": "assist",
+        "key": "assist:72:631:1",
+        "player": "Mbaye",
+        "team": "AVL",
+        "home": "AVL",
+        "away": "MCI",
+        "minute": 90,
+        "score": "2-0"
+      },
+      "image_path": "assets/generated/live_assist_72_631_1.png",
+      "caption": "\ud83c\udfaf ASSIST! 90' Mbaye (AVL) with the assist! AVL 2-0 MCI.\n\nUnderrated FPL pick, or expected? #FPL #FPLTips #FPLFamily #PremierLeague #AVL\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-24T13:38:32.699513+00:00"
+    },
+    {
+      "key": "goal:72:411:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:72:411:1",
+        "player": "Haaland",
+        "team": "MCI",
+        "home": "AVL",
+        "away": "MCI",
+        "minute": 90,
+        "score": "2-1",
+        "assisted_by": "Ndiaye"
+      },
+      "image_path": "assets/generated/live_goal_72_411_1.png",
+      "caption": "\u26bd GOAL! 90' Haaland (MCI)! Assisted by Ndiaye. AVL 2-1 MCI.\n\nBig green arrow incoming for whoever owns him. #FPL #FPLTips #FPLCommunity #FPLFamily #MCI\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-24T13:38:32.744969+00:00"
+    },
+    {
+      "key": "fulltime:72",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:72",
+        "home": "AVL",
+        "away": "MCI",
+        "score": "2-1",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_72.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): AVL 2-1 MCI.\n\nAny big returns from this one? #FPL #FPLCommunity #FPLTwitter #FantasyFootball\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-24T13:38:32.789946+00:00"
+    },
+    {
+      "key": "bonus:72",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:72",
+        "home": "AVL",
+        "away": "MCI",
+        "score": "2-1",
+        "players": [
+          {
+            "name": "N.Jackson",
+            "points": 3
+          },
+          {
+            "name": "Haaland",
+            "points": 2
+          },
+          {
+            "name": "McGinn",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_72.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: AVL 2-1 MCI.\nN.Jackson +3, Haaland +2, McGinn +1.\n\n#FPL #FPLCommunity #PremierLeague #FantasyPremierLeague #AVLvMCI\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-24T13:38:32.834740+00:00"
+    }
+  ]
 }
