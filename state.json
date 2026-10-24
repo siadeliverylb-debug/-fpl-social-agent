@@ -10482,6 +10482,12 @@
       "type": "substitution",
       "posted_at": "2026-10-24T19:10:05.363483+00:00",
       "tweet_id": "2114071949949174213"
+    },
+    {
+      "key": "sub:73:152",
+      "type": "substitution",
+      "posted_at": "2026-10-24T19:10:49.419077+00:00",
+      "tweet_id": "2114072134922190964"
     }
   ],
   "form_spotlight": {
@@ -10507,22 +10513,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:73:152",
-      "story": {
-        "type": "substitution",
-        "key": "sub:73:152",
-        "player": "Palestra",
-        "team": "CHE",
-        "home": "CHE",
-        "away": "TOT",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_73_152.png",
-      "caption": "\ud83d\udd04 SUB! 90' Palestra (CHE) is on. CHE 0-0 TOT.\n\nImpact sub, or too little too late? #FPL #PremierLeague #FPLTwitter #FantasyPremierLeague #CHE\n\nFollow for the next one.",
-      "queued_at": "2026-10-24T19:10:03.502079+00:00"
-    },
     {
       "key": "sub:73:157",
       "story": {
