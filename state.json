@@ -398,8 +398,8 @@
       "web_name": "Manzambi",
       "team": "AVL",
       "now_cost": 60,
-      "status": "d",
-      "news": "Calf injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-17T19:30:09.768277Z"
     },
     "54": {
@@ -3766,8 +3766,8 @@
       "web_name": "O'Reilly",
       "team": "MCI",
       "now_cost": 63,
-      "status": "d",
-      "news": "Back injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-19T15:30:09.078291Z"
     },
     "388": {
@@ -3894,8 +3894,8 @@
       "web_name": "Kova\u010di\u0107",
       "team": "MCI",
       "now_cost": 53,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-19T15:30:09.126343Z"
     },
     "407": {
@@ -5347,7 +5347,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-24T07:28:19.298271+00:00",
+  "last_snapshot_at": "2026-10-24T12:08:48.186802+00:00",
   "recapped_events": [
     1,
     2,
@@ -5357,7 +5357,61 @@
     6,
     7
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_hot:5:be454b291182",
+      "story": {
+        "type": "form_hot",
+        "key": "form_hot:5:be454b291182",
+        "players": [
+          {
+            "name": "De Cuyper",
+            "team": "BHA",
+            "form": 7.0,
+            "total_points": 59,
+            "price_millions": 5.3,
+            "selected": 42.2
+          },
+          {
+            "name": "Henderson",
+            "team": "CHE",
+            "form": 7.0,
+            "total_points": 23,
+            "price_millions": 4.9,
+            "selected": 1.4
+          },
+          {
+            "name": "Haaland",
+            "team": "MCI",
+            "form": 6.7,
+            "total_points": 59,
+            "price_millions": 15.7,
+            "selected": 77.5
+          },
+          {
+            "name": "Neto",
+            "team": "CHE",
+            "form": 6.7,
+            "total_points": 34,
+            "price_millions": 6.6,
+            "selected": 3.6
+          },
+          {
+            "name": "Vuskovic",
+            "team": "BHA",
+            "form": 6.3,
+            "total_points": 51,
+            "price_millions": 5.1,
+            "selected": 6.2
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_5_be454b291182.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. De Cuyper (BHA) - 7.0 pts/game, \u00a35.3m\n2. Henderson (CHE) - 7.0 pts/game, \u00a34.9m\n3. Haaland (MCI) - 6.7 pts/game, \u00a315.7m\n4. Neto (CHE) - 6.7 pts/game, \u00a36.6m\n5. Vuskovic (BHA) - 6.3 pts/game, \u00a35.1m\n\nTime to jump on one of them, or too late? #FPL #FantasyPremierLeague #FantasyFootball #PremierLeague\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-10-24T12:08:48.264087+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -10253,10 +10307,10 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-10-22T12:10:15.817991+00:00",
-    "next": "hot",
-    "day": "2026-10-23",
-    "count": 0,
+    "last_at": "2026-10-24T12:08:48.185924+00:00",
+    "next": "cold",
+    "day": "2026-10-24",
+    "count": 1,
     "last_picks": {
       "cold": [
         "Szoboszlai",
@@ -10268,8 +10322,8 @@
       "hot": [
         "De Cuyper",
         "Henderson",
-        "Neto",
         "Haaland",
+        "Neto",
         "Vuskovic"
       ]
     }
