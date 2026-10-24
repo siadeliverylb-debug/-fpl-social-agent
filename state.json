@@ -10494,6 +10494,12 @@
       "type": "substitution",
       "posted_at": "2026-10-24T19:11:32.325461+00:00",
       "tweet_id": "2114072314782322873"
+    },
+    {
+      "key": "sub:73:499",
+      "type": "substitution",
+      "posted_at": "2026-10-24T19:12:15.216463+00:00",
+      "tweet_id": "2114072494768304140"
     }
   ],
   "form_spotlight": {
@@ -10519,22 +10525,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:73:499",
-      "story": {
-        "type": "substitution",
-        "key": "sub:73:499",
-        "player": "Pedro Porro",
-        "team": "TOT",
-        "home": "CHE",
-        "away": "TOT",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_73_499.png",
-      "caption": "\ud83d\udd04 SUB! 90' Pedro Porro (TOT) is on. CHE 0-0 TOT.\n\nWorth watching for a late returns. #FPL #FantasyPremierLeague #FPLTwitter #PremierLeague #TOT\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-24T19:10:03.574378+00:00"
-    },
     {
       "key": "sub:73:508",
       "story": {
