@@ -62,9 +62,9 @@
       "web_name": "Calafiori",
       "team": "ARS",
       "now_cost": 60,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Hip injury - 75% chance of playing",
+      "news_added": "2026-10-24T18:30:08.735545Z"
     },
     "9": {
       "web_name": "Hincapie",
@@ -1478,9 +1478,9 @@
       "web_name": "Jo\u00e3o Pedro",
       "team": "CHE",
       "now_cost": 79,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-16T19:00:09.919929Z"
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-24T16:30:09.687729Z"
     },
     "168": {
       "web_name": "Marc Guiu",
@@ -1598,9 +1598,9 @@
       "web_name": "Thomas",
       "team": "COV",
       "now_cost": 40,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-24T17:00:09.115906Z"
     },
     "174": {
       "web_name": "Kitching",
@@ -5347,7 +5347,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-24T16:07:55.798001+00:00",
+  "last_snapshot_at": "2026-10-24T18:53:20.964419+00:00",
   "recapped_events": [
     1,
     2,
@@ -5357,7 +5357,45 @@
     6,
     7
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:3:d3b274cfc4b3",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:3:d3b274cfc4b3",
+        "injuries": [
+          {
+            "pid": "8",
+            "player": "Calafiori",
+            "team": "ARS",
+            "status": "doubtful",
+            "news": "Hip injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "165",
+            "player": "Jo\u00e3o Pedro",
+            "team": "CHE",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "173",
+            "player": "Thomas",
+            "team": "COV",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_3_d3b274cfc4b3.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (3):\n\n\ud83d\udea8 Calafiori (ARS) - doubtful: \"Hip injury - 75% chance of playing\"\n\ud83d\udea8 Jo\u00e3o Pedro (CHE) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Thomas (COV) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nHow are you covering this one? #FPL #FantasyFootball #FPLTwitter #FPLFamily\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-10-24T18:53:21.036027+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
