@@ -10321,6 +10321,12 @@
       "type": "substitution",
       "posted_at": "2026-10-24T13:41:27.565935+00:00",
       "tweet_id": "2113989247778824507"
+    },
+    {
+      "key": "sub:72:582",
+      "type": "substitution",
+      "posted_at": "2026-10-24T13:42:10.379030+00:00",
+      "tweet_id": "2113989427311804805"
     }
   ],
   "form_spotlight": {
@@ -10346,22 +10352,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:72:582",
-      "story": {
-        "type": "substitution",
-        "key": "sub:72:582",
-        "player": "Madjo",
-        "team": "AVL",
-        "home": "AVL",
-        "away": "MCI",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_72_582.png",
-      "caption": "\ud83d\udd04 SUB! 90' Madjo (AVL) is on. AVL 0-0 MCI.\n\nWorth watching for a late returns. #FPL #FPLCommunity #FPLFamily #FantasyPremierLeague #AVL\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-24T13:38:32.015031+00:00"
-    },
     {
       "key": "sub:72:618",
       "story": {
