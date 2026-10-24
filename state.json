@@ -10303,6 +10303,12 @@
       "type": "substitution",
       "posted_at": "2026-10-24T13:39:18.452415+00:00",
       "tweet_id": "2113988706252238928"
+    },
+    {
+      "key": "sub:72:46",
+      "type": "substitution",
+      "posted_at": "2026-10-24T13:40:01.490053+00:00",
+      "tweet_id": "2113988886741520806"
     }
   ],
   "form_spotlight": {
@@ -10328,22 +10334,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:72:46",
-      "story": {
-        "type": "substitution",
-        "key": "sub:72:46",
-        "player": "Barkley",
-        "team": "AVL",
-        "home": "AVL",
-        "away": "MCI",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_72_46.png",
-      "caption": "\ud83d\udd04 SUB! 90' Barkley (AVL) is on. AVL 0-0 MCI.\n\nDoes this open a chance for a start next week? #FPL #FPLCommunity #FPLFamily #PremierLeague #AVL\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-24T13:38:31.878144+00:00"
-    },
     {
       "key": "sub:72:395",
       "story": {
