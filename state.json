@@ -10419,6 +10419,12 @@
       "type": "substitution",
       "posted_at": "2026-10-24T16:57:27.543578+00:00",
       "tweet_id": "2114038572432936991"
+    },
+    {
+      "key": "sub:71:20",
+      "type": "substitution",
+      "posted_at": "2026-10-24T16:58:10.347864+00:00",
+      "tweet_id": "2114038752146268573"
     }
   ],
   "form_spotlight": {
@@ -10444,22 +10450,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:71:20",
-      "story": {
-        "type": "substitution",
-        "key": "sub:71:20",
-        "player": "Dowman",
-        "team": "ARS",
-        "home": "ARS",
-        "away": "EVE",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_71_20.png",
-      "caption": "\ud83d\udd04 SUB! 90' Dowman (ARS) is on. ARS 0-0 EVE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTips #FantasyPremierLeague #FPLCommunity #ARS\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-10-24T16:55:58.223419+00:00"
-    },
     {
       "key": "sub:71:26",
       "story": {
