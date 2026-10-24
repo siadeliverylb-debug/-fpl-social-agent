@@ -10309,6 +10309,12 @@
       "type": "substitution",
       "posted_at": "2026-10-24T13:40:01.490053+00:00",
       "tweet_id": "2113988886741520806"
+    },
+    {
+      "key": "sub:72:395",
+      "type": "substitution",
+      "posted_at": "2026-10-24T13:40:44.662427+00:00",
+      "tweet_id": "2113989067801301152"
     }
   ],
   "form_spotlight": {
@@ -10334,22 +10340,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:72:395",
-      "story": {
-        "type": "substitution",
-        "key": "sub:72:395",
-        "player": "Lewis",
-        "team": "MCI",
-        "home": "AVL",
-        "away": "MCI",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_72_395.png",
-      "caption": "\ud83d\udd04 SUB! 90' Lewis (MCI) is on. AVL 0-0 MCI.\n\nWorth watching for a late returns. #FPL #FPLTwitter #FPLFamily #PremierLeague #MCI\n\nFollow for the next one.",
-      "queued_at": "2026-10-24T13:38:31.923819+00:00"
-    },
     {
       "key": "sub:72:398",
       "story": {
