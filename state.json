@@ -5367,35 +5367,6 @@
   ],
   "pending": [
     {
-      "key": "injury_batch:2:b295500ba3b3",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:2:b295500ba3b3",
-        "injuries": [
-          {
-            "pid": "515",
-            "player": "Maddison",
-            "team": "TOT",
-            "status": "doubtful",
-            "news": "Groin injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "233",
-            "player": "Mykolenko",
-            "team": "EVE",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_2_b295500ba3b3.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Maddison (TOT) - doubtful: \"Groin injury - 75% chance of playing\"\n\ud83d\udea8 Mykolenko (EVE) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FantasyFootball #FPLCommunity #FPLFamily\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-10-24T21:18:02.580495+00:00",
-      "auto": true
-    },
-    {
       "key": "price_batch:8:39f0a8d6f59a",
       "story": {
         "type": "price_changes",
@@ -5660,7 +5631,8 @@
     "injury_batch:1:e3e097dc79d8",
     "form_hot:5:be454b291182",
     "injury_batch:2:42218d1f1368",
-    "injury_batch:3:d3b274cfc4b3"
+    "injury_batch:3:d3b274cfc4b3",
+    "injury_batch:2:b295500ba3b3"
   ],
   "post_log": [
     {
@@ -6606,6 +6578,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-24T21:38:37.207678+00:00",
       "tweet_id": "2114109329041207372"
+    },
+    {
+      "key": "injury_batch:2:b295500ba3b3",
+      "type": "injury_batch",
+      "posted_at": "2026-10-24T23:43:30.148544+00:00",
+      "tweet_id": "2114140756843860257"
     }
   ],
   "live": {
