@@ -5357,29 +5357,7 @@
     6,
     7
   ],
-  "pending": [
-    {
-      "key": "injury_batch:1:e3e097dc79d8",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:e3e097dc79d8",
-        "injuries": [
-          {
-            "pid": "469",
-            "player": "N.Williams",
-            "team": "NFO",
-            "status": "doubtful",
-            "news": "Arm injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_e3e097dc79d8.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 N.Williams (NFO) - doubtful: \"Arm injury - 75% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #FPLFamily #FPLTwitter #FantasyPremierLeague\n\nFollow for the next one.",
-      "created_at": "2026-10-24T02:21:58.146966+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5563,7 +5541,8 @@
     "deadline:8:24h",
     "injury_batch:2:b782631de35f",
     "injury_batch:6:42ed184fd755",
-    "price_batch:23:4750d0f8705a"
+    "price_batch:23:4750d0f8705a",
+    "injury_batch:1:e3e097dc79d8"
   ],
   "post_log": [
     {
@@ -6485,6 +6464,12 @@
       "type": "price_changes",
       "posted_at": "2026-10-24T01:58:47.993357+00:00",
       "tweet_id": "2113812417612247117"
+    },
+    {
+      "key": "injury_batch:1:e3e097dc79d8",
+      "type": "injury_batch",
+      "posted_at": "2026-10-24T07:16:07.864969+00:00",
+      "tweet_id": "2113892276586045735"
     }
   ],
   "live": {
