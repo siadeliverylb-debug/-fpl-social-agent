@@ -6704,7 +6704,7 @@
       },
       "73": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       },
       "75": {
         "started": false,
@@ -7424,7 +7424,16 @@
       "74:264:goals_scored": 1,
       "74:268:assists": 1,
       "74:254:yellow_cards": 1,
-      "74:580:yellow_cards": 1
+      "74:580:yellow_cards": 1,
+      "73:514:goals_scored": 1,
+      "73:525:assists": 1,
+      "73:560:own_goals": 1,
+      "73:40:yellow_cards": 1,
+      "73:156:yellow_cards": 1,
+      "73:503:yellow_cards": 1,
+      "73:519:yellow_cards": 1,
+      "73:525:yellow_cards": 1,
+      "73:154:red_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -7720,6 +7729,12 @@
         "team": "FUL",
         "assisted_by": "King",
         "score": "0-1"
+      },
+      "73:a": {
+        "player": "Tel",
+        "team": "TOT",
+        "assisted_by": "Fernandes",
+        "score": "0-2"
       }
     },
     "posted_score": {
@@ -7901,7 +7916,7 @@
       ],
       "73": [
         0,
-        0
+        2
       ],
       "75": [
         0,
@@ -8307,7 +8322,15 @@
       "74:492": true,
       "74:570": true,
       "74:584": true,
-      "74:656": true
+      "74:656": true,
+      "73:136": true,
+      "73:152": true,
+      "73:157": true,
+      "73:499": true,
+      "73:508": true,
+      "73:519": true,
+      "73:521": true,
+      "73:526": true
     },
     "subs_baselined": {
       "31": true,
@@ -8599,7 +8622,8 @@
       "77": true,
       "72": true,
       "71": true,
-      "74": true
+      "74": true,
+      "73": true
     },
     "goal_pending": {
       "44:204:goals_scored": {
@@ -10452,6 +10476,12 @@
       "type": "substitution",
       "posted_at": "2026-10-24T16:59:36.044197+00:00",
       "tweet_id": "2114039111547805807"
+    },
+    {
+      "key": "sub:73:136",
+      "type": "substitution",
+      "posted_at": "2026-10-24T19:10:05.363483+00:00",
+      "tweet_id": "2114071949949174213"
     }
   ],
   "form_spotlight": {
@@ -10478,495 +10508,286 @@
   },
   "live_queue": [
     {
-      "key": "sub:71:245",
+      "key": "sub:73:152",
       "story": {
         "type": "substitution",
-        "key": "sub:71:245",
-        "player": "Dibling",
-        "team": "EVE",
-        "home": "ARS",
-        "away": "EVE",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_71_245.png",
-      "caption": "\ud83d\udd04 SUB! 90' Dibling (EVE) is on. ARS 0-0 EVE.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #FPLFamily #PremierLeague #EVE\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-10-24T16:55:58.322701+00:00"
-    },
-    {
-      "key": "sub:71:247",
-      "story": {
-        "type": "substitution",
-        "key": "sub:71:247",
-        "player": "Hackney",
-        "team": "EVE",
-        "home": "ARS",
-        "away": "EVE",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_71_247.png",
-      "caption": "\ud83d\udd04 SUB! 90' Hackney (EVE) is on. ARS 0-0 EVE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTwitter #FantasyPremierLeague #FPLTips #EVE\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-10-24T16:55:58.355449+00:00"
-    },
-    {
-      "key": "sub:71:452",
-      "story": {
-        "type": "substitution",
-        "key": "sub:71:452",
-        "player": "Bruno G.",
-        "team": "ARS",
-        "home": "ARS",
-        "away": "EVE",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_71_452.png",
-      "caption": "\ud83d\udd04 SUB! 90' Bruno G. (ARS) is on. ARS 0-0 EVE.\n\nWorth watching for a late returns. #FPL #FantasyFootball #FantasyPremierLeague #FPLTips #ARS\n\nFollow for the next one.",
-      "queued_at": "2026-10-24T16:55:58.388093+00:00"
-    },
-    {
-      "key": "yellow_card:71:7:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:71:7:1",
-        "player": "Lewis-Skelly",
-        "team": "ARS",
-        "home": "ARS",
-        "away": "EVE",
-        "minute": 90,
-        "score": "0-0"
-      },
-      "image_path": "assets/generated/live_yellow_card_71_7_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Lewis-Skelly (ARS) is booked. ARS 0-0 EVE.\n\nRisk of a ban building here. #FPL #FantasyFootball #FPLTwitter #FPLCommunity #ARS\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-24T16:55:58.420977+00:00"
-    },
-    {
-      "key": "yellow_card:71:229:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:71:229:1",
-        "player": "Tarkowski",
-        "team": "EVE",
-        "home": "ARS",
-        "away": "EVE",
-        "minute": 90,
-        "score": "0-0"
-      },
-      "image_path": "assets/generated/live_yellow_card_71_229_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Tarkowski (EVE) is booked. ARS 0-0 EVE.\n\nDoes this change your captaincy call? #FPL #PremierLeague #FPLFamily #FantasyFootball #EVE\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-24T16:55:58.453773+00:00"
-    },
-    {
-      "key": "yellow_card:71:233:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:71:233:1",
-        "player": "Mykolenko",
-        "team": "EVE",
-        "home": "ARS",
-        "away": "EVE",
-        "minute": 90,
-        "score": "0-0"
-      },
-      "image_path": "assets/generated/live_yellow_card_71_233_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Mykolenko (EVE) is booked. ARS 0-0 EVE.\n\nRisk of a ban building here. #FPL #FantasyFootball #FPLFamily #PremierLeague #EVE\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-24T16:55:58.486570+00:00"
-    },
-    {
-      "key": "yellow_card:71:239:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:71:239:1",
-        "player": "Garner",
-        "team": "EVE",
-        "home": "ARS",
-        "away": "EVE",
-        "minute": 90,
-        "score": "0-0"
-      },
-      "image_path": "assets/generated/live_yellow_card_71_239_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Garner (EVE) is booked. ARS 0-0 EVE.\n\nDoes this change your captaincy call? #FPL #FantasyFootball #FPLTwitter #FantasyPremierLeague #EVE\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-10-24T16:55:58.519712+00:00"
-    },
-    {
-      "key": "goal:71:4:1",
-      "story": {
-        "type": "goal",
-        "key": "goal:71:4:1",
-        "player": "Gabriel",
-        "team": "ARS",
-        "home": "ARS",
-        "away": "EVE",
-        "minute": 90,
-        "score": "1-0"
-      },
-      "image_path": "assets/generated/live_goal_71_4_1.png",
-      "caption": "\u26bd GOAL! 90' Gabriel (ARS)! ARS 1-0 EVE.\n\nNailed on captain material? #FPL #FantasyPremierLeague #PremierLeague #FPLCommunity #ARS\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-24T16:55:58.556051+00:00"
-    },
-    {
-      "key": "goal:71:31:1",
-      "story": {
-        "type": "goal",
-        "key": "goal:71:31:1",
-        "player": "Konsa",
-        "team": "ARS",
-        "home": "ARS",
-        "away": "EVE",
-        "minute": 90,
-        "score": "2-0"
-      },
-      "image_path": "assets/generated/live_goal_71_31_1.png",
-      "caption": "\u26bd GOAL! 90' Konsa (ARS)! ARS 2-0 EVE.\n\nWho's benefiting from that in FPL? #FPL #FantasyPremierLeague #FPLTips #PremierLeague #ARS\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-24T16:55:58.588479+00:00"
-    },
-    {
-      "key": "assist:71:10:1",
-      "story": {
-        "type": "assist",
-        "key": "assist:71:10:1",
-        "player": "White",
-        "team": "ARS",
-        "home": "ARS",
-        "away": "EVE",
-        "minute": 90,
-        "score": "2-0"
-      },
-      "image_path": "assets/generated/live_assist_71_10_1.png",
-      "caption": "\ud83c\udfaf ASSIST! 90' White (ARS) with the assist! ARS 2-0 EVE.\n\nAttacking returns keep coming for him. #FPL #FPLTips #FPLCommunity #FantasyFootball #ARS\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-24T16:55:58.620915+00:00"
-    },
-    {
-      "key": "assist:71:25:1",
-      "story": {
-        "type": "assist",
-        "key": "assist:71:25:1",
-        "player": "Gy\u00f6keres",
-        "team": "ARS",
-        "home": "ARS",
-        "away": "EVE",
-        "minute": 90,
-        "score": "2-0"
-      },
-      "image_path": "assets/generated/live_assist_71_25_1.png",
-      "caption": "\ud83c\udfaf ASSIST! 90' Gy\u00f6keres (ARS) with the assist! ARS 2-0 EVE.\n\nAttacking returns keep coming for him. #FPL #FPLTwitter #PremierLeague #FPLFamily #ARS\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-24T16:55:58.654631+00:00"
-    },
-    {
-      "key": "fulltime:71",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:71",
-        "home": "ARS",
-        "away": "EVE",
-        "score": "2-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_71.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): ARS 2-0 EVE.\n\nHow did your FPL assets do? #FPL #PremierLeague #FantasyPremierLeague #FPLTips\n\nFollow for the next one.",
-      "queued_at": "2026-10-24T16:55:58.687217+00:00"
-    },
-    {
-      "key": "bonus:71",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:71",
-        "home": "ARS",
-        "away": "EVE",
-        "score": "2-0",
-        "players": [
-          {
-            "name": "Konsa",
-            "points": 3
-          },
-          {
-            "name": "Gabriel",
-            "points": 2
-          },
-          {
-            "name": "White",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_71.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: ARS 2-0 EVE.\nKonsa +3, Gabriel +2, White +1.\n\n#FPL #FPLTips #FPLCommunity #PremierLeague #ARSvEVE\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-10-24T16:55:58.719036+00:00"
-    },
-    {
-      "key": "kickoff:74",
-      "story": {
-        "type": "kickoff",
-        "key": "kickoff:74",
-        "home": "COV",
-        "away": "FUL"
-      },
-      "image_path": "assets/generated/live_kickoff_74.png",
-      "caption": "\u26bd KICK-OFF: COV vs FUL.\n\nWho are you backing for returns? #FPL #PremierLeague #FantasyFootball #FPLCommunity\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-24T16:55:58.751053+00:00"
-    },
-    {
-      "key": "sub:74:104",
-      "story": {
-        "type": "substitution",
-        "key": "sub:74:104",
-        "player": "Onyeka",
-        "team": "COV",
-        "home": "COV",
-        "away": "FUL",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_74_104.png",
-      "caption": "\ud83d\udd04 SUB! 90' Onyeka (COV) is on. COV 0-0 FUL.\n\nImpact sub, or too little too late? #FPL #FPLTips #FantasyPremierLeague #PremierLeague #COV\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-24T16:55:58.783643+00:00"
-    },
-    {
-      "key": "sub:74:186",
-      "story": {
-        "type": "substitution",
-        "key": "sub:74:186",
-        "player": "Mason-Clark",
-        "team": "COV",
-        "home": "COV",
-        "away": "FUL",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_74_186.png",
-      "caption": "\ud83d\udd04 SUB! 90' Mason-Clark (COV) is on. COV 0-0 FUL.\n\nWorth watching for a late returns. #FPL #PremierLeague #FantasyFootball #FPLCommunity #COV\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-24T16:55:58.816420+00:00"
-    },
-    {
-      "key": "sub:74:256",
-      "story": {
-        "type": "substitution",
-        "key": "sub:74:256",
-        "player": "Tete",
-        "team": "FUL",
-        "home": "COV",
-        "away": "FUL",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_74_256.png",
-      "caption": "\ud83d\udd04 SUB! 90' Tete (FUL) is on. COV 0-0 FUL.\n\nDoes this open a chance for a start next week? #FPL #FPLCommunity #FantasyFootball #FPLFamily #FUL\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-24T16:55:58.848689+00:00"
-    },
-    {
-      "key": "sub:74:265",
-      "story": {
-        "type": "substitution",
-        "key": "sub:74:265",
-        "player": "Berge",
-        "team": "FUL",
-        "home": "COV",
-        "away": "FUL",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_74_265.png",
-      "caption": "\ud83d\udd04 SUB! 90' Berge (FUL) is on. COV 0-0 FUL.\n\nWorth watching for a late returns. #FPL #FPLFamily #PremierLeague #FantasyPremierLeague #FUL\n\nFollow for the next one.",
-      "queued_at": "2026-10-24T16:55:58.880993+00:00"
-    },
-    {
-      "key": "sub:74:266",
-      "story": {
-        "type": "substitution",
-        "key": "sub:74:266",
-        "player": "Cairney",
-        "team": "FUL",
-        "home": "COV",
-        "away": "FUL",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_74_266.png",
-      "caption": "\ud83d\udd04 SUB! 90' Cairney (FUL) is on. COV 0-0 FUL.\n\nDoes this open a chance for a start next week? #FPL #FPLCommunity #FPLTwitter #FantasyFootball #FUL\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-10-24T16:55:58.913674+00:00"
-    },
-    {
-      "key": "sub:74:271",
-      "story": {
-        "type": "substitution",
-        "key": "sub:74:271",
-        "player": "Muniz",
-        "team": "FUL",
-        "home": "COV",
-        "away": "FUL",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_74_271.png",
-      "caption": "\ud83d\udd04 SUB! 90' Muniz (FUL) is on. COV 0-0 FUL.\n\nWorth watching for a late returns. #FPL #FPLFamily #PremierLeague #FantasyPremierLeague #FUL\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-10-24T16:55:58.945965+00:00"
-    },
-    {
-      "key": "sub:74:492",
-      "story": {
-        "type": "substitution",
-        "key": "sub:74:492",
-        "player": "Awoniyi",
-        "team": "COV",
-        "home": "COV",
-        "away": "FUL",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_74_492.png",
-      "caption": "\ud83d\udd04 SUB! 90' Awoniyi (COV) is on. COV 0-0 FUL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FantasyPremierLeague #FPLTwitter #COV\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-10-24T16:55:58.978494+00:00"
-    },
-    {
-      "key": "sub:74:570",
-      "story": {
-        "type": "substitution",
-        "key": "sub:74:570",
-        "player": "Palacios",
-        "team": "FUL",
-        "home": "COV",
-        "away": "FUL",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_74_570.png",
-      "caption": "\ud83d\udd04 SUB! 90' Palacios (FUL) is on. COV 0-0 FUL.\n\nDoes this open a chance for a start next week? #FPL #PremierLeague #FPLTips #FantasyFootball #FUL\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-24T16:55:59.010808+00:00"
-    },
-    {
-      "key": "sub:74:584",
-      "story": {
-        "type": "substitution",
-        "key": "sub:74:584",
-        "player": "Hamer",
-        "team": "COV",
-        "home": "COV",
-        "away": "FUL",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_74_584.png",
-      "caption": "\ud83d\udd04 SUB! 90' Hamer (COV) is on. COV 0-0 FUL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyPremierLeague #FPLFamily #PremierLeague #COV\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-10-24T16:55:59.043292+00:00"
-    },
-    {
-      "key": "sub:74:656",
-      "story": {
-        "type": "substitution",
-        "key": "sub:74:656",
-        "player": "Mfuni",
-        "team": "COV",
-        "home": "COV",
-        "away": "FUL",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_74_656.png",
-      "caption": "\ud83d\udd04 SUB! 90' Mfuni (COV) is on. COV 0-0 FUL.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FPLTwitter #FantasyFootball #COV\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-24T16:55:59.077575+00:00"
-    },
-    {
-      "key": "yellow_card:74:254:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:74:254:1",
-        "player": "Robinson",
-        "team": "FUL",
-        "home": "COV",
-        "away": "FUL",
-        "minute": 90,
-        "score": "0-0"
-      },
-      "image_path": "assets/generated/live_yellow_card_74_254_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Robinson (FUL) is booked. COV 0-0 FUL.\n\nDoes this change your captaincy call? #FPL #FPLTwitter #PremierLeague #FPLTips #FUL\n\nFollow for the next one.",
-      "queued_at": "2026-10-24T16:55:59.111170+00:00"
-    },
-    {
-      "key": "yellow_card:74:580:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:74:580:1",
-        "player": "Charles",
-        "team": "FUL",
-        "home": "COV",
-        "away": "FUL",
-        "minute": 90,
-        "score": "0-0"
-      },
-      "image_path": "assets/generated/live_yellow_card_74_580_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Charles (FUL) is booked. COV 0-0 FUL.\n\nRisk of a ban building here. #FPL #FantasyFootball #PremierLeague #FPLTips #FUL\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-10-24T16:55:59.144526+00:00"
-    },
-    {
-      "key": "goal:74:264:1",
-      "story": {
-        "type": "goal",
-        "key": "goal:74:264:1",
-        "player": "Bobb",
-        "team": "FUL",
-        "home": "COV",
-        "away": "FUL",
-        "minute": 90,
-        "score": "0-1",
-        "assisted_by": "King"
-      },
-      "image_path": "assets/generated/live_goal_74_264_1.png",
-      "caption": "\u26bd GOAL! 90' Bobb (FUL)! Assisted by King. COV 0-1 FUL.\n\nHave him in your team? #FPL #FantasyFootball #FPLFamily #FantasyPremierLeague #FUL\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-24T16:55:59.177608+00:00"
-    },
-    {
-      "key": "fulltime:74",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:74",
-        "home": "COV",
-        "away": "FUL",
-        "score": "0-1",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_74.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): COV 0-1 FUL.\n\nAny big returns from this one? #FPL #FantasyPremierLeague #FPLTips #FantasyFootball\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-24T16:55:59.209801+00:00"
-    },
-    {
-      "key": "bonus:74",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:74",
-        "home": "COV",
-        "away": "FUL",
-        "score": "0-1",
-        "players": [
-          {
-            "name": "Bobb",
-            "points": 3
-          },
-          {
-            "name": "Leno",
-            "points": 2
-          },
-          {
-            "name": "Castagne",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_74.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: COV 0-1 FUL.\nBobb +3, Leno +2, Castagne +1.\n\n#FPL #PremierLeague #FantasyPremierLeague #FPLTips #COVvFUL\n\nFollow for the next one.",
-      "queued_at": "2026-10-24T16:55:59.241630+00:00"
-    },
-    {
-      "key": "kickoff:73",
-      "story": {
-        "type": "kickoff",
-        "key": "kickoff:73",
+        "key": "sub:73:152",
+        "player": "Palestra",
+        "team": "CHE",
         "home": "CHE",
-        "away": "TOT"
+        "away": "TOT",
+        "score": "0-0",
+        "minute": 90
       },
-      "image_path": "assets/generated/live_kickoff_73.png",
-      "caption": "\u26bd KICK-OFF: CHE vs TOT.\n\nWho are you backing for returns? #FPL #FPLTips #FPLTwitter #FPLFamily\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-10-24T16:55:59.274148+00:00"
+      "image_path": "assets/generated/live_sub_73_152.png",
+      "caption": "\ud83d\udd04 SUB! 90' Palestra (CHE) is on. CHE 0-0 TOT.\n\nImpact sub, or too little too late? #FPL #PremierLeague #FPLTwitter #FantasyPremierLeague #CHE\n\nFollow for the next one.",
+      "queued_at": "2026-10-24T19:10:03.502079+00:00"
+    },
+    {
+      "key": "sub:73:157",
+      "story": {
+        "type": "substitution",
+        "key": "sub:73:157",
+        "player": "Est\u00eav\u00e3o",
+        "team": "CHE",
+        "home": "CHE",
+        "away": "TOT",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_73_157.png",
+      "caption": "\ud83d\udd04 SUB! 90' Est\u00eav\u00e3o (CHE) is on. CHE 0-0 TOT.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTwitter #FPLCommunity #PremierLeague #CHE\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-24T19:10:03.538879+00:00"
+    },
+    {
+      "key": "sub:73:499",
+      "story": {
+        "type": "substitution",
+        "key": "sub:73:499",
+        "player": "Pedro Porro",
+        "team": "TOT",
+        "home": "CHE",
+        "away": "TOT",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_73_499.png",
+      "caption": "\ud83d\udd04 SUB! 90' Pedro Porro (TOT) is on. CHE 0-0 TOT.\n\nWorth watching for a late returns. #FPL #FantasyPremierLeague #FPLTwitter #PremierLeague #TOT\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-24T19:10:03.574378+00:00"
+    },
+    {
+      "key": "sub:73:508",
+      "story": {
+        "type": "substitution",
+        "key": "sub:73:508",
+        "player": "Davies",
+        "team": "TOT",
+        "home": "CHE",
+        "away": "TOT",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_73_508.png",
+      "caption": "\ud83d\udd04 SUB! 90' Davies (TOT) is on. CHE 0-0 TOT.\n\nDoes this open a chance for a start next week? #FPL #FantasyFootball #FPLTwitter #FPLCommunity #TOT\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-24T19:10:03.609998+00:00"
+    },
+    {
+      "key": "sub:73:519",
+      "story": {
+        "type": "substitution",
+        "key": "sub:73:519",
+        "player": "Gallagher",
+        "team": "TOT",
+        "home": "CHE",
+        "away": "TOT",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_73_519.png",
+      "caption": "\ud83d\udd04 SUB! 90' Gallagher (TOT) is on. CHE 0-0 TOT.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyFootball #FPLTips #PremierLeague #TOT\n\nFollow for the next one.",
+      "queued_at": "2026-10-24T19:10:03.645287+00:00"
+    },
+    {
+      "key": "sub:73:521",
+      "story": {
+        "type": "substitution",
+        "key": "sub:73:521",
+        "player": "Kulusevski",
+        "team": "TOT",
+        "home": "CHE",
+        "away": "TOT",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_73_521.png",
+      "caption": "\ud83d\udd04 SUB! 90' Kulusevski (TOT) is on. CHE 0-0 TOT.\n\nImpact sub, or too little too late? #FPL #PremierLeague #FantasyPremierLeague #FPLCommunity #TOT\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-24T19:10:03.693893+00:00"
+    },
+    {
+      "key": "sub:73:526",
+      "story": {
+        "type": "substitution",
+        "key": "sub:73:526",
+        "player": "Solanke",
+        "team": "TOT",
+        "home": "CHE",
+        "away": "TOT",
+        "score": "0-0",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_sub_73_526.png",
+      "caption": "\ud83d\udd04 SUB! 90' Solanke (TOT) is on. CHE 0-0 TOT.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #FPLFamily #FPLTips #TOT\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-24T19:10:03.728572+00:00"
+    },
+    {
+      "key": "own_goal:73:560:1",
+      "story": {
+        "type": "own_goal",
+        "key": "own_goal:73:560:1",
+        "player": "Penders",
+        "team": "CHE",
+        "home": "CHE",
+        "away": "TOT",
+        "minute": 90,
+        "score": "0-1"
+      },
+      "image_path": "assets/generated/live_own_goal_73_560_1.png",
+      "caption": "\ud83d\udea8 OWN GOAL! 90' Penders (CHE). CHE 0-1 TOT.\n\nUnlucky stat for anyone with him at the back. #FPL #FPLTips #PremierLeague #FantasyPremierLeague #CHE\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-24T19:10:03.763216+00:00"
+    },
+    {
+      "key": "yellow_card:73:40:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:73:40:1",
+        "player": "Rogers",
+        "team": "CHE",
+        "home": "CHE",
+        "away": "TOT",
+        "minute": 90,
+        "score": "0-1"
+      },
+      "image_path": "assets/generated/live_yellow_card_73_40_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Rogers (CHE) is booked. CHE 0-1 TOT.\n\nRisk of a ban building here. #FPL #PremierLeague #FPLCommunity #FantasyFootball #CHE\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-24T19:10:03.797936+00:00"
+    },
+    {
+      "key": "yellow_card:73:156:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:73:156:1",
+        "player": "Neto",
+        "team": "CHE",
+        "home": "CHE",
+        "away": "TOT",
+        "minute": 90,
+        "score": "0-1"
+      },
+      "image_path": "assets/generated/live_yellow_card_73_156_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Neto (CHE) is booked. CHE 0-1 TOT.\n\nWorth keeping an eye on for next week. #FPL #FPLCommunity #FantasyPremierLeague #FantasyFootball #CHE\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-24T19:10:03.833614+00:00"
+    },
+    {
+      "key": "yellow_card:73:503:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:73:503:1",
+        "player": "Van de Ven",
+        "team": "TOT",
+        "home": "CHE",
+        "away": "TOT",
+        "minute": 90,
+        "score": "0-1"
+      },
+      "image_path": "assets/generated/live_yellow_card_73_503_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Van de Ven (TOT) is booked. CHE 0-1 TOT.\n\nWorth keeping an eye on for next week. #FPL #FantasyFootball #FantasyPremierLeague #FPLCommunity #TOT\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-24T19:10:03.868730+00:00"
+    },
+    {
+      "key": "yellow_card:73:519:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:73:519:1",
+        "player": "Gallagher",
+        "team": "TOT",
+        "home": "CHE",
+        "away": "TOT",
+        "minute": 90,
+        "score": "0-1"
+      },
+      "image_path": "assets/generated/live_yellow_card_73_519_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Gallagher (TOT) is booked. CHE 0-1 TOT.\n\nRisk of a ban building here. #FPL #FPLCommunity #FantasyPremierLeague #PremierLeague #TOT\n\nFollow for the next one.",
+      "queued_at": "2026-10-24T19:10:03.904931+00:00"
+    },
+    {
+      "key": "yellow_card:73:525:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:73:525:1",
+        "player": "Fernandes",
+        "team": "TOT",
+        "home": "CHE",
+        "away": "TOT",
+        "minute": 90,
+        "score": "0-1"
+      },
+      "image_path": "assets/generated/live_yellow_card_73_525_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Fernandes (TOT) is booked. CHE 0-1 TOT.\n\nRisk of a ban building here. #FPL #FPLCommunity #FantasyFootball #FPLFamily #TOT\n\nFollow for the next one.",
+      "queued_at": "2026-10-24T19:10:03.939800+00:00"
+    },
+    {
+      "key": "red_card:73:154:1",
+      "story": {
+        "type": "red_card",
+        "key": "red_card:73:154:1",
+        "player": "Palmer",
+        "team": "CHE",
+        "home": "CHE",
+        "away": "TOT",
+        "minute": 90,
+        "score": "0-1"
+      },
+      "image_path": "assets/generated/live_red_card_73_154_1.png",
+      "caption": "\ud83d\udfe5 RED CARD! 90' Palmer (CHE) is sent off! CHE 0-1 TOT.\n\nBig blow for their FPL assets this week. #FPL #FantasyFootball #FPLCommunity #PremierLeague #CHE\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-24T19:10:03.973592+00:00"
+    },
+    {
+      "key": "goal:73:514:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:73:514:1",
+        "player": "Tel",
+        "team": "TOT",
+        "home": "CHE",
+        "away": "TOT",
+        "minute": 90,
+        "score": "0-2",
+        "assisted_by": "Fernandes"
+      },
+      "image_path": "assets/generated/live_goal_73_514_1.png",
+      "caption": "\u26bd GOAL! 90' Tel (TOT)! Assisted by Fernandes. CHE 0-2 TOT.\n\nHave him in your team? #FPL #FPLTwitter #FantasyFootball #FantasyPremierLeague #TOT\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-24T19:10:04.008934+00:00"
+    },
+    {
+      "key": "fulltime:73",
+      "story": {
+        "type": "full_time",
+        "key": "fulltime:73",
+        "home": "CHE",
+        "away": "TOT",
+        "score": "0-2",
+        "minute": 90
+      },
+      "image_path": "assets/generated/live_fulltime_73.png",
+      "caption": "\ud83d\udccb FULL-TIME (90'): CHE 0-2 TOT.\n\nAny big returns from this one? #FPL #FPLFamily #FPLCommunity #FPLTwitter\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-24T19:10:04.043493+00:00"
+    },
+    {
+      "key": "bonus:73",
+      "story": {
+        "type": "bonus_points",
+        "key": "bonus:73",
+        "home": "CHE",
+        "away": "TOT",
+        "score": "0-2",
+        "players": [
+          {
+            "name": "Tel",
+            "points": 3
+          },
+          {
+            "name": "Kinsky",
+            "points": 2
+          },
+          {
+            "name": "Van Hecke",
+            "points": 1
+          }
+        ]
+      },
+      "image_path": "assets/generated/live_bonus_73.png",
+      "caption": "\ud83c\udf81 BONUS POINTS confirmed: CHE 0-2 TOT.\nTel +3, Kinsky +2, Van Hecke +1.\n\n#FPL #FPLTwitter #FPLFamily #FantasyFootball #CHEvTOT\n\nFollow for the next one.",
+      "queued_at": "2026-10-24T19:10:04.076490+00:00"
     }
   ]
 }
