@@ -5357,37 +5357,7 @@
     6,
     7
   ],
-  "pending": [
-    {
-      "key": "injury_batch:2:42218d1f1368",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:2:42218d1f1368",
-        "injuries": [
-          {
-            "pid": "487",
-            "player": "Dominguez",
-            "team": "NFO",
-            "status": "doubtful",
-            "news": "Muscular injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "238",
-            "player": "Grealish",
-            "team": "EVE",
-            "status": "doubtful",
-            "news": "Illness - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_2_42218d1f1368.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Dominguez (NFO) - doubtful: \"Muscular injury - 75% chance of playing\"\n\ud83d\udea8 Grealish (EVE) - doubtful: \"Illness - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FPLFamily #FPLCommunity #FantasyFootball\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-10-24T16:07:55.852778+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5573,7 +5543,8 @@
     "injury_batch:6:42ed184fd755",
     "price_batch:23:4750d0f8705a",
     "injury_batch:1:e3e097dc79d8",
-    "form_hot:5:be454b291182"
+    "form_hot:5:be454b291182",
+    "injury_batch:2:42218d1f1368"
   ],
   "post_log": [
     {
@@ -6507,6 +6478,12 @@
       "type": "form_hot",
       "posted_at": "2026-10-24T12:13:47.653042+00:00",
       "tweet_id": "2113967185731154098"
+    },
+    {
+      "key": "injury_batch:2:42218d1f1368",
+      "type": "injury_batch",
+      "posted_at": "2026-10-24T18:46:45.775773+00:00",
+      "tweet_id": "2114066079785930948"
     }
   ],
   "live": {
