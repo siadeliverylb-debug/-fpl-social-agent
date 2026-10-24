@@ -10506,6 +10506,12 @@
       "type": "substitution",
       "posted_at": "2026-10-24T19:12:58.046553+00:00",
       "tweet_id": "2114072674456461524"
+    },
+    {
+      "key": "sub:73:519",
+      "type": "substitution",
+      "posted_at": "2026-10-24T19:13:41.164522+00:00",
+      "tweet_id": "2114072855260385312"
     }
   ],
   "form_spotlight": {
@@ -10531,22 +10537,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:73:519",
-      "story": {
-        "type": "substitution",
-        "key": "sub:73:519",
-        "player": "Gallagher",
-        "team": "TOT",
-        "home": "CHE",
-        "away": "TOT",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_73_519.png",
-      "caption": "\ud83d\udd04 SUB! 90' Gallagher (TOT) is on. CHE 0-0 TOT.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyFootball #FPLTips #PremierLeague #TOT\n\nFollow for the next one.",
-      "queued_at": "2026-10-24T19:10:03.645287+00:00"
-    },
     {
       "key": "sub:73:521",
       "story": {
