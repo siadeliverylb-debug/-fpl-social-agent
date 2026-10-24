@@ -10297,6 +10297,12 @@
       "type": "kickoff",
       "posted_at": "2026-10-24T13:38:34.087529+00:00",
       "tweet_id": "2113988520117428305"
+    },
+    {
+      "key": "sub:72:41",
+      "type": "substitution",
+      "posted_at": "2026-10-24T13:39:18.452415+00:00",
+      "tweet_id": "2113988706252238928"
     }
   ],
   "form_spotlight": {
@@ -10322,22 +10328,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:72:41",
-      "story": {
-        "type": "substitution",
-        "key": "sub:72:41",
-        "player": "Buend\u00eda",
-        "team": "AVL",
-        "home": "AVL",
-        "away": "MCI",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_72_41.png",
-      "caption": "\ud83d\udd04 SUB! 90' Buend\u00eda (AVL) is on. AVL 0-0 MCI.\n\nImpact sub, or too little too late? #FPL #FPLTips #FPLFamily #FantasyFootball #AVL\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-10-24T13:38:31.832768+00:00"
-    },
     {
       "key": "sub:72:46",
       "story": {
