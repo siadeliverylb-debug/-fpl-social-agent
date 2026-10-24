@@ -10431,6 +10431,12 @@
       "type": "substitution",
       "posted_at": "2026-10-24T16:58:53.153154+00:00",
       "tweet_id": "2114038931721212263"
+    },
+    {
+      "key": "sub:71:243",
+      "type": "substitution",
+      "posted_at": "2026-10-24T16:59:36.044197+00:00",
+      "tweet_id": "2114039111547805807"
     }
   ],
   "form_spotlight": {
@@ -10456,22 +10462,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:71:243",
-      "story": {
-        "type": "substitution",
-        "key": "sub:71:243",
-        "player": "Alcaraz",
-        "team": "EVE",
-        "home": "ARS",
-        "away": "EVE",
-        "score": "0-0",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_71_243.png",
-      "caption": "\ud83d\udd04 SUB! 90' Alcaraz (EVE) is on. ARS 0-0 EVE.\n\nWorth watching for a late returns. #FPL #FPLFamily #FPLTips #PremierLeague #EVE\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-10-24T16:55:58.289745+00:00"
-    },
     {
       "key": "sub:71:245",
       "story": {
