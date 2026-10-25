@@ -4983,7 +4983,7 @@
       "team": "TOT",
       "now_cost": 62,
       "status": "d",
-      "news": "Groin injury - 75% chance of playing",
+      "news": "Unspecified injury - 75% chance of playing",
       "news_added": "2026-10-24T19:00:10.113555Z"
     },
     "516": {
@@ -5355,7 +5355,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-25T06:23:03.514617+00:00",
+  "last_snapshot_at": "2026-10-25T11:51:12.344385+00:00",
   "recapped_events": [
     1,
     2,
@@ -5365,7 +5365,61 @@
     6,
     7
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_cold:5:7c53a63e535f",
+      "story": {
+        "type": "form_cold",
+        "key": "form_cold:5:7c53a63e535f",
+        "players": [
+          {
+            "name": "Szoboszlai",
+            "team": "LIV",
+            "form": 0.3,
+            "total_points": 21,
+            "price_millions": 6.7,
+            "selected": 15.8
+          },
+          {
+            "name": "Schade",
+            "team": "BRE",
+            "form": 0.3,
+            "total_points": 40,
+            "price_millions": 6.2,
+            "selected": 15.2
+          },
+          {
+            "name": "B.Fernandes",
+            "team": "MUN",
+            "form": 0.7,
+            "total_points": 33,
+            "price_millions": 11.7,
+            "selected": 25.8
+          },
+          {
+            "name": "Ajayi",
+            "team": "HUL",
+            "form": 1.0,
+            "total_points": 30,
+            "price_millions": 4.2,
+            "selected": 13.0
+          },
+          {
+            "name": "Wissa",
+            "team": "NEW",
+            "form": 1.0,
+            "total_points": 18,
+            "price_millions": 6.1,
+            "selected": 12.3
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_cold_5_7c53a63e535f.png",
+      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Szoboszlai (LIV) - 0.3 pts/game, \u00a36.7m, owned by 16%\n2. Schade (BRE) - 0.3 pts/game, \u00a36.2m, owned by 15%\n3. B.Fernandes (MUN) - 0.7 pts/game, \u00a311.7m, owned by 26%\n4. Ajayi (HUL) - 1.0 pts/game, \u00a34.2m, owned by 13%\n5. Wissa (NEW) - 1.0 pts/game, \u00a36.1m, owned by 12%\n\nHow many of these are in your team? #FPL #FPLFamily #FPLTwitter #FPLCommunity\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-10-25T11:51:12.418144+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -10506,17 +10560,17 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-10-24T12:08:48.185924+00:00",
-    "next": "cold",
-    "day": "2026-10-24",
+    "last_at": "2026-10-25T11:51:12.343836+00:00",
+    "next": "hot",
+    "day": "2026-10-25",
     "count": 1,
     "last_picks": {
       "cold": [
         "Szoboszlai",
         "Schade",
         "B.Fernandes",
-        "Gibbs-White",
-        "Tarkowski"
+        "Ajayi",
+        "Wissa"
       ],
       "hot": [
         "De Cuyper",
