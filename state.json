@@ -6705,19 +6705,19 @@
         "finished_provisional": true
       },
       "75": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "76": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "78": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "79": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "80": {
@@ -7431,7 +7431,20 @@
       "73:503:yellow_cards": 1,
       "73:519:yellow_cards": 1,
       "73:525:yellow_cards": 1,
-      "73:154:red_cards": 1
+      "73:154:red_cards": 1,
+      "75:211:yellow_cards": 1,
+      "75:588:yellow_cards": 1,
+      "75:405:yellow_cards": 1,
+      "75:446:yellow_cards": 1,
+      "75:449:yellow_cards": 1,
+      "76:90:yellow_cards": 1,
+      "78:114:yellow_cards": 1,
+      "78:119:yellow_cards": 1,
+      "79:43:yellow_cards": 1,
+      "79:162:yellow_cards": 1,
+      "79:418:yellow_cards": 1,
+      "79:421:yellow_cards": 1,
+      "79:73:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -8328,7 +8341,32 @@
       "73:508": true,
       "73:519": true,
       "73:521": true,
-      "73:526": true
+      "73:526": true,
+      "75:224": true,
+      "75:454": true,
+      "75:456": true,
+      "75:464": true,
+      "75:647": true,
+      "76:96": true,
+      "76:105": true,
+      "76:108": true,
+      "76:563": true,
+      "76:617": true,
+      "76:620": true,
+      "76:638": true,
+      "78:119": true,
+      "78:123": true,
+      "78:125": true,
+      "78:369": true,
+      "78:375": true,
+      "78:381": true,
+      "78:605": true,
+      "79:72": true,
+      "79:75": true,
+      "79:419": true,
+      "79:428": true,
+      "79:435": true,
+      "79:440": true
     },
     "subs_baselined": {
       "31": true,
@@ -8574,7 +8612,27 @@
       "50:569": true,
       "50:432": true,
       "61:501": true,
-      "69:14": true
+      "69:14": true,
+      "75:223": true,
+      "75:453": true,
+      "75:460": true,
+      "75:465": true,
+      "75:241": true,
+      "76:90": true,
+      "76:94": true,
+      "76:240": true,
+      "76:280": true,
+      "76:282": true,
+      "78:113": true,
+      "78:114": true,
+      "78:129": true,
+      "78:366": true,
+      "78:639": true,
+      "79:70": true,
+      "79:71": true,
+      "79:43": true,
+      "79:131": true,
+      "79:421": true
     },
     "bonus_posted": {
       "31": true,
@@ -8633,6 +8691,96 @@
         "value": 1,
         "since": "2026-09-20T14:12:11.942247+00:00",
         "minute": 51
+      },
+      "75:453:goals_scored": {
+        "value": 1,
+        "since": "2026-10-25T15:41:28.817459+00:00",
+        "minute": 81
+      },
+      "75:465:goals_scored": {
+        "value": 1,
+        "since": "2026-10-25T15:41:28.817488+00:00",
+        "minute": 81
+      },
+      "75:457:assists": {
+        "value": 1,
+        "since": "2026-10-25T15:41:28.817495+00:00",
+        "minute": 81
+      },
+      "75:593:assists": {
+        "value": 1,
+        "since": "2026-10-25T15:41:28.817498+00:00",
+        "minute": 81
+      },
+      "76:295:goals_scored": {
+        "value": 1,
+        "since": "2026-10-25T15:41:28.817556+00:00",
+        "minute": 79
+      },
+      "76:95:goals_scored": {
+        "value": 1,
+        "since": "2026-10-25T15:41:28.817561+00:00",
+        "minute": 79
+      },
+      "76:240:assists": {
+        "value": 1,
+        "since": "2026-10-25T15:41:28.817563+00:00",
+        "minute": 79
+      },
+      "76:106:assists": {
+        "value": 1,
+        "since": "2026-10-25T15:41:28.817566+00:00",
+        "minute": 79
+      },
+      "78:379:goals_scored": {
+        "value": 1,
+        "since": "2026-10-25T15:41:28.817602+00:00",
+        "minute": 78
+      },
+      "78:366:assists": {
+        "value": 1,
+        "since": "2026-10-25T15:41:28.817607+00:00",
+        "minute": 78
+      },
+      "78:627:assists": {
+        "value": 1,
+        "since": "2026-10-25T15:41:28.817609+00:00",
+        "minute": 78
+      },
+      "78:124:own_goals": {
+        "value": 1,
+        "since": "2026-10-25T15:41:28.817612+00:00",
+        "minute": 78
+      },
+      "79:67:goals_scored": {
+        "value": 1,
+        "since": "2026-10-25T15:41:28.817650+00:00",
+        "minute": 80
+      },
+      "79:68:goals_scored": {
+        "value": 1,
+        "since": "2026-10-25T15:41:28.817654+00:00",
+        "minute": 80
+      },
+      "79:79:goals_scored": {
+        "value": 1,
+        "since": "2026-10-25T15:41:28.817657+00:00",
+        "minute": 80
+      },
+      "79:61:assists": {
+        "value": 1,
+        "since": "2026-10-25T15:41:28.817659+00:00",
+        "minute": 80
+      },
+      "79:70:assists": {
+        "value": 1,
+        "since": "2026-10-25T15:41:28.817662+00:00",
+        "minute": 80
+      },
+      "79:71:assists": {
+        "value": 1,
+        "since": "2026-10-25T15:41:28.817664+00:00",
+        "minute": 80
       }
     }
   },
@@ -10510,6 +10658,12 @@
       "type": "substitution",
       "posted_at": "2026-10-24T19:13:41.164522+00:00",
       "tweet_id": "2114072855260385312"
+    },
+    {
+      "key": "kickoff:75",
+      "type": "kickoff",
+      "posted_at": "2026-10-25T15:41:31.859879+00:00",
+      "tweet_id": "2114381852458799370"
     }
   ],
   "form_spotlight": {
@@ -10534,5 +10688,670 @@
       ]
     }
   },
-  "live_queue": []
+  "live_queue": [
+    {
+      "key": "sub:75:224",
+      "story": {
+        "type": "substitution",
+        "key": "sub:75:224",
+        "player": "Nketiah",
+        "team": "CRY",
+        "home": "CRY",
+        "away": "NEW",
+        "score": "0-0",
+        "minute": 81,
+        "subbed_out": "Mateta"
+      },
+      "image_path": "assets/generated/live_sub_75_224.png",
+      "caption": "\ud83d\udd04 SUB! 81' Nketiah (CRY) is on. Off: Mateta. CRY 0-0 NEW.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #FPLTwitter #FantasyPremierLeague #CRY\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-25T15:41:28.920130+00:00"
+    },
+    {
+      "key": "sub:75:454",
+      "story": {
+        "type": "substitution",
+        "key": "sub:75:454",
+        "player": "Elanga",
+        "team": "NEW",
+        "home": "CRY",
+        "away": "NEW",
+        "score": "0-0",
+        "minute": 81,
+        "subbed_out": "Barnes"
+      },
+      "image_path": "assets/generated/live_sub_75_454.png",
+      "caption": "\ud83d\udd04 SUB! 81' Elanga (NEW) is on. Off: Barnes. CRY 0-0 NEW.\n\nDoes this open a chance for a start next week? #FPL #FPLFamily #FPLTwitter #PremierLeague #NEW\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-25T15:41:28.962060+00:00"
+    },
+    {
+      "key": "sub:75:456",
+      "story": {
+        "type": "substitution",
+        "key": "sub:75:456",
+        "player": "J.Ramsey",
+        "team": "NEW",
+        "home": "CRY",
+        "away": "NEW",
+        "score": "0-0",
+        "minute": 81,
+        "subbed_out": "Willock"
+      },
+      "image_path": "assets/generated/live_sub_75_456.png",
+      "caption": "\ud83d\udd04 SUB! 81' J.Ramsey (NEW) is on. Off: Willock. CRY 0-0 NEW.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #FantasyFootball #FPLTwitter #NEW\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-25T15:41:29.004724+00:00"
+    },
+    {
+      "key": "sub:75:464",
+      "story": {
+        "type": "substitution",
+        "key": "sub:75:464",
+        "player": "Wissa",
+        "team": "NEW",
+        "home": "CRY",
+        "away": "NEW",
+        "score": "0-0",
+        "minute": 81,
+        "subbed_out": "Osula"
+      },
+      "image_path": "assets/generated/live_sub_75_464.png",
+      "caption": "\ud83d\udd04 SUB! 81' Wissa (NEW) is on. Off: Osula. CRY 0-0 NEW.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyFootball #FantasyPremierLeague #FPLTwitter #NEW\n\nFollow for the next one.",
+      "queued_at": "2026-10-25T15:41:29.046334+00:00"
+    },
+    {
+      "key": "sub:75:647",
+      "story": {
+        "type": "substitution",
+        "key": "sub:75:647",
+        "player": "Osorio",
+        "team": "CRY",
+        "home": "CRY",
+        "away": "NEW",
+        "score": "0-0",
+        "minute": 81,
+        "subbed_out": "McNeil"
+      },
+      "image_path": "assets/generated/live_sub_75_647.png",
+      "caption": "\ud83d\udd04 SUB! 81' Osorio (CRY) is on. Off: McNeil. CRY 0-0 NEW.\n\nWorth watching for a late returns. #FPL #FPLCommunity #FantasyFootball #FPLTwitter #CRY\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-25T15:41:29.086713+00:00"
+    },
+    {
+      "key": "yellow_card:75:211:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:75:211:1",
+        "player": "Yeremy",
+        "team": "CRY",
+        "home": "CRY",
+        "away": "NEW",
+        "minute": 81,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_75_211_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 81' Yeremy (CRY) is booked. CRY 0-0 NEW.\n\nWorth keeping an eye on for next week. #FPL #FantasyFootball #FPLTwitter #FPLTips #CRY\n\nFollow for the next one.",
+      "queued_at": "2026-10-25T15:41:29.126670+00:00"
+    },
+    {
+      "key": "yellow_card:75:588:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:75:588:1",
+        "player": "Khalaili",
+        "team": "CRY",
+        "home": "CRY",
+        "away": "NEW",
+        "minute": 81,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_75_588_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 81' Khalaili (CRY) is booked. CRY 0-0 NEW.\n\nDoes this change your captaincy call? #FPL #FPLCommunity #FPLTwitter #PremierLeague #CRY\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-25T15:41:29.166803+00:00"
+    },
+    {
+      "key": "yellow_card:75:405:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:75:405:1",
+        "player": "N.Gonzalez",
+        "team": "NEW",
+        "home": "CRY",
+        "away": "NEW",
+        "minute": 81,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_75_405_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 81' N.Gonzalez (NEW) is booked. CRY 0-0 NEW.\n\nRisk of a ban building here. #FPL #PremierLeague #FantasyPremierLeague #FantasyFootball #NEW\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-25T15:41:29.206472+00:00"
+    },
+    {
+      "key": "yellow_card:75:446:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:75:446:1",
+        "player": "Sch\u00e4r",
+        "team": "NEW",
+        "home": "CRY",
+        "away": "NEW",
+        "minute": 81,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_75_446_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 81' Sch\u00e4r (NEW) is booked. CRY 0-0 NEW.\n\nRisk of a ban building here. #FPL #FantasyFootball #PremierLeague #FPLTwitter #NEW\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-25T15:41:29.245811+00:00"
+    },
+    {
+      "key": "yellow_card:75:449:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:75:449:1",
+        "player": "Hall",
+        "team": "NEW",
+        "home": "CRY",
+        "away": "NEW",
+        "minute": 81,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_75_449_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 81' Hall (NEW) is booked. CRY 0-0 NEW.\n\nDoes this change your captaincy call? #FPL #FPLTwitter #FantasyFootball #FPLTips #NEW\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-25T15:41:29.285098+00:00"
+    },
+    {
+      "key": "kickoff:76",
+      "story": {
+        "type": "kickoff",
+        "key": "kickoff:76",
+        "home": "HUL",
+        "away": "BRE"
+      },
+      "image_path": "assets/generated/live_kickoff_76.png",
+      "caption": "\u26bd KICK-OFF: HUL vs BRE.\n\nWho are you backing for returns? #FPL #FantasyFootball #FantasyPremierLeague #FPLTwitter\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-25T15:41:29.324148+00:00"
+    },
+    {
+      "key": "sub:76:96",
+      "story": {
+        "type": "substitution",
+        "key": "sub:76:96",
+        "player": "Damsgaard",
+        "team": "BRE",
+        "home": "HUL",
+        "away": "BRE",
+        "score": "0-0",
+        "minute": 79,
+        "subbed_out": "Hickey"
+      },
+      "image_path": "assets/generated/live_sub_76_96.png",
+      "caption": "\ud83d\udd04 SUB! 79' Damsgaard (BRE) is on. Off: Hickey. HUL 0-0 BRE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTwitter #FPLTips #FPLFamily #BRE\n\nFollow for the next one.",
+      "queued_at": "2026-10-25T15:41:29.364323+00:00"
+    },
+    {
+      "key": "sub:76:105",
+      "story": {
+        "type": "substitution",
+        "key": "sub:76:105",
+        "player": "Anthony",
+        "team": "BRE",
+        "home": "HUL",
+        "away": "BRE",
+        "score": "0-0",
+        "minute": 79,
+        "subbed_out": "Schade"
+      },
+      "image_path": "assets/generated/live_sub_76_105.png",
+      "caption": "\ud83d\udd04 SUB! 79' Anthony (BRE) is on. Off: Schade. HUL 0-0 BRE.\n\nWorth watching for a late returns. #FPL #FantasyPremierLeague #FPLFamily #FantasyFootball #BRE\n\nFollow for the next one.",
+      "queued_at": "2026-10-25T15:41:29.404532+00:00"
+    },
+    {
+      "key": "sub:76:108",
+      "story": {
+        "type": "substitution",
+        "key": "sub:76:108",
+        "player": "Wilson",
+        "team": "BRE",
+        "home": "HUL",
+        "away": "BRE",
+        "score": "0-0",
+        "minute": 79
+      },
+      "image_path": "assets/generated/live_sub_76_108.png",
+      "caption": "\ud83d\udd04 SUB! 79' Wilson (BRE) is on. HUL 0-0 BRE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyPremierLeague #PremierLeague #FPLFamily #BRE\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-25T15:41:29.443689+00:00"
+    },
+    {
+      "key": "sub:76:563",
+      "story": {
+        "type": "substitution",
+        "key": "sub:76:563",
+        "player": "Morita",
+        "team": "HUL",
+        "home": "HUL",
+        "away": "BRE",
+        "score": "0-0",
+        "minute": 79,
+        "subbed_out": "Iroegbunam"
+      },
+      "image_path": "assets/generated/live_sub_76_563.png",
+      "caption": "\ud83d\udd04 SUB! 79' Morita (HUL) is on. Off: Iroegbunam. HUL 0-0 BRE.\n\nWorth watching for a late returns. #FPL #FantasyFootball #FPLTips #PremierLeague #HUL\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-25T15:41:29.483830+00:00"
+    },
+    {
+      "key": "sub:76:617",
+      "story": {
+        "type": "substitution",
+        "key": "sub:76:617",
+        "player": "Cho",
+        "team": "HUL",
+        "home": "HUL",
+        "away": "BRE",
+        "score": "0-0",
+        "minute": 79,
+        "subbed_out": "Coyle"
+      },
+      "image_path": "assets/generated/live_sub_76_617.png",
+      "caption": "\ud83d\udd04 SUB! 79' Cho (HUL) is on. Off: Coyle. HUL 0-0 BRE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLFamily #FPLTips #FPLTwitter #HUL\n\nFollow for the next one.",
+      "queued_at": "2026-10-25T15:41:29.523412+00:00"
+    },
+    {
+      "key": "sub:76:620",
+      "story": {
+        "type": "substitution",
+        "key": "sub:76:620",
+        "player": "Diouf",
+        "team": "BRE",
+        "home": "HUL",
+        "away": "BRE",
+        "score": "0-0",
+        "minute": 79
+      },
+      "image_path": "assets/generated/live_sub_76_620.png",
+      "caption": "\ud83d\udd04 SUB! 79' Diouf (BRE) is on. HUL 0-0 BRE.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyPremierLeague #FantasyFootball #FPLTwitter #BRE\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-25T15:41:29.562646+00:00"
+    },
+    {
+      "key": "sub:76:638",
+      "story": {
+        "type": "substitution",
+        "key": "sub:76:638",
+        "player": "Norton-Cuffy",
+        "team": "HUL",
+        "home": "HUL",
+        "away": "BRE",
+        "score": "0-0",
+        "minute": 79,
+        "subbed_out": "Giles"
+      },
+      "image_path": "assets/generated/live_sub_76_638.png",
+      "caption": "\ud83d\udd04 SUB! 79' Norton-Cuffy (HUL) is on. Off: Giles. HUL 0-0 BRE.\n\nDoes this open a chance for a start next week? #FPL #FPLCommunity #FPLTips #FPLTwitter #HUL\n\nFollow for the next one.",
+      "queued_at": "2026-10-25T15:41:29.602197+00:00"
+    },
+    {
+      "key": "yellow_card:76:90:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:76:90:1",
+        "player": "Hickey",
+        "team": "BRE",
+        "home": "HUL",
+        "away": "BRE",
+        "minute": 79,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_76_90_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 79' Hickey (BRE) is booked. HUL 0-0 BRE.\n\nDoes this change your captaincy call? #FPL #PremierLeague #FPLFamily #FPLTips #BRE\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-25T15:41:29.641516+00:00"
+    },
+    {
+      "key": "kickoff:78",
+      "story": {
+        "type": "kickoff",
+        "key": "kickoff:78",
+        "home": "LIV",
+        "away": "BHA"
+      },
+      "image_path": "assets/generated/live_kickoff_78.png",
+      "caption": "\u26bd KICK-OFF: LIV vs BHA.\n\nWho are you backing for returns? #FPL #FantasyPremierLeague #FPLFamily #PremierLeague\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-25T15:41:29.680266+00:00"
+    },
+    {
+      "key": "sub:78:119",
+      "story": {
+        "type": "substitution",
+        "key": "sub:78:119",
+        "player": "Costinha",
+        "team": "BHA",
+        "home": "LIV",
+        "away": "BHA",
+        "score": "0-0",
+        "minute": 78,
+        "subbed_out": "F.Kad\u0131o\u011flu"
+      },
+      "image_path": "assets/generated/live_sub_78_119.png",
+      "caption": "\ud83d\udd04 SUB! 78' Costinha (BHA) is on. Off: F.Kad\u0131o\u011flu. LIV 0-0 BHA.\n\nDoes this open a chance for a start next week? #FPL #FPLCommunity #FPLTwitter #FantasyFootball #BHA\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-25T15:41:29.720582+00:00"
+    },
+    {
+      "key": "sub:78:123",
+      "story": {
+        "type": "substitution",
+        "key": "sub:78:123",
+        "player": "Hinshelwood",
+        "team": "BHA",
+        "home": "LIV",
+        "away": "BHA",
+        "score": "0-0",
+        "minute": 78,
+        "subbed_out": "Boscagli"
+      },
+      "image_path": "assets/generated/live_sub_78_123.png",
+      "caption": "\ud83d\udd04 SUB! 78' Hinshelwood (BHA) is on. Off: Boscagli. LIV 0-0 BHA.\n\nDoes this open a chance for a start next week? #FPL #FantasyFootball #FPLCommunity #FPLTwitter #BHA\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-25T15:41:29.761076+00:00"
+    },
+    {
+      "key": "sub:78:125",
+      "story": {
+        "type": "substitution",
+        "key": "sub:78:125",
+        "player": "Georginio",
+        "team": "BHA",
+        "home": "LIV",
+        "away": "BHA",
+        "score": "0-0",
+        "minute": 78,
+        "subbed_out": "Ayari"
+      },
+      "image_path": "assets/generated/live_sub_78_125.png",
+      "caption": "\ud83d\udd04 SUB! 78' Georginio (BHA) is on. Off: Ayari. LIV 0-0 BHA.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLTwitter #FPLTips #FantasyPremierLeague #BHA\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-25T15:41:29.801105+00:00"
+    },
+    {
+      "key": "sub:78:369",
+      "story": {
+        "type": "substitution",
+        "key": "sub:78:369",
+        "player": "Ngumoha",
+        "team": "LIV",
+        "home": "LIV",
+        "away": "BHA",
+        "score": "0-0",
+        "minute": 78,
+        "subbed_out": "Wirtz"
+      },
+      "image_path": "assets/generated/live_sub_78_369.png",
+      "caption": "\ud83d\udd04 SUB! 78' Ngumoha (LIV) is on. Off: Wirtz. LIV 0-0 BHA.\n\nWorth watching for a late returns. #FPL #FPLTwitter #FPLTips #FantasyFootball #LIV\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-25T15:41:29.840922+00:00"
+    },
+    {
+      "key": "sub:78:375",
+      "story": {
+        "type": "substitution",
+        "key": "sub:78:375",
+        "player": "Nyoni",
+        "team": "LIV",
+        "home": "LIV",
+        "away": "BHA",
+        "score": "0-0",
+        "minute": 78
+      },
+      "image_path": "assets/generated/live_sub_78_375.png",
+      "caption": "\ud83d\udd04 SUB! 78' Nyoni (LIV) is on. LIV 0-0 BHA.\n\nWorth watching for a late returns. #FPL #FantasyPremierLeague #FPLFamily #FPLCommunity #LIV\n\nFollow for the next one.",
+      "queued_at": "2026-10-25T15:41:29.880485+00:00"
+    },
+    {
+      "key": "sub:78:381",
+      "story": {
+        "type": "substitution",
+        "key": "sub:78:381",
+        "player": "Koumas",
+        "team": "LIV",
+        "home": "LIV",
+        "away": "BHA",
+        "score": "0-0",
+        "minute": 78
+      },
+      "image_path": "assets/generated/live_sub_78_381.png",
+      "caption": "\ud83d\udd04 SUB! 78' Koumas (LIV) is on. LIV 0-0 BHA.\n\nDoes this open a chance for a start next week? #FPL #FPLTwitter #PremierLeague #FantasyFootball #LIV\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-25T15:41:29.920827+00:00"
+    },
+    {
+      "key": "sub:78:605",
+      "story": {
+        "type": "substitution",
+        "key": "sub:78:605",
+        "player": "Yalcouy\u00e9",
+        "team": "BHA",
+        "home": "LIV",
+        "away": "BHA",
+        "score": "0-0",
+        "minute": 78,
+        "subbed_out": "Andr\u00e9s"
+      },
+      "image_path": "assets/generated/live_sub_78_605.png",
+      "caption": "\ud83d\udd04 SUB! 78' Yalcouy\u00e9 (BHA) is on. Off: Andr\u00e9s. LIV 0-0 BHA.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #FantasyFootball #FantasyPremierLeague #BHA\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-25T15:41:29.961566+00:00"
+    },
+    {
+      "key": "yellow_card:78:114:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:78:114:1",
+        "player": "Boscagli",
+        "team": "BHA",
+        "home": "LIV",
+        "away": "BHA",
+        "minute": 78,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_78_114_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 78' Boscagli (BHA) is booked. LIV 0-0 BHA.\n\nRisk of a ban building here. #FPL #FantasyPremierLeague #FPLCommunity #FantasyFootball #BHA\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-25T15:41:30.001333+00:00"
+    },
+    {
+      "key": "yellow_card:78:119:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:78:119:1",
+        "player": "Costinha",
+        "team": "BHA",
+        "home": "LIV",
+        "away": "BHA",
+        "minute": 78,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_78_119_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 78' Costinha (BHA) is booked. LIV 0-0 BHA.\n\nWorth keeping an eye on for next week. #FPL #FantasyPremierLeague #FantasyFootball #FPLTips #BHA\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-25T15:41:30.041472+00:00"
+    },
+    {
+      "key": "kickoff:79",
+      "story": {
+        "type": "kickoff",
+        "key": "kickoff:79",
+        "home": "MUN",
+        "away": "BOU"
+      },
+      "image_path": "assets/generated/live_kickoff_79.png",
+      "caption": "\u26bd KICK-OFF: MUN vs BOU.\n\nLet's see what this one brings. #FPL #FPLCommunity #FPLTwitter #FantasyFootball\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-25T15:41:30.081105+00:00"
+    },
+    {
+      "key": "sub:79:72",
+      "story": {
+        "type": "substitution",
+        "key": "sub:79:72",
+        "player": "Gannon-Doak",
+        "team": "BOU",
+        "home": "MUN",
+        "away": "BOU",
+        "score": "0-0",
+        "minute": 80,
+        "subbed_out": "Kluivert"
+      },
+      "image_path": "assets/generated/live_sub_79_72.png",
+      "caption": "\ud83d\udd04 SUB! 80' Gannon-Doak (BOU) is on. Off: Kluivert. MUN 0-0 BOU.\n\nDoes this open a chance for a start next week? #FPL #FPLTwitter #FPLFamily #FPLTips #BOU\n\nFollow for the next one.",
+      "queued_at": "2026-10-25T15:41:30.121781+00:00"
+    },
+    {
+      "key": "sub:79:75",
+      "story": {
+        "type": "substitution",
+        "key": "sub:79:75",
+        "player": "Christie",
+        "team": "BOU",
+        "home": "MUN",
+        "away": "BOU",
+        "score": "0-0",
+        "minute": 80,
+        "subbed_out": "Cook"
+      },
+      "image_path": "assets/generated/live_sub_79_75.png",
+      "caption": "\ud83d\udd04 SUB! 80' Christie (BOU) is on. Off: Cook. MUN 0-0 BOU.\n\nImpact sub, or too little too late? #FPL #FPLCommunity #PremierLeague #FPLFamily #BOU\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-25T15:41:30.162333+00:00"
+    },
+    {
+      "key": "sub:79:419",
+      "story": {
+        "type": "substitution",
+        "key": "sub:79:419",
+        "player": "Martinez",
+        "team": "MUN",
+        "home": "MUN",
+        "away": "BOU",
+        "score": "0-0",
+        "minute": 80,
+        "subbed_out": "Tielemans"
+      },
+      "image_path": "assets/generated/live_sub_79_419.png",
+      "caption": "\ud83d\udd04 SUB! 80' Martinez (MUN) is on. Off: Tielemans. MUN 0-0 BOU.\n\nWorth watching for a late returns. #FPL #PremierLeague #FantasyPremierLeague #FPLCommunity #MUN\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-25T15:41:30.203061+00:00"
+    },
+    {
+      "key": "sub:79:428",
+      "story": {
+        "type": "substitution",
+        "key": "sub:79:428",
+        "player": "Cunha",
+        "team": "MUN",
+        "home": "MUN",
+        "away": "BOU",
+        "score": "0-0",
+        "minute": 80,
+        "subbed_out": "Baleba"
+      },
+      "image_path": "assets/generated/live_sub_79_428.png",
+      "caption": "\ud83d\udd04 SUB! 80' Cunha (MUN) is on. Off: Baleba. MUN 0-0 BOU.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #FPLTwitter #FantasyFootball #MUN\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-25T15:41:30.243330+00:00"
+    },
+    {
+      "key": "sub:79:435",
+      "story": {
+        "type": "substitution",
+        "key": "sub:79:435",
+        "player": "Lacey",
+        "team": "MUN",
+        "home": "MUN",
+        "away": "BOU",
+        "score": "0-0",
+        "minute": 80,
+        "subbed_out": "Heaven"
+      },
+      "image_path": "assets/generated/live_sub_79_435.png",
+      "caption": "\ud83d\udd04 SUB! 80' Lacey (MUN) is on. Off: Heaven. MUN 0-0 BOU.\n\nImpact sub, or too little too late? #FPL #PremierLeague #FPLCommunity #FPLTwitter #MUN\n\nFollow for the next one.",
+      "queued_at": "2026-10-25T15:41:30.283746+00:00"
+    },
+    {
+      "key": "sub:79:440",
+      "story": {
+        "type": "substitution",
+        "key": "sub:79:440",
+        "player": "Zirkzee",
+        "team": "MUN",
+        "home": "MUN",
+        "away": "BOU",
+        "score": "0-0",
+        "minute": 80
+      },
+      "image_path": "assets/generated/live_sub_79_440.png",
+      "caption": "\ud83d\udd04 SUB! 80' Zirkzee (MUN) is on. MUN 0-0 BOU.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyFootball #FPLFamily #FPLTwitter #MUN\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-25T15:41:30.323903+00:00"
+    },
+    {
+      "key": "yellow_card:79:43:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:79:43:1",
+        "player": "Tielemans",
+        "team": "MUN",
+        "home": "MUN",
+        "away": "BOU",
+        "minute": 80,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_79_43_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 80' Tielemans (MUN) is booked. MUN 0-0 BOU.\n\nDoes this change your captaincy call? #FPL #FPLCommunity #FantasyFootball #FPLTips #MUN\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-25T15:41:30.364916+00:00"
+    },
+    {
+      "key": "yellow_card:79:162:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:79:162:1",
+        "player": "Andrey Santos",
+        "team": "MUN",
+        "home": "MUN",
+        "away": "BOU",
+        "minute": 80,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_79_162_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 80' Andrey Santos (MUN) is booked. MUN 0-0 BOU.\n\nDoes this change your captaincy call? #FPL #FPLFamily #FPLTwitter #FantasyPremierLeague #MUN\n\nFollow for the next one.",
+      "queued_at": "2026-10-25T15:41:30.405351+00:00"
+    },
+    {
+      "key": "yellow_card:79:418:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:79:418:1",
+        "player": "Maguire",
+        "team": "MUN",
+        "home": "MUN",
+        "away": "BOU",
+        "minute": 80,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_79_418_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 80' Maguire (MUN) is booked. MUN 0-0 BOU.\n\nRisk of a ban building here. #FPL #FantasyFootball #FPLFamily #FPLTwitter #MUN\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-25T15:41:30.445343+00:00"
+    },
+    {
+      "key": "yellow_card:79:421:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:79:421:1",
+        "player": "Heaven",
+        "team": "MUN",
+        "home": "MUN",
+        "away": "BOU",
+        "minute": 80,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_79_421_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 80' Heaven (MUN) is booked. MUN 0-0 BOU.\n\nRisk of a ban building here. #FPL #FPLTwitter #FantasyFootball #PremierLeague #MUN\n\nFollow for the next one.",
+      "queued_at": "2026-10-25T15:41:30.486180+00:00"
+    },
+    {
+      "key": "yellow_card:79:73:1",
+      "story": {
+        "type": "yellow_card",
+        "key": "yellow_card:79:73:1",
+        "player": "Adams",
+        "team": "BOU",
+        "home": "MUN",
+        "away": "BOU",
+        "minute": 80,
+        "score": "0-0"
+      },
+      "image_path": "assets/generated/live_yellow_card_79_73_1.png",
+      "caption": "\ud83d\udfe8 YELLOW CARD! 80' Adams (BOU) is booked. MUN 0-0 BOU.\n\nWorth keeping an eye on for next week. #FPL #PremierLeague #FPLFamily #FPLTwitter #BOU\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-25T15:41:30.525776+00:00"
+    }
+  ]
 }
