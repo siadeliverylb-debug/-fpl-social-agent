@@ -5365,85 +5365,7 @@
     6,
     7
   ],
-  "pending": [
-    {
-      "key": "price_batch:8:39f0a8d6f59a",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:8:39f0a8d6f59a",
-        "changes": [
-          {
-            "pid": "368",
-            "player": "Szoboszlai",
-            "team": "LIV",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.7
-          },
-          {
-            "pid": "569",
-            "player": "Gonzalo",
-            "team": "FUL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.0
-          },
-          {
-            "pid": "247",
-            "player": "Hackney",
-            "team": "EVE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.3
-          },
-          {
-            "pid": "337",
-            "player": "Aaronson",
-            "team": "LEE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.2
-          },
-          {
-            "pid": "488",
-            "player": "I.Sangar\u00e9",
-            "team": "NFO",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.7
-          },
-          {
-            "pid": "534",
-            "player": "Hume",
-            "team": "SUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.2
-          },
-          {
-            "pid": "13",
-            "player": "Rice",
-            "team": "ARS",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 7.4
-          },
-          {
-            "pid": "166",
-            "player": "N.Jackson",
-            "team": "AVL",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.7
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_8_39f0a8d6f59a.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 6 falls, 2 rises.\n\n\ud83d\udd34 Szoboszlai (LIV) -> \u00a36.7m\n\ud83d\udd34 Gonzalo (FUL) -> \u00a36.0m\n\ud83d\udd34 Hackney (EVE) -> \u00a35.3m\n\ud83d\udd34 Aaronson (LEE) -> \u00a35.2m\n\ud83d\udd34 I.Sangar\u00e9 (NFO) -> \u00a34.7m\n\ud83d\udd34 Hume (SUN) -> \u00a34.2m\n\ud83d\udfe2 Rice (ARS) -> \u00a37.4m\n\ud83d\udfe2 N.Jackson (AVL) -> \u00a36.7m\n\nWinners and losers in your squad? #FPL #FantasyFootball #FantasyPremierLeague #FPLCommunity\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-10-24T23:27:40.257800+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5632,7 +5554,8 @@
     "form_hot:5:be454b291182",
     "injury_batch:2:42218d1f1368",
     "injury_batch:3:d3b274cfc4b3",
-    "injury_batch:2:b295500ba3b3"
+    "injury_batch:2:b295500ba3b3",
+    "price_batch:8:39f0a8d6f59a"
   ],
   "post_log": [
     {
@@ -6584,6 +6507,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-24T23:43:30.148544+00:00",
       "tweet_id": "2114140756843860257"
+    },
+    {
+      "key": "price_batch:8:39f0a8d6f59a",
+      "type": "price_changes",
+      "posted_at": "2026-10-25T01:41:11.331353+00:00",
+      "tweet_id": "2114170373247783168"
     }
   ],
   "live": {
