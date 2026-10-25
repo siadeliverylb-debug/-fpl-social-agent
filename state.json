@@ -10746,6 +10746,12 @@
       "type": "full_time",
       "posted_at": "2026-10-25T18:34:26.705221+00:00",
       "tweet_id": "2114425367654019553"
+    },
+    {
+      "key": "bonus:75",
+      "type": "bonus_points",
+      "posted_at": "2026-10-25T18:35:09.314699+00:00",
+      "tweet_id": "2114425546499109045"
     }
   ],
   "form_spotlight": {
@@ -10771,33 +10777,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "bonus:75",
-      "story": {
-        "type": "bonus_points",
-        "key": "bonus:75",
-        "home": "CRY",
-        "away": "NEW",
-        "score": "0-2",
-        "players": [
-          {
-            "name": "Osula",
-            "points": 3
-          },
-          {
-            "name": "Horn\u00ed\u010dek",
-            "points": 2
-          },
-          {
-            "name": "Dedi\u0107",
-            "points": 1
-          }
-        ]
-      },
-      "image_path": "assets/generated/live_bonus_75.png",
-      "caption": "\ud83c\udf81 BONUS POINTS confirmed: CRY 0-2 NEW.\nOsula +3, Horn\u00ed\u010dek +2, Dedi\u0107 +1.\n\n#FPL #FPLTwitter #FPLCommunity #FPLFamily #CRYvNEW\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-25T18:32:56.924695+00:00"
-    },
     {
       "key": "sub:76:340",
       "story": {
