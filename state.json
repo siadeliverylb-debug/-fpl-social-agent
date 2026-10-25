@@ -8632,7 +8632,12 @@
       "79:71": true,
       "79:43": true,
       "79:131": true,
-      "79:421": true
+      "79:421": true,
+      "76:86": true,
+      "76:95": true,
+      "78:379": true,
+      "78:627": true,
+      "79:431": true
     },
     "bonus_posted": {
       "31": true,
@@ -10664,6 +10669,12 @@
       "type": "kickoff",
       "posted_at": "2026-10-25T15:41:31.859879+00:00",
       "tweet_id": "2114381852458799370"
+    },
+    {
+      "key": "sub:75:224",
+      "type": "substitution",
+      "posted_at": "2026-10-25T15:42:16.659979+00:00",
+      "tweet_id": "2114382040422285352"
     }
   ],
   "form_spotlight": {
@@ -10689,23 +10700,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:75:224",
-      "story": {
-        "type": "substitution",
-        "key": "sub:75:224",
-        "player": "Nketiah",
-        "team": "CRY",
-        "home": "CRY",
-        "away": "NEW",
-        "score": "0-0",
-        "minute": 81,
-        "subbed_out": "Mateta"
-      },
-      "image_path": "assets/generated/live_sub_75_224.png",
-      "caption": "\ud83d\udd04 SUB! 81' Nketiah (CRY) is on. Off: Mateta. CRY 0-0 NEW.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FPLCommunity #FPLTwitter #FantasyPremierLeague #CRY\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "queued_at": "2026-10-25T15:41:28.920130+00:00"
-    },
     {
       "key": "sub:75:454",
       "story": {
