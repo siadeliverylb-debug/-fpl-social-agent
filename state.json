@@ -10681,6 +10681,12 @@
       "type": "substitution",
       "posted_at": "2026-10-25T15:42:59.660563+00:00",
       "tweet_id": "2114382220806770833"
+    },
+    {
+      "key": "sub:75:456",
+      "type": "substitution",
+      "posted_at": "2026-10-25T15:43:42.488668+00:00",
+      "tweet_id": "2114382400360706337"
     }
   ],
   "form_spotlight": {
@@ -10706,23 +10712,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:75:456",
-      "story": {
-        "type": "substitution",
-        "key": "sub:75:456",
-        "player": "J.Ramsey",
-        "team": "NEW",
-        "home": "CRY",
-        "away": "NEW",
-        "score": "0-0",
-        "minute": 81,
-        "subbed_out": "Willock"
-      },
-      "image_path": "assets/generated/live_sub_75_456.png",
-      "caption": "\ud83d\udd04 SUB! 81' J.Ramsey (NEW) is on. Off: Willock. CRY 0-0 NEW.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #FantasyFootball #FPLTwitter #NEW\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-10-25T15:41:29.004724+00:00"
-    },
     {
       "key": "sub:75:464",
       "story": {
