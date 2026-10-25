@@ -10734,6 +10734,12 @@
       "type": "substitution",
       "posted_at": "2026-10-25T18:32:59.673443+00:00",
       "tweet_id": "2114425002653081858"
+    },
+    {
+      "key": "yellow_card:75:203:1",
+      "type": "yellow_card",
+      "posted_at": "2026-10-25T18:33:43.930597+00:00",
+      "tweet_id": "2114425188217483647"
     }
   ],
   "form_spotlight": {
@@ -10759,22 +10765,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "yellow_card:75:203:1",
-      "story": {
-        "type": "yellow_card",
-        "key": "yellow_card:75:203:1",
-        "player": "Canvot",
-        "team": "CRY",
-        "home": "CRY",
-        "away": "NEW",
-        "minute": 90,
-        "score": "0-2"
-      },
-      "image_path": "assets/generated/live_yellow_card_75_203_1.png",
-      "caption": "\ud83d\udfe8 YELLOW CARD! 90' Canvot (CRY) is booked. CRY 0-2 NEW.\n\nRisk of a ban building here. #FPL #PremierLeague #FPLTips #FantasyPremierLeague #CRY\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-25T18:32:56.806338+00:00"
-    },
     {
       "key": "fulltime:75",
       "story": {
