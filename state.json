@@ -878,8 +878,8 @@
       "web_name": "Janelt",
       "team": "BRE",
       "now_cost": 50,
-      "status": "s",
-      "news": "Suspended until 31 Oct",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-17T16:30:09.272910Z"
     },
     "99": {
@@ -1006,9 +1006,9 @@
       "web_name": "F.Kad\u0131o\u011flu",
       "team": "BHA",
       "now_cost": 44,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-23T13:00:07.595211Z"
+      "status": "d",
+      "news": "Hip injury - 75% chance of playing",
+      "news_added": "2026-10-25T17:30:09.883815Z"
     },
     "114": {
       "web_name": "Boscagli",
@@ -1262,9 +1262,9 @@
       "web_name": "Andr\u00e9s",
       "team": "BHA",
       "now_cost": 55,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Thigh injury - 75% chance of playing",
+      "news_added": "2026-10-25T17:30:10.276308Z"
     },
     "652": {
       "web_name": "Azeez",
@@ -3278,16 +3278,16 @@
       "web_name": "Stach",
       "team": "LEE",
       "now_cost": 60,
-      "status": "d",
-      "news": "Foot injury - 50% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-23T13:00:09.404908Z"
     },
     "336": {
       "web_name": "Okafor",
       "team": "LEE",
       "now_cost": 58,
-      "status": "d",
-      "news": "Thigh injury - 50% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-23T13:00:09.421868Z"
     },
     "337": {
@@ -3358,8 +3358,8 @@
       "web_name": "Calvert-Lewin",
       "team": "LEE",
       "now_cost": 61,
-      "status": "d",
-      "news": "Foot injury - 50% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-23T13:00:09.444671Z"
     },
     "347": {
@@ -3398,9 +3398,9 @@
       "web_name": "Elvedi",
       "team": "LEE",
       "now_cost": 45,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Illness - 75% chance of playing",
+      "news_added": "2026-10-25T17:00:10.080582Z"
     },
     "603": {
       "web_name": "Lienou",
@@ -3582,9 +3582,9 @@
       "web_name": "Wirtz",
       "team": "LIV",
       "now_cost": 72,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Ankle injury - 75% chance of playing",
+      "news_added": "2026-10-25T17:00:09.888666Z"
     },
     "367": {
       "web_name": "Gakpo",
@@ -5302,8 +5302,8 @@
       "web_name": "Brobbey",
       "team": "SUN",
       "now_cost": 57,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-19T11:00:09.674071Z"
     },
     "553": {
@@ -5355,7 +5355,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-25T15:12:12.533166+00:00",
+  "last_snapshot_at": "2026-10-25T18:29:29.509811+00:00",
   "recapped_events": [
     1,
     2,
@@ -5365,7 +5365,53 @@
     6,
     7
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:4:4a0dc837188a",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:4:4a0dc837188a",
+        "injuries": [
+          {
+            "pid": "639",
+            "player": "Andr\u00e9s",
+            "team": "BHA",
+            "status": "doubtful",
+            "news": "Thigh injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "598",
+            "player": "Elvedi",
+            "team": "LEE",
+            "status": "doubtful",
+            "news": "Illness - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "113",
+            "player": "F.Kad\u0131o\u011flu",
+            "team": "BHA",
+            "status": "doubtful",
+            "news": "Hip injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "366",
+            "player": "Wirtz",
+            "team": "LIV",
+            "status": "doubtful",
+            "news": "Ankle injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_4_4a0dc837188a.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (4):\n\n\ud83d\udea8 Andr\u00e9s (BHA) - doubtful: \"Thigh injury - 75% chance of playing\"\n\ud83d\udea8 Elvedi (LEE) - doubtful: \"Illness - 75% chance of playing\"\n\ud83d\udea8 F.Kad\u0131o\u011flu (BHA) - doubtful: \"Hip injury - 75% chance of playing\"\n\ud83d\udea8 Wirtz (LIV) - doubtful: \"Ankle injury - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FPLTips #FantasyPremierLeague #FPLFamily\n\nFollow for the next one.",
+      "created_at": "2026-10-25T18:29:29.581682+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
