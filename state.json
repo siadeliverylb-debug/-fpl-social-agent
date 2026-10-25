@@ -10740,6 +10740,12 @@
       "type": "yellow_card",
       "posted_at": "2026-10-25T18:33:43.930597+00:00",
       "tweet_id": "2114425188217483647"
+    },
+    {
+      "key": "fulltime:75",
+      "type": "full_time",
+      "posted_at": "2026-10-25T18:34:26.705221+00:00",
+      "tweet_id": "2114425367654019553"
     }
   ],
   "form_spotlight": {
@@ -10765,20 +10771,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "fulltime:75",
-      "story": {
-        "type": "full_time",
-        "key": "fulltime:75",
-        "home": "CRY",
-        "away": "NEW",
-        "score": "0-2",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_fulltime_75.png",
-      "caption": "\ud83d\udccb FULL-TIME (90'): CRY 0-2 NEW.\n\nHow did your FPL assets do? #FPL #PremierLeague #FPLFamily #FantasyPremierLeague\n\nFollow for the next one.",
-      "queued_at": "2026-10-25T18:32:56.865886+00:00"
-    },
     {
       "key": "bonus:75",
       "story": {
