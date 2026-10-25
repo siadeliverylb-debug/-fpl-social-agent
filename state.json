@@ -10675,6 +10675,12 @@
       "type": "substitution",
       "posted_at": "2026-10-25T15:42:16.659979+00:00",
       "tweet_id": "2114382040422285352"
+    },
+    {
+      "key": "sub:75:454",
+      "type": "substitution",
+      "posted_at": "2026-10-25T15:42:59.660563+00:00",
+      "tweet_id": "2114382220806770833"
     }
   ],
   "form_spotlight": {
@@ -10700,23 +10706,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:75:454",
-      "story": {
-        "type": "substitution",
-        "key": "sub:75:454",
-        "player": "Elanga",
-        "team": "NEW",
-        "home": "CRY",
-        "away": "NEW",
-        "score": "0-0",
-        "minute": 81,
-        "subbed_out": "Barnes"
-      },
-      "image_path": "assets/generated/live_sub_75_454.png",
-      "caption": "\ud83d\udd04 SUB! 81' Elanga (NEW) is on. Off: Barnes. CRY 0-0 NEW.\n\nDoes this open a chance for a start next week? #FPL #FPLFamily #FPLTwitter #PremierLeague #NEW\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "queued_at": "2026-10-25T15:41:28.962060+00:00"
-    },
     {
       "key": "sub:75:456",
       "story": {
