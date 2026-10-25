@@ -10687,6 +10687,12 @@
       "type": "substitution",
       "posted_at": "2026-10-25T15:43:42.488668+00:00",
       "tweet_id": "2114382400360706337"
+    },
+    {
+      "key": "sub:75:464",
+      "type": "substitution",
+      "posted_at": "2026-10-25T15:44:25.465675+00:00",
+      "tweet_id": "2114382580455780804"
     }
   ],
   "form_spotlight": {
@@ -10712,23 +10718,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:75:464",
-      "story": {
-        "type": "substitution",
-        "key": "sub:75:464",
-        "player": "Wissa",
-        "team": "NEW",
-        "home": "CRY",
-        "away": "NEW",
-        "score": "0-0",
-        "minute": 81,
-        "subbed_out": "Osula"
-      },
-      "image_path": "assets/generated/live_sub_75_464.png",
-      "caption": "\ud83d\udd04 SUB! 81' Wissa (NEW) is on. Off: Osula. CRY 0-0 NEW.\n\nFresh legs -- could this pay off in FPL terms? #FPL #FantasyFootball #FantasyPremierLeague #FPLTwitter #NEW\n\nFollow for the next one.",
-      "queued_at": "2026-10-25T15:41:29.046334+00:00"
-    },
     {
       "key": "sub:75:647",
       "story": {
