@@ -5365,53 +5365,7 @@
     6,
     7
   ],
-  "pending": [
-    {
-      "key": "injury_batch:4:4a0dc837188a",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:4:4a0dc837188a",
-        "injuries": [
-          {
-            "pid": "639",
-            "player": "Andr\u00e9s",
-            "team": "BHA",
-            "status": "doubtful",
-            "news": "Thigh injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "598",
-            "player": "Elvedi",
-            "team": "LEE",
-            "status": "doubtful",
-            "news": "Illness - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "113",
-            "player": "F.Kad\u0131o\u011flu",
-            "team": "BHA",
-            "status": "doubtful",
-            "news": "Hip injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "366",
-            "player": "Wirtz",
-            "team": "LIV",
-            "status": "doubtful",
-            "news": "Ankle injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_4_4a0dc837188a.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (4):\n\n\ud83d\udea8 Andr\u00e9s (BHA) - doubtful: \"Thigh injury - 75% chance of playing\"\n\ud83d\udea8 Elvedi (LEE) - doubtful: \"Illness - 75% chance of playing\"\n\ud83d\udea8 F.Kad\u0131o\u011flu (BHA) - doubtful: \"Hip injury - 75% chance of playing\"\n\ud83d\udea8 Wirtz (LIV) - doubtful: \"Ankle injury - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FPLTips #FantasyPremierLeague #FPLFamily\n\nFollow for the next one.",
-      "created_at": "2026-10-25T18:29:29.581682+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5602,7 +5556,8 @@
     "injury_batch:3:d3b274cfc4b3",
     "injury_batch:2:b295500ba3b3",
     "price_batch:8:39f0a8d6f59a",
-    "form_cold:5:7c53a63e535f"
+    "form_cold:5:7c53a63e535f",
+    "injury_batch:4:4a0dc837188a"
   ],
   "post_log": [
     {
@@ -6566,6 +6521,12 @@
       "type": "form_cold",
       "posted_at": "2026-10-25T12:33:30.372834+00:00",
       "tweet_id": "2114334534590484574"
+    },
+    {
+      "key": "injury_batch:4:4a0dc837188a",
+      "type": "injury_batch",
+      "posted_at": "2026-10-25T19:35:53.316207+00:00",
+      "tweet_id": "2114440830630957117"
     }
   ],
   "live": {
