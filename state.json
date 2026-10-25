@@ -5365,61 +5365,7 @@
     6,
     7
   ],
-  "pending": [
-    {
-      "key": "form_cold:5:7c53a63e535f",
-      "story": {
-        "type": "form_cold",
-        "key": "form_cold:5:7c53a63e535f",
-        "players": [
-          {
-            "name": "Szoboszlai",
-            "team": "LIV",
-            "form": 0.3,
-            "total_points": 21,
-            "price_millions": 6.7,
-            "selected": 15.8
-          },
-          {
-            "name": "Schade",
-            "team": "BRE",
-            "form": 0.3,
-            "total_points": 40,
-            "price_millions": 6.2,
-            "selected": 15.2
-          },
-          {
-            "name": "B.Fernandes",
-            "team": "MUN",
-            "form": 0.7,
-            "total_points": 33,
-            "price_millions": 11.7,
-            "selected": 25.8
-          },
-          {
-            "name": "Ajayi",
-            "team": "HUL",
-            "form": 1.0,
-            "total_points": 30,
-            "price_millions": 4.2,
-            "selected": 13.0
-          },
-          {
-            "name": "Wissa",
-            "team": "NEW",
-            "form": 1.0,
-            "total_points": 18,
-            "price_millions": 6.1,
-            "selected": 12.3
-          }
-        ]
-      },
-      "image_path": "assets/generated/form_cold_5_7c53a63e535f.png",
-      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Szoboszlai (LIV) - 0.3 pts/game, \u00a36.7m, owned by 16%\n2. Schade (BRE) - 0.3 pts/game, \u00a36.2m, owned by 15%\n3. B.Fernandes (MUN) - 0.7 pts/game, \u00a311.7m, owned by 26%\n4. Ajayi (HUL) - 1.0 pts/game, \u00a34.2m, owned by 13%\n5. Wissa (NEW) - 1.0 pts/game, \u00a36.1m, owned by 12%\n\nHow many of these are in your team? #FPL #FPLFamily #FPLTwitter #FPLCommunity\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-10-25T11:51:12.418144+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5609,7 +5555,8 @@
     "injury_batch:2:42218d1f1368",
     "injury_batch:3:d3b274cfc4b3",
     "injury_batch:2:b295500ba3b3",
-    "price_batch:8:39f0a8d6f59a"
+    "price_batch:8:39f0a8d6f59a",
+    "form_cold:5:7c53a63e535f"
   ],
   "post_log": [
     {
@@ -6567,6 +6514,12 @@
       "type": "price_changes",
       "posted_at": "2026-10-25T01:41:11.331353+00:00",
       "tweet_id": "2114170373247783168"
+    },
+    {
+      "key": "form_cold:5:7c53a63e535f",
+      "type": "form_cold",
+      "posted_at": "2026-10-25T12:33:30.372834+00:00",
+      "tweet_id": "2114334534590484574"
     }
   ],
   "live": {
