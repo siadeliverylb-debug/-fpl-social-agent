@@ -7444,7 +7444,25 @@
       "79:162:yellow_cards": 1,
       "79:418:yellow_cards": 1,
       "79:421:yellow_cards": 1,
-      "79:73:yellow_cards": 1
+      "79:73:yellow_cards": 1,
+      "75:453:goals_scored": 1,
+      "75:465:goals_scored": 1,
+      "75:457:assists": 1,
+      "75:593:assists": 1,
+      "76:295:goals_scored": 1,
+      "76:95:goals_scored": 1,
+      "76:240:assists": 1,
+      "76:106:assists": 1,
+      "78:379:goals_scored": 1,
+      "78:366:assists": 1,
+      "78:627:assists": 1,
+      "78:124:own_goals": 1,
+      "79:67:goals_scored": 1,
+      "79:68:goals_scored": 1,
+      "79:79:goals_scored": 1,
+      "79:61:assists": 1,
+      "79:70:assists": 1,
+      "79:71:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -7746,6 +7764,36 @@
         "team": "TOT",
         "assisted_by": "Fernandes",
         "score": "0-2"
+      },
+      "75:a": {
+        "player": "Osula",
+        "team": "NEW",
+        "assisted_by": null,
+        "score": "0-2"
+      },
+      "76:h": {
+        "player": "McBurnie",
+        "team": "HUL",
+        "assisted_by": "Iroegbunam",
+        "score": "1-0"
+      },
+      "76:a": {
+        "player": "O.Dango",
+        "team": "BRE",
+        "assisted_by": "Thiago",
+        "score": "1-1"
+      },
+      "78:h": {
+        "player": "Isak",
+        "team": "LIV",
+        "assisted_by": null,
+        "score": "2-0"
+      },
+      "79:a": {
+        "player": "Evanilson",
+        "team": "BOU",
+        "assisted_by": null,
+        "score": "0-3"
       }
     },
     "posted_score": {
@@ -7931,19 +7979,19 @@
       ],
       "75": [
         0,
-        0
+        2
       ],
       "76": [
-        0,
-        0
+        1,
+        1
       ],
       "78": [
-        0,
+        2,
         0
       ],
       "79": [
         0,
-        0
+        3
       ],
       "80": [
         0,
@@ -8366,7 +8414,8 @@
       "79:419": true,
       "79:428": true,
       "79:435": true,
-      "79:440": true
+      "79:440": true,
+      "75:462": true
     },
     "subs_baselined": {
       "31": true,
@@ -8696,96 +8745,6 @@
         "value": 1,
         "since": "2026-09-20T14:12:11.942247+00:00",
         "minute": 51
-      },
-      "75:453:goals_scored": {
-        "value": 1,
-        "since": "2026-10-25T15:41:28.817459+00:00",
-        "minute": 81
-      },
-      "75:465:goals_scored": {
-        "value": 1,
-        "since": "2026-10-25T15:41:28.817488+00:00",
-        "minute": 81
-      },
-      "75:457:assists": {
-        "value": 1,
-        "since": "2026-10-25T15:41:28.817495+00:00",
-        "minute": 81
-      },
-      "75:593:assists": {
-        "value": 1,
-        "since": "2026-10-25T15:41:28.817498+00:00",
-        "minute": 81
-      },
-      "76:295:goals_scored": {
-        "value": 1,
-        "since": "2026-10-25T15:41:28.817556+00:00",
-        "minute": 79
-      },
-      "76:95:goals_scored": {
-        "value": 1,
-        "since": "2026-10-25T15:41:28.817561+00:00",
-        "minute": 79
-      },
-      "76:240:assists": {
-        "value": 1,
-        "since": "2026-10-25T15:41:28.817563+00:00",
-        "minute": 79
-      },
-      "76:106:assists": {
-        "value": 1,
-        "since": "2026-10-25T15:41:28.817566+00:00",
-        "minute": 79
-      },
-      "78:379:goals_scored": {
-        "value": 1,
-        "since": "2026-10-25T15:41:28.817602+00:00",
-        "minute": 78
-      },
-      "78:366:assists": {
-        "value": 1,
-        "since": "2026-10-25T15:41:28.817607+00:00",
-        "minute": 78
-      },
-      "78:627:assists": {
-        "value": 1,
-        "since": "2026-10-25T15:41:28.817609+00:00",
-        "minute": 78
-      },
-      "78:124:own_goals": {
-        "value": 1,
-        "since": "2026-10-25T15:41:28.817612+00:00",
-        "minute": 78
-      },
-      "79:67:goals_scored": {
-        "value": 1,
-        "since": "2026-10-25T15:41:28.817650+00:00",
-        "minute": 80
-      },
-      "79:68:goals_scored": {
-        "value": 1,
-        "since": "2026-10-25T15:41:28.817654+00:00",
-        "minute": 80
-      },
-      "79:79:goals_scored": {
-        "value": 1,
-        "since": "2026-10-25T15:41:28.817657+00:00",
-        "minute": 80
-      },
-      "79:61:assists": {
-        "value": 1,
-        "since": "2026-10-25T15:41:28.817659+00:00",
-        "minute": 80
-      },
-      "79:70:assists": {
-        "value": 1,
-        "since": "2026-10-25T15:41:28.817662+00:00",
-        "minute": 80
-      },
-      "79:71:assists": {
-        "value": 1,
-        "since": "2026-10-25T15:41:28.817664+00:00",
-        "minute": 80
       }
     }
   },
@@ -10693,6 +10652,12 @@
       "type": "substitution",
       "posted_at": "2026-10-25T15:44:25.465675+00:00",
       "tweet_id": "2114382580455780804"
+    },
+    {
+      "key": "sub:75:647",
+      "type": "substitution",
+      "posted_at": "2026-10-25T15:45:09.212901+00:00",
+      "tweet_id": "2114382764103364925"
     }
   ],
   "form_spotlight": {
@@ -10718,23 +10683,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:75:647",
-      "story": {
-        "type": "substitution",
-        "key": "sub:75:647",
-        "player": "Osorio",
-        "team": "CRY",
-        "home": "CRY",
-        "away": "NEW",
-        "score": "0-0",
-        "minute": 81,
-        "subbed_out": "McNeil"
-      },
-      "image_path": "assets/generated/live_sub_75_647.png",
-      "caption": "\ud83d\udd04 SUB! 81' Osorio (CRY) is on. Off: McNeil. CRY 0-0 NEW.\n\nWorth watching for a late returns. #FPL #FPLCommunity #FantasyFootball #FPLTwitter #CRY\n\nMore like this on the feed -- give us a follow.",
-      "queued_at": "2026-10-25T15:41:29.086713+00:00"
-    },
     {
       "key": "yellow_card:75:211:1",
       "story": {
@@ -11313,6 +11261,280 @@
       "image_path": "assets/generated/live_yellow_card_79_73_1.png",
       "caption": "\ud83d\udfe8 YELLOW CARD! 80' Adams (BOU) is booked. MUN 0-0 BOU.\n\nWorth keeping an eye on for next week. #FPL #PremierLeague #FPLFamily #FPLTwitter #BOU\n\nTurn on notifications to catch these as they land.",
       "queued_at": "2026-10-25T15:41:30.525776+00:00"
+    },
+    {
+      "key": "sub:75:462",
+      "story": {
+        "type": "substitution",
+        "key": "sub:75:462",
+        "player": "Steur",
+        "team": "NEW",
+        "home": "CRY",
+        "away": "NEW",
+        "score": "0-0",
+        "minute": 86
+      },
+      "image_path": "assets/generated/live_sub_75_462.png",
+      "caption": "\ud83d\udd04 SUB! 86' Steur (NEW) is on. CRY 0-0 NEW.\n\nDoes this open a chance for a start next week? #FPL #FPLTips #FPLFamily #FPLCommunity #NEW\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-25T15:45:07.374572+00:00"
+    },
+    {
+      "key": "goal:75:453:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:75:453:1",
+        "player": "Barnes",
+        "team": "NEW",
+        "home": "CRY",
+        "away": "NEW",
+        "minute": 81,
+        "score": "0-1"
+      },
+      "image_path": "assets/generated/live_goal_75_453_1.png",
+      "caption": "\u26bd GOAL! 81' Barnes (NEW)! CRY 0-1 NEW.\n\nWho's benefiting from that in FPL? #FPL #FPLFamily #FPLCommunity #FPLTwitter #NEW\n\nFollow for the next one.",
+      "queued_at": "2026-10-25T15:45:07.415655+00:00"
+    },
+    {
+      "key": "goal:75:465:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:75:465:1",
+        "player": "Osula",
+        "team": "NEW",
+        "home": "CRY",
+        "away": "NEW",
+        "minute": 81,
+        "score": "0-2"
+      },
+      "image_path": "assets/generated/live_goal_75_465_1.png",
+      "caption": "\u26bd GOAL! 81' Osula (NEW)! CRY 0-2 NEW.\n\nNailed on captain material? #FPL #FPLTips #FantasyFootball #PremierLeague #NEW\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-25T15:45:07.458074+00:00"
+    },
+    {
+      "key": "assist:75:457:1",
+      "story": {
+        "type": "assist",
+        "key": "assist:75:457:1",
+        "player": "J.Murphy",
+        "team": "NEW",
+        "home": "CRY",
+        "away": "NEW",
+        "minute": 81,
+        "score": "0-2"
+      },
+      "image_path": "assets/generated/live_assist_75_457_1.png",
+      "caption": "\ud83c\udfaf ASSIST! 81' J.Murphy (NEW) with the assist! CRY 0-2 NEW.\n\nUnderrated FPL pick, or expected? #FPL #FPLTips #FantasyPremierLeague #FPLCommunity #NEW\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-25T15:45:07.500800+00:00"
+    },
+    {
+      "key": "assist:75:593:1",
+      "story": {
+        "type": "assist",
+        "key": "assist:75:593:1",
+        "player": "Dedi\u0107",
+        "team": "NEW",
+        "home": "CRY",
+        "away": "NEW",
+        "minute": 81,
+        "score": "0-2"
+      },
+      "image_path": "assets/generated/live_assist_75_593_1.png",
+      "caption": "\ud83c\udfaf ASSIST! 81' Dedi\u0107 (NEW) with the assist! CRY 0-2 NEW.\n\nUnderrated FPL pick, or expected? #FPL #FPLCommunity #FantasyPremierLeague #FPLFamily #NEW\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-25T15:45:07.541565+00:00"
+    },
+    {
+      "key": "goal:76:295:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:76:295:1",
+        "player": "McBurnie",
+        "team": "HUL",
+        "home": "HUL",
+        "away": "BRE",
+        "minute": 79,
+        "score": "1-0",
+        "assisted_by": "Iroegbunam"
+      },
+      "image_path": "assets/generated/live_goal_76_295_1.png",
+      "caption": "\u26bd GOAL! 79' McBurnie (HUL)! Assisted by Iroegbunam. HUL 1-0 BRE.\n\nHave him in your team? #FPL #FPLFamily #FPLCommunity #FantasyPremierLeague #HUL\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-25T15:45:07.585650+00:00"
+    },
+    {
+      "key": "goal:76:95:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:76:95:1",
+        "player": "O.Dango",
+        "team": "BRE",
+        "home": "HUL",
+        "away": "BRE",
+        "minute": 79,
+        "score": "1-1",
+        "assisted_by": "Thiago"
+      },
+      "image_path": "assets/generated/live_goal_76_95_1.png",
+      "caption": "\u26bd GOAL! 79' O.Dango (BRE)! Assisted by Thiago. HUL 1-1 BRE.\n\nBig green arrow incoming for whoever owns him. #FPL #FantasyFootball #PremierLeague #FPLFamily #BRE\n\nFollow for the next one.",
+      "queued_at": "2026-10-25T15:45:07.628901+00:00"
+    },
+    {
+      "key": "own_goal:78:124:1",
+      "story": {
+        "type": "own_goal",
+        "key": "own_goal:78:124:1",
+        "player": "Gro\u00df",
+        "team": "BHA",
+        "home": "LIV",
+        "away": "BHA",
+        "minute": 78,
+        "score": "1-0"
+      },
+      "image_path": "assets/generated/live_own_goal_78_124_1.png",
+      "caption": "\ud83d\udea8 OWN GOAL! 78' Gro\u00df (BHA). LIV 1-0 BHA.\n\nRough moment -- feel for him. #FPL #FPLCommunity #FantasyFootball #FantasyPremierLeague #BHA\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-25T15:45:07.674378+00:00"
+    },
+    {
+      "key": "goal:78:379:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:78:379:1",
+        "player": "Isak",
+        "team": "LIV",
+        "home": "LIV",
+        "away": "BHA",
+        "minute": 78,
+        "score": "2-0"
+      },
+      "image_path": "assets/generated/live_goal_78_379_1.png",
+      "caption": "\u26bd GOAL! 78' Isak (LIV)! LIV 2-0 BHA.\n\nNailed on captain material? #FPL #FantasyPremierLeague #FPLTwitter #FPLCommunity #LIV\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-25T15:45:07.718553+00:00"
+    },
+    {
+      "key": "assist:78:366:1",
+      "story": {
+        "type": "assist",
+        "key": "assist:78:366:1",
+        "player": "Wirtz",
+        "team": "LIV",
+        "home": "LIV",
+        "away": "BHA",
+        "minute": 78,
+        "score": "2-0"
+      },
+      "image_path": "assets/generated/live_assist_78_366_1.png",
+      "caption": "\ud83c\udfaf ASSIST! 78' Wirtz (LIV) with the assist! LIV 2-0 BHA.\n\nAttacking returns keep coming for him. #FPL #FantasyPremierLeague #FantasyFootball #FPLTips #LIV\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-25T15:45:07.763060+00:00"
+    },
+    {
+      "key": "assist:78:627:1",
+      "story": {
+        "type": "assist",
+        "key": "assist:78:627:1",
+        "player": "Barcola",
+        "team": "LIV",
+        "home": "LIV",
+        "away": "BHA",
+        "minute": 78,
+        "score": "2-0"
+      },
+      "image_path": "assets/generated/live_assist_78_627_1.png",
+      "caption": "\ud83c\udfaf ASSIST! 78' Barcola (LIV) with the assist! LIV 2-0 BHA.\n\nQuietly racking up the returns. #FPL #FPLCommunity #FPLFamily #FPLTips #LIV\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-25T15:45:07.809336+00:00"
+    },
+    {
+      "key": "goal:79:67:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:79:67:1",
+        "player": "Rayan",
+        "team": "BOU",
+        "home": "MUN",
+        "away": "BOU",
+        "minute": 80,
+        "score": "0-1"
+      },
+      "image_path": "assets/generated/live_goal_79_67_1.png",
+      "caption": "\u26bd GOAL! 80' Rayan (BOU)! MUN 0-1 BOU.\n\nNailed on captain material? #FPL #PremierLeague #FantasyFootball #FPLCommunity #BOU\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "queued_at": "2026-10-25T15:45:07.854645+00:00"
+    },
+    {
+      "key": "goal:79:68:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:79:68:1",
+        "player": "Tavernier",
+        "team": "BOU",
+        "home": "MUN",
+        "away": "BOU",
+        "minute": 80,
+        "score": "0-2"
+      },
+      "image_path": "assets/generated/live_goal_79_68_1.png",
+      "caption": "\u26bd GOAL! 80' Tavernier (BOU)! MUN 0-2 BOU.\n\nBig green arrow incoming for whoever owns him. #FPL #FantasyPremierLeague #FPLFamily #FPLTwitter #BOU\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "queued_at": "2026-10-25T15:45:07.901398+00:00"
+    },
+    {
+      "key": "goal:79:79:1",
+      "story": {
+        "type": "goal",
+        "key": "goal:79:79:1",
+        "player": "Evanilson",
+        "team": "BOU",
+        "home": "MUN",
+        "away": "BOU",
+        "minute": 80,
+        "score": "0-3"
+      },
+      "image_path": "assets/generated/live_goal_79_79_1.png",
+      "caption": "\u26bd GOAL! 80' Evanilson (BOU)! MUN 0-3 BOU.\n\nHave him in your team? #FPL #PremierLeague #FantasyPremierLeague #FantasyFootball #BOU\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-25T15:45:07.945293+00:00"
+    },
+    {
+      "key": "assist:79:61:1",
+      "story": {
+        "type": "assist",
+        "key": "assist:79:61:1",
+        "player": "Truffert",
+        "team": "BOU",
+        "home": "MUN",
+        "away": "BOU",
+        "minute": 80,
+        "score": "0-3"
+      },
+      "image_path": "assets/generated/live_assist_79_61_1.png",
+      "caption": "\ud83c\udfaf ASSIST! 80' Truffert (BOU) with the assist! MUN 0-3 BOU.\n\nAttacking returns keep coming for him. #FPL #FPLTips #FantasyPremierLeague #FPLTwitter #BOU\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-25T15:45:07.990724+00:00"
+    },
+    {
+      "key": "assist:79:70:1",
+      "story": {
+        "type": "assist",
+        "key": "assist:79:70:1",
+        "player": "Kluivert",
+        "team": "BOU",
+        "home": "MUN",
+        "away": "BOU",
+        "minute": 80,
+        "score": "0-3"
+      },
+      "image_path": "assets/generated/live_assist_79_70_1.png",
+      "caption": "\ud83c\udfaf ASSIST! 80' Kluivert (BOU) with the assist! MUN 0-3 BOU.\n\nUnderrated FPL pick, or expected? #FPL #FantasyPremierLeague #PremierLeague #FantasyFootball #BOU\n\nMore like this on the feed -- give us a follow.",
+      "queued_at": "2026-10-25T15:45:08.033375+00:00"
+    },
+    {
+      "key": "assist:79:71:1",
+      "story": {
+        "type": "assist",
+        "key": "assist:79:71:1",
+        "player": "Cook",
+        "team": "BOU",
+        "home": "MUN",
+        "away": "BOU",
+        "minute": 80,
+        "score": "0-3"
+      },
+      "image_path": "assets/generated/live_assist_79_71_1.png",
+      "caption": "\ud83c\udfaf ASSIST! 80' Cook (BOU) with the assist! MUN 0-3 BOU.\n\nQuietly racking up the returns. #FPL #FPLFamily #PremierLeague #FantasyFootball #BOU\n\nTurn on notifications to catch these as they land.",
+      "queued_at": "2026-10-25T15:45:08.077297+00:00"
     }
   ]
 }
