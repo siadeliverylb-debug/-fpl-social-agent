@@ -10758,6 +10758,12 @@
       "type": "substitution",
       "posted_at": "2026-10-25T18:35:52.108127+00:00",
       "tweet_id": "2114425725990117447"
+    },
+    {
+      "key": "sub:76:637",
+      "type": "substitution",
+      "posted_at": "2026-10-25T18:36:35.067783+00:00",
+      "tweet_id": "2114425906060054676"
     }
   ],
   "form_spotlight": {
@@ -10783,22 +10789,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:76:637",
-      "story": {
-        "type": "substitution",
-        "key": "sub:76:637",
-        "player": "Vaz",
-        "team": "HUL",
-        "home": "HUL",
-        "away": "BRE",
-        "score": "1-1",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_76_637.png",
-      "caption": "\ud83d\udd04 SUB! 90' Vaz (HUL) is on. HUL 1-1 BRE.\n\nImpact sub, or too little too late? #FPL #FPLCommunity #FantasyPremierLeague #FPLFamily #HUL\n\nFollow for the next one.",
-      "queued_at": "2026-10-25T18:32:57.043996+00:00"
-    },
     {
       "key": "fulltime:76",
       "story": {
