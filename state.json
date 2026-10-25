@@ -5110,8 +5110,8 @@
       "web_name": "Danso",
       "team": "SUN",
       "now_cost": 50,
-      "status": "s",
-      "news": "Suspended until 31 Oct",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-18T13:30:09.387826Z"
     },
     "529": {
@@ -5355,7 +5355,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-25T18:29:29.509811+00:00",
+  "last_snapshot_at": "2026-10-25T21:05:43.123555+00:00",
   "recapped_events": [
     1,
     2,
