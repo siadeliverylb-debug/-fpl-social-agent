@@ -10752,6 +10752,12 @@
       "type": "bonus_points",
       "posted_at": "2026-10-25T18:35:09.314699+00:00",
       "tweet_id": "2114425546499109045"
+    },
+    {
+      "key": "sub:76:340",
+      "type": "substitution",
+      "posted_at": "2026-10-25T18:35:52.108127+00:00",
+      "tweet_id": "2114425725990117447"
     }
   ],
   "form_spotlight": {
@@ -10777,22 +10783,6 @@
     }
   },
   "live_queue": [
-    {
-      "key": "sub:76:340",
-      "story": {
-        "type": "substitution",
-        "key": "sub:76:340",
-        "player": "Gelhardt",
-        "team": "HUL",
-        "home": "HUL",
-        "away": "BRE",
-        "score": "1-1",
-        "minute": 90
-      },
-      "image_path": "assets/generated/live_sub_76_340.png",
-      "caption": "\ud83d\udd04 SUB! 90' Gelhardt (HUL) is on. HUL 1-1 BRE.\n\nImpact sub, or too little too late? #FPL #FPLTips #FantasyFootball #FantasyPremierLeague #HUL\n\nTurn on notifications to catch these as they land.",
-      "queued_at": "2026-10-25T18:32:56.984250+00:00"
-    },
     {
       "key": "sub:76:637",
       "story": {
