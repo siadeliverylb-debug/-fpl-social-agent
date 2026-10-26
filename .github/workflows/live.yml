@@ -20,6 +20,7 @@ concurrency:
 jobs:
   live:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
 
@@ -29,7 +30,7 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Poll repeatedly for ~4 minutes
+      - name: Poll for ~4 minutes, or until the current matches are over
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
@@ -38,23 +39,40 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_BUSINESS_ACCOUNT_ID: ${{ secrets.IG_BUSINESS_ACCOUNT_ID }}
         run: |
-          # GitHub's own schedule trigger is "best effort" and gets delayed
-          # under load, often well past the configured 5-minute cron -- so
-          # each firing polls several times internally (fast, ~40s apart)
-          # instead of relying on the outer schedule for granularity.
+          # GitHub's own schedule trigger is "best effort" and in practice
+          # fires this only every few hours, nowhere near the 5-minute cron --
+          # so each run polls internally (~40s apart): ~4 minutes normally, but
+          # for as long as a match is live or about to kick off (rechecked
+          # every 5 polls), capped under the job timeout. Scheduled triggers
+          # that fire meanwhile wait in the concurrency group and take over
+          # when this run ends.
           git config user.name "fpl-social-agent-bot"
           git config user.email "actions@users.noreply.github.com"
-          for i in 1 2 3 4 5 6; do
-            python scripts/orchestrate.py live ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }}
-            git add state.json assets/generated
+          start=$(date +%s)
+          deadline=$((start + 240))
+          cap=$((start + 330 * 60))
+          i=0
+          while :; do
+            # A transient FPL API error must not end a match-long run early.
+            python scripts/orchestrate.py live ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }} || echo "Live poll failed, retrying next poll"
+            git add live_state.json assets/generated
             git diff --cached --quiet || git commit -m "Live: post match events [skip ci]"
-            # Each workflow now has its own concurrency group (see below), so
-            # a push here can race against scan/publish/live pushing at the
+            # Each workflow has its own concurrency group (see below), so
+            # a push here can race against scan/publish pushing at the
             # same moment -- retry instead of losing this poll's events to a
             # single rejected push.
             for attempt in 1 2 3 4 5; do
               git pull --rebase && git push && break
+              git rebase --abort 2>/dev/null || true
               sleep $((RANDOM % 10 + 3))
             done
-            if [ "$i" -lt 6 ]; then sleep 40; fi
+            i=$((i + 1))
+            if [ $((i % 5)) -eq 1 ]; then
+              left=$(python scripts/orchestrate.py live-window || echo 0)
+              until_window_end=$(( $(date +%s) + left ))
+              if [ "$until_window_end" -gt "$deadline" ]; then deadline=$until_window_end; fi
+              if [ "$deadline" -gt "$cap" ]; then deadline=$cap; fi
+            fi
+            if [ "$(date +%s)" -ge "$deadline" ]; then break; fi
+            sleep 40
           done

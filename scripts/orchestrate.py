@@ -3,6 +3,7 @@
   python orchestrate.py scan     -- fetch news, draft new stories, queue for Slack review
   python orchestrate.py publish  -- resolve pending drafts (approved / rejected / timed out)
   python orchestrate.py live     -- poll live fixtures, auto-post goals/cards/etc immediately
+  python orchestrate.py live-window -- print seconds until the current/next match window ends (0 = none)
 
 State (state.json) persists across runs via git commit from the workflow.
 """
@@ -11,6 +12,7 @@ import argparse
 import json
 import os
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(__file__))
@@ -24,6 +26,11 @@ import slack_review
 
 REPO_ROOT = os.path.join(os.path.dirname(__file__), "..")
 STATE_PATH = os.path.join(REPO_ROOT, "state.json")
+# Live polling keeps its state in its own file: live.yml now runs for hours
+# through a match while scan/publish keep committing state.json, and two
+# workflows rewriting the same JSON file is what makes `git pull --rebase`
+# conflict. Separate files can never conflict.
+LIVE_STATE_PATH = os.path.join(REPO_ROOT, "live_state.json")
 GENERATED_DIR = os.path.join(REPO_ROOT, "assets", "generated")
 
 # Raised from the original 5/day, 90-min gap: real story volume (status
@@ -45,6 +52,11 @@ LIVE_QUEUE_TTL_MINUTES = 20  # a live event that couldn't post within this is no
 LIVE_MIN_GAP_SECONDS = 2
 LIVE_MAX_POSTS_PER_DAY = 150
 
+# When several live events are waiting at once, the ones FPL managers care
+# most about go out first. The sort is stable, so each tier keeps detection
+# order (a match's goals still post in scoring order, its full-time after them).
+LIVE_PRIORITY = {"yellow_card": 1, "substitution": 2}
+
 
 def load_state():
     with open(STATE_PATH, "r", encoding="utf-8") as f:
@@ -54,6 +66,16 @@ def load_state():
 def save_state(state):
     with open(STATE_PATH, "w", encoding="utf-8") as f:
         json.dump(state, f, indent=2)
+
+
+def load_live_state():
+    with open(LIVE_STATE_PATH, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def save_live_state(live_state):
+    with open(LIVE_STATE_PATH, "w", encoding="utf-8") as f:
+        json.dump(live_state, f, indent=2)
 
 
 def raw_url_for(rel_path):
@@ -99,12 +121,20 @@ def can_post_now(state, now):
     return count_today < MAX_POSTS_PER_DAY
 
 
-def can_post_live_now(state, now):
+def wait_for_live_gap(state):
+    # Waits out the gap instead of deferring: deferring here used to push
+    # every event after the first to the next poll (the previous post is
+    # always <2s old by then), so each poll posted exactly one event and the
+    # rest of a burst -- usually the goals -- aged past the TTL and was dropped.
     log = state.get("live_post_log", [])
     if log:
-        last_dt = datetime.fromisoformat(log[-1]["posted_at"])
-        if (now - last_dt).total_seconds() < LIVE_MIN_GAP_SECONDS:
-            return False
+        since = (datetime.now(timezone.utc) - datetime.fromisoformat(log[-1]["posted_at"])).total_seconds()
+        if since < LIVE_MIN_GAP_SECONDS:
+            time.sleep(LIVE_MIN_GAP_SECONDS - since)
+
+
+def can_post_live_now(state, now):
+    log = state.get("live_post_log", [])
     today = now.date().isoformat()
     count_today = sum(1 for e in log if e["posted_at"].startswith(today))
     return count_today < LIVE_MAX_POSTS_PER_DAY
@@ -199,7 +229,7 @@ def _publish_one(state, item, dry_run, log_key="post_log"):
 
 
 def cmd_live(dry_run):
-    state = load_state()
+    state = load_live_state()
 
     # Items the cadence cap blocked last run go first -- they must never be
     # silently dropped just because the underlying stat counter (which
@@ -217,24 +247,36 @@ def cmd_live(dry_run):
             "queued_at": datetime.now(timezone.utc).isoformat(),
         })
 
+    queue.sort(key=lambda item: LIVE_PRIORITY.get(item["story"]["type"], 0))
+
     now = datetime.now(timezone.utc)
     posted = 0
     still_queued = []
-    for item in queue:
+    for idx, item in enumerate(queue):
         queued_at = item.get("queued_at")
         if queued_at and (now - datetime.fromisoformat(queued_at)).total_seconds() > LIVE_QUEUE_TTL_MINUTES * 60:
             print(f"Dropping stale live event {item['key']} -- older than {LIVE_QUEUE_TTL_MINUTES} min, not posting it late")
             continue
         if not can_post_live_now(state, now):
-            print(f"Deferring {item['key']}: live cadence cap hit, will retry next run")
+            print(f"Deferring {item['key']}: live daily cap hit, will retry next run")
             still_queued.append(item)
             continue
-        _publish_one(state, item, dry_run, log_key="live_post_log")
+        wait_for_live_gap(state)
+        try:
+            _publish_one(state, item, dry_run, log_key="live_post_log")
+        except Exception as e:
+            # e.g. an X rate limit or outage. Keep this and everything after it
+            # queued for the next poll rather than crashing before
+            # save_live_state, which would lose the advanced stat counters and
+            # repost everything that already went out this pass.
+            print(f"Posting {item['key']} failed ({e}); keeping it and the rest queued for the next poll")
+            still_queued.extend(queue[idx:])
+            break
         now = datetime.now(timezone.utc)
         posted += 1
 
     state["live_queue"] = still_queued
-    save_state(state)
+    save_live_state(state)
     print(f"Live pass complete. {posted}/{len(queue)} event(s) posted, {len(still_queued)} deferred.")
 
 
@@ -279,7 +321,7 @@ def cmd_publish(dry_run, force=False):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("mode", choices=["scan", "publish", "live"])
+    parser.add_argument("mode", choices=["scan", "publish", "live", "live-window"])
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--force", action="store_true", help="publish bypassing cadence caps (manual override)")
     args = parser.parse_args()
@@ -288,5 +330,8 @@ if __name__ == "__main__":
         cmd_scan(args.dry_run)
     elif args.mode == "publish":
         cmd_publish(args.dry_run, force=args.force)
+    elif args.mode == "live-window":
+        # Used by live.yml to decide how long to keep the run polling.
+        print(live_events.seconds_left_in_match_window())
     else:
         cmd_live(args.dry_run)

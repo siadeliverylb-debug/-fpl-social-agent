@@ -2,7 +2,7 @@
 cards, penalties, kickoff and full-time -- for immediate (non-approval)
 posting since they're only worth posting while still live."""
 
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import requests
 
@@ -21,6 +21,14 @@ HELD_STATS = ("goals_scored", "assists", "own_goals")
 # would be invisible forever, since fetch_live_events only ever looked at
 # whichever gameweek was current.
 PREV_EVENT_GRACE_HOURS = 24
+
+# GitHub's scheduler only actually fires live.yml every few hours (5-8 runs a
+# day against a 5-minute cron), so instead of relying on it, a run that lands
+# near a match keeps polling until that match is over. A run starting up to
+# WINDOW_LOOKAHEAD_MINUTES before a kickoff waits for it, and a match counts
+# as over MATCH_LENGTH_MINUTES after kickoff or at finished_provisional.
+WINDOW_LOOKAHEAD_MINUTES = 180
+MATCH_LENGTH_MINUTES = 150
 
 BOOTSTRAP_URL = "https://fantasy.premierleague.com/api/bootstrap-static/"
 FIXTURES_URL = "https://fantasy.premierleague.com/api/fixtures/"
@@ -42,6 +50,21 @@ def _fetch_json(url):
     resp = requests.get(url, timeout=20)
     resp.raise_for_status()
     return resp.json()
+
+
+def seconds_left_in_match_window():
+    """Seconds until every match that's live or kicking off within the
+    lookahead is over; 0 if there's none."""
+    now = datetime.now(timezone.utc)
+    window_end = now
+    for fx in _fetch_json(FIXTURES_URL):
+        if not fx.get("kickoff_time") or fx.get("finished_provisional"):
+            continue
+        kickoff = datetime.fromisoformat(fx["kickoff_time"].replace("Z", "+00:00"))
+        match_end = kickoff + timedelta(minutes=MATCH_LENGTH_MINUTES)
+        if match_end > now and kickoff - now <= timedelta(minutes=WINDOW_LOOKAHEAD_MINUTES):
+            window_end = max(window_end, match_end)
+    return int((window_end - now).total_seconds())
 
 
 def fetch_live_events(state):
