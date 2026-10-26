@@ -5363,25 +5363,10 @@
     4,
     5,
     6,
-    7
+    7,
+    8
   ],
-  "pending": [
-    {
-      "key": "recap:8",
-      "story": {
-        "type": "gw_recap",
-        "key": "recap:8",
-        "gw": 8,
-        "most_captained": "Haaland",
-        "highest_score": 120,
-        "most_selected": "Haaland"
-      },
-      "image_path": "assets/generated/recap_8.png",
-      "caption": "\ud83d\udd25 GW8 is in the books. Top score: 120 pts. Most captained: Haaland.\n\nDid YOU beat the top score? #FPL #FPLFamily #PremierLeague #FantasyPremierLeague\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-10-26T19:38:19.110146+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5575,7 +5560,8 @@
     "form_cold:5:7c53a63e535f",
     "injury_batch:4:4a0dc837188a",
     "price_batch:9:f4dccae5f7ca",
-    "form_hot:5:131d83497f5a"
+    "form_hot:5:131d83497f5a",
+    "recap:8"
   ],
   "post_log": [
     {
@@ -6551,6 +6537,13 @@
       "type": "price_changes",
       "posted_at": "2026-10-26T05:17:59.635434+00:00",
       "tweet_id": "2114587322201124866"
+    },
+    {
+      "key": "recap:8",
+      "type": "gw_recap",
+      "posted_at": "2026-10-26T21:51:56.708991+00:00",
+      "tweet_id": "2114837458168725684",
+      "ig": "skipped (Instagram not configured)"
     }
   ],
   "form_spotlight": {
