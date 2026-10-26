@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: fpl-state
+  group: fpl-state-scan
   cancel-in-progress: false
 
 jobs:
@@ -42,5 +42,11 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add state.json assets/generated
           git diff --cached --quiet || git commit -m "Scan: update state and queued drafts [skip ci]"
-          git pull --rebase
-          git push
+          # Each workflow now has its own concurrency group (see below), so a
+          # push here can race against scan/publish/live pushing at the same
+          # moment -- retry the pull-rebase-push cycle instead of losing this
+          # run's work to a single rejected push.
+          for i in 1 2 3 4 5; do
+            git pull --rebase && git push && break
+            sleep $((RANDOM % 10 + 3))
+          done
