@@ -5365,93 +5365,7 @@
     6,
     7
   ],
-  "pending": [
-    {
-      "key": "price_batch:9:f4dccae5f7ca",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:9:f4dccae5f7ca",
-        "changes": [
-          {
-            "pid": "249",
-            "player": "Barry",
-            "team": "EVE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.6
-          },
-          {
-            "pid": "263",
-            "player": "Kevin",
-            "team": "FUL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.2
-          },
-          {
-            "pid": "419",
-            "player": "Martinez",
-            "team": "MUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.8
-          },
-          {
-            "pid": "450",
-            "player": "Livramento",
-            "team": "NEW",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.8
-          },
-          {
-            "pid": "613",
-            "player": "Ahoka",
-            "team": "SUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "270",
-            "player": "Reed",
-            "team": "FUL",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.3
-          },
-          {
-            "pid": "627",
-            "player": "Barcola",
-            "team": "LIV",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 8.1
-          },
-          {
-            "pid": "334",
-            "player": "Muharemovi\u0107",
-            "team": "LEE",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.1
-          },
-          {
-            "pid": "31",
-            "player": "Konsa",
-            "team": "ARS",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.7
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_9_f4dccae5f7ca.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 6 falls, 3 rises.\n\n\ud83d\udd34 Barry (EVE) -> \u00a35.6m\n\ud83d\udd34 Kevin (FUL) -> \u00a35.2m\n\ud83d\udd34 Martinez (MUN) -> \u00a34.8m\n\ud83d\udd34 Livramento (NEW) -> \u00a34.8m\n\ud83d\udd34 Ahoka (SUN) -> \u00a34.4m\n\ud83d\udd34 Reed (FUL) -> \u00a34.3m\n\ud83d\udfe2 Barcola (LIV) -> \u00a38.1m\n\ud83d\udfe2 Muharemovi\u0107 (LEE) -> \u00a35.1m\n\ud83d\udfe2 Konsa (ARS) -> \u00a34.7m\n\nWinners and losers in your squad? #FPL #FantasyPremierLeague #FPLTwitter #FPLTips\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-10-26T01:25:04.257996+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5643,7 +5557,8 @@
     "injury_batch:2:b295500ba3b3",
     "price_batch:8:39f0a8d6f59a",
     "form_cold:5:7c53a63e535f",
-    "injury_batch:4:4a0dc837188a"
+    "injury_batch:4:4a0dc837188a",
+    "price_batch:9:f4dccae5f7ca"
   ],
   "post_log": [
     {
@@ -6613,6 +6528,12 @@
       "type": "injury_batch",
       "posted_at": "2026-10-25T19:35:53.316207+00:00",
       "tweet_id": "2114440830630957117"
+    },
+    {
+      "key": "price_batch:9:f4dccae5f7ca",
+      "type": "price_changes",
+      "posted_at": "2026-10-26T05:17:59.635434+00:00",
+      "tweet_id": "2114587322201124866"
     }
   ],
   "live": {
