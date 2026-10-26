@@ -8784,6 +8784,11 @@
         "since": "2026-09-20T14:12:11.942247+00:00",
         "minute": 51
       }
+    },
+    "event_tracking": {
+      "prev": null,
+      "prev_since": "2026-10-26T12:47:25.619704+00:00",
+      "current": 8
     }
   },
   "live_post_log": [
