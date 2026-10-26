@@ -9,6 +9,7 @@ from datetime import datetime, timezone
 import requests
 
 BOOTSTRAP_URL = "https://fantasy.premierleague.com/api/bootstrap-static/"
+SITE_URL = "https://fantasycoach.org"
 STATE_PATH = os.path.join(os.path.dirname(__file__), "..", "state.json")
 
 STATUS_LABELS = {
@@ -208,14 +209,71 @@ def recap_stories(data, state):
     state["recapped_events"].extend(stale)
 
     ev = next(e for e in data["events"] if e["id"] == latest)
+    # FPL gives these as player ids -- the caption used to print the raw id.
+    names = {p["id"]: p["web_name"] for p in data["elements"]}
     return [{
         "type": "gw_recap",
         "key": f"recap:{ev['id']}",
         "gw": ev["id"],
-        "most_captained": ev.get("most_captained"),
+        "most_captained": names.get(ev.get("most_captained")),
         "highest_score": ev.get("highest_score"),
-        "most_selected": ev.get("most_selected"),
+        "most_selected": names.get(ev.get("most_selected")),
     }]
+
+
+# SIA's (the fantasycoach.org AI coach) captain picks and differentials for
+# the next gameweek, posted once each in the run-up to the deadline -- the one
+# thing this account has that the big FPL accounts don't. Posting stops
+# SIA_PICKS_LATEST_HOURS before the deadline so they're never stale on arrival.
+SIA_PICKS = {
+    # story type -> site endpoint, page linked in the caption
+    "sia_captains": ("/api/public/captain-picks", "/captain-picks"),
+    "sia_differentials": ("/api/public/differentials", "/differentials"),
+}
+SIA_PICKS_EARLIEST_HOURS = 36
+SIA_PICKS_LATEST_HOURS = 4
+
+
+def sia_pick_stories(data, state, now=None):
+    now = now or datetime.now(timezone.utc)
+    ev = next(
+        (e for e in data["events"] if datetime.fromisoformat(e["deadline_time"].replace("Z", "+00:00")) > now),
+        None,
+    )
+    if ev is None:
+        return []
+    hours_until = (datetime.fromisoformat(ev["deadline_time"].replace("Z", "+00:00")) - now).total_seconds() / 3600
+    if not (SIA_PICKS_LATEST_HOURS < hours_until <= SIA_PICKS_EARLIEST_HOURS):
+        return []
+
+    # Checked before fetching: the site generates these with Claude on a cache
+    # miss, so don't hit it again for a gameweek that's already been posted.
+    seen = set(state.get("handled_keys", [])) | {p["key"] for p in state.get("pending", [])}
+    stories = []
+    for story_type, (endpoint, page) in SIA_PICKS.items():
+        key = f"{story_type}:{ev['id']}"
+        if key in seen:
+            continue
+        try:
+            resp = requests.get(SITE_URL + endpoint, timeout=180)
+            resp.raise_for_status()
+            content = resp.json()
+        except Exception as e:
+            print(f"Skipping {key}: {SITE_URL}{endpoint} failed ({e}), will retry next scan")
+            continue
+        picks = content.get("picks") or []
+        if content.get("gameweek") != ev["id"] or len(picks) < 3:
+            print(f"Skipping {key}: site returned GW{content.get('gameweek')} with {len(picks)} pick(s)")
+            continue
+        stories.append({
+            "type": story_type,
+            "key": key,
+            "gw": ev["id"],
+            "intro": content.get("intro", ""),
+            "picks": picks,
+            "url": SITE_URL + page,
+        })
+    return stories
 
 
 # Filler content for quiet stretches: when there's no other news, post who's
@@ -323,6 +381,7 @@ def fetch_stories(state):
     stories += diff_snapshots(state.get("last_snapshot"), new_snapshot, old_age_hours=old_age)
     stories += deadline_stories(data)
     stories += recap_stories(data, state)
+    stories += sia_pick_stories(data, state)
     stories += form_stories(data, state, stories)
 
     state["last_snapshot"] = new_snapshot

@@ -52,10 +52,11 @@ LIVE_QUEUE_TTL_MINUTES = 20  # a live event that couldn't post within this is no
 LIVE_MIN_GAP_SECONDS = 2
 LIVE_MAX_POSTS_PER_DAY = 150
 
-# When several live events are waiting at once, the ones FPL managers care
-# most about go out first. The sort is stable, so each tier keeps detection
-# order (a match's goals still post in scoring order, its full-time after them).
-LIVE_PRIORITY = {"yellow_card": 1, "substitution": 2}
+# Detected but not posted: subs and bookings were most of what the account
+# posted (5 subs in 4 minutes on a busy afternoon) and the least useful to
+# FPL managers, which made the feed read as spam. Detection still runs so
+# the stat counters stay current.
+LIVE_SKIP_TYPES = {"substitution", "yellow_card"}
 
 
 def load_state():
@@ -101,6 +102,8 @@ PENDING_TTL_HOURS = {
     "form_hot": 3,
     "form_cold": 3,
     "gw_recap": 24,
+    "sia_captains": 3,        # queued 4h+ before the deadline, so never posted after it
+    "sia_differentials": 3,
 }
 
 
@@ -200,12 +203,22 @@ def _publish_one(state, item, dry_run, log_key="post_log"):
 
     x_result = post_x.post_tweet(img_path, caption, dry_run=dry_run)
 
-    if os.environ.get("IG_ACCESS_TOKEN") and os.environ.get("IG_BUSINESS_ACCOUNT_ID"):
+    ig_token = os.environ.get("IG_ACCESS_TOKEN")
+    if log_key != "post_log":
+        # Live cards are rendered and posted in the same poll, before the
+        # workflow pushes them, so the raw.githubusercontent URL Instagram
+        # fetches from is still a 404 -- and a goal-by-goal feed suits X, not
+        # an Instagram grid. Instagram gets the news posts only.
+        ig_result = "skipped (live event)"
+    elif ig_token and os.environ.get("IG_BUSINESS_ACCOUNT_ID"):
         try:
-            ig_result = post_instagram.post_image(raw_url_for(item["image_path"]), caption, dry_run=dry_run)
+            post_instagram.post_image(raw_url_for(item["image_path"]), caption, dry_run=dry_run)
+            ig_result = "ok"
         except Exception as e:
-            ig_result = f"FAILED: {e}"
-            print(f"Instagram post failed for {item['key']}: {e}")
+            # Kept in the (public) post log so failures are visible without
+            # Actions log access -- with the token scrubbed out of the message.
+            ig_result = f"FAILED: {str(e).replace(ig_token, '***')[:300]}"
+            print(f"Instagram post failed for {item['key']}: {ig_result}")
     else:
         ig_result = "skipped (Instagram not configured)"
 
@@ -216,6 +229,7 @@ def _publish_one(state, item, dry_run, log_key="post_log"):
         "type": story["type"],
         "posted_at": now.isoformat(),
         "tweet_id": tweet_id,
+        "ig": ig_result,
     })
 
     if log_key == "post_log":
@@ -238,6 +252,8 @@ def cmd_live(dry_run):
 
     stories = live_events.fetch_live_events(state)
     for story in stories:
+        if story["type"] in LIVE_SKIP_TYPES:
+            continue
         key = story["key"]
         img_path = os.path.join(GENERATED_DIR, f"live_{key.replace(':', '_')}.png")
         generate_content.render_card(story, img_path)
@@ -246,8 +262,6 @@ def cmd_live(dry_run):
             "key": key, "story": story, "image_path": _rel_path(img_path), "caption": caption,
             "queued_at": datetime.now(timezone.utc).isoformat(),
         })
-
-    queue.sort(key=lambda item: LIVE_PRIORITY.get(item["story"]["type"], 0))
 
     now = datetime.now(timezone.utc)
     posted = 0

@@ -297,6 +297,18 @@ def render_card(story, out_path):
         subtext = "Did your team beat it? Full breakdown in the caption."
         hero_color = ACCENT
         hashtags = f"{base_tags} #GW{story['gw']}"
+    elif t in ("sia_captains", "sia_differentials"):
+        captains = t == "sia_captains"
+        top, rest = story["picks"][0], story["picks"][1:]
+        eyebrow = f"GW{story['gw']} {'CAPTAIN PICKS' if captains else 'DIFFERENTIALS'}"
+        hero = top["web_name"].upper()
+        headline = "SIA'S #1 CAPTAIN PICK" if captains else "SIA'S #1 DIFFERENTIAL"
+        fixture = f"{top['team_short']} {top['opponent']}"
+        if not captains:
+            fixture = f"{top['ownership_percent']}% owned, {fixture}"
+        subtext = f"{fixture}. Then: " + ", ".join(p["web_name"] for p in rest) + "."
+        hero_color = ACCENT if captains else WARN
+        hashtags = f"{base_tags} #GW{story['gw']}"
     elif t == "kickoff":
         eyebrow = "KICK-OFF"
         hero = "LIVE"
@@ -574,10 +586,29 @@ def _build_caption_text(story):
         )
     if t == "gw_recap":
         hook = random.choice(RECAP_HOOKS)
+        captained = f" Most captained: {story['most_captained']}." if story.get("most_captained") else ""
         return (
-            f"\U0001F525 GW{story['gw']} is in the books. Top score: {story.get('highest_score')} pts. "
-            f"Most captained ID: {story.get('most_captained')}.\n\n"
+            f"\U0001F525 GW{story['gw']} is in the books. Top score: {story.get('highest_score')} pts."
+            f"{captained}\n\n"
             f"{hook} {tags}"
+        )
+    if t in ("sia_captains", "sia_differentials"):
+        captains = t == "sia_captains"
+        lines = []
+        for n, p in enumerate(story["picks"], 1):
+            owned = f", {p['ownership_percent']}% owned" if not captains else ""
+            lines.append(f"{n}. {p['web_name']} ({p['team_short']}, {p['opponent']}{owned}) - {p['reason']}")
+        body = "\n\n".join(lines)
+        if captains:
+            head = f"\U0001F9E0 SIA's GW{story['gw']} captain picks, backed by the stats:"
+            hook = "Who's getting your armband?"
+        else:
+            head = f"\U0001F48E SIA's GW{story['gw']} differentials -- under 10% owned, strong numbers:"
+            hook = "Brave enough to go against the crowd?"
+        return (
+            f"{head}\n\n{body}\n\n"
+            f"Free AI advice for your own squad: {story['url']}\n\n"
+            f"{hook} {tags} #GW{story['gw']}"
         )
     if t == "kickoff":
         hook = random.choice(KICKOFF_HOOKS)
