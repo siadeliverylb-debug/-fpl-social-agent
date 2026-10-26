@@ -5365,61 +5365,7 @@
     6,
     7
   ],
-  "pending": [
-    {
-      "key": "form_hot:5:131d83497f5a",
-      "story": {
-        "type": "form_hot",
-        "key": "form_hot:5:131d83497f5a",
-        "players": [
-          {
-            "name": "Haaland",
-            "team": "MCI",
-            "form": 9.0,
-            "total_points": 66,
-            "price_millions": 15.7,
-            "selected": 77.9
-          },
-          {
-            "name": "Gabriel",
-            "team": "ARS",
-            "form": 9.0,
-            "total_points": 52,
-            "price_millions": 7.9,
-            "selected": 22.1
-          },
-          {
-            "name": "Konsa",
-            "team": "ARS",
-            "form": 9.0,
-            "total_points": 39,
-            "price_millions": 4.7,
-            "selected": 19.9
-          },
-          {
-            "name": "Evanilson",
-            "team": "BOU",
-            "form": 8.3,
-            "total_points": 43,
-            "price_millions": 6.2,
-            "selected": 7.0
-          },
-          {
-            "name": "N.Jackson",
-            "team": "AVL",
-            "form": 8.0,
-            "total_points": 34,
-            "price_millions": 6.7,
-            "selected": 8.0
-          }
-        ]
-      },
-      "image_path": "assets/generated/form_hot_5_131d83497f5a.png",
-      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Haaland (MCI) - 9.0 pts/game, \u00a315.7m\n2. Gabriel (ARS) - 9.0 pts/game, \u00a37.9m\n3. Konsa (ARS) - 9.0 pts/game, \u00a34.7m\n4. Evanilson (BOU) - 8.3 pts/game, \u00a36.2m\n5. N.Jackson (AVL) - 8.0 pts/game, \u00a36.7m\n\nAny of them in your squad yet? #FPL #PremierLeague #FantasyPremierLeague #FPLTwitter\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-10-26T13:42:47.971493+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5612,7 +5558,8 @@
     "price_batch:8:39f0a8d6f59a",
     "form_cold:5:7c53a63e535f",
     "injury_batch:4:4a0dc837188a",
-    "price_batch:9:f4dccae5f7ca"
+    "price_batch:9:f4dccae5f7ca",
+    "form_hot:5:131d83497f5a"
   ],
   "post_log": [
     {
