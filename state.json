@@ -5355,7 +5355,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-26T13:42:47.895973+00:00",
+  "last_snapshot_at": "2026-10-26T19:38:19.041383+00:00",
   "recapped_events": [
     1,
     2,
@@ -5365,7 +5365,23 @@
     6,
     7
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "recap:8",
+      "story": {
+        "type": "gw_recap",
+        "key": "recap:8",
+        "gw": 8,
+        "most_captained": "Haaland",
+        "highest_score": 120,
+        "most_selected": "Haaland"
+      },
+      "image_path": "assets/generated/recap_8.png",
+      "caption": "\ud83d\udd25 GW8 is in the books. Top score: 120 pts. Most captained: Haaland.\n\nDid YOU beat the top score? #FPL #FPLFamily #PremierLeague #FantasyPremierLeague\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-10-26T19:38:19.110146+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
