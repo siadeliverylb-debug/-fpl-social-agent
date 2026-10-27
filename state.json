@@ -158,9 +158,9 @@
       "web_name": "Dowman",
       "team": "ARS",
       "now_cost": 53,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-05T19:00:10.141532Z"
+      "status": "s",
+      "news": "Suspended until 29 Nov",
+      "news_added": "2026-10-27T22:30:09.534466Z"
     },
     "22": {
       "web_name": "Nwaneri",
@@ -2047,7 +2047,7 @@
       "team": "CRY",
       "now_cost": 60,
       "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "news": "Ankle injury - 75% chance of playing",
       "news_added": "2026-10-23T17:00:09.672494Z"
     },
     "223": {
@@ -5355,7 +5355,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-27T19:44:27.969332+00:00",
+  "last_snapshot_at": "2026-10-27T23:19:04.181915+00:00",
   "recapped_events": [
     1,
     2,
@@ -5366,7 +5366,25 @@
     7,
     8
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "status:20:2026-10-27T22:30:09.534466Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:20:2026-10-27T22:30:09.534466Z",
+        "pid": "20",
+        "player": "Dowman",
+        "team": "ARS",
+        "status": "suspended",
+        "news": "Suspended until 29 Nov",
+        "category": "suspension"
+      },
+      "image_path": "assets/generated/status_20_2026-10-27T22_30_09.534466Z.png",
+      "caption": "\ud83d\udfe5 SUSPENDED: Dowman (ARS) is suspended.\n\"Suspended until 29 Nov\"\n\nWho's covering for him while he's out? #FPL #FPLTips #PremierLeague #FPLTwitter\n\nFree AI advice for your own squad: fantasycoach.org",
+      "created_at": "2026-10-27T23:19:04.236490+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
