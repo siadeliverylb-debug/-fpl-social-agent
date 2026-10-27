@@ -5366,101 +5366,7 @@
     7,
     8
   ],
-  "pending": [
-    {
-      "key": "price_batch:10:7c35798b6314",
-      "story": {
-        "type": "price_changes",
-        "key": "price_batch:10:7c35798b6314",
-        "changes": [
-          {
-            "pid": "15",
-            "player": "\u00d8degaard",
-            "team": "ARS",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.7
-          },
-          {
-            "pid": "387",
-            "player": "O'Reilly",
-            "team": "MCI",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.2
-          },
-          {
-            "pid": "464",
-            "player": "Wissa",
-            "team": "NEW",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.0
-          },
-          {
-            "pid": "69",
-            "player": "Scott",
-            "team": "BOU",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.9
-          },
-          {
-            "pid": "391",
-            "player": "Gvardiol",
-            "team": "MCI",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 5.7
-          },
-          {
-            "pid": "412",
-            "player": "Lammens",
-            "team": "MUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.8
-          },
-          {
-            "pid": "654",
-            "player": "Graham",
-            "team": "EVE",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "541",
-            "player": "Meunier",
-            "team": "SUN",
-            "direction": "fall",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.4
-          },
-          {
-            "pid": "68",
-            "player": "Tavernier",
-            "team": "BOU",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 6.4
-          },
-          {
-            "pid": "330",
-            "player": "Bogle",
-            "team": "LEE",
-            "direction": "rise",
-            "delta_millions": 0.1,
-            "new_price_millions": 4.8
-          }
-        ]
-      },
-      "image_path": "assets/generated/price_batch_10_7c35798b6314.png",
-      "caption": "\ud83d\udcca PRICE CHANGES: 8 falls, 2 rises.\n\n\ud83d\udd34 \u00d8degaard (ARS) -> \u00a36.7m\n\ud83d\udd34 O'Reilly (MCI) -> \u00a36.2m\n\ud83d\udd34 Wissa (NEW) -> \u00a36.0m\n\ud83d\udd34 Scott (BOU) -> \u00a35.9m\n\ud83d\udd34 Gvardiol (MCI) -> \u00a35.7m\n\ud83d\udd34 Lammens (MUN) -> \u00a34.8m\n\ud83d\udd34 Graham (EVE) -> \u00a34.4m\n\ud83d\udd34 Meunier (SUN) -> \u00a34.4m\n\ud83d\udfe2 Tavernier (BOU) -> \u00a36.4m\n\ud83d\udfe2 Bogle (LEE) -> \u00a34.8m\n\nWinners and losers in your squad? #FPL #FantasyPremierLeague #FPLTips #FPLTwitter\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-10-27T02:14:37.198922+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5655,7 +5561,8 @@
     "injury_batch:4:4a0dc837188a",
     "price_batch:9:f4dccae5f7ca",
     "form_hot:5:131d83497f5a",
-    "recap:8"
+    "recap:8",
+    "price_batch:10:7c35798b6314"
   ],
   "post_log": [
     {
@@ -6637,6 +6544,13 @@
       "type": "gw_recap",
       "posted_at": "2026-10-26T21:51:56.708991+00:00",
       "tweet_id": "2114837458168725684",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "price_batch:10:7c35798b6314",
+      "type": "price_changes",
+      "posted_at": "2026-10-27T06:49:57.547902+00:00",
+      "tweet_id": "2114972853682450699",
       "ig": "skipped (Instagram not configured)"
     }
   ],
