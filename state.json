@@ -5366,29 +5366,7 @@
     7,
     8
   ],
-  "pending": [
-    {
-      "key": "injury_batch:1:baab34018148",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:baab34018148",
-        "injuries": [
-          {
-            "pid": "208",
-            "player": "Sarr",
-            "team": "CRY",
-            "status": "doubtful",
-            "news": "Groin injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_baab34018148.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Sarr (CRY) - doubtful: \"Groin injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLTwitter #FPLFamily #FantasyFootball\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-10-27T14:44:16.229416+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5584,7 +5562,8 @@
     "price_batch:9:f4dccae5f7ca",
     "form_hot:5:131d83497f5a",
     "recap:8",
-    "price_batch:10:7c35798b6314"
+    "price_batch:10:7c35798b6314",
+    "injury_batch:1:baab34018148"
   ],
   "post_log": [
     {
@@ -6573,6 +6552,13 @@
       "type": "price_changes",
       "posted_at": "2026-10-27T06:49:57.547902+00:00",
       "tweet_id": "2114972853682450699",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "injury_batch:1:baab34018148",
+      "type": "injury_batch",
+      "posted_at": "2026-10-27T18:41:37.602193+00:00",
+      "tweet_id": "2115151950794666408",
       "ig": "skipped (Instagram not configured)"
     }
   ],
