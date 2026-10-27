@@ -814,9 +814,9 @@
       "web_name": "Henry",
       "team": "BRE",
       "now_cost": 44,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "i",
+      "news": "Hip injury - Unknown return date",
+      "news_added": "2026-10-27T16:30:09.444144Z"
     },
     "90": {
       "web_name": "Hickey",
@@ -1079,7 +1079,7 @@
       "team": "BHA",
       "now_cost": 58,
       "status": "d",
-      "news": "Leg injury - 50% chance of playing",
+      "news": "Leg injury - 75% chance of playing",
       "news_added": "2026-08-14T18:00:06.418033Z"
     },
     "123": {
@@ -1143,7 +1143,7 @@
       "team": "BHA",
       "now_cost": 48,
       "status": "d",
-      "news": "Knee injury - 25% chance of playing",
+      "news": "Knee injury - 75% chance of playing",
       "news_added": "2026-09-04T09:30:08.612904Z"
     },
     "132": {
@@ -1207,7 +1207,7 @@
       "team": "BHA",
       "now_cost": 49,
       "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "news": "Hamstring injury - 50% chance of playing",
       "news_added": "2026-10-16T17:30:09.428175Z"
     },
     "504": {
@@ -1263,7 +1263,7 @@
       "team": "BHA",
       "now_cost": 55,
       "status": "d",
-      "news": "Thigh injury - 75% chance of playing",
+      "news": "Hip injury - 75% chance of playing",
       "news_added": "2026-10-25T17:30:10.276308Z"
     },
     "652": {
@@ -1478,8 +1478,8 @@
       "web_name": "Jo\u00e3o Pedro",
       "team": "CHE",
       "now_cost": 79,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "i",
+      "news": "Thigh injury - Unknown return date",
       "news_added": "2026-10-24T16:30:09.687729Z"
     },
     "168": {
@@ -1502,8 +1502,8 @@
       "web_name": "Emegha",
       "team": "CHE",
       "now_cost": 49,
-      "status": "i",
-      "news": "Hamstring injury - Unknown return date",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-09T15:00:09.063849Z"
     },
     "200": {
@@ -1879,7 +1879,7 @@
       "team": "CRY",
       "now_cost": 49,
       "status": "d",
-      "news": "Foot injury - 50% chance of playing",
+      "news": "Foot injury - 75% chance of playing",
       "news_added": "2026-09-12T14:00:09.378740Z"
     },
     "199": {
@@ -4406,9 +4406,9 @@
       "web_name": "L.Miley",
       "team": "NEW",
       "now_cost": 55,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-01T15:30:10.335504Z"
+      "status": "d",
+      "news": "Muscular injury - 75% chance of playing",
+      "news_added": "2026-10-27T16:00:07.981816Z"
     },
     "460": {
       "web_name": "Willock",
@@ -5355,7 +5355,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-27T14:44:16.189755+00:00",
+  "last_snapshot_at": "2026-10-27T19:44:27.969332+00:00",
   "recapped_events": [
     1,
     2,
@@ -5366,7 +5366,37 @@
     7,
     8
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:2:16d81f9334d0",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:2:16d81f9334d0",
+        "injuries": [
+          {
+            "pid": "89",
+            "player": "Henry",
+            "team": "BRE",
+            "status": "injured",
+            "news": "Hip injury - Unknown return date",
+            "category": "injury"
+          },
+          {
+            "pid": "459",
+            "player": "L.Miley",
+            "team": "NEW",
+            "status": "doubtful",
+            "news": "Muscular injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_2_16d81f9334d0.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Henry (BRE) - injured: \"Hip injury - Unknown return date\"\n\ud83d\udea8 L.Miley (NEW) - doubtful: \"Muscular injury - 75% chance of playing\"\n\nHow are you covering this one? #FPL #FantasyFootball #PremierLeague #FPLCommunity\n\nFollow for the next one.",
+      "created_at": "2026-10-27T19:44:28.048440+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
