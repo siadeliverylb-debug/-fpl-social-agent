@@ -5366,37 +5366,7 @@
     7,
     8
   ],
-  "pending": [
-    {
-      "key": "injury_batch:2:16d81f9334d0",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:2:16d81f9334d0",
-        "injuries": [
-          {
-            "pid": "89",
-            "player": "Henry",
-            "team": "BRE",
-            "status": "injured",
-            "news": "Hip injury - Unknown return date",
-            "category": "injury"
-          },
-          {
-            "pid": "459",
-            "player": "L.Miley",
-            "team": "NEW",
-            "status": "doubtful",
-            "news": "Muscular injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_2_16d81f9334d0.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Henry (BRE) - injured: \"Hip injury - Unknown return date\"\n\ud83d\udea8 L.Miley (NEW) - doubtful: \"Muscular injury - 75% chance of playing\"\n\nHow are you covering this one? #FPL #FantasyFootball #PremierLeague #FPLCommunity\n\nFollow for the next one.",
-      "created_at": "2026-10-27T19:44:28.048440+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5593,7 +5563,8 @@
     "form_hot:5:131d83497f5a",
     "recap:8",
     "price_batch:10:7c35798b6314",
-    "injury_batch:1:baab34018148"
+    "injury_batch:1:baab34018148",
+    "injury_batch:2:16d81f9334d0"
   ],
   "post_log": [
     {
@@ -6589,6 +6560,13 @@
       "type": "injury_batch",
       "posted_at": "2026-10-27T18:41:37.602193+00:00",
       "tweet_id": "2115151950794666408",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "injury_batch:2:16d81f9334d0",
+      "type": "injury_batch",
+      "posted_at": "2026-10-27T22:37:55.761156+00:00",
+      "tweet_id": "2115211418404585669",
       "ig": "skipped (Instagram not configured)"
     }
   ],
