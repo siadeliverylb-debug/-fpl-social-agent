@@ -117,7 +117,7 @@
     "15": {
       "web_name": "\u00d8degaard",
       "team": "ARS",
-      "now_cost": 68,
+      "now_cost": 67,
       "status": "a",
       "news": "",
       "news_added": null
@@ -613,7 +613,7 @@
     "68": {
       "web_name": "Tavernier",
       "team": "BOU",
-      "now_cost": 63,
+      "now_cost": 64,
       "status": "a",
       "news": "",
       "news_added": null
@@ -621,7 +621,7 @@
     "69": {
       "web_name": "Scott",
       "team": "BOU",
-      "now_cost": 60,
+      "now_cost": 59,
       "status": "i",
       "news": "Thigh injury - Expected back 8 Nov",
       "news_added": "2026-10-05T09:30:09.910752Z"
@@ -2341,7 +2341,7 @@
     "654": {
       "web_name": "Graham",
       "team": "EVE",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3237,7 +3237,7 @@
     "330": {
       "web_name": "Bogle",
       "team": "LEE",
-      "now_cost": 47,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3773,7 +3773,7 @@
     "387": {
       "web_name": "O'Reilly",
       "team": "MCI",
-      "now_cost": 63,
+      "now_cost": 62,
       "status": "a",
       "news": "",
       "news_added": "2026-10-19T15:30:09.078291Z"
@@ -3805,7 +3805,7 @@
     "391": {
       "web_name": "Gvardiol",
       "team": "MCI",
-      "now_cost": 58,
+      "now_cost": 57,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4037,7 +4037,7 @@
     "412": {
       "web_name": "Lammens",
       "team": "MUN",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4445,7 +4445,7 @@
     "464": {
       "web_name": "Wissa",
       "team": "NEW",
-      "now_cost": 61,
+      "now_cost": 60,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5213,7 +5213,7 @@
     "541": {
       "web_name": "Meunier",
       "team": "SUN",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "d",
       "news": "Groin injury - 75% chance of playing",
       "news_added": "2026-10-10T16:30:09.200467Z"
@@ -5355,7 +5355,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-26T23:26:27.501037+00:00",
+  "last_snapshot_at": "2026-10-27T02:14:37.156684+00:00",
   "recapped_events": [
     1,
     2,
@@ -5366,7 +5366,101 @@
     7,
     8
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "price_batch:10:7c35798b6314",
+      "story": {
+        "type": "price_changes",
+        "key": "price_batch:10:7c35798b6314",
+        "changes": [
+          {
+            "pid": "15",
+            "player": "\u00d8degaard",
+            "team": "ARS",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 6.7
+          },
+          {
+            "pid": "387",
+            "player": "O'Reilly",
+            "team": "MCI",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 6.2
+          },
+          {
+            "pid": "464",
+            "player": "Wissa",
+            "team": "NEW",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 6.0
+          },
+          {
+            "pid": "69",
+            "player": "Scott",
+            "team": "BOU",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.9
+          },
+          {
+            "pid": "391",
+            "player": "Gvardiol",
+            "team": "MCI",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 5.7
+          },
+          {
+            "pid": "412",
+            "player": "Lammens",
+            "team": "MUN",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.8
+          },
+          {
+            "pid": "654",
+            "player": "Graham",
+            "team": "EVE",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.4
+          },
+          {
+            "pid": "541",
+            "player": "Meunier",
+            "team": "SUN",
+            "direction": "fall",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.4
+          },
+          {
+            "pid": "68",
+            "player": "Tavernier",
+            "team": "BOU",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 6.4
+          },
+          {
+            "pid": "330",
+            "player": "Bogle",
+            "team": "LEE",
+            "direction": "rise",
+            "delta_millions": 0.1,
+            "new_price_millions": 4.8
+          }
+        ]
+      },
+      "image_path": "assets/generated/price_batch_10_7c35798b6314.png",
+      "caption": "\ud83d\udcca PRICE CHANGES: 8 falls, 2 rises.\n\n\ud83d\udd34 \u00d8degaard (ARS) -> \u00a36.7m\n\ud83d\udd34 O'Reilly (MCI) -> \u00a36.2m\n\ud83d\udd34 Wissa (NEW) -> \u00a36.0m\n\ud83d\udd34 Scott (BOU) -> \u00a35.9m\n\ud83d\udd34 Gvardiol (MCI) -> \u00a35.7m\n\ud83d\udd34 Lammens (MUN) -> \u00a34.8m\n\ud83d\udd34 Graham (EVE) -> \u00a34.4m\n\ud83d\udd34 Meunier (SUN) -> \u00a34.4m\n\ud83d\udfe2 Tavernier (BOU) -> \u00a36.4m\n\ud83d\udfe2 Bogle (LEE) -> \u00a34.8m\n\nWinners and losers in your squad? #FPL #FantasyPremierLeague #FPLTips #FPLTwitter\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-10-27T02:14:37.198922+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
