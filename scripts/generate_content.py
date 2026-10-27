@@ -510,9 +510,29 @@ FOLLOW_ASKS = [
     "Following along? Hit follow so you don't miss what's next.",
 ]
 
+# Point some posts at fantasycoach.org instead of asking for a follow - most
+# posts carried no link to the site at all. Only about 1 in 3, since X shows
+# posts with links to fewer people, and SIA picks posts already link their page.
+SITE_ASKS = [
+    "Rate your FPL team out of 10, free: fantasycoach.org/rate-my-team",
+    "Is your team any good? Free AI rating: fantasycoach.org/rate-my-team",
+    "Free AI advice for your own squad: fantasycoach.org",
+    "Ask SIA, our free AI FPL coach, about your team: fantasycoach.org",
+]
+SITE_ASK_SHARE = 1 / 3
+# X's limit is 280, but it counts emoji as 2 - leave headroom so adding the
+# link never pushes a post over and fails it.
+SITE_ASK_MAX_CAPTION_CHARS = 260
+STORY_TYPES_WITH_SITE_LINK = ("sia_captains", "sia_differentials")
+
 
 def build_caption(story):
-    return f"{_build_caption_text(story)}\n\n{random.choice(FOLLOW_ASKS)}"
+    text = _build_caption_text(story)
+    if story["type"] not in STORY_TYPES_WITH_SITE_LINK and random.random() < SITE_ASK_SHARE:
+        caption = f"{text}\n\n{random.choice(SITE_ASKS)}"
+        if len(caption) <= SITE_ASK_MAX_CAPTION_CHARS:
+            return caption
+    return f"{text}\n\n{random.choice(FOLLOW_ASKS)}"
 
 
 def _build_caption_text(story):
