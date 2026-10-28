@@ -5366,37 +5366,7 @@
     7,
     8
   ],
-  "pending": [
-    {
-      "key": "injury_batch:2:10ab0be40f53",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:2:10ab0be40f53",
-        "injuries": [
-          {
-            "pid": "16",
-            "player": "Madueke",
-            "team": "ARS",
-            "status": "doubtful",
-            "news": "Ankle injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "13",
-            "player": "Rice",
-            "team": "ARS",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_2_10ab0be40f53.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Madueke (ARS) - doubtful: \"Ankle injury - 75% chance of playing\"\n\ud83d\udea8 Rice (ARS) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLTips #FPLTwitter #FPLCommunity\n\nFollow for the next one.",
-      "created_at": "2026-10-28T02:27:49.687014+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5595,7 +5565,8 @@
     "price_batch:10:7c35798b6314",
     "injury_batch:1:baab34018148",
     "injury_batch:2:16d81f9334d0",
-    "status:20:2026-10-27T22:30:09.534466Z"
+    "status:20:2026-10-27T22:30:09.534466Z",
+    "injury_batch:2:10ab0be40f53"
   ],
   "post_log": [
     {
@@ -6605,6 +6576,13 @@
       "type": "status_change",
       "posted_at": "2026-10-28T01:43:29.065820+00:00",
       "tweet_id": "2115258114828111965",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "injury_batch:2:10ab0be40f53",
+      "type": "injury_batch",
+      "posted_at": "2026-10-28T07:29:26.156106+00:00",
+      "tweet_id": "2115345176478830852",
       "ig": "skipped (Instagram not configured)"
     }
   ],
