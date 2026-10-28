@@ -102,9 +102,9 @@
       "web_name": "Rice",
       "team": "ARS",
       "now_cost": 74,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-21T13:00:08.896379Z"
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-28T00:00:08.477333Z"
     },
     "14": {
       "web_name": "Eze",
@@ -126,9 +126,9 @@
       "web_name": "Madueke",
       "team": "ARS",
       "now_cost": 62,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Ankle injury - 75% chance of playing",
+      "news_added": "2026-10-28T00:00:08.492716Z"
     },
     "17": {
       "web_name": "Merino",
@@ -437,7 +437,7 @@
     "166": {
       "web_name": "N.Jackson",
       "team": "AVL",
-      "now_cost": 67,
+      "now_cost": 68,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1213,7 +1213,7 @@
     "504": {
       "web_name": "Vuskovic",
       "team": "BHA",
-      "now_cost": 51,
+      "now_cost": 52,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1477,7 +1477,7 @@
     "165": {
       "web_name": "Jo\u00e3o Pedro",
       "team": "CHE",
-      "now_cost": 79,
+      "now_cost": 78,
       "status": "i",
       "news": "Thigh injury - Unknown return date",
       "news_added": "2026-10-24T16:30:09.687729Z"
@@ -3685,7 +3685,7 @@
     "379": {
       "web_name": "Isak",
       "team": "LIV",
-      "now_cost": 90,
+      "now_cost": 91,
       "status": "a",
       "news": "",
       "news_added": "2026-09-27T10:30:09.051435Z"
@@ -3941,7 +3941,7 @@
     "411": {
       "web_name": "Haaland",
       "team": "MCI",
-      "now_cost": 157,
+      "now_cost": 158,
       "status": "a",
       "news": "",
       "news_added": "2026-10-19T13:00:10.543876Z"
@@ -4165,7 +4165,7 @@
     "428": {
       "web_name": "Cunha",
       "team": "MUN",
-      "now_cost": 79,
+      "now_cost": 78,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4173,7 +4173,7 @@
     "429": {
       "web_name": "Rashford",
       "team": "MUN",
-      "now_cost": 69,
+      "now_cost": 68,
       "status": "d",
       "news": "Hip injury - 75% chance of playing",
       "news_added": "2026-10-20T20:00:09.925594Z"
@@ -4773,7 +4773,7 @@
     "581": {
       "web_name": "Diomande",
       "team": "NFO",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5355,7 +5355,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-27T23:19:04.181915+00:00",
+  "last_snapshot_at": "2026-10-28T02:27:49.609819+00:00",
   "recapped_events": [
     1,
     2,
@@ -5366,7 +5366,37 @@
     7,
     8
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:2:10ab0be40f53",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:2:10ab0be40f53",
+        "injuries": [
+          {
+            "pid": "16",
+            "player": "Madueke",
+            "team": "ARS",
+            "status": "doubtful",
+            "news": "Ankle injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "13",
+            "player": "Rice",
+            "team": "ARS",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_2_10ab0be40f53.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Madueke (ARS) - doubtful: \"Ankle injury - 75% chance of playing\"\n\ud83d\udea8 Rice (ARS) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLTips #FPLTwitter #FPLCommunity\n\nFollow for the next one.",
+      "created_at": "2026-10-28T02:27:49.687014+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
