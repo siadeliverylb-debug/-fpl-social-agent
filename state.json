@@ -5366,25 +5366,7 @@
     7,
     8
   ],
-  "pending": [
-    {
-      "key": "status:20:2026-10-27T22:30:09.534466Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:20:2026-10-27T22:30:09.534466Z",
-        "pid": "20",
-        "player": "Dowman",
-        "team": "ARS",
-        "status": "suspended",
-        "news": "Suspended until 29 Nov",
-        "category": "suspension"
-      },
-      "image_path": "assets/generated/status_20_2026-10-27T22_30_09.534466Z.png",
-      "caption": "\ud83d\udfe5 SUSPENDED: Dowman (ARS) is suspended.\n\"Suspended until 29 Nov\"\n\nWho's covering for him while he's out? #FPL #FPLTips #PremierLeague #FPLTwitter\n\nFree AI advice for your own squad: fantasycoach.org",
-      "created_at": "2026-10-27T23:19:04.236490+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5582,7 +5564,8 @@
     "recap:8",
     "price_batch:10:7c35798b6314",
     "injury_batch:1:baab34018148",
-    "injury_batch:2:16d81f9334d0"
+    "injury_batch:2:16d81f9334d0",
+    "status:20:2026-10-27T22:30:09.534466Z"
   ],
   "post_log": [
     {
@@ -6585,6 +6568,13 @@
       "type": "injury_batch",
       "posted_at": "2026-10-27T22:37:55.761156+00:00",
       "tweet_id": "2115211418404585669",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "status:20:2026-10-27T22:30:09.534466Z",
+      "type": "status_change",
+      "posted_at": "2026-10-28T01:43:29.065820+00:00",
+      "tweet_id": "2115258114828111965",
       "ig": "skipped (Instagram not configured)"
     }
   ],
