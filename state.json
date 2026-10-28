@@ -1078,8 +1078,8 @@
       "web_name": "Minteh",
       "team": "BHA",
       "now_cost": 58,
-      "status": "d",
-      "news": "Leg injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-08-14T18:00:06.418033Z"
     },
     "123": {
@@ -1142,8 +1142,8 @@
       "web_name": "Wieffer",
       "team": "BHA",
       "now_cost": 48,
-      "status": "d",
-      "news": "Knee injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-04T09:30:08.612904Z"
     },
     "132": {
@@ -1878,8 +1878,8 @@
       "web_name": "Henderson",
       "team": "CRY",
       "now_cost": 49,
-      "status": "d",
-      "news": "Foot injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-12T14:00:09.378740Z"
     },
     "199": {
@@ -3582,8 +3582,8 @@
       "web_name": "Wirtz",
       "team": "LIV",
       "now_cost": 72,
-      "status": "d",
-      "news": "Ankle injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-25T17:00:09.888666Z"
     },
     "367": {
@@ -5214,8 +5214,8 @@
       "web_name": "Meunier",
       "team": "SUN",
       "now_cost": 44,
-      "status": "d",
-      "news": "Groin injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-10T16:30:09.200467Z"
     },
     "542": {
@@ -5355,7 +5355,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-28T15:35:38.811105+00:00",
+  "last_snapshot_at": "2026-10-28T20:40:20.005410+00:00",
   "recapped_events": [
     1,
     2,
