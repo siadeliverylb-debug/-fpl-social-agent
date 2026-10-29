@@ -1350,9 +1350,9 @@
       "web_name": "Gusto",
       "team": "CHE",
       "now_cost": 48,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-17T18:30:09.695564Z"
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-29T22:00:09.886054Z"
     },
     "145": {
       "web_name": "Fofana",
@@ -1374,9 +1374,9 @@
       "web_name": "Hato",
       "team": "CHE",
       "now_cost": 45,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-29T22:00:09.909621Z"
     },
     "149": {
       "web_name": "Colwill",
@@ -1446,9 +1446,9 @@
       "web_name": "Caicedo",
       "team": "CHE",
       "now_cost": 53,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-30T16:00:08.393562Z"
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-10-29T22:00:09.933708Z"
     },
     "161": {
       "web_name": "Lavia",
@@ -1511,7 +1511,7 @@
       "team": "CHE",
       "now_cost": 59,
       "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "news": "Hamstring injury - 50% chance of playing",
       "news_added": "2026-10-28T23:00:10.088612Z"
     },
     "560": {
@@ -2254,8 +2254,8 @@
       "web_name": "Grealish",
       "team": "EVE",
       "now_cost": 65,
-      "status": "d",
-      "news": "Illness - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-24T14:30:09.610430Z"
     },
     "239": {
@@ -4454,9 +4454,9 @@
       "web_name": "Osula",
       "team": "NEW",
       "now_cost": 58,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-25T19:00:08.004915Z"
+      "status": "d",
+      "news": "Ankle injury - 75% chance of playing",
+      "news_added": "2026-10-29T23:00:08.575179Z"
     },
     "466": {
       "web_name": "Neave",
@@ -5355,7 +5355,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-29T19:19:52.372754+00:00",
+  "last_snapshot_at": "2026-10-29T23:26:11.353234+00:00",
   "recapped_events": [
     1,
     2,
@@ -5366,7 +5366,180 @@
     7,
     8
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:4:57aadaed5125",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:4:57aadaed5125",
+        "injuries": [
+          {
+            "pid": "159",
+            "player": "Caicedo",
+            "team": "CHE",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "144",
+            "player": "Gusto",
+            "team": "CHE",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "148",
+            "player": "Hato",
+            "team": "CHE",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "465",
+            "player": "Osula",
+            "team": "NEW",
+            "status": "doubtful",
+            "news": "Ankle injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_4_57aadaed5125.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (4):\n\n\ud83d\udea8 Caicedo (CHE) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Gusto (CHE) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Hato (CHE) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Osula (NEW) - doubtful: \"Ankle injury - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FantasyPremierLeague #FPLTwitter #FPLFamily\n\nFollow for the next one.",
+      "created_at": "2026-10-29T23:26:11.430441+00:00",
+      "auto": true
+    },
+    {
+      "key": "sia_captains:9",
+      "story": {
+        "type": "sia_captains",
+        "key": "sia_captains:9",
+        "gw": 9,
+        "intro": "Gameweek 9 is a straightforward captaincy week at the top - Haaland is in his best form of the season with a home fixture, while the best value alternatives all come from sides with kind fixtures. Here are the five armband picks ranked from best down.",
+        "picks": [
+          {
+            "element": 411,
+            "web_name": "Haaland",
+            "team_short": "MCI",
+            "position": "FWD",
+            "price_m": 15.8,
+            "opponent": "vs Brighton (H)",
+            "reason": "He leads the whole game on points (66) and goals (9) with a form rating of 9.0, and this home tie is rated just 3 on FPL's difficulty scale. At 78.4% owned, captaining him anywhere else is a big risk."
+          },
+          {
+            "element": 79,
+            "web_name": "Evanilson",
+            "team_short": "BOU",
+            "position": "FWD",
+            "price_m": 6.2,
+            "opponent": "vs Leeds (H)",
+            "reason": "Form of 8.3 is second only to Haaland among forwards, built on 3 goals and 4 assists, and Bournemouth get Leeds at home (difficulty 3). At \u00a36.2m he's the cheapest route to a big captain score."
+          },
+          {
+            "element": 68,
+            "web_name": "Tavernier",
+            "team_short": "BOU",
+            "position": "MID",
+            "price_m": 6.4,
+            "opponent": "vs Leeds (H)",
+            "reason": "Five goals and 12 bonus points already from midfield, with 3.61 expected goals showing it isn't a fluke, and he shares that home fixture against Leeds. Form of 7.0 for \u00a36.4m is the best value armband on the board."
+          },
+          {
+            "element": 166,
+            "web_name": "N.Jackson",
+            "team_short": "AVL",
+            "position": "FWD",
+            "price_m": 6.8,
+            "opponent": "vs Fulham (H)",
+            "reason": "Villa have the easiest fixture of any big captaincy option this week - a home game rated 2 - and Jackson arrives on 8.0 form with 4 goals in 547 minutes. A proper differential at 14.7% ownership."
+          },
+          {
+            "element": 379,
+            "web_name": "Isak",
+            "team_short": "LIV",
+            "position": "FWD",
+            "price_m": 9.1,
+            "opponent": "vs Arsenal (H)",
+            "reason": "Six goals and 14 bonus points in only 567 minutes means he scores heavily when he plays, so the Anfield stage suits him. The fixture is the catch - difficulty 4 against Arsenal - which is why he sits fifth rather than higher."
+          }
+        ],
+        "url": "https://fantasycoach.org/captain-picks"
+      },
+      "image_path": "assets/generated/sia_captains_9.png",
+      "caption": "\ud83e\udde0 SIA's GW9 captain picks, backed by the stats:\n\n1. Haaland (MCI, vs Brighton (H)) - He leads the whole game on points (66) and goals (9) with a form rating of 9.0, and this home tie is rated just 3 on FPL's difficulty scale. At 78.4% owned, captaining him anywhere else is a big risk.\n\n2. Evanilson (BOU, vs Leeds (H)) - Form of 8.3 is second only to Haaland among forwards, built on 3 goals and 4 assists, and Bournemouth get Leeds at home (difficulty 3). At \u00a36.2m he's the cheapest route to a big captain score.\n\n3. Tavernier (BOU, vs Leeds (H)) - Five goals and 12 bonus points already from midfield, with 3.61 expected goals showing it isn't a fluke, and he shares that home fixture against Leeds. Form of 7.0 for \u00a36.4m is the best value armband on the board.\n\n4. N.Jackson (AVL, vs Fulham (H)) - Villa have the easiest fixture of any big captaincy option this week - a home game rated 2 - and Jackson arrives on 8.0 form with 4 goals in 547 minutes. A proper differential at 14.7% ownership.\n\n5. Isak (LIV, vs Arsenal (H)) - Six goals and 14 bonus points in only 567 minutes means he scores heavily when he plays, so the Anfield stage suits him. The fixture is the catch - difficulty 4 against Arsenal - which is why he sits fifth rather than higher.\n\nFree AI advice for your own squad: https://fantasycoach.org/captain-picks\n\nWho's getting your armband? #FPL #FantasyPremierLeague #FPLFamily #FPLCommunity #GW9\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-10-29T23:26:11.493782+00:00",
+      "auto": true
+    },
+    {
+      "key": "sia_differentials:9",
+      "story": {
+        "type": "sia_differentials",
+        "key": "sia_differentials:9",
+        "gw": 9,
+        "intro": "With Gameweek 8 done and the GW9 deadline next, the ownership crowd is piled into Haaland (78.3%) and the Arsenal defence, which leaves real value lower down. These five are all under 10% owned, all fit with no injury flag, and all have a concrete reason - form, minutes or a role opening up - to return in GW9.",
+        "picks": [
+          {
+            "element": 79,
+            "web_name": "Evanilson",
+            "team_short": "BOU",
+            "position": "FWD",
+            "price_m": 6.2,
+            "ownership_percent": 9.8,
+            "opponent": "vs Leeds (H)",
+            "reason": "He is the form forward outside the big names on 8.3, with 3 goals and 4 assists already and 3.11 xG backing it up. At \u00a36.2m he gets Leeds at home (difficulty 3) followed by Ipswich away (difficulty 2)."
+          },
+          {
+            "element": 261,
+            "web_name": "Iwobi",
+            "team_short": "FUL",
+            "position": "MID",
+            "price_m": 5.4,
+            "ownership_percent": 1.4,
+            "opponent": "vs Aston Villa (A)",
+            "reason": "Iwobi leads the entire game for expected assists on 2.60, yet has zero assists to show for it - that gap usually closes. He has played 657 minutes, is on form 6.0 with 6 bonus points, and costs just \u00a35.4m at 1.4% ownership."
+          },
+          {
+            "element": 236,
+            "web_name": "Dewsbury-Hall",
+            "team_short": "EVE",
+            "position": "MID",
+            "price_m": 6.6,
+            "ownership_percent": 6.0,
+            "opponent": "vs Newcastle (A)",
+            "reason": "He has played 715 of a possible 720 minutes - as nailed as it gets - and his 61.5 ICT index with 2 goals, 1 assist and 6 bonus shows he is central to everything Everton do. Newcastle away is a 3, then Coventry at home is a 2 in GW10."
+          },
+          {
+            "element": 156,
+            "web_name": "Neto",
+            "team_short": "CHE",
+            "position": "MID",
+            "price_m": 6.6,
+            "ownership_percent": 4.4,
+            "opponent": "vs Man Utd (H)",
+            "reason": "Form of 7.7 from 3 goals in 591 minutes, and with Joao Pedro ruled out (0% chance of playing), Chelsea's attacking load funnels further through Neto's 60.3 ICT index. Only 4.4% owned for a home game."
+          },
+          {
+            "element": 60,
+            "web_name": "Hill",
+            "team_short": "BOU",
+            "position": "DEF",
+            "price_m": 5.5,
+            "ownership_percent": 1.8,
+            "opponent": "vs Leeds (H)",
+            "reason": "An ever-present on 720 minutes with 0.92 xA and 4 bonus already, he is in 6.7 form heading into Leeds at home (difficulty 3). At 1.8% ownership he is the cheapest route into Bournemouth's run of 3-2-3 fixtures."
+          }
+        ],
+        "url": "https://fantasycoach.org/differentials"
+      },
+      "image_path": "assets/generated/sia_differentials_9.png",
+      "caption": "\ud83d\udc8e SIA's GW9 differentials -- under 10% owned, strong numbers:\n\n1. Evanilson (BOU, vs Leeds (H), 9.8% owned) - He is the form forward outside the big names on 8.3, with 3 goals and 4 assists already and 3.11 xG backing it up. At \u00a36.2m he gets Leeds at home (difficulty 3) followed by Ipswich away (difficulty 2).\n\n2. Iwobi (FUL, vs Aston Villa (A), 1.4% owned) - Iwobi leads the entire game for expected assists on 2.60, yet has zero assists to show for it - that gap usually closes. He has played 657 minutes, is on form 6.0 with 6 bonus points, and costs just \u00a35.4m at 1.4% ownership.\n\n3. Dewsbury-Hall (EVE, vs Newcastle (A), 6.0% owned) - He has played 715 of a possible 720 minutes - as nailed as it gets - and his 61.5 ICT index with 2 goals, 1 assist and 6 bonus shows he is central to everything Everton do. Newcastle away is a 3, then Coventry at home is a 2 in GW10.\n\n4. Neto (CHE, vs Man Utd (H), 4.4% owned) - Form of 7.7 from 3 goals in 591 minutes, and with Joao Pedro ruled out (0% chance of playing), Chelsea's attacking load funnels further through Neto's 60.3 ICT index. Only 4.4% owned for a home game.\n\n5. Hill (BOU, vs Leeds (H), 1.8% owned) - An ever-present on 720 minutes with 0.92 xA and 4 bonus already, he is in 6.7 form heading into Leeds at home (difficulty 3). At 1.8% ownership he is the cheapest route into Bournemouth's run of 3-2-3 fixtures.\n\nFree AI advice for your own squad: https://fantasycoach.org/differentials\n\nBrave enough to go against the crowd? #FPL #FPLTips #FPLFamily #FPLTwitter #GW9\n\nTurn on notifications to catch these as they land.",
+      "created_at": "2026-10-29T23:26:11.559148+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
