@@ -397,7 +397,7 @@
     "53": {
       "web_name": "Manzambi",
       "team": "AVL",
-      "now_cost": 60,
+      "now_cost": 61,
       "status": "a",
       "news": "",
       "news_added": "2026-10-17T19:30:09.768277Z"
@@ -949,7 +949,7 @@
     "565": {
       "web_name": "M.Sangar\u00e9",
       "team": "BRE",
-      "now_cost": 55,
+      "now_cost": 54,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1510,9 +1510,9 @@
       "web_name": "Lacroix",
       "team": "CHE",
       "now_cost": 59,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Hamstring injury - 75% chance of playing",
+      "news_added": "2026-10-28T23:00:10.088612Z"
     },
     "560": {
       "web_name": "Penders",
@@ -5355,7 +5355,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-28T20:40:20.005410+00:00",
+  "last_snapshot_at": "2026-10-29T00:30:48.884325+00:00",
   "recapped_events": [
     1,
     2,
@@ -5366,7 +5366,29 @@
     7,
     8
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:9f9af029585b",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:9f9af029585b",
+        "injuries": [
+          {
+            "pid": "200",
+            "player": "Lacroix",
+            "team": "CHE",
+            "status": "doubtful",
+            "news": "Hamstring injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_9f9af029585b.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Lacroix (CHE) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #FPLTips #FPLFamily #FantasyPremierLeague\n\nIs your team any good? Free AI rating: fantasycoach.org/rate-my-team",
+      "created_at": "2026-10-29T00:30:48.956314+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
