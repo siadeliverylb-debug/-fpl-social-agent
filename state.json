@@ -5366,29 +5366,7 @@
     7,
     8
   ],
-  "pending": [
-    {
-      "key": "injury_batch:1:70ac2ffcf11f",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:70ac2ffcf11f",
-        "injuries": [
-          {
-            "pid": "650",
-            "player": "Affengruber",
-            "team": "FUL",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_70ac2ffcf11f.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Affengruber (FUL) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FPLFamily #PremierLeague #FantasyPremierLeague\n\nIs your team any good? Free AI rating: fantasycoach.org/rate-my-team",
-      "created_at": "2026-10-29T13:48:53.127611+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5590,7 +5568,8 @@
     "status:20:2026-10-27T22:30:09.534466Z",
     "injury_batch:2:10ab0be40f53",
     "form_cold:5:482a97508236",
-    "injury_batch:1:9f9af029585b"
+    "injury_batch:1:9f9af029585b",
+    "injury_batch:1:70ac2ffcf11f"
   ],
   "post_log": [
     {
@@ -6614,6 +6593,13 @@
       "type": "injury_batch",
       "posted_at": "2026-10-29T05:44:51.182211+00:00",
       "tweet_id": "2115681245048807589",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "injury_batch:1:70ac2ffcf11f",
+      "type": "injury_batch",
+      "posted_at": "2026-10-29T18:27:11.998132+00:00",
+      "tweet_id": "2115873095806235087",
       "ig": "skipped (Instagram not configured)"
     }
   ],
