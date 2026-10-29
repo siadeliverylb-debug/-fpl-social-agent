@@ -1071,7 +1071,7 @@
       "team": "BHA",
       "now_cost": 59,
       "status": "i",
-      "news": "Hamstring injury - Expected back 31 Oct",
+      "news": "Hamstring injury - Expected back 22 Nov",
       "news_added": "2026-07-24T18:30:10.661894Z"
     },
     "122": {
@@ -1175,7 +1175,7 @@
       "team": "BHA",
       "now_cost": 48,
       "status": "i",
-      "news": "Unspecified injury - Expected back 31 Oct",
+      "news": "Unspecified injury - Expected back 22 Nov",
       "news_added": "2026-09-10T13:00:08.617941Z"
     },
     "137": {
@@ -1271,7 +1271,7 @@
       "team": "BHA",
       "now_cost": 55,
       "status": "i",
-      "news": "Hamstring injury - Expected back 31 Oct",
+      "news": "Hamstring injury - Expected back 8 Nov",
       "news_added": "2026-09-04T11:30:08.661589Z"
     },
     "658": {
@@ -1607,7 +1607,7 @@
       "team": "COV",
       "now_cost": 40,
       "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "news": "Calf injury - 50% chance of playing",
       "news_added": "2026-10-24T17:00:09.115906Z"
     },
     "174": {
@@ -1942,8 +1942,8 @@
       "web_name": "Sarr",
       "team": "CRY",
       "now_cost": 62,
-      "status": "d",
-      "news": "Groin injury - 75% chance of playing",
+      "status": "i",
+      "news": "Groin injury - Expected back 8 Nov",
       "news_added": "2026-10-27T10:30:09.385934Z"
     },
     "210": {
@@ -2222,8 +2222,8 @@
       "web_name": "Mykolenko",
       "team": "EVE",
       "now_cost": 46,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-24T19:00:09.907289Z"
     },
     "234": {
@@ -2590,8 +2590,8 @@
       "web_name": "Butland",
       "team": "HUL",
       "now_cost": 44,
-      "status": "i",
-      "news": "Arm injury - Unknown return date",
+      "status": "d",
+      "news": "Arm injury - 50% chance of playing",
       "news_added": "2026-08-08T19:00:05.601633Z"
     },
     "275": {
@@ -2854,8 +2854,8 @@
       "web_name": "Mendy",
       "team": "HUL",
       "now_cost": 41,
-      "status": "i",
-      "news": "Groin injury - Expected back 31 Oct",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-16T12:30:09.976274Z"
     },
     "589": {
@@ -3278,9 +3278,9 @@
       "web_name": "Stach",
       "team": "LEE",
       "now_cost": 60,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-23T13:00:09.404908Z"
+      "status": "d",
+      "news": "Foot injury - 50% chance of playing",
+      "news_added": "2026-10-29T14:30:08.129193Z"
     },
     "336": {
       "web_name": "Okafor",
@@ -3398,8 +3398,8 @@
       "web_name": "Elvedi",
       "team": "LEE",
       "now_cost": 45,
-      "status": "d",
-      "news": "Illness - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-25T17:00:10.080582Z"
     },
     "603": {
@@ -4063,7 +4063,7 @@
       "team": "MUN",
       "now_cost": 57,
       "status": "i",
-      "news": "Hamstring injury - Expected back 25 Oct",
+      "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-09-27T21:30:07.831640Z"
     },
     "416": {
@@ -4198,8 +4198,8 @@
       "web_name": "Mainoo",
       "team": "MUN",
       "now_cost": 55,
-      "status": "i",
-      "news": "Unspecified injury - Expected back 8 Nov",
+      "status": "d",
+      "news": "Unspecified injury - 25% chance of playing",
       "news_added": "2026-10-12T21:30:09.006287Z"
     },
     "433": {
@@ -4351,7 +4351,7 @@
       "team": "NEW",
       "now_cost": 48,
       "status": "i",
-      "news": "Knee injury - Expected back 7 Nov",
+      "news": "Knee injury - Unknown return date",
       "news_added": "2026-09-19T14:00:09.046677Z"
     },
     "451": {
@@ -4582,8 +4582,8 @@
       "web_name": "N.Williams",
       "team": "NFO",
       "now_cost": 50,
-      "status": "d",
-      "news": "Arm injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-24T00:00:10.181593Z"
     },
     "470": {
@@ -4686,9 +4686,9 @@
       "web_name": "Ndoye",
       "team": "NFO",
       "now_cost": 55,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Hamstring injury - 50% chance of playing",
+      "news_added": "2026-10-29T15:00:10.057610Z"
     },
     "484": {
       "web_name": "Hutchinson",
@@ -4798,9 +4798,9 @@
       "web_name": "Tosin",
       "team": "TOT",
       "now_cost": 43,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-19T22:30:08.516742Z"
+      "status": "d",
+      "news": "Calf injury - 75% chance of playing",
+      "news_added": "2026-10-29T17:00:09.335810Z"
     },
     "401": {
       "web_name": "Marmoush",
@@ -4815,7 +4815,7 @@
       "team": "TOT",
       "now_cost": 65,
       "status": "i",
-      "news": "Muscular injury - Expected back 7 Nov",
+      "news": "Muscular injury - Expected back 21 Nov",
       "news_added": "2026-10-18T13:00:09.266321Z"
     },
     "455": {
@@ -5150,9 +5150,9 @@
       "web_name": "Mukiele",
       "team": "SUN",
       "now_cost": 54,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-09T08:30:05.954750Z"
+      "status": "d",
+      "news": "Knock - 75% chance of playing",
+      "news_added": "2026-10-29T18:30:09.458031Z"
     },
     "534": {
       "web_name": "Hume",
@@ -5355,7 +5355,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-29T13:48:53.073457+00:00",
+  "last_snapshot_at": "2026-10-29T19:19:52.372754+00:00",
   "recapped_events": [
     1,
     2,
@@ -5366,7 +5366,53 @@
     7,
     8
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:4:12fba44cb4d3",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:4:12fba44cb4d3",
+        "injuries": [
+          {
+            "pid": "533",
+            "player": "Mukiele",
+            "team": "SUN",
+            "status": "doubtful",
+            "news": "Knock - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "483",
+            "player": "Ndoye",
+            "team": "NFO",
+            "status": "doubtful",
+            "news": "Hamstring injury - 50% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "335",
+            "player": "Stach",
+            "team": "LEE",
+            "status": "doubtful",
+            "news": "Foot injury - 50% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "147",
+            "player": "Tosin",
+            "team": "TOT",
+            "status": "doubtful",
+            "news": "Calf injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_4_12fba44cb4d3.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (4):\n\n\ud83d\udea8 Mukiele (SUN) - doubtful: \"Knock - 75% chance of playing\"\n\ud83d\udea8 Ndoye (NFO) - doubtful: \"Hamstring injury - 50% chance of playing\"\n\ud83d\udea8 Stach (LEE) - doubtful: \"Foot injury - 50% chance of playing\"\n\ud83d\udea8 Tosin (TOT) - doubtful: \"Calf injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLTwitter #FPLTips #FPLFamily\n\nTurn on notifications to catch these as they land.",
+      "created_at": "2026-10-29T19:19:52.424037+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
