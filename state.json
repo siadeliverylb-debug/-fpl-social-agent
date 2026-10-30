@@ -61,7 +61,7 @@
     "8": {
       "web_name": "Calafiori",
       "team": "ARS",
-      "now_cost": 60,
+      "now_cost": 59,
       "status": "d",
       "news": "Hip injury - 75% chance of playing",
       "news_added": "2026-10-24T18:30:08.735545Z"
@@ -197,7 +197,7 @@
     "26": {
       "web_name": "Havertz",
       "team": "ARS",
-      "now_cost": 75,
+      "now_cost": 74,
       "status": "a",
       "news": "",
       "news_added": "2026-09-24T22:00:09.120308Z"
@@ -229,7 +229,7 @@
     "557": {
       "web_name": "Tzolis",
       "team": "ARS",
-      "now_cost": 62,
+      "now_cost": 61,
       "status": "i",
       "news": "Hamstring injury - Expected back 1 Nov",
       "news_added": "2026-10-02T15:00:11.091226Z"
@@ -701,7 +701,7 @@
     "79": {
       "web_name": "Evanilson",
       "team": "BOU",
-      "now_cost": 62,
+      "now_cost": 63,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2093,7 +2093,7 @@
     "577": {
       "web_name": "Tomiyasu",
       "team": "CRY",
-      "now_cost": 44,
+      "now_cost": 43,
       "status": "i",
       "news": "Calf injury - Expected back 8 Nov",
       "news_added": "2026-09-21T13:30:09.030724Z"
@@ -5355,7 +5355,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-29T23:26:11.353234+00:00",
+  "last_snapshot_at": "2026-10-30T02:45:03.754143+00:00",
   "recapped_events": [
     1,
     2,
