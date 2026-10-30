@@ -5355,7 +5355,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-30T02:45:03.754143+00:00",
+  "last_snapshot_at": "2026-10-30T09:14:20.358954+00:00",
   "recapped_events": [
     1,
     2,
@@ -6624,8 +6624,8 @@
   "form_spotlight": {
     "last_at": "2026-10-28T15:35:38.810610+00:00",
     "next": "hot",
-    "day": "2026-10-28",
-    "count": 1,
+    "day": "2026-10-30",
+    "count": 0,
     "last_picks": {
       "cold": [
         "Szoboszlai",
