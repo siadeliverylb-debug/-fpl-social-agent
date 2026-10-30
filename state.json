@@ -127,7 +127,7 @@
       "team": "ARS",
       "now_cost": 62,
       "status": "d",
-      "news": "Ankle injury - 75% chance of playing",
+      "news": "Ankle injury - 50% chance of playing",
       "news_added": "2026-10-28T00:00:08.492716Z"
     },
     "17": {
@@ -230,8 +230,8 @@
       "web_name": "Tzolis",
       "team": "ARS",
       "now_cost": 61,
-      "status": "i",
-      "news": "Hamstring injury - Expected back 1 Nov",
+      "status": "d",
+      "news": "Hamstring injury - 75% chance of playing",
       "news_added": "2026-10-02T15:00:11.091226Z"
     },
     "29": {
@@ -623,7 +623,7 @@
       "team": "BOU",
       "now_cost": 59,
       "status": "i",
-      "news": "Thigh injury - Expected back 8 Nov",
+      "news": "Thigh injury - Expected back 21 Nov",
       "news_added": "2026-10-05T09:30:09.910752Z"
     },
     "70": {
@@ -894,9 +894,9 @@
       "web_name": "Carvalho",
       "team": "BRE",
       "now_cost": 50,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-18T13:58:17.442072Z"
+      "status": "i",
+      "news": "Knock - Expected back 23 Nov",
+      "news_added": "2026-10-30T14:30:09.456391Z"
     },
     "102": {
       "web_name": "Yarmoliuk",
@@ -1350,8 +1350,8 @@
       "web_name": "Gusto",
       "team": "CHE",
       "now_cost": 48,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-29T22:00:09.886054Z"
     },
     "145": {
@@ -1374,8 +1374,8 @@
       "web_name": "Hato",
       "team": "CHE",
       "now_cost": 45,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "i",
+      "news": "Unspecified injury - Unknown return date",
       "news_added": "2026-10-29T22:00:09.909621Z"
     },
     "149": {
@@ -1446,8 +1446,8 @@
       "web_name": "Caicedo",
       "team": "CHE",
       "now_cost": 53,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-29T22:00:09.933708Z"
     },
     "161": {
@@ -1510,8 +1510,8 @@
       "web_name": "Lacroix",
       "team": "CHE",
       "now_cost": 59,
-      "status": "d",
-      "news": "Hamstring injury - 50% chance of playing",
+      "status": "i",
+      "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-10-28T23:00:10.088612Z"
     },
     "560": {
@@ -1526,9 +1526,9 @@
       "web_name": "Anselmino",
       "team": "CHE",
       "now_cost": 45,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-23T19:00:08.536705Z"
+      "status": "i",
+      "news": "Unspecified injury - Unknown return date",
+      "news_added": "2026-10-30T16:00:10.210670Z"
     },
     "568": {
       "web_name": "Barco",
@@ -1542,8 +1542,8 @@
       "web_name": "Chavarria",
       "team": "CHE",
       "now_cost": 49,
-      "status": "i",
-      "news": "Unspecified injury - Expected back 31 Oct",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-17T12:00:10.154091Z"
     },
     "662": {
@@ -2198,9 +2198,9 @@
       "web_name": "Branthwaite",
       "team": "EVE",
       "now_cost": 55,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-16T17:00:07.929499Z"
+      "status": "d",
+      "news": "Concussion - 75% chance of playing",
+      "news_added": "2026-10-30T15:30:09.601963Z"
     },
     "231": {
       "web_name": "Keane",
@@ -2430,8 +2430,8 @@
       "web_name": "Smith Rowe",
       "team": "FUL",
       "now_cost": 53,
-      "status": "d",
-      "news": "Knock - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-23T11:30:09.310090Z"
     },
     "263": {
@@ -2566,8 +2566,8 @@
       "web_name": "Affengruber",
       "team": "FUL",
       "now_cost": 45,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-29T08:30:08.436091Z"
     },
     "240": {
@@ -2926,8 +2926,8 @@
       "web_name": "Luki\u0107",
       "team": "IPS",
       "now_cost": 49,
-      "status": "i",
-      "news": "Groin injury - Unknown return date",
+      "status": "d",
+      "news": "Groin injury - 75% chance of playing",
       "news_added": "2026-10-19T15:30:08.949503Z"
     },
     "300": {
@@ -3598,8 +3598,8 @@
       "web_name": "Szoboszlai",
       "team": "LIV",
       "now_cost": 67,
-      "status": "i",
-      "news": "Hamstring injury - Unknown return date",
+      "status": "d",
+      "news": "Hamstring injury - 50% chance of playing",
       "news_added": "2026-10-17T15:00:08.293301Z"
     },
     "369": {
@@ -3671,7 +3671,7 @@
       "team": "LIV",
       "now_cost": 65,
       "status": "d",
-      "news": "Knee injury - 25% chance of playing",
+      "news": "Knee injury - 50% chance of playing",
       "news_added": "2026-10-20T18:30:09.999223Z"
     },
     "378": {
@@ -3790,8 +3790,8 @@
       "web_name": "Matheus N.",
       "team": "MCI",
       "now_cost": 59,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-19T15:30:09.094655Z"
     },
     "390": {
@@ -4455,7 +4455,7 @@
       "team": "NEW",
       "now_cost": 58,
       "status": "d",
-      "news": "Ankle injury - 75% chance of playing",
+      "news": "Ankle injury - 50% chance of playing",
       "news_added": "2026-10-29T23:00:08.575179Z"
     },
     "466": {
@@ -4798,8 +4798,8 @@
       "web_name": "Tosin",
       "team": "TOT",
       "now_cost": 43,
-      "status": "d",
-      "news": "Calf injury - 75% chance of playing",
+      "status": "i",
+      "news": "Calf injury - Unknown return date",
       "news_added": "2026-10-29T17:00:09.335810Z"
     },
     "401": {
@@ -4910,8 +4910,8 @@
       "web_name": "Udogie",
       "team": "TOT",
       "now_cost": 44,
-      "status": "i",
-      "news": "Knee injury - Unknown return date",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-19T22:30:08.875960Z"
     },
     "507": {
@@ -4982,8 +4982,8 @@
       "web_name": "Maddison",
       "team": "TOT",
       "now_cost": 62,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-24T19:00:10.113555Z"
     },
     "516": {
@@ -5355,7 +5355,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-30T09:14:20.358954+00:00",
+  "last_snapshot_at": "2026-10-30T16:05:09.333618+00:00",
   "recapped_events": [
     1,
     2,
@@ -5366,7 +5366,59 @@
     7,
     8
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:3:26d43be46629",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:3:26d43be46629",
+        "injuries": [
+          {
+            "pid": "561",
+            "player": "Anselmino",
+            "team": "CHE",
+            "status": "injured",
+            "news": "Unspecified injury - Unknown return date",
+            "category": "injury"
+          },
+          {
+            "pid": "230",
+            "player": "Branthwaite",
+            "team": "EVE",
+            "status": "doubtful",
+            "news": "Concussion - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "100",
+            "player": "Carvalho",
+            "team": "BRE",
+            "status": "injured",
+            "news": "Knock - Expected back 23 Nov",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_3_26d43be46629.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (3):\n\n\ud83d\udea8 Anselmino (CHE) - injured: \"Unspecified injury - Unknown return date\"\n\ud83d\udea8 Branthwaite (EVE) - doubtful: \"Concussion - 75% chance of playing\"\n\ud83d\udea8 Carvalho (BRE) - injured: \"Knock - Expected back 23 Nov\"\n\nDoes this wreck your GW plan? #FPL #FPLFamily #FantasyFootball #PremierLeague\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-10-30T16:05:09.409749+00:00",
+      "auto": true
+    },
+    {
+      "key": "deadline:9:24h",
+      "story": {
+        "type": "deadline_reminder",
+        "key": "deadline:9:24h",
+        "gw": 9,
+        "bucket": "24h",
+        "hours_until": 18.9
+      },
+      "image_path": "assets/generated/deadline_9_24h.png",
+      "caption": "\u23f0 GW9 deadline in 24h! Don't get caught out -- set your team now.\n\n#FPL #FPLCommunity #PremierLeague #FPLTips\n\nFollow for the next one.",
+      "created_at": "2026-10-30T16:05:09.469956+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
