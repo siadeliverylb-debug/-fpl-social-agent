@@ -1029,7 +1029,9 @@
       "84:161:assists": 1,
       "84:419:yellow_cards": 1,
       "84:419:red_cards": 1,
-      "84:418:yellow_cards": 1
+      "84:418:yellow_cards": 1,
+      "84:154:goals_scored": 1,
+      "84:145:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1363,10 +1365,10 @@
         "score": "0-3"
       },
       "84:h": {
-        "player": "Rogers",
+        "player": "Palmer",
         "team": "CHE",
-        "assisted_by": "Lavia",
-        "score": "1-0"
+        "assisted_by": "Fofana",
+        "score": "2-0"
       }
     },
     "posted_score": {
@@ -1571,7 +1573,7 @@
         0
       ],
       "84": [
-        1,
+        2,
         0
       ],
       "82": [
@@ -2044,7 +2046,9 @@
       "80:543": true,
       "80:549": true,
       "80:668": true,
-      "84:432": true
+      "84:432": true,
+      "84:421": true,
+      "84:430": true
     },
     "subs_baselined": {
       "31": true,
@@ -2327,7 +2331,9 @@
       "78:627": true,
       "79:431": true,
       "84:131": true,
-      "84:419": true
+      "84:419": true,
+      "84:162": true,
+      "84:428": true
     },
     "bonus_posted": {
       "31": true,
@@ -2396,16 +2402,6 @@
         "value": 1,
         "since": "2026-10-31T13:06:54.205055+00:00",
         "minute": 34
-      },
-      "84:154:goals_scored": {
-        "value": 1,
-        "since": "2026-10-31T13:56:28.860799+00:00",
-        "minute": 65
-      },
-      "84:145:assists": {
-        "value": 1,
-        "since": "2026-10-31T13:56:28.860812+00:00",
-        "minute": 65
       }
     },
     "event_tracking": {
@@ -4380,6 +4376,13 @@
       "type": "red_card",
       "posted_at": "2026-10-31T13:56:30.347989+00:00",
       "tweet_id": "2116529749212254711",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:84:154:1",
+      "type": "goal",
+      "posted_at": "2026-10-31T13:59:59.598111+00:00",
+      "tweet_id": "2116530626782261725",
       "ig": "skipped (live event)"
     }
   ],
