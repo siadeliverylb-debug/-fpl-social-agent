@@ -206,23 +206,23 @@
         "finished_provisional": true
       },
       "82": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "83": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "85": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "86": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "88": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "90": {
@@ -4423,6 +4423,41 @@
       "type": "bonus_points",
       "posted_at": "2026-10-31T14:33:52.410330+00:00",
       "tweet_id": "2116539153051480068",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "kickoff:82",
+      "type": "kickoff",
+      "posted_at": "2026-10-31T15:00:40.098947+00:00",
+      "tweet_id": "2116545896368218581",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "kickoff:83",
+      "type": "kickoff",
+      "posted_at": "2026-10-31T15:00:43.322304+00:00",
+      "tweet_id": "2116545909504803147",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "kickoff:85",
+      "type": "kickoff",
+      "posted_at": "2026-10-31T15:00:46.319523+00:00",
+      "tweet_id": "2116545922335178858",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "kickoff:86",
+      "type": "kickoff",
+      "posted_at": "2026-10-31T15:00:49.335577+00:00",
+      "tweet_id": "2116545934922224062",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "kickoff:88",
+      "type": "kickoff",
+      "posted_at": "2026-10-31T15:00:52.424288+00:00",
+      "tweet_id": "2116545948008472869",
       "ig": "skipped (live event)"
     }
   ],
