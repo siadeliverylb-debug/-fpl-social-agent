@@ -1060,7 +1060,9 @@
       "86:289:yellow_cards": 1,
       "83:201:yellow_cards": 1,
       "86:240:goals_scored": 1,
-      "86:295:assists": 1
+      "86:295:assists": 1,
+      "82:338:yellow_cards": 1,
+      "83:88:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -2123,7 +2125,8 @@
       "83:96": true,
       "83:90": true,
       "86:617": true,
-      "83:490": true
+      "83:490": true,
+      "83:493": true
     },
     "subs_baselined": {
       "31": true,
@@ -2464,7 +2467,29 @@
       "82:345": true,
       "82:346": true,
       "82:385": true,
-      "82:598": true
+      "82:598": true,
+      "83:167": true,
+      "83:483": true,
+      "85:91": true,
+      "85:110": true,
+      "85:175": true,
+      "85:176": true,
+      "85:183": true,
+      "85:185": true,
+      "85:188": true,
+      "85:492": true,
+      "85:575": true,
+      "85:655": true,
+      "85:656": true,
+      "85:529": true,
+      "85:534": true,
+      "85:535": true,
+      "85:536": true,
+      "85:539": true,
+      "85:542": true,
+      "85:544": true,
+      "85:545": true,
+      "85:552": true
     },
     "bonus_posted": {
       "31": true,
@@ -2549,6 +2574,11 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
+      },
+      "85:542:goals_scored": {
+        "value": 1,
+        "since": "2026-10-31T16:25:25.630752+00:00",
+        "minute": 67
       }
     },
     "event_tracking": {
