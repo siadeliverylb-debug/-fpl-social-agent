@@ -1040,7 +1040,9 @@
       "88:129:goals_scored": 1,
       "88:115:assists": 1,
       "88:639:yellow_cards": 1,
-      "85:185:goals_scored": 1
+      "85:185:goals_scored": 1,
+      "86:571:goals_scored": 1,
+      "86:592:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1390,6 +1392,12 @@
         "team": "COV",
         "assisted_by": null,
         "score": "1-0"
+      },
+      "86:a": {
+        "player": "Florentino",
+        "team": "IPS",
+        "assisted_by": "Ouattara",
+        "score": "0-1"
       }
     },
     "posted_score": {
@@ -1611,7 +1619,7 @@
       ],
       "86": [
         0,
-        0
+        1
       ],
       "88": [
         0,
@@ -2472,16 +2480,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "86:571:goals_scored": {
-        "value": 1,
-        "since": "2026-10-31T15:26:29.350326+00:00",
-        "minute": 23
-      },
-      "86:592:assists": {
-        "value": 1,
-        "since": "2026-10-31T15:26:29.350340+00:00",
-        "minute": 23
       }
     },
     "event_tracking": {
@@ -4533,6 +4531,13 @@
       "type": "goal",
       "posted_at": "2026-10-31T15:23:44.155871+00:00",
       "tweet_id": "2116551701486301475",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:86:571:1",
+      "type": "goal",
+      "posted_at": "2026-10-31T15:29:57.624484+00:00",
+      "tweet_id": "2116553267891011920",
       "ig": "skipped (live event)"
     }
   ],
