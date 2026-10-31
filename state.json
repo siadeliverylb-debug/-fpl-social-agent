@@ -29,7 +29,7 @@
     "4": {
       "web_name": "Gabriel",
       "team": "ARS",
-      "now_cost": 79,
+      "now_cost": 80,
       "status": "a",
       "news": "",
       "news_added": null
@@ -381,7 +381,7 @@
     "51": {
       "web_name": "George Hemmings",
       "team": "AVL",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": "2026-10-10T18:00:10.386738Z"
@@ -437,7 +437,7 @@
     "166": {
       "web_name": "N.Jackson",
       "team": "AVL",
-      "now_cost": 68,
+      "now_cost": 69,
       "status": "a",
       "news": "",
       "news_added": null
@@ -613,7 +613,7 @@
     "68": {
       "web_name": "Tavernier",
       "team": "BOU",
-      "now_cost": 64,
+      "now_cost": 65,
       "status": "a",
       "news": "",
       "news_added": null
@@ -901,7 +901,7 @@
     "102": {
       "web_name": "Yarmoliuk",
       "team": "BRE",
-      "now_cost": 48,
+      "now_cost": 47,
       "status": "s",
       "news": "Suspended until 8 Nov",
       "news_added": "2026-10-17T15:00:07.992801Z"
@@ -1197,7 +1197,7 @@
     "139": {
       "web_name": "Ferguson",
       "team": "BHA",
-      "now_cost": 50,
+      "now_cost": 49,
       "status": "i",
       "news": "Ankle injury - Unknown return date",
       "news_added": "2026-07-23T12:01:23.448357Z"
@@ -1285,7 +1285,7 @@
     "28": {
       "web_name": "Martinez",
       "team": "CHE",
-      "now_cost": 50,
+      "now_cost": 49,
       "status": "i",
       "news": "Head injury - Unknown return date",
       "news_added": "2026-10-17T13:30:08.724000Z"
@@ -1293,7 +1293,7 @@
     "40": {
       "web_name": "Rogers",
       "team": "CHE",
-      "now_cost": 80,
+      "now_cost": 81,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2429,7 +2429,7 @@
     "262": {
       "web_name": "Smith Rowe",
       "team": "FUL",
-      "now_cost": 53,
+      "now_cost": 52,
       "status": "a",
       "news": "",
       "news_added": "2026-10-23T11:30:09.310090Z"
@@ -4501,7 +4501,7 @@
     "634": {
       "web_name": "Fernandez-Pardo",
       "team": "NEW",
-      "now_cost": 60,
+      "now_cost": 59,
       "status": "d",
       "news": "Illness - 75% chance of playing",
       "news_added": "2026-10-23T14:30:10.429365Z"
@@ -4549,7 +4549,7 @@
     "167": {
       "web_name": "Delap",
       "team": "NFO",
-      "now_cost": 55,
+      "now_cost": 54,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5101,7 +5101,7 @@
     "601": {
       "web_name": "Williams-Barnett",
       "team": "TOT",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5355,7 +5355,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-30T20:56:02.736265+00:00",
+  "last_snapshot_at": "2026-10-31T00:15:40.248234+00:00",
   "recapped_events": [
     1,
     2,
