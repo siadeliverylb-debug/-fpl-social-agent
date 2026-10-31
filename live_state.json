@@ -1036,7 +1036,8 @@
       "84:427:yellow_cards": 1,
       "84:440:yellow_cards": 1,
       "84:560:yellow_cards": 1,
-      "85:188:yellow_cards": 1
+      "85:188:yellow_cards": 1,
+      "88:129:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1374,6 +1375,12 @@
         "team": "CHE",
         "assisted_by": "Fofana",
         "score": "2-0"
+      },
+      "88:a": {
+        "player": "Ayari",
+        "team": "BHA",
+        "assisted_by": null,
+        "score": "0-1"
       }
     },
     "posted_score": {
@@ -1599,7 +1606,7 @@
       ],
       "88": [
         0,
-        0
+        1
       ],
       "90": [
         0,
@@ -2456,11 +2463,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "88:129:goals_scored": {
-        "value": 1,
-        "since": "2026-10-31T15:13:58.265637+00:00",
-        "minute": 10
       },
       "88:115:assists": {
         "value": 1,
@@ -4496,6 +4498,13 @@
       "type": "kickoff",
       "posted_at": "2026-10-31T15:00:52.424288+00:00",
       "tweet_id": "2116545948008472869",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:88:129:1",
+      "type": "goal",
+      "posted_at": "2026-10-31T15:17:27.076850+00:00",
+      "tweet_id": "2116550119751389649",
       "ig": "skipped (live event)"
     }
   ],
