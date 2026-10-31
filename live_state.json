@@ -207,7 +207,7 @@
       },
       "82": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       },
       "83": {
         "started": true,
@@ -219,7 +219,7 @@
       },
       "86": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       },
       "88": {
         "started": true,
@@ -1078,7 +1078,10 @@
       "86:591:yellow_cards": 1,
       "86:279:yellow_cards": 1,
       "85:535:yellow_cards": 1,
-      "86:259:yellow_cards": 1
+      "86:259:yellow_cards": 1,
+      "82:77:goals_scored": 1,
+      "82:78:assists": 1,
+      "85:535:red_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -1436,10 +1439,10 @@
         "score": "2-2"
       },
       "82:h": {
-        "player": "Evanilson",
+        "player": "Adli",
         "team": "BOU",
-        "assisted_by": "Kluivert",
-        "score": "1-0"
+        "assisted_by": "Kroupi.Jr",
+        "score": "2-0"
       },
       "86:h": {
         "player": "McBurnie",
@@ -1666,7 +1669,7 @@
         0
       ],
       "82": [
-        1,
+        2,
         0
       ],
       "83": [
@@ -2615,7 +2618,9 @@
       "80": true,
       "84": true,
       "83": true,
-      "88": true
+      "88": true,
+      "82": true,
+      "86": true
     },
     "goal_pending": {
       "44:204:goals_scored": {
@@ -2647,16 +2652,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "82:77:goals_scored": {
-        "value": 1,
-        "since": "2026-10-31T16:56:17.961667+00:00",
-        "minute": 90
-      },
-      "82:78:assists": {
-        "value": 1,
-        "since": "2026-10-31T16:56:17.961689+00:00",
-        "minute": 90
       }
     },
     "event_tracking": {
@@ -4841,6 +4836,48 @@
       "type": "bonus_points",
       "posted_at": "2026-10-31T16:55:36.112569+00:00",
       "tweet_id": "2116574820280279263",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:82:77:1",
+      "type": "goal",
+      "posted_at": "2026-10-31T16:58:24.564578+00:00",
+      "tweet_id": "2116575526861029714",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "fulltime:82",
+      "type": "full_time",
+      "posted_at": "2026-10-31T16:58:27.553759+00:00",
+      "tweet_id": "2116575539393605683",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "bonus:82",
+      "type": "bonus_points",
+      "posted_at": "2026-10-31T16:58:30.606891+00:00",
+      "tweet_id": "2116575552240808269",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "red_card:85:535:1",
+      "type": "red_card",
+      "posted_at": "2026-10-31T16:58:33.582343+00:00",
+      "tweet_id": "2116575564597182531",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "fulltime:86",
+      "type": "full_time",
+      "posted_at": "2026-10-31T16:58:36.608905+00:00",
+      "tweet_id": "2116575577322750436",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "bonus:86",
+      "type": "bonus_points",
+      "posted_at": "2026-10-31T16:58:39.673245+00:00",
+      "tweet_id": "2116575590161453364",
       "ig": "skipped (live event)"
     }
   ],
