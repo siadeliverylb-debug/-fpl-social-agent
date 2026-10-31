@@ -1046,7 +1046,9 @@
       "86:619:yellow_cards": 1,
       "83:471:own_goals": 1,
       "83:95:assists": 1,
-      "82:79:goals_scored": 1
+      "82:79:goals_scored": 1,
+      "82:70:assists": 1,
+      "82:598:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -1406,7 +1408,7 @@
       "82:h": {
         "player": "Evanilson",
         "team": "BOU",
-        "assisted_by": null,
+        "assisted_by": "Kluivert",
         "score": "1-0"
       }
     },
@@ -2490,11 +2492,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "82:70:assists": {
-        "value": 1,
-        "since": "2026-10-31T15:34:08.212311+00:00",
-        "minute": 33
       }
     },
     "event_tracking": {
@@ -4574,6 +4571,13 @@
       "type": "goal",
       "posted_at": "2026-10-31T15:36:59.462288+00:00",
       "tweet_id": "2116555037212074196",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:82:70:1",
+      "type": "goal_update",
+      "posted_at": "2026-10-31T15:37:42.477735+00:00",
+      "tweet_id": "2116555217659383896",
       "ig": "skipped (live event)"
     }
   ],
