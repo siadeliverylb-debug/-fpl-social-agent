@@ -1067,7 +1067,10 @@
       "85:539:assists": 1,
       "86:295:goals_scored": 1,
       "86:286:assists": 1,
-      "82:64:yellow_cards": 1
+      "82:64:yellow_cards": 1,
+      "82:73:yellow_cards": 1,
+      "83:106:goals_scored": 1,
+      "83:105:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1441,6 +1444,12 @@
         "team": "SUN",
         "assisted_by": "O'Nien",
         "score": "3-1"
+      },
+      "83:h": {
+        "player": "Thiago",
+        "team": "BRE",
+        "assisted_by": "Anthony",
+        "score": "2-0"
       }
     },
     "posted_score": {
@@ -1653,7 +1662,7 @@
         0
       ],
       "83": [
-        1,
+        2,
         0
       ],
       "85": [
@@ -2609,16 +2618,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "83:106:goals_scored": {
-        "value": 1,
-        "since": "2026-10-31T16:34:33.767055+00:00",
-        "minute": 76
-      },
-      "83:105:assists": {
-        "value": 1,
-        "since": "2026-10-31T16:34:33.767079+00:00",
-        "minute": 76
       },
       "86:591:goals_scored": {
         "value": 1,
@@ -4771,6 +4770,13 @@
       "type": "goal_update",
       "posted_at": "2026-10-31T16:33:51.940863+00:00",
       "tweet_id": "2116569350123520053",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:83:106:1",
+      "type": "goal",
+      "posted_at": "2026-10-31T16:38:03.437968+00:00",
+      "tweet_id": "2116570405053890740",
       "ig": "skipped (live event)"
     }
   ],
