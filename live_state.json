@@ -1033,7 +1033,8 @@
       "84:154:goals_scored": 1,
       "84:145:assists": 1,
       "84:432:yellow_cards": 1,
-      "84:427:yellow_cards": 1
+      "84:427:yellow_cards": 1,
+      "84:440:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -2053,7 +2054,9 @@
       "84:430": true,
       "84:583": true,
       "84:440": true,
-      "84:136": true
+      "84:136": true,
+      "84:144": true,
+      "84:568": true
     },
     "subs_baselined": {
       "31": true,
