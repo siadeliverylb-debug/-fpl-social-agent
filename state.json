@@ -902,8 +902,8 @@
       "web_name": "Yarmoliuk",
       "team": "BRE",
       "now_cost": 47,
-      "status": "s",
-      "news": "Suspended until 8 Nov",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-17T15:00:07.992801Z"
     },
     "103": {
@@ -2054,9 +2054,9 @@
       "web_name": "Mateta",
       "team": "CRY",
       "now_cost": 63,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-28T21:00:08.020382Z"
+      "status": "s",
+      "news": "Suspended until 2 Dec",
+      "news_added": "2026-10-31T18:00:09.547671Z"
     },
     "224": {
       "web_name": "Nketiah",
@@ -2710,9 +2710,9 @@
       "web_name": "Crooks",
       "team": "HUL",
       "now_cost": 44,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-29T15:00:08.569326Z"
+      "status": "s",
+      "news": "Suspended until 22 Nov",
+      "news_added": "2026-10-31T18:00:09.584315Z"
     },
     "290": {
       "web_name": "Slater",
@@ -3286,9 +3286,9 @@
       "web_name": "Okafor",
       "team": "LEE",
       "now_cost": 58,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-23T13:00:09.421868Z"
+      "status": "d",
+      "news": "Thigh injury - 75% chance of playing",
+      "news_added": "2026-10-31T20:00:10.014132Z"
     },
     "337": {
       "web_name": "Aaronson",
@@ -4190,9 +4190,9 @@
       "web_name": "Amad",
       "team": "MUN",
       "now_cost": 57,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-22T11:00:08.617283Z"
+      "status": "d",
+      "news": "Calf injury - 75% chance of playing",
+      "news_added": "2026-10-31T17:30:08.280248Z"
     },
     "432": {
       "web_name": "Mainoo",
@@ -4990,8 +4990,8 @@
       "web_name": "Bentancur",
       "team": "TOT",
       "now_cost": 54,
-      "status": "s",
-      "news": "Suspended until 7 Nov",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-10T18:30:09.519346Z"
     },
     "517": {
@@ -5166,9 +5166,9 @@
       "web_name": "Alderete",
       "team": "SUN",
       "now_cost": 48,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-09T08:30:05.962393Z"
+      "status": "s",
+      "news": "Suspended until 21 Nov",
+      "news_added": "2026-10-31T17:30:08.393957Z"
     },
     "536": {
       "web_name": "Reinildo",
@@ -5355,7 +5355,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-31T17:25:24.970983+00:00",
+  "last_snapshot_at": "2026-10-31T20:31:53.649525+00:00",
   "recapped_events": [
     1,
     2,
@@ -5386,6 +5386,86 @@
       "image_path": "assets/generated/injury_batch_1_dbc0f0048544.png",
       "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Henderson (CHE) - doubtful: \"Illness - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FantasyFootball #FPLFamily #FPLCommunity\n\nMore like this on the feed -- give us a follow.",
       "created_at": "2026-10-31T17:25:25.101221+00:00",
+      "auto": true
+    },
+    {
+      "key": "status:223:2026-10-31T18:00:09.547671Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:223:2026-10-31T18:00:09.547671Z",
+        "pid": "223",
+        "player": "Mateta",
+        "team": "CRY",
+        "status": "suspended",
+        "news": "Suspended until 2 Dec",
+        "category": "suspension"
+      },
+      "image_path": "assets/generated/status_223_2026-10-31T18_00_09.547671Z.png",
+      "caption": "\ud83d\udfe5 SUSPENDED: Mateta (CRY) is suspended.\n\"Suspended until 2 Dec\"\n\nDoes this change your captaincy plans? #FPL #FPLTwitter #PremierLeague #FPLFamily\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-10-31T20:31:53.725007+00:00",
+      "auto": true
+    },
+    {
+      "key": "status:289:2026-10-31T18:00:09.584315Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:289:2026-10-31T18:00:09.584315Z",
+        "pid": "289",
+        "player": "Crooks",
+        "team": "HUL",
+        "status": "suspended",
+        "news": "Suspended until 22 Nov",
+        "category": "suspension"
+      },
+      "image_path": "assets/generated/status_289_2026-10-31T18_00_09.584315Z.png",
+      "caption": "\ud83d\udfe5 SUSPENDED: Crooks (HUL) is suspended.\n\"Suspended until 22 Nov\"\n\nCostly ban, or no big loss for his side? #FPL #FPLTwitter #FPLCommunity #FPLFamily\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-10-31T20:31:53.785383+00:00",
+      "auto": true
+    },
+    {
+      "key": "status:535:2026-10-31T17:30:08.393957Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:535:2026-10-31T17:30:08.393957Z",
+        "pid": "535",
+        "player": "Alderete",
+        "team": "SUN",
+        "status": "suspended",
+        "news": "Suspended until 21 Nov",
+        "category": "suspension"
+      },
+      "image_path": "assets/generated/status_535_2026-10-31T17_30_08.393957Z.png",
+      "caption": "\ud83d\udfe5 SUSPENDED: Alderete (SUN) is suspended.\n\"Suspended until 21 Nov\"\n\nWho's covering for him while he's out? #FPL #FantasyPremierLeague #FPLTwitter #FantasyFootball\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-10-31T20:31:53.847582+00:00",
+      "auto": true
+    },
+    {
+      "key": "injury_batch:2:92ef68259c85",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:2:92ef68259c85",
+        "injuries": [
+          {
+            "pid": "431",
+            "player": "Amad",
+            "team": "MUN",
+            "status": "doubtful",
+            "news": "Calf injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "336",
+            "player": "Okafor",
+            "team": "LEE",
+            "status": "doubtful",
+            "news": "Thigh injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_2_92ef68259c85.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Amad (MUN) - doubtful: \"Calf injury - 75% chance of playing\"\n\ud83d\udea8 Okafor (LEE) - doubtful: \"Thigh injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLCommunity #FPLFamily #FPLTwitter\n\nFollow for the next one.",
+      "created_at": "2026-10-31T20:31:53.909009+00:00",
       "auto": true
     }
   ],
