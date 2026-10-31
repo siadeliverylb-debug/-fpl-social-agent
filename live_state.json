@@ -1084,7 +1084,9 @@
       "85:535:red_cards": 1,
       "90:223:yellow_cards": 1,
       "90:223:red_cards": 1,
-      "90:522:yellow_cards": 1
+      "90:522:yellow_cards": 1,
+      "90:522:goals_scored": 1,
+      "90:512:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1464,6 +1466,12 @@
         "team": "BRE",
         "assisted_by": "Anthony",
         "score": "2-0"
+      },
+      "90:h": {
+        "player": "Gray",
+        "team": "TOT",
+        "assisted_by": "Kudus",
+        "score": "1-0"
       }
     },
     "posted_score": {
@@ -1692,7 +1700,7 @@
         1
       ],
       "90": [
-        0,
+        1,
         0
       ],
       "81": [
@@ -2657,16 +2665,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "90:522:goals_scored": {
-        "value": 1,
-        "since": "2026-10-31T17:57:14.571756+00:00",
-        "minute": 24
-      },
-      "90:512:assists": {
-        "value": 1,
-        "since": "2026-10-31T17:57:14.571776+00:00",
-        "minute": 24
       }
     },
     "event_tracking": {
@@ -4921,6 +4919,13 @@
       "type": "red_card",
       "posted_at": "2026-10-31T17:45:30.850906+00:00",
       "tweet_id": "2116587381109190885",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:90:522:1",
+      "type": "goal",
+      "posted_at": "2026-10-31T18:00:42.816346+00:00",
+      "tweet_id": "2116591206226350365",
       "ig": "skipped (live event)"
     }
   ],
