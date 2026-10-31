@@ -1065,7 +1065,8 @@
       "83:88:yellow_cards": 1,
       "85:542:goals_scored": 1,
       "85:539:assists": 1,
-      "86:295:goals_scored": 1
+      "86:295:goals_scored": 1,
+      "86:286:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1431,7 +1432,7 @@
       "86:h": {
         "player": "McBurnie",
         "team": "HUL",
-        "assisted_by": null,
+        "assisted_by": "Belloumi",
         "score": "2-1"
       },
       "85:a": {
@@ -2149,7 +2150,9 @@
       "85:599": true,
       "86:310": true,
       "86:313": true,
-      "86:562": true
+      "86:562": true,
+      "88:123": true,
+      "88:605": true
     },
     "subs_baselined": {
       "31": true,
@@ -2601,11 +2604,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "86:286:assists": {
-        "value": 1,
-        "since": "2026-10-31T16:30:19.119627+00:00",
-        "minute": 68
       }
     },
     "event_tracking": {
@@ -4741,6 +4739,13 @@
       "type": "goal",
       "posted_at": "2026-10-31T16:33:08.786508+00:00",
       "tweet_id": "2116569169093161018",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:86:286:1",
+      "type": "goal_update",
+      "posted_at": "2026-10-31T16:33:51.940863+00:00",
+      "tweet_id": "2116569350123520053",
       "ig": "skipped (live event)"
     }
   ],
