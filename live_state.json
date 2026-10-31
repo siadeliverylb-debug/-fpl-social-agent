@@ -1057,7 +1057,9 @@
       "86:576:yellow_cards": 1,
       "85:183:goals_scored": 1,
       "85:188:assists": 1,
-      "86:289:yellow_cards": 1
+      "86:289:yellow_cards": 1,
+      "83:201:yellow_cards": 1,
+      "86:240:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1419,6 +1421,12 @@
         "team": "BOU",
         "assisted_by": "Kluivert",
         "score": "1-0"
+      },
+      "86:h": {
+        "player": "Iroegbunam",
+        "team": "HUL",
+        "assisted_by": null,
+        "score": "1-1"
       }
     },
     "posted_score": {
@@ -1639,7 +1647,7 @@
         0
       ],
       "86": [
-        0,
+        1,
         1
       ],
       "88": [
@@ -2430,7 +2438,9 @@
       "83:558": true,
       "85:548": true,
       "85:551": true,
-      "88:616": true
+      "88:616": true,
+      "83:97": true,
+      "83:565": true
     },
     "bonus_posted": {
       "31": true,
@@ -2515,11 +2525,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "86:240:goals_scored": {
-        "value": 1,
-        "since": "2026-10-31T16:19:48.945810+00:00",
-        "minute": 58
       },
       "86:295:assists": {
         "value": 1,
@@ -4625,6 +4630,13 @@
       "type": "goal",
       "posted_at": "2026-10-31T16:14:58.683397+00:00",
       "tweet_id": "2116564596555190404",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:86:240:1",
+      "type": "goal",
+      "posted_at": "2026-10-31T16:23:19.335839+00:00",
+      "tweet_id": "2116566696722936267",
       "ig": "skipped (live event)"
     }
   ],
