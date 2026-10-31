@@ -1037,7 +1037,8 @@
       "84:440:yellow_cards": 1,
       "84:560:yellow_cards": 1,
       "85:188:yellow_cards": 1,
-      "88:129:goals_scored": 1
+      "88:129:goals_scored": 1,
+      "88:115:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1379,7 +1380,7 @@
       "88:a": {
         "player": "Ayari",
         "team": "BHA",
-        "assisted_by": null,
+        "assisted_by": "De Cuyper",
         "score": "0-1"
       }
     },
@@ -2462,11 +2463,6 @@
       "82:346:goals_scored": {
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
-        "minute": 11
-      },
-      "88:115:assists": {
-        "value": 1,
-        "since": "2026-10-31T15:14:40.303045+00:00",
         "minute": 11
       }
     },
@@ -4505,6 +4501,13 @@
       "type": "goal",
       "posted_at": "2026-10-31T15:17:27.076850+00:00",
       "tweet_id": "2116550119751389649",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:88:115:1",
+      "type": "goal_update",
+      "posted_at": "2026-10-31T15:18:10.785717+00:00",
+      "tweet_id": "2116550302941737225",
       "ig": "skipped (live event)"
     }
   ],
