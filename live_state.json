@@ -1027,7 +1027,8 @@
       "84:428:defensive_contribution": 1,
       "84:40:goals_scored": 1,
       "84:161:assists": 1,
-      "84:419:yellow_cards": 1
+      "84:419:yellow_cards": 1,
+      "84:419:red_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -2323,7 +2324,8 @@
       "76:95": true,
       "78:379": true,
       "78:627": true,
-      "79:431": true
+      "79:431": true,
+      "84:131": true
     },
     "bonus_posted": {
       "31": true,
@@ -2392,6 +2394,16 @@
         "value": 1,
         "since": "2026-10-31T13:06:54.205055+00:00",
         "minute": 34
+      },
+      "84:154:goals_scored": {
+        "value": 1,
+        "since": "2026-10-31T13:56:28.860799+00:00",
+        "minute": 65
+      },
+      "84:145:assists": {
+        "value": 1,
+        "since": "2026-10-31T13:56:28.860812+00:00",
+        "minute": 65
       }
     },
     "event_tracking": {
@@ -4359,6 +4371,13 @@
       "type": "goal_update",
       "posted_at": "2026-10-31T13:44:46.339968+00:00",
       "tweet_id": "2116526796480913513",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "red_card:84:419:1",
+      "type": "red_card",
+      "posted_at": "2026-10-31T13:56:30.347989+00:00",
+      "tweet_id": "2116529749212254711",
       "ig": "skipped (live event)"
     }
   ],
