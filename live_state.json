@@ -1039,7 +1039,8 @@
       "85:188:yellow_cards": 1,
       "88:129:goals_scored": 1,
       "88:115:assists": 1,
-      "88:639:yellow_cards": 1
+      "88:639:yellow_cards": 1,
+      "85:185:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1383,6 +1384,12 @@
         "team": "BHA",
         "assisted_by": "De Cuyper",
         "score": "0-1"
+      },
+      "85:h": {
+        "player": "Sakamoto",
+        "team": "COV",
+        "assisted_by": null,
+        "score": "1-0"
       }
     },
     "posted_score": {
@@ -1599,7 +1606,7 @@
         0
       ],
       "85": [
-        0,
+        1,
         0
       ],
       "86": [
@@ -2465,11 +2472,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "85:185:goals_scored": {
-        "value": 1,
-        "since": "2026-10-31T15:20:15.312331+00:00",
-        "minute": 17
       }
     },
     "event_tracking": {
@@ -4514,6 +4516,13 @@
       "type": "goal_update",
       "posted_at": "2026-10-31T15:18:10.785717+00:00",
       "tweet_id": "2116550302941737225",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:85:185:1",
+      "type": "goal",
+      "posted_at": "2026-10-31T15:23:44.155871+00:00",
+      "tweet_id": "2116551701486301475",
       "ig": "skipped (live event)"
     }
   ],
