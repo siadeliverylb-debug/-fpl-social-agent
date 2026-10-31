@@ -5368,27 +5368,6 @@
   ],
   "pending": [
     {
-      "key": "injury_batch:1:dbc0f0048544",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:dbc0f0048544",
-        "injuries": [
-          {
-            "pid": "101",
-            "player": "Henderson",
-            "team": "CHE",
-            "status": "doubtful",
-            "news": "Illness - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_dbc0f0048544.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Henderson (CHE) - doubtful: \"Illness - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FantasyFootball #FPLFamily #FPLCommunity\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-10-31T17:25:25.101221+00:00",
-      "auto": true
-    },
-    {
       "key": "status:223:2026-10-31T18:00:09.547671Z",
       "story": {
         "type": "status_change",
@@ -5679,7 +5658,8 @@
     "injury_batch:3:26d43be46629",
     "deadline:9:24h",
     "form_hot:5:4c0b98b5ce11",
-    "status:419:2026-10-31T14:00:08.592593Z"
+    "status:419:2026-10-31T14:00:08.592593Z",
+    "injury_batch:1:dbc0f0048544"
   ],
   "post_log": [
     {
@@ -6745,6 +6725,13 @@
       "type": "status_change",
       "posted_at": "2026-10-31T17:55:41.510773+00:00",
       "tweet_id": "2116589942461620586",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "injury_batch:1:dbc0f0048544",
+      "type": "injury_batch",
+      "posted_at": "2026-10-31T21:31:22.867281+00:00",
+      "tweet_id": "2116644222464057415",
       "ig": "skipped (Instagram not configured)"
     }
   ],
