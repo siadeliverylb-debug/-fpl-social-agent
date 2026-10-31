@@ -200,6 +200,46 @@
       "80": {
         "started": true,
         "finished_provisional": true
+      },
+      "84": {
+        "started": true,
+        "finished_provisional": false
+      },
+      "82": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "83": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "85": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "86": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "88": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "90": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "81": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "87": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "89": {
+        "started": false,
+        "finished_provisional": false
       }
     },
     "stats": {
@@ -943,7 +983,48 @@
       "75:203:yellow_cards": 1,
       "80:536:yellow_cards": 1,
       "80:330:yellow_cards": 1,
-      "80:338:yellow_cards": 1
+      "80:338:yellow_cards": 1,
+      "84:412:saves": 1,
+      "84:151:bps": 7,
+      "84:40:bps": 6,
+      "84:161:bps": 6,
+      "84:152:bps": 5,
+      "84:154:bps": 5,
+      "84:156:bps": 5,
+      "84:157:bps": 5,
+      "84:145:bps": 3,
+      "84:149:bps": 3,
+      "84:159:bps": 3,
+      "84:560:bps": 3,
+      "84:420:bps": 7,
+      "84:412:bps": 6,
+      "84:426:bps": 5,
+      "84:417:bps": 4,
+      "84:418:bps": 4,
+      "84:428:bps": 4,
+      "84:431:bps": 4,
+      "84:162:bps": 3,
+      "84:419:bps": 3,
+      "84:427:bps": 3,
+      "84:131:bps": 2,
+      "84:154:defensive_contribution": 4,
+      "84:161:defensive_contribution": 4,
+      "84:40:defensive_contribution": 3,
+      "84:151:defensive_contribution": 3,
+      "84:157:defensive_contribution": 3,
+      "84:149:defensive_contribution": 2,
+      "84:145:defensive_contribution": 1,
+      "84:152:defensive_contribution": 1,
+      "84:156:defensive_contribution": 1,
+      "84:159:defensive_contribution": 1,
+      "84:162:defensive_contribution": 6,
+      "84:420:defensive_contribution": 4,
+      "84:431:defensive_contribution": 4,
+      "84:417:defensive_contribution": 3,
+      "84:418:defensive_contribution": 3,
+      "84:426:defensive_contribution": 2,
+      "84:427:defensive_contribution": 1,
+      "84:428:defensive_contribution": 1
     },
     "last_goal": {
       "40:h": {
@@ -1477,6 +1558,46 @@
       "80": [
         0,
         0
+      ],
+      "84": [
+        0,
+        0
+      ],
+      "82": [
+        0,
+        0
+      ],
+      "83": [
+        0,
+        0
+      ],
+      "85": [
+        0,
+        0
+      ],
+      "86": [
+        0,
+        0
+      ],
+      "88": [
+        0,
+        0
+      ],
+      "90": [
+        0,
+        0
+      ],
+      "81": [
+        0,
+        0
+      ],
+      "87": [
+        0,
+        0
+      ],
+      "89": [
+        0,
+        0
       ]
     },
     "subs_seen": {
@@ -1963,7 +2084,17 @@
       "76": true,
       "78": true,
       "79": true,
-      "80": true
+      "80": true,
+      "84": true,
+      "82": true,
+      "83": true,
+      "85": true,
+      "86": true,
+      "88": true,
+      "90": true,
+      "81": true,
+      "87": true,
+      "89": true
     },
     "subs_off_seen": {
       "31:34": true,
@@ -2249,9 +2380,9 @@
       }
     },
     "event_tracking": {
-      "prev": null,
-      "prev_since": "2026-10-26T12:47:25.619704+00:00",
-      "current": 8
+      "prev": 8,
+      "prev_since": "2026-10-31T12:50:24.121368+00:00",
+      "current": 9
     }
   },
   "live_post_log": [
