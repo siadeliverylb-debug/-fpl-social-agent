@@ -1070,7 +1070,9 @@
       "82:64:yellow_cards": 1,
       "82:73:yellow_cards": 1,
       "83:106:goals_scored": 1,
-      "83:105:assists": 1
+      "83:105:assists": 1,
+      "86:591:goals_scored": 1,
+      "86:310:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1422,10 +1424,10 @@
         "score": "3-0"
       },
       "86:a": {
-        "player": "Florentino",
+        "player": "Enciso",
         "team": "IPS",
-        "assisted_by": "Ouattara",
-        "score": "0-1"
+        "assisted_by": "Matusiwa",
+        "score": "2-2"
       },
       "82:h": {
         "player": "Evanilson",
@@ -1671,7 +1673,7 @@
       ],
       "86": [
         2,
-        1
+        2
       ],
       "88": [
         0,
@@ -2166,7 +2168,10 @@
       "85:541": true,
       "85:646": true,
       "86:640": true,
-      "88:628": true
+      "88:628": true,
+      "82:81": true,
+      "86:563": true,
+      "86:638": true
     },
     "subs_baselined": {
       "31": true,
@@ -2620,16 +2625,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "86:591:goals_scored": {
-        "value": 1,
-        "since": "2026-10-31T16:36:37.996813+00:00",
-        "minute": 74
-      },
-      "86:310:assists": {
-        "value": 1,
-        "since": "2026-10-31T16:36:37.996829+00:00",
-        "minute": 74
       }
     },
     "event_tracking": {
@@ -4779,6 +4774,13 @@
       "type": "goal",
       "posted_at": "2026-10-31T16:38:03.437968+00:00",
       "tweet_id": "2116570405053890740",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:86:591:1",
+      "type": "goal",
+      "posted_at": "2026-10-31T16:40:11.028708+00:00",
+      "tweet_id": "2116570940137955379",
       "ig": "skipped (live event)"
     }
   ],
