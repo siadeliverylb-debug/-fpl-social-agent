@@ -1045,7 +1045,8 @@
       "86:592:assists": 1,
       "86:619:yellow_cards": 1,
       "83:471:own_goals": 1,
-      "83:95:assists": 1
+      "83:95:assists": 1,
+      "82:79:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1401,6 +1402,12 @@
         "team": "IPS",
         "assisted_by": "Ouattara",
         "score": "0-1"
+      },
+      "82:h": {
+        "player": "Evanilson",
+        "team": "BOU",
+        "assisted_by": null,
+        "score": "1-0"
       }
     },
     "posted_score": {
@@ -1609,7 +1616,7 @@
         0
       ],
       "82": [
-        0,
+        1,
         0
       ],
       "83": [
@@ -2483,11 +2490,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "82:79:goals_scored": {
-        "value": 1,
-        "since": "2026-10-31T15:33:26.267208+00:00",
-        "minute": 31
       },
       "82:70:assists": {
         "value": 1,
@@ -4565,6 +4567,13 @@
       "type": "assist",
       "posted_at": "2026-10-31T15:36:16.037277+00:00",
       "tweet_id": "2116554855015719320",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:82:79:1",
+      "type": "goal",
+      "posted_at": "2026-10-31T15:36:59.462288+00:00",
+      "tweet_id": "2116555037212074196",
       "ig": "skipped (live event)"
     }
   ],
