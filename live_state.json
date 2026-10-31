@@ -1062,7 +1062,8 @@
       "86:240:goals_scored": 1,
       "86:295:assists": 1,
       "82:338:yellow_cards": 1,
-      "83:88:yellow_cards": 1
+      "83:88:yellow_cards": 1,
+      "85:542:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1430,6 +1431,12 @@
         "team": "HUL",
         "assisted_by": "McBurnie",
         "score": "1-1"
+      },
+      "85:a": {
+        "player": "E.Le F\u00e9e",
+        "team": "SUN",
+        "assisted_by": null,
+        "score": "3-1"
       }
     },
     "posted_score": {
@@ -1647,7 +1654,7 @@
       ],
       "85": [
         3,
-        0
+        1
       ],
       "86": [
         1,
@@ -2129,7 +2136,10 @@
       "83:493": true,
       "88:130": true,
       "88:387": true,
-      "88:614": true
+      "88:614": true,
+      "82:335": true,
+      "82:339": true,
+      "82:347": true
     },
     "subs_baselined": {
       "31": true,
@@ -2580,11 +2590,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "85:542:goals_scored": {
-        "value": 1,
-        "since": "2026-10-31T16:25:25.630752+00:00",
-        "minute": 67
       },
       "85:539:assists": {
         "value": 1,
@@ -4704,6 +4709,13 @@
       "type": "goal_update",
       "posted_at": "2026-10-31T16:24:02.512392+00:00",
       "tweet_id": "2116566877770076361",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:85:542:1",
+      "type": "goal",
+      "posted_at": "2026-10-31T16:28:55.286562+00:00",
+      "tweet_id": "2116568105891627119",
       "ig": "skipped (live event)"
     }
   ],
