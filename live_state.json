@@ -1025,7 +1025,8 @@
       "84:426:defensive_contribution": 2,
       "84:427:defensive_contribution": 1,
       "84:428:defensive_contribution": 1,
-      "84:40:goals_scored": 1
+      "84:40:goals_scored": 1,
+      "84:161:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1361,7 +1362,7 @@
       "84:h": {
         "player": "Rogers",
         "team": "CHE",
-        "assisted_by": null,
+        "assisted_by": "Lavia",
         "score": "1-0"
       }
     },
@@ -2389,11 +2390,6 @@
         "value": 1,
         "since": "2026-10-31T13:06:54.205055+00:00",
         "minute": 34
-      },
-      "84:161:assists": {
-        "value": 1,
-        "since": "2026-10-31T13:41:15.700883+00:00",
-        "minute": 51
       }
     },
     "event_tracking": {
@@ -4354,6 +4350,13 @@
       "type": "goal",
       "posted_at": "2026-10-31T13:44:02.636058+00:00",
       "tweet_id": "2116526613076537724",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:84:161:1",
+      "type": "goal_update",
+      "posted_at": "2026-10-31T13:44:46.339968+00:00",
+      "tweet_id": "2116526796480913513",
       "ig": "skipped (live event)"
     }
   ],
