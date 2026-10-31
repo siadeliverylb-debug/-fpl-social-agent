@@ -227,11 +227,11 @@
       },
       "90": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       },
       "81": {
-        "started": false,
-        "finished_provisional": false
+        "started": true,
+        "finished_provisional": true
       },
       "87": {
         "started": false,
@@ -1086,7 +1086,18 @@
       "90:223:red_cards": 1,
       "90:522:yellow_cards": 1,
       "90:522:goals_scored": 1,
-      "90:512:assists": 1
+      "90:512:assists": 1,
+      "90:112:goals_scored": 1,
+      "90:207:yellow_cards": 1,
+      "81:166:goals_scored": 1,
+      "81:53:assists": 1,
+      "81:261:assists": 1,
+      "81:597:own_goals": 1,
+      "81:45:penalties_missed": 1,
+      "81:32:yellow_cards": 1,
+      "81:257:yellow_cards": 1,
+      "81:266:yellow_cards": 1,
+      "81:650:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -1468,10 +1479,16 @@
         "score": "2-0"
       },
       "90:h": {
-        "player": "Gray",
+        "player": "Van Hecke",
         "team": "TOT",
-        "assisted_by": "Kudus",
-        "score": "1-0"
+        "assisted_by": null,
+        "score": "2-0"
+      },
+      "81:h": {
+        "player": "N.Jackson",
+        "team": "AVL",
+        "assisted_by": "Manzambi",
+        "score": "1-1"
       }
     },
     "posted_score": {
@@ -1700,12 +1717,12 @@
         1
       ],
       "90": [
-        1,
+        2,
         0
       ],
       "81": [
-        0,
-        0
+        1,
+        1
       ],
       "87": [
         0,
@@ -2201,7 +2218,27 @@
       "82:62": true,
       "82:77": true,
       "86:340": true,
-      "86:320": true
+      "86:320": true,
+      "90:212": true,
+      "90:213": true,
+      "90:224": true,
+      "90:499": true,
+      "90:506": true,
+      "90:519": true,
+      "90:521": true,
+      "90:588": true,
+      "90:601": true,
+      "90:647": true,
+      "81:41": true,
+      "81:46": true,
+      "81:54": true,
+      "81:160": true,
+      "81:256": true,
+      "81:266": true,
+      "81:271": true,
+      "81:570": true,
+      "81:631": true,
+      "81:635": true
     },
     "subs_baselined": {
       "31": true,
@@ -2633,7 +2670,9 @@
       "88": true,
       "82": true,
       "86": true,
-      "85": true
+      "85": true,
+      "90": true,
+      "81": true
     },
     "goal_pending": {
       "44:204:goals_scored": {
@@ -4926,6 +4965,76 @@
       "type": "goal",
       "posted_at": "2026-10-31T18:00:42.816346+00:00",
       "tweet_id": "2116591206226350365",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:90:112:1",
+      "type": "goal",
+      "posted_at": "2026-10-31T22:31:24.745553+00:00",
+      "tweet_id": "2116659329650552870",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "fulltime:90",
+      "type": "full_time",
+      "posted_at": "2026-10-31T22:31:27.629895+00:00",
+      "tweet_id": "2116659341927329822",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "bonus:90",
+      "type": "bonus_points",
+      "posted_at": "2026-10-31T22:31:30.501055+00:00",
+      "tweet_id": "2116659353730081103",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "kickoff:81",
+      "type": "kickoff",
+      "posted_at": "2026-10-31T22:31:33.316988+00:00",
+      "tweet_id": "2116659365813870658",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "own_goal:81:597:1",
+      "type": "own_goal",
+      "posted_at": "2026-10-31T22:31:36.306720+00:00",
+      "tweet_id": "2116659377901867357",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "penalty_miss:81:45:1",
+      "type": "penalty_miss",
+      "posted_at": "2026-10-31T22:31:39.163380+00:00",
+      "tweet_id": "2116659390275076364",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:81:166:1",
+      "type": "goal",
+      "posted_at": "2026-10-31T22:31:41.995221+00:00",
+      "tweet_id": "2116659402144973225",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:81:261:1",
+      "type": "assist",
+      "posted_at": "2026-10-31T22:31:44.838229+00:00",
+      "tweet_id": "2116659414098714702",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "fulltime:81",
+      "type": "full_time",
+      "posted_at": "2026-10-31T22:31:47.943090+00:00",
+      "tweet_id": "2116659427096870923",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "bonus:81",
+      "type": "bonus_points",
+      "posted_at": "2026-10-31T22:31:50.812064+00:00",
+      "tweet_id": "2116659438907986088",
       "ig": "skipped (live event)"
     }
   ],
