@@ -1059,7 +1059,8 @@
       "85:188:assists": 1,
       "86:289:yellow_cards": 1,
       "83:201:yellow_cards": 1,
-      "86:240:goals_scored": 1
+      "86:240:goals_scored": 1,
+      "86:295:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1425,7 +1426,7 @@
       "86:h": {
         "player": "Iroegbunam",
         "team": "HUL",
-        "assisted_by": null,
+        "assisted_by": "McBurnie",
         "score": "1-1"
       }
     },
@@ -2121,7 +2122,8 @@
       "85:553": true,
       "83:96": true,
       "83:90": true,
-      "86:617": true
+      "86:617": true,
+      "83:490": true
     },
     "subs_baselined": {
       "31": true,
@@ -2440,7 +2442,29 @@
       "85:551": true,
       "88:616": true,
       "83:97": true,
-      "83:565": true
+      "83:565": true,
+      "82:57": true,
+      "82:60": true,
+      "82:61": true,
+      "82:64": true,
+      "82:67": true,
+      "82:68": true,
+      "82:70": true,
+      "82:73": true,
+      "82:75": true,
+      "82:79": true,
+      "82:566": true,
+      "82:260": true,
+      "82:330": true,
+      "82:331": true,
+      "82:332": true,
+      "82:334": true,
+      "82:338": true,
+      "82:343": true,
+      "82:345": true,
+      "82:346": true,
+      "82:385": true,
+      "82:598": true
     },
     "bonus_posted": {
       "31": true,
@@ -2525,11 +2549,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "86:295:assists": {
-        "value": 1,
-        "since": "2026-10-31T16:20:30.878227+00:00",
-        "minute": 58
       }
     },
     "event_tracking": {
@@ -4637,6 +4656,13 @@
       "type": "goal",
       "posted_at": "2026-10-31T16:23:19.335839+00:00",
       "tweet_id": "2116566696722936267",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:86:295:1",
+      "type": "goal_update",
+      "posted_at": "2026-10-31T16:24:02.512392+00:00",
+      "tweet_id": "2116566877770076361",
       "ig": "skipped (live event)"
     }
   ],
