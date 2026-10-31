@@ -211,7 +211,7 @@
       },
       "83": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       },
       "85": {
         "started": true,
@@ -1076,7 +1076,9 @@
       "88:124:yellow_cards": 1,
       "83:486:yellow_cards": 1,
       "86:591:yellow_cards": 1,
-      "86:279:yellow_cards": 1
+      "86:279:yellow_cards": 1,
+      "85:535:yellow_cards": 1,
+      "86:259:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -2610,7 +2612,8 @@
       "78": true,
       "79": true,
       "80": true,
-      "84": true
+      "84": true,
+      "83": true
     },
     "goal_pending": {
       "44:204:goals_scored": {
@@ -4798,6 +4801,20 @@
       "type": "goal",
       "posted_at": "2026-10-31T16:40:11.028708+00:00",
       "tweet_id": "2116570940137955379",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "fulltime:83",
+      "type": "full_time",
+      "posted_at": "2026-10-31T16:53:24.122469+00:00",
+      "tweet_id": "2116574266585940046",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "bonus:83",
+      "type": "bonus_points",
+      "posted_at": "2026-10-31T16:53:27.282795+00:00",
+      "tweet_id": "2116574279558996459",
       "ig": "skipped (live event)"
     }
   ],
