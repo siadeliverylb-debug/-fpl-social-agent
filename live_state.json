@@ -1064,7 +1064,8 @@
       "82:338:yellow_cards": 1,
       "83:88:yellow_cards": 1,
       "85:542:goals_scored": 1,
-      "85:539:assists": 1
+      "85:539:assists": 1,
+      "86:295:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1428,10 +1429,10 @@
         "score": "1-0"
       },
       "86:h": {
-        "player": "Iroegbunam",
+        "player": "McBurnie",
         "team": "HUL",
-        "assisted_by": "McBurnie",
-        "score": "1-1"
+        "assisted_by": null,
+        "score": "2-1"
       },
       "85:a": {
         "player": "E.Le F\u00e9e",
@@ -1658,7 +1659,7 @@
         1
       ],
       "86": [
-        1,
+        2,
         1
       ],
       "88": [
@@ -2514,7 +2515,8 @@
       "85:552": true,
       "88:114": true,
       "88:639": true,
-      "88:155": true
+      "88:155": true,
+      "83:95": true
     },
     "bonus_posted": {
       "31": true,
@@ -2599,11 +2601,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "86:295:goals_scored": {
-        "value": 1,
-        "since": "2026-10-31T16:29:37.205143+00:00",
-        "minute": 67
       },
       "86:286:assists": {
         "value": 1,
@@ -4737,6 +4734,13 @@
       "type": "goal_update",
       "posted_at": "2026-10-31T16:30:20.398527+00:00",
       "tweet_id": "2116568462893985958",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:86:295:1",
+      "type": "goal",
+      "posted_at": "2026-10-31T16:33:08.786508+00:00",
+      "tweet_id": "2116569169093161018",
       "ig": "skipped (live event)"
     }
   ],
