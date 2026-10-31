@@ -4198,8 +4198,8 @@
       "web_name": "Mainoo",
       "team": "MUN",
       "now_cost": 55,
-      "status": "d",
-      "news": "Unspecified injury - 25% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-12T21:30:09.006287Z"
     },
     "433": {
@@ -5355,7 +5355,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-31T06:00:26.714228+00:00",
+  "last_snapshot_at": "2026-10-31T12:52:06.049781+00:00",
   "recapped_events": [
     1,
     2,
@@ -5366,7 +5366,61 @@
     7,
     8
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_hot:5:4c0b98b5ce11",
+      "story": {
+        "type": "form_hot",
+        "key": "form_hot:5:4c0b98b5ce11",
+        "players": [
+          {
+            "name": "Haaland",
+            "team": "MCI",
+            "form": 6.8,
+            "total_points": 66,
+            "price_millions": 15.8,
+            "selected": 78.9
+          },
+          {
+            "name": "Gabriel",
+            "team": "ARS",
+            "form": 6.8,
+            "total_points": 52,
+            "price_millions": 8.0,
+            "selected": 23.8
+          },
+          {
+            "name": "Konsa",
+            "team": "ARS",
+            "form": 6.8,
+            "total_points": 39,
+            "price_millions": 4.7,
+            "selected": 21.7
+          },
+          {
+            "name": "Evanilson",
+            "team": "BOU",
+            "form": 6.2,
+            "total_points": 43,
+            "price_millions": 6.3,
+            "selected": 14.3
+          },
+          {
+            "name": "Neto",
+            "team": "CHE",
+            "form": 6.0,
+            "total_points": 38,
+            "price_millions": 6.6,
+            "selected": 4.7
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_5_4c0b98b5ce11.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Haaland (MCI) - 6.8 pts/game, \u00a315.8m\n2. Gabriel (ARS) - 6.8 pts/game, \u00a38.0m\n3. Konsa (ARS) - 6.8 pts/game, \u00a34.7m\n4. Evanilson (BOU) - 6.2 pts/game, \u00a36.3m\n5. Neto (CHE) - 6.0 pts/game, \u00a36.6m\n\nTime to jump on one of them, or too late? #FPL #FPLCommunity #FantasyFootball #FPLTips\n\nFollow for the next one.",
+      "created_at": "2026-10-31T12:52:06.127172+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -6631,10 +6685,10 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-10-28T15:35:38.810610+00:00",
-    "next": "hot",
-    "day": "2026-10-30",
-    "count": 0,
+    "last_at": "2026-10-31T12:52:06.048990+00:00",
+    "next": "cold",
+    "day": "2026-10-31",
+    "count": 1,
     "last_picks": {
       "cold": [
         "Szoboszlai",
@@ -6648,7 +6702,7 @@
         "Gabriel",
         "Konsa",
         "Evanilson",
-        "N.Jackson"
+        "Neto"
       ]
     }
   }
