@@ -5366,61 +5366,7 @@
     7,
     8
   ],
-  "pending": [
-    {
-      "key": "form_hot:5:4c0b98b5ce11",
-      "story": {
-        "type": "form_hot",
-        "key": "form_hot:5:4c0b98b5ce11",
-        "players": [
-          {
-            "name": "Haaland",
-            "team": "MCI",
-            "form": 6.8,
-            "total_points": 66,
-            "price_millions": 15.8,
-            "selected": 78.9
-          },
-          {
-            "name": "Gabriel",
-            "team": "ARS",
-            "form": 6.8,
-            "total_points": 52,
-            "price_millions": 8.0,
-            "selected": 23.8
-          },
-          {
-            "name": "Konsa",
-            "team": "ARS",
-            "form": 6.8,
-            "total_points": 39,
-            "price_millions": 4.7,
-            "selected": 21.7
-          },
-          {
-            "name": "Evanilson",
-            "team": "BOU",
-            "form": 6.2,
-            "total_points": 43,
-            "price_millions": 6.3,
-            "selected": 14.3
-          },
-          {
-            "name": "Neto",
-            "team": "CHE",
-            "form": 6.0,
-            "total_points": 38,
-            "price_millions": 6.6,
-            "selected": 4.7
-          }
-        ]
-      },
-      "image_path": "assets/generated/form_hot_5_4c0b98b5ce11.png",
-      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Haaland (MCI) - 6.8 pts/game, \u00a315.8m\n2. Gabriel (ARS) - 6.8 pts/game, \u00a38.0m\n3. Konsa (ARS) - 6.8 pts/game, \u00a34.7m\n4. Evanilson (BOU) - 6.2 pts/game, \u00a36.3m\n5. Neto (CHE) - 6.0 pts/game, \u00a36.6m\n\nTime to jump on one of them, or too late? #FPL #FPLCommunity #FantasyFootball #FPLTips\n\nFollow for the next one.",
-      "created_at": "2026-10-31T12:52:06.127172+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5629,7 +5575,8 @@
     "sia_captains:9",
     "sia_differentials:9",
     "injury_batch:3:26d43be46629",
-    "deadline:9:24h"
+    "deadline:9:24h",
+    "form_hot:5:4c0b98b5ce11"
   ],
   "post_log": [
     {
@@ -6681,6 +6628,13 @@
       "type": "injury_batch",
       "posted_at": "2026-10-30T20:46:47.492757+00:00",
       "tweet_id": "2116270613157360049",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "form_hot:5:4c0b98b5ce11",
+      "type": "form_hot",
+      "posted_at": "2026-10-31T13:38:14.073188+00:00",
+      "tweet_id": "2116525151177343230",
       "ig": "skipped (Instagram not configured)"
     }
   ],
