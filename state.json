@@ -254,9 +254,9 @@
       "web_name": "Cash",
       "team": "AVL",
       "now_cost": 43,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-09T14:30:08.192142Z"
+      "status": "s",
+      "news": "Suspended until 21 Nov",
+      "news_added": "2026-10-31T22:00:07.593621Z"
     },
     "33": {
       "web_name": "Mings",
@@ -1562,6 +1562,14 @@
       "news": "",
       "news_added": null
     },
+    "670": {
+      "web_name": "Subuloye",
+      "team": "CHE",
+      "now_cost": 40,
+      "status": "a",
+      "news": "",
+      "news_added": null
+    },
     "91": {
       "web_name": "Pinnock",
       "team": "COV",
@@ -2478,8 +2486,8 @@
       "web_name": "Sessegnon",
       "team": "FUL",
       "now_cost": 43,
-      "status": "s",
-      "news": "Suspended until 7 Nov",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-17T16:30:09.374216Z"
     },
     "270": {
@@ -5355,7 +5363,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-10-31T20:31:53.649525+00:00",
+  "last_snapshot_at": "2026-10-31T23:50:32.776791+00:00",
   "recapped_events": [
     1,
     2,
@@ -5445,6 +5453,23 @@
       "image_path": "assets/generated/injury_batch_2_92ef68259c85.png",
       "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Amad (MUN) - doubtful: \"Calf injury - 75% chance of playing\"\n\ud83d\udea8 Okafor (LEE) - doubtful: \"Thigh injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLCommunity #FPLFamily #FPLTwitter\n\nFollow for the next one.",
       "created_at": "2026-10-31T20:31:53.909009+00:00",
+      "auto": true
+    },
+    {
+      "key": "status:32:2026-10-31T22:00:07.593621Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:32:2026-10-31T22:00:07.593621Z",
+        "pid": "32",
+        "player": "Cash",
+        "team": "AVL",
+        "status": "suspended",
+        "news": "Suspended until 21 Nov",
+        "category": "suspension"
+      },
+      "image_path": "assets/generated/status_32_2026-10-31T22_00_07.593621Z.png",
+      "caption": "\ud83d\udfe5 SUSPENDED: Cash (AVL) is suspended.\n\"Suspended until 21 Nov\"\n\nCostly ban, or no big loss for his side? #FPL #FPLCommunity #FPLFamily #FantasyFootball\n\nAsk SIA, our free AI FPL coach, about your team: fantasycoach.org",
+      "created_at": "2026-10-31T23:50:32.820677+00:00",
       "auto": true
     }
   ],
