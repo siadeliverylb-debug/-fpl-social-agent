@@ -1054,7 +1054,9 @@
       "82:75:yellow_cards": 1,
       "88:115:yellow_cards": 1,
       "85:185:yellow_cards": 1,
-      "86:576:yellow_cards": 1
+      "86:576:yellow_cards": 1,
+      "85:183:goals_scored": 1,
+      "85:188:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1400,10 +1402,10 @@
         "score": "0-1"
       },
       "85:h": {
-        "player": "Awoniyi",
+        "player": "Rudoni",
         "team": "COV",
-        "assisted_by": null,
-        "score": "2-0"
+        "assisted_by": "Torp",
+        "score": "3-0"
       },
       "86:a": {
         "player": "Florentino",
@@ -1632,7 +1634,7 @@
         0
       ],
       "85": [
-        2,
+        3,
         0
       ],
       "86": [
@@ -2503,16 +2505,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "85:183:goals_scored": {
-        "value": 1,
-        "since": "2026-10-31T16:11:29.473062+00:00",
-        "minute": 54
-      },
-      "85:188:assists": {
-        "value": 1,
-        "since": "2026-10-31T16:11:29.473087+00:00",
-        "minute": 54
       }
     },
     "event_tracking": {
@@ -4606,6 +4598,13 @@
       "type": "goal",
       "posted_at": "2026-10-31T15:43:15.407972+00:00",
       "tweet_id": "2116556614106771669",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:85:183:1",
+      "type": "goal",
+      "posted_at": "2026-10-31T16:14:58.683397+00:00",
+      "tweet_id": "2116564596555190404",
       "ig": "skipped (live event)"
     }
   ],
