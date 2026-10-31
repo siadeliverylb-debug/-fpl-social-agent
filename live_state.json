@@ -1049,7 +1049,8 @@
       "82:79:goals_scored": 1,
       "82:70:assists": 1,
       "82:598:yellow_cards": 1,
-      "83:471:yellow_cards": 1
+      "83:471:yellow_cards": 1,
+      "85:492:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1395,10 +1396,10 @@
         "score": "0-1"
       },
       "85:h": {
-        "player": "Sakamoto",
+        "player": "Awoniyi",
         "team": "COV",
         "assisted_by": null,
-        "score": "1-0"
+        "score": "2-0"
       },
       "86:a": {
         "player": "Florentino",
@@ -1627,7 +1628,7 @@
         0
       ],
       "85": [
-        1,
+        2,
         0
       ],
       "86": [
@@ -2493,11 +2494,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "85:492:goals_scored": {
-        "value": 1,
-        "since": "2026-10-31T15:39:47.417001+00:00",
-        "minute": 37
       }
     },
     "event_tracking": {
@@ -4584,6 +4580,13 @@
       "type": "goal_update",
       "posted_at": "2026-10-31T15:37:42.477735+00:00",
       "tweet_id": "2116555217659383896",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:85:492:1",
+      "type": "goal",
+      "posted_at": "2026-10-31T15:43:15.407972+00:00",
+      "tweet_id": "2116556614106771669",
       "ig": "skipped (live event)"
     }
   ],
