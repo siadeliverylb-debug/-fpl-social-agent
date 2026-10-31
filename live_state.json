@@ -1042,7 +1042,8 @@
       "88:639:yellow_cards": 1,
       "85:185:goals_scored": 1,
       "86:571:goals_scored": 1,
-      "86:592:assists": 1
+      "86:592:assists": 1,
+      "86:619:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -2484,6 +2485,11 @@
       "83:471:own_goals": {
         "value": 1,
         "since": "2026-10-31T15:32:01.758015+00:00",
+        "minute": 30
+      },
+      "83:95:assists": {
+        "value": 1,
+        "since": "2026-10-31T15:32:43.771326+00:00",
         "minute": 30
       }
     },
