@@ -1044,7 +1044,8 @@
       "86:571:goals_scored": 1,
       "86:592:assists": 1,
       "86:619:yellow_cards": 1,
-      "83:471:own_goals": 1
+      "83:471:own_goals": 1,
+      "83:95:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -2482,11 +2483,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "83:95:assists": {
-        "value": 1,
-        "since": "2026-10-31T15:32:43.771326+00:00",
-        "minute": 30
       },
       "82:79:goals_scored": {
         "value": 1,
@@ -4562,6 +4558,13 @@
       "type": "own_goal",
       "posted_at": "2026-10-31T15:35:32.804053+00:00",
       "tweet_id": "2116554673154851233",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:83:95:1",
+      "type": "assist",
+      "posted_at": "2026-10-31T15:36:16.037277+00:00",
+      "tweet_id": "2116554855015719320",
       "ig": "skipped (live event)"
     }
   ],
