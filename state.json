@@ -5368,23 +5368,6 @@
   ],
   "pending": [
     {
-      "key": "status:419:2026-10-31T14:00:08.592593Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:419:2026-10-31T14:00:08.592593Z",
-        "pid": "419",
-        "player": "Martinez",
-        "team": "MUN",
-        "status": "suspended",
-        "news": "Suspended until 22 Nov",
-        "category": "suspension"
-      },
-      "image_path": "assets/generated/status_419_2026-10-31T14_00_08.592593Z.png",
-      "caption": "\ud83d\udfe5 SUSPENDED: Martinez (MUN) is suspended.\n\"Suspended until 22 Nov\"\n\nDoes this change your captaincy plans? #FPL #FPLTips #FPLCommunity #FantasyPremierLeague\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-10-31T17:25:25.043491+00:00",
-      "auto": true
-    },
-    {
       "key": "injury_batch:1:dbc0f0048544",
       "story": {
         "type": "injury_batch",
@@ -5615,7 +5598,8 @@
     "sia_differentials:9",
     "injury_batch:3:26d43be46629",
     "deadline:9:24h",
-    "form_hot:5:4c0b98b5ce11"
+    "form_hot:5:4c0b98b5ce11",
+    "status:419:2026-10-31T14:00:08.592593Z"
   ],
   "post_log": [
     {
@@ -6674,6 +6658,13 @@
       "type": "form_hot",
       "posted_at": "2026-10-31T13:38:14.073188+00:00",
       "tweet_id": "2116525151177343230",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "status:419:2026-10-31T14:00:08.592593Z",
+      "type": "status_change",
+      "posted_at": "2026-10-31T17:55:41.510773+00:00",
+      "tweet_id": "2116589942461620586",
       "ig": "skipped (Instagram not configured)"
     }
   ],
