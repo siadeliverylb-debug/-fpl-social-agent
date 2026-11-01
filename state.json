@@ -5374,61 +5374,7 @@
     7,
     8
   ],
-  "pending": [
-    {
-      "key": "form_cold:5:e67916271587",
-      "story": {
-        "type": "form_cold",
-        "key": "form_cold:5:e67916271587",
-        "players": [
-          {
-            "name": "Szoboszlai",
-            "team": "LIV",
-            "form": 0.5,
-            "total_points": 22,
-            "price_millions": 6.7,
-            "selected": 13.5
-          },
-          {
-            "name": "B.Fernandes",
-            "team": "MUN",
-            "form": 1.0,
-            "total_points": 35,
-            "price_millions": 11.7,
-            "selected": 22.0
-          },
-          {
-            "name": "Wissa",
-            "team": "NEW",
-            "form": 1.0,
-            "total_points": 19,
-            "price_millions": 6.0,
-            "selected": 10.2
-          },
-          {
-            "name": "Tarkowski",
-            "team": "EVE",
-            "form": 1.2,
-            "total_points": 48,
-            "price_millions": 6.2,
-            "selected": 18.9
-          },
-          {
-            "name": "Schade",
-            "team": "BRE",
-            "form": 1.5,
-            "total_points": 45,
-            "price_millions": 6.2,
-            "selected": 14.5
-          }
-        ]
-      },
-      "image_path": "assets/generated/form_cold_5_e67916271587.png",
-      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Szoboszlai (LIV) - 0.5 pts/game, \u00a36.7m, owned by 14%\n2. B.Fernandes (MUN) - 1.0 pts/game, \u00a311.7m, owned by 22%\n3. Wissa (NEW) - 1.0 pts/game, \u00a36.0m, owned by 10%\n4. Tarkowski (EVE) - 1.2 pts/game, \u00a36.2m, owned by 19%\n5. Schade (BRE) - 1.5 pts/game, \u00a36.2m, owned by 14%\n\nDo you trust any of them to bounce back? #FPL #FPLTips #FantasyFootball #FPLCommunity\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-11-01T20:55:00.950278+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5646,7 +5592,8 @@
     "status:535:2026-10-31T17:30:08.393957Z",
     "injury_batch:2:92ef68259c85",
     "status:32:2026-10-31T22:00:07.593621Z",
-    "injury_batch:1:f0483f255e0c"
+    "injury_batch:1:f0483f255e0c",
+    "form_cold:5:e67916271587"
   ],
   "post_log": [
     {
@@ -6733,6 +6680,13 @@
       "type": "injury_batch",
       "posted_at": "2026-11-01T14:15:30.936961+00:00",
       "tweet_id": "2116896921126072629",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "form_cold:5:e67916271587",
+      "type": "form_cold",
+      "posted_at": "2026-11-01T22:49:51.918667+00:00",
+      "tweet_id": "2117026361411780807",
       "ig": "skipped (Instagram not configured)"
     }
   ],
