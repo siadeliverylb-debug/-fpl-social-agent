@@ -5159,7 +5159,7 @@
       "team": "SUN",
       "now_cost": 54,
       "status": "d",
-      "news": "Knock - 75% chance of playing",
+      "news": "Concussion - 75% chance of playing",
       "news_added": "2026-10-29T18:30:09.458031Z"
     },
     "534": {
@@ -5238,9 +5238,9 @@
       "web_name": "Diarra",
       "team": "SUN",
       "now_cost": 53,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-30T16:30:08.428960Z"
+      "status": "d",
+      "news": "Muscular injury - 75% chance of playing",
+      "news_added": "2026-11-01T08:30:09.264068Z"
     },
     "544": {
       "web_name": "Xhaka",
@@ -5363,7 +5363,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-01T03:00:35.045696+00:00",
+  "last_snapshot_at": "2026-11-01T10:40:21.480100+00:00",
   "recapped_events": [
     1,
     2,
@@ -5374,7 +5374,29 @@
     7,
     8
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:f0483f255e0c",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:f0483f255e0c",
+        "injuries": [
+          {
+            "pid": "543",
+            "player": "Diarra",
+            "team": "SUN",
+            "status": "doubtful",
+            "news": "Muscular injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_f0483f255e0c.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Diarra (SUN) - doubtful: \"Muscular injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLCommunity #PremierLeague #FantasyFootball\n\nFree AI advice for your own squad: fantasycoach.org",
+      "created_at": "2026-11-01T10:40:21.556827+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
