@@ -62,8 +62,8 @@
       "web_name": "Calafiori",
       "team": "ARS",
       "now_cost": 59,
-      "status": "d",
-      "news": "Hip injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-24T18:30:08.735545Z"
     },
     "9": {
@@ -102,8 +102,8 @@
       "web_name": "Rice",
       "team": "ARS",
       "now_cost": 74,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-28T00:00:08.477333Z"
     },
     "14": {
@@ -126,8 +126,8 @@
       "web_name": "Madueke",
       "team": "ARS",
       "now_cost": 62,
-      "status": "d",
-      "news": "Ankle injury - 50% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-28T00:00:08.492716Z"
     },
     "17": {
@@ -230,8 +230,8 @@
       "web_name": "Tzolis",
       "team": "ARS",
       "now_cost": 61,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-02T15:00:11.091226Z"
     },
     "29": {
@@ -3606,8 +3606,8 @@
       "web_name": "Szoboszlai",
       "team": "LIV",
       "now_cost": 67,
-      "status": "d",
-      "news": "Hamstring injury - 50% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-17T15:00:08.293301Z"
     },
     "369": {
@@ -3678,8 +3678,8 @@
       "web_name": "Munoz",
       "team": "LIV",
       "now_cost": 65,
-      "status": "d",
-      "news": "Knee injury - 50% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-20T18:30:09.999223Z"
     },
     "378": {
@@ -5363,7 +5363,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-01T10:40:21.480100+00:00",
+  "last_snapshot_at": "2026-11-01T16:56:36.205520+00:00",
   "recapped_events": [
     1,
     2,
