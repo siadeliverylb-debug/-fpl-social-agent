@@ -1097,7 +1097,9 @@
       "81:32:yellow_cards": 1,
       "81:257:yellow_cards": 1,
       "81:266:yellow_cards": 1,
-      "81:650:yellow_cards": 1
+      "81:650:yellow_cards": 1,
+      "87:26:goals_scored": 1,
+      "87:13:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1489,6 +1491,12 @@
         "team": "AVL",
         "assisted_by": "Manzambi",
         "score": "1-1"
+      },
+      "87:a": {
+        "player": "Havertz",
+        "team": "ARS",
+        "assisted_by": "Rice",
+        "score": "0-1"
       }
     },
     "posted_score": {
@@ -1726,7 +1734,7 @@
       ],
       "87": [
         0,
-        0
+        1
       ],
       "89": [
         0,
@@ -2704,16 +2712,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "87:26:goals_scored": {
-        "value": 1,
-        "since": "2026-11-01T16:48:34.548747+00:00",
-        "minute": 15
-      },
-      "87:13:assists": {
-        "value": 1,
-        "since": "2026-11-01T16:48:34.548769+00:00",
-        "minute": 15
       }
     },
     "event_tracking": {
@@ -5052,6 +5050,13 @@
       "type": "kickoff",
       "posted_at": "2026-11-01T16:31:24.503137+00:00",
       "tweet_id": "2116931119706939775",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:87:26:1",
+      "type": "goal",
+      "posted_at": "2026-11-01T16:52:02.325606+00:00",
+      "tweet_id": "2116936311475241062",
       "ig": "skipped (live event)"
     }
   ],
