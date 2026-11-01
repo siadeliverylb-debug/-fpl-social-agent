@@ -5374,88 +5374,7 @@
     7,
     8
   ],
-  "pending": [
-    {
-      "key": "status:289:2026-10-31T18:00:09.584315Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:289:2026-10-31T18:00:09.584315Z",
-        "pid": "289",
-        "player": "Crooks",
-        "team": "HUL",
-        "status": "suspended",
-        "news": "Suspended until 22 Nov",
-        "category": "suspension"
-      },
-      "image_path": "assets/generated/status_289_2026-10-31T18_00_09.584315Z.png",
-      "caption": "\ud83d\udfe5 SUSPENDED: Crooks (HUL) is suspended.\n\"Suspended until 22 Nov\"\n\nCostly ban, or no big loss for his side? #FPL #FPLTwitter #FPLCommunity #FPLFamily\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-10-31T20:31:53.785383+00:00",
-      "auto": true
-    },
-    {
-      "key": "status:535:2026-10-31T17:30:08.393957Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:535:2026-10-31T17:30:08.393957Z",
-        "pid": "535",
-        "player": "Alderete",
-        "team": "SUN",
-        "status": "suspended",
-        "news": "Suspended until 21 Nov",
-        "category": "suspension"
-      },
-      "image_path": "assets/generated/status_535_2026-10-31T17_30_08.393957Z.png",
-      "caption": "\ud83d\udfe5 SUSPENDED: Alderete (SUN) is suspended.\n\"Suspended until 21 Nov\"\n\nWho's covering for him while he's out? #FPL #FantasyPremierLeague #FPLTwitter #FantasyFootball\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-10-31T20:31:53.847582+00:00",
-      "auto": true
-    },
-    {
-      "key": "injury_batch:2:92ef68259c85",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:2:92ef68259c85",
-        "injuries": [
-          {
-            "pid": "431",
-            "player": "Amad",
-            "team": "MUN",
-            "status": "doubtful",
-            "news": "Calf injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "336",
-            "player": "Okafor",
-            "team": "LEE",
-            "status": "doubtful",
-            "news": "Thigh injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_2_92ef68259c85.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Amad (MUN) - doubtful: \"Calf injury - 75% chance of playing\"\n\ud83d\udea8 Okafor (LEE) - doubtful: \"Thigh injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLCommunity #FPLFamily #FPLTwitter\n\nFollow for the next one.",
-      "created_at": "2026-10-31T20:31:53.909009+00:00",
-      "auto": true
-    },
-    {
-      "key": "status:32:2026-10-31T22:00:07.593621Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:32:2026-10-31T22:00:07.593621Z",
-        "pid": "32",
-        "player": "Cash",
-        "team": "AVL",
-        "status": "suspended",
-        "news": "Suspended until 21 Nov",
-        "category": "suspension"
-      },
-      "image_path": "assets/generated/status_32_2026-10-31T22_00_07.593621Z.png",
-      "caption": "\ud83d\udfe5 SUSPENDED: Cash (AVL) is suspended.\n\"Suspended until 21 Nov\"\n\nCostly ban, or no big loss for his side? #FPL #FPLCommunity #FPLFamily #FantasyFootball\n\nAsk SIA, our free AI FPL coach, about your team: fantasycoach.org",
-      "created_at": "2026-10-31T23:50:32.820677+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5668,7 +5587,11 @@
     "form_hot:5:4c0b98b5ce11",
     "status:419:2026-10-31T14:00:08.592593Z",
     "injury_batch:1:dbc0f0048544",
-    "status:223:2026-10-31T18:00:09.547671Z"
+    "status:223:2026-10-31T18:00:09.547671Z",
+    "status:289:2026-10-31T18:00:09.584315Z",
+    "status:535:2026-10-31T17:30:08.393957Z",
+    "injury_batch:2:92ef68259c85",
+    "status:32:2026-10-31T22:00:07.593621Z"
   ],
   "post_log": [
     {
