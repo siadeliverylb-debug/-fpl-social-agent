@@ -234,7 +234,7 @@
         "finished_provisional": true
       },
       "87": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "89": {
@@ -5035,6 +5035,13 @@
       "type": "bonus_points",
       "posted_at": "2026-10-31T22:31:50.812064+00:00",
       "tweet_id": "2116659438907986088",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "kickoff:87",
+      "type": "kickoff",
+      "posted_at": "2026-11-01T16:31:24.503137+00:00",
+      "tweet_id": "2116931119706939775",
       "ig": "skipped (live event)"
     }
   ],
