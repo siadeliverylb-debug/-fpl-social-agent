@@ -2249,7 +2249,8 @@
       "81:570": true,
       "81:631": true,
       "81:635": true,
-      "87:368": true
+      "87:368": true,
+      "87:7": true
     },
     "subs_baselined": {
       "31": true,
@@ -2623,7 +2624,8 @@
       "88:391": true,
       "83:94": true,
       "88:127": true,
-      "90:223": true
+      "90:223": true,
+      "87:375": true
     },
     "bonus_posted": {
       "31": true,
