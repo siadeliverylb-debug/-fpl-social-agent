@@ -5376,23 +5376,6 @@
   ],
   "pending": [
     {
-      "key": "status:223:2026-10-31T18:00:09.547671Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:223:2026-10-31T18:00:09.547671Z",
-        "pid": "223",
-        "player": "Mateta",
-        "team": "CRY",
-        "status": "suspended",
-        "news": "Suspended until 2 Dec",
-        "category": "suspension"
-      },
-      "image_path": "assets/generated/status_223_2026-10-31T18_00_09.547671Z.png",
-      "caption": "\ud83d\udfe5 SUSPENDED: Mateta (CRY) is suspended.\n\"Suspended until 2 Dec\"\n\nDoes this change your captaincy plans? #FPL #FPLTwitter #PremierLeague #FPLFamily\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-10-31T20:31:53.725007+00:00",
-      "auto": true
-    },
-    {
       "key": "status:289:2026-10-31T18:00:09.584315Z",
       "story": {
         "type": "status_change",
@@ -5684,7 +5667,8 @@
     "deadline:9:24h",
     "form_hot:5:4c0b98b5ce11",
     "status:419:2026-10-31T14:00:08.592593Z",
-    "injury_batch:1:dbc0f0048544"
+    "injury_batch:1:dbc0f0048544",
+    "status:223:2026-10-31T18:00:09.547671Z"
   ],
   "post_log": [
     {
@@ -6757,6 +6741,13 @@
       "type": "injury_batch",
       "posted_at": "2026-10-31T21:31:22.867281+00:00",
       "tweet_id": "2116644222464057415",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "status:223:2026-10-31T18:00:09.547671Z",
+      "type": "status_change",
+      "posted_at": "2026-11-01T00:26:10.085783+00:00",
+      "tweet_id": "2116688208872235108",
       "ig": "skipped (Instagram not configured)"
     }
   ],
