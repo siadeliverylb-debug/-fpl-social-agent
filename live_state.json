@@ -1112,7 +1112,8 @@
       "89:249:goals_scored": 1,
       "89:242:yellow_cards": 1,
       "89:242:assists": 1,
-      "89:456:yellow_cards": 1
+      "89:456:yellow_cards": 1,
+      "89:456:red_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -5144,6 +5145,13 @@
       "type": "goal_update",
       "posted_at": "2026-11-02T21:13:43.158997+00:00",
       "tweet_id": "2117364553516454327",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "red_card:89:456:1",
+      "type": "red_card",
+      "posted_at": "2026-11-02T21:57:59.333627+00:00",
+      "tweet_id": "2117375694334529885",
       "ig": "skipped (live event)"
     }
   ],
