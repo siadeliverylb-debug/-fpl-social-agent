@@ -1110,7 +1110,8 @@
       "87:356:yellow_cards": 1,
       "89:448:yellow_cards": 1,
       "89:249:goals_scored": 1,
-      "89:242:yellow_cards": 1
+      "89:242:yellow_cards": 1,
+      "89:242:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1512,7 +1513,7 @@
       "89:a": {
         "player": "Barry",
         "team": "EVE",
-        "assisted_by": null,
+        "assisted_by": "George",
         "score": "0-1"
       }
     },
@@ -2747,11 +2748,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "89:242:assists": {
-        "value": 1,
-        "since": "2026-11-02T21:10:10.256106+00:00",
-        "minute": 49
       }
     },
     "event_tracking": {
@@ -5125,6 +5121,13 @@
       "type": "goal",
       "posted_at": "2026-11-02T21:12:16.876929+00:00",
       "tweet_id": "2117364191636193425",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:89:242:1",
+      "type": "goal_update",
+      "posted_at": "2026-11-02T21:13:43.158997+00:00",
+      "tweet_id": "2117364553516454327",
       "ig": "skipped (live event)"
     }
   ],
