@@ -1108,7 +1108,8 @@
       "87:5:yellow_cards": 1,
       "87:1:yellow_cards": 1,
       "87:356:yellow_cards": 1,
-      "89:448:yellow_cards": 1
+      "89:448:yellow_cards": 1,
+      "89:249:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1506,6 +1507,12 @@
         "team": "ARS",
         "assisted_by": "Rice",
         "score": "0-1"
+      },
+      "89:a": {
+        "player": "Barry",
+        "team": "EVE",
+        "assisted_by": null,
+        "score": "0-1"
       }
     },
     "posted_score": {
@@ -1747,7 +1754,7 @@
       ],
       "89": [
         0,
-        0
+        1
       ]
     },
     "subs_seen": {
@@ -2739,11 +2746,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "89:249:goals_scored": {
-        "value": 1,
-        "since": "2026-11-02T21:08:46.687868+00:00",
-        "minute": 48
       },
       "89:242:assists": {
         "value": 1,
@@ -5115,6 +5117,13 @@
       "type": "kickoff",
       "posted_at": "2026-11-02T20:01:14.155883+00:00",
       "tweet_id": "2117346312333217805",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:89:249:1",
+      "type": "goal",
+      "posted_at": "2026-11-02T21:12:16.876929+00:00",
+      "tweet_id": "2117364191636193425",
       "ig": "skipped (live event)"
     }
   ],
