@@ -5363,7 +5363,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-02T06:30:44.691590+00:00",
+  "last_snapshot_at": "2026-11-02T16:39:45.000546+00:00",
   "recapped_events": [
     1,
     2,
@@ -5374,7 +5374,61 @@
     7,
     8
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_hot:5:da6825b8e8fb",
+      "story": {
+        "type": "form_hot",
+        "key": "form_hot:5:da6825b8e8fb",
+        "players": [
+          {
+            "name": "Konsa",
+            "team": "ARS",
+            "form": 9.2,
+            "total_points": 49,
+            "price_millions": 4.7,
+            "selected": 22.5
+          },
+          {
+            "name": "Evanilson",
+            "team": "BOU",
+            "form": 8.5,
+            "total_points": 52,
+            "price_millions": 6.4,
+            "selected": 17.1
+          },
+          {
+            "name": "Gabriel",
+            "team": "ARS",
+            "form": 8.2,
+            "total_points": 58,
+            "price_millions": 8.0,
+            "selected": 24.3
+          },
+          {
+            "name": "N.Jackson",
+            "team": "AVL",
+            "form": 8.2,
+            "total_points": 43,
+            "price_millions": 7.0,
+            "selected": 25.3
+          },
+          {
+            "name": "De Cuyper",
+            "team": "BHA",
+            "form": 7.8,
+            "total_points": 69,
+            "price_millions": 5.4,
+            "selected": 44.6
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_5_da6825b8e8fb.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Konsa (ARS) - 9.2 pts/game, \u00a34.7m\n2. Evanilson (BOU) - 8.5 pts/game, \u00a36.4m\n3. Gabriel (ARS) - 8.2 pts/game, \u00a38.0m\n4. N.Jackson (AVL) - 8.2 pts/game, \u00a37.0m\n5. De Cuyper (BHA) - 7.8 pts/game, \u00a35.4m\n\nTime to jump on one of them, or too late? #FPL #FPLCommunity #FantasyFootball #FPLTips\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-11-02T16:39:45.075686+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -6691,9 +6745,9 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-11-01T20:55:00.870887+00:00",
-    "next": "hot",
-    "day": "2026-11-01",
+    "last_at": "2026-11-02T16:39:44.999766+00:00",
+    "next": "cold",
+    "day": "2026-11-02",
     "count": 1,
     "last_picks": {
       "cold": [
@@ -6704,11 +6758,11 @@
         "Schade"
       ],
       "hot": [
-        "Haaland",
-        "Gabriel",
         "Konsa",
         "Evanilson",
-        "Neto"
+        "Gabriel",
+        "N.Jackson",
+        "De Cuyper"
       ]
     }
   }
