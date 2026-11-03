@@ -5363,7 +5363,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-03T04:27:42.363896+00:00",
+  "last_snapshot_at": "2026-11-03T12:10:31.612769+00:00",
   "recapped_events": [
     1,
     2,
@@ -5374,7 +5374,61 @@
     7,
     8
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_cold:5:00a7205b71d7",
+      "story": {
+        "type": "form_cold",
+        "key": "form_cold:5:00a7205b71d7",
+        "players": [
+          {
+            "name": "Szoboszlai",
+            "team": "LIV",
+            "form": 0.5,
+            "total_points": 22,
+            "price_millions": 6.7,
+            "selected": 13.5
+          },
+          {
+            "name": "B.Fernandes",
+            "team": "MUN",
+            "form": 1.0,
+            "total_points": 35,
+            "price_millions": 11.7,
+            "selected": 21.6
+          },
+          {
+            "name": "Schade",
+            "team": "BRE",
+            "form": 1.5,
+            "total_points": 45,
+            "price_millions": 6.2,
+            "selected": 14.3
+          },
+          {
+            "name": "Gibbs-White",
+            "team": "NFO",
+            "form": 1.5,
+            "total_points": 34,
+            "price_millions": 7.9,
+            "selected": 10.8
+          },
+          {
+            "name": "Gvardiol",
+            "team": "MCI",
+            "form": 1.8,
+            "total_points": 44,
+            "price_millions": 5.7,
+            "selected": 26.0
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_cold_5_00a7205b71d7.png",
+      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Szoboszlai (LIV) - 0.5 pts/game, \u00a36.7m, owned by 14%\n2. B.Fernandes (MUN) - 1.0 pts/game, \u00a311.7m, owned by 22%\n3. Schade (BRE) - 1.5 pts/game, \u00a36.2m, owned by 14%\n4. Gibbs-White (NFO) - 1.5 pts/game, \u00a37.9m, owned by 11%\n5. Gvardiol (MCI) - 1.8 pts/game, \u00a35.7m, owned by 26%\n\nHold, or sell before the next deadline? #FPL #FPLFamily #FPLTwitter #FantasyFootball\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-11-03T12:10:31.661496+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -6700,17 +6754,17 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-11-02T16:39:44.999766+00:00",
-    "next": "cold",
-    "day": "2026-11-02",
+    "last_at": "2026-11-03T12:10:31.612373+00:00",
+    "next": "hot",
+    "day": "2026-11-03",
     "count": 1,
     "last_picks": {
       "cold": [
         "Szoboszlai",
         "B.Fernandes",
-        "Wissa",
-        "Tarkowski",
-        "Schade"
+        "Schade",
+        "Gibbs-White",
+        "Gvardiol"
       ],
       "hot": [
         "Konsa",
