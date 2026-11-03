@@ -3630,9 +3630,9 @@
       "web_name": "Gravenberch",
       "team": "LIV",
       "now_cost": 58,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-11T17:00:08.994657Z"
+      "status": "d",
+      "news": "Foot injury - 75% chance of playing",
+      "news_added": "2026-11-03T17:00:09.626695Z"
     },
     "372": {
       "web_name": "Mac Allister",
@@ -4198,8 +4198,8 @@
       "web_name": "Amad",
       "team": "MUN",
       "now_cost": 57,
-      "status": "d",
-      "news": "Calf injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-31T17:30:08.280248Z"
     },
     "432": {
@@ -5363,7 +5363,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-03T12:10:31.612769+00:00",
+  "last_snapshot_at": "2026-11-03T19:39:59.099707+00:00",
   "recapped_events": [
     1,
     2,
@@ -5374,7 +5374,44 @@
     7,
     8
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:3554dce55f34",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:3554dce55f34",
+        "injuries": [
+          {
+            "pid": "371",
+            "player": "Gravenberch",
+            "team": "LIV",
+            "status": "doubtful",
+            "news": "Foot injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_3554dce55f34.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Gravenberch (LIV) - doubtful: \"Foot injury - 75% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #FantasyFootball #PremierLeague #FantasyPremierLeague\n\nFollow for the next one.",
+      "created_at": "2026-11-03T19:39:59.173732+00:00",
+      "auto": true
+    },
+    {
+      "key": "recap:9",
+      "story": {
+        "type": "gw_recap",
+        "key": "recap:9",
+        "gw": 9,
+        "most_captained": "Haaland",
+        "highest_score": 122,
+        "most_selected": "Haaland"
+      },
+      "image_path": "assets/generated/recap_9.png",
+      "caption": "\ud83d\udd25 GW9 is in the books. Top score: 122 pts. Most captained: Haaland.\n\nHow does your squad compare? #FPL #FPLCommunity #FantasyFootball #PremierLeague\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-11-03T19:39:59.235211+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
