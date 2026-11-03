@@ -85,7 +85,7 @@
     "11": {
       "web_name": "Mosquera",
       "team": "ARS",
-      "now_cost": 52,
+      "now_cost": 51,
       "status": "a",
       "news": "",
       "news_added": "2026-09-04T14:00:08.080310Z"
@@ -1533,7 +1533,7 @@
     "568": {
       "web_name": "Barco",
       "team": "CHE",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2517,7 +2517,7 @@
     "569": {
       "web_name": "Gonzalo",
       "team": "FUL",
-      "now_cost": 60,
+      "now_cost": 59,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5363,7 +5363,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-02T23:43:45.633025+00:00",
+  "last_snapshot_at": "2026-11-03T04:27:42.363896+00:00",
   "recapped_events": [
     1,
     2,
