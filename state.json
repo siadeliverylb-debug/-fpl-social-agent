@@ -5376,27 +5376,6 @@
   ],
   "pending": [
     {
-      "key": "injury_batch:1:3554dce55f34",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:3554dce55f34",
-        "injuries": [
-          {
-            "pid": "371",
-            "player": "Gravenberch",
-            "team": "LIV",
-            "status": "doubtful",
-            "news": "Foot injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_3554dce55f34.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Gravenberch (LIV) - doubtful: \"Foot injury - 75% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #FantasyFootball #PremierLeague #FantasyPremierLeague\n\nFollow for the next one.",
-      "created_at": "2026-11-03T19:39:59.173732+00:00",
-      "auto": true
-    },
-    {
       "key": "recap:9",
       "story": {
         "type": "gw_recap",
@@ -5633,7 +5612,8 @@
     "form_cold:5:e67916271587",
     "form_hot:5:da6825b8e8fb",
     "status:456:2026-11-02T22:00:09.813234Z",
-    "form_cold:5:00a7205b71d7"
+    "form_cold:5:00a7205b71d7",
+    "injury_batch:1:3554dce55f34"
   ],
   "post_log": [
     {
@@ -6734,6 +6714,13 @@
       "type": "status_change",
       "posted_at": "2026-11-03T02:38:48.237073+00:00",
       "tweet_id": "2117446363612885383",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "injury_batch:1:3554dce55f34",
+      "type": "injury_batch",
+      "posted_at": "2026-11-03T23:20:32.270638+00:00",
+      "tweet_id": "2117758855958450482",
       "ig": "skipped (Instagram not configured)"
     }
   ],
