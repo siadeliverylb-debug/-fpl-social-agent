@@ -46,8 +46,8 @@
       "web_name": "Saliba",
       "team": "ARS",
       "now_cost": 59,
-      "status": "d",
-      "news": "Back injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-07-23T12:01:23.289376Z"
     },
     "7": {
@@ -5363,7 +5363,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-04T14:56:17.732027+00:00",
+  "last_snapshot_at": "2026-11-04T20:59:46.211619+00:00",
   "recapped_events": [
     1,
     2,
