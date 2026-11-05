@@ -1582,9 +1582,9 @@
       "web_name": "Onyeka",
       "team": "COV",
       "now_cost": 48,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-15T09:00:07.851220Z"
+      "status": "d",
+      "news": "Groin injury - 50% chance of playing",
+      "news_added": "2026-11-05T09:00:09.236330Z"
     },
     "110": {
       "web_name": "Rushworth",
@@ -3238,8 +3238,8 @@
       "web_name": "Rodon",
       "team": "LEE",
       "now_cost": 42,
-      "status": "i",
-      "news": "Hamstring injury - Expected back 21 Nov",
+      "status": "a",
+      "news": "",
       "news_added": "2026-08-30T16:00:08.564382Z"
     },
     "330": {
@@ -4726,8 +4726,8 @@
       "web_name": "Dominguez",
       "team": "NFO",
       "now_cost": 48,
-      "status": "d",
-      "news": "Muscular injury - 75% chance of playing",
+      "status": "i",
+      "news": "Muscular injury - Expected back 30 Dec",
       "news_added": "2026-10-24T13:00:08.751863Z"
     },
     "488": {
@@ -4758,8 +4758,8 @@
       "web_name": "Igor Jesus",
       "team": "NFO",
       "now_cost": 56,
-      "status": "i",
-      "news": "Calf injury - Unknown return date",
+      "status": "d",
+      "news": "Calf injury - 75% chance of playing",
       "news_added": "2026-10-09T14:30:11.491800Z"
     },
     "493": {
@@ -5363,7 +5363,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-05T08:00:28.459422+00:00",
+  "last_snapshot_at": "2026-11-05T16:35:59.660910+00:00",
   "recapped_events": [
     1,
     2,
@@ -6723,7 +6723,7 @@
   "form_spotlight": {
     "last_at": "2026-11-03T12:10:31.612373+00:00",
     "next": "hot",
-    "day": "2026-11-04",
+    "day": "2026-11-05",
     "count": 0,
     "last_picks": {
       "cold": [
