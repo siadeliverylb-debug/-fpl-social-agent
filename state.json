@@ -214,9 +214,9 @@
       "web_name": "Konsa",
       "team": "ARS",
       "now_cost": 48,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-05T09:30:09.853316Z"
+      "status": "d",
+      "news": "Knee injury - 75% chance of playing",
+      "news_added": "2026-11-05T20:30:09.025008Z"
     },
     "452": {
       "web_name": "Bruno G.",
@@ -734,9 +734,9 @@
       "web_name": "Sanchez",
       "team": "BOU",
       "now_cost": 44,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "i",
+      "news": "Ankle injury - Unknown return date",
+      "news_added": "2026-11-05T21:30:08.441541Z"
     },
     "608": {
       "web_name": "Jebbison",
@@ -910,8 +910,8 @@
       "web_name": "Dasilva",
       "team": "BRE",
       "now_cost": 48,
-      "status": "i",
-      "news": "Hamstring injury - Unknown return date",
+      "status": "d",
+      "news": "Hamstring injury - 25% chance of playing",
       "news_added": "2026-09-04T13:30:08.371955Z"
     },
     "105": {
@@ -2054,8 +2054,8 @@
       "web_name": "Strand Larsen",
       "team": "CRY",
       "now_cost": 60,
-      "status": "d",
-      "news": "Ankle injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-23T17:00:09.672494Z"
     },
     "223": {
@@ -2142,8 +2142,8 @@
       "web_name": "Timber",
       "team": "CRY",
       "now_cost": 50,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-21T22:00:10.028638Z"
     },
     "647": {
@@ -2206,9 +2206,9 @@
       "web_name": "Branthwaite",
       "team": "EVE",
       "now_cost": 55,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-30T15:30:09.601963Z"
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-11-05T16:57:40.272082Z"
     },
     "231": {
       "web_name": "Keane",
@@ -2598,8 +2598,8 @@
       "web_name": "Butland",
       "team": "HUL",
       "now_cost": 44,
-      "status": "d",
-      "news": "Arm injury - 50% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-08-08T19:00:05.601633Z"
     },
     "275": {
@@ -2782,8 +2782,8 @@
       "web_name": "Gyabi",
       "team": "HUL",
       "now_cost": 44,
-      "status": "i",
-      "news": "Thigh injury - Unknown return date",
+      "status": "d",
+      "news": "Thigh injury - 75% chance of playing",
       "news_added": "2026-08-04T18:30:11.027155Z"
     },
     "298": {
@@ -2822,9 +2822,9 @@
       "web_name": "Morita",
       "team": "HUL",
       "now_cost": 49,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-09T14:00:08.474217Z"
+      "status": "i",
+      "news": "Groin injury - Unknown return date",
+      "news_added": "2026-11-05T18:30:08.257672Z"
     },
     "572": {
       "web_name": "Tzolakis",
@@ -3286,16 +3286,16 @@
       "web_name": "Stach",
       "team": "LEE",
       "now_cost": 60,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-29T14:30:08.129193Z"
+      "status": "d",
+      "news": "Foot injury - 50% chance of playing",
+      "news_added": "2026-11-05T18:30:07.925529Z"
     },
     "336": {
       "web_name": "Okafor",
       "team": "LEE",
       "now_cost": 58,
       "status": "d",
-      "news": "Thigh injury - 75% chance of playing",
+      "news": "Thigh injury - 50% chance of playing",
       "news_added": "2026-10-31T20:00:10.014132Z"
     },
     "337": {
@@ -3366,9 +3366,9 @@
       "web_name": "Calvert-Lewin",
       "team": "LEE",
       "now_cost": 61,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-23T13:00:09.444671Z"
+      "status": "d",
+      "news": "Foot injury - 75% chance of playing",
+      "news_added": "2026-11-05T18:30:07.960444Z"
     },
     "347": {
       "web_name": "Nmecha",
@@ -4406,16 +4406,16 @@
       "web_name": "Joelinton",
       "team": "NEW",
       "now_cost": 54,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-16T08:00:08.074045Z"
+      "status": "i",
+      "news": "Unspecified injury - Unknown return date",
+      "news_added": "2026-11-05T16:57:40.468946Z"
     },
     "459": {
       "web_name": "L.Miley",
       "team": "NEW",
       "now_cost": 55,
       "status": "d",
-      "news": "Muscular injury - 75% chance of playing",
+      "news": "Muscular injury - 50% chance of playing",
       "news_added": "2026-10-27T16:00:07.981816Z"
     },
     "460": {
@@ -5238,8 +5238,8 @@
       "web_name": "Diarra",
       "team": "SUN",
       "now_cost": 53,
-      "status": "d",
-      "news": "Muscular injury - 75% chance of playing",
+      "status": "i",
+      "news": "Muscular injury - Unknown return date",
       "news_added": "2026-11-01T08:30:09.264068Z"
     },
     "544": {
@@ -5363,7 +5363,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-05T16:35:59.660910+00:00",
+  "last_snapshot_at": "2026-11-05T22:26:17.094037+00:00",
   "recapped_events": [
     1,
     2,
@@ -5375,7 +5375,91 @@
     8,
     9
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:7:11c03dd9df3b",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:7:11c03dd9df3b",
+        "injuries": [
+          {
+            "pid": "230",
+            "player": "Branthwaite",
+            "team": "EVE",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "346",
+            "player": "Calvert-Lewin",
+            "team": "LEE",
+            "status": "doubtful",
+            "news": "Foot injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "458",
+            "player": "Joelinton",
+            "team": "NEW",
+            "status": "injured",
+            "news": "Unspecified injury - Unknown return date",
+            "category": "injury"
+          },
+          {
+            "pid": "31",
+            "player": "Konsa",
+            "team": "ARS",
+            "status": "doubtful",
+            "news": "Knee injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "563",
+            "player": "Morita",
+            "team": "HUL",
+            "status": "injured",
+            "news": "Groin injury - Unknown return date",
+            "category": "injury"
+          },
+          {
+            "pid": "573",
+            "player": "Sanchez",
+            "team": "BOU",
+            "status": "injured",
+            "news": "Ankle injury - Unknown return date",
+            "category": "injury"
+          },
+          {
+            "pid": "335",
+            "player": "Stach",
+            "team": "LEE",
+            "status": "doubtful",
+            "news": "Foot injury - 50% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_7_11c03dd9df3b.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (7):\n\n\ud83d\udea8 Branthwaite (EVE) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Calvert-Lewin (LEE) - doubtful: \"Foot injury - 75% chance of playing\"\n\ud83d\udea8 Joelinton (NEW) - injured: \"Unspecified injury - Unknown return date\"\n\ud83d\udea8 Konsa (ARS) - doubtful: \"Knee injury - 75% chance of playing\"\n\ud83d\udea8 Morita (HUL) - injured: \"Groin injury - Unknown return date\"\n\ud83d\udea8 Sanchez (BOU) - injured: \"Ankle injury - Unknown return date\"\n\ud83d\udea8 Stach (LEE) - doubtful: \"Foot injury - 50% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #FPLTwitter #PremierLeague #FantasyFootball\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-11-05T22:26:17.139198+00:00",
+      "auto": true
+    },
+    {
+      "key": "deadline:10:24h",
+      "story": {
+        "type": "deadline_reminder",
+        "key": "deadline:10:24h",
+        "gw": 10,
+        "bucket": "24h",
+        "hours_until": 20.1
+      },
+      "image_path": "assets/generated/deadline_10_24h.png",
+      "caption": "\u23f0 GW10 deadline in 24h! Transfers, captain, chip calls -- lock it in NOW.\n\n#FPL #FantasyPremierLeague #FPLTwitter #PremierLeague\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-11-05T22:26:17.172150+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
