@@ -5375,135 +5375,7 @@
     8,
     9
   ],
-  "pending": [
-    {
-      "key": "sia_captains:10",
-      "story": {
-        "type": "sia_captains",
-        "key": "sia_captains:10",
-        "gw": 10,
-        "intro": "Gameweek 10 is a kind one for the premium forwards: Man City, Bournemouth and Liverpool all have fixtures rated 2 out of 5 for difficulty, so the armband question is less about dodging a banana skin and more about picking the hottest in-form striker. Here are the five best captain options for GW10.",
-        "picks": [
-          {
-            "element": 411,
-            "web_name": "Haaland",
-            "team_short": "MCI",
-            "position": "FWD",
-            "price_m": 15.8,
-            "opponent": "vs Nott'm Forest (A)",
-            "reason": "He's the league's top scorer with 9 goals from 6.56 xG and sits on 68 points with form of 7.2, so the goals keep coming. Forest away is rated just 2 out of 5 for difficulty, and at 79% ownership captaining anyone else is a real gamble."
-          },
-          {
-            "element": 79,
-            "web_name": "Evanilson",
-            "team_short": "BOU",
-            "position": "FWD",
-            "price_m": 6.4,
-            "opponent": "vs Ipswich Town (A)",
-            "reason": "Nobody has been hotter: form of 8.5 built on 4 goals and 4 assists already this season. Ipswich away is a difficulty-2 fixture, and at 6.4m he is far and away the cheapest route to a big captain score."
-          },
-          {
-            "element": 379,
-            "web_name": "Isak",
-            "team_short": "LIV",
-            "position": "FWD",
-            "price_m": 9.2,
-            "opponent": "vs Crystal Palace (A)",
-            "reason": "Six goals and 14 bonus points from only 657 minutes - that's a goal roughly every 110 minutes when he plays. Palace away is rated 2 for difficulty, and with just 21.7% ownership he is the best differential captain of the lot."
-          },
-          {
-            "element": 68,
-            "web_name": "Tavernier",
-            "team_short": "BOU",
-            "position": "MID",
-            "price_m": 6.6,
-            "opponent": "vs Ipswich Town (A)",
-            "reason": "Five goals from 3.71 xG and a huge 12 bonus points have made him Bournemouth's top scorer on 55 points. Midfielder goals are worth 5 points, so the same difficulty-2 trip to Ipswich pays out more per goal than a forward's."
-          },
-          {
-            "element": 166,
-            "web_name": "N.Jackson",
-            "team_short": "AVL",
-            "position": "FWD",
-            "price_m": 7.0,
-            "opponent": "vs Man Utd (A)",
-            "reason": "Form of 8.2 and 5 goals with 10 bonus points show he's been the focal point of this Villa attack in recent weeks. The trip to Man Utd is the toughest fixture on this list at difficulty 3, which is why he lands fifth rather than higher."
-          }
-        ],
-        "url": "https://fantasycoach.org/captain-picks"
-      },
-      "image_path": "assets/generated/sia_captains_10.png",
-      "caption": "\ud83e\udde0 SIA's GW10 captain picks, backed by the stats:\n\n1. Haaland (MCI, vs Nott'm Forest (A)) - He's the league's top scorer with 9 goals from 6.56 xG and sits on 68 points with form of 7.2, so the goals keep coming. Forest away is rated just 2 out of 5 for difficulty, and at 79% ownership captaining anyone else is a real gamble.\n\n2. Evanilson (BOU, vs Ipswich Town (A)) - Nobody has been hotter: form of 8.5 built on 4 goals and 4 assists already this season. Ipswich away is a difficulty-2 fixture, and at 6.4m he is far and away the cheapest route to a big captain score.\n\n3. Isak (LIV, vs Crystal Palace (A)) - Six goals and 14 bonus points from only 657 minutes - that's a goal roughly every 110 minutes when he plays. Palace away is rated 2 for difficulty, and with just 21.7% ownership he is the best differential captain of the lot.\n\n4. Tavernier (BOU, vs Ipswich Town (A)) - Five goals from 3.71 xG and a huge 12 bonus points have made him Bournemouth's top scorer on 55 points. Midfielder goals are worth 5 points, so the same difficulty-2 trip to Ipswich pays out more per goal than a forward's.\n\n5. N.Jackson (AVL, vs Man Utd (A)) - Form of 8.2 and 5 goals with 10 bonus points show he's been the focal point of this Villa attack in recent weeks. The trip to Man Utd is the toughest fixture on this list at difficulty 3, which is why he lands fifth rather than higher.\n\nFree AI advice for your own squad: https://fantasycoach.org/captain-picks\n\nWho's getting your armband? #FPL #FPLFamily #FantasyFootball #FPLTwitter #GW10\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-11-05T08:00:28.536040+00:00",
-      "auto": true
-    },
-    {
-      "key": "sia_differentials:10",
-      "story": {
-        "type": "sia_differentials",
-        "key": "sia_differentials:10",
-        "gw": 10,
-        "intro": "Gameweek 10 serves up a cluster of low-owned players with friendly fixtures - Everton host Coventry City (difficulty 2), Bournemouth travel to Ipswich Town (difficulty 2), and Brighton are at home. Here are the five sub-10% picks with the best case for returns.",
-        "picks": [
-          {
-            "element": 249,
-            "web_name": "Barry",
-            "team_short": "EVE",
-            "position": "FWD",
-            "price_m": 5.6,
-            "ownership_percent": 7.6,
-            "opponent": "vs Coventry City (H)",
-            "reason": "Barry's 6.37 expected goals is the second-highest in the entire game behind only Haaland, yet he has just 4 goals - that gap should close against a Coventry side rated difficulty 2 at Goodison. At 5.6m he's the cheapest route into that kind of chance volume."
-          },
-          {
-            "element": 236,
-            "web_name": "Dewsbury-Hall",
-            "team_short": "EVE",
-            "position": "MID",
-            "price_m": 6.6,
-            "ownership_percent": 6.2,
-            "opponent": "vs Coventry City (H)",
-            "reason": "He's played 805 of a possible 810 minutes and racked up a 69.4 ICT index with 7 bonus points, so he's involved in almost everything Everton create. The same difficulty-2 home tie that lifts Barry makes him the cheaper midfield way in."
-          },
-          {
-            "element": 129,
-            "web_name": "Ayari",
-            "team_short": "BHA",
-            "position": "MID",
-            "price_m": 5.4,
-            "ownership_percent": 1.5,
-            "opponent": "vs Brentford (H)",
-            "reason": "Form of 7.0 is the best of any sub-2%-owned player in the game, built on 3 goals from 1.98 xG in a settled starting role. At 5.4m he's a genuine budget-enabler who has already returned recently rather than one you're buying on hope."
-          },
-          {
-            "element": 60,
-            "web_name": "Hill",
-            "team_short": "BOU",
-            "position": "DEF",
-            "price_m": 5.5,
-            "ownership_percent": 2.5,
-            "opponent": "vs Ipswich Town (A)",
-            "reason": "Hill has played all 810 minutes this season and is in 6.5 form - a nailed defender nobody owns. Bournemouth's trip to Ipswich is rated difficulty 2, their easiest fixture in this run."
-          },
-          {
-            "element": 261,
-            "web_name": "Iwobi",
-            "team_short": "FUL",
-            "position": "MID",
-            "price_m": 5.4,
-            "ownership_percent": 1.4,
-            "opponent": "vs Newcastle (H)",
-            "reason": "His 2.76 expected assists is the highest of any player in the game, but he has only 1 assist to show for it - that's a correction waiting to happen. He's also already banked 7 bonus points, so the underlying work is being rewarded."
-          }
-        ],
-        "url": "https://fantasycoach.org/differentials"
-      },
-      "image_path": "assets/generated/sia_differentials_10.png",
-      "caption": "\ud83d\udc8e SIA's GW10 differentials -- under 10% owned, strong numbers:\n\n1. Barry (EVE, vs Coventry City (H), 7.6% owned) - Barry's 6.37 expected goals is the second-highest in the entire game behind only Haaland, yet he has just 4 goals - that gap should close against a Coventry side rated difficulty 2 at Goodison. At 5.6m he's the cheapest route into that kind of chance volume.\n\n2. Dewsbury-Hall (EVE, vs Coventry City (H), 6.2% owned) - He's played 805 of a possible 810 minutes and racked up a 69.4 ICT index with 7 bonus points, so he's involved in almost everything Everton create. The same difficulty-2 home tie that lifts Barry makes him the cheaper midfield way in.\n\n3. Ayari (BHA, vs Brentford (H), 1.5% owned) - Form of 7.0 is the best of any sub-2%-owned player in the game, built on 3 goals from 1.98 xG in a settled starting role. At 5.4m he's a genuine budget-enabler who has already returned recently rather than one you're buying on hope.\n\n4. Hill (BOU, vs Ipswich Town (A), 2.5% owned) - Hill has played all 810 minutes this season and is in 6.5 form - a nailed defender nobody owns. Bournemouth's trip to Ipswich is rated difficulty 2, their easiest fixture in this run.\n\n5. Iwobi (FUL, vs Newcastle (H), 1.4% owned) - His 2.76 expected assists is the highest of any player in the game, but he has only 1 assist to show for it - that's a correction waiting to happen. He's also already banked 7 bonus points, so the underlying work is being rewarded.\n\nFree AI advice for your own squad: https://fantasycoach.org/differentials\n\nBrave enough to go against the crowd? #FPL #FantasyFootball #FantasyPremierLeague #FPLCommunity #GW10\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-11-05T08:00:28.598131+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5728,7 +5600,9 @@
     "form_cold:5:00a7205b71d7",
     "injury_batch:1:3554dce55f34",
     "recap:9",
-    "injury_batch:1:e794a80eb109"
+    "injury_batch:1:e794a80eb109",
+    "sia_captains:10",
+    "sia_differentials:10"
   ],
   "post_log": [
     {
