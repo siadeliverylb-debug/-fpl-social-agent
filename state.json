@@ -5375,43 +5375,7 @@
     8,
     9
   ],
-  "pending": [
-    {
-      "key": "injury_batch:1:6b6277afcb65",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:6b6277afcb65",
-        "injuries": [
-          {
-            "pid": "159",
-            "player": "Caicedo",
-            "team": "CHE",
-            "status": "doubtful",
-            "news": "Calf injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_6b6277afcb65.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Caicedo (CHE) - doubtful: \"Calf injury - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FPLFamily #FantasyPremierLeague #FPLTips\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-11-06T17:35:35.446433+00:00",
-      "auto": true
-    },
-    {
-      "key": "deadline:10:2h",
-      "story": {
-        "type": "deadline_reminder",
-        "key": "deadline:10:2h",
-        "gw": 10,
-        "bucket": "2h",
-        "hours_until": 0.9
-      },
-      "image_path": "assets/generated/deadline_10_2h.png",
-      "caption": "\u23f0 GW10 deadline in 2h! Last chance to make your move.\n\n#FPL #FantasyPremierLeague #FPLCommunity #FantasyFootball\n\nAsk SIA, our free AI FPL coach, about your team: fantasycoach.org",
-      "created_at": "2026-11-06T17:35:35.491547+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5640,7 +5604,9 @@
     "sia_captains:10",
     "sia_differentials:10",
     "injury_batch:7:11c03dd9df3b",
-    "deadline:10:24h"
+    "deadline:10:24h",
+    "injury_batch:1:6b6277afcb65",
+    "deadline:10:2h"
   ],
   "post_log": [
     {
@@ -6762,6 +6728,13 @@
       "type": "injury_batch",
       "posted_at": "2026-11-06T02:24:19.992642+00:00",
       "tweet_id": "2118529885660729606",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "injury_batch:1:6b6277afcb65",
+      "type": "injury_batch",
+      "posted_at": "2026-11-06T22:23:52.605796+00:00",
+      "tweet_id": "2118831760578339295",
       "ig": "skipped (Instagram not configured)"
     }
   ],
