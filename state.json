@@ -214,8 +214,8 @@
       "web_name": "Konsa",
       "team": "ARS",
       "now_cost": 48,
-      "status": "d",
-      "news": "Knee injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-05T20:30:09.025008Z"
     },
     "452": {
@@ -486,8 +486,8 @@
       "web_name": "Wan-Bissaka",
       "team": "AVL",
       "now_cost": 45,
-      "status": "i",
-      "news": "Hamstring injury - Expected back 21 Nov",
+      "status": "d",
+      "news": "Hamstring injury - 50% chance of playing",
       "news_added": "2026-10-17T19:30:10.120990Z"
     },
     "618": {
@@ -622,8 +622,8 @@
       "web_name": "Scott",
       "team": "BOU",
       "now_cost": 59,
-      "status": "i",
-      "news": "Thigh injury - Expected back 21 Nov",
+      "status": "d",
+      "news": "Thigh injury - 75% chance of playing",
       "news_added": "2026-10-05T09:30:09.910752Z"
     },
     "70": {
@@ -1286,8 +1286,8 @@
       "web_name": "Martinez",
       "team": "CHE",
       "now_cost": 49,
-      "status": "i",
-      "news": "Head injury - Unknown return date",
+      "status": "d",
+      "news": "Head injury - 75% chance of playing",
       "news_added": "2026-10-17T13:30:08.724000Z"
     },
     "40": {
@@ -1446,9 +1446,9 @@
       "web_name": "Caicedo",
       "team": "CHE",
       "now_cost": 53,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-29T22:00:09.933708Z"
+      "status": "d",
+      "news": "Calf injury - 75% chance of playing",
+      "news_added": "2026-11-06T15:30:09.180442Z"
     },
     "161": {
       "web_name": "Lavia",
@@ -1951,7 +1951,7 @@
       "team": "CRY",
       "now_cost": 62,
       "status": "i",
-      "news": "Groin injury - Expected back 8 Nov",
+      "news": "Groin injury - Expected back 21 Nov",
       "news_added": "2026-10-27T10:30:09.385934Z"
     },
     "210": {
@@ -2103,7 +2103,7 @@
       "team": "CRY",
       "now_cost": 43,
       "status": "i",
-      "news": "Calf injury - Expected back 8 Nov",
+      "news": "Calf injury - Expected back 21 Nov",
       "news_added": "2026-09-21T13:30:09.030724Z"
     },
     "588": {
@@ -2470,9 +2470,9 @@
       "web_name": "Cairney",
       "team": "FUL",
       "now_cost": 49,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-14T18:00:06.460944Z"
+      "status": "i",
+      "news": "Knee injury - Expected back 21 Nov",
+      "news_added": "2026-11-06T10:30:09.529201Z"
     },
     "268": {
       "web_name": "King",
@@ -4022,8 +4022,8 @@
       "web_name": "Baleba",
       "team": "MUN",
       "now_cost": 49,
-      "status": "d",
-      "news": "Hamstring injury - 50% chance of playing",
+      "status": "i",
+      "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-11-03T22:00:07.995956Z"
     },
     "162": {
@@ -4070,8 +4070,8 @@
       "web_name": "Dorgu",
       "team": "MUN",
       "now_cost": 57,
-      "status": "i",
-      "news": "Hamstring injury - Unknown return date",
+      "status": "d",
+      "news": "Hamstring injury - 75% chance of playing",
       "news_added": "2026-09-27T21:30:07.831640Z"
     },
     "416": {
@@ -4182,8 +4182,8 @@
       "web_name": "Rashford",
       "team": "MUN",
       "now_cost": 68,
-      "status": "d",
-      "news": "Hip injury - 75% chance of playing",
+      "status": "i",
+      "news": "Hip injury - Unknown return date",
       "news_added": "2026-10-20T20:00:09.925594Z"
     },
     "430": {
@@ -4806,8 +4806,8 @@
       "web_name": "Tosin",
       "team": "TOT",
       "now_cost": 43,
-      "status": "i",
-      "news": "Calf injury - Unknown return date",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-29T17:00:09.335810Z"
     },
     "401": {
@@ -5031,7 +5031,7 @@
       "team": "TOT",
       "now_cost": 53,
       "status": "i",
-      "news": "Knee injury - Expected back 31 Oct",
+      "news": "Knee injury - Unknown return date",
       "news_added": "2026-10-18T13:00:09.356060Z"
     },
     "521": {
@@ -5363,7 +5363,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-06T10:03:46.270241+00:00",
+  "last_snapshot_at": "2026-11-06T17:35:35.389254+00:00",
   "recapped_events": [
     1,
     2,
@@ -5375,7 +5375,43 @@
     8,
     9
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:6b6277afcb65",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:6b6277afcb65",
+        "injuries": [
+          {
+            "pid": "159",
+            "player": "Caicedo",
+            "team": "CHE",
+            "status": "doubtful",
+            "news": "Calf injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_6b6277afcb65.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Caicedo (CHE) - doubtful: \"Calf injury - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FPLFamily #FantasyPremierLeague #FPLTips\n\nTurn on notifications to catch these as they land.",
+      "created_at": "2026-11-06T17:35:35.446433+00:00",
+      "auto": true
+    },
+    {
+      "key": "deadline:10:2h",
+      "story": {
+        "type": "deadline_reminder",
+        "key": "deadline:10:2h",
+        "gw": 10,
+        "bucket": "2h",
+        "hours_until": 0.9
+      },
+      "image_path": "assets/generated/deadline_10_2h.png",
+      "caption": "\u23f0 GW10 deadline in 2h! Last chance to make your move.\n\n#FPL #FantasyPremierLeague #FPLCommunity #FantasyFootball\n\nAsk SIA, our free AI FPL coach, about your team: fantasycoach.org",
+      "created_at": "2026-11-06T17:35:35.491547+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
