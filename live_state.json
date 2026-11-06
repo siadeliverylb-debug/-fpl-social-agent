@@ -1155,7 +1155,8 @@
       "89:456:yellow_cards": 1,
       "89:456:red_cards": 1,
       "89:446:yellow_cards": 1,
-      "89:209:yellow_cards": 1
+      "89:209:yellow_cards": 1,
+      "94:655:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1559,6 +1560,12 @@
         "team": "EVE",
         "assisted_by": "George",
         "score": "0-1"
+      },
+      "94:a": {
+        "player": "Gboho",
+        "team": "COV",
+        "assisted_by": null,
+        "score": "0-1"
       }
     },
     "posted_score": {
@@ -1804,7 +1811,7 @@
       ],
       "94": [
         0,
-        0
+        1
       ],
       "97": [
         0,
@@ -2858,11 +2865,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "94:655:goals_scored": {
-        "value": 1,
-        "since": "2026-11-06T21:12:59.456230+00:00",
-        "minute": 52
       }
     },
     "event_tracking": {
@@ -5271,6 +5273,13 @@
       "type": "kickoff",
       "posted_at": "2026-11-06T20:02:29.358765+00:00",
       "tweet_id": "2118796179324752124",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:94:655:1",
+      "type": "goal",
+      "posted_at": "2026-11-06T21:16:26.474536+00:00",
+      "tweet_id": "2118814789954937262",
       "ig": "skipped (live event)"
     }
   ],
