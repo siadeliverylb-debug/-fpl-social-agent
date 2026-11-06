@@ -5375,91 +5375,7 @@
     8,
     9
   ],
-  "pending": [
-    {
-      "key": "injury_batch:7:11c03dd9df3b",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:7:11c03dd9df3b",
-        "injuries": [
-          {
-            "pid": "230",
-            "player": "Branthwaite",
-            "team": "EVE",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "346",
-            "player": "Calvert-Lewin",
-            "team": "LEE",
-            "status": "doubtful",
-            "news": "Foot injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "458",
-            "player": "Joelinton",
-            "team": "NEW",
-            "status": "injured",
-            "news": "Unspecified injury - Unknown return date",
-            "category": "injury"
-          },
-          {
-            "pid": "31",
-            "player": "Konsa",
-            "team": "ARS",
-            "status": "doubtful",
-            "news": "Knee injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "563",
-            "player": "Morita",
-            "team": "HUL",
-            "status": "injured",
-            "news": "Groin injury - Unknown return date",
-            "category": "injury"
-          },
-          {
-            "pid": "573",
-            "player": "Sanchez",
-            "team": "BOU",
-            "status": "injured",
-            "news": "Ankle injury - Unknown return date",
-            "category": "injury"
-          },
-          {
-            "pid": "335",
-            "player": "Stach",
-            "team": "LEE",
-            "status": "doubtful",
-            "news": "Foot injury - 50% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_7_11c03dd9df3b.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (7):\n\n\ud83d\udea8 Branthwaite (EVE) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Calvert-Lewin (LEE) - doubtful: \"Foot injury - 75% chance of playing\"\n\ud83d\udea8 Joelinton (NEW) - injured: \"Unspecified injury - Unknown return date\"\n\ud83d\udea8 Konsa (ARS) - doubtful: \"Knee injury - 75% chance of playing\"\n\ud83d\udea8 Morita (HUL) - injured: \"Groin injury - Unknown return date\"\n\ud83d\udea8 Sanchez (BOU) - injured: \"Ankle injury - Unknown return date\"\n\ud83d\udea8 Stach (LEE) - doubtful: \"Foot injury - 50% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #FPLTwitter #PremierLeague #FantasyFootball\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-11-05T22:26:17.139198+00:00",
-      "auto": true
-    },
-    {
-      "key": "deadline:10:24h",
-      "story": {
-        "type": "deadline_reminder",
-        "key": "deadline:10:24h",
-        "gw": 10,
-        "bucket": "24h",
-        "hours_until": 20.1
-      },
-      "image_path": "assets/generated/deadline_10_24h.png",
-      "caption": "\u23f0 GW10 deadline in 24h! Transfers, captain, chip calls -- lock it in NOW.\n\n#FPL #FantasyPremierLeague #FPLTwitter #PremierLeague\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-11-05T22:26:17.172150+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5686,7 +5602,9 @@
     "recap:9",
     "injury_batch:1:e794a80eb109",
     "sia_captains:10",
-    "sia_differentials:10"
+    "sia_differentials:10",
+    "injury_batch:7:11c03dd9df3b",
+    "deadline:10:24h"
   ],
   "post_log": [
     {
@@ -6801,6 +6719,13 @@
       "type": "gw_recap",
       "posted_at": "2026-11-04T03:17:02.218361+00:00",
       "tweet_id": "2117818373157626163",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "injury_batch:7:11c03dd9df3b",
+      "type": "injury_batch",
+      "posted_at": "2026-11-06T02:24:19.992642+00:00",
+      "tweet_id": "2118529885660729606",
       "ig": "skipped (Instagram not configured)"
     }
   ],
