@@ -397,7 +397,7 @@
     "53": {
       "web_name": "Manzambi",
       "team": "AVL",
-      "now_cost": 61,
+      "now_cost": 62,
       "status": "a",
       "news": "",
       "news_added": "2026-10-17T19:30:09.768277Z"
@@ -549,7 +549,7 @@
     "60": {
       "web_name": "Hill",
       "team": "BOU",
-      "now_cost": 55,
+      "now_cost": 56,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2053,7 +2053,7 @@
     "222": {
       "web_name": "Strand Larsen",
       "team": "CRY",
-      "now_cost": 60,
+      "now_cost": 59,
       "status": "a",
       "news": "",
       "news_added": "2026-10-23T17:00:09.672494Z"
@@ -5363,7 +5363,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-05T22:26:17.094037+00:00",
+  "last_snapshot_at": "2026-11-06T02:39:02.743873+00:00",
   "recapped_events": [
     1,
     2,
