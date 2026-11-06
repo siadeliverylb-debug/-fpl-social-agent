@@ -1158,7 +1158,8 @@
       "89:209:yellow_cards": 1,
       "94:655:goals_scored": 1,
       "94:249:goals_scored": 2,
-      "94:233:assists": 1
+      "94:233:assists": 1,
+      "94:236:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1570,10 +1571,10 @@
         "score": "0-1"
       },
       "94:h": {
-        "player": "Barry",
+        "player": "Dewsbury-Hall",
         "team": "EVE",
         "assisted_by": null,
-        "score": "2-1"
+        "score": "3-1"
       }
     },
     "posted_score": {
@@ -1818,7 +1819,7 @@
         1
       ],
       "94": [
-        2,
+        3,
         1
       ],
       "97": [
@@ -2881,11 +2882,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "94:236:goals_scored": {
-        "value": 1,
-        "since": "2026-11-06T21:41:13.208954+00:00",
-        "minute": 81
       },
       "94:249:assists": {
         "value": 1,
@@ -5320,6 +5316,13 @@
       "type": "goal",
       "posted_at": "2026-11-06T21:25:25.497509+00:00",
       "tweet_id": "2118817050739228868",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:94:236:1",
+      "type": "goal",
+      "posted_at": "2026-11-06T21:44:42.354938+00:00",
+      "tweet_id": "2118821902928273785",
       "ig": "skipped (live event)"
     }
   ],
