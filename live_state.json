@@ -240,6 +240,46 @@
       "89": {
         "started": true,
         "finished_provisional": true
+      },
+      "94": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "97": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "91": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "95": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "99": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "92": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "93": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "96": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "100": {
+        "started": false,
+        "finished_provisional": false
+      },
+      "98": {
+        "started": false,
+        "finished_provisional": false
       }
     },
     "stats": {
@@ -1761,6 +1801,46 @@
       "89": [
         0,
         1
+      ],
+      "94": [
+        0,
+        0
+      ],
+      "97": [
+        0,
+        0
+      ],
+      "91": [
+        0,
+        0
+      ],
+      "95": [
+        0,
+        0
+      ],
+      "99": [
+        0,
+        0
+      ],
+      "92": [
+        0,
+        0
+      ],
+      "93": [
+        0,
+        0
+      ],
+      "96": [
+        0,
+        0
+      ],
+      "100": [
+        0,
+        0
+      ],
+      "98": [
+        0,
+        0
       ]
     },
     "subs_seen": {
@@ -2347,7 +2427,17 @@
       "90": true,
       "81": true,
       "87": true,
-      "89": true
+      "89": true,
+      "94": true,
+      "97": true,
+      "91": true,
+      "95": true,
+      "99": true,
+      "92": true,
+      "93": true,
+      "96": true,
+      "100": true,
+      "98": true
     },
     "subs_off_seen": {
       "31:34": true,
@@ -2771,9 +2861,9 @@
       }
     },
     "event_tracking": {
-      "prev": 8,
-      "prev_since": "2026-10-31T12:50:24.121368+00:00",
-      "current": 9
+      "prev": 9,
+      "prev_since": "2026-11-06T19:02:13.524394+00:00",
+      "current": 10
     }
   },
   "live_post_log": [
