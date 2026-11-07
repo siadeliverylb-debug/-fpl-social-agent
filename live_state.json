@@ -1167,7 +1167,8 @@
       "97:339:yellow_cards": 1,
       "97:499:yellow_cards": 1,
       "97:503:yellow_cards": 1,
-      "97:455:yellow_cards": 1
+      "97:455:yellow_cards": 1,
+      "97:336:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1583,6 +1584,12 @@
         "team": "EVE",
         "assisted_by": "Barry",
         "score": "3-1"
+      },
+      "97:h": {
+        "player": "Okafor",
+        "team": "LEE",
+        "assisted_by": null,
+        "score": "1-0"
       }
     },
     "posted_score": {
@@ -1831,7 +1838,7 @@
         1
       ],
       "97": [
-        0,
+        1,
         0
       ],
       "91": [
@@ -2917,11 +2924,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "97:336:goals_scored": {
-        "value": 1,
-        "since": "2026-11-07T14:22:07.173757+00:00",
-        "minute": 89
       }
     },
     "event_tracking": {
@@ -5386,6 +5388,13 @@
       "type": "kickoff",
       "posted_at": "2026-11-07T14:22:08.295939+00:00",
       "tweet_id": "2119072915069239645",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:97:336:1",
+      "type": "goal",
+      "posted_at": "2026-11-07T14:25:37.758097+00:00",
+      "tweet_id": "2119073793599848695",
       "ig": "skipped (live event)"
     }
   ],
