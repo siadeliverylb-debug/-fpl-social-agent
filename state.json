@@ -3294,8 +3294,8 @@
       "web_name": "Okafor",
       "team": "LEE",
       "now_cost": 57,
-      "status": "d",
-      "news": "Thigh injury - 50% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-31T20:00:10.014132Z"
     },
     "337": {
@@ -3366,8 +3366,8 @@
       "web_name": "Calvert-Lewin",
       "team": "LEE",
       "now_cost": 60,
-      "status": "d",
-      "news": "Foot injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-05T18:30:07.960444Z"
     },
     "347": {
@@ -4358,8 +4358,8 @@
       "web_name": "Livramento",
       "team": "NEW",
       "now_cost": 48,
-      "status": "i",
-      "news": "Knee injury - Unknown return date",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-19T14:00:09.046677Z"
     },
     "451": {
@@ -4414,8 +4414,8 @@
       "web_name": "L.Miley",
       "team": "NEW",
       "now_cost": 55,
-      "status": "d",
-      "news": "Muscular injury - 50% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-27T16:00:07.981816Z"
     },
     "460": {
@@ -4510,8 +4510,8 @@
       "web_name": "Fernandez-Pardo",
       "team": "NEW",
       "now_cost": 59,
-      "status": "d",
-      "news": "Illness - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-23T14:30:10.429365Z"
     },
     "659": {
@@ -5363,7 +5363,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-07T08:58:45.105472+00:00",
+  "last_snapshot_at": "2026-11-07T15:25:42.044305+00:00",
   "recapped_events": [
     1,
     2,
@@ -5375,7 +5375,61 @@
     8,
     9
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_cold:5:c69d80b24904",
+      "story": {
+        "type": "form_cold",
+        "key": "form_cold:5:c69d80b24904",
+        "players": [
+          {
+            "name": "Szoboszlai",
+            "team": "LIV",
+            "form": 0.4,
+            "total_points": 22,
+            "price_millions": 6.7,
+            "selected": 13.4
+          },
+          {
+            "name": "B.Fernandes",
+            "team": "MUN",
+            "form": 0.8,
+            "total_points": 35,
+            "price_millions": 11.7,
+            "selected": 20.6
+          },
+          {
+            "name": "Schade",
+            "team": "BRE",
+            "form": 1.2,
+            "total_points": 45,
+            "price_millions": 6.1,
+            "selected": 13.3
+          },
+          {
+            "name": "Gvardiol",
+            "team": "MCI",
+            "form": 1.4,
+            "total_points": 44,
+            "price_millions": 5.7,
+            "selected": 25.3
+          },
+          {
+            "name": "Gu\u00e9hi",
+            "team": "MCI",
+            "form": 1.4,
+            "total_points": 37,
+            "price_millions": 6.0,
+            "selected": 15.4
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_cold_5_c69d80b24904.png",
+      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Szoboszlai (LIV) - 0.4 pts/game, \u00a36.7m, owned by 13%\n2. B.Fernandes (MUN) - 0.8 pts/game, \u00a311.7m, owned by 21%\n3. Schade (BRE) - 1.2 pts/game, \u00a36.1m, owned by 13%\n4. Gvardiol (MCI) - 1.4 pts/game, \u00a35.7m, owned by 25%\n5. Gu\u00e9hi (MCI) - 1.4 pts/game, \u00a36.0m, owned by 15%\n\nHow many of these are in your team? #FPL #FantasyFootball #FPLTips #FPLCommunity\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-11-07T15:25:42.103919+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -6747,17 +6801,17 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-11-07T08:58:45.104995+00:00",
-    "next": "cold",
+    "last_at": "2026-11-07T15:25:42.043824+00:00",
+    "next": "hot",
     "day": "2026-11-07",
-    "count": 1,
+    "count": 2,
     "last_picks": {
       "cold": [
         "Szoboszlai",
         "B.Fernandes",
         "Schade",
-        "Gibbs-White",
-        "Gvardiol"
+        "Gvardiol",
+        "Gu\u00e9hi"
       ],
       "hot": [
         "Konsa",
