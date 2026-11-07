@@ -1172,7 +1172,9 @@
       "91:280:yellow_cards": 1,
       "91:589:yellow_cards": 1,
       "91:638:yellow_cards": 1,
-      "91:576:yellow_cards": 1
+      "91:576:yellow_cards": 1,
+      "91:15:goals_scored": 1,
+      "91:16:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1594,6 +1596,12 @@
         "team": "LEE",
         "assisted_by": null,
         "score": "1-0"
+      },
+      "91:h": {
+        "player": "\u00d8degaard",
+        "team": "ARS",
+        "assisted_by": "Madueke",
+        "score": "1-0"
       }
     },
     "posted_score": {
@@ -1846,7 +1854,7 @@
         0
       ],
       "91": [
-        0,
+        1,
         0
       ],
       "95": [
@@ -2987,16 +2995,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "91:15:goals_scored": {
-        "value": 1,
-        "since": "2026-11-07T16:34:41.296615+00:00",
-        "minute": 72
-      },
-      "91:16:assists": {
-        "value": 1,
-        "since": "2026-11-07T16:34:41.296632+00:00",
-        "minute": 72
       }
     },
     "event_tracking": {
@@ -5496,6 +5494,13 @@
       "type": "kickoff",
       "posted_at": "2026-11-07T15:00:42.883616+00:00",
       "tweet_id": "2119082623192674814",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:91:15:1",
+      "type": "goal",
+      "posted_at": "2026-11-07T16:38:09.366450+00:00",
+      "tweet_id": "2119107145086214617",
       "ig": "skipped (live event)"
     }
   ],
