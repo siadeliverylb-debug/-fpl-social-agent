@@ -1174,7 +1174,8 @@
       "91:638:yellow_cards": 1,
       "91:576:yellow_cards": 1,
       "91:15:goals_scored": 1,
-      "91:16:assists": 1
+      "91:16:assists": 1,
+      "95:457:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1602,6 +1603,12 @@
         "team": "ARS",
         "assisted_by": "Madueke",
         "score": "1-0"
+      },
+      "95:a": {
+        "player": "J.Murphy",
+        "team": "NEW",
+        "assisted_by": null,
+        "score": "0-1"
       }
     },
     "posted_score": {
@@ -1859,7 +1866,7 @@
       ],
       "95": [
         0,
-        0
+        1
       ],
       "99": [
         0,
@@ -2999,11 +3006,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "95:457:goals_scored": {
-        "value": 1,
-        "since": "2026-11-07T16:40:15.195818+00:00",
-        "minute": 80
       }
     },
     "event_tracking": {
@@ -5510,6 +5512,13 @@
       "type": "goal",
       "posted_at": "2026-11-07T16:38:09.366450+00:00",
       "tweet_id": "2119107145086214617",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:95:457:1",
+      "type": "goal",
+      "posted_at": "2026-11-07T16:43:42.607367+00:00",
+      "tweet_id": "2119108542804471953",
       "ig": "skipped (live event)"
     }
   ],
