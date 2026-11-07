@@ -29,7 +29,7 @@
     "4": {
       "web_name": "Gabriel",
       "team": "ARS",
-      "now_cost": 80,
+      "now_cost": 81,
       "status": "a",
       "news": "",
       "news_added": null
@@ -101,7 +101,7 @@
     "13": {
       "web_name": "Rice",
       "team": "ARS",
-      "now_cost": 74,
+      "now_cost": 75,
       "status": "a",
       "news": "",
       "news_added": "2026-10-28T00:00:08.477333Z"
@@ -701,7 +701,7 @@
     "79": {
       "web_name": "Evanilson",
       "team": "BOU",
-      "now_cost": 64,
+      "now_cost": 65,
       "status": "a",
       "news": "",
       "news_added": null
@@ -845,7 +845,7 @@
     "94": {
       "web_name": "Schade",
       "team": "BRE",
-      "now_cost": 62,
+      "now_cost": 61,
       "status": "a",
       "news": "",
       "news_added": "2026-10-10T16:30:08.848962Z"
@@ -941,7 +941,7 @@
     "108": {
       "web_name": "Wilson",
       "team": "BRE",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -957,7 +957,7 @@
     "620": {
       "web_name": "Diouf",
       "team": "BRE",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1093,7 +1093,7 @@
     "124": {
       "web_name": "Gro\u00df",
       "team": "BHA",
-      "now_cost": 62,
+      "now_cost": 63,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1133,7 +1133,7 @@
     "129": {
       "web_name": "Ayari",
       "team": "BHA",
-      "now_cost": 54,
+      "now_cost": 55,
       "status": "a",
       "news": "",
       "news_added": "2026-08-30T18:00:07.935334Z"
@@ -2333,7 +2333,7 @@
     "249": {
       "web_name": "Barry",
       "team": "EVE",
-      "now_cost": 56,
+      "now_cost": 57,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2509,7 +2509,7 @@
     "272": {
       "web_name": "Kusi-Asare",
       "team": "FUL",
-      "now_cost": 44,
+      "now_cost": 43,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3045,7 +3045,7 @@
     "313": {
       "web_name": "Clarke",
       "team": "IPS",
-      "now_cost": 53,
+      "now_cost": 52,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3293,7 +3293,7 @@
     "336": {
       "web_name": "Okafor",
       "team": "LEE",
-      "now_cost": 58,
+      "now_cost": 57,
       "status": "d",
       "news": "Thigh injury - 50% chance of playing",
       "news_added": "2026-10-31T20:00:10.014132Z"
@@ -3365,7 +3365,7 @@
     "346": {
       "web_name": "Calvert-Lewin",
       "team": "LEE",
-      "now_cost": 61,
+      "now_cost": 60,
       "status": "d",
       "news": "Foot injury - 75% chance of playing",
       "news_added": "2026-11-05T18:30:07.960444Z"
@@ -3453,7 +3453,7 @@
     "648": {
       "web_name": "Bahoya",
       "team": "LEE",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": "2026-10-08T14:00:12.276121Z"
@@ -3733,7 +3733,7 @@
     "579": {
       "web_name": "Araujo",
       "team": "LIV",
-      "now_cost": 54,
+      "now_cost": 55,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4013,7 +4013,7 @@
     "43": {
       "web_name": "Tielemans",
       "team": "MUN",
-      "now_cost": 57,
+      "now_cost": 56,
       "status": "a",
       "news": "",
       "news_added": "2026-07-23T12:01:23.321726Z"
@@ -4349,7 +4349,7 @@
     "449": {
       "web_name": "Hall",
       "team": "NEW",
-      "now_cost": 53,
+      "now_cost": 52,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4453,7 +4453,7 @@
     "464": {
       "web_name": "Wissa",
       "team": "NEW",
-      "now_cost": 60,
+      "now_cost": 59,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4493,7 +4493,7 @@
     "593": {
       "web_name": "Dedi\u0107",
       "team": "NEW",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": "2026-09-17T14:30:09.823731Z"
@@ -4557,7 +4557,7 @@
     "167": {
       "web_name": "Delap",
       "team": "NFO",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5157,7 +5157,7 @@
     "533": {
       "web_name": "Mukiele",
       "team": "SUN",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "d",
       "news": "Concussion - 75% chance of playing",
       "news_added": "2026-10-29T18:30:09.458031Z"
@@ -5245,7 +5245,7 @@
     "544": {
       "web_name": "Xhaka",
       "team": "SUN",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5363,7 +5363,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-06T22:29:38.694914+00:00",
+  "last_snapshot_at": "2026-11-07T02:12:14.373860+00:00",
   "recapped_events": [
     1,
     2,
