@@ -1186,7 +1186,8 @@
       "99:558:assists": 1,
       "99:399:goals_scored": 1,
       "99:486:yellow_cards": 1,
-      "99:483:yellow_cards": 1
+      "99:483:yellow_cards": 1,
+      "99:480:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1630,7 +1631,7 @@
       "99:h": {
         "player": "Delap",
         "team": "NFO",
-        "assisted_by": null,
+        "assisted_by": "Gibbs-White",
         "score": "3-1"
       },
       "99:a": {
@@ -3048,11 +3049,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "99:480:assists": {
-        "value": 1,
-        "since": "2026-11-07T19:06:05.978716+00:00",
-        "minute": 73
       }
     },
     "event_tracking": {
@@ -5643,6 +5639,13 @@
       "type": "goal",
       "posted_at": "2026-11-07T19:08:52.101216+00:00",
       "tweet_id": "2119145073011208352",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:99:480:1",
+      "type": "goal_update",
+      "posted_at": "2026-11-07T19:09:35.542841+00:00",
+      "tweet_id": "2119145255341785405",
       "ig": "skipped (live event)"
     }
   ],
