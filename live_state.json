@@ -1182,7 +1182,7 @@
       "95:446:yellow_cards": 1,
       "95:593:yellow_cards": 1,
       "99:474:goals_scored": 1,
-      "99:167:goals_scored": 1,
+      "99:167:goals_scored": 2,
       "99:558:assists": 1,
       "99:399:goals_scored": 1,
       "99:486:yellow_cards": 1,
@@ -1630,8 +1630,8 @@
       "99:h": {
         "player": "Delap",
         "team": "NFO",
-        "assisted_by": "Schlager",
-        "score": "2-0"
+        "assisted_by": null,
+        "score": "3-1"
       },
       "99:a": {
         "player": "Cherki",
@@ -1898,7 +1898,7 @@
         1
       ],
       "99": [
-        2,
+        3,
         1
       ],
       "92": [
@@ -3048,11 +3048,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "99:167:goals_scored": {
-        "value": 2,
-        "since": "2026-11-07T19:05:24.094719+00:00",
-        "minute": 73
       },
       "99:480:assists": {
         "value": 1,
@@ -5641,6 +5636,13 @@
       "type": "goal",
       "posted_at": "2026-11-07T18:47:31.066773+00:00",
       "tweet_id": "2119139699973660739",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:99:167:2",
+      "type": "goal",
+      "posted_at": "2026-11-07T19:08:52.101216+00:00",
+      "tweet_id": "2119145073011208352",
       "ig": "skipped (live event)"
     }
   ],
