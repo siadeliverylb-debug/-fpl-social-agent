@@ -1180,7 +1180,8 @@
       "95:570:assists": 1,
       "91:586:yellow_cards": 1,
       "95:446:yellow_cards": 1,
-      "95:593:yellow_cards": 1
+      "95:593:yellow_cards": 1,
+      "99:474:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1620,6 +1621,12 @@
         "team": "FUL",
         "assisted_by": "Palacios",
         "score": "1-1"
+      },
+      "99:h": {
+        "player": "Jair Cunha",
+        "team": "NFO",
+        "assisted_by": null,
+        "score": "1-0"
       }
     },
     "posted_score": {
@@ -1880,7 +1887,7 @@
         1
       ],
       "99": [
-        0,
+        1,
         0
       ],
       "92": [
@@ -3022,11 +3029,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "99:474:goals_scored": {
-        "value": 1,
-        "since": "2026-11-07T17:40:11.487689+00:00",
-        "minute": 5
       }
     },
     "event_tracking": {
@@ -5582,6 +5584,13 @@
       "type": "kickoff",
       "posted_at": "2026-11-07T17:31:15.605124+00:00",
       "tweet_id": "2119120509149532369",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:99:474:1",
+      "type": "goal",
+      "posted_at": "2026-11-07T17:43:38.741874+00:00",
+      "tweet_id": "2119123626096259464",
       "ig": "skipped (live event)"
     }
   ],
