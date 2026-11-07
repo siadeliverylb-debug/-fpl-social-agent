@@ -1183,7 +1183,8 @@
       "95:593:yellow_cards": 1,
       "99:474:goals_scored": 1,
       "99:167:goals_scored": 1,
-      "99:558:assists": 1
+      "99:558:assists": 1,
+      "99:399:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1629,6 +1630,12 @@
         "team": "NFO",
         "assisted_by": "Schlager",
         "score": "2-0"
+      },
+      "99:a": {
+        "player": "Cherki",
+        "team": "MCI",
+        "assisted_by": null,
+        "score": "2-1"
       }
     },
     "posted_score": {
@@ -1890,7 +1897,7 @@
       ],
       "99": [
         2,
-        0
+        1
       ],
       "92": [
         0,
@@ -3035,11 +3042,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "99:399:goals_scored": {
-        "value": 1,
-        "since": "2026-11-07T18:44:03.599884+00:00",
-        "minute": 52
       }
     },
     "event_tracking": {
@@ -5616,6 +5618,13 @@
       "type": "goal_update",
       "posted_at": "2026-11-07T17:56:05.226757+00:00",
       "tweet_id": "2119126757043495316",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:99:399:1",
+      "type": "goal",
+      "posted_at": "2026-11-07T18:47:31.066773+00:00",
+      "tweet_id": "2119139699973660739",
       "ig": "skipped (live event)"
     }
   ],
