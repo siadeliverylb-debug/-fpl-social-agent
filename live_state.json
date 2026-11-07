@@ -1182,7 +1182,8 @@
       "95:446:yellow_cards": 1,
       "95:593:yellow_cards": 1,
       "99:474:goals_scored": 1,
-      "99:167:goals_scored": 1
+      "99:167:goals_scored": 1,
+      "99:558:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1626,7 +1627,7 @@
       "99:h": {
         "player": "Delap",
         "team": "NFO",
-        "assisted_by": null,
+        "assisted_by": "Schlager",
         "score": "2-0"
       }
     },
@@ -3030,11 +3031,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "99:558:assists": {
-        "value": 1,
-        "since": "2026-11-07T17:52:35.087422+00:00",
-        "minute": 18
       }
     },
     "event_tracking": {
@@ -5604,6 +5600,13 @@
       "type": "goal",
       "posted_at": "2026-11-07T17:54:40.218703+00:00",
       "tweet_id": "2119126400464798184",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:99:558:1",
+      "type": "goal_update",
+      "posted_at": "2026-11-07T17:56:05.226757+00:00",
+      "tweet_id": "2119126757043495316",
       "ig": "skipped (live event)"
     }
   ],
