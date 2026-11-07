@@ -2718,8 +2718,8 @@
       "web_name": "Crooks",
       "team": "HUL",
       "now_cost": 44,
-      "status": "s",
-      "news": "Suspended until 22 Nov",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-31T18:00:09.584315Z"
     },
     "290": {
@@ -2870,8 +2870,8 @@
       "web_name": "Gourna-Douath",
       "team": "HUL",
       "now_cost": 49,
-      "status": "d",
-      "news": "Calf injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-16T13:00:08.314070Z"
     },
     "617": {
@@ -4390,8 +4390,8 @@
       "web_name": "J.Ramsey",
       "team": "NEW",
       "now_cost": 48,
-      "status": "s",
-      "news": "Suspended until 21 Nov",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-02T22:00:09.813234Z"
     },
     "457": {
@@ -4758,8 +4758,8 @@
       "web_name": "Igor Jesus",
       "team": "NFO",
       "now_cost": 56,
-      "status": "d",
-      "news": "Calf injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-09T14:30:11.491800Z"
     },
     "493": {
@@ -4982,9 +4982,9 @@
       "web_name": "Tel",
       "team": "TOT",
       "now_cost": 56,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Ankle injury - 75% chance of playing",
+      "news_added": "2026-11-07T18:30:09.104275Z"
     },
     "515": {
       "web_name": "Maddison",
@@ -5363,7 +5363,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-07T15:25:42.044305+00:00",
+  "last_snapshot_at": "2026-11-07T19:30:21.138619+00:00",
   "recapped_events": [
     1,
     2,
@@ -5375,7 +5375,29 @@
     8,
     9
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:3f1522d02559",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:3f1522d02559",
+        "injuries": [
+          {
+            "pid": "514",
+            "player": "Tel",
+            "team": "TOT",
+            "status": "doubtful",
+            "news": "Ankle injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_3f1522d02559.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Tel (TOT) - doubtful: \"Ankle injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FPLTwitter #FPLFamily #FantasyFootball\n\nIs your team any good? Free AI rating: fantasycoach.org/rate-my-team",
+      "created_at": "2026-11-07T19:30:21.211611+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
