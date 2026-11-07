@@ -1175,7 +1175,9 @@
       "91:576:yellow_cards": 1,
       "91:15:goals_scored": 1,
       "91:16:assists": 1,
-      "95:457:goals_scored": 1
+      "95:457:goals_scored": 1,
+      "95:271:goals_scored": 1,
+      "95:570:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1609,6 +1611,12 @@
         "team": "NEW",
         "assisted_by": null,
         "score": "0-1"
+      },
+      "95:h": {
+        "player": "Muniz",
+        "team": "FUL",
+        "assisted_by": "Palacios",
+        "score": "1-1"
       }
     },
     "posted_score": {
@@ -1865,7 +1873,7 @@
         0
       ],
       "95": [
-        0,
+        1,
         1
       ],
       "99": [
@@ -3007,16 +3015,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "95:271:goals_scored": {
-        "value": 1,
-        "since": "2026-11-07T16:44:24.453458+00:00",
-        "minute": 84
-      },
-      "95:570:assists": {
-        "value": 1,
-        "since": "2026-11-07T16:44:24.453482+00:00",
-        "minute": 84
       }
     },
     "event_tracking": {
@@ -5530,6 +5528,13 @@
       "type": "goal",
       "posted_at": "2026-11-07T16:43:42.607367+00:00",
       "tweet_id": "2119108542804471953",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:95:271:1",
+      "type": "goal",
+      "posted_at": "2026-11-07T16:47:52.873726+00:00",
+      "tweet_id": "2119109592470913253",
       "ig": "skipped (live event)"
     }
   ],
