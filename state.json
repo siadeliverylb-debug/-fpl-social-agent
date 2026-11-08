@@ -254,8 +254,8 @@
       "web_name": "Cash",
       "team": "AVL",
       "now_cost": 43,
-      "status": "s",
-      "news": "Suspended until 21 Nov",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-31T22:00:07.593621Z"
     },
     "33": {
@@ -518,6 +518,14 @@
       "web_name": "Wright",
       "team": "AVL",
       "now_cost": 40,
+      "status": "a",
+      "news": "",
+      "news_added": null
+    },
+    "672": {
+      "web_name": "Ciss\u00e9",
+      "team": "AVL",
+      "now_cost": 45,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4070,8 +4078,8 @@
       "web_name": "Dorgu",
       "team": "MUN",
       "now_cost": 57,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-27T21:30:07.831640Z"
     },
     "416": {
@@ -4102,8 +4110,8 @@
       "web_name": "Martinez",
       "team": "MUN",
       "now_cost": 48,
-      "status": "s",
-      "news": "Suspended until 22 Nov",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-31T14:00:08.592593Z"
     },
     "420": {
@@ -5182,8 +5190,8 @@
       "web_name": "Alderete",
       "team": "SUN",
       "now_cost": 48,
-      "status": "s",
-      "news": "Suspended until 21 Nov",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-31T17:30:08.393957Z"
     },
     "536": {
@@ -5371,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-08T16:26:23.025969+00:00",
+  "last_snapshot_at": "2026-11-08T20:39:24.280603+00:00",
   "recapped_events": [
     1,
     2,
