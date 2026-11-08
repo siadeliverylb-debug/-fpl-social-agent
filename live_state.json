@@ -1226,7 +1226,8 @@
       "93:213:yellow_cards": 1,
       "93:372:yellow_cards": 1,
       "93:377:yellow_cards": 1,
-      "96:566:yellow_cards": 1
+      "96:566:yellow_cards": 1,
+      "93:379:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1698,10 +1699,10 @@
         "score": "1-0"
       },
       "93:a": {
-        "player": "Wirtz",
+        "player": "Isak",
         "team": "LIV",
-        "assisted_by": "Barcola",
-        "score": "0-2"
+        "assisted_by": null,
+        "score": "0-3"
       },
       "96:h": {
         "player": "Clarke",
@@ -1977,7 +1978,7 @@
       ],
       "93": [
         0,
-        2
+        3
       ],
       "96": [
         1,
@@ -3190,11 +3191,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "93:379:goals_scored": {
-        "value": 1,
-        "since": "2026-11-08T15:52:30.486513+00:00",
-        "minute": 89
       },
       "93:366:assists": {
         "value": 1,
@@ -5930,6 +5926,13 @@
       "type": "goal_update",
       "posted_at": "2026-11-08T15:36:41.569214+00:00",
       "tweet_id": "2119454065084023195",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:93:379:1",
+      "type": "goal",
+      "posted_at": "2026-11-08T15:55:59.005348+00:00",
+      "tweet_id": "2119458919688892871",
       "ig": "skipped (live event)"
     }
   ],
