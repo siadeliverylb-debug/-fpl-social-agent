@@ -1241,7 +1241,8 @@
       "98:52:assists": 1,
       "98:426:goals_scored": 1,
       "98:428:assists": 1,
-      "98:43:goals_scored": 1
+      "98:43:goals_scored": 1,
+      "98:422:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1739,7 +1740,7 @@
       "98:h": {
         "player": "Tielemans",
         "team": "MUN",
-        "assisted_by": null,
+        "assisted_by": "Mazraoui",
         "score": "2-2"
       }
     },
@@ -3232,11 +3233,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "98:422:assists": {
-        "value": 1,
-        "since": "2026-11-08T17:18:30.288054+00:00",
-        "minute": 44
       }
     },
     "event_tracking": {
@@ -6086,6 +6082,13 @@
       "type": "goal",
       "posted_at": "2026-11-08T17:21:15.625539+00:00",
       "tweet_id": "2119480380239544606",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:98:422:1",
+      "type": "goal_update",
+      "posted_at": "2026-11-08T17:21:58.378678+00:00",
+      "tweet_id": "2119480559780962628",
       "ig": "skipped (live event)"
     }
   ],
