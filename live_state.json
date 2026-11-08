@@ -1246,7 +1246,9 @@
       "98:45:goals_scored": 1,
       "98:618:goals_scored": 1,
       "98:421:yellow_cards": 1,
-      "98:166:assists": 1
+      "98:166:assists": 1,
+      "98:440:goals_scored": 1,
+      "98:415:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1742,10 +1744,10 @@
         "score": "2-4"
       },
       "98:h": {
-        "player": "Tielemans",
+        "player": "Zirkzee",
         "team": "MUN",
-        "assisted_by": "Mazraoui",
-        "score": "2-2"
+        "assisted_by": "Dorgu",
+        "score": "3-4"
       }
     },
     "posted_score": {
@@ -2026,7 +2028,7 @@
         0
       ],
       "98": [
-        2,
+        3,
         4
       ]
     },
@@ -3257,16 +3259,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "98:440:goals_scored": {
-        "value": 1,
-        "since": "2026-11-08T18:24:56.658489+00:00",
-        "minute": 90
-      },
-      "98:415:assists": {
-        "value": 1,
-        "since": "2026-11-08T18:24:56.658513+00:00",
-        "minute": 90
       }
     },
     "event_tracking": {
@@ -6151,6 +6143,13 @@
       "type": "goal_update",
       "posted_at": "2026-11-08T17:53:28.675527+00:00",
       "tweet_id": "2119488488013717873",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:98:440:1",
+      "type": "goal",
+      "posted_at": "2026-11-08T18:28:22.898320+00:00",
+      "tweet_id": "2119497272001954022",
       "ig": "skipped (live event)"
     }
   ],
