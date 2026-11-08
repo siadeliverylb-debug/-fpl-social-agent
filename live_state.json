@@ -1212,7 +1212,8 @@
       "96:305:own_goals": 1,
       "92:130:yellow_cards": 1,
       "100:541:yellow_cards": 1,
-      "100:552:yellow_cards": 1
+      "100:552:yellow_cards": 1,
+      "93:366:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1684,10 +1685,10 @@
         "score": "1-0"
       },
       "93:a": {
-        "player": "Mac Allister",
+        "player": "Wirtz",
         "team": "LIV",
-        "assisted_by": "Szoboszlai",
-        "score": "0-1"
+        "assisted_by": null,
+        "score": "0-2"
       }
     },
     "posted_score": {
@@ -1957,7 +1958,7 @@
       ],
       "93": [
         0,
-        1
+        2
       ],
       "96": [
         0,
@@ -3120,11 +3121,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "93:366:goals_scored": {
-        "value": 1,
-        "since": "2026-11-08T15:16:39.956458+00:00",
-        "minute": 54
       },
       "93:627:assists": {
         "value": 1,
@@ -5832,6 +5828,13 @@
       "type": "goal_update",
       "posted_at": "2026-11-08T15:09:45.968636+00:00",
       "tweet_id": "2119447288632254760",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:93:366:1",
+      "type": "goal",
+      "posted_at": "2026-11-08T15:20:07.377455+00:00",
+      "tweet_id": "2119449895123747173",
       "ig": "skipped (live event)"
     }
   ],
