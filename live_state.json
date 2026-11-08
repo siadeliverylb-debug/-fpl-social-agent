@@ -1207,7 +1207,9 @@
       "96:68:yellow_cards": 1,
       "93:368:assists": 1,
       "92:124:goals_scored": 1,
-      "92:504:assists": 1
+      "92:504:assists": 1,
+      "96:75:assists": 1,
+      "96:305:own_goals": 1
     },
     "last_goal": {
       "40:h": {
@@ -1669,7 +1671,7 @@
       "96:a": {
         "player": "Evanilson",
         "team": "BOU",
-        "assisted_by": null,
+        "assisted_by": "Christie",
         "score": "0-1"
       },
       "100:h": {
@@ -1956,7 +1958,7 @@
       ],
       "96": [
         0,
-        1
+        2
       ],
       "100": [
         1,
@@ -2537,7 +2539,8 @@
       "99:488": true,
       "99:491": true,
       "100:613": true,
-      "92:102": true
+      "92:102": true,
+      "92:130": true
     },
     "subs_baselined": {
       "31": true,
@@ -3104,16 +3107,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "96:75:assists": {
-        "value": 1,
-        "since": "2026-11-08T15:06:15.575436+00:00",
-        "minute": 45
-      },
-      "96:305:own_goals": {
-        "value": 1,
-        "since": "2026-11-08T15:06:15.575451+00:00",
-        "minute": 45
       }
     },
     "event_tracking": {
@@ -5802,6 +5795,20 @@
       "type": "goal",
       "posted_at": "2026-11-08T14:49:14.541207+00:00",
       "tweet_id": "2119442123795677346",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "own_goal:96:305:1",
+      "type": "own_goal",
+      "posted_at": "2026-11-08T15:09:42.822601+00:00",
+      "tweet_id": "2119447275512451466",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:96:75:1",
+      "type": "goal_update",
+      "posted_at": "2026-11-08T15:09:45.968636+00:00",
+      "tweet_id": "2119447288632254760",
       "ig": "skipped (live event)"
     }
   ],
