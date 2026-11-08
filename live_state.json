@@ -1237,7 +1237,8 @@
       "100:551:yellow_cards": 1,
       "98:52:goals_scored": 1,
       "98:45:assists": 1,
-      "98:166:goals_scored": 1
+      "98:166:goals_scored": 1,
+      "98:52:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1729,7 +1730,7 @@
       "98:a": {
         "player": "N.Jackson",
         "team": "AVL",
-        "assisted_by": null,
+        "assisted_by": "Alysson",
         "score": "0-2"
       }
     },
@@ -3222,11 +3223,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "98:52:assists": {
-        "value": 1,
-        "since": "2026-11-08T16:38:50.921691+00:00",
-        "minute": 4
       }
     },
     "event_tracking": {
@@ -6055,6 +6051,13 @@
       "type": "goal",
       "posted_at": "2026-11-08T16:41:37.248886+00:00",
       "tweet_id": "2119470404305572128",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:98:52:1",
+      "type": "goal_update",
+      "posted_at": "2026-11-08T16:42:20.191037+00:00",
+      "tweet_id": "2119470584937484424",
       "ig": "skipped (live event)"
     }
   ],
