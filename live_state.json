@@ -1200,7 +1200,11 @@
       "96:79:goals_scored": 1,
       "100:149:yellow_cards": 1,
       "100:542:goals_scored": 1,
-      "100:552:assists": 1
+      "100:552:assists": 1,
+      "93:372:goals_scored": 1,
+      "96:591:yellow_cards": 1,
+      "96:64:yellow_cards": 1,
+      "96:68:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -1670,6 +1674,12 @@
         "team": "SUN",
         "assisted_by": "Brobbey",
         "score": "1-0"
+      },
+      "93:a": {
+        "player": "Mac Allister",
+        "team": "LIV",
+        "assisted_by": null,
+        "score": "0-1"
       }
     },
     "posted_score": {
@@ -1939,7 +1949,7 @@
       ],
       "93": [
         0,
-        0
+        1
       ],
       "96": [
         0,
@@ -3090,11 +3100,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "93:372:goals_scored": {
-        "value": 1,
-        "since": "2026-11-08T14:42:58.873165+00:00",
-        "minute": 39
       },
       "93:368:assists": {
         "value": 1,
@@ -5777,6 +5782,13 @@
       "type": "goal",
       "posted_at": "2026-11-08T14:42:59.920123+00:00",
       "tweet_id": "2119440552152150368",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:93:372:1",
+      "type": "goal",
+      "posted_at": "2026-11-08T14:46:27.487527+00:00",
+      "tweet_id": "2119441423141347570",
       "ig": "skipped (live event)"
     }
   ],
