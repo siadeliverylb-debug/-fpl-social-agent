@@ -1234,7 +1234,9 @@
       "100:145:yellow_cards": 1,
       "93:224:goals_scored": 1,
       "93:647:assists": 1,
-      "100:551:yellow_cards": 1
+      "100:551:yellow_cards": 1,
+      "98:52:goals_scored": 1,
+      "98:45:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1722,6 +1724,12 @@
         "team": "CRY",
         "assisted_by": "Osorio",
         "score": "1-3"
+      },
+      "98:a": {
+        "player": "Alysson",
+        "team": "AVL",
+        "assisted_by": "McGinn",
+        "score": "0-1"
       }
     },
     "posted_score": {
@@ -2003,7 +2011,7 @@
       ],
       "98": [
         0,
-        0
+        1
       ]
     },
     "subs_seen": {
@@ -3214,19 +3222,14 @@
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
       },
-      "98:52:goals_scored": {
-        "value": 1,
-        "since": "2026-11-08T16:35:25.313683+00:00",
-        "minute": 1
-      },
-      "98:45:assists": {
-        "value": 1,
-        "since": "2026-11-08T16:35:25.313700+00:00",
-        "minute": 1
-      },
       "98:166:goals_scored": {
         "value": 1,
         "since": "2026-11-08T16:38:09.181810+00:00",
+        "minute": 4
+      },
+      "98:52:assists": {
+        "value": 1,
+        "since": "2026-11-08T16:38:50.921691+00:00",
         "minute": 4
       }
     },
@@ -6042,6 +6045,13 @@
       "type": "kickoff",
       "posted_at": "2026-11-08T16:30:38.519003+00:00",
       "tweet_id": "2119467641660154255",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:98:52:1",
+      "type": "goal",
+      "posted_at": "2026-11-08T16:38:52.025937+00:00",
+      "tweet_id": "2119469711599542750",
       "ig": "skipped (live event)"
     }
   ],
