@@ -1205,7 +1205,9 @@
       "96:591:yellow_cards": 1,
       "96:64:yellow_cards": 1,
       "96:68:yellow_cards": 1,
-      "93:368:assists": 1
+      "93:368:assists": 1,
+      "92:124:goals_scored": 1,
+      "92:504:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1659,10 +1661,10 @@
         "score": "2-1"
       },
       "92:h": {
-        "player": "Gomez",
+        "player": "Gro\u00df",
         "team": "BHA",
-        "assisted_by": null,
-        "score": "1-0"
+        "assisted_by": "Vuskovic",
+        "score": "2-0"
       },
       "96:a": {
         "player": "Evanilson",
@@ -1945,7 +1947,7 @@
         1
       ],
       "92": [
-        1,
+        2,
         0
       ],
       "93": [
@@ -3101,16 +3103,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "92:124:goals_scored": {
-        "value": 1,
-        "since": "2026-11-08T14:45:44.822675+00:00",
-        "minute": 42
-      },
-      "92:504:assists": {
-        "value": 1,
-        "since": "2026-11-08T14:45:44.822696+00:00",
-        "minute": 42
       }
     },
     "event_tracking": {
@@ -5792,6 +5784,13 @@
       "type": "goal_update",
       "posted_at": "2026-11-08T14:47:10.121016+00:00",
       "tweet_id": "2119441601923596522",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:92:124:1",
+      "type": "goal",
+      "posted_at": "2026-11-08T14:49:14.541207+00:00",
+      "tweet_id": "2119442123795677346",
       "ig": "skipped (live event)"
     }
   ],
