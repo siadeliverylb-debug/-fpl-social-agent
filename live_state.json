@@ -1238,7 +1238,7 @@
       "98:52:goals_scored": 1,
       "98:45:assists": 1,
       "98:166:goals_scored": 1,
-      "98:52:assists": 1,
+      "98:52:assists": 2,
       "98:426:goals_scored": 1,
       "98:428:assists": 1,
       "98:43:goals_scored": 1,
@@ -1735,7 +1735,7 @@
       "98:a": {
         "player": "McGinn",
         "team": "AVL",
-        "assisted_by": null,
+        "assisted_by": "Alysson",
         "score": "2-3"
       },
       "98:h": {
@@ -3236,11 +3236,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "98:52:assists": {
-        "value": 2,
-        "since": "2026-11-08T17:41:44.512244+00:00",
-        "minute": 48
       }
     },
     "event_tracking": {
@@ -6104,6 +6099,13 @@
       "type": "goal",
       "posted_at": "2026-11-08T17:44:30.557318+00:00",
       "tweet_id": "2119486230974886387",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:98:52:2",
+      "type": "goal_update",
+      "posted_at": "2026-11-08T17:45:13.226237+00:00",
+      "tweet_id": "2119486410109448426",
       "ig": "skipped (live event)"
     }
   ],
