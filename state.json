@@ -5393,23 +5393,6 @@
   ],
   "pending": [
     {
-      "key": "status:106:2026-11-08T14:30:09.097484Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:106:2026-11-08T14:30:09.097484Z",
-        "pid": "106",
-        "player": "Thiago",
-        "team": "BRE",
-        "status": "suspended",
-        "news": "Suspended until 5 Dec",
-        "category": "suspension"
-      },
-      "image_path": "assets/generated/status_106_2026-11-08T14_30_09.097484Z.png",
-      "caption": "\ud83d\udfe5 SUSPENDED: Thiago (BRE) is suspended.\n\"Suspended until 5 Dec\"\n\nCostly ban, or no big loss for his side? #FPL #FPLTips #FPLFamily #FPLCommunity\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-11-08T16:26:23.068994+00:00",
-      "auto": true
-    },
-    {
       "key": "injury_batch:3:ff537a6e364d",
       "story": {
         "type": "injury_batch",
@@ -5682,7 +5665,8 @@
     "form_cold:5:c69d80b24904",
     "injury_batch:1:3f1522d02559",
     "injury_batch:3:247d64b84ad0",
-    "form_hot:5:b45af2d2b7fc"
+    "form_hot:5:b45af2d2b7fc",
+    "status:106:2026-11-08T14:30:09.097484Z"
   ],
   "post_log": [
     {
@@ -6839,6 +6823,13 @@
       "type": "injury_batch",
       "posted_at": "2026-11-08T02:27:37.527899+00:00",
       "tweet_id": "2119255489238212641",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "status:106:2026-11-08T14:30:09.097484Z",
+      "type": "status_change",
+      "posted_at": "2026-11-08T20:45:50.211914+00:00",
+      "tweet_id": "2119531863731490820",
       "ig": "skipped (Instagram not configured)"
     }
   ],
