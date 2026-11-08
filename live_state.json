@@ -2644,7 +2644,8 @@
       "98:46": true,
       "98:54": true,
       "98:631": true,
-      "98:440": true
+      "98:440": true,
+      "98:582": true
     },
     "subs_baselined": {
       "31": true,
@@ -3151,7 +3152,8 @@
       "98:45": true,
       "98:52": true,
       "98:53": true,
-      "98:618": true
+      "98:618": true,
+      "98:427": true
     },
     "bonus_posted": {
       "31": true,
