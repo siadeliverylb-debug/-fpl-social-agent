@@ -279,7 +279,7 @@
       },
       "98": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       }
     },
     "stats": {
@@ -1249,7 +1249,9 @@
       "98:166:assists": 1,
       "98:440:goals_scored": 1,
       "98:415:assists": 1,
-      "98:597:yellow_cards": 1
+      "98:597:yellow_cards": 1,
+      "98:415:goals_scored": 1,
+      "98:426:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1745,10 +1747,10 @@
         "score": "2-4"
       },
       "98:h": {
-        "player": "Zirkzee",
+        "player": "Dorgu",
         "team": "MUN",
-        "assisted_by": "Dorgu",
-        "score": "3-4"
+        "assisted_by": "B.Fernandes",
+        "score": "4-4"
       }
     },
     "posted_score": {
@@ -2029,7 +2031,7 @@
         0
       ],
       "98": [
-        3,
+        4,
         4
       ]
     },
@@ -3228,7 +3230,8 @@
       "92": true,
       "93": true,
       "96": true,
-      "100": true
+      "100": true,
+      "98": true
     },
     "goal_pending": {
       "44:204:goals_scored": {
@@ -3260,16 +3263,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "98:415:goals_scored": {
-        "value": 1,
-        "since": "2026-11-08T18:29:04.971331+00:00",
-        "minute": 90
-      },
-      "98:426:assists": {
-        "value": 1,
-        "since": "2026-11-08T18:29:04.971355+00:00",
-        "minute": 90
       }
     },
     "event_tracking": {
@@ -6161,6 +6154,27 @@
       "type": "goal",
       "posted_at": "2026-11-08T18:28:22.898320+00:00",
       "tweet_id": "2119497272001954022",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:98:415:1",
+      "type": "goal",
+      "posted_at": "2026-11-08T18:32:30.859301+00:00",
+      "tweet_id": "2119498312055152850",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "fulltime:98",
+      "type": "full_time",
+      "posted_at": "2026-11-08T18:32:33.785910+00:00",
+      "tweet_id": "2119498324281532665",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "bonus:98",
+      "type": "bonus_points",
+      "posted_at": "2026-11-08T18:32:36.658690+00:00",
+      "tweet_id": "2119498336432447578",
       "ig": "skipped (live event)"
     }
   ],
