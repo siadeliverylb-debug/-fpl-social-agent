@@ -1218,7 +1218,8 @@
       "93:627:yellow_cards": 1,
       "100:156:yellow_cards": 1,
       "92:116:yellow_cards": 1,
-      "92:94:yellow_cards": 1
+      "92:94:yellow_cards": 1,
+      "93:211:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -2564,7 +2565,8 @@
       "100:144": true,
       "93:375": true,
       "93:377": true,
-      "92:108": true
+      "92:108": true,
+      "100:553": true
     },
     "subs_baselined": {
       "31": true,
