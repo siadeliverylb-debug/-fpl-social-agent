@@ -93,7 +93,7 @@
     "12": {
       "web_name": "Saka",
       "team": "ARS",
-      "now_cost": 95,
+      "now_cost": 94,
       "status": "i",
       "news": "Thigh injury - Unknown return date",
       "news_added": "2026-10-21T20:30:09.540957Z"
@@ -437,7 +437,7 @@
     "166": {
       "web_name": "N.Jackson",
       "team": "AVL",
-      "now_cost": 70,
+      "now_cost": 71,
       "status": "a",
       "news": "",
       "news_added": null
@@ -613,7 +613,7 @@
     "68": {
       "web_name": "Tavernier",
       "team": "BOU",
-      "now_cost": 66,
+      "now_cost": 67,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1509,7 +1509,7 @@
     "200": {
       "web_name": "Lacroix",
       "team": "CHE",
-      "now_cost": 59,
+      "now_cost": 58,
       "status": "i",
       "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-10-28T23:00:10.088612Z"
@@ -2853,7 +2853,7 @@
     "585": {
       "web_name": "Herrington",
       "team": "HUL",
-      "now_cost": 40,
+      "now_cost": 39,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3389,7 +3389,7 @@
     "349": {
       "web_name": "Mateo Joseph",
       "team": "LEE",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "i",
       "news": "Knee injury - Unknown return date",
       "news_added": "2026-07-29T18:00:10.338170Z"
@@ -4085,7 +4085,7 @@
     "417": {
       "web_name": "Dalot",
       "team": "MUN",
-      "now_cost": 48,
+      "now_cost": 47,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4157,7 +4157,7 @@
     "426": {
       "web_name": "B.Fernandes",
       "team": "MUN",
-      "now_cost": 117,
+      "now_cost": 116,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4293,7 +4293,7 @@
     "442": {
       "web_name": "Pope",
       "team": "NEW",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4509,7 +4509,7 @@
     "634": {
       "web_name": "Fernandez-Pardo",
       "team": "NEW",
-      "now_cost": 59,
+      "now_cost": 58,
       "status": "a",
       "news": "",
       "news_added": "2026-10-23T14:30:10.429365Z"
@@ -4565,7 +4565,7 @@
     "201": {
       "web_name": "Mu\u00f1oz",
       "team": "NFO",
-      "now_cost": 53,
+      "now_cost": 52,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5371,7 +5371,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-07T23:12:44.024331+00:00",
+  "last_snapshot_at": "2026-11-08T02:35:02.690908+00:00",
   "recapped_events": [
     1,
     2,
