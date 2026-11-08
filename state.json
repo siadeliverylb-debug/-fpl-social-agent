@@ -5371,7 +5371,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-08T02:35:02.690908+00:00",
+  "last_snapshot_at": "2026-11-08T09:40:18.704718+00:00",
   "recapped_events": [
     1,
     2,
@@ -5383,7 +5383,61 @@
     8,
     9
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_hot:5:b45af2d2b7fc",
+      "story": {
+        "type": "form_hot",
+        "key": "form_hot:5:b45af2d2b7fc",
+        "players": [
+          {
+            "name": "Konsa",
+            "team": "ARS",
+            "form": 9.0,
+            "total_points": 57,
+            "price_millions": 4.8,
+            "selected": 23.7
+          },
+          {
+            "name": "Gabriel",
+            "team": "ARS",
+            "form": 8.2,
+            "total_points": 66,
+            "price_millions": 8.1,
+            "selected": 25.6
+          },
+          {
+            "name": "Barry",
+            "team": "EVE",
+            "form": 7.0,
+            "total_points": 55,
+            "price_millions": 5.7,
+            "selected": 9.7
+          },
+          {
+            "name": "Evanilson",
+            "team": "BOU",
+            "form": 6.8,
+            "total_points": 52,
+            "price_millions": 6.5,
+            "selected": 22.2
+          },
+          {
+            "name": "Van Hecke",
+            "team": "TOT",
+            "form": 6.6,
+            "total_points": 57,
+            "price_millions": 5.0,
+            "selected": 13.6
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_5_b45af2d2b7fc.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Konsa (ARS) - 9.0 pts/game, \u00a34.8m\n2. Gabriel (ARS) - 8.2 pts/game, \u00a38.1m\n3. Barry (EVE) - 7.0 pts/game, \u00a35.7m\n4. Evanilson (BOU) - 6.8 pts/game, \u00a36.5m\n5. Van Hecke (TOT) - 6.6 pts/game, \u00a35.0m\n\nWho's in your team? Who are you buying? #FPL #FPLTips #PremierLeague #FPLFamily\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-11-08T09:40:18.764753+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -6779,10 +6833,10 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-11-07T15:25:42.043824+00:00",
-    "next": "hot",
-    "day": "2026-11-07",
-    "count": 2,
+    "last_at": "2026-11-08T09:40:18.704084+00:00",
+    "next": "cold",
+    "day": "2026-11-08",
+    "count": 1,
     "last_picks": {
       "cold": [
         "Szoboszlai",
@@ -6793,10 +6847,10 @@
       ],
       "hot": [
         "Konsa",
+        "Gabriel",
         "Barry",
         "Evanilson",
-        "Gabriel",
-        "N.Jackson"
+        "Van Hecke"
       ]
     }
   }
