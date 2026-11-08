@@ -1242,7 +1242,8 @@
       "98:426:goals_scored": 1,
       "98:428:assists": 1,
       "98:43:goals_scored": 1,
-      "98:422:assists": 1
+      "98:422:assists": 1,
+      "98:45:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1732,10 +1733,10 @@
         "score": "1-3"
       },
       "98:a": {
-        "player": "N.Jackson",
+        "player": "McGinn",
         "team": "AVL",
-        "assisted_by": "Alysson",
-        "score": "0-2"
+        "assisted_by": null,
+        "score": "2-3"
       },
       "98:h": {
         "player": "Tielemans",
@@ -2023,7 +2024,7 @@
       ],
       "98": [
         2,
-        2
+        3
       ]
     },
     "subs_seen": {
@@ -3235,11 +3236,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "98:45:goals_scored": {
-        "value": 1,
-        "since": "2026-11-08T17:41:02.869766+00:00",
-        "minute": 47
       },
       "98:52:assists": {
         "value": 2,
@@ -6101,6 +6097,13 @@
       "type": "goal_update",
       "posted_at": "2026-11-08T17:21:58.378678+00:00",
       "tweet_id": "2119480559780962628",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:98:45:1",
+      "type": "goal",
+      "posted_at": "2026-11-08T17:44:30.557318+00:00",
+      "tweet_id": "2119486230974886387",
       "ig": "skipped (live event)"
     }
   ],
