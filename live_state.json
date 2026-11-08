@@ -1195,7 +1195,9 @@
       "92:87:yellow_cards": 1,
       "92:106:red_cards": 1,
       "93:579:yellow_cards": 1,
-      "100:613:yellow_cards": 1
+      "100:613:yellow_cards": 1,
+      "92:127:goals_scored": 1,
+      "96:79:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1647,6 +1649,18 @@
         "team": "MCI",
         "assisted_by": null,
         "score": "2-1"
+      },
+      "92:h": {
+        "player": "Gomez",
+        "team": "BHA",
+        "assisted_by": null,
+        "score": "1-0"
+      },
+      "96:a": {
+        "player": "Evanilson",
+        "team": "BOU",
+        "assisted_by": null,
+        "score": "0-1"
       }
     },
     "posted_score": {
@@ -1911,7 +1925,7 @@
         1
       ],
       "92": [
-        0,
+        1,
         0
       ],
       "93": [
@@ -1920,7 +1934,7 @@
       ],
       "96": [
         0,
-        0
+        1
       ],
       "100": [
         0,
@@ -3067,16 +3081,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "92:127:goals_scored": {
-        "value": 1,
-        "since": "2026-11-08T14:33:46.441010+00:00",
-        "minute": 30
-      },
-      "96:79:goals_scored": {
-        "value": 1,
-        "since": "2026-11-08T14:33:46.441057+00:00",
-        "minute": 31
       }
     },
     "event_tracking": {
@@ -5723,6 +5727,20 @@
       "type": "kickoff",
       "posted_at": "2026-11-08T14:33:59.596309+00:00",
       "tweet_id": "2119438286133383463",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:92:127:1",
+      "type": "goal",
+      "posted_at": "2026-11-08T14:37:26.709275+00:00",
+      "tweet_id": "2119439154920501488",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:96:79:1",
+      "type": "goal",
+      "posted_at": "2026-11-08T14:37:29.674485+00:00",
+      "tweet_id": "2119439167243313238",
       "ig": "skipped (live event)"
     }
   ],
