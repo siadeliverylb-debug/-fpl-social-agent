@@ -1240,7 +1240,8 @@
       "98:166:goals_scored": 1,
       "98:52:assists": 1,
       "98:426:goals_scored": 1,
-      "98:428:assists": 1
+      "98:428:assists": 1,
+      "98:43:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1736,10 +1737,10 @@
         "score": "0-2"
       },
       "98:h": {
-        "player": "B.Fernandes",
+        "player": "Tielemans",
         "team": "MUN",
-        "assisted_by": "Cunha",
-        "score": "1-2"
+        "assisted_by": null,
+        "score": "2-2"
       }
     },
     "posted_score": {
@@ -2020,7 +2021,7 @@
         0
       ],
       "98": [
-        1,
+        2,
         2
       ]
     },
@@ -3231,11 +3232,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "98:43:goals_scored": {
-        "value": 1,
-        "since": "2026-11-08T17:17:48.813224+00:00",
-        "minute": 43
       },
       "98:422:assists": {
         "value": 1,
@@ -6083,6 +6079,13 @@
       "type": "goal",
       "posted_at": "2026-11-08T16:52:35.839123+00:00",
       "tweet_id": "2119473166892323107",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:98:43:1",
+      "type": "goal",
+      "posted_at": "2026-11-08T17:21:15.625539+00:00",
+      "tweet_id": "2119480380239544606",
       "ig": "skipped (live event)"
     }
   ],
