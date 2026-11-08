@@ -262,19 +262,19 @@
         "finished_provisional": true
       },
       "92": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "93": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "96": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "100": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "98": {
@@ -1189,7 +1189,13 @@
       "99:483:yellow_cards": 1,
       "99:480:assists": 1,
       "99:478:yellow_cards": 1,
-      "99:491:yellow_cards": 1
+      "99:491:yellow_cards": 1,
+      "92:114:yellow_cards": 1,
+      "92:639:yellow_cards": 1,
+      "92:87:yellow_cards": 1,
+      "92:106:red_cards": 1,
+      "93:579:yellow_cards": 1,
+      "100:613:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -2493,7 +2499,8 @@
       "99:478": true,
       "99:398": true,
       "99:488": true,
-      "99:491": true
+      "99:491": true,
+      "100:613": true
     },
     "subs_baselined": {
       "31": true,
@@ -2959,7 +2966,9 @@
       "99:486": true,
       "99:155": true,
       "99:489": true,
-      "99:167": true
+      "99:167": true,
+      "92:106": true,
+      "100:544": true
     },
     "bonus_posted": {
       "31": true,
@@ -3058,6 +3067,16 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
+      },
+      "92:127:goals_scored": {
+        "value": 1,
+        "since": "2026-11-08T14:33:46.441010+00:00",
+        "minute": 30
+      },
+      "96:79:goals_scored": {
+        "value": 1,
+        "since": "2026-11-08T14:33:46.441057+00:00",
+        "minute": 31
       }
     },
     "event_tracking": {
@@ -5669,6 +5688,41 @@
       "type": "bonus_points",
       "posted_at": "2026-11-07T19:28:11.738709+00:00",
       "tweet_id": "2119149936965300323",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "kickoff:92",
+      "type": "kickoff",
+      "posted_at": "2026-11-08T14:33:47.836319+00:00",
+      "tweet_id": "2119438236908949895",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "red_card:92:106:1",
+      "type": "red_card",
+      "posted_at": "2026-11-08T14:33:50.810049+00:00",
+      "tweet_id": "2119438249408016846",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "kickoff:93",
+      "type": "kickoff",
+      "posted_at": "2026-11-08T14:33:53.865366+00:00",
+      "tweet_id": "2119438261831581766",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "kickoff:96",
+      "type": "kickoff",
+      "posted_at": "2026-11-08T14:33:56.719126+00:00",
+      "tweet_id": "2119438274137583724",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "kickoff:100",
+      "type": "kickoff",
+      "posted_at": "2026-11-08T14:33:59.596309+00:00",
+      "tweet_id": "2119438286133383463",
       "ig": "skipped (live event)"
     }
   ],
