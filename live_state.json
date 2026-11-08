@@ -1227,7 +1227,8 @@
       "93:372:yellow_cards": 1,
       "93:377:yellow_cards": 1,
       "96:566:yellow_cards": 1,
-      "93:379:goals_scored": 1
+      "93:379:goals_scored": 1,
+      "93:366:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1701,7 +1702,7 @@
       "93:a": {
         "player": "Isak",
         "team": "LIV",
-        "assisted_by": null,
+        "assisted_by": "Wirtz",
         "score": "0-3"
       },
       "96:h": {
@@ -2594,7 +2595,10 @@
       "93:241": true,
       "93:588": true,
       "93:359": true,
-      "93:381": true
+      "93:381": true,
+      "100:170": true,
+      "100:548": true,
+      "100:551": true
     },
     "subs_baselined": {
       "31": true,
@@ -3191,11 +3195,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "93:366:assists": {
-        "value": 1,
-        "since": "2026-11-08T15:53:12.018153+00:00",
-        "minute": 89
       }
     },
     "event_tracking": {
@@ -5933,6 +5932,13 @@
       "type": "goal",
       "posted_at": "2026-11-08T15:55:59.005348+00:00",
       "tweet_id": "2119458919688892871",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:93:366:1",
+      "type": "goal_update",
+      "posted_at": "2026-11-08T15:56:41.697336+00:00",
+      "tweet_id": "2119459098794099083",
       "ig": "skipped (live event)"
     }
   ],
