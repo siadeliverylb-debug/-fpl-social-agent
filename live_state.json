@@ -1198,7 +1198,9 @@
       "100:613:yellow_cards": 1,
       "92:127:goals_scored": 1,
       "96:79:goals_scored": 1,
-      "100:149:yellow_cards": 1
+      "100:149:yellow_cards": 1,
+      "100:542:goals_scored": 1,
+      "100:552:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1662,6 +1664,12 @@
         "team": "BOU",
         "assisted_by": null,
         "score": "0-1"
+      },
+      "100:h": {
+        "player": "E.Le F\u00e9e",
+        "team": "SUN",
+        "assisted_by": "Brobbey",
+        "score": "1-0"
       }
     },
     "posted_score": {
@@ -1938,7 +1946,7 @@
         1
       ],
       "100": [
-        0,
+        1,
         0
       ],
       "98": [
@@ -3083,15 +3091,10 @@
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
       },
-      "100:542:goals_scored": {
+      "93:372:goals_scored": {
         "value": 1,
-        "since": "2026-11-08T14:39:34.054643+00:00",
-        "minute": 35
-      },
-      "100:552:assists": {
-        "value": 1,
-        "since": "2026-11-08T14:39:34.054659+00:00",
-        "minute": 35
+        "since": "2026-11-08T14:42:58.873165+00:00",
+        "minute": 39
       }
     },
     "event_tracking": {
@@ -5752,6 +5755,13 @@
       "type": "goal",
       "posted_at": "2026-11-08T14:37:29.674485+00:00",
       "tweet_id": "2119439167243313238",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:100:542:1",
+      "type": "goal",
+      "posted_at": "2026-11-08T14:42:59.920123+00:00",
+      "tweet_id": "2119440552152150368",
       "ig": "skipped (live event)"
     }
   ],
