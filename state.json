@@ -5379,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-09T06:56:58.243391+00:00",
+  "last_snapshot_at": "2026-11-09T17:02:58.078528+00:00",
   "recapped_events": [
     1,
     2,
@@ -5391,7 +5391,23 @@
     8,
     9
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "recap:10",
+      "story": {
+        "type": "gw_recap",
+        "key": "recap:10",
+        "gw": 10,
+        "most_captained": "Haaland",
+        "highest_score": 139,
+        "most_selected": "Haaland"
+      },
+      "image_path": "assets/generated/recap_10.png",
+      "caption": "\ud83d\udd25 GW10 is in the books. Top score: 139 pts. Most captained: Haaland.\n\nWhere did that leave your rank? #FPL #FPLTips #FPLTwitter #FantasyFootball\n\nFree AI advice for your own squad: fantasycoach.org",
+      "created_at": "2026-11-09T17:02:58.154392+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
