@@ -445,7 +445,7 @@
     "582": {
       "web_name": "Madjo",
       "team": "AVL",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": "2026-08-15T16:00:07.974271Z"
@@ -1965,7 +1965,7 @@
     "210": {
       "web_name": "Wharton",
       "team": "CRY",
-      "now_cost": 54,
+      "now_cost": 53,
       "status": "a",
       "news": "",
       "news_added": "2026-07-23T12:01:23.498963Z"
@@ -2029,7 +2029,7 @@
     "218": {
       "web_name": "Doucour\u00e9",
       "team": "CRY",
-      "now_cost": 48,
+      "now_cost": 47,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2486,8 +2486,8 @@
       "web_name": "King",
       "team": "FUL",
       "now_cost": 55,
-      "status": "d",
-      "news": "Groin injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-07T20:00:09.169385Z"
     },
     "269": {
@@ -3221,7 +3221,7 @@
     "260": {
       "web_name": "Wilson",
       "team": "LEE",
-      "now_cost": 62,
+      "now_cost": 61,
       "status": "a",
       "news": "",
       "news_added": "2026-09-18T13:30:09.626858Z"
@@ -3518,9 +3518,9 @@
       "web_name": "Virgil",
       "team": "LIV",
       "now_cost": 64,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-11-09T18:00:09.325472Z"
     },
     "357": {
       "web_name": "Frimpong",
@@ -3965,7 +3965,7 @@
     "481": {
       "web_name": "Anderson",
       "team": "MCI",
-      "now_cost": 63,
+      "now_cost": 62,
       "status": "a",
       "news": "",
       "news_added": "2026-08-23T17:00:07.952697Z"
@@ -5379,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-09T17:02:58.078528+00:00",
+  "last_snapshot_at": "2026-11-10T00:45:34.981506+00:00",
   "recapped_events": [
     1,
     2,
