@@ -5392,61 +5392,7 @@
     9,
     10
   ],
-  "pending": [
-    {
-      "key": "form_cold:5:9459dbce0f83",
-      "story": {
-        "type": "form_cold",
-        "key": "form_cold:5:9459dbce0f83",
-        "players": [
-          {
-            "name": "Jo\u00e3o Pedro",
-            "team": "CHE",
-            "form": 0.5,
-            "total_points": 47,
-            "price_millions": 7.6,
-            "selected": 32.2
-          },
-          {
-            "name": "Gvardiol",
-            "team": "MCI",
-            "form": 1.4,
-            "total_points": 44,
-            "price_millions": 5.6,
-            "selected": 23.1
-          },
-          {
-            "name": "Gu\u00e9hi",
-            "team": "MCI",
-            "form": 1.4,
-            "total_points": 37,
-            "price_millions": 6.0,
-            "selected": 14.3
-          },
-          {
-            "name": "Schade",
-            "team": "BRE",
-            "form": 1.5,
-            "total_points": 46,
-            "price_millions": 6.1,
-            "selected": 12.9
-          },
-          {
-            "name": "Szoboszlai",
-            "team": "LIV",
-            "form": 1.8,
-            "total_points": 29,
-            "price_millions": 6.7,
-            "selected": 13.4
-          }
-        ]
-      },
-      "image_path": "assets/generated/form_cold_5_9459dbce0f83.png",
-      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Jo\u00e3o Pedro (CHE) - 0.5 pts/game, \u00a37.6m, owned by 32%\n2. Gvardiol (MCI) - 1.4 pts/game, \u00a35.6m, owned by 23%\n3. Gu\u00e9hi (MCI) - 1.4 pts/game, \u00a36.0m, owned by 14%\n4. Schade (BRE) - 1.5 pts/game, \u00a36.1m, owned by 13%\n5. Szoboszlai (LIV) - 1.8 pts/game, \u00a36.7m, owned by 13%\n\nWho's getting binned first? #FPL #FPLTwitter #FPLFamily #FPLTips\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-11-10T07:51:55.696017+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5685,7 +5631,8 @@
     "form_hot:5:b45af2d2b7fc",
     "status:106:2026-11-08T14:30:09.097484Z",
     "injury_batch:3:ff537a6e364d",
-    "recap:10"
+    "recap:10",
+    "form_cold:5:9459dbce0f83"
   ],
   "post_log": [
     {
@@ -6856,6 +6803,13 @@
       "type": "gw_recap",
       "posted_at": "2026-11-09T18:45:52.915626+00:00",
       "tweet_id": "2119864064025510115",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "form_cold:5:9459dbce0f83",
+      "type": "form_cold",
+      "posted_at": "2026-11-10T09:46:04.733888+00:00",
+      "tweet_id": "2120090605900415209",
       "ig": "skipped (Instagram not configured)"
     }
   ],
