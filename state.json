@@ -5379,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-10T00:45:34.981506+00:00",
+  "last_snapshot_at": "2026-11-10T07:51:55.636291+00:00",
   "recapped_events": [
     1,
     2,
@@ -5392,7 +5392,61 @@
     9,
     10
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_cold:5:9459dbce0f83",
+      "story": {
+        "type": "form_cold",
+        "key": "form_cold:5:9459dbce0f83",
+        "players": [
+          {
+            "name": "Jo\u00e3o Pedro",
+            "team": "CHE",
+            "form": 0.5,
+            "total_points": 47,
+            "price_millions": 7.6,
+            "selected": 32.2
+          },
+          {
+            "name": "Gvardiol",
+            "team": "MCI",
+            "form": 1.4,
+            "total_points": 44,
+            "price_millions": 5.6,
+            "selected": 23.1
+          },
+          {
+            "name": "Gu\u00e9hi",
+            "team": "MCI",
+            "form": 1.4,
+            "total_points": 37,
+            "price_millions": 6.0,
+            "selected": 14.3
+          },
+          {
+            "name": "Schade",
+            "team": "BRE",
+            "form": 1.5,
+            "total_points": 46,
+            "price_millions": 6.1,
+            "selected": 12.9
+          },
+          {
+            "name": "Szoboszlai",
+            "team": "LIV",
+            "form": 1.8,
+            "total_points": 29,
+            "price_millions": 6.7,
+            "selected": 13.4
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_cold_5_9459dbce0f83.png",
+      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Jo\u00e3o Pedro (CHE) - 0.5 pts/game, \u00a37.6m, owned by 32%\n2. Gvardiol (MCI) - 1.4 pts/game, \u00a35.6m, owned by 23%\n3. Gu\u00e9hi (MCI) - 1.4 pts/game, \u00a36.0m, owned by 14%\n4. Schade (BRE) - 1.5 pts/game, \u00a36.1m, owned by 13%\n5. Szoboszlai (LIV) - 1.8 pts/game, \u00a36.7m, owned by 13%\n\nWho's getting binned first? #FPL #FPLTwitter #FPLFamily #FPLTips\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-11-10T07:51:55.696017+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -6806,17 +6860,17 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-11-08T09:40:18.704084+00:00",
-    "next": "cold",
-    "day": "2026-11-08",
+    "last_at": "2026-11-10T07:51:55.635782+00:00",
+    "next": "hot",
+    "day": "2026-11-10",
     "count": 1,
     "last_picks": {
       "cold": [
-        "Szoboszlai",
-        "B.Fernandes",
-        "Schade",
+        "Jo\u00e3o Pedro",
         "Gvardiol",
-        "Gu\u00e9hi"
+        "Gu\u00e9hi",
+        "Schade",
+        "Szoboszlai"
       ],
       "hot": [
         "Konsa",
