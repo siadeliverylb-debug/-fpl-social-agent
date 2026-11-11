@@ -5379,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-11T01:34:37.892595+00:00",
+  "last_snapshot_at": "2026-11-11T08:35:38.137649+00:00",
   "recapped_events": [
     1,
     2,
@@ -5392,7 +5392,61 @@
     9,
     10
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_cold:5:2cfa2f1b0afd",
+      "story": {
+        "type": "form_cold",
+        "key": "form_cold:5:2cfa2f1b0afd",
+        "players": [
+          {
+            "name": "Gu\u00e9hi",
+            "team": "MCI",
+            "form": 0.2,
+            "total_points": 37,
+            "price_millions": 6.0,
+            "selected": 14.2
+          },
+          {
+            "name": "Jo\u00e3o Pedro",
+            "team": "CHE",
+            "form": 0.5,
+            "total_points": 47,
+            "price_millions": 7.6,
+            "selected": 32.0
+          },
+          {
+            "name": "Gvardiol",
+            "team": "MCI",
+            "form": 0.8,
+            "total_points": 44,
+            "price_millions": 5.6,
+            "selected": 22.9
+          },
+          {
+            "name": "Schade",
+            "team": "BRE",
+            "form": 1.5,
+            "total_points": 46,
+            "price_millions": 6.1,
+            "selected": 12.9
+          },
+          {
+            "name": "Szoboszlai",
+            "team": "LIV",
+            "form": 2.2,
+            "total_points": 29,
+            "price_millions": 6.7,
+            "selected": 13.4
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_cold_5_2cfa2f1b0afd.png",
+      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Gu\u00e9hi (MCI) - 0.2 pts/game, \u00a36.0m, owned by 14%\n2. Jo\u00e3o Pedro (CHE) - 0.5 pts/game, \u00a37.6m, owned by 32%\n3. Gvardiol (MCI) - 0.8 pts/game, \u00a35.6m, owned by 23%\n4. Schade (BRE) - 1.5 pts/game, \u00a36.1m, owned by 13%\n5. Szoboszlai (LIV) - 2.2 pts/game, \u00a36.7m, owned by 13%\n\nHow many of these are in your team? #FPL #PremierLeague #FPLFamily #FantasyFootball\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-11-11T08:35:38.198685+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -6838,15 +6892,15 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-11-10T15:54:53.272061+00:00",
-    "next": "cold",
-    "day": "2026-11-10",
-    "count": 2,
+    "last_at": "2026-11-11T08:35:38.137139+00:00",
+    "next": "hot",
+    "day": "2026-11-11",
+    "count": 1,
     "last_picks": {
       "cold": [
+        "Gu\u00e9hi",
         "Jo\u00e3o Pedro",
         "Gvardiol",
-        "Gu\u00e9hi",
         "Schade",
         "Szoboszlai"
       ],
