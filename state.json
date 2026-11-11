@@ -997,7 +997,7 @@
     "109": {
       "web_name": "Verbruggen",
       "team": "BHA",
-      "now_cost": 46,
+      "now_cost": 47,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2261,7 +2261,7 @@
     "236": {
       "web_name": "Dewsbury-Hall",
       "team": "EVE",
-      "now_cost": 66,
+      "now_cost": 67,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4102,9 +4102,9 @@
       "web_name": "Maguire",
       "team": "MUN",
       "now_cost": 46,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Back injury - 75% chance of playing",
+      "news_added": "2026-11-11T01:00:09.173434Z"
     },
     "419": {
       "web_name": "Martinez",
@@ -4149,7 +4149,7 @@
     "424": {
       "web_name": "Amass",
       "team": "MUN",
-      "now_cost": 40,
+      "now_cost": 39,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5379,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-10T21:32:56.750951+00:00",
+  "last_snapshot_at": "2026-11-11T01:34:37.892595+00:00",
   "recapped_events": [
     1,
     2,
@@ -5392,7 +5392,29 @@
     9,
     10
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:93ac1946cb91",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:93ac1946cb91",
+        "injuries": [
+          {
+            "pid": "418",
+            "player": "Maguire",
+            "team": "MUN",
+            "status": "doubtful",
+            "news": "Back injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_93ac1946cb91.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Maguire (MUN) - doubtful: \"Back injury - 75% chance of playing\"\n\nHow are you covering this one? #FPL #FantasyFootball #FPLCommunity #PremierLeague\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-11-11T01:34:37.948991+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
