@@ -2062,9 +2062,9 @@
       "web_name": "Strand Larsen",
       "team": "CRY",
       "now_cost": 59,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-23T17:00:09.672494Z"
+      "status": "d",
+      "news": "Ankle injury - 75% chance of playing",
+      "news_added": "2026-11-11T13:00:09.556609Z"
     },
     "223": {
       "web_name": "Mateta",
@@ -5379,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-11T08:35:38.137649+00:00",
+  "last_snapshot_at": "2026-11-11T16:44:48.044308+00:00",
   "recapped_events": [
     1,
     2,
@@ -5392,7 +5392,29 @@
     9,
     10
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:1c6637a8f2e1",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:1c6637a8f2e1",
+        "injuries": [
+          {
+            "pid": "222",
+            "player": "Strand Larsen",
+            "team": "CRY",
+            "status": "doubtful",
+            "news": "Ankle injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_1c6637a8f2e1.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Strand Larsen (CRY) - doubtful: \"Ankle injury - 75% chance of playing\"\n\nHow are you covering this one? #FPL #FantasyFootball #FPLFamily #FPLCommunity\n\nRate your FPL team out of 10, free: fantasycoach.org/rate-my-team",
+      "created_at": "2026-11-11T16:44:48.117853+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
