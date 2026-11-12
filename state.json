@@ -398,9 +398,9 @@
       "web_name": "Manzambi",
       "team": "AVL",
       "now_cost": 62,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-17T19:30:09.768277Z"
+      "status": "d",
+      "news": "Calf injury - 75% chance of playing",
+      "news_added": "2026-11-12T13:00:05.872260Z"
     },
     "54": {
       "web_name": "Gomes",
@@ -5379,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-12T12:04:11.333724+00:00",
+  "last_snapshot_at": "2026-11-12T20:11:40.507278+00:00",
   "recapped_events": [
     1,
     2,
