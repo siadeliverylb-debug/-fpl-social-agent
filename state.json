@@ -5141,7 +5141,7 @@
     "529": {
       "web_name": "Roefs",
       "team": "SUN",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5379,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-13T22:16:46.924910+00:00",
+  "last_snapshot_at": "2026-11-14T02:31:44.722098+00:00",
   "recapped_events": [
     1,
     2,
