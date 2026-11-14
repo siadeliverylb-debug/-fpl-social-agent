@@ -5392,37 +5392,7 @@
     9,
     10
   ],
-  "pending": [
-    {
-      "key": "injury_batch:2:4329999b9e76",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:2:4329999b9e76",
-        "injuries": [
-          {
-            "pid": "639",
-            "player": "Andr\u00e9s",
-            "team": "BHA",
-            "status": "doubtful",
-            "news": "Hip injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "614",
-            "player": "Hadjam",
-            "team": "BHA",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_2_4329999b9e76.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (2):\n\n\ud83d\udea8 Andr\u00e9s (BHA) - doubtful: \"Hip injury - 75% chance of playing\"\n\ud83d\udea8 Hadjam (BHA) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nHow are you covering this one? #FPL #FPLTwitter #FPLCommunity #FantasyFootball\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-11-14T16:13:14.437477+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5667,7 +5637,8 @@
     "injury_batch:1:7edab1f00ca6",
     "injury_batch:1:93ac1946cb91",
     "form_cold:5:2cfa2f1b0afd",
-    "injury_batch:1:1c6637a8f2e1"
+    "injury_batch:1:1c6637a8f2e1",
+    "injury_batch:2:4329999b9e76"
   ],
   "post_log": [
     {
@@ -6880,6 +6851,13 @@
       "type": "injury_batch",
       "posted_at": "2026-11-11T18:41:01.173731+00:00",
       "tweet_id": "2120587616156578049",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "injury_batch:2:4329999b9e76",
+      "type": "injury_batch",
+      "posted_at": "2026-11-14T19:09:15.896251+00:00",
+      "tweet_id": "2121681887810793812",
       "ig": "skipped (Instagram not configured)"
     }
   ],
