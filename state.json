@@ -213,7 +213,7 @@
     "31": {
       "web_name": "Konsa",
       "team": "ARS",
-      "now_cost": 48,
+      "now_cost": 49,
       "status": "a",
       "news": "",
       "news_added": "2026-11-05T20:30:09.025008Z"
@@ -1005,7 +1005,7 @@
     "111": {
       "web_name": "Steele",
       "team": "BHA",
-      "now_cost": 40,
+      "now_cost": 39,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3525,7 +3525,7 @@
     "357": {
       "web_name": "Frimpong",
       "team": "LIV",
-      "now_cost": 52,
+      "now_cost": 51,
       "status": "i",
       "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-10-17T15:30:09.979166Z"
@@ -5379,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-14T20:49:48.427004+00:00",
+  "last_snapshot_at": "2026-11-15T00:29:43.965340+00:00",
   "recapped_events": [
     1,
     2,
