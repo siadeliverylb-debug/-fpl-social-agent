@@ -5379,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-16T06:54:39.722675+00:00",
+  "last_snapshot_at": "2026-11-16T16:35:28.969680+00:00",
   "recapped_events": [
     1,
     2,
@@ -5392,7 +5392,61 @@
     9,
     10
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_hot:5:3a7840affaad",
+      "story": {
+        "type": "form_hot",
+        "key": "form_hot:5:3a7840affaad",
+        "players": [
+          {
+            "name": "Konsa",
+            "team": "ARS",
+            "form": 10.2,
+            "total_points": 57,
+            "price_millions": 4.9,
+            "selected": 24.7
+          },
+          {
+            "name": "Gabriel",
+            "team": "ARS",
+            "form": 9.8,
+            "total_points": 66,
+            "price_millions": 8.1,
+            "selected": 26.2
+          },
+          {
+            "name": "Evanilson",
+            "team": "BOU",
+            "form": 9.0,
+            "total_points": 61,
+            "price_millions": 6.5,
+            "selected": 24.0
+          },
+          {
+            "name": "Barry",
+            "team": "EVE",
+            "form": 9.0,
+            "total_points": 55,
+            "price_millions": 5.7,
+            "selected": 10.8
+          },
+          {
+            "name": "N.Jackson",
+            "team": "AVL",
+            "form": 8.8,
+            "total_points": 54,
+            "price_millions": 7.1,
+            "selected": 31.5
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_5_3a7840affaad.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Konsa (ARS) - 10.2 pts/game, \u00a34.9m\n2. Gabriel (ARS) - 9.8 pts/game, \u00a38.1m\n3. Evanilson (BOU) - 9.0 pts/game, \u00a36.5m\n4. Barry (EVE) - 9.0 pts/game, \u00a35.7m\n5. N.Jackson (AVL) - 8.8 pts/game, \u00a37.1m\n\nTime to jump on one of them, or too late? #FPL #FantasyFootball #FPLCommunity #FPLTips\n\nTurn on notifications to catch these as they land.",
+      "created_at": "2026-11-16T16:35:29.012755+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -6878,10 +6932,10 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-11-11T08:35:38.137139+00:00",
-    "next": "hot",
-    "day": "2026-11-14",
-    "count": 0,
+    "last_at": "2026-11-16T16:35:28.969228+00:00",
+    "next": "cold",
+    "day": "2026-11-16",
+    "count": 1,
     "last_picks": {
       "cold": [
         "Gu\u00e9hi",
@@ -6894,8 +6948,8 @@
         "Konsa",
         "Gabriel",
         "Evanilson",
-        "N.Jackson",
-        "Vuskovic"
+        "Barry",
+        "N.Jackson"
       ]
     }
   }
