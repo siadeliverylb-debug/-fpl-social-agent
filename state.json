@@ -1837,7 +1837,7 @@
     "584": {
       "web_name": "Hamer",
       "team": "COV",
-      "now_cost": 53,
+      "now_cost": 52,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5379,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-15T20:01:12.090296+00:00",
+  "last_snapshot_at": "2026-11-16T00:03:51.970734+00:00",
   "recapped_events": [
     1,
     2,
