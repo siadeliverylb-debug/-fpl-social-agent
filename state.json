@@ -5392,53 +5392,7 @@
     9,
     10
   ],
-  "pending": [
-    {
-      "key": "injury_batch:4:2764df079a26",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:4:2764df079a26",
-        "injuries": [
-          {
-            "pid": "84",
-            "player": "Collins",
-            "team": "BRE",
-            "status": "doubtful",
-            "news": "Knee injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "586",
-            "player": "Mendy",
-            "team": "HUL",
-            "status": "doubtful",
-            "news": "Knee injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "469",
-            "player": "N.Williams",
-            "team": "NFO",
-            "status": "doubtful",
-            "news": "Ankle injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "19",
-            "player": "Zubimendi",
-            "team": "ARS",
-            "status": "doubtful",
-            "news": "Hamstring injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_4_2764df079a26.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (4):\n\n\ud83d\udea8 Collins (BRE) - doubtful: \"Knee injury - 75% chance of playing\"\n\ud83d\udea8 Mendy (HUL) - doubtful: \"Knee injury - 75% chance of playing\"\n\ud83d\udea8 N.Williams (NFO) - doubtful: \"Ankle injury - 75% chance of playing\"\n\ud83d\udea8 Zubimendi (ARS) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\nTime for a transfer, or riding it out? #FPL #FantasyPremierLeague #PremierLeague #FPLFamily\n\nFollow for the next one.",
-      "created_at": "2026-11-17T00:33:38.902063+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5687,7 +5641,8 @@
     "injury_batch:2:4329999b9e76",
     "injury_batch:1:cb4e5208b4cd",
     "injury_batch:1:9d6ad3cc125c",
-    "form_hot:5:3a7840affaad"
+    "form_hot:5:3a7840affaad",
+    "injury_batch:4:2764df079a26"
   ],
   "post_log": [
     {
@@ -6921,6 +6876,13 @@
       "type": "injury_batch",
       "posted_at": "2026-11-15T21:47:00.856525+00:00",
       "tweet_id": "2122083974507856094",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "injury_batch:4:2764df079a26",
+      "type": "injury_batch",
+      "posted_at": "2026-11-17T02:54:47.026355+00:00",
+      "tweet_id": "2122523815230017576",
       "ig": "skipped (Instagram not configured)"
     }
   ],
