@@ -5392,61 +5392,7 @@
     9,
     10
   ],
-  "pending": [
-    {
-      "key": "form_hot:5:a27d1784cd4f",
-      "story": {
-        "type": "form_hot",
-        "key": "form_hot:5:a27d1784cd4f",
-        "players": [
-          {
-            "name": "N.Jackson",
-            "team": "AVL",
-            "form": 11.0,
-            "total_points": 54,
-            "price_millions": 7.1,
-            "selected": 31.7
-          },
-          {
-            "name": "Konsa",
-            "team": "ARS",
-            "form": 10.7,
-            "total_points": 57,
-            "price_millions": 4.9,
-            "selected": 24.8
-          },
-          {
-            "name": "Gabriel",
-            "team": "ARS",
-            "form": 10.3,
-            "total_points": 66,
-            "price_millions": 8.1,
-            "selected": 26.2
-          },
-          {
-            "name": "Barry",
-            "team": "EVE",
-            "form": 9.0,
-            "total_points": 55,
-            "price_millions": 5.7,
-            "selected": 10.9
-          },
-          {
-            "name": "Evanilson",
-            "team": "BOU",
-            "form": 8.0,
-            "total_points": 61,
-            "price_millions": 6.5,
-            "selected": 24.1
-          }
-        ]
-      },
-      "image_path": "assets/generated/form_hot_5_a27d1784cd4f.png",
-      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. N.Jackson (AVL) - 11.0 pts/game, \u00a37.1m\n2. Konsa (ARS) - 10.7 pts/game, \u00a34.9m\n3. Gabriel (ARS) - 10.3 pts/game, \u00a38.1m\n4. Barry (EVE) - 9.0 pts/game, \u00a35.7m\n5. Evanilson (BOU) - 8.0 pts/game, \u00a36.5m\n\nWhich of these are you backing to keep it going? #FPL #FantasyPremierLeague #FantasyFootball #FPLTwitter\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-11-17T17:58:12.593276+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5697,7 +5643,8 @@
     "injury_batch:1:9d6ad3cc125c",
     "form_hot:5:3a7840affaad",
     "injury_batch:4:2764df079a26",
-    "form_cold:5:da80fd0551e2"
+    "form_cold:5:da80fd0551e2",
+    "form_hot:5:a27d1784cd4f"
   ],
   "post_log": [
     {
@@ -6938,6 +6885,13 @@
       "type": "injury_batch",
       "posted_at": "2026-11-17T02:54:47.026355+00:00",
       "tweet_id": "2122523815230017576",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "form_hot:5:a27d1784cd4f",
+      "type": "form_hot",
+      "posted_at": "2026-11-17T20:52:38.802128+00:00",
+      "tweet_id": "2122795068268433836",
       "ig": "skipped (Instagram not configured)"
     }
   ],
