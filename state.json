@@ -5392,61 +5392,7 @@
     9,
     10
   ],
-  "pending": [
-    {
-      "key": "form_cold:5:b407a76c5a45",
-      "story": {
-        "type": "form_cold",
-        "key": "form_cold:5:b407a76c5a45",
-        "players": [
-          {
-            "name": "Jo\u00e3o Pedro",
-            "team": "CHE",
-            "form": 0.0,
-            "total_points": 47,
-            "price_millions": 7.6,
-            "selected": 31.2
-          },
-          {
-            "name": "Gu\u00e9hi",
-            "team": "MCI",
-            "form": 0.0,
-            "total_points": 37,
-            "price_millions": 6.0,
-            "selected": 13.8
-          },
-          {
-            "name": "Gvardiol",
-            "team": "MCI",
-            "form": 1.0,
-            "total_points": 44,
-            "price_millions": 5.6,
-            "selected": 22.2
-          },
-          {
-            "name": "Mbeumo",
-            "team": "MUN",
-            "form": 1.7,
-            "total_points": 46,
-            "price_millions": 7.9,
-            "selected": 18.9
-          },
-          {
-            "name": "Calvert-Lewin",
-            "team": "LEE",
-            "form": 2.0,
-            "total_points": 39,
-            "price_millions": 6.0,
-            "selected": 17.4
-          }
-        ]
-      },
-      "image_path": "assets/generated/form_cold_5_b407a76c5a45.png",
-      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Jo\u00e3o Pedro (CHE) - 0.0 pts/game, \u00a37.6m, owned by 31%\n2. Gu\u00e9hi (MCI) - 0.0 pts/game, \u00a36.0m, owned by 14%\n3. Gvardiol (MCI) - 1.0 pts/game, \u00a35.6m, owned by 22%\n4. Mbeumo (MUN) - 1.7 pts/game, \u00a37.9m, owned by 19%\n5. Calvert-Lewin (LEE) - 2.0 pts/game, \u00a36.0m, owned by 17%\n\nWho's getting binned first? #FPL #FPLFamily #FantasyPremierLeague #FPLTwitter\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-11-18T07:50:23.725175+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5698,7 +5644,8 @@
     "form_hot:5:3a7840affaad",
     "injury_batch:4:2764df079a26",
     "form_cold:5:da80fd0551e2",
-    "form_hot:5:a27d1784cd4f"
+    "form_hot:5:a27d1784cd4f",
+    "form_cold:5:b407a76c5a45"
   ],
   "post_log": [
     {
