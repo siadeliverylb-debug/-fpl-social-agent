@@ -4381,7 +4381,7 @@
     "453": {
       "web_name": "Barnes",
       "team": "NEW",
-      "now_cost": 61,
+      "now_cost": 60,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5379,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-17T17:58:12.518017+00:00",
+  "last_snapshot_at": "2026-11-18T00:29:55.112885+00:00",
   "recapped_events": [
     1,
     2,
