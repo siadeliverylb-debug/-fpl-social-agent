@@ -5379,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-19T04:18:06.402044+00:00",
+  "last_snapshot_at": "2026-11-19T13:38:38.055901+00:00",
   "recapped_events": [
     1,
     2,
@@ -5392,7 +5392,61 @@
     9,
     10
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_hot:5:393f21c71989",
+      "story": {
+        "type": "form_hot",
+        "key": "form_hot:5:393f21c71989",
+        "players": [
+          {
+            "name": "N.Jackson",
+            "team": "AVL",
+            "form": 11.0,
+            "total_points": 54,
+            "price_millions": 7.1,
+            "selected": 32.3
+          },
+          {
+            "name": "Konsa",
+            "team": "ARS",
+            "form": 10.7,
+            "total_points": 57,
+            "price_millions": 4.9,
+            "selected": 25.0
+          },
+          {
+            "name": "Gabriel",
+            "team": "ARS",
+            "form": 10.3,
+            "total_points": 66,
+            "price_millions": 8.1,
+            "selected": 26.3
+          },
+          {
+            "name": "Barry",
+            "team": "EVE",
+            "form": 9.0,
+            "total_points": 55,
+            "price_millions": 5.7,
+            "selected": 11.0
+          },
+          {
+            "name": "Van Hecke",
+            "team": "TOT",
+            "form": 8.7,
+            "total_points": 57,
+            "price_millions": 5.1,
+            "selected": 15.4
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_5_393f21c71989.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. N.Jackson (AVL) - 11.0 pts/game, \u00a37.1m\n2. Konsa (ARS) - 10.7 pts/game, \u00a34.9m\n3. Gabriel (ARS) - 10.3 pts/game, \u00a38.1m\n4. Barry (EVE) - 9.0 pts/game, \u00a35.7m\n5. Van Hecke (TOT) - 8.7 pts/game, \u00a35.1m\n\nWhich of these are you backing to keep it going? #FPL #FPLTwitter #FPLTips #FantasyPremierLeague\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-11-19T13:38:38.130226+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -6897,9 +6951,9 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-11-18T07:50:23.644194+00:00",
-    "next": "hot",
-    "day": "2026-11-18",
+    "last_at": "2026-11-19T13:38:38.055077+00:00",
+    "next": "cold",
+    "day": "2026-11-19",
     "count": 1,
     "last_picks": {
       "cold": [
@@ -6914,7 +6968,7 @@
         "Konsa",
         "Gabriel",
         "Barry",
-        "Evanilson"
+        "Van Hecke"
       ]
     }
   }
