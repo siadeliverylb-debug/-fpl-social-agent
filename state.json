@@ -333,7 +333,7 @@
     "45": {
       "web_name": "McGinn",
       "team": "AVL",
-      "now_cost": 54,
+      "now_cost": 55,
       "status": "a",
       "news": "",
       "news_added": null
@@ -461,7 +461,7 @@
     "597": {
       "web_name": "Suzuki",
       "team": "AVL",
-      "now_cost": 50,
+      "now_cost": 51,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1109,7 +1109,7 @@
     "125": {
       "web_name": "Georginio",
       "team": "BHA",
-      "now_cost": 53,
+      "now_cost": 52,
       "status": "a",
       "news": "",
       "news_added": "2026-08-26T16:00:07.608056Z"
@@ -1125,7 +1125,7 @@
     "127": {
       "web_name": "Gomez",
       "team": "BHA",
-      "now_cost": 50,
+      "now_cost": 51,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2525,7 +2525,7 @@
     "569": {
       "web_name": "Gonzalo",
       "team": "FUL",
-      "now_cost": 59,
+      "now_cost": 58,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3693,7 +3693,7 @@
     "378": {
       "web_name": "McConnell",
       "team": "LIV",
-      "now_cost": 44,
+      "now_cost": 43,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5379,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-18T23:12:50.805193+00:00",
+  "last_snapshot_at": "2026-11-19T04:18:06.402044+00:00",
   "recapped_events": [
     1,
     2,
