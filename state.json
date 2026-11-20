@@ -95,7 +95,7 @@
       "team": "ARS",
       "now_cost": 94,
       "status": "i",
-      "news": "Thigh injury - Unknown return date",
+      "news": "Thigh injury - Expected back 20 Dec",
       "news_added": "2026-10-21T20:30:09.540957Z"
     },
     "13": {
@@ -150,8 +150,8 @@
       "web_name": "Zubimendi",
       "team": "ARS",
       "now_cost": 52,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "i",
+      "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-11-16T19:00:05.154377Z"
     },
     "20": {
@@ -5379,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-20T02:44:31.280609+00:00",
+  "last_snapshot_at": "2026-11-20T10:41:50.704624+00:00",
   "recapped_events": [
     1,
     2,
@@ -6908,8 +6908,8 @@
   "form_spotlight": {
     "last_at": "2026-11-19T13:38:38.055077+00:00",
     "next": "cold",
-    "day": "2026-11-19",
-    "count": 1,
+    "day": "2026-11-20",
+    "count": 0,
     "last_picks": {
       "cold": [
         "Jo\u00e3o Pedro",
