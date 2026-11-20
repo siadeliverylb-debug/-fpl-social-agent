@@ -5392,75 +5392,7 @@
     9,
     10
   ],
-  "pending": [
-    {
-      "key": "injury_batch:5:bb4a0c426384",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:5:bb4a0c426384",
-        "injuries": [
-          {
-            "pid": "325",
-            "player": "Darlow",
-            "team": "MUN",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "421",
-            "player": "Heaven",
-            "team": "MUN",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "393",
-            "player": "Khusanov",
-            "team": "MCI",
-            "status": "doubtful",
-            "news": "Unspecified injury - 50% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "389",
-            "player": "Matheus N.",
-            "team": "MCI",
-            "status": "doubtful",
-            "news": "Unspecified injury - 50% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "147",
-            "player": "Tosin",
-            "team": "TOT",
-            "status": "injured",
-            "news": "Calf injury - Expected back 29 Nov",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_5_bb4a0c426384.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (5):\n\n\ud83d\udea8 Darlow (MUN) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Heaven (MUN) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Khusanov (MCI) - doubtful: \"Unspecified injury - 50% chance of playing\"\n\ud83d\udea8 Matheus N. (MCI) - doubtful: \"Unspecified injury - 50% chance of playing\"\n\ud83d\udea8 Tosin (TOT) - injured: \"Calf injury - Expected back 29 Nov\"\n\nDoes this wreck your GW plan? #FPL #FPLFamily #FantasyPremierLeague #FPLTips\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-11-20T18:54:10.372768+00:00",
-      "auto": true
-    },
-    {
-      "key": "deadline:11:24h",
-      "story": {
-        "type": "deadline_reminder",
-        "key": "deadline:11:24h",
-        "gw": 11,
-        "bucket": "24h",
-        "hours_until": 16.1
-      },
-      "image_path": "assets/generated/deadline_11_24h.png",
-      "caption": "\u23f0 GW11 deadline in 24h! Last chance to make your move.\n\n#FPL #FantasyFootball #PremierLeague #FPLFamily\n\nIs your team any good? Free AI rating: fantasycoach.org/rate-my-team",
-      "created_at": "2026-11-20T18:54:10.429788+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5715,7 +5647,9 @@
     "form_hot:5:a27d1784cd4f",
     "form_cold:5:b407a76c5a45",
     "form_hot:5:393f21c71989",
-    "injury_batch:3:5a469d68a086"
+    "injury_batch:3:5a469d68a086",
+    "injury_batch:5:bb4a0c426384",
+    "deadline:11:24h"
   ],
   "post_log": [
     {
@@ -6970,6 +6904,13 @@
       "type": "injury_batch",
       "posted_at": "2026-11-20T00:55:03.166169+00:00",
       "tweet_id": "2123580847555334331",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "injury_batch:5:bb4a0c426384",
+      "type": "injury_batch",
+      "posted_at": "2026-11-20T23:20:28.846163+00:00",
+      "tweet_id": "2123919435589177704",
       "ig": "skipped (Instagram not configured)"
     }
   ],
