@@ -254,8 +254,8 @@
       "web_name": "Cash",
       "team": "AVL",
       "now_cost": 43,
-      "status": "d",
-      "news": "Concussion - 75% chance of playing",
+      "status": "i",
+      "news": "Concussion - Expected back 28 Nov",
       "news_added": "2026-11-15T10:30:05.648897Z"
     },
     "33": {
@@ -398,8 +398,8 @@
       "web_name": "Manzambi",
       "team": "AVL",
       "now_cost": 62,
-      "status": "d",
-      "news": "Calf injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-12T13:00:05.872260Z"
     },
     "54": {
@@ -486,8 +486,8 @@
       "web_name": "Wan-Bissaka",
       "team": "AVL",
       "now_cost": 45,
-      "status": "d",
-      "news": "Hamstring injury - 50% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-17T19:30:10.120990Z"
     },
     "618": {
@@ -782,8 +782,8 @@
       "web_name": "Collins",
       "team": "BRE",
       "now_cost": 54,
-      "status": "d",
-      "news": "Knee injury - 75% chance of playing",
+      "status": "i",
+      "news": "Knee injury - Expected back 2 Dec",
       "news_added": "2026-11-16T19:00:05.204970Z"
     },
     "85": {
@@ -830,8 +830,8 @@
       "web_name": "Hickey",
       "team": "BRE",
       "now_cost": 45,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "i",
+      "news": "Hamstring injury - Expected back 2 Dec",
       "news_added": "2026-11-17T11:00:05.107723Z"
     },
     "92": {
@@ -902,8 +902,8 @@
       "web_name": "Carvalho",
       "team": "BRE",
       "now_cost": 50,
-      "status": "i",
-      "news": "Knock - Expected back 23 Nov",
+      "status": "d",
+      "news": "Knock - 75% chance of playing",
       "news_added": "2026-10-30T14:30:09.456391Z"
     },
     "102": {
@@ -918,8 +918,8 @@
       "web_name": "Dasilva",
       "team": "BRE",
       "now_cost": 48,
-      "status": "d",
-      "news": "Hamstring injury - 25% chance of playing",
+      "status": "i",
+      "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-09-04T13:30:08.371955Z"
     },
     "105": {
@@ -1079,7 +1079,7 @@
       "team": "BHA",
       "now_cost": 59,
       "status": "i",
-      "news": "Hamstring injury - Expected back 22 Nov",
+      "news": "Hamstring injury - Expected back 2 Dec",
       "news_added": "2026-07-24T18:30:10.661894Z"
     },
     "122": {
@@ -1183,7 +1183,7 @@
       "team": "BHA",
       "now_cost": 48,
       "status": "i",
-      "news": "Unspecified injury - Expected back 22 Nov",
+      "news": "Unspecified injury - Unknown return date",
       "news_added": "2026-09-10T13:00:08.617941Z"
     },
     "137": {
@@ -1214,8 +1214,8 @@
       "web_name": "Struijk",
       "team": "BHA",
       "now_cost": 49,
-      "status": "i",
-      "news": "Hamstring injury - Expected back 8 Nov",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-16T17:30:09.428175Z"
     },
     "504": {
@@ -1270,16 +1270,16 @@
       "web_name": "Andr\u00e9s",
       "team": "BHA",
       "now_cost": 55,
-      "status": "d",
-      "news": "Hip injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-14T15:00:05.235535Z"
     },
     "652": {
       "web_name": "Azeez",
       "team": "BHA",
       "now_cost": 55,
-      "status": "i",
-      "news": "Hamstring injury - Expected back 8 Nov",
+      "status": "a",
+      "news": "",
       "news_added": "2026-09-04T11:30:08.661589Z"
     },
     "658": {
@@ -1294,8 +1294,8 @@
       "web_name": "Martinez",
       "team": "CHE",
       "now_cost": 49,
-      "status": "d",
-      "news": "Head injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-17T13:30:08.724000Z"
     },
     "40": {
@@ -1383,7 +1383,7 @@
       "team": "CHE",
       "now_cost": 45,
       "status": "i",
-      "news": "Unspecified injury - Unknown return date",
+      "news": "Back injury - Unknown return date",
       "news_added": "2026-10-29T22:00:09.909621Z"
     },
     "149": {
@@ -1406,8 +1406,8 @@
       "web_name": "Acheampong",
       "team": "CHE",
       "now_cost": 45,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-08T15:00:09.230933Z"
     },
     "152": {
@@ -1454,8 +1454,8 @@
       "web_name": "Caicedo",
       "team": "CHE",
       "now_cost": 53,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-19T20:30:06.307481Z"
     },
     "161": {
@@ -2374,9 +2374,9 @@
       "web_name": "Lecomte",
       "team": "FUL",
       "now_cost": 40,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "i",
+      "news": "Achilles injury - Unknown return date",
+      "news_added": "2026-11-20T11:30:05.525769Z"
     },
     "252": {
       "web_name": "McNally",
@@ -2446,9 +2446,9 @@
       "web_name": "Smith Rowe",
       "team": "FUL",
       "now_cost": 52,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-23T11:30:09.310090Z"
+      "status": "i",
+      "news": "Hip injury - Expected back 29 Nov",
+      "news_added": "2026-11-20T11:30:05.541395Z"
     },
     "263": {
       "web_name": "Kevin",
@@ -2478,8 +2478,8 @@
       "web_name": "Cairney",
       "team": "FUL",
       "now_cost": 49,
-      "status": "i",
-      "news": "Knee injury - Expected back 21 Nov",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-06T10:30:09.529201Z"
     },
     "268": {
@@ -2702,8 +2702,8 @@
       "web_name": "Belloumi",
       "team": "HUL",
       "now_cost": 53,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-10T19:00:09.431074Z"
     },
     "287": {
@@ -2870,8 +2870,8 @@
       "web_name": "Mendy",
       "team": "HUL",
       "now_cost": 41,
-      "status": "d",
-      "news": "Knee injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-16T19:00:05.574151Z"
     },
     "589": {
@@ -3518,16 +3518,16 @@
       "web_name": "Virgil",
       "team": "LIV",
       "now_cost": 64,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-09T18:00:09.325472Z"
     },
     "357": {
       "web_name": "Frimpong",
       "team": "LIV",
       "now_cost": 51,
-      "status": "i",
-      "news": "Hamstring injury - Unknown return date",
+      "status": "d",
+      "news": "Hamstring injury - 75% chance of playing",
       "news_added": "2026-10-17T15:30:09.979166Z"
     },
     "358": {
@@ -3799,16 +3799,16 @@
       "team": "MCI",
       "now_cost": 60,
       "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "news": "Hip injury - 75% chance of playing",
       "news_added": "2026-11-07T21:30:08.741792Z"
     },
     "389": {
       "web_name": "Matheus N.",
       "team": "MCI",
       "now_cost": 59,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-19T15:30:09.094655Z"
+      "status": "d",
+      "news": "Unspecified injury - 50% chance of playing",
+      "news_added": "2026-11-20T15:30:06.460505Z"
     },
     "390": {
       "web_name": "R\u00faben",
@@ -3822,8 +3822,8 @@
       "web_name": "Gvardiol",
       "team": "MCI",
       "now_cost": 56,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-07T21:30:08.752464Z"
     },
     "392": {
@@ -3838,9 +3838,9 @@
       "web_name": "Khusanov",
       "team": "MCI",
       "now_cost": 53,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 50% chance of playing",
+      "news_added": "2026-11-20T15:30:06.486420Z"
     },
     "394": {
       "web_name": "Alleyne",
@@ -4046,9 +4046,9 @@
       "web_name": "Darlow",
       "team": "MUN",
       "now_cost": 45,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-21T13:30:08.885505Z"
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-11-20T17:00:04.943349Z"
     },
     "412": {
       "web_name": "Lammens",
@@ -4126,9 +4126,9 @@
       "web_name": "Heaven",
       "team": "MUN",
       "now_cost": 43,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-20T20:00:09.902224Z"
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-11-20T17:30:06.088714Z"
     },
     "422": {
       "web_name": "Mazraoui",
@@ -4814,9 +4814,9 @@
       "web_name": "Tosin",
       "team": "TOT",
       "now_cost": 43,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-29T17:00:09.335810Z"
+      "status": "i",
+      "news": "Calf injury - Expected back 29 Nov",
+      "news_added": "2026-11-20T15:30:06.265590Z"
     },
     "401": {
       "web_name": "Marmoush",
@@ -4830,8 +4830,8 @@
       "web_name": "S\u00e1vio",
       "team": "TOT",
       "now_cost": 64,
-      "status": "i",
-      "news": "Muscular injury - Expected back 21 Nov",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-18T13:00:09.266321Z"
     },
     "455": {
@@ -4990,8 +4990,8 @@
       "web_name": "Tel",
       "team": "TOT",
       "now_cost": 56,
-      "status": "d",
-      "news": "Ankle injury - 75% chance of playing",
+      "status": "i",
+      "news": "Ankle injury - Expected back 6 Dec",
       "news_added": "2026-11-07T18:30:09.104275Z"
     },
     "515": {
@@ -5038,8 +5038,8 @@
       "web_name": "Bergvall",
       "team": "TOT",
       "now_cost": 53,
-      "status": "i",
-      "news": "Knee injury - Unknown return date",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-18T13:00:09.356060Z"
     },
     "521": {
@@ -5379,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-20T10:41:50.704624+00:00",
+  "last_snapshot_at": "2026-11-20T18:54:10.298869+00:00",
   "recapped_events": [
     1,
     2,
@@ -5392,7 +5392,75 @@
     9,
     10
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:5:bb4a0c426384",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:5:bb4a0c426384",
+        "injuries": [
+          {
+            "pid": "325",
+            "player": "Darlow",
+            "team": "MUN",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "421",
+            "player": "Heaven",
+            "team": "MUN",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "393",
+            "player": "Khusanov",
+            "team": "MCI",
+            "status": "doubtful",
+            "news": "Unspecified injury - 50% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "389",
+            "player": "Matheus N.",
+            "team": "MCI",
+            "status": "doubtful",
+            "news": "Unspecified injury - 50% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "147",
+            "player": "Tosin",
+            "team": "TOT",
+            "status": "injured",
+            "news": "Calf injury - Expected back 29 Nov",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_5_bb4a0c426384.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (5):\n\n\ud83d\udea8 Darlow (MUN) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Heaven (MUN) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Khusanov (MCI) - doubtful: \"Unspecified injury - 50% chance of playing\"\n\ud83d\udea8 Matheus N. (MCI) - doubtful: \"Unspecified injury - 50% chance of playing\"\n\ud83d\udea8 Tosin (TOT) - injured: \"Calf injury - Expected back 29 Nov\"\n\nDoes this wreck your GW plan? #FPL #FPLFamily #FantasyPremierLeague #FPLTips\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-11-20T18:54:10.372768+00:00",
+      "auto": true
+    },
+    {
+      "key": "deadline:11:24h",
+      "story": {
+        "type": "deadline_reminder",
+        "key": "deadline:11:24h",
+        "gw": 11,
+        "bucket": "24h",
+        "hours_until": 16.1
+      },
+      "image_path": "assets/generated/deadline_11_24h.png",
+      "caption": "\u23f0 GW11 deadline in 24h! Last chance to make your move.\n\n#FPL #FantasyFootball #PremierLeague #FPLFamily\n\nIs your team any good? Free AI rating: fantasycoach.org/rate-my-team",
+      "created_at": "2026-11-20T18:54:10.429788+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
