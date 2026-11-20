@@ -437,7 +437,7 @@
     "166": {
       "web_name": "N.Jackson",
       "team": "AVL",
-      "now_cost": 71,
+      "now_cost": 72,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1925,7 +1925,7 @@
     "204": {
       "web_name": "Mitchell",
       "team": "CRY",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": null
@@ -1959,7 +1959,7 @@
       "team": "CRY",
       "now_cost": 62,
       "status": "i",
-      "news": "Groin injury - Expected back 21 Nov",
+      "news": "Groin injury - Expected back 29 Nov",
       "news_added": "2026-10-27T10:30:09.385934Z"
     },
     "210": {
@@ -2111,7 +2111,7 @@
       "team": "CRY",
       "now_cost": 43,
       "status": "i",
-      "news": "Calf injury - Expected back 21 Nov",
+      "news": "Calf injury - Expected back 29 Nov",
       "news_added": "2026-09-21T13:30:09.030724Z"
     },
     "588": {
@@ -2533,7 +2533,7 @@
     "570": {
       "web_name": "Palacios",
       "team": "FUL",
-      "now_cost": 53,
+      "now_cost": 52,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3117,7 +3117,7 @@
     "321": {
       "web_name": "Walle Egeli",
       "team": "IPS",
-      "now_cost": 45,
+      "now_cost": 44,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5379,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-19T21:54:53.135777+00:00",
+  "last_snapshot_at": "2026-11-20T02:44:31.280609+00:00",
   "recapped_events": [
     1,
     2,
