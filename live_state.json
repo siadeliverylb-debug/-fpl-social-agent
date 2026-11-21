@@ -1309,7 +1309,8 @@
       "102:60:assists": 1,
       "104:170:goals_scored": 1,
       "104:40:assists": 1,
-      "104:336:goals_scored": 1
+      "104:336:goals_scored": 1,
+      "104:346:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1855,7 +1856,7 @@
       "104:a": {
         "player": "Okafor",
         "team": "LEE",
-        "assisted_by": null,
+        "assisted_by": "Calvert-Lewin",
         "score": "1-1"
       }
     },
@@ -3483,11 +3484,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "104:346:assists": {
-        "value": 1,
-        "since": "2026-11-21T15:30:12.522158+00:00",
-        "minute": 29
       },
       "105:185:goals_scored": {
         "value": 1,
@@ -6550,6 +6546,13 @@
       "type": "goal",
       "posted_at": "2026-11-21T15:33:01.643286+00:00",
       "tweet_id": "2124164184866701553",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:104:346:1",
+      "type": "goal_update",
+      "posted_at": "2026-11-21T15:33:44.770473+00:00",
+      "tweet_id": "2124164365695832267",
       "ig": "skipped (live event)"
     }
   ],
