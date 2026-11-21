@@ -5392,29 +5392,7 @@
     9,
     10
   ],
-  "pending": [
-    {
-      "key": "injury_batch:1:cb7a1d775e80",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:cb7a1d775e80",
-        "injuries": [
-          {
-            "pid": "37",
-            "player": "Lindel\u00f6f",
-            "team": "AVL",
-            "status": "doubtful",
-            "news": "Illness - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_cb7a1d775e80.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Lindel\u00f6f (AVL) - doubtful: \"Illness - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FPLTwitter #FantasyPremierLeague #FPLFamily\n\nFree AI advice for your own squad: fantasycoach.org",
-      "created_at": "2026-11-21T15:44:09.211958+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5671,7 +5649,8 @@
     "form_hot:5:393f21c71989",
     "injury_batch:3:5a469d68a086",
     "injury_batch:5:bb4a0c426384",
-    "deadline:11:24h"
+    "deadline:11:24h",
+    "injury_batch:1:cb7a1d775e80"
   ],
   "post_log": [
     {
@@ -6933,6 +6912,13 @@
       "type": "injury_batch",
       "posted_at": "2026-11-20T23:20:28.846163+00:00",
       "tweet_id": "2123919435589177704",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "injury_batch:1:cb7a1d775e80",
+      "type": "injury_batch",
+      "posted_at": "2026-11-21T20:05:06.507715+00:00",
+      "tweet_id": "2124232656380387435",
       "ig": "skipped (Instagram not configured)"
     }
   ],
