@@ -1334,7 +1334,8 @@
       "104:338:assists": 1,
       "104:330:yellow_cards": 1,
       "105:211:yellow_cards": 1,
-      "110:512:yellow_cards": 1
+      "110:512:yellow_cards": 1,
+      "110:259:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -2862,7 +2863,10 @@
       "104:144": true,
       "104:164": true,
       "105:203": true,
-      "110:502": true
+      "110:502": true,
+      "102:473": true,
+      "105:42": true,
+      "105:224": true
     },
     "subs_baselined": {
       "31": true,
