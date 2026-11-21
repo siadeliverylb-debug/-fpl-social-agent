@@ -1327,7 +1327,8 @@
       "110:526:goals_scored": 1,
       "110:601:assists": 1,
       "102:201:yellow_cards": 1,
-      "104:346:goals_scored": 1
+      "104:346:goals_scored": 1,
+      "104:330:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1873,7 +1874,7 @@
       "104:a": {
         "player": "Calvert-Lewin",
         "team": "LEE",
-        "assisted_by": null,
+        "assisted_by": "Bogle",
         "score": "1-2"
       }
     },
@@ -3536,11 +3537,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "104:330:assists": {
-        "value": 1,
-        "since": "2026-11-21T16:16:36.887343+00:00",
-        "minute": 53
       }
     },
     "event_tracking": {
@@ -6656,6 +6652,13 @@
       "type": "goal",
       "posted_at": "2026-11-21T16:19:24.680457+00:00",
       "tweet_id": "2124175857929322737",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:104:330:1",
+      "type": "goal_update",
+      "posted_at": "2026-11-21T16:20:07.480624+00:00",
+      "tweet_id": "2124176037311385668",
       "ig": "skipped (live event)"
     }
   ],
