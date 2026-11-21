@@ -1309,7 +1309,7 @@
       "102:60:assists": 1,
       "104:170:goals_scored": 1,
       "104:40:assists": 1,
-      "104:336:goals_scored": 1,
+      "104:336:goals_scored": 2,
       "104:346:assists": 1,
       "105:185:goals_scored": 1,
       "105:210:yellow_cards": 1,
@@ -1328,7 +1328,8 @@
       "110:601:assists": 1,
       "102:201:yellow_cards": 1,
       "104:346:goals_scored": 1,
-      "104:330:assists": 1
+      "104:330:assists": 1,
+      "105:184:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -1872,10 +1873,10 @@
         "score": "1-0"
       },
       "104:a": {
-        "player": "Calvert-Lewin",
+        "player": "Okafor",
         "team": "LEE",
-        "assisted_by": "Bogle",
-        "score": "1-2"
+        "assisted_by": null,
+        "score": "1-3"
       }
     },
     "posted_score": {
@@ -2173,7 +2174,7 @@
       ],
       "104": [
         1,
-        2
+        3
       ],
       "105": [
         2,
@@ -2833,7 +2834,10 @@
       "110:315": true,
       "110:571": true,
       "101:45": true,
-      "101:631": true
+      "101:631": true,
+      "110:401": true,
+      "110:403": true,
+      "110:520": true
     },
     "subs_baselined": {
       "31": true,
@@ -3537,11 +3541,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "104:336:goals_scored": {
-        "value": 2,
-        "since": "2026-11-21T16:21:30.669137+00:00",
-        "minute": 58
       },
       "104:338:assists": {
         "value": 1,
@@ -6669,6 +6668,13 @@
       "type": "goal_update",
       "posted_at": "2026-11-21T16:20:07.480624+00:00",
       "tweet_id": "2124176037311385668",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:104:336:2",
+      "type": "goal",
+      "posted_at": "2026-11-21T16:24:58.966169+00:00",
+      "tweet_id": "2124177259925823580",
       "ig": "skipped (live event)"
     }
   ],
