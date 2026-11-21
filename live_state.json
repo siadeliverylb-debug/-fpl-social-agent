@@ -307,7 +307,7 @@
       },
       "109": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       },
       "106": {
         "started": false,
@@ -1345,7 +1345,20 @@
       "110:525:yellow_cards": 1,
       "104:337:goals_scored": 1,
       "104:260:assists": 1,
-      "109:593:yellow_cards": 1
+      "109:593:yellow_cards": 1,
+      "109:445:goals_scored": 1,
+      "109:453:goals_scored": 1,
+      "109:14:goals_scored": 1,
+      "109:16:goals_scored": 1,
+      "109:460:assists": 1,
+      "109:465:assists": 1,
+      "109:15:assists": 1,
+      "109:26:assists": 1,
+      "109:448:yellow_cards": 1,
+      "109:453:yellow_cards": 1,
+      "109:13:yellow_cards": 1,
+      "109:16:yellow_cards": 1,
+      "109:25:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -1893,6 +1906,18 @@
         "team": "LEE",
         "assisted_by": "Wilson",
         "score": "1-4"
+      },
+      "109:h": {
+        "player": "Barnes",
+        "team": "NEW",
+        "assisted_by": null,
+        "score": "2-0"
+      },
+      "109:a": {
+        "player": "Madueke",
+        "team": "ARS",
+        "assisted_by": null,
+        "score": "2-2"
       }
     },
     "posted_score": {
@@ -2201,8 +2226,8 @@
         0
       ],
       "109": [
-        0,
-        0
+        2,
+        2
       ],
       "106": [
         0,
@@ -2885,7 +2910,17 @@
       "104:329": true,
       "105:647": true,
       "104:260": true,
-      "104:641": true
+      "104:641": true,
+      "109:2": true,
+      "109:7": true,
+      "109:17": true,
+      "109:25": true,
+      "109:447": true,
+      "109:450": true,
+      "109:454": true,
+      "109:456": true,
+      "109:464": true,
+      "109:557": true
     },
     "subs_baselined": {
       "31": true,
@@ -3597,7 +3632,8 @@
       "102": true,
       "110": true,
       "105": true,
-      "104": true
+      "104": true,
+      "109": true
     },
     "goal_pending": {
       "44:204:goals_scored": {
@@ -6863,6 +6899,76 @@
       "type": "kickoff",
       "posted_at": "2026-11-21T17:30:15.185486+00:00",
       "tweet_id": "2124193685860454748",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:109:445:1",
+      "type": "goal",
+      "posted_at": "2026-11-21T19:38:24.948897+00:00",
+      "tweet_id": "2124225938925719989",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:109:453:1",
+      "type": "goal",
+      "posted_at": "2026-11-21T19:38:27.703230+00:00",
+      "tweet_id": "2124225950539805088",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:109:460:1",
+      "type": "assist",
+      "posted_at": "2026-11-21T19:38:30.512709+00:00",
+      "tweet_id": "2124225962254520587",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:109:465:1",
+      "type": "assist",
+      "posted_at": "2026-11-21T19:38:33.231465+00:00",
+      "tweet_id": "2124225973763670108",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:109:14:1",
+      "type": "goal",
+      "posted_at": "2026-11-21T19:38:36.177083+00:00",
+      "tweet_id": "2124225985453179028",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:109:16:1",
+      "type": "goal",
+      "posted_at": "2026-11-21T19:38:38.895502+00:00",
+      "tweet_id": "2124225997507526967",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:109:15:1",
+      "type": "assist",
+      "posted_at": "2026-11-21T19:38:41.675628+00:00",
+      "tweet_id": "2124226009138442327",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:109:26:1",
+      "type": "assist",
+      "posted_at": "2026-11-21T19:38:44.387456+00:00",
+      "tweet_id": "2124226020563722349",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "fulltime:109",
+      "type": "full_time",
+      "posted_at": "2026-11-21T19:38:47.185914+00:00",
+      "tweet_id": "2124226032265789448",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "bonus:109",
+      "type": "bonus_points",
+      "posted_at": "2026-11-21T19:38:49.935075+00:00",
+      "tweet_id": "2124226043745550760",
       "ig": "skipped (live event)"
     }
   ],
