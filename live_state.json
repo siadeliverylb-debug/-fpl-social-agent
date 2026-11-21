@@ -1300,7 +1300,8 @@
       "108:481:goals_scored": 1,
       "108:384:yellow_cards": 1,
       "105:492:goals_scored": 1,
-      "105:183:assists": 1
+      "105:183:assists": 1,
+      "105:211:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1818,6 +1819,12 @@
         "team": "COV",
         "assisted_by": "Rudoni",
         "score": "1-0"
+      },
+      "105:a": {
+        "player": "Yeremy",
+        "team": "CRY",
+        "assisted_by": null,
+        "score": "1-1"
       }
     },
     "posted_score": {
@@ -2119,7 +2126,7 @@
       ],
       "105": [
         1,
-        0
+        1
       ],
       "110": [
         0,
@@ -3422,11 +3429,6 @@
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
       },
-      "105:211:goals_scored": {
-        "value": 1,
-        "since": "2026-11-21T15:14:50.861666+00:00",
-        "minute": 13
-      },
       "105:222:assists": {
         "value": 1,
         "since": "2026-11-21T15:15:32.724038+00:00",
@@ -3436,6 +3438,11 @@
         "value": 1,
         "since": "2026-11-21T15:17:36.286593+00:00",
         "minute": 15
+      },
+      "110:499:assists": {
+        "value": 1,
+        "since": "2026-11-21T15:18:18.402016+00:00",
+        "minute": 16
       }
     },
     "event_tracking": {
@@ -6432,6 +6439,13 @@
       "type": "goal",
       "posted_at": "2026-11-21T15:10:42.675619+00:00",
       "tweet_id": "2124158568710451488",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:105:211:1",
+      "type": "goal",
+      "posted_at": "2026-11-21T15:18:19.520121+00:00",
+      "tweet_id": "2124160484991529126",
       "ig": "skipped (live event)"
     }
   ],
