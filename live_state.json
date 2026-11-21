@@ -1317,7 +1317,8 @@
       "101:534:yellow_cards": 1,
       "110:515:yellow_cards": 1,
       "102:167:yellow_cards": 1,
-      "105:222:goals_scored": 1
+      "105:222:goals_scored": 1,
+      "105:211:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1839,7 +1840,7 @@
       "105:a": {
         "player": "Strand Larsen",
         "team": "CRY",
-        "assisted_by": null,
+        "assisted_by": "Yeremy",
         "score": "2-2"
       },
       "110:h": {
@@ -3491,11 +3492,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "105:211:assists": {
-        "value": 1,
-        "since": "2026-11-21T15:48:16.232898+00:00",
-        "minute": 45
       },
       "102:70:goals_scored": {
         "value": 1,
@@ -6586,6 +6582,13 @@
       "type": "goal",
       "posted_at": "2026-11-21T15:51:03.105605+00:00",
       "tweet_id": "2124168720729731374",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:105:211:1",
+      "type": "goal_update",
+      "posted_at": "2026-11-21T15:51:46.148183+00:00",
+      "tweet_id": "2124168901432955062",
       "ig": "skipped (live event)"
     }
   ],
