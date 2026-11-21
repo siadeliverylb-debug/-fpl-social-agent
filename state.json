@@ -5,7 +5,7 @@
     "1": {
       "web_name": "Raya",
       "team": "ARS",
-      "now_cost": 62,
+      "now_cost": 63,
       "status": "a",
       "news": "",
       "news_added": null
@@ -157,7 +157,7 @@
     "20": {
       "web_name": "Dowman",
       "team": "ARS",
-      "now_cost": 53,
+      "now_cost": 52,
       "status": "s",
       "news": "Suspended until 29 Nov",
       "news_added": "2026-10-27T22:30:09.534466Z"
@@ -341,7 +341,7 @@
     "46": {
       "web_name": "Barkley",
       "team": "AVL",
-      "now_cost": 50,
+      "now_cost": 49,
       "status": "a",
       "news": "",
       "news_added": "2026-10-16T17:30:09.276181Z"
@@ -1797,7 +1797,7 @@
     "195": {
       "web_name": "Simms",
       "team": "COV",
-      "now_cost": 49,
+      "now_cost": 48,
       "status": "a",
       "news": "",
       "news_added": null
@@ -2485,7 +2485,7 @@
     "268": {
       "web_name": "King",
       "team": "FUL",
-      "now_cost": 55,
+      "now_cost": 54,
       "status": "a",
       "news": "",
       "news_added": "2026-11-07T20:00:09.169385Z"
@@ -2845,7 +2845,7 @@
     "574": {
       "web_name": "Hjert\u00f8-Dahl",
       "team": "HUL",
-      "now_cost": 48,
+      "now_cost": 47,
       "status": "a",
       "news": "",
       "news_added": null
@@ -3597,7 +3597,7 @@
     "366": {
       "web_name": "Wirtz",
       "team": "LIV",
-      "now_cost": 72,
+      "now_cost": 73,
       "status": "a",
       "news": "",
       "news_added": "2026-10-25T17:00:09.888666Z"
@@ -3797,7 +3797,7 @@
     "388": {
       "web_name": "Gu\u00e9hi",
       "team": "MCI",
-      "now_cost": 60,
+      "now_cost": 59,
       "status": "d",
       "news": "Hip injury - 75% chance of playing",
       "news_added": "2026-11-07T21:30:08.741792Z"
@@ -4173,7 +4173,7 @@
     "427": {
       "web_name": "Mbeumo",
       "team": "MUN",
-      "now_cost": 79,
+      "now_cost": 78,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4261,7 +4261,7 @@
     "438": {
       "web_name": "Fletcher",
       "team": "MUN",
-      "now_cost": 44,
+      "now_cost": 43,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4869,7 +4869,7 @@
     "497": {
       "web_name": "Dubravka",
       "team": "TOT",
-      "now_cost": 40,
+      "now_cost": 39,
       "status": "a",
       "news": "",
       "news_added": null
@@ -5379,7 +5379,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-20T18:54:10.298869+00:00",
+  "last_snapshot_at": "2026-11-21T00:26:42.525521+00:00",
   "recapped_events": [
     1,
     2,
