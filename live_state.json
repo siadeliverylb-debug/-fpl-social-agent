@@ -1339,7 +1339,9 @@
       "101:551:yellow_cards": 1,
       "104:339:yellow_cards": 1,
       "102:69:yellow_cards": 1,
-      "102:472:yellow_cards": 1
+      "102:472:yellow_cards": 1,
+      "105:194:assists": 1,
+      "105:241:own_goals": 1
     },
     "last_goal": {
       "40:h": {
@@ -2187,7 +2189,7 @@
         3
       ],
       "105": [
-        2,
+        3,
         2
       ],
       "110": [
@@ -2876,7 +2878,8 @@
       "104:335": true,
       "102:72": true,
       "110:522": true,
-      "104:329": true
+      "104:329": true,
+      "105:647": true
     },
     "subs_baselined": {
       "31": true,
@@ -3593,16 +3596,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "105:194:assists": {
-        "value": 1,
-        "since": "2026-11-21T16:49:59.066041+00:00",
-        "minute": 85
-      },
-      "105:241:own_goals": {
-        "value": 1,
-        "since": "2026-11-21T16:49:59.066065+00:00",
-        "minute": 85
       }
     },
     "event_tracking": {
@@ -6739,6 +6732,20 @@
       "type": "goal_update",
       "posted_at": "2026-11-21T16:25:42.067262+00:00",
       "tweet_id": "2124177440666763357",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "own_goal:105:241:1",
+      "type": "own_goal",
+      "posted_at": "2026-11-21T16:53:29.157440+00:00",
+      "tweet_id": "2124184432902865354",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:105:194:1",
+      "type": "assist",
+      "posted_at": "2026-11-21T16:53:32.056693+00:00",
+      "tweet_id": "2124184445171192203",
       "ig": "skipped (live event)"
     }
   ],
