@@ -1303,7 +1303,8 @@
       "105:183:assists": 1,
       "105:211:goals_scored": 1,
       "105:222:assists": 1,
-      "110:601:goals_scored": 1
+      "110:601:goals_scored": 1,
+      "110:499:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1831,7 +1832,7 @@
       "110:h": {
         "player": "Williams-Barnett",
         "team": "TOT",
-        "assisted_by": null,
+        "assisted_by": "Pedro Porro",
         "score": "1-0"
       }
     },
@@ -3436,11 +3437,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "110:499:assists": {
-        "value": 1,
-        "since": "2026-11-21T15:18:18.402016+00:00",
-        "minute": 16
       },
       "102:79:goals_scored": {
         "value": 1,
@@ -6468,6 +6464,13 @@
       "type": "goal",
       "posted_at": "2026-11-21T15:21:10.161624+00:00",
       "tweet_id": "2124161200220958784",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:110:499:1",
+      "type": "goal_update",
+      "posted_at": "2026-11-21T15:21:53.255457+00:00",
+      "tweet_id": "2124161381490368541",
       "ig": "skipped (live event)"
     }
   ],
