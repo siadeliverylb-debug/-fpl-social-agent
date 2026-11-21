@@ -1293,7 +1293,8 @@
       "98:415:goals_scored": 1,
       "98:426:assists": 1,
       "108:261:yellow_cards": 1,
-      "108:271:goals_scored": 1
+      "108:271:goals_scored": 1,
+      "108:264:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1797,7 +1798,7 @@
       "108:a": {
         "player": "Muniz",
         "team": "FUL",
-        "assisted_by": null,
+        "assisted_by": "Bobb",
         "score": "0-1"
       }
     },
@@ -3361,11 +3362,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "108:264:assists": {
-        "value": 1,
-        "since": "2026-11-21T12:49:15.089696+00:00",
-        "minute": 18
       }
     },
     "event_tracking": {
@@ -6292,6 +6288,13 @@
       "type": "goal",
       "posted_at": "2026-11-21T12:52:01.264140+00:00",
       "tweet_id": "2124123665549676596",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:108:264:1",
+      "type": "goal_update",
+      "posted_at": "2026-11-21T12:52:45.190680+00:00",
+      "tweet_id": "2124123850338177314",
       "ig": "skipped (live event)"
     }
   ],
