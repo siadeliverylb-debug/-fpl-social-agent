@@ -1298,7 +1298,9 @@
       "108:257:yellow_cards": 1,
       "108:580:yellow_cards": 1,
       "108:481:goals_scored": 1,
-      "108:384:yellow_cards": 1
+      "108:384:yellow_cards": 1,
+      "105:492:goals_scored": 1,
+      "105:183:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1810,6 +1812,12 @@
         "team": "MCI",
         "assisted_by": null,
         "score": "1-1"
+      },
+      "105:h": {
+        "player": "Awoniyi",
+        "team": "COV",
+        "assisted_by": "Rudoni",
+        "score": "1-0"
       }
     },
     "posted_score": {
@@ -2110,7 +2118,7 @@
         0
       ],
       "105": [
-        0,
+        1,
         0
       ],
       "110": [
@@ -3391,16 +3399,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "105:492:goals_scored": {
-        "value": 1,
-        "since": "2026-11-21T15:07:15.884693+00:00",
-        "minute": 5
-      },
-      "105:183:assists": {
-        "value": 1,
-        "since": "2026-11-21T15:07:15.884715+00:00",
-        "minute": 5
       }
     },
     "event_tracking": {
@@ -6390,6 +6388,13 @@
       "type": "kickoff",
       "posted_at": "2026-11-21T15:01:05.193984+00:00",
       "tweet_id": "2124156146785067499",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:105:492:1",
+      "type": "goal",
+      "posted_at": "2026-11-21T15:10:42.675619+00:00",
+      "tweet_id": "2124158568710451488",
       "ig": "skipped (live event)"
     }
   ],
