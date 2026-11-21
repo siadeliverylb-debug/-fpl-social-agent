@@ -1310,7 +1310,8 @@
       "104:170:goals_scored": 1,
       "104:40:assists": 1,
       "104:336:goals_scored": 1,
-      "104:346:assists": 1
+      "104:346:assists": 1,
+      "105:185:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1824,10 +1825,10 @@
         "score": "1-1"
       },
       "105:h": {
-        "player": "Awoniyi",
+        "player": "Sakamoto",
         "team": "COV",
-        "assisted_by": "Rudoni",
-        "score": "1-0"
+        "assisted_by": null,
+        "score": "2-1"
       },
       "105:a": {
         "player": "Yeremy",
@@ -2158,7 +2159,7 @@
         1
       ],
       "105": [
-        1,
+        2,
         1
       ],
       "110": [
@@ -3484,11 +3485,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "105:185:goals_scored": {
-        "value": 1,
-        "since": "2026-11-21T15:31:36.363530+00:00",
-        "minute": 30
       },
       "105:183:assists": {
         "value": 2,
@@ -6553,6 +6549,13 @@
       "type": "goal_update",
       "posted_at": "2026-11-21T15:33:44.770473+00:00",
       "tweet_id": "2124164365695832267",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:105:185:1",
+      "type": "goal",
+      "posted_at": "2026-11-21T15:35:09.082799+00:00",
+      "tweet_id": "2124164719481114770",
       "ig": "skipped (live event)"
     }
   ],
