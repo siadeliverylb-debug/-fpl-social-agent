@@ -1326,7 +1326,8 @@
       "110:601:yellow_cards": 1,
       "110:526:goals_scored": 1,
       "110:601:assists": 1,
-      "102:201:yellow_cards": 1
+      "102:201:yellow_cards": 1,
+      "104:346:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1870,10 +1871,10 @@
         "score": "1-0"
       },
       "104:a": {
-        "player": "Okafor",
+        "player": "Calvert-Lewin",
         "team": "LEE",
-        "assisted_by": "Calvert-Lewin",
-        "score": "1-1"
+        "assisted_by": null,
+        "score": "1-2"
       }
     },
     "posted_score": {
@@ -2171,7 +2172,7 @@
       ],
       "104": [
         1,
-        1
+        2
       ],
       "105": [
         2,
@@ -2829,7 +2830,9 @@
       "105:599": true,
       "110:313": true,
       "110:315": true,
-      "110:571": true
+      "110:571": true,
+      "101:45": true,
+      "101:631": true
     },
     "subs_baselined": {
       "31": true,
@@ -3533,11 +3536,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "104:346:goals_scored": {
-        "value": 1,
-        "since": "2026-11-21T16:15:53.958501+00:00",
-        "minute": 53
       },
       "104:330:assists": {
         "value": 1,
@@ -6651,6 +6649,13 @@
       "type": "goal_update",
       "posted_at": "2026-11-21T16:15:54.989223+00:00",
       "tweet_id": "2124174978295738589",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:104:346:1",
+      "type": "goal",
+      "posted_at": "2026-11-21T16:19:24.680457+00:00",
+      "tweet_id": "2124175857929322737",
       "ig": "skipped (live event)"
     }
   ],
