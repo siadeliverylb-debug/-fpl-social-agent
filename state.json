@@ -6,9 +6,9 @@
       "web_name": "Raya",
       "team": "ARS",
       "now_cost": 63,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Shoulder injury - 75% chance of playing",
+      "news_added": "2026-11-21T19:00:05.753960Z"
     },
     "2": {
       "web_name": "Arrizabalaga",
@@ -158,8 +158,8 @@
       "web_name": "Dowman",
       "team": "ARS",
       "now_cost": 52,
-      "status": "s",
-      "news": "Suspended until 29 Nov",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-27T22:30:09.534466Z"
     },
     "22": {
@@ -1454,9 +1454,9 @@
       "web_name": "Caicedo",
       "team": "CHE",
       "now_cost": 53,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-11-19T20:30:06.307481Z"
+      "status": "d",
+      "news": "Back injury - 75% chance of playing",
+      "news_added": "2026-11-21T16:30:05.451902Z"
     },
     "161": {
       "web_name": "Lavia",
@@ -1822,9 +1822,9 @@
       "web_name": "Awoniyi",
       "team": "COV",
       "now_cost": 54,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-09-13T15:00:09.305127Z"
+      "status": "d",
+      "news": "Leg injury - 75% chance of playing",
+      "news_added": "2026-11-21T16:30:05.778377Z"
     },
     "575": {
       "web_name": "Yirenkyi",
@@ -1950,9 +1950,9 @@
       "web_name": "Mingueza",
       "team": "CRY",
       "now_cost": 42,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Thigh injury - 75% chance of playing",
+      "news_added": "2026-11-21T17:30:05.672662Z"
     },
     "208": {
       "web_name": "Sarr",
@@ -1974,9 +1974,9 @@
       "web_name": "Yeremy",
       "team": "CRY",
       "now_cost": 55,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "s",
+      "news": "Suspended until 2 Dec",
+      "news_added": "2026-11-21T17:30:05.694046Z"
     },
     "212": {
       "web_name": "Hughes",
@@ -2586,6 +2586,14 @@
       "news": "",
       "news_added": "2026-10-29T08:30:08.436091Z"
     },
+    "674": {
+      "web_name": "Kaiser",
+      "team": "FUL",
+      "now_cost": 40,
+      "status": "a",
+      "news": "",
+      "news_added": null
+    },
     "240": {
       "web_name": "Iroegbunam",
       "team": "HUL",
@@ -2990,9 +2998,9 @@
       "web_name": "Davis",
       "team": "IPS",
       "now_cost": 40,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-11-21T17:00:05.582448Z"
     },
     "306": {
       "web_name": "Greaves",
@@ -4358,9 +4366,9 @@
       "web_name": "Hall",
       "team": "NEW",
       "now_cost": 52,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-11-21T19:30:06.216627Z"
     },
     "450": {
       "web_name": "Livramento",
@@ -4830,9 +4838,9 @@
       "web_name": "S\u00e1vio",
       "team": "TOT",
       "now_cost": 64,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-18T13:00:09.266321Z"
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "news_added": "2026-11-21T17:30:05.822258Z"
     },
     "455": {
       "web_name": "Tonali",
@@ -4840,7 +4848,7 @@
       "now_cost": 53,
       "status": "a",
       "news": "",
-      "news_added": "2026-09-14T14:30:07.387706Z"
+      "news_added": "2026-11-21T16:30:05.729405Z"
     },
     "494": {
       "web_name": "Vicario",
@@ -5134,9 +5142,9 @@
       "web_name": "Danso",
       "team": "SUN",
       "now_cost": 50,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-18T13:30:09.387826Z"
+      "status": "n",
+      "news": "Ineligible to face parent club - Expected back 2 Dec",
+      "news_added": "2026-11-21T17:00:05.766153Z"
     },
     "529": {
       "web_name": "Roefs",
@@ -5377,9 +5385,17 @@
       "status": "a",
       "news": "",
       "news_added": null
+    },
+    "673": {
+      "web_name": "Browne",
+      "team": "SUN",
+      "now_cost": 45,
+      "status": "a",
+      "news": "",
+      "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-21T15:44:09.169837+00:00",
+  "last_snapshot_at": "2026-11-21T21:16:34.615896+00:00",
   "recapped_events": [
     1,
     2,
@@ -5392,7 +5408,111 @@
     9,
     10
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "status:211:2026-11-21T17:30:05.694046Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:211:2026-11-21T17:30:05.694046Z",
+        "pid": "211",
+        "player": "Yeremy",
+        "team": "CRY",
+        "status": "suspended",
+        "news": "Suspended until 2 Dec",
+        "category": "suspension"
+      },
+      "image_path": "assets/generated/status_211_2026-11-21T17_30_05.694046Z.png",
+      "caption": "\ud83d\udfe5 SUSPENDED: Yeremy (CRY) is suspended.\n\"Suspended until 2 Dec\"\n\nWho's covering for him while he's out? #FPL #PremierLeague #FPLTwitter #FPLFamily\n\nFollow for the next one.",
+      "created_at": "2026-11-21T21:16:34.688371+00:00",
+      "auto": true
+    },
+    {
+      "key": "status:501:2026-11-21T17:00:05.766153Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:501:2026-11-21T17:00:05.766153Z",
+        "pid": "501",
+        "player": "Danso",
+        "team": "SUN",
+        "status": "not in squad",
+        "news": "Ineligible to face parent club - Expected back 2 Dec",
+        "category": "availability"
+      },
+      "image_path": "assets/generated/status_501_2026-11-21T17_00_05.766153Z.png",
+      "caption": "\u2139\ufe0f AVAILABILITY UPDATE: Danso (SUN) is not in squad.\n\"Ineligible to face parent club - Expected back 2 Dec\"\n\nTime for a transfer, or riding it out? #FPL #FantasyPremierLeague #PremierLeague #FPLTips\n\nFollow for the next one.",
+      "created_at": "2026-11-21T21:16:34.749541+00:00",
+      "auto": true
+    },
+    {
+      "key": "injury_batch:7:acf2f3981658",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:7:acf2f3981658",
+        "injuries": [
+          {
+            "pid": "492",
+            "player": "Awoniyi",
+            "team": "COV",
+            "status": "doubtful",
+            "news": "Leg injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "159",
+            "player": "Caicedo",
+            "team": "CHE",
+            "status": "doubtful",
+            "news": "Back injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "305",
+            "player": "Davis",
+            "team": "IPS",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "449",
+            "player": "Hall",
+            "team": "NEW",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "207",
+            "player": "Mingueza",
+            "team": "CRY",
+            "status": "doubtful",
+            "news": "Thigh injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "1",
+            "player": "Raya",
+            "team": "ARS",
+            "status": "doubtful",
+            "news": "Shoulder injury - 75% chance of playing",
+            "category": "injury"
+          },
+          {
+            "pid": "403",
+            "player": "S\u00e1vio",
+            "team": "TOT",
+            "status": "doubtful",
+            "news": "Unspecified injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_7_acf2f3981658.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (7):\n\n\ud83d\udea8 Awoniyi (COV) - doubtful: \"Leg injury - 75% chance of playing\"\n\ud83d\udea8 Caicedo (CHE) - doubtful: \"Back injury - 75% chance of playing\"\n\ud83d\udea8 Davis (IPS) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Hall (NEW) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Mingueza (CRY) - doubtful: \"Thigh injury - 75% chance of playing\"\n\ud83d\udea8 Raya (ARS) - doubtful: \"Shoulder injury - 75% chance of playing\"\n\ud83d\udea8 S\u00e1vio (TOT) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FantasyFootball #FPLTips #FPLFamily\n\nFollow for the next one.",
+      "created_at": "2026-11-21T21:16:34.811462+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
