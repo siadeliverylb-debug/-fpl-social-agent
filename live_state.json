@@ -1316,7 +1316,8 @@
       "104:331:yellow_cards": 1,
       "101:534:yellow_cards": 1,
       "110:515:yellow_cards": 1,
-      "102:167:yellow_cards": 1
+      "102:167:yellow_cards": 1,
+      "105:222:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1836,10 +1837,10 @@
         "score": "2-1"
       },
       "105:a": {
-        "player": "Yeremy",
+        "player": "Strand Larsen",
         "team": "CRY",
-        "assisted_by": "Strand Larsen",
-        "score": "1-1"
+        "assisted_by": null,
+        "score": "2-2"
       },
       "110:h": {
         "player": "Williams-Barnett",
@@ -2165,7 +2166,7 @@
       ],
       "105": [
         2,
-        1
+        2
       ],
       "110": [
         1,
@@ -3490,11 +3491,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "105:222:goals_scored": {
-        "value": 1,
-        "since": "2026-11-21T15:47:34.481292+00:00",
-        "minute": 45
       },
       "105:211:assists": {
         "value": 1,
@@ -6583,6 +6579,13 @@
       "type": "goal_update",
       "posted_at": "2026-11-21T15:35:52.419601+00:00",
       "tweet_id": "2124164901073502580",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:105:222:1",
+      "type": "goal",
+      "posted_at": "2026-11-21T15:51:03.105605+00:00",
+      "tweet_id": "2124168720729731374",
       "ig": "skipped (live event)"
     }
   ],
