@@ -1304,7 +1304,8 @@
       "105:211:goals_scored": 1,
       "105:222:assists": 1,
       "110:601:goals_scored": 1,
-      "110:499:assists": 1
+      "110:499:assists": 1,
+      "102:79:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1834,6 +1835,12 @@
         "team": "TOT",
         "assisted_by": "Pedro Porro",
         "score": "1-0"
+      },
+      "102:h": {
+        "player": "Evanilson",
+        "team": "BOU",
+        "assisted_by": null,
+        "score": "1-0"
       }
     },
     "posted_score": {
@@ -2126,7 +2133,7 @@
         0
       ],
       "102": [
-        0,
+        1,
         0
       ],
       "104": [
@@ -3437,11 +3444,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "102:79:goals_scored": {
-        "value": 1,
-        "since": "2026-11-21T15:19:45.085068+00:00",
-        "minute": 19
       },
       "102:60:assists": {
         "value": 1,
@@ -6471,6 +6473,13 @@
       "type": "goal_update",
       "posted_at": "2026-11-21T15:21:53.255457+00:00",
       "tweet_id": "2124161381490368541",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:102:79:1",
+      "type": "goal",
+      "posted_at": "2026-11-21T15:23:17.284907+00:00",
+      "tweet_id": "2124161733400875014",
       "ig": "skipped (live event)"
     }
   ],
