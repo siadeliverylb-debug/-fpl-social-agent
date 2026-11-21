@@ -1305,7 +1305,8 @@
       "105:222:assists": 1,
       "110:601:goals_scored": 1,
       "110:499:assists": 1,
-      "102:79:goals_scored": 1
+      "102:79:goals_scored": 1,
+      "102:60:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1839,7 +1840,7 @@
       "102:h": {
         "player": "Evanilson",
         "team": "BOU",
-        "assisted_by": null,
+        "assisted_by": "Hill",
         "score": "1-0"
       }
     },
@@ -2789,7 +2790,8 @@
       "108:628": true,
       "108:266": true,
       "108:570": true,
-      "108:155": true
+      "108:155": true,
+      "104:101": true
     },
     "subs_baselined": {
       "31": true,
@@ -3444,11 +3446,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "102:60:assists": {
-        "value": 1,
-        "since": "2026-11-21T15:20:26.947894+00:00",
-        "minute": 20
       }
     },
     "event_tracking": {
@@ -6480,6 +6477,13 @@
       "type": "goal",
       "posted_at": "2026-11-21T15:23:17.284907+00:00",
       "tweet_id": "2124161733400875014",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:102:60:1",
+      "type": "goal_update",
+      "posted_at": "2026-11-21T15:24:00.405253+00:00",
+      "tweet_id": "2124161914766848498",
       "ig": "skipped (live event)"
     }
   ],
