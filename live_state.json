@@ -1323,7 +1323,8 @@
       "102:68:assists": 1,
       "104:161:yellow_cards": 1,
       "101:618:yellow_cards": 1,
-      "110:601:yellow_cards": 1
+      "110:601:yellow_cards": 1,
+      "110:526:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1849,10 +1850,10 @@
         "score": "2-2"
       },
       "110:h": {
-        "player": "Williams-Barnett",
+        "player": "Solanke",
         "team": "TOT",
-        "assisted_by": "Pedro Porro",
-        "score": "1-0"
+        "assisted_by": null,
+        "score": "2-0"
       },
       "102:h": {
         "player": "Kluivert",
@@ -2175,7 +2176,7 @@
         2
       ],
       "110": [
-        1,
+        2,
         0
       ],
       "109": [
@@ -3524,11 +3525,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "110:526:goals_scored": {
-        "value": 1,
-        "since": "2026-11-21T16:11:42.494490+00:00",
-        "minute": 51
       },
       "110:601:assists": {
         "value": 1,
@@ -6628,6 +6624,13 @@
       "type": "goal",
       "posted_at": "2026-11-21T15:53:10.271563+00:00",
       "tweet_id": "2124169254035411196",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:110:526:1",
+      "type": "goal",
+      "posted_at": "2026-11-21T16:15:12.075386+00:00",
+      "tweet_id": "2124174798334857289",
       "ig": "skipped (live event)"
     }
   ],
