@@ -1296,7 +1296,8 @@
       "108:271:goals_scored": 1,
       "108:264:assists": 1,
       "108:257:yellow_cards": 1,
-      "108:580:yellow_cards": 1
+      "108:580:yellow_cards": 1,
+      "108:481:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1802,6 +1803,12 @@
         "team": "FUL",
         "assisted_by": "Bobb",
         "score": "0-1"
+      },
+      "108:h": {
+        "player": "Anderson",
+        "team": "MCI",
+        "assisted_by": null,
+        "score": "1-1"
       }
     },
     "posted_score": {
@@ -2086,7 +2093,7 @@
         4
       ],
       "108": [
-        0,
+        1,
         1
       ],
       "101": [
@@ -3364,11 +3371,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "108:481:goals_scored": {
-        "value": 1,
-        "since": "2026-11-21T13:46:45.056360+00:00",
-        "minute": 57
       }
     },
     "event_tracking": {
@@ -6302,6 +6304,13 @@
       "type": "goal_update",
       "posted_at": "2026-11-21T12:52:45.190680+00:00",
       "tweet_id": "2124123850338177314",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:108:481:1",
+      "type": "goal",
+      "posted_at": "2026-11-21T13:50:16.920532+00:00",
+      "tweet_id": "2124138328198873401",
       "ig": "skipped (live event)"
     }
   ],
