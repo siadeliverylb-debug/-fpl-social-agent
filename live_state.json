@@ -1324,7 +1324,8 @@
       "104:161:yellow_cards": 1,
       "101:618:yellow_cards": 1,
       "110:601:yellow_cards": 1,
-      "110:526:goals_scored": 1
+      "110:526:goals_scored": 1,
+      "110:601:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1852,7 +1853,7 @@
       "110:h": {
         "player": "Solanke",
         "team": "TOT",
-        "assisted_by": null,
+        "assisted_by": "Williams-Barnett",
         "score": "2-0"
       },
       "102:h": {
@@ -3526,10 +3527,10 @@
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
       },
-      "110:601:assists": {
+      "104:346:goals_scored": {
         "value": 1,
-        "since": "2026-11-21T16:12:24.425840+00:00",
-        "minute": 51
+        "since": "2026-11-21T16:15:53.958501+00:00",
+        "minute": 53
       }
     },
     "event_tracking": {
@@ -6631,6 +6632,13 @@
       "type": "goal",
       "posted_at": "2026-11-21T16:15:12.075386+00:00",
       "tweet_id": "2124174798334857289",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:110:601:1",
+      "type": "goal_update",
+      "posted_at": "2026-11-21T16:15:54.989223+00:00",
+      "tweet_id": "2124174978295738589",
       "ig": "skipped (live event)"
     }
   ],
