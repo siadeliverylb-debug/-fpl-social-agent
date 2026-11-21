@@ -1306,7 +1306,9 @@
       "110:601:goals_scored": 1,
       "110:499:assists": 1,
       "102:79:goals_scored": 1,
-      "102:60:assists": 1
+      "102:60:assists": 1,
+      "104:170:goals_scored": 1,
+      "104:40:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1842,6 +1844,12 @@
         "team": "BOU",
         "assisted_by": "Hill",
         "score": "1-0"
+      },
+      "104:h": {
+        "player": "Emegha",
+        "team": "CHE",
+        "assisted_by": "Rogers",
+        "score": "1-0"
       }
     },
     "posted_score": {
@@ -2138,7 +2146,7 @@
         0
       ],
       "104": [
-        0,
+        1,
         0
       ],
       "105": [
@@ -3447,20 +3455,15 @@
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
       },
-      "104:170:goals_scored": {
-        "value": 1,
-        "since": "2026-11-21T15:26:45.226322+00:00",
-        "minute": 25
-      },
-      "104:40:assists": {
-        "value": 1,
-        "since": "2026-11-21T15:26:45.226343+00:00",
-        "minute": 25
-      },
       "104:336:goals_scored": {
         "value": 1,
         "since": "2026-11-21T15:29:30.623454+00:00",
         "minute": 28
+      },
+      "104:346:assists": {
+        "value": 1,
+        "since": "2026-11-21T15:30:12.522158+00:00",
+        "minute": 29
       }
     },
     "event_tracking": {
@@ -6499,6 +6502,13 @@
       "type": "goal_update",
       "posted_at": "2026-11-21T15:24:00.405253+00:00",
       "tweet_id": "2124161914766848498",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:104:170:1",
+      "type": "goal",
+      "posted_at": "2026-11-21T15:30:13.644000+00:00",
+      "tweet_id": "2124163480181744029",
       "ig": "skipped (live event)"
     }
   ],
