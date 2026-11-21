@@ -1302,7 +1302,8 @@
       "105:492:goals_scored": 1,
       "105:183:assists": 1,
       "105:211:goals_scored": 1,
-      "105:222:assists": 1
+      "105:222:assists": 1,
+      "110:601:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1826,6 +1827,12 @@
         "team": "CRY",
         "assisted_by": "Strand Larsen",
         "score": "1-1"
+      },
+      "110:h": {
+        "player": "Williams-Barnett",
+        "team": "TOT",
+        "assisted_by": null,
+        "score": "1-0"
       }
     },
     "posted_score": {
@@ -2130,7 +2137,7 @@
         1
       ],
       "110": [
-        0,
+        1,
         0
       ],
       "109": [
@@ -3429,11 +3436,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "110:601:goals_scored": {
-        "value": 1,
-        "since": "2026-11-21T15:17:36.286593+00:00",
-        "minute": 15
       },
       "110:499:assists": {
         "value": 1,
@@ -6459,6 +6461,13 @@
       "type": "goal_update",
       "posted_at": "2026-11-21T15:19:03.081311+00:00",
       "tweet_id": "2124160667603132599",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:110:601:1",
+      "type": "goal",
+      "posted_at": "2026-11-21T15:21:10.161624+00:00",
+      "tweet_id": "2124161200220958784",
       "ig": "skipped (live event)"
     }
   ],
