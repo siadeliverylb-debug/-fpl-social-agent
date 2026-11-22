@@ -5410,23 +5410,6 @@
   ],
   "pending": [
     {
-      "key": "status:211:2026-11-21T17:30:05.694046Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:211:2026-11-21T17:30:05.694046Z",
-        "pid": "211",
-        "player": "Yeremy",
-        "team": "CRY",
-        "status": "suspended",
-        "news": "Suspended until 2 Dec",
-        "category": "suspension"
-      },
-      "image_path": "assets/generated/status_211_2026-11-21T17_30_05.694046Z.png",
-      "caption": "\ud83d\udfe5 SUSPENDED: Yeremy (CRY) is suspended.\n\"Suspended until 2 Dec\"\n\nWho's covering for him while he's out? #FPL #PremierLeague #FPLTwitter #FPLFamily\n\nFollow for the next one.",
-      "created_at": "2026-11-21T21:16:34.688371+00:00",
-      "auto": true
-    },
-    {
       "key": "status:501:2026-11-21T17:00:05.766153Z",
       "story": {
         "type": "status_change",
@@ -5770,7 +5753,8 @@
     "injury_batch:3:5a469d68a086",
     "injury_batch:5:bb4a0c426384",
     "deadline:11:24h",
-    "injury_batch:1:cb7a1d775e80"
+    "injury_batch:1:cb7a1d775e80",
+    "status:211:2026-11-21T17:30:05.694046Z"
   ],
   "post_log": [
     {
@@ -7039,6 +7023,13 @@
       "type": "injury_batch",
       "posted_at": "2026-11-21T20:05:06.507715+00:00",
       "tweet_id": "2124232656380387435",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "status:211:2026-11-21T17:30:05.694046Z",
+      "type": "status_change",
+      "posted_at": "2026-11-22T00:19:03.857970+00:00",
+      "tweet_id": "2124296566504620204",
       "ig": "skipped (Instagram not configured)"
     }
   ],
