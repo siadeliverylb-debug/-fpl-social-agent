@@ -315,7 +315,7 @@
       },
       "107": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       },
       "103": {
         "started": false,
@@ -1372,7 +1372,12 @@
       "107:368:goals_scored": 1,
       "107:379:assists": 1,
       "107:366:goals_scored": 1,
-      "107:369:assists": 1
+      "107:369:assists": 1,
+      "107:369:goals_scored": 1,
+      "107:377:goals_scored": 1,
+      "107:366:assists": 1,
+      "107:627:assists": 1,
+      "107:627:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -1940,10 +1945,10 @@
         "score": "2-0"
       },
       "107:h": {
-        "player": "Wirtz",
+        "player": "Munoz",
         "team": "LIV",
-        "assisted_by": "Ngumoha",
-        "score": "2-0"
+        "assisted_by": null,
+        "score": "4-0"
       }
     },
     "posted_score": {
@@ -2260,7 +2265,7 @@
         0
       ],
       "107": [
-        2,
+        4,
         0
       ],
       "103": [
@@ -2957,7 +2962,16 @@
       "106:113": true,
       "106:638": true,
       "106:600": true,
-      "107:418": true
+      "107:418": true,
+      "107:162": true,
+      "107:357": true,
+      "107:359": true,
+      "107:375": true,
+      "107:377": true,
+      "107:381": true,
+      "107:422": true,
+      "107:430": true,
+      "107:440": true
     },
     "subs_baselined": {
       "31": true,
@@ -3682,7 +3696,8 @@
       "105": true,
       "104": true,
       "109": true,
-      "106": true
+      "106": true,
+      "107": true
     },
     "goal_pending": {
       "44:204:goals_scored": {
@@ -7116,6 +7131,48 @@
       "type": "goal_update",
       "posted_at": "2026-11-22T16:49:20.786852+00:00",
       "tweet_id": "2124545779025301879",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:107:369:1",
+      "type": "goal",
+      "posted_at": "2026-11-22T18:58:50.627299+00:00",
+      "tweet_id": "2124578368230195652",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:107:377:1",
+      "type": "goal",
+      "posted_at": "2026-11-22T18:58:53.627736+00:00",
+      "tweet_id": "2124578380779573303",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:107:366:1",
+      "type": "assist",
+      "posted_at": "2026-11-22T18:58:56.605331+00:00",
+      "tweet_id": "2124578392829747333",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:107:627:1",
+      "type": "assist",
+      "posted_at": "2026-11-22T18:58:59.539321+00:00",
+      "tweet_id": "2124578405542678847",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "fulltime:107",
+      "type": "full_time",
+      "posted_at": "2026-11-22T18:59:02.631967+00:00",
+      "tweet_id": "2124578418427674697",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "bonus:107",
+      "type": "bonus_points",
+      "posted_at": "2026-11-22T18:59:05.501553+00:00",
+      "tweet_id": "2124578430553391465",
       "ig": "skipped (live event)"
     }
   ],
