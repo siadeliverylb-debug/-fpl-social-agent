@@ -1369,7 +1369,8 @@
       "106:295:goals_scored": 2,
       "106:286:assists": 1,
       "107:420:red_cards": 1,
-      "107:368:goals_scored": 1
+      "107:368:goals_scored": 1,
+      "107:379:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1939,7 +1940,7 @@
       "107:h": {
         "player": "Szoboszlai",
         "team": "LIV",
-        "assisted_by": null,
+        "assisted_by": "Isak",
         "score": "1-0"
       }
     },
@@ -3710,15 +3711,15 @@
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
       },
-      "107:379:assists": {
-        "value": 1,
-        "since": "2026-11-22T16:42:19.261414+00:00",
-        "minute": 10
-      },
       "107:366:goals_scored": {
         "value": 1,
         "since": "2026-11-22T16:44:24.421019+00:00",
         "minute": 13
+      },
+      "107:369:assists": {
+        "value": 1,
+        "since": "2026-11-22T16:45:49.717059+00:00",
+        "minute": 14
       }
     },
     "event_tracking": {
@@ -7100,6 +7101,13 @@
       "type": "goal",
       "posted_at": "2026-11-22T16:45:07.579174+00:00",
       "tweet_id": "2124544717153349644",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:107:379:1",
+      "type": "goal_update",
+      "posted_at": "2026-11-22T16:45:50.754420+00:00",
+      "tweet_id": "2124544898187903294",
       "ig": "skipped (live event)"
     }
   ],
