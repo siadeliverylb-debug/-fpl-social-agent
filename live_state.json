@@ -1371,7 +1371,8 @@
       "107:420:red_cards": 1,
       "107:368:goals_scored": 1,
       "107:379:assists": 1,
-      "107:366:goals_scored": 1
+      "107:366:goals_scored": 1,
+      "107:369:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1941,7 +1942,7 @@
       "107:h": {
         "player": "Wirtz",
         "team": "LIV",
-        "assisted_by": null,
+        "assisted_by": "Ngumoha",
         "score": "2-0"
       }
     },
@@ -3711,11 +3712,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "107:369:assists": {
-        "value": 1,
-        "since": "2026-11-22T16:45:49.717059+00:00",
-        "minute": 14
       }
     },
     "event_tracking": {
@@ -7111,6 +7107,13 @@
       "type": "goal",
       "posted_at": "2026-11-22T16:47:56.212923+00:00",
       "tweet_id": "2124545423818068088",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:107:369:1",
+      "type": "goal_update",
+      "posted_at": "2026-11-22T16:49:20.786852+00:00",
+      "tweet_id": "2124545779025301879",
       "ig": "skipped (live event)"
     }
   ],
