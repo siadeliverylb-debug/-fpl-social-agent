@@ -311,7 +311,7 @@
       },
       "106": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       },
       "107": {
         "started": false,
@@ -1365,7 +1365,9 @@
       "106:119:yellow_cards": 1,
       "106:639:yellow_cards": 1,
       "106:119:red_cards": 1,
-      "106:589:assists": 1
+      "106:589:assists": 1,
+      "106:295:goals_scored": 2,
+      "106:286:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -1925,6 +1927,12 @@
         "team": "ARS",
         "assisted_by": null,
         "score": "2-2"
+      },
+      "106:h": {
+        "player": "McBurnie",
+        "team": "HUL",
+        "assisted_by": "Belloumi",
+        "score": "2-0"
       }
     },
     "posted_score": {
@@ -2237,7 +2245,7 @@
         2
       ],
       "106": [
-        0,
+        2,
         0
       ],
       "107": [
@@ -3659,7 +3667,8 @@
       "110": true,
       "105": true,
       "104": true,
-      "109": true
+      "109": true,
+      "106": true
     },
     "goal_pending": {
       "44:204:goals_scored": {
@@ -3691,16 +3700,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "106:295:goals_scored": {
-        "value": 2,
-        "since": "2026-11-22T15:58:47.071958+00:00",
-        "minute": 90
-      },
-      "106:286:assists": {
-        "value": 1,
-        "since": "2026-11-22T15:58:47.071977+00:00",
-        "minute": 90
       }
     },
     "event_tracking": {
@@ -7026,6 +7025,41 @@
       "type": "assist",
       "posted_at": "2026-11-22T15:59:30.101017+00:00",
       "tweet_id": "2124533235241849019",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:106:295:1",
+      "type": "goal",
+      "posted_at": "2026-11-22T16:01:36.461809+00:00",
+      "tweet_id": "2124533765288722571",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:106:295:2",
+      "type": "goal",
+      "posted_at": "2026-11-22T16:01:39.363739+00:00",
+      "tweet_id": "2124533777494049165",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:106:286:1",
+      "type": "goal_update",
+      "posted_at": "2026-11-22T16:01:42.311218+00:00",
+      "tweet_id": "2124533789800173868",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "fulltime:106",
+      "type": "full_time",
+      "posted_at": "2026-11-22T16:01:45.176563+00:00",
+      "tweet_id": "2124533801896603673",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "bonus:106",
+      "type": "bonus_points",
+      "posted_at": "2026-11-22T16:01:48.078378+00:00",
+      "tweet_id": "2124533814055915743",
       "ig": "skipped (live event)"
     }
   ],
