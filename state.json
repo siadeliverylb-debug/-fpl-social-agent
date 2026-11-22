@@ -1823,7 +1823,7 @@
       "team": "COV",
       "now_cost": 54,
       "status": "d",
-      "news": "Leg injury - 75% chance of playing",
+      "news": "Ankle injury - 75% chance of playing",
       "news_added": "2026-11-21T16:30:05.778377Z"
     },
     "575": {
@@ -2999,7 +2999,7 @@
       "team": "IPS",
       "now_cost": 40,
       "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "news": "Calf injury - 75% chance of playing",
       "news_added": "2026-11-21T17:00:05.582448Z"
     },
     "306": {
@@ -4839,7 +4839,7 @@
       "team": "TOT",
       "now_cost": 64,
       "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "news": "Hamstring injury - 75% chance of playing",
       "news_added": "2026-11-21T17:30:05.822258Z"
     },
     "455": {
@@ -5395,7 +5395,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-22T01:27:00.767648+00:00",
+  "last_snapshot_at": "2026-11-22T08:24:15.644174+00:00",
   "recapped_events": [
     1,
     2,
@@ -5408,7 +5408,61 @@
     9,
     10
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_cold:5:0a0b115a2a4f",
+      "story": {
+        "type": "form_cold",
+        "key": "form_cold:5:0a0b115a2a4f",
+        "players": [
+          {
+            "name": "Jo\u00e3o Pedro",
+            "team": "CHE",
+            "form": 0.0,
+            "total_points": 47,
+            "price_millions": 7.6,
+            "selected": 28.4
+          },
+          {
+            "name": "Gu\u00e9hi",
+            "team": "MCI",
+            "form": 0.5,
+            "total_points": 39,
+            "price_millions": 5.9,
+            "selected": 12.5
+          },
+          {
+            "name": "Gvardiol",
+            "team": "MCI",
+            "form": 1.0,
+            "total_points": 45,
+            "price_millions": 5.6,
+            "selected": 20.1
+          },
+          {
+            "name": "Mbeumo",
+            "team": "MUN",
+            "form": 1.2,
+            "total_points": 46,
+            "price_millions": 7.8,
+            "selected": 17.9
+          },
+          {
+            "name": "Schade",
+            "team": "BRE",
+            "form": 1.5,
+            "total_points": 46,
+            "price_millions": 6.1,
+            "selected": 12.1
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_cold_5_0a0b115a2a4f.png",
+      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Jo\u00e3o Pedro (CHE) - 0.0 pts/game, \u00a37.6m, owned by 28%\n2. Gu\u00e9hi (MCI) - 0.5 pts/game, \u00a35.9m, owned by 12%\n3. Gvardiol (MCI) - 1.0 pts/game, \u00a35.6m, owned by 20%\n4. Mbeumo (MUN) - 1.2 pts/game, \u00a37.8m, owned by 18%\n5. Schade (BRE) - 1.5 pts/game, \u00a36.1m, owned by 12%\n\nDo you trust any of them to bounce back? #FPL #FantasyFootball #FPLTwitter #FPLTips\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-11-22T08:24:15.703698+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -6949,17 +7003,17 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-11-19T13:38:38.055077+00:00",
-    "next": "cold",
-    "day": "2026-11-21",
-    "count": 0,
+    "last_at": "2026-11-22T08:24:15.643626+00:00",
+    "next": "hot",
+    "day": "2026-11-22",
+    "count": 1,
     "last_picks": {
       "cold": [
         "Jo\u00e3o Pedro",
         "Gu\u00e9hi",
         "Gvardiol",
         "Mbeumo",
-        "Calvert-Lewin"
+        "Schade"
       ],
       "hot": [
         "N.Jackson",
