@@ -1367,7 +1367,8 @@
       "106:119:red_cards": 1,
       "106:589:assists": 1,
       "106:295:goals_scored": 2,
-      "106:286:assists": 1
+      "106:286:assists": 1,
+      "107:420:red_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -7067,6 +7068,13 @@
       "type": "kickoff",
       "posted_at": "2026-11-22T16:30:35.793068+00:00",
       "tweet_id": "2124541060638716184",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "red_card:107:420:1",
+      "type": "red_card",
+      "posted_at": "2026-11-22T16:40:13.133718+00:00",
+      "tweet_id": "2124543482132156455",
       "ig": "skipped (live event)"
     }
   ],
