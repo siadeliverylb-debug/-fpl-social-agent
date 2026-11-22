@@ -1364,7 +1364,8 @@
       "106:589:yellow_cards": 1,
       "106:119:yellow_cards": 1,
       "106:639:yellow_cards": 1,
-      "106:119:red_cards": 1
+      "106:119:red_cards": 1,
+      "106:589:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -3694,11 +3695,6 @@
       "106:295:goals_scored": {
         "value": 2,
         "since": "2026-11-22T15:58:47.071958+00:00",
-        "minute": 90
-      },
-      "106:589:assists": {
-        "value": 1,
-        "since": "2026-11-22T15:56:01.931940+00:00",
         "minute": 90
       },
       "106:286:assists": {
@@ -7023,6 +7019,13 @@
       "type": "red_card",
       "posted_at": "2026-11-22T15:53:56.483118+00:00",
       "tweet_id": "2124531835971801507",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:106:589:1",
+      "type": "assist",
+      "posted_at": "2026-11-22T15:59:30.101017+00:00",
+      "tweet_id": "2124533235241849019",
       "ig": "skipped (live event)"
     }
   ],
