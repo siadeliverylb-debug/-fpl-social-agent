@@ -1062,9 +1062,9 @@
       "web_name": "Costinha",
       "team": "BHA",
       "now_cost": 45,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "s",
+      "news": "Suspended until 2 Dec",
+      "news_added": "2026-11-22T16:00:06.170652Z"
     },
     "120": {
       "web_name": "Svoboda",
@@ -2598,9 +2598,9 @@
       "web_name": "Iroegbunam",
       "team": "HUL",
       "now_cost": 50,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-15T20:00:06.878792Z"
+      "status": "d",
+      "news": "Hamstring injury - 75% chance of playing",
+      "news_added": "2026-11-22T15:00:05.901794Z"
     },
     "273": {
       "web_name": "Phillips",
@@ -3534,8 +3534,8 @@
       "web_name": "Frimpong",
       "team": "LIV",
       "now_cost": 51,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-17T15:30:09.979166Z"
     },
     "358": {
@@ -4086,8 +4086,8 @@
       "web_name": "Dorgu",
       "team": "MUN",
       "now_cost": 57,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-14T10:00:05.646862Z"
     },
     "416": {
@@ -4110,8 +4110,8 @@
       "web_name": "Maguire",
       "team": "MUN",
       "now_cost": 46,
-      "status": "d",
-      "news": "Back injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-11T01:00:09.173434Z"
     },
     "419": {
@@ -4134,8 +4134,8 @@
       "web_name": "Heaven",
       "team": "MUN",
       "now_cost": 43,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-20T17:30:06.088714Z"
     },
     "422": {
@@ -5395,7 +5395,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-22T08:24:15.644174+00:00",
+  "last_snapshot_at": "2026-11-22T16:29:40.671821+00:00",
   "recapped_events": [
     1,
     2,
@@ -5408,7 +5408,46 @@
     9,
     10
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "status:119:2026-11-22T16:00:06.170652Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:119:2026-11-22T16:00:06.170652Z",
+        "pid": "119",
+        "player": "Costinha",
+        "team": "BHA",
+        "status": "suspended",
+        "news": "Suspended until 2 Dec",
+        "category": "suspension"
+      },
+      "image_path": "assets/generated/status_119_2026-11-22T16_00_06.170652Z.png",
+      "caption": "\ud83d\udfe5 SUSPENDED: Costinha (BHA) is suspended.\n\"Suspended until 2 Dec\"\n\nCostly ban, or no big loss for his side? #FPL #FPLTwitter #FantasyPremierLeague #FPLFamily\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-11-22T16:29:40.735393+00:00",
+      "auto": true
+    },
+    {
+      "key": "injury_batch:1:cae91e45aed8",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:cae91e45aed8",
+        "injuries": [
+          {
+            "pid": "240",
+            "player": "Iroegbunam",
+            "team": "HUL",
+            "status": "doubtful",
+            "news": "Hamstring injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_cae91e45aed8.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Iroegbunam (HUL) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #FPLTips #FPLTwitter #FantasyFootball\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-11-22T16:29:40.780121+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
