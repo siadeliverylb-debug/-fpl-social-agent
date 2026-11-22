@@ -1368,7 +1368,8 @@
       "106:589:assists": 1,
       "106:295:goals_scored": 2,
       "106:286:assists": 1,
-      "107:420:red_cards": 1
+      "107:420:red_cards": 1,
+      "107:368:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -1934,6 +1935,12 @@
         "team": "HUL",
         "assisted_by": "Belloumi",
         "score": "2-0"
+      },
+      "107:h": {
+        "player": "Szoboszlai",
+        "team": "LIV",
+        "assisted_by": null,
+        "score": "1-0"
       }
     },
     "posted_score": {
@@ -2250,7 +2257,7 @@
         0
       ],
       "107": [
-        0,
+        1,
         0
       ],
       "103": [
@@ -3702,11 +3709,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "107:368:goals_scored": {
-        "value": 1,
-        "since": "2026-11-22T16:41:37.221368+00:00",
-        "minute": 10
       },
       "107:379:assists": {
         "value": 1,
@@ -7091,6 +7093,13 @@
       "type": "red_card",
       "posted_at": "2026-11-22T16:40:13.133718+00:00",
       "tweet_id": "2124543482132156455",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:107:368:1",
+      "type": "goal",
+      "posted_at": "2026-11-22T16:45:07.579174+00:00",
+      "tweet_id": "2124544717153349644",
       "ig": "skipped (live event)"
     }
   ],
