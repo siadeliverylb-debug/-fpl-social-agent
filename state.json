@@ -5408,94 +5408,7 @@
     9,
     10
   ],
-  "pending": [
-    {
-      "key": "status:501:2026-11-21T17:00:05.766153Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:501:2026-11-21T17:00:05.766153Z",
-        "pid": "501",
-        "player": "Danso",
-        "team": "SUN",
-        "status": "not in squad",
-        "news": "Ineligible to face parent club - Expected back 2 Dec",
-        "category": "availability"
-      },
-      "image_path": "assets/generated/status_501_2026-11-21T17_00_05.766153Z.png",
-      "caption": "\u2139\ufe0f AVAILABILITY UPDATE: Danso (SUN) is not in squad.\n\"Ineligible to face parent club - Expected back 2 Dec\"\n\nTime for a transfer, or riding it out? #FPL #FantasyPremierLeague #PremierLeague #FPLTips\n\nFollow for the next one.",
-      "created_at": "2026-11-21T21:16:34.749541+00:00",
-      "auto": true
-    },
-    {
-      "key": "injury_batch:7:acf2f3981658",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:7:acf2f3981658",
-        "injuries": [
-          {
-            "pid": "492",
-            "player": "Awoniyi",
-            "team": "COV",
-            "status": "doubtful",
-            "news": "Leg injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "159",
-            "player": "Caicedo",
-            "team": "CHE",
-            "status": "doubtful",
-            "news": "Back injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "305",
-            "player": "Davis",
-            "team": "IPS",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "449",
-            "player": "Hall",
-            "team": "NEW",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "207",
-            "player": "Mingueza",
-            "team": "CRY",
-            "status": "doubtful",
-            "news": "Thigh injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "1",
-            "player": "Raya",
-            "team": "ARS",
-            "status": "doubtful",
-            "news": "Shoulder injury - 75% chance of playing",
-            "category": "injury"
-          },
-          {
-            "pid": "403",
-            "player": "S\u00e1vio",
-            "team": "TOT",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_7_acf2f3981658.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (7):\n\n\ud83d\udea8 Awoniyi (COV) - doubtful: \"Leg injury - 75% chance of playing\"\n\ud83d\udea8 Caicedo (CHE) - doubtful: \"Back injury - 75% chance of playing\"\n\ud83d\udea8 Davis (IPS) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Hall (NEW) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\ud83d\udea8 Mingueza (CRY) - doubtful: \"Thigh injury - 75% chance of playing\"\n\ud83d\udea8 Raya (ARS) - doubtful: \"Shoulder injury - 75% chance of playing\"\n\ud83d\udea8 S\u00e1vio (TOT) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FantasyFootball #FPLTips #FPLFamily\n\nFollow for the next one.",
-      "created_at": "2026-11-21T21:16:34.811462+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5754,7 +5667,9 @@
     "injury_batch:5:bb4a0c426384",
     "deadline:11:24h",
     "injury_batch:1:cb7a1d775e80",
-    "status:211:2026-11-21T17:30:05.694046Z"
+    "status:211:2026-11-21T17:30:05.694046Z",
+    "status:501:2026-11-21T17:00:05.766153Z",
+    "injury_batch:7:acf2f3981658"
   ],
   "post_log": [
     {
