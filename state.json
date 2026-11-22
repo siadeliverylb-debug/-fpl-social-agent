@@ -5410,23 +5410,6 @@
   ],
   "pending": [
     {
-      "key": "status:119:2026-11-22T16:00:06.170652Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:119:2026-11-22T16:00:06.170652Z",
-        "pid": "119",
-        "player": "Costinha",
-        "team": "BHA",
-        "status": "suspended",
-        "news": "Suspended until 2 Dec",
-        "category": "suspension"
-      },
-      "image_path": "assets/generated/status_119_2026-11-22T16_00_06.170652Z.png",
-      "caption": "\ud83d\udfe5 SUSPENDED: Costinha (BHA) is suspended.\n\"Suspended until 2 Dec\"\n\nCostly ban, or no big loss for his side? #FPL #FPLTwitter #FantasyPremierLeague #FPLFamily\n\nFollow @fantasycoachai so you don't miss the next update.",
-      "created_at": "2026-11-22T16:29:40.735393+00:00",
-      "auto": true
-    },
-    {
       "key": "injury_batch:1:cae91e45aed8",
       "story": {
         "type": "injury_batch",
@@ -5709,7 +5692,8 @@
     "status:211:2026-11-21T17:30:05.694046Z",
     "status:501:2026-11-21T17:00:05.766153Z",
     "injury_batch:7:acf2f3981658",
-    "form_cold:5:0a0b115a2a4f"
+    "form_cold:5:0a0b115a2a4f",
+    "status:119:2026-11-22T16:00:06.170652Z"
   ],
   "post_log": [
     {
@@ -6985,6 +6969,13 @@
       "type": "status_change",
       "posted_at": "2026-11-22T00:19:03.857970+00:00",
       "tweet_id": "2124296566504620204",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "status:119:2026-11-22T16:00:06.170652Z",
+      "type": "status_change",
+      "posted_at": "2026-11-22T21:16:14.630827+00:00",
+      "tweet_id": "2124612946160476311",
       "ig": "skipped (Instagram not configured)"
     }
   ],
