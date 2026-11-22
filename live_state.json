@@ -314,7 +314,7 @@
         "finished_provisional": true
       },
       "107": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "103": {
@@ -7060,6 +7060,13 @@
       "type": "bonus_points",
       "posted_at": "2026-11-22T16:01:48.078378+00:00",
       "tweet_id": "2124533814055915743",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "kickoff:107",
+      "type": "kickoff",
+      "posted_at": "2026-11-22T16:30:35.793068+00:00",
+      "tweet_id": "2124541060638716184",
       "ig": "skipped (live event)"
     }
   ],
