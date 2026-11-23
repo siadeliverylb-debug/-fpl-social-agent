@@ -7,7 +7,7 @@
       "team": "ARS",
       "now_cost": 63,
       "status": "d",
-      "news": "Shoulder injury - 75% chance of playing",
+      "news": "Shoulder injury - 50% chance of playing",
       "news_added": "2026-11-21T19:00:05.753960Z"
     },
     "2": {
@@ -254,8 +254,8 @@
       "web_name": "Cash",
       "team": "AVL",
       "now_cost": 43,
-      "status": "i",
-      "news": "Concussion - Expected back 28 Nov",
+      "status": "d",
+      "news": "Concussion - 75% chance of playing",
       "news_added": "2026-11-15T10:30:05.648897Z"
     },
     "33": {
@@ -902,8 +902,8 @@
       "web_name": "Carvalho",
       "team": "BRE",
       "now_cost": 50,
-      "status": "d",
-      "news": "Knock - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-30T14:30:09.456391Z"
     },
     "102": {
@@ -1246,9 +1246,9 @@
       "web_name": "Yalcouy\u00e9",
       "team": "BHA",
       "now_cost": 44,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "i",
+      "news": "Unspecified injury - Unknown return date",
+      "news_added": "2026-11-23T14:30:06.034940Z"
     },
     "614": {
       "web_name": "Hadjam",
@@ -2206,9 +2206,9 @@
       "web_name": "Tarkowski",
       "team": "EVE",
       "now_cost": 62,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "s",
+      "news": "Suspended until 13 Dec",
+      "news_added": "2026-11-23T21:00:06.268052Z"
     },
     "230": {
       "web_name": "Branthwaite",
@@ -2598,8 +2598,8 @@
       "web_name": "Iroegbunam",
       "team": "HUL",
       "now_cost": 50,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "i",
+      "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-11-22T15:00:05.901794Z"
     },
     "273": {
@@ -2822,9 +2822,9 @@
       "web_name": "Gelhardt",
       "team": "HUL",
       "now_cost": 50,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-08-17T21:30:07.799839Z"
+      "status": "i",
+      "news": "Thigh injury - Unknown return date",
+      "news_added": "2026-11-23T12:00:05.467109Z"
     },
     "556": {
       "web_name": "Targett",
@@ -3814,8 +3814,8 @@
       "web_name": "Matheus N.",
       "team": "MCI",
       "now_cost": 59,
-      "status": "d",
-      "news": "Unspecified injury - 50% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-20T15:30:06.460505Z"
     },
     "390": {
@@ -5395,7 +5395,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-23T10:57:24.836546+00:00",
+  "last_snapshot_at": "2026-11-23T22:25:17.151177+00:00",
   "recapped_events": [
     1,
     2,
@@ -5408,7 +5408,25 @@
     9,
     10
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "status:229:2026-11-23T21:00:06.268052Z",
+      "story": {
+        "type": "status_change",
+        "key": "status:229:2026-11-23T21:00:06.268052Z",
+        "pid": "229",
+        "player": "Tarkowski",
+        "team": "EVE",
+        "status": "suspended",
+        "news": "Suspended until 13 Dec",
+        "category": "suspension"
+      },
+      "image_path": "assets/generated/status_229_2026-11-23T21_00_06.268052Z.png",
+      "caption": "\ud83d\udfe5 SUSPENDED: Tarkowski (EVE) is suspended.\n\"Suspended until 13 Dec\"\n\nWho's covering for him while he's out? #FPL #FPLTwitter #FPLTips #FantasyFootball\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-11-23T22:25:17.205735+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
