@@ -5408,29 +5408,7 @@
     9,
     10
   ],
-  "pending": [
-    {
-      "key": "injury_batch:1:f09093216275",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:f09093216275",
-        "injuries": [
-          {
-            "pid": "367",
-            "player": "Gakpo",
-            "team": "LIV",
-            "status": "doubtful",
-            "news": "Calf injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_f09093216275.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Gakpo (LIV) - doubtful: \"Calf injury - 75% chance of playing\"\n\nDoes this wreck your GW plan? #FPL #FantasyFootball #FPLCommunity #FPLTips\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-11-22T21:55:58.034595+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5695,7 +5673,8 @@
     "form_cold:5:0a0b115a2a4f",
     "status:119:2026-11-22T16:00:06.170652Z",
     "injury_batch:1:cae91e45aed8",
-    "status:420:2026-11-22T17:00:05.657366Z"
+    "status:420:2026-11-22T17:00:05.657366Z",
+    "injury_batch:1:f09093216275"
   ],
   "post_log": [
     {
