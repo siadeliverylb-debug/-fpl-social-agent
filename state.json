@@ -5410,44 +5410,6 @@
   ],
   "pending": [
     {
-      "key": "injury_batch:1:cae91e45aed8",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:cae91e45aed8",
-        "injuries": [
-          {
-            "pid": "240",
-            "player": "Iroegbunam",
-            "team": "HUL",
-            "status": "doubtful",
-            "news": "Hamstring injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_cae91e45aed8.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Iroegbunam (HUL) - doubtful: \"Hamstring injury - 75% chance of playing\"\n\nBench him or bank on a late fitness call? #FPL #FPLTips #FPLTwitter #FantasyFootball\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-11-22T16:29:40.780121+00:00",
-      "auto": true
-    },
-    {
-      "key": "status:420:2026-11-22T17:00:05.657366Z",
-      "story": {
-        "type": "status_change",
-        "key": "status:420:2026-11-22T17:00:05.657366Z",
-        "pid": "420",
-        "player": "Yoro",
-        "team": "MUN",
-        "status": "suspended",
-        "news": "Suspended until 2 Dec",
-        "category": "suspension"
-      },
-      "image_path": "assets/generated/status_420_2026-11-22T17_00_05.657366Z.png",
-      "caption": "\ud83d\udfe5 SUSPENDED: Yoro (MUN) is suspended.\n\"Suspended until 2 Dec\"\n\nCostly ban, or no big loss for his side? #FPL #FPLTips #FPLFamily #PremierLeague\n\nTurn on notifications to catch these as they land.",
-      "created_at": "2026-11-22T21:55:57.989865+00:00",
-      "auto": true
-    },
-    {
       "key": "injury_batch:1:f09093216275",
       "story": {
         "type": "injury_batch",
@@ -5731,7 +5693,9 @@
     "status:501:2026-11-21T17:00:05.766153Z",
     "injury_batch:7:acf2f3981658",
     "form_cold:5:0a0b115a2a4f",
-    "status:119:2026-11-22T16:00:06.170652Z"
+    "status:119:2026-11-22T16:00:06.170652Z",
+    "injury_batch:1:cae91e45aed8",
+    "status:420:2026-11-22T17:00:05.657366Z"
   ],
   "post_log": [
     {
@@ -7014,6 +6978,13 @@
       "type": "status_change",
       "posted_at": "2026-11-22T21:16:14.630827+00:00",
       "tweet_id": "2124612946160476311",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "status:420:2026-11-22T17:00:05.657366Z",
+      "type": "status_change",
+      "posted_at": "2026-11-23T01:58:18.683689+00:00",
+      "tweet_id": "2124683930754310492",
       "ig": "skipped (Instagram not configured)"
     }
   ],
