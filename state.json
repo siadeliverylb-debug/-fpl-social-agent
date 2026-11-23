@@ -5395,7 +5395,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-23T02:04:26.100065+00:00",
+  "last_snapshot_at": "2026-11-23T10:57:24.836546+00:00",
   "recapped_events": [
     1,
     2,
@@ -5408,7 +5408,61 @@
     9,
     10
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_hot:5:f27cb32b5381",
+      "story": {
+        "type": "form_hot",
+        "key": "form_hot:5:f27cb32b5381",
+        "players": [
+          {
+            "name": "Wirtz",
+            "team": "LIV",
+            "form": 8.8,
+            "total_points": 60,
+            "price_millions": 7.4,
+            "selected": 8.5
+          },
+          {
+            "name": "N.Jackson",
+            "team": "AVL",
+            "form": 8.8,
+            "total_points": 56,
+            "price_millions": 7.3,
+            "selected": 36.2
+          },
+          {
+            "name": "Hill",
+            "team": "BOU",
+            "form": 8.8,
+            "total_points": 56,
+            "price_millions": 5.6,
+            "selected": 3.9
+          },
+          {
+            "name": "McBurnie",
+            "team": "HUL",
+            "form": 8.8,
+            "total_points": 51,
+            "price_millions": 5.5,
+            "selected": 1.8
+          },
+          {
+            "name": "Konsa",
+            "team": "ARS",
+            "form": 8.2,
+            "total_points": 58,
+            "price_millions": 4.9,
+            "selected": 25.4
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_5_f27cb32b5381.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Wirtz (LIV) - 8.8 pts/game, \u00a37.4m\n2. N.Jackson (AVL) - 8.8 pts/game, \u00a37.3m\n3. Hill (BOU) - 8.8 pts/game, \u00a35.6m\n4. McBurnie (HUL) - 8.8 pts/game, \u00a35.5m\n5. Konsa (ARS) - 8.2 pts/game, \u00a34.9m\n\nTime to jump on one of them, or too late? #FPL #FantasyFootball #FPLTwitter #FPLCommunity\n\nFollowing along? Hit follow so you don't miss what's next.",
+      "created_at": "2026-11-23T10:57:24.895707+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -6968,9 +7022,9 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-11-22T08:24:15.643626+00:00",
-    "next": "hot",
-    "day": "2026-11-22",
+    "last_at": "2026-11-23T10:57:24.835891+00:00",
+    "next": "cold",
+    "day": "2026-11-23",
     "count": 1,
     "last_picks": {
       "cold": [
@@ -6981,11 +7035,11 @@
         "Schade"
       ],
       "hot": [
+        "Wirtz",
         "N.Jackson",
-        "Konsa",
-        "Gabriel",
-        "Barry",
-        "Van Hecke"
+        "Hill",
+        "McBurnie",
+        "Konsa"
       ]
     }
   }
