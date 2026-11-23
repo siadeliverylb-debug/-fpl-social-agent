@@ -5408,61 +5408,7 @@
     9,
     10
   ],
-  "pending": [
-    {
-      "key": "form_hot:5:f27cb32b5381",
-      "story": {
-        "type": "form_hot",
-        "key": "form_hot:5:f27cb32b5381",
-        "players": [
-          {
-            "name": "Wirtz",
-            "team": "LIV",
-            "form": 8.8,
-            "total_points": 60,
-            "price_millions": 7.4,
-            "selected": 8.5
-          },
-          {
-            "name": "N.Jackson",
-            "team": "AVL",
-            "form": 8.8,
-            "total_points": 56,
-            "price_millions": 7.3,
-            "selected": 36.2
-          },
-          {
-            "name": "Hill",
-            "team": "BOU",
-            "form": 8.8,
-            "total_points": 56,
-            "price_millions": 5.6,
-            "selected": 3.9
-          },
-          {
-            "name": "McBurnie",
-            "team": "HUL",
-            "form": 8.8,
-            "total_points": 51,
-            "price_millions": 5.5,
-            "selected": 1.8
-          },
-          {
-            "name": "Konsa",
-            "team": "ARS",
-            "form": 8.2,
-            "total_points": 58,
-            "price_millions": 4.9,
-            "selected": 25.4
-          }
-        ]
-      },
-      "image_path": "assets/generated/form_hot_5_f27cb32b5381.png",
-      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Wirtz (LIV) - 8.8 pts/game, \u00a37.4m\n2. N.Jackson (AVL) - 8.8 pts/game, \u00a37.3m\n3. Hill (BOU) - 8.8 pts/game, \u00a35.6m\n4. McBurnie (HUL) - 8.8 pts/game, \u00a35.5m\n5. Konsa (ARS) - 8.2 pts/game, \u00a34.9m\n\nTime to jump on one of them, or too late? #FPL #FantasyFootball #FPLTwitter #FPLCommunity\n\nFollowing along? Hit follow so you don't miss what's next.",
-      "created_at": "2026-11-23T10:57:24.895707+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5728,7 +5674,8 @@
     "status:119:2026-11-22T16:00:06.170652Z",
     "injury_batch:1:cae91e45aed8",
     "status:420:2026-11-22T17:00:05.657366Z",
-    "injury_batch:1:f09093216275"
+    "injury_batch:1:f09093216275",
+    "form_hot:5:f27cb32b5381"
   ],
   "post_log": [
     {
