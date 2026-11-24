@@ -318,8 +318,8 @@
         "finished_provisional": true
       },
       "103": {
-        "started": false,
-        "finished_provisional": false
+        "started": true,
+        "finished_provisional": true
       }
     },
     "stats": {
@@ -1377,7 +1377,14 @@
       "107:377:goals_scored": 1,
       "107:366:assists": 1,
       "107:627:assists": 1,
-      "107:627:yellow_cards": 1
+      "107:627:yellow_cards": 1,
+      "103:86:goals_scored": 2,
+      "103:98:goals_scored": 1,
+      "103:100:goals_scored": 1,
+      "103:105:assists": 2,
+      "103:97:assists": 1,
+      "103:233:yellow_cards": 1,
+      "103:229:red_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -1949,6 +1956,12 @@
         "team": "LIV",
         "assisted_by": null,
         "score": "4-0"
+      },
+      "103:h": {
+        "player": "Carvalho",
+        "team": "BRE",
+        "assisted_by": null,
+        "score": "4-0"
       }
     },
     "posted_score": {
@@ -2269,7 +2282,7 @@
         0
       ],
       "103": [
-        0,
+        4,
         0
       ]
     },
@@ -2971,7 +2984,17 @@
       "107:381": true,
       "107:422": true,
       "107:430": true,
-      "107:440": true
+      "107:440": true,
+      "103:21": true,
+      "103:94": true,
+      "103:97": true,
+      "103:100": true,
+      "103:209": true,
+      "103:231": true,
+      "103:238": true,
+      "103:247": true,
+      "103:565": true,
+      "103:620": true
     },
     "subs_baselined": {
       "31": true,
@@ -3697,7 +3720,8 @@
       "104": true,
       "109": true,
       "106": true,
-      "107": true
+      "107": true,
+      "103": true
     },
     "goal_pending": {
       "44:204:goals_scored": {
@@ -7173,6 +7197,83 @@
       "type": "bonus_points",
       "posted_at": "2026-11-22T18:59:05.501553+00:00",
       "tweet_id": "2124578430553391465",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "kickoff:103",
+      "type": "kickoff",
+      "posted_at": "2026-11-24T02:59:46.752488+00:00",
+      "tweet_id": "2125061786982302102",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "red_card:103:229:1",
+      "type": "red_card",
+      "posted_at": "2026-11-24T02:59:49.594616+00:00",
+      "tweet_id": "2125061799280082967",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:103:86:1",
+      "type": "goal",
+      "posted_at": "2026-11-24T02:59:52.463654+00:00",
+      "tweet_id": "2125061811380609107",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:103:86:2",
+      "type": "goal",
+      "posted_at": "2026-11-24T02:59:55.285625+00:00",
+      "tweet_id": "2125061823158170090",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:103:98:1",
+      "type": "goal",
+      "posted_at": "2026-11-24T02:59:58.172794+00:00",
+      "tweet_id": "2125061835057397762",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:103:100:1",
+      "type": "goal",
+      "posted_at": "2026-11-24T03:00:01.017527+00:00",
+      "tweet_id": "2125061847149621537",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:103:105:1",
+      "type": "assist",
+      "posted_at": "2026-11-24T03:00:04.000842+00:00",
+      "tweet_id": "2125061859732550118",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:103:105:2",
+      "type": "assist",
+      "posted_at": "2026-11-24T03:00:06.873420+00:00",
+      "tweet_id": "2125061871698952209",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:103:97:1",
+      "type": "assist",
+      "posted_at": "2026-11-24T03:00:09.833905+00:00",
+      "tweet_id": "2125061884252418269",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "fulltime:103",
+      "type": "full_time",
+      "posted_at": "2026-11-24T03:00:12.642403+00:00",
+      "tweet_id": "2125061896084521450",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "bonus:103",
+      "type": "bonus_points",
+      "posted_at": "2026-11-24T03:00:15.524671+00:00",
+      "tweet_id": "2125061908160037156",
       "ig": "skipped (live event)"
     }
   ],
