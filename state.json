@@ -294,8 +294,8 @@
       "web_name": "Lindel\u00f6f",
       "team": "AVL",
       "now_cost": 45,
-      "status": "d",
-      "news": "Illness - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-21T14:30:05.829063Z"
     },
     "38": {
@@ -3559,7 +3559,7 @@
       "team": "LIV",
       "now_cost": 49,
       "status": "i",
-      "news": "Knee injury - Unknown return date",
+      "news": "Knee injury - Expected back 12 Dec",
       "news_added": "2026-07-23T12:01:23.565711Z"
     },
     "361": {
@@ -3583,7 +3583,7 @@
       "team": "LIV",
       "now_cost": 39,
       "status": "i",
-      "news": "Knee injury - Unknown return date",
+      "news": "Knee injury - Expected back 12 Dec",
       "news_added": "2026-07-23T12:01:23.596909Z"
     },
     "364": {
@@ -4150,8 +4150,8 @@
       "web_name": "Shaw",
       "team": "MUN",
       "now_cost": 42,
-      "status": "i",
-      "news": "Unspecified injury - Unknown return date",
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
       "news_added": "2026-10-12T21:30:08.995810Z"
     },
     "424": {
@@ -5395,7 +5395,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-24T06:11:08.761777+00:00",
+  "last_snapshot_at": "2026-11-24T17:59:44.595265+00:00",
   "recapped_events": [
     1,
     2,
@@ -5408,7 +5408,23 @@
     9,
     10
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "recap:11",
+      "story": {
+        "type": "gw_recap",
+        "key": "recap:11",
+        "gw": 11,
+        "most_captained": "Haaland",
+        "highest_score": 106,
+        "most_selected": "Haaland"
+      },
+      "image_path": "assets/generated/recap_11.png",
+      "caption": "\ud83d\udd25 GW11 is in the books. Top score: 106 pts. Most captained: Haaland.\n\nHow does your squad compare? #FPL #FPLTips #FantasyPremierLeague #FantasyFootball\n\nFollow for the next one.",
+      "created_at": "2026-11-24T17:59:44.643541+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
