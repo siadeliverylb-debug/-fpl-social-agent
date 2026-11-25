@@ -1022,9 +1022,9 @@
       "web_name": "Boscagli",
       "team": "BHA",
       "now_cost": 45,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Illness - 75% chance of playing",
+      "news_added": "2026-11-25T16:00:05.519144Z"
     },
     "115": {
       "web_name": "De Cuyper",
@@ -3614,8 +3614,8 @@
       "web_name": "Gakpo",
       "team": "LIV",
       "now_cost": 71,
-      "status": "d",
-      "news": "Calf injury - 75% chance of playing",
+      "status": "i",
+      "news": "Calf injury - Expected back 2 Dec",
       "news_added": "2026-11-22T16:30:05.520808Z"
     },
     "368": {
@@ -3646,8 +3646,8 @@
       "web_name": "Gravenberch",
       "team": "LIV",
       "now_cost": 58,
-      "status": "d",
-      "news": "Foot injury - 75% chance of playing",
+      "status": "i",
+      "news": "Foot injury - Unknown return date",
       "news_added": "2026-11-03T17:00:09.626695Z"
     },
     "372": {
@@ -4054,8 +4054,8 @@
       "web_name": "Darlow",
       "team": "MUN",
       "now_cost": 45,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-20T17:00:04.943349Z"
     },
     "412": {
@@ -4150,8 +4150,8 @@
       "web_name": "Shaw",
       "team": "MUN",
       "now_cost": 42,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-10-12T21:30:08.995810Z"
     },
     "424": {
@@ -4702,8 +4702,8 @@
       "web_name": "Hudson-Odoi",
       "team": "NFO",
       "now_cost": 57,
-      "status": "i",
-      "news": "Unspecified injury - Unknown return date",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-19T15:30:05.816247Z"
     },
     "483": {
@@ -5395,7 +5395,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-25T10:50:47.763424+00:00",
+  "last_snapshot_at": "2026-11-25T20:17:58.870873+00:00",
   "recapped_events": [
     1,
     2,
@@ -5409,7 +5409,29 @@
     10,
     11
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:ecb7937db58e",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:ecb7937db58e",
+        "injuries": [
+          {
+            "pid": "114",
+            "player": "Boscagli",
+            "team": "BHA",
+            "status": "doubtful",
+            "news": "Illness - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_ecb7937db58e.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Boscagli (BHA) - doubtful: \"Illness - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FantasyFootball #FPLTwitter #FPLFamily\n\nFollow for the next one.",
+      "created_at": "2026-11-25T20:17:58.923077+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
