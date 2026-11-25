@@ -133,7 +133,7 @@
     "17": {
       "web_name": "Merino",
       "team": "ARS",
-      "now_cost": 57,
+      "now_cost": 56,
       "status": "a",
       "news": "",
       "news_added": null
@@ -557,7 +557,7 @@
     "60": {
       "web_name": "Hill",
       "team": "BOU",
-      "now_cost": 56,
+      "now_cost": 57,
       "status": "a",
       "news": "",
       "news_added": null
@@ -821,7 +821,7 @@
     "89": {
       "web_name": "Henry",
       "team": "BRE",
-      "now_cost": 44,
+      "now_cost": 43,
       "status": "i",
       "news": "Hip injury - Unknown return date",
       "news_added": "2026-10-27T16:30:09.444144Z"
@@ -1709,7 +1709,7 @@
     "184": {
       "web_name": "Grimes",
       "team": "COV",
-      "now_cost": 48,
+      "now_cost": 47,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4045,7 +4045,7 @@
     "162": {
       "web_name": "Andrey Santos",
       "team": "MUN",
-      "now_cost": 47,
+      "now_cost": 46,
       "status": "a",
       "news": "",
       "news_added": null
@@ -4126,8 +4126,8 @@
       "web_name": "Yoro",
       "team": "MUN",
       "now_cost": 48,
-      "status": "s",
-      "news": "Suspended until 2 Dec",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-22T17:00:05.657366Z"
     },
     "421": {
@@ -4789,7 +4789,7 @@
     "558": {
       "web_name": "Schlager",
       "team": "NFO",
-      "now_cost": 50,
+      "now_cost": 49,
       "status": "a",
       "news": "",
       "news_added": "2026-11-15T17:00:06.045512Z"
@@ -5395,7 +5395,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-24T17:59:44.595265+00:00",
+  "last_snapshot_at": "2026-11-25T01:58:01.598864+00:00",
   "recapped_events": [
     1,
     2,
