@@ -5409,22 +5409,7 @@
     10,
     11
   ],
-  "pending": [
-    {
-      "key": "deadline:12:24h",
-      "story": {
-        "type": "deadline_reminder",
-        "key": "deadline:12:24h",
-        "gw": 12,
-        "bucket": "24h",
-        "hours_until": 21.8
-      },
-      "image_path": "assets/generated/deadline_12_24h.png",
-      "caption": "\u23f0 GW12 deadline in 24h! Don't get caught out -- set your team now.\n\n#FPL #PremierLeague #FantasyFootball #FantasyPremierLeague\n\nIs your team any good? Free AI rating: fantasycoach.org/rate-my-team",
-      "created_at": "2026-11-26T20:40:31.494568+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5696,7 +5681,8 @@
     "recap:11",
     "form_cold:5:8fc6bf8e9fb7",
     "injury_batch:1:ecb7937db58e",
-    "form_hot:5:ca0713386949"
+    "form_hot:5:ca0713386949",
+    "deadline:12:24h"
   ],
   "post_log": [
     {
