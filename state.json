@@ -3694,9 +3694,9 @@
       "web_name": "Munoz",
       "team": "LIV",
       "now_cost": 65,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-20T18:30:09.999223Z"
+      "status": "d",
+      "news": "Knee injury - 75% chance of playing",
+      "news_added": "2026-11-26T03:30:05.640103Z"
     },
     "378": {
       "web_name": "McConnell",
@@ -5395,7 +5395,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-26T02:56:47.432397+00:00",
+  "last_snapshot_at": "2026-11-26T11:46:17.302117+00:00",
   "recapped_events": [
     1,
     2,
@@ -5409,7 +5409,61 @@
     10,
     11
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_hot:5:ca0713386949",
+      "story": {
+        "type": "form_hot",
+        "key": "form_hot:5:ca0713386949",
+        "players": [
+          {
+            "name": "Wirtz",
+            "team": "LIV",
+            "form": 9.7,
+            "total_points": 60,
+            "price_millions": 7.4,
+            "selected": 11.3
+          },
+          {
+            "name": "Barry",
+            "team": "EVE",
+            "form": 9.0,
+            "total_points": 57,
+            "price_millions": 5.7,
+            "selected": 11.4
+          },
+          {
+            "name": "McBurnie",
+            "team": "HUL",
+            "form": 9.0,
+            "total_points": 51,
+            "price_millions": 5.5,
+            "selected": 2.1
+          },
+          {
+            "name": "Van Hecke",
+            "team": "TOT",
+            "form": 8.3,
+            "total_points": 63,
+            "price_millions": 5.2,
+            "selected": 19.9
+          },
+          {
+            "name": "Evanilson",
+            "team": "BOU",
+            "form": 8.0,
+            "total_points": 67,
+            "price_millions": 6.6,
+            "selected": 27.7
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_hot_5_ca0713386949.png",
+      "caption": "\ud83d\udd25 IN FORM: the players averaging the most points per game lately.\n\n1. Wirtz (LIV) - 9.7 pts/game, \u00a37.4m\n2. Barry (EVE) - 9.0 pts/game, \u00a35.7m\n3. McBurnie (HUL) - 9.0 pts/game, \u00a35.5m\n4. Van Hecke (TOT) - 8.3 pts/game, \u00a35.2m\n5. Evanilson (BOU) - 8.0 pts/game, \u00a36.6m\n\nAny of them in your squad yet? #FPL #FPLCommunity #FPLTwitter #FantasyFootball\n\nFollow @fantasycoachai so you don't miss the next update.",
+      "created_at": "2026-11-26T11:46:17.348367+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -6981,9 +7035,9 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-11-25T10:50:47.762896+00:00",
-    "next": "hot",
-    "day": "2026-11-25",
+    "last_at": "2026-11-26T11:46:17.301141+00:00",
+    "next": "cold",
+    "day": "2026-11-26",
     "count": 1,
     "last_picks": {
       "cold": [
@@ -6995,10 +7049,10 @@
       ],
       "hot": [
         "Wirtz",
-        "N.Jackson",
-        "Hill",
+        "Barry",
         "McBurnie",
-        "Konsa"
+        "Van Hecke",
+        "Evanilson"
       ]
     }
   }
