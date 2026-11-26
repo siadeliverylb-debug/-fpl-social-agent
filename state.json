@@ -1454,8 +1454,8 @@
       "web_name": "Caicedo",
       "team": "CHE",
       "now_cost": 53,
-      "status": "d",
-      "news": "Back injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-21T16:30:05.451902Z"
     },
     "161": {
@@ -1822,8 +1822,8 @@
       "web_name": "Awoniyi",
       "team": "COV",
       "now_cost": 54,
-      "status": "d",
-      "news": "Ankle injury - 75% chance of playing",
+      "status": "i",
+      "news": "Ankle injury - Unknown return date",
       "news_added": "2026-11-21T16:30:05.778377Z"
     },
     "575": {
@@ -1950,8 +1950,8 @@
       "web_name": "Mingueza",
       "team": "CRY",
       "now_cost": 42,
-      "status": "d",
-      "news": "Thigh injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-21T17:30:05.672662Z"
     },
     "208": {
@@ -5395,7 +5395,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-26T11:46:17.302117+00:00",
+  "last_snapshot_at": "2026-11-26T20:40:31.440016+00:00",
   "recapped_events": [
     1,
     2,
@@ -5409,7 +5409,22 @@
     10,
     11
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "deadline:12:24h",
+      "story": {
+        "type": "deadline_reminder",
+        "key": "deadline:12:24h",
+        "gw": 12,
+        "bucket": "24h",
+        "hours_until": 21.8
+      },
+      "image_path": "assets/generated/deadline_12_24h.png",
+      "caption": "\u23f0 GW12 deadline in 24h! Don't get caught out -- set your team now.\n\n#FPL #PremierLeague #FantasyFootball #FantasyPremierLeague\n\nIs your team any good? Free AI rating: fantasycoach.org/rate-my-team",
+      "created_at": "2026-11-26T20:40:31.494568+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
