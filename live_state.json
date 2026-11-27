@@ -1428,12 +1428,13 @@
       "119:491:goals_scored": 1,
       "119:201:assists": 1,
       "119:145:yellow_cards": 1,
-      "119:480:goals_scored": 1,
+      "119:480:goals_scored": 2,
       "119:167:assists": 1,
       "119:170:goals_scored": 1,
       "119:156:assists": 1,
       "119:101:yellow_cards": 1,
-      "119:156:yellow_cards": 1
+      "119:156:yellow_cards": 1,
+      "119:558:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -2015,8 +2016,8 @@
       "119:h": {
         "player": "Gibbs-White",
         "team": "NFO",
-        "assisted_by": "Delap",
-        "score": "2-0"
+        "assisted_by": "Schlager",
+        "score": "3-1"
       },
       "119:a": {
         "player": "Emegha",
@@ -2347,7 +2348,7 @@
         0
       ],
       "119": [
-        2,
+        3,
         1
       ],
       "117": [
@@ -3889,16 +3890,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "119:480:goals_scored": {
-        "value": 2,
-        "since": "2026-11-27T21:33:31.674093+00:00",
-        "minute": 74
-      },
-      "119:558:assists": {
-        "value": 1,
-        "since": "2026-11-27T21:33:31.674113+00:00",
-        "minute": 74
       }
     },
     "event_tracking": {
@@ -7455,6 +7446,13 @@
       "type": "goal_update",
       "posted_at": "2026-11-27T21:18:24.253097+00:00",
       "tweet_id": "2126425429187994091",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:119:480:2",
+      "type": "goal",
+      "posted_at": "2026-11-27T21:36:58.611865+00:00",
+      "tweet_id": "2126430103127408748",
       "ig": "skipped (live event)"
     }
   ],
