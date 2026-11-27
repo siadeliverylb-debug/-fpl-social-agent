@@ -7,7 +7,7 @@
       "team": "ARS",
       "now_cost": 62,
       "status": "d",
-      "news": "Shoulder injury - 50% chance of playing",
+      "news": "Shoulder injury - 75% chance of playing",
       "news_added": "2026-11-21T19:00:05.753960Z"
     },
     "2": {
@@ -254,8 +254,8 @@
       "web_name": "Cash",
       "team": "AVL",
       "now_cost": 43,
-      "status": "d",
-      "news": "Concussion - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-15T10:30:05.648897Z"
     },
     "33": {
@@ -582,8 +582,8 @@
       "web_name": "Milosavljevi\u0107",
       "team": "BOU",
       "now_cost": 49,
-      "status": "i",
-      "news": "Thigh injury - Unknown return date",
+      "status": "a",
+      "news": "",
       "news_added": "2026-08-06T10:00:10.456051Z"
     },
     "64": {
@@ -654,9 +654,9 @@
       "web_name": "Gannon-Doak",
       "team": "BOU",
       "now_cost": 48,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Illness - 75% chance of playing",
+      "news_added": "2026-11-27T15:30:06.231137Z"
     },
     "73": {
       "web_name": "Adams",
@@ -1118,9 +1118,9 @@
       "web_name": "O'Riley",
       "team": "BHA",
       "now_cost": 54,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Ankle injury - 75% chance of playing",
+      "news_added": "2026-11-27T16:00:05.751888Z"
     },
     "127": {
       "web_name": "Gomez",
@@ -2390,9 +2390,9 @@
       "web_name": "Andersen",
       "team": "FUL",
       "now_cost": 50,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-07-23T12:01:23.516350Z"
+      "status": "i",
+      "news": "Unspecified injury - Unknown return date",
+      "news_added": "2026-11-27T13:00:06.047138Z"
     },
     "254": {
       "web_name": "Robinson",
@@ -2646,8 +2646,8 @@
       "web_name": "Hughes",
       "team": "HUL",
       "now_cost": 39,
-      "status": "i",
-      "news": "Groin injury - Unknown return date",
+      "status": "d",
+      "news": "Groin injury - 50% chance of playing",
       "news_added": "2026-08-02T09:00:11.030017Z"
     },
     "279": {
@@ -2902,8 +2902,8 @@
       "web_name": "Ansah",
       "team": "HUL",
       "now_cost": 49,
-      "status": "i",
-      "news": "Back injury - Unknown return date",
+      "status": "d",
+      "news": "Back injury - 50% chance of playing",
       "news_added": "2026-09-09T10:00:08.919489Z"
     },
     "637": {
@@ -2998,8 +2998,8 @@
       "web_name": "Davis",
       "team": "IPS",
       "now_cost": 40,
-      "status": "d",
-      "news": "Calf injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-21T17:00:05.582448Z"
     },
     "306": {
@@ -3646,8 +3646,8 @@
       "web_name": "Gravenberch",
       "team": "LIV",
       "now_cost": 58,
-      "status": "i",
-      "news": "Foot injury - Unknown return date",
+      "status": "d",
+      "news": "Foot injury - 25% chance of playing",
       "news_added": "2026-11-03T17:00:09.626695Z"
     },
     "372": {
@@ -3879,7 +3879,7 @@
       "team": "MCI",
       "now_cost": 81,
       "status": "i",
-      "news": "Knee injury - Unknown return date",
+      "news": "Knee injury - Expected back 2 Dec",
       "news_added": "2026-10-17T17:30:09.977110Z"
     },
     "398": {
@@ -4039,7 +4039,7 @@
       "team": "MUN",
       "now_cost": 49,
       "status": "i",
-      "news": "Hamstring injury - Unknown return date",
+      "news": "Hamstring injury - Expected back 1 Feb",
       "news_added": "2026-11-03T22:00:07.995956Z"
     },
     "162": {
@@ -4174,9 +4174,9 @@
       "web_name": "B.Fernandes",
       "team": "MUN",
       "now_cost": 116,
-      "status": "a",
-      "news": "",
-      "news_added": null
+      "status": "d",
+      "news": "Illness - 75% chance of playing",
+      "news_added": "2026-11-27T13:00:06.141043Z"
     },
     "427": {
       "web_name": "Mbeumo",
@@ -4822,8 +4822,8 @@
       "web_name": "Tosin",
       "team": "TOT",
       "now_cost": 43,
-      "status": "i",
-      "news": "Calf injury - Expected back 29 Nov",
+      "status": "d",
+      "news": "Calf injury - 75% chance of playing",
       "news_added": "2026-11-20T15:30:06.265590Z"
     },
     "401": {
@@ -4838,8 +4838,8 @@
       "web_name": "S\u00e1vio",
       "team": "TOT",
       "now_cost": 64,
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing",
+      "status": "i",
+      "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-11-21T17:30:05.822258Z"
     },
     "455": {
@@ -5046,9 +5046,9 @@
       "web_name": "Bergvall",
       "team": "TOT",
       "now_cost": 53,
-      "status": "a",
-      "news": "",
-      "news_added": "2026-10-18T13:00:09.356060Z"
+      "status": "d",
+      "news": "Illness - 75% chance of playing",
+      "news_added": "2026-11-27T15:30:06.712878Z"
     },
     "521": {
       "web_name": "Kulusevski",
@@ -5198,8 +5198,8 @@
       "web_name": "Alderete",
       "team": "SUN",
       "now_cost": 48,
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing",
+      "status": "a",
+      "news": "",
       "news_added": "2026-11-27T09:30:06.176281Z"
     },
     "536": {
@@ -5395,7 +5395,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-27T12:52:03.447432+00:00",
+  "last_snapshot_at": "2026-11-27T21:43:54.072007+00:00",
   "recapped_events": [
     1,
     2,
@@ -5409,7 +5409,29 @@
     10,
     11
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "injury_batch:1:114d4eefde1d",
+      "story": {
+        "type": "injury_batch",
+        "key": "injury_batch:1:114d4eefde1d",
+        "injuries": [
+          {
+            "pid": "126",
+            "player": "O'Riley",
+            "team": "BHA",
+            "status": "doubtful",
+            "news": "Ankle injury - 75% chance of playing",
+            "category": "injury"
+          }
+        ]
+      },
+      "image_path": "assets/generated/injury_batch_1_114d4eefde1d.png",
+      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 O'Riley (BHA) - doubtful: \"Ankle injury - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FPLFamily #FantasyPremierLeague #FPLTips\n\nTurn on notifications to catch these as they land.",
+      "created_at": "2026-11-27T21:43:54.136666+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
