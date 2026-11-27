@@ -1424,7 +1424,9 @@
       "103:105:assists": 2,
       "103:97:assists": 1,
       "103:233:yellow_cards": 1,
-      "103:229:red_cards": 1
+      "103:229:red_cards": 1,
+      "119:491:goals_scored": 1,
+      "119:201:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -2002,6 +2004,12 @@
         "team": "BRE",
         "assisted_by": null,
         "score": "4-0"
+      },
+      "119:h": {
+        "player": "Igor Jesus",
+        "team": "NFO",
+        "assisted_by": "Mu\u00f1oz",
+        "score": "1-0"
       }
     },
     "posted_score": {
@@ -2326,7 +2334,7 @@
         0
       ],
       "119": [
-        0,
+        1,
         0
       ],
       "117": [
@@ -3843,16 +3851,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "119:491:goals_scored": {
-        "value": 1,
-        "since": "2026-11-27T20:07:40.116905+00:00",
-        "minute": 5
-      },
-      "119:201:assists": {
-        "value": 1,
-        "since": "2026-11-27T20:07:40.116928+00:00",
-        "minute": 5
       }
     },
     "event_tracking": {
@@ -7381,6 +7379,13 @@
       "type": "kickoff",
       "posted_at": "2026-11-27T20:02:09.448848+00:00",
       "tweet_id": "2126406241031503878",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:119:491:1",
+      "type": "goal",
+      "posted_at": "2026-11-27T20:11:07.364840+00:00",
+      "tweet_id": "2126408497210515457",
       "ig": "skipped (live event)"
     }
   ],
