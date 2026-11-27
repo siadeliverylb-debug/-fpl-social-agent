@@ -5409,29 +5409,7 @@
     10,
     11
   ],
-  "pending": [
-    {
-      "key": "injury_batch:1:be2793cdd2af",
-      "story": {
-        "type": "injury_batch",
-        "key": "injury_batch:1:be2793cdd2af",
-        "injuries": [
-          {
-            "pid": "535",
-            "player": "Alderete",
-            "team": "SUN",
-            "status": "doubtful",
-            "news": "Unspecified injury - 75% chance of playing",
-            "category": "injury"
-          }
-        ]
-      },
-      "image_path": "assets/generated/injury_batch_1_be2793cdd2af.png",
-      "caption": "\ud83d\udea8 INJURY UPDATES (1):\n\n\ud83d\udea8 Alderete (SUN) - doubtful: \"Unspecified injury - 75% chance of playing\"\n\nRisk it, or play it safe this week? #FPL #FPLFamily #FPLTwitter #FantasyFootball\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-11-27T12:52:03.525802+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5704,7 +5682,8 @@
     "form_cold:5:8fc6bf8e9fb7",
     "injury_batch:1:ecb7937db58e",
     "form_hot:5:ca0713386949",
-    "deadline:12:24h"
+    "deadline:12:24h",
+    "injury_batch:1:be2793cdd2af"
   ],
   "post_log": [
     {
@@ -7008,6 +6987,13 @@
       "type": "form_hot",
       "posted_at": "2026-11-26T12:26:54.164084+00:00",
       "tweet_id": "2125929284367753646",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "injury_batch:1:be2793cdd2af",
+      "type": "injury_batch",
+      "posted_at": "2026-11-27T13:54:53.529045+00:00",
+      "tweet_id": "2126313815633748214",
       "ig": "skipped (Instagram not configured)"
     }
   ],
