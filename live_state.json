@@ -1429,7 +1429,8 @@
       "119:201:assists": 1,
       "119:145:yellow_cards": 1,
       "119:480:goals_scored": 1,
-      "119:167:assists": 1
+      "119:167:assists": 1,
+      "119:170:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -2013,6 +2014,12 @@
         "team": "NFO",
         "assisted_by": "Delap",
         "score": "2-0"
+      },
+      "119:a": {
+        "player": "Emegha",
+        "team": "CHE",
+        "assisted_by": null,
+        "score": "2-1"
       }
     },
     "posted_score": {
@@ -2338,7 +2345,7 @@
       ],
       "119": [
         2,
-        0
+        1
       ],
       "117": [
         0,
@@ -3878,11 +3885,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "119:170:goals_scored": {
-        "value": 1,
-        "since": "2026-11-27T21:14:09.690536+00:00",
-        "minute": 54
       },
       "119:156:assists": {
         "value": 1,
@@ -7430,6 +7432,13 @@
       "type": "goal",
       "posted_at": "2026-11-27T21:14:10.684106+00:00",
       "tweet_id": "2126424365487243572",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:119:170:1",
+      "type": "goal",
+      "posted_at": "2026-11-27T21:17:40.927916+00:00",
+      "tweet_id": "2126425247390028220",
       "ig": "skipped (live event)"
     }
   ],
