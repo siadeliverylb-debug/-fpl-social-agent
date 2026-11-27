@@ -1430,12 +1430,13 @@
       "119:145:yellow_cards": 1,
       "119:480:goals_scored": 2,
       "119:167:assists": 1,
-      "119:170:goals_scored": 1,
-      "119:156:assists": 1,
+      "119:170:goals_scored": 2,
+      "119:156:assists": 2,
       "119:101:yellow_cards": 1,
       "119:156:yellow_cards": 1,
       "119:558:assists": 1,
-      "119:167:yellow_cards": 1
+      "119:167:yellow_cards": 1,
+      "119:488:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -2024,7 +2025,7 @@
         "player": "Emegha",
         "team": "CHE",
         "assisted_by": "Neto",
-        "score": "2-1"
+        "score": "3-2"
       }
     },
     "posted_score": {
@@ -2350,7 +2351,7 @@
       ],
       "119": [
         3,
-        1
+        2
       ],
       "117": [
         0,
@@ -3104,7 +3105,8 @@
       "119:152": true,
       "119:164": true,
       "119:488": true,
-      "119:490": true
+      "119:490": true,
+      "119:489": true
     },
     "subs_baselined": {
       "31": true,
@@ -3895,16 +3897,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "119:170:goals_scored": {
-        "value": 2,
-        "since": "2026-11-27T21:49:20.395449+00:00",
-        "minute": 90
-      },
-      "119:156:assists": {
-        "value": 2,
-        "since": "2026-11-27T21:49:20.395467+00:00",
-        "minute": 90
       }
     },
     "event_tracking": {
@@ -7468,6 +7460,13 @@
       "type": "goal",
       "posted_at": "2026-11-27T21:36:58.611865+00:00",
       "tweet_id": "2126430103127408748",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:119:170:2",
+      "type": "goal",
+      "posted_at": "2026-11-27T21:52:47.507226+00:00",
+      "tweet_id": "2126434083081523407",
       "ig": "skipped (live event)"
     }
   ],
