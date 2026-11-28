@@ -1461,7 +1461,8 @@
       "116:54:goals_scored": 1,
       "116:34:assists": 1,
       "116:54:yellow_cards": 1,
-      "116:45:yellow_cards": 1
+      "116:45:yellow_cards": 1,
+      "116:305:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -2071,10 +2072,10 @@
         "score": "1-2"
       },
       "116:h": {
-        "player": "Emersonn",
+        "player": "Davis",
         "team": "IPS",
         "assisted_by": null,
-        "score": "1-1"
+        "score": "2-2"
       }
     },
     "posted_score": {
@@ -2411,7 +2412,7 @@
         4
       ],
       "116": [
-        1,
+        2,
         2
       ],
       "114": [
@@ -4009,11 +4010,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "116:305:goals_scored": {
-        "value": 1,
-        "since": "2026-11-28T18:46:06.344837+00:00",
-        "minute": 56
       },
       "116:591:assists": {
         "value": 1,
@@ -7778,6 +7774,13 @@
       "type": "goal_update",
       "posted_at": "2026-11-28T18:03:06.518219+00:00",
       "tweet_id": "2126738669188866504",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:116:305:1",
+      "type": "goal",
+      "posted_at": "2026-11-28T18:49:33.656955+00:00",
+      "tweet_id": "2126750359179682188",
       "ig": "skipped (live event)"
     }
   ],
