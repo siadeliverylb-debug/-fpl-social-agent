@@ -326,11 +326,11 @@
         "finished_provisional": true
       },
       "117": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "118": {
-        "started": false,
+        "started": true,
         "finished_provisional": false
       },
       "116": {
@@ -1436,7 +1436,12 @@
       "119:156:yellow_cards": 1,
       "119:558:assists": 1,
       "119:167:yellow_cards": 1,
-      "119:488:yellow_cards": 1
+      "119:488:yellow_cards": 1,
+      "117:330:yellow_cards": 1,
+      "117:176:yellow_cards": 1,
+      "118:418:yellow_cards": 1,
+      "118:419:yellow_cards": 1,
+      "118:420:yellow_cards": 1
     },
     "last_goal": {
       "40:h": {
@@ -3106,7 +3111,24 @@
       "119:164": true,
       "119:488": true,
       "119:490": true,
-      "119:489": true
+      "119:489": true,
+      "117:184": true,
+      "117:188": true,
+      "117:194": true,
+      "117:195": true,
+      "117:260": true,
+      "117:335": true,
+      "117:337": true,
+      "117:347": true,
+      "117:641": true,
+      "117:655": true,
+      "118:94": true,
+      "118:97": true,
+      "118:423": true,
+      "118:427": true,
+      "118:428": true,
+      "118:430": true,
+      "118:435": true
     },
     "subs_baselined": {
       "31": true,
@@ -3783,7 +3805,24 @@
       "119:480": true,
       "119:486": true,
       "119:491": true,
-      "119:558": true
+      "119:558": true,
+      "117:104": true,
+      "117:183": true,
+      "117:185": true,
+      "117:584": true,
+      "117:331": true,
+      "117:336": true,
+      "117:339": true,
+      "117:345": true,
+      "117:346": true,
+      "117:599": true,
+      "118:96": true,
+      "118:108": true,
+      "118:43": true,
+      "118:415": true,
+      "118:419": true,
+      "118:431": true,
+      "118:440": true
     },
     "bonus_posted": {
       "31": true,
@@ -3898,6 +3937,46 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
+      },
+      "117:339:goals_scored": {
+        "value": 2,
+        "since": "2026-11-28T16:47:31.080346+00:00",
+        "minute": 88
+      },
+      "117:346:goals_scored": {
+        "value": 1,
+        "since": "2026-11-28T16:47:31.080362+00:00",
+        "minute": 88
+      },
+      "117:331:assists": {
+        "value": 1,
+        "since": "2026-11-28T16:47:31.080367+00:00",
+        "minute": 88
+      },
+      "117:338:assists": {
+        "value": 1,
+        "since": "2026-11-28T16:47:31.080371+00:00",
+        "minute": 88
+      },
+      "117:339:assists": {
+        "value": 1,
+        "since": "2026-11-28T16:47:31.080374+00:00",
+        "minute": 88
+      },
+      "118:108:goals_scored": {
+        "value": 2,
+        "since": "2026-11-28T16:47:31.080416+00:00",
+        "minute": 88
+      },
+      "118:87:goals_scored": {
+        "value": 1,
+        "since": "2026-11-28T16:47:31.080419+00:00",
+        "minute": 88
+      },
+      "118:95:assists": {
+        "value": 3,
+        "since": "2026-11-28T16:47:31.080422+00:00",
+        "minute": 88
       }
     },
     "event_tracking": {
@@ -7482,6 +7561,20 @@
       "type": "bonus_points",
       "posted_at": "2026-11-27T21:56:59.472272+00:00",
       "tweet_id": "2126435139890942099",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "kickoff:117",
+      "type": "kickoff",
+      "posted_at": "2026-11-28T16:47:32.315809+00:00",
+      "tweet_id": "2126719651329548338",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "kickoff:118",
+      "type": "kickoff",
+      "posted_at": "2026-11-28T16:47:35.227933+00:00",
+      "tweet_id": "2126719663442743433",
       "ig": "skipped (live event)"
     }
   ],
