@@ -1458,7 +1458,8 @@
       "116:52:goals_scored": 1,
       "116:53:assists": 1,
       "116:316:goals_scored": 1,
-      "116:54:goals_scored": 1
+      "116:54:goals_scored": 1,
+      "116:34:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -2064,7 +2065,7 @@
       "116:a": {
         "player": "Gomes",
         "team": "AVL",
-        "assisted_by": null,
+        "assisted_by": "Pau",
         "score": "1-2"
       },
       "116:h": {
@@ -3984,11 +3985,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "116:34:assists": {
-        "value": 1,
-        "since": "2026-11-28T17:59:37.348401+00:00",
-        "minute": 28
       }
     },
     "event_tracking": {
@@ -7741,6 +7737,13 @@
       "type": "goal",
       "posted_at": "2026-11-28T18:02:23.206226+00:00",
       "tweet_id": "2126738487416094792",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goalupdate:assist:116:34:1",
+      "type": "goal_update",
+      "posted_at": "2026-11-28T18:03:06.518219+00:00",
+      "tweet_id": "2126738669188866504",
       "ig": "skipped (live event)"
     }
   ],
