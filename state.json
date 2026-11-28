@@ -5395,7 +5395,7 @@
       "news_added": null
     }
   },
-  "last_snapshot_at": "2026-11-28T03:37:47.875920+00:00",
+  "last_snapshot_at": "2026-11-28T12:33:14.585113+00:00",
   "recapped_events": [
     1,
     2,
@@ -5409,7 +5409,61 @@
     10,
     11
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "form_cold:5:badbb34e41fb",
+      "story": {
+        "type": "form_cold",
+        "key": "form_cold:5:badbb34e41fb",
+        "players": [
+          {
+            "name": "Jo\u00e3o Pedro",
+            "team": "CHE",
+            "form": 0.0,
+            "total_points": 47,
+            "price_millions": 7.5,
+            "selected": 26.1
+          },
+          {
+            "name": "Gu\u00e9hi",
+            "team": "MCI",
+            "form": 0.5,
+            "total_points": 39,
+            "price_millions": 5.9,
+            "selected": 12.0
+          },
+          {
+            "name": "Gvardiol",
+            "team": "MCI",
+            "form": 0.8,
+            "total_points": 45,
+            "price_millions": 5.5,
+            "selected": 18.1
+          },
+          {
+            "name": "Mbeumo",
+            "team": "MUN",
+            "form": 1.0,
+            "total_points": 47,
+            "price_millions": 7.8,
+            "selected": 16.7
+          },
+          {
+            "name": "Tarkowski",
+            "team": "EVE",
+            "form": 1.0,
+            "total_points": 52,
+            "price_millions": 6.2,
+            "selected": 15.1
+          }
+        ]
+      },
+      "image_path": "assets/generated/form_cold_5_badbb34e41fb.png",
+      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Jo\u00e3o Pedro (CHE) - 0.0 pts/game, \u00a37.5m, owned by 26%\n2. Gu\u00e9hi (MCI) - 0.5 pts/game, \u00a35.9m, owned by 12%\n3. Gvardiol (MCI) - 0.8 pts/game, \u00a35.5m, owned by 18%\n4. Mbeumo (MUN) - 1.0 pts/game, \u00a37.8m, owned by 17%\n5. Tarkowski (EVE) - 1.0 pts/game, \u00a36.2m, owned by 15%\n\nDo you trust any of them to bounce back? #FPL #FPLFamily #FantasyFootball #PremierLeague\n\nMore like this on the feed -- give us a follow.",
+      "created_at": "2026-11-28T12:33:14.641159+00:00",
+      "auto": true
+    }
+  ],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -7006,17 +7060,17 @@
     }
   ],
   "form_spotlight": {
-    "last_at": "2026-11-26T11:46:17.301141+00:00",
-    "next": "cold",
-    "day": "2026-11-26",
+    "last_at": "2026-11-28T12:33:14.584548+00:00",
+    "next": "hot",
+    "day": "2026-11-28",
     "count": 1,
     "last_picks": {
       "cold": [
         "Jo\u00e3o Pedro",
         "Gu\u00e9hi",
         "Gvardiol",
-        "Tarkowski",
-        "Mbeumo"
+        "Mbeumo",
+        "Tarkowski"
       ],
       "hot": [
         "Wirtz",
