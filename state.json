@@ -5409,61 +5409,7 @@
     10,
     11
   ],
-  "pending": [
-    {
-      "key": "form_cold:5:badbb34e41fb",
-      "story": {
-        "type": "form_cold",
-        "key": "form_cold:5:badbb34e41fb",
-        "players": [
-          {
-            "name": "Jo\u00e3o Pedro",
-            "team": "CHE",
-            "form": 0.0,
-            "total_points": 47,
-            "price_millions": 7.5,
-            "selected": 26.1
-          },
-          {
-            "name": "Gu\u00e9hi",
-            "team": "MCI",
-            "form": 0.5,
-            "total_points": 39,
-            "price_millions": 5.9,
-            "selected": 12.0
-          },
-          {
-            "name": "Gvardiol",
-            "team": "MCI",
-            "form": 0.8,
-            "total_points": 45,
-            "price_millions": 5.5,
-            "selected": 18.1
-          },
-          {
-            "name": "Mbeumo",
-            "team": "MUN",
-            "form": 1.0,
-            "total_points": 47,
-            "price_millions": 7.8,
-            "selected": 16.7
-          },
-          {
-            "name": "Tarkowski",
-            "team": "EVE",
-            "form": 1.0,
-            "total_points": 52,
-            "price_millions": 6.2,
-            "selected": 15.1
-          }
-        ]
-      },
-      "image_path": "assets/generated/form_cold_5_badbb34e41fb.png",
-      "caption": "\ud83e\udd76 STRUGGLING: popular picks who've stopped returning.\n\n1. Jo\u00e3o Pedro (CHE) - 0.0 pts/game, \u00a37.5m, owned by 26%\n2. Gu\u00e9hi (MCI) - 0.5 pts/game, \u00a35.9m, owned by 12%\n3. Gvardiol (MCI) - 0.8 pts/game, \u00a35.5m, owned by 18%\n4. Mbeumo (MUN) - 1.0 pts/game, \u00a37.8m, owned by 17%\n5. Tarkowski (EVE) - 1.0 pts/game, \u00a36.2m, owned by 15%\n\nDo you trust any of them to bounce back? #FPL #FPLFamily #FantasyFootball #PremierLeague\n\nMore like this on the feed -- give us a follow.",
-      "created_at": "2026-11-28T12:33:14.641159+00:00",
-      "auto": true
-    }
-  ],
+  "pending": [],
   "handled_keys": [
     "status:269:2026-09-14T11:30:07.403957Z",
     "recap:3",
@@ -5738,7 +5684,8 @@
     "form_hot:5:ca0713386949",
     "deadline:12:24h",
     "injury_batch:1:be2793cdd2af",
-    "injury_batch:1:114d4eefde1d"
+    "injury_batch:1:114d4eefde1d",
+    "form_cold:5:badbb34e41fb"
   ],
   "post_log": [
     {
@@ -7056,6 +7003,13 @@
       "type": "injury_batch",
       "posted_at": "2026-11-27T22:41:10.018882+00:00",
       "tweet_id": "2126446257036050534",
+      "ig": "skipped (Instagram not configured)"
+    },
+    {
+      "key": "form_cold:5:badbb34e41fb",
+      "type": "form_cold",
+      "posted_at": "2026-11-28T13:08:26.874164+00:00",
+      "tweet_id": "2126664515324412177",
       "ig": "skipped (Instagram not configured)"
     }
   ],
