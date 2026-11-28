@@ -1454,7 +1454,8 @@
       "118:94:goals_scored": 1,
       "118:88:assists": 1,
       "116:47:yellow_cards": 1,
-      "116:52:yellow_cards": 1
+      "116:52:yellow_cards": 1,
+      "116:52:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -2056,6 +2057,12 @@
         "team": "BRE",
         "assisted_by": "Kayode",
         "score": "0-4"
+      },
+      "116:a": {
+        "player": "Alysson",
+        "team": "AVL",
+        "assisted_by": null,
+        "score": "0-1"
       }
     },
     "posted_score": {
@@ -2393,7 +2400,7 @@
       ],
       "116": [
         0,
-        0
+        1
       ],
       "114": [
         0,
@@ -3968,11 +3975,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "116:52:goals_scored": {
-        "value": 1,
-        "since": "2026-11-28T17:47:51.693916+00:00",
-        "minute": 16
       },
       "116:53:assists": {
         "value": 1,
@@ -7707,6 +7709,13 @@
       "type": "kickoff",
       "posted_at": "2026-11-28T17:30:45.245221+00:00",
       "tweet_id": "2126730526870368521",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:116:52:1",
+      "type": "goal",
+      "posted_at": "2026-11-28T17:51:20.189628+00:00",
+      "tweet_id": "2126735706621886859",
       "ig": "skipped (live event)"
     }
   ],
