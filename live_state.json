@@ -1450,7 +1450,9 @@
       "118:108:goals_scored": 2,
       "118:87:goals_scored": 1,
       "118:95:assists": 3,
-      "118:100:yellow_cards": 1
+      "118:100:yellow_cards": 1,
+      "118:94:goals_scored": 1,
+      "118:88:assists": 1
     },
     "last_goal": {
       "40:h": {
@@ -2048,10 +2050,10 @@
         "score": "3-0"
       },
       "118:a": {
-        "player": "Ajer",
+        "player": "Schade",
         "team": "BRE",
-        "assisted_by": null,
-        "score": "0-3"
+        "assisted_by": "Kayode",
+        "score": "0-4"
       }
     },
     "posted_score": {
@@ -2385,7 +2387,7 @@
       ],
       "118": [
         0,
-        3
+        4
       ],
       "116": [
         0,
@@ -3963,16 +3965,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "118:94:goals_scored": {
-        "value": 1,
-        "since": "2026-11-28T16:52:20.181892+00:00",
-        "minute": 90
-      },
-      "118:88:assists": {
-        "value": 1,
-        "since": "2026-11-28T16:52:20.181913+00:00",
-        "minute": 90
       }
     },
     "event_tracking": {
@@ -7669,6 +7661,13 @@
       "type": "bonus_points",
       "posted_at": "2026-11-28T16:53:06.146253+00:00",
       "tweet_id": "2126721051526635882",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:118:94:1",
+      "type": "goal",
+      "posted_at": "2026-11-28T16:55:52.824990+00:00",
+      "tweet_id": "2126721750343839769",
       "ig": "skipped (live event)"
     }
   ],
