@@ -1441,7 +1441,15 @@
       "117:176:yellow_cards": 1,
       "118:418:yellow_cards": 1,
       "118:419:yellow_cards": 1,
-      "118:420:yellow_cards": 1
+      "118:420:yellow_cards": 1,
+      "117:339:goals_scored": 2,
+      "117:346:goals_scored": 1,
+      "117:331:assists": 1,
+      "117:338:assists": 1,
+      "117:339:assists": 1,
+      "118:108:goals_scored": 2,
+      "118:87:goals_scored": 1,
+      "118:95:assists": 3
     },
     "last_goal": {
       "40:h": {
@@ -2031,6 +2039,18 @@
         "team": "CHE",
         "assisted_by": "Neto",
         "score": "3-2"
+      },
+      "117:h": {
+        "player": "Calvert-Lewin",
+        "team": "LEE",
+        "assisted_by": null,
+        "score": "3-0"
+      },
+      "118:a": {
+        "player": "Ajer",
+        "team": "BRE",
+        "assisted_by": null,
+        "score": "0-3"
       }
     },
     "posted_score": {
@@ -2359,12 +2379,12 @@
         2
       ],
       "117": [
-        0,
+        3,
         0
       ],
       "118": [
         0,
-        0
+        3
       ],
       "116": [
         0,
@@ -3941,46 +3961,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "117:339:goals_scored": {
-        "value": 2,
-        "since": "2026-11-28T16:47:31.080346+00:00",
-        "minute": 88
-      },
-      "117:346:goals_scored": {
-        "value": 1,
-        "since": "2026-11-28T16:47:31.080362+00:00",
-        "minute": 88
-      },
-      "117:331:assists": {
-        "value": 1,
-        "since": "2026-11-28T16:47:31.080367+00:00",
-        "minute": 88
-      },
-      "117:338:assists": {
-        "value": 1,
-        "since": "2026-11-28T16:47:31.080371+00:00",
-        "minute": 88
-      },
-      "117:339:assists": {
-        "value": 1,
-        "since": "2026-11-28T16:47:31.080374+00:00",
-        "minute": 88
-      },
-      "118:108:goals_scored": {
-        "value": 2,
-        "since": "2026-11-28T16:47:31.080416+00:00",
-        "minute": 88
-      },
-      "118:87:goals_scored": {
-        "value": 1,
-        "since": "2026-11-28T16:47:31.080419+00:00",
-        "minute": 88
-      },
-      "118:95:assists": {
-        "value": 3,
-        "since": "2026-11-28T16:47:31.080422+00:00",
-        "minute": 88
       }
     },
     "event_tracking": {
@@ -7579,6 +7559,90 @@
       "type": "kickoff",
       "posted_at": "2026-11-28T16:47:35.227933+00:00",
       "tweet_id": "2126719663442743433",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:117:339:1",
+      "type": "goal",
+      "posted_at": "2026-11-28T16:51:05.536696+00:00",
+      "tweet_id": "2126720545072775680",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:117:339:2",
+      "type": "goal",
+      "posted_at": "2026-11-28T16:51:08.494888+00:00",
+      "tweet_id": "2126720557676699730",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:117:346:1",
+      "type": "goal",
+      "posted_at": "2026-11-28T16:51:11.416570+00:00",
+      "tweet_id": "2126720570179891220",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:117:331:1",
+      "type": "assist",
+      "posted_at": "2026-11-28T16:51:14.340117+00:00",
+      "tweet_id": "2126720582523752681",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:117:338:1",
+      "type": "assist",
+      "posted_at": "2026-11-28T16:51:17.313715+00:00",
+      "tweet_id": "2126720594783723664",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:117:339:1",
+      "type": "assist",
+      "posted_at": "2026-11-28T16:51:20.241038+00:00",
+      "tweet_id": "2126720607307837662",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:118:108:1",
+      "type": "goal",
+      "posted_at": "2026-11-28T16:51:23.091735+00:00",
+      "tweet_id": "2126720619244888568",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:118:108:2",
+      "type": "goal",
+      "posted_at": "2026-11-28T16:51:26.079415+00:00",
+      "tweet_id": "2126720631773282314",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:118:87:1",
+      "type": "goal",
+      "posted_at": "2026-11-28T16:51:29.006335+00:00",
+      "tweet_id": "2126720644041560341",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:118:95:1",
+      "type": "assist",
+      "posted_at": "2026-11-28T16:51:31.863427+00:00",
+      "tweet_id": "2126720656121139610",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:118:95:2",
+      "type": "assist",
+      "posted_at": "2026-11-28T16:51:34.786684+00:00",
+      "tweet_id": "2126720668385284469",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "assist:118:95:3",
+      "type": "assist",
+      "posted_at": "2026-11-28T16:51:37.878516+00:00",
+      "tweet_id": "2126720681228341347",
       "ig": "skipped (live event)"
     }
   ],
