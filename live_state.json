@@ -335,7 +335,7 @@
       },
       "116": {
         "started": true,
-        "finished_provisional": false
+        "finished_provisional": true
       },
       "114": {
         "started": false,
@@ -3990,7 +3990,8 @@
       "103": true,
       "119": true,
       "117": true,
-      "118": true
+      "118": true,
+      "116": true
     },
     "goal_pending": {
       "44:204:goals_scored": {
@@ -7795,6 +7796,20 @@
       "type": "goal_update",
       "posted_at": "2026-11-28T18:50:17.553194+00:00",
       "tweet_id": "2126750543330644307",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "fulltime:116",
+      "type": "full_time",
+      "posted_at": "2026-11-28T19:24:29.534831+00:00",
+      "tweet_id": "2126759150088597640",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "bonus:116",
+      "type": "bonus_points",
+      "posted_at": "2026-11-28T19:24:32.427994+00:00",
+      "tweet_id": "2126759162126254221",
       "ig": "skipped (live event)"
     }
   ],
