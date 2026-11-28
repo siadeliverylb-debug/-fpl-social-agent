@@ -1457,7 +1457,8 @@
       "116:52:yellow_cards": 1,
       "116:52:goals_scored": 1,
       "116:53:assists": 1,
-      "116:316:goals_scored": 1
+      "116:316:goals_scored": 1,
+      "116:54:goals_scored": 1
     },
     "last_goal": {
       "40:h": {
@@ -2061,10 +2062,10 @@
         "score": "0-4"
       },
       "116:a": {
-        "player": "Alysson",
+        "player": "Gomes",
         "team": "AVL",
-        "assisted_by": "Manzambi",
-        "score": "0-1"
+        "assisted_by": null,
+        "score": "1-2"
       },
       "116:h": {
         "player": "Emersonn",
@@ -2408,7 +2409,7 @@
       ],
       "116": [
         1,
-        1
+        2
       ],
       "114": [
         0,
@@ -3983,11 +3984,6 @@
         "value": 1,
         "since": "2026-10-31T15:13:58.265597+00:00",
         "minute": 11
-      },
-      "116:54:goals_scored": {
-        "value": 1,
-        "since": "2026-11-28T17:58:55.517119+00:00",
-        "minute": 27
       },
       "116:34:assists": {
         "value": 1,
@@ -7738,6 +7734,13 @@
       "type": "goal",
       "posted_at": "2026-11-28T17:54:08.390474+00:00",
       "tweet_id": "2126736412091318660",
+      "ig": "skipped (live event)"
+    },
+    {
+      "key": "goal:116:54:1",
+      "type": "goal",
+      "posted_at": "2026-11-28T18:02:23.206226+00:00",
+      "tweet_id": "2126738487416094792",
       "ig": "skipped (live event)"
     }
   ],
